@@ -20,7 +20,7 @@ RUN bun install
 # Copy source code
 COPY . .
 
-# Expose port
+# Expose port (configurable via PORT env)
 EXPOSE 3001
 
 # Run development server with watch mode
@@ -48,12 +48,12 @@ RUN chown -R bun:bun /app
 
 USER bun
 
-# Expose port
-EXPOSE 3001
+# Expose port (configurable via PORT env)
+EXPOSE 80
 
 # Health check
 HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
-  CMD wget --no-verbose --tries=1 --spider http://localhost:3001/api/health?invite=${INVITE_CODE} || exit 1
+  CMD wget --no-verbose --tries=1 --spider http://localhost:${PORT:-80}/api/health || exit 1
 
 # Run production server
 CMD ["bun", "run", "src/server.ts"]

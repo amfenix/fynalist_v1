@@ -345,7 +345,7 @@ console.log(`
 ╔════════════════════════════════════════════════════════════╗
 ║                  Finalyst Static Demo                      ║
 ╠════════════════════════════════════════════════════════════╣
-║  Server running at: http://localhost:${PORT}                  ║
-║  Access via invite: http://localhost:${PORT}?invite=...       ║
+║  Server running at: http://0.0.0.0:${PORT}
+║  Access via invite: http://host:${PORT}?invite=...
 ╚════════════════════════════════════════════════════════════╝
 `);

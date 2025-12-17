@@ -6,7 +6,7 @@ services:
     build:
       target: development
     ports:
-      - "${PORT:-3001}:3001"
+      - "${PORT:-3001}:${PORT:-3001}"
     volumes:
       # Mount source code for hot-reload
       - ./src:/app/src:cached

@@ -1,0 +1,15 @@
+# Base docker-compose configuration
+# Use with: docker compose -f docker-compose.yml -f docker-compose.dev.yml up
+# Or for prod: docker compose -f docker-compose.yml -f docker-compose.prod.yml up
+
+name: finalyst-static
+
+services:
+  finalyst-demo:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - INVITE_CODE=${INVITE_CODE}
+      - PASSWORD=${PASSWORD}
+      - PORT=${PORT:-3001}

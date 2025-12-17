@@ -1,0 +1,116 @@
+{
+  "transaction": {
+    "transaction_id": "dd52cba2-e33b-4b9f-a16f-b03b95c0091f",
+    "error_message": "0",
+    "transaction_status": "approved",
+    "created_date_no_time": "2025-08-01",
+    "merchant_error_code": 0,
+    "transaction_type": "payout",
+    "type": "payout",
+    "external_error_code": "0",
+    "merchant_error_message": "0",
+    "external_error_message": "0",
+    "error_code": 0,
+    "created_date": "2025-08-01 17:53:28.565292 UTC",
+    "status": "approved"
+  },
+  "order_details": {
+    "eea": "EEA",
+    "country": "PL",
+    "bin": null,
+    "running_sum": 1771740.99,
+    "endpoint_id": 41500,
+    "gate_name": "sepa",
+    "amount_eur": 958.91,
+    "fx_date": "2025-08-01",
+    "european_union": "EU",
+    "card_brand": null,
+    "currency": "EUR",
+    "fx_rate": 1.0,
+    "requisites_bank": null,
+    "card_brand_group": "Any",
+    "mapping": "Poland",
+    "amount": 958.91,
+    "requisites_country": null,
+    "traffic_type_group": "sepa",
+    "gate_descriptor": "OUT - Globitex SEPA EUR",
+    "card_bank_name": null,
+    "card_type": "Any",
+    "user_id": 18441306,
+    "gate_id": 9,
+    "main_requisite": "PL91105012301000009227844934",
+    "order_id": 1437866319
+  },
+  "merchant": {
+    "company_id": 12,
+    "kam": "Anna",
+    "company_name": "Start2Pay",
+    "merchant_name": "Faro Entertainment",
+    "merchant_group": "S2P",
+    "merchant_id": 30
+  },
+  "processing": {
+    "acquirer_name": "Globitex",
+    "processor_name": "Globitex",
+    "processor_id": 9,
+    "gate_name": "sepa"
+  },
+  "applied_plan": {
+    "wl_percent": null,
+    "operation_type": "outgoing",
+    "contract_id": "VSP-040823-20",
+    "traffic_type": null,
+    "fixed_fee": null,
+    "actual_commission": 2.5,
+    "exchange_fee_percent": 0.5,
+    "plan_key": "VSP-040823-20:outgoing:apm:25",
+    "amount_eur": 958.91,
+    "payment_type": "apm",
+    "tier": null,
+    "payout_percent": null,
+    "calculated_commission": 2.5,
+    "currency_type": "fiat",
+    "chb_fee": null,
+    "refund_fee": null,
+    "card_brand": null,
+    "currency": "EUR",
+    "region": "EEA",
+    "payout_oct_fix": 2.5
+  },
+  "total_fees": {
+    "comission_percent": 0.26,
+    "comission_eur": 2.5
+  },
+  "deviation": {
+    "actual": 2.5,
+    "calculated": 2.5,
+    "difference": 0.0,
+    "difference_percent": 0.0
+  },
+  "commission_fees": {},
+  "cost_fees": {},
+  "calculation": {
+    "type": "payout",
+    "description": "Payout (Outgoing)",
+    "formula": "(958.91 x 0%) + 2.50",
+    "steps": [
+      {
+        "label": "Amount (EUR)",
+        "value": 958.91
+      },
+      {
+        "label": "Payout Rate (0%)",
+        "value": 0.0
+      },
+      {
+        "label": "Payout Fixed",
+        "value": 2.5
+      },
+      {
+        "label": "Total",
+        "value": 2.5
+      }
+    ],
+    "calculated": 2.5
+  }
+}

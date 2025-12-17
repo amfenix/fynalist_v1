@@ -1,0 +1,116 @@
+{
+  "transaction": {
+    "transaction_id": "dd12d389-c463-4f67-b3a3-04906785e58f",
+    "error_message": "0",
+    "transaction_status": "approved",
+    "created_date_no_time": "2025-02-20",
+    "merchant_error_code": null,
+    "transaction_type": "sale",
+    "type": "payment",
+    "external_error_code": "0",
+    "merchant_error_message": null,
+    "external_error_message": "0",
+    "error_code": 0,
+    "created_date": "2025-02-20 20:36:05.155831 UTC",
+    "status": "approved"
+  },
+  "order_details": {
+    "eea": "EEA",
+    "country": "PL",
+    "bin": null,
+    "running_sum": 973266.89,
+    "endpoint_id": 70050175,
+    "gate_name": "apple_pay",
+    "amount_eur": 1439.92,
+    "fx_date": "2025-02-20",
+    "european_union": "EU",
+    "card_brand": null,
+    "currency": "EUR",
+    "fx_rate": 1.0,
+    "requisites_bank": null,
+    "card_brand_group": "Any",
+    "mapping": "Poland",
+    "amount": 1439.92,
+    "requisites_country": "PL",
+    "traffic_type_group": "apple_pay",
+    "gate_descriptor": "IN - XPATE Fortez ApplePay",
+    "card_bank_name": null,
+    "card_type": "Any",
+    "user_id": 18651673,
+    "gate_id": 36,
+    "main_requisite": "535564******5719",
+    "order_id": 1419008777
+  },
+  "merchant": {
+    "company_id": 12,
+    "kam": "Anna",
+    "company_name": "Start2Pay",
+    "merchant_name": "Faro Entertainment",
+    "merchant_group": "S2P",
+    "merchant_id": 30
+  },
+  "processing": {
+    "acquirer_name": "Xpate",
+    "processor_name": "Xpate",
+    "processor_id": 36,
+    "gate_name": "apple_pay"
+  },
+  "applied_plan": {
+    "wl_percent": null,
+    "operation_type": "incoming",
+    "contract_id": "VSP-040823-20",
+    "traffic_type": null,
+    "fixed_fee": 0.3,
+    "actual_commission": 108.29,
+    "exchange_fee_percent": 0.5,
+    "plan_key": "VSP-040823-20:incoming:apm:14",
+    "amount_eur": 1439.92,
+    "payment_type": "apm",
+    "tier": null,
+    "payout_percent": null,
+    "calculated_commission": 86.5452,
+    "currency_type": "fiat",
+    "chb_fee": null,
+    "refund_fee": 1,
+    "card_brand": null,
+    "currency": "EUR",
+    "region": "EEA",
+    "payout_oct_fix": null
+  },
+  "total_fees": {
+    "comission_percent": 7.52,
+    "comission_eur": 108.29
+  },
+  "deviation": {
+    "actual": 108.29,
+    "calculated": 86.55,
+    "difference": 21.74,
+    "difference_percent": 25.1
+  },
+  "commission_fees": {},
+  "cost_fees": {},
+  "calculation": {
+    "type": "sale_eur",
+    "description": "Sale (EUR)",
+    "formula": "(1439.92 x 0%) + 0.30",
+    "steps": [
+      {
+        "label": "Amount (EUR)",
+        "value": 1439.92
+      },
+      {
+        "label": "WL Rate (0%)",
+        "value": 0.0
+      },
+      {
+        "label": "Fixed Fee",
+        "value": 0.3
+      },
+      {
+        "label": "Total",
+        "value": 0.3
+      }
+    ],
+    "calculated": 0.3
+  }
+}

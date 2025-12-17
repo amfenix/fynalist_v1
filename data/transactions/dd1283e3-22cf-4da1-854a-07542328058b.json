@@ -1,0 +1,116 @@
+{
+  "transaction": {
+    "transaction_id": "dd1283e3-22cf-4da1-854a-07542328058b",
+    "error_message": "Order expired",
+    "transaction_status": "declined",
+    "created_date_no_time": "2024-06-27",
+    "merchant_error_code": null,
+    "transaction_type": "sale",
+    "type": "payment",
+    "external_error_code": "2005",
+    "merchant_error_message": null,
+    "external_error_message": "UNKNOWN ERROR",
+    "error_code": 9042,
+    "created_date": "2024-06-27 11:09:50.084878 UTC",
+    "status": "declined"
+  },
+  "order_details": {
+    "eea": "EEA",
+    "country": "DE",
+    "bin": null,
+    "running_sum": 656685.87,
+    "endpoint_id": 48859,
+    "gate_name": "giropay",
+    "amount_eur": 30.0,
+    "fx_date": "2024-06-27",
+    "european_union": "EU",
+    "card_brand": null,
+    "currency": "EUR",
+    "fx_rate": 1.0,
+    "requisites_bank": null,
+    "card_brand_group": "Any",
+    "mapping": "Germany",
+    "amount": 30.0,
+    "requisites_country": "DE",
+    "traffic_type_group": "giropay",
+    "gate_descriptor": "IN - Dimoco Giropay Skinnex EUR",
+    "card_bank_name": null,
+    "card_type": "Any",
+    "user_id": 4623151,
+    "gate_id": 12,
+    "main_requisite": null,
+    "order_id": 1405902935
+  },
+  "merchant": {
+    "company_id": 12,
+    "kam": "Anna",
+    "company_name": "Start2Pay",
+    "merchant_name": "Faro Entertainment",
+    "merchant_group": "S2P",
+    "merchant_id": 30
+  },
+  "processing": {
+    "acquirer_name": "Dimoco",
+    "processor_name": "Dimoco",
+    "processor_id": 12,
+    "gate_name": "giropay"
+  },
+  "applied_plan": {
+    "wl_percent": 7.5,
+    "operation_type": "incoming",
+    "contract_id": "VSP-040823-20",
+    "traffic_type": null,
+    "fixed_fee": 1.0,
+    "actual_commission": 0.0,
+    "exchange_fee_percent": 0.5,
+    "plan_key": "VSP-040823-20:incoming:apm:giropay",
+    "amount_eur": 30.0,
+    "payment_type": "apm",
+    "tier": null,
+    "payout_percent": null,
+    "calculated_commission": 3.25,
+    "currency_type": "fiat",
+    "chb_fee": null,
+    "refund_fee": 1.0,
+    "card_brand": null,
+    "currency": "EUR",
+    "region": "EEA",
+    "payout_oct_fix": null
+  },
+  "total_fees": {
+    "comission_percent": 0.0,
+    "comission_eur": 0.0
+  },
+  "deviation": {
+    "actual": 0,
+    "calculated": 3.25,
+    "difference": -3.25,
+    "difference_percent": -100.0
+  },
+  "commission_fees": {},
+  "cost_fees": {},
+  "calculation": {
+    "type": "sale_eur",
+    "description": "Sale (EUR)",
+    "formula": "(30.00 x 7.5%) + 1.00",
+    "steps": [
+      {
+        "label": "Amount (EUR)",
+        "value": 30.0
+      },
+      {
+        "label": "WL Rate (7.5%)",
+        "value": 2.25
+      },
+      {
+        "label": "Fixed Fee",
+        "value": 1.0
+      },
+      {
+        "label": "Total",
+        "value": 3.25
+      }
+    ],
+    "calculated": 3.25
+  }
+}

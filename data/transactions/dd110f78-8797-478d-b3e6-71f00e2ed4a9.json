@@ -1,0 +1,116 @@
+{
+  "transaction": {
+    "transaction_id": "dd110f78-8797-478d-b3e6-71f00e2ed4a9",
+    "error_message": "0",
+    "transaction_status": "approved",
+    "created_date_no_time": "2024-05-08",
+    "merchant_error_code": null,
+    "transaction_type": "sale",
+    "type": "payment",
+    "external_error_code": "0",
+    "merchant_error_message": null,
+    "external_error_message": "0",
+    "error_code": 0,
+    "created_date": "2024-05-08 02:09:24.313811 UTC",
+    "status": "approved"
+  },
+  "order_details": {
+    "eea": "EEA",
+    "country": "AT",
+    "bin": 532953,
+    "running_sum": 213188.07,
+    "endpoint_id": 41502,
+    "gate_name": "card",
+    "amount_eur": 3000.0,
+    "fx_date": "2024-05-08",
+    "european_union": "EU",
+    "card_brand": "MASTERCARD",
+    "currency": "EUR",
+    "fx_rate": 1.0,
+    "requisites_bank": null,
+    "card_brand_group": "MasterCard",
+    "mapping": "Austria",
+    "amount": 3000.0,
+    "requisites_country": "AT",
+    "traffic_type_group": "wl",
+    "gate_descriptor": "IN - Walletto vivexcoin EUR WL",
+    "card_bank_name": "CARD COMPLETE SERVICE BANK AG",
+    "card_type": "MasterCard",
+    "user_id": 2085529,
+    "gate_id": 7,
+    "main_requisite": "532953******3027",
+    "order_id": 1403325650
+  },
+  "merchant": {
+    "company_id": 12,
+    "kam": "Anna",
+    "company_name": "Start2Pay",
+    "merchant_name": "Faro Entertainment",
+    "merchant_group": "S2P",
+    "merchant_id": 30
+  },
+  "processing": {
+    "acquirer_name": "Walletto",
+    "processor_name": "Walletto",
+    "processor_id": 7,
+    "gate_name": "card"
+  },
+  "applied_plan": {
+    "wl_percent": 6.0,
+    "operation_type": "incoming",
+    "contract_id": "VSP-040823-20",
+    "traffic_type": null,
+    "fixed_fee": 0.15,
+    "actual_commission": 225.15,
+    "exchange_fee_percent": 0.5,
+    "plan_key": "VSP-040823-20:incoming:card:3",
+    "amount_eur": 3000.0,
+    "payment_type": "card",
+    "tier": null,
+    "payout_percent": null,
+    "calculated_commission": 180.15,
+    "currency_type": "fiat",
+    "chb_fee": 50,
+    "refund_fee": 1,
+    "card_brand": null,
+    "currency": "EUR",
+    "region": "EEA",
+    "payout_oct_fix": null
+  },
+  "total_fees": {
+    "comission_percent": 7.51,
+    "comission_eur": 225.15
+  },
+  "deviation": {
+    "actual": 225.15,
+    "calculated": 180.15,
+    "difference": 45.0,
+    "difference_percent": 25.0
+  },
+  "commission_fees": {},
+  "cost_fees": {},
+  "calculation": {
+    "type": "sale_eur",
+    "description": "Sale (EUR)",
+    "formula": "(3000.00 x 6.0%) + 0.15",
+    "steps": [
+      {
+        "label": "Amount (EUR)",
+        "value": 3000.0
+      },
+      {
+        "label": "WL Rate (6.0%)",
+        "value": 180.0
+      },
+      {
+        "label": "Fixed Fee",
+        "value": 0.15
+      },
+      {
+        "label": "Total",
+        "value": 180.15
+      }
+    ],
+    "calculated": 180.15
+  }
+}

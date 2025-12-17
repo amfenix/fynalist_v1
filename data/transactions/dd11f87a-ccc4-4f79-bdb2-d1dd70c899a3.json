@@ -1,0 +1,116 @@
+{
+  "transaction": {
+    "transaction_id": "dd11f87a-ccc4-4f79-bdb2-d1dd70c899a3",
+    "error_message": "0",
+    "transaction_status": "approved",
+    "created_date_no_time": "2025-12-04",
+    "merchant_error_code": 0,
+    "transaction_type": "sale",
+    "type": "payment",
+    "external_error_code": "0",
+    "merchant_error_message": "0",
+    "external_error_message": "0",
+    "error_code": 0,
+    "created_date": "2025-12-04 09:50:42.468471 UTC",
+    "status": "approved"
+  },
+  "order_details": {
+    "eea": "non-EEA",
+    "country": "KG",
+    "bin": 417749014,
+    "running_sum": 509572.79,
+    "endpoint_id": 70051087,
+    "gate_name": "card",
+    "amount_eur": 100.0,
+    "fx_date": "2025-12-04",
+    "european_union": "non-EU",
+    "card_brand": "VISA",
+    "currency": "EUR",
+    "fx_rate": 1.0,
+    "requisites_bank": null,
+    "card_brand_group": "Visa",
+    "mapping": "Kyrgyzstan",
+    "amount": 100.0,
+    "requisites_country": "CZ",
+    "traffic_type_group": "wl",
+    "gate_descriptor": "IN - Euroexchange AimSkinz",
+    "card_bank_name": "'MBANK' OPEN JOINT-STOCK COMPANY",
+    "card_type": "Visa",
+    "user_id": 55429000,
+    "gate_id": 67,
+    "main_requisite": "417749******8813",
+    "order_id": 1456298796
+  },
+  "merchant": {
+    "company_id": 190,
+    "kam": "Karolina",
+    "company_name": "Yougmedia B.V.",
+    "merchant_name": "Yougmedia B.V.",
+    "merchant_group": "Fonbet",
+    "merchant_id": 405
+  },
+  "processing": {
+    "acquirer_name": "Euroexchange",
+    "processor_name": "Euroexchange",
+    "processor_id": 67,
+    "gate_name": "card"
+  },
+  "applied_plan": {
+    "wl_percent": 6.5,
+    "operation_type": "incoming",
+    "contract_id": "VSP-300925-1",
+    "traffic_type": null,
+    "fixed_fee": 0.25,
+    "actual_commission": 6.75,
+    "exchange_fee_percent": 1.0,
+    "plan_key": "VSP-300925-1:incoming:card:4",
+    "amount_eur": 100.0,
+    "payment_type": "card",
+    "tier": null,
+    "payout_percent": null,
+    "calculated_commission": 6.75,
+    "currency_type": "fiat",
+    "chb_fee": 70,
+    "refund_fee": 1,
+    "card_brand": null,
+    "currency": "EUR",
+    "region": "WW",
+    "payout_oct_fix": null
+  },
+  "total_fees": {
+    "comission_percent": 6.75,
+    "comission_eur": 6.75
+  },
+  "deviation": {
+    "actual": 6.75,
+    "calculated": 6.75,
+    "difference": 0.0,
+    "difference_percent": 0.0
+  },
+  "commission_fees": {},
+  "cost_fees": {},
+  "calculation": {
+    "type": "sale_eur",
+    "description": "Sale (EUR)",
+    "formula": "(100.00 x 6.5%) + 0.25",
+    "steps": [
+      {
+        "label": "Amount (EUR)",
+        "value": 100.0
+      },
+      {
+        "label": "WL Rate (6.5%)",
+        "value": 6.5
+      },
+      {
+        "label": "Fixed Fee",
+        "value": 0.25
+      },
+      {
+        "label": "Total",
+        "value": 6.75
+      }
+    ],
+    "calculated": 6.75
+  }
+}

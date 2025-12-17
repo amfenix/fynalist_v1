@@ -1,0 +1,120 @@
+{
+  "transaction": {
+    "transaction_id": "dd12f857-0669-4c7f-8e86-301065c49701",
+    "error_message": "0",
+    "transaction_status": "approved",
+    "created_date_no_time": "2025-11-17",
+    "merchant_error_code": 0,
+    "transaction_type": "sale",
+    "type": "payment",
+    "external_error_code": "0",
+    "merchant_error_message": "0",
+    "external_error_message": "0",
+    "error_code": 0,
+    "created_date": "2025-11-17 18:31:29.22029 UTC",
+    "status": "approved"
+  },
+  "order_details": {
+    "eea": "EEA",
+    "country": "PL",
+    "bin": null,
+    "running_sum": 3449079.52,
+    "endpoint_id": 70051091,
+    "gate_name": "blik",
+    "amount_eur": 472.3160228723757,
+    "fx_date": "2025-11-17",
+    "european_union": "EU",
+    "card_brand": null,
+    "currency": "PLN",
+    "fx_rate": 4.234453,
+    "requisites_bank": null,
+    "card_brand_group": "Any",
+    "mapping": "Poland",
+    "amount": 2000.0,
+    "requisites_country": "PL",
+    "traffic_type_group": "blik",
+    "gate_descriptor": "IN - Finveil Blocksolver Blik",
+    "card_bank_name": null,
+    "card_type": "Any",
+    "user_id": 48421513,
+    "gate_id": 79,
+    "main_requisite": null,
+    "order_id": 1453701477
+  },
+  "merchant": {
+    "company_id": 190,
+    "kam": "Karolina",
+    "company_name": "Yougmedia B.V.",
+    "merchant_name": "Yougmedia B.V.",
+    "merchant_group": "Fonbet",
+    "merchant_id": 405
+  },
+  "processing": {
+    "acquirer_name": "Finveil",
+    "processor_name": "Finveil",
+    "processor_id": 79,
+    "gate_name": "blik"
+  },
+  "applied_plan": {
+    "wl_percent": 4.5,
+    "operation_type": "incoming",
+    "contract_id": "VSP-300925-1",
+    "traffic_type": null,
+    "fixed_fee": 2,
+    "actual_commission": 21.72653705212928,
+    "exchange_fee_percent": 1.0,
+    "plan_key": "VSP-300925-1:incoming:apm:10",
+    "amount_eur": 472.3160228723757,
+    "payment_type": "apm",
+    "tier": null,
+    "payout_percent": null,
+    "calculated_commission": 27.9774,
+    "currency_type": "fiat",
+    "chb_fee": 20,
+    "refund_fee": 1,
+    "card_brand": null,
+    "currency": "PLN",
+    "region": "EEA",
+    "payout_oct_fix": null
+  },
+  "total_fees": {
+    "comission_percent": 4.6,
+    "comission_eur": 21.72653705212928
+  },
+  "deviation": {
+    "actual": 21.73,
+    "calculated": 27.98,
+    "difference": -6.25,
+    "difference_percent": -22.3
+  },
+  "commission_fees": {},
+  "cost_fees": {},
+  "calculation": {
+    "type": "sale_fx",
+    "description": "Sale (PLN)",
+    "formula": "(472.32 x 1.0%) + (472.32 x 4.5%) + 2.00",
+    "steps": [
+      {
+        "label": "Amount (EUR)",
+        "value": 472.3160228723757
+      },
+      {
+        "label": "Exchange Fee (1.0%)",
+        "value": 4.72
+      },
+      {
+        "label": "WL Rate (4.5%)",
+        "value": 21.25
+      },
+      {
+        "label": "Fixed Fee",
+        "value": 2
+      },
+      {
+        "label": "Total",
+        "value": 27.98
+      }
+    ],
+    "calculated": 27.98
+  }
+}

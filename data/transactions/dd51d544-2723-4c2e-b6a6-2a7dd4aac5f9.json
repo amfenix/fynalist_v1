@@ -1,0 +1,116 @@
+{
+  "transaction": {
+    "transaction_id": "dd51d544-2723-4c2e-b6a6-2a7dd4aac5f9",
+    "error_message": "0",
+    "transaction_status": "approved",
+    "created_date_no_time": "2025-04-04",
+    "merchant_error_code": 0,
+    "transaction_type": "payout",
+    "type": "payout",
+    "external_error_code": "0",
+    "merchant_error_message": "0",
+    "external_error_message": "0",
+    "error_code": 0,
+    "created_date": "2025-04-04 02:12:10.623732 UTC",
+    "status": "approved"
+  },
+  "order_details": {
+    "eea": "EEA",
+    "country": "HU",
+    "bin": 41659840,
+    "running_sum": 275947.88,
+    "endpoint_id": 70050492,
+    "gate_name": "card",
+    "amount_eur": 2999.16,
+    "fx_date": "2025-04-04",
+    "european_union": "EU",
+    "card_brand": "VISA",
+    "currency": "EUR",
+    "fx_rate": 1.0,
+    "requisites_bank": null,
+    "card_brand_group": "Visa",
+    "mapping": "Hungary",
+    "amount": 2999.16,
+    "requisites_country": "HU",
+    "traffic_type_group": "oct",
+    "gate_descriptor": "OUT - Primefin VISA",
+    "card_bank_name": "REVOLUT BANK UAB",
+    "card_type": "Visa",
+    "user_id": 21444051,
+    "gate_id": 3,
+    "main_requisite": "416598******2006",
+    "order_id": 1422660235
+  },
+  "merchant": {
+    "company_id": 128,
+    "kam": "Anna",
+    "company_name": "GR8",
+    "merchant_name": "SUISEN SOLUTIONS LIMITED",
+    "merchant_group": "GR8",
+    "merchant_id": 243
+  },
+  "processing": {
+    "acquirer_name": "Primefin",
+    "processor_name": "Primefin",
+    "processor_id": 3,
+    "gate_name": "card"
+  },
+  "applied_plan": {
+    "wl_percent": null,
+    "operation_type": "outgoing",
+    "contract_id": "VSP-281124-2",
+    "traffic_type": null,
+    "fixed_fee": null,
+    "actual_commission": 121.97,
+    "exchange_fee_percent": 0.5,
+    "plan_key": "VSP-281124-2:outgoing:card:25",
+    "amount_eur": 2999.16,
+    "payment_type": "card",
+    "tier": null,
+    "payout_percent": 3.0,
+    "calculated_commission": 90.4748,
+    "currency_type": "fiat",
+    "chb_fee": null,
+    "refund_fee": null,
+    "card_brand": null,
+    "currency": "EUR",
+    "region": "RoW",
+    "payout_oct_fix": 0.5
+  },
+  "total_fees": {
+    "comission_percent": 4.07,
+    "comission_eur": 121.97
+  },
+  "deviation": {
+    "actual": 121.97,
+    "calculated": 90.47,
+    "difference": 31.5,
+    "difference_percent": 34.8
+  },
+  "commission_fees": {},
+  "cost_fees": {},
+  "calculation": {
+    "type": "payout",
+    "description": "Payout (Outgoing)",
+    "formula": "(2999.16 x 3.0%) + 0.50",
+    "steps": [
+      {
+        "label": "Amount (EUR)",
+        "value": 2999.16
+      },
+      {
+        "label": "Payout Rate (3.0%)",
+        "value": 89.97
+      },
+      {
+        "label": "Payout Fixed",
+        "value": 0.5
+      },
+      {
+        "label": "Total",
+        "value": 90.47
+      }
+    ],
+    "calculated": 90.47
+  }
+}

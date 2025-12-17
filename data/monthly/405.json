@@ -1,0 +1,26 @@
+[
+  {
+    "month": "2025-12",
+    "transaction_count": 3199,
+    "approved_count": 2317,
+    "declined_count": 882,
+    "total_amount_eur": 259146.48,
+    "acceptance_rate": 72.4
+  },
+  {
+    "month": "2025-11",
+    "transaction_count": 10738,
+    "approved_count": 6841,
+    "declined_count": 3897,
+    "total_amount_eur": 801040.56,
+    "acceptance_rate": 63.7
+  },
+  {
+    "month": "2025-10",
+    "transaction_count": 3204,
+    "approved_count": 1792,
+    "declined_count": 1412,
+    "total_amount_eur": 221979.58,
+    "acceptance_rate": 55.9
+  }
+]

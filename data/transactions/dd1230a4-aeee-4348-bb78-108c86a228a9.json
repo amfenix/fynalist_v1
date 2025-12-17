@@ -1,0 +1,116 @@
+{
+  "transaction": {
+    "transaction_id": "dd1230a4-aeee-4348-bb78-108c86a228a9",
+    "error_message": "0",
+    "transaction_status": "approved",
+    "created_date_no_time": "2025-04-01",
+    "merchant_error_code": 0,
+    "transaction_type": "sale",
+    "type": "payment",
+    "external_error_code": "0",
+    "merchant_error_message": "0",
+    "external_error_message": "0",
+    "error_code": 0,
+    "created_date": "2025-04-01 23:05:17.750267 UTC",
+    "status": "approved"
+  },
+  "order_details": {
+    "eea": "EEA",
+    "country": "PL",
+    "bin": null,
+    "running_sum": 18783.8,
+    "endpoint_id": 70050494,
+    "gate_name": "google_pay",
+    "amount_eur": 350.0,
+    "fx_date": "2025-04-01",
+    "european_union": "EU",
+    "card_brand": null,
+    "currency": "EUR",
+    "fx_rate": 1.0,
+    "requisites_bank": null,
+    "card_brand_group": "Any",
+    "mapping": "Poland",
+    "amount": 350.0,
+    "requisites_country": "PL",
+    "traffic_type_group": "google_pay",
+    "gate_descriptor": "IN - Xpate Nuoplaym GooglePay",
+    "card_bank_name": null,
+    "card_type": "Any",
+    "user_id": 18290174,
+    "gate_id": 36,
+    "main_requisite": "534122******4339",
+    "order_id": 1422409960
+  },
+  "merchant": {
+    "company_id": 128,
+    "kam": "Anna",
+    "company_name": "GR8",
+    "merchant_name": "SUISEN SOLUTIONS LIMITED",
+    "merchant_group": "GR8",
+    "merchant_id": 243
+  },
+  "processing": {
+    "acquirer_name": "Xpate",
+    "processor_name": "Xpate",
+    "processor_id": 36,
+    "gate_name": "google_pay"
+  },
+  "applied_plan": {
+    "wl_percent": 6.0,
+    "operation_type": "incoming",
+    "contract_id": "VSP-281124-2",
+    "traffic_type": null,
+    "fixed_fee": 0.25,
+    "actual_commission": 25.5,
+    "exchange_fee_percent": 0.5,
+    "plan_key": "VSP-281124-2:incoming:apm:13",
+    "amount_eur": 350.0,
+    "payment_type": "apm",
+    "tier": null,
+    "payout_percent": null,
+    "calculated_commission": 21.25,
+    "currency_type": "fiat",
+    "chb_fee": 30,
+    "refund_fee": 1,
+    "card_brand": null,
+    "currency": "EUR",
+    "region": "EEA",
+    "payout_oct_fix": null
+  },
+  "total_fees": {
+    "comission_percent": 7.29,
+    "comission_eur": 25.5
+  },
+  "deviation": {
+    "actual": 25.5,
+    "calculated": 21.25,
+    "difference": 4.25,
+    "difference_percent": 20.0
+  },
+  "commission_fees": {},
+  "cost_fees": {},
+  "calculation": {
+    "type": "sale_eur",
+    "description": "Sale (EUR)",
+    "formula": "(350.00 x 6.0%) + 0.25",
+    "steps": [
+      {
+        "label": "Amount (EUR)",
+        "value": 350.0
+      },
+      {
+        "label": "WL Rate (6.0%)",
+        "value": 21.0
+      },
+      {
+        "label": "Fixed Fee",
+        "value": 0.25
+      },
+      {
+        "label": "Total",
+        "value": 21.25
+      }
+    ],
+    "calculated": 21.25
+  }
+}

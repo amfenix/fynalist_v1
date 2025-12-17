@@ -1,0 +1,116 @@
+{
+  "transaction": {
+    "transaction_id": "dd51c933-3dc0-4edb-9272-e63a0b630af5",
+    "error_message": "0",
+    "transaction_status": "approved",
+    "created_date_no_time": "2024-11-08",
+    "merchant_error_code": null,
+    "transaction_type": "payout",
+    "type": "payout",
+    "external_error_code": "0",
+    "merchant_error_message": null,
+    "external_error_message": "0",
+    "error_code": 0,
+    "created_date": "2024-11-08 17:18:28.507131 UTC",
+    "status": "approved"
+  },
+  "order_details": {
+    "eea": "non-EEA",
+    "country": "AM",
+    "bin": 431827,
+    "running_sum": 8558.23,
+    "endpoint_id": 41499,
+    "gate_name": "card",
+    "amount_eur": 463.74,
+    "fx_date": "2024-11-08",
+    "european_union": "non-EU",
+    "card_brand": "VISA",
+    "currency": "EUR",
+    "fx_rate": 1.0,
+    "requisites_bank": null,
+    "card_brand_group": "Visa",
+    "mapping": "Armenia",
+    "amount": 463.74,
+    "requisites_country": "AM",
+    "traffic_type_group": "oct",
+    "gate_descriptor": "OUT - Primefin VISA 221",
+    "card_bank_name": "ID BANK CJSC",
+    "card_type": "Visa",
+    "user_id": 11623590,
+    "gate_id": 3,
+    "main_requisite": "431827******1376",
+    "order_id": 1412163182
+  },
+  "merchant": {
+    "company_id": 12,
+    "kam": "Anna",
+    "company_name": "Start2Pay",
+    "merchant_name": "Faro Entertainment",
+    "merchant_group": "S2P",
+    "merchant_id": 30
+  },
+  "processing": {
+    "acquirer_name": "Primefin",
+    "processor_name": "Primefin",
+    "processor_id": 3,
+    "gate_name": "card"
+  },
+  "applied_plan": {
+    "wl_percent": null,
+    "operation_type": "outgoing",
+    "contract_id": "VSP-040823-20",
+    "traffic_type": null,
+    "fixed_fee": null,
+    "actual_commission": 24.19,
+    "exchange_fee_percent": 0.5,
+    "plan_key": "VSP-040823-20:outgoing:card:22",
+    "amount_eur": 463.74,
+    "payment_type": "card",
+    "tier": null,
+    "payout_percent": 3.5,
+    "calculated_commission": 17.2309,
+    "currency_type": "fiat",
+    "chb_fee": null,
+    "refund_fee": null,
+    "card_brand": "MC",
+    "currency": "EUR",
+    "region": "WW",
+    "payout_oct_fix": 1
+  },
+  "total_fees": {
+    "comission_percent": 5.22,
+    "comission_eur": 24.19
+  },
+  "deviation": {
+    "actual": 24.19,
+    "calculated": 17.23,
+    "difference": 6.96,
+    "difference_percent": 40.4
+  },
+  "commission_fees": {},
+  "cost_fees": {},
+  "calculation": {
+    "type": "payout",
+    "description": "Payout (Outgoing)",
+    "formula": "(463.74 x 3.5%) + 1.00",
+    "steps": [
+      {
+        "label": "Amount (EUR)",
+        "value": 463.74
+      },
+      {
+        "label": "Payout Rate (3.5%)",
+        "value": 16.23
+      },
+      {
+        "label": "Payout Fixed",
+        "value": 1
+      },
+      {
+        "label": "Total",
+        "value": 17.23
+      }
+    ],
+    "calculated": 17.23
+  }
+}

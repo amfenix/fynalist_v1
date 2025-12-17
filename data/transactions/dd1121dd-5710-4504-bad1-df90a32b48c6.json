@@ -1,0 +1,116 @@
+{
+  "transaction": {
+    "transaction_id": "dd1121dd-5710-4504-bad1-df90a32b48c6",
+    "error_message": "Operation not allowed by acquiring bank. Refer to bank.",
+    "transaction_status": "declined",
+    "created_date_no_time": "2025-12-11",
+    "merchant_error_code": 21,
+    "transaction_type": "sale",
+    "type": "payment",
+    "external_error_code": "transaction_not_permitted_to_cardholder",
+    "merchant_error_message": "NOT_ALLOWED",
+    "external_error_message": "Transaction not permitted to cardholder",
+    "error_code": 9065,
+    "created_date": "2025-12-11 16:11:31.838486 UTC",
+    "status": "declined"
+  },
+  "order_details": {
+    "eea": "non-EEA",
+    "country": "TR",
+    "bin": 512440,
+    "running_sum": 143682.19,
+    "endpoint_id": 41502,
+    "gate_name": "card",
+    "amount_eur": 100.16,
+    "fx_date": "2025-12-11",
+    "european_union": "EU",
+    "card_brand": "MASTERCARD",
+    "currency": "EUR",
+    "fx_rate": 1.0,
+    "requisites_bank": null,
+    "card_brand_group": "MasterCard",
+    "mapping": "Turkey",
+    "amount": 100.16,
+    "requisites_country": "TR",
+    "traffic_type_group": "wl",
+    "gate_descriptor": "IN - Vialet Enyxto",
+    "card_bank_name": "T.C.ZIRAAT BANKASI A.S.",
+    "card_type": "MasterCard",
+    "user_id": 36010637,
+    "gate_id": 74,
+    "main_requisite": "512440******4206",
+    "order_id": 1457638265
+  },
+  "merchant": {
+    "company_id": 12,
+    "kam": "Anna",
+    "company_name": "Start2Pay",
+    "merchant_name": "Faro Entertainment",
+    "merchant_group": "S2P",
+    "merchant_id": 30
+  },
+  "processing": {
+    "acquirer_name": "Vialet",
+    "processor_name": "Vialet",
+    "processor_id": 74,
+    "gate_name": "card"
+  },
+  "applied_plan": {
+    "wl_percent": 6.0,
+    "operation_type": "incoming",
+    "contract_id": "VSP-040823-20",
+    "traffic_type": null,
+    "fixed_fee": 0.15,
+    "actual_commission": 0.0,
+    "exchange_fee_percent": 0.5,
+    "plan_key": "VSP-040823-20:incoming:card:2",
+    "amount_eur": 100.16,
+    "payment_type": "card",
+    "tier": null,
+    "payout_percent": null,
+    "calculated_commission": 6.1596,
+    "currency_type": "fiat",
+    "chb_fee": 50,
+    "refund_fee": 1,
+    "card_brand": null,
+    "currency": "EUR",
+    "region": "WW",
+    "payout_oct_fix": null
+  },
+  "total_fees": {
+    "comission_percent": 0.0,
+    "comission_eur": 0.0
+  },
+  "deviation": {
+    "actual": 0,
+    "calculated": 6.16,
+    "difference": -6.16,
+    "difference_percent": -100.0
+  },
+  "commission_fees": {},
+  "cost_fees": {},
+  "calculation": {
+    "type": "sale_eur",
+    "description": "Sale (EUR)",
+    "formula": "(100.16 x 6.0%) + 0.15",
+    "steps": [
+      {
+        "label": "Amount (EUR)",
+        "value": 100.16
+      },
+      {
+        "label": "WL Rate (6.0%)",
+        "value": 6.01
+      },
+      {
+        "label": "Fixed Fee",
+        "value": 0.15
+      },
+      {
+        "label": "Total",
+        "value": 6.16
+      }
+    ],
+    "calculated": 6.16
+  }
+}

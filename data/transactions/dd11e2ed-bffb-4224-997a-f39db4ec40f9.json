@@ -1,0 +1,116 @@
+{
+  "transaction": {
+    "transaction_id": "dd11e2ed-bffb-4224-997a-f39db4ec40f9",
+    "error_message": "Insufficient funds",
+    "transaction_status": "declined",
+    "created_date_no_time": "2025-12-11",
+    "merchant_error_code": 28,
+    "transaction_type": "sale",
+    "type": "payment",
+    "external_error_code": "4.01",
+    "merchant_error_message": "INSUFFICIENT_FUNDS",
+    "external_error_message": "Insufficient Funds; externalResultCode: 051|null",
+    "error_code": 9066,
+    "created_date": "2025-12-11 15:13:10.274403 UTC",
+    "status": "declined"
+  },
+  "order_details": {
+    "eea": "EEA",
+    "country": "HU",
+    "bin": 52955913,
+    "running_sum": 156728.7,
+    "endpoint_id": 41502,
+    "gate_name": "card",
+    "amount_eur": 7.79,
+    "fx_date": "2025-12-11",
+    "european_union": "EU",
+    "card_brand": "MASTERCARD",
+    "currency": "EUR",
+    "fx_rate": 1.0,
+    "requisites_bank": null,
+    "card_brand_group": "MasterCard",
+    "mapping": "Hungary",
+    "amount": 7.79,
+    "requisites_country": "HU",
+    "traffic_type_group": "wl",
+    "gate_descriptor": "IN - MadFintech Gamesskin",
+    "card_bank_name": "PAYSAFE FINANCIAL SERVICES LIMITED",
+    "card_type": "MasterCard",
+    "user_id": 57001954,
+    "gate_id": 78,
+    "main_requisite": "529559******6088",
+    "order_id": 1457629520
+  },
+  "merchant": {
+    "company_id": 12,
+    "kam": "Anna",
+    "company_name": "Start2Pay",
+    "merchant_name": "Faro Entertainment",
+    "merchant_group": "S2P",
+    "merchant_id": 30
+  },
+  "processing": {
+    "acquirer_name": "MadFintech",
+    "processor_name": "MadFintech",
+    "processor_id": 78,
+    "gate_name": "card"
+  },
+  "applied_plan": {
+    "wl_percent": 6.0,
+    "operation_type": "incoming",
+    "contract_id": "VSP-040823-20",
+    "traffic_type": null,
+    "fixed_fee": 0.15,
+    "actual_commission": 0.0,
+    "exchange_fee_percent": 0.5,
+    "plan_key": "VSP-040823-20:incoming:card:3",
+    "amount_eur": 7.79,
+    "payment_type": "card",
+    "tier": null,
+    "payout_percent": null,
+    "calculated_commission": 0.6174,
+    "currency_type": "fiat",
+    "chb_fee": 50,
+    "refund_fee": 1,
+    "card_brand": null,
+    "currency": "EUR",
+    "region": "EEA",
+    "payout_oct_fix": null
+  },
+  "total_fees": {
+    "comission_percent": 0.0,
+    "comission_eur": 0.0
+  },
+  "deviation": {
+    "actual": 0,
+    "calculated": 0.62,
+    "difference": -0.62,
+    "difference_percent": -100.0
+  },
+  "commission_fees": {},
+  "cost_fees": {},
+  "calculation": {
+    "type": "sale_eur",
+    "description": "Sale (EUR)",
+    "formula": "(7.79 x 6.0%) + 0.15",
+    "steps": [
+      {
+        "label": "Amount (EUR)",
+        "value": 7.79
+      },
+      {
+        "label": "WL Rate (6.0%)",
+        "value": 0.47
+      },
+      {
+        "label": "Fixed Fee",
+        "value": 0.15
+      },
+      {
+        "label": "Total",
+        "value": 0.62
+      }
+    ],
+    "calculated": 0.62
+  }
+}

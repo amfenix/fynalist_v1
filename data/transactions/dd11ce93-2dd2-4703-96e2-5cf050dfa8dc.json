@@ -1,0 +1,116 @@
+{
+  "transaction": {
+    "transaction_id": "dd11ce93-2dd2-4703-96e2-5cf050dfa8dc",
+    "error_message": "0",
+    "transaction_status": "approved",
+    "created_date_no_time": "2025-11-24",
+    "merchant_error_code": 0,
+    "transaction_type": "sale",
+    "type": "payment",
+    "external_error_code": "0",
+    "merchant_error_message": "0",
+    "external_error_message": "0",
+    "error_code": 0,
+    "created_date": "2025-11-24 18:52:02.254747 UTC",
+    "status": "approved"
+  },
+  "order_details": {
+    "eea": "non-EEA",
+    "country": "GB",
+    "bin": 459661,
+    "running_sum": 1653209.74,
+    "endpoint_id": 70050492,
+    "gate_name": "card",
+    "amount_eur": 1046.14,
+    "fx_date": "2025-11-24",
+    "european_union": "non-EU",
+    "card_brand": "VISA",
+    "currency": "EUR",
+    "fx_rate": 1.0,
+    "requisites_bank": null,
+    "card_brand_group": "Visa",
+    "mapping": "United Kingdom",
+    "amount": 1046.14,
+    "requisites_country": "HU",
+    "traffic_type_group": "wl",
+    "gate_descriptor": "IN - Euroexchange Skinvalut",
+    "card_bank_name": "WISE PAYMENTS LIMITED",
+    "card_type": "Visa",
+    "user_id": 25183931,
+    "gate_id": 67,
+    "main_requisite": "459661******3985",
+    "order_id": 1454666061
+  },
+  "merchant": {
+    "company_id": 128,
+    "kam": "Anna",
+    "company_name": "GR8",
+    "merchant_name": "SUISEN SOLUTIONS LIMITED",
+    "merchant_group": "GR8",
+    "merchant_id": 243
+  },
+  "processing": {
+    "acquirer_name": "Euroexchange",
+    "processor_name": "Euroexchange",
+    "processor_id": 67,
+    "gate_name": "card"
+  },
+  "applied_plan": {
+    "wl_percent": 7.0,
+    "operation_type": "incoming",
+    "contract_id": "VSP-281124-2",
+    "traffic_type": null,
+    "fixed_fee": 0.25,
+    "actual_commission": 73.48,
+    "exchange_fee_percent": 0.5,
+    "plan_key": "VSP-281124-2:incoming:card:3",
+    "amount_eur": 1046.14,
+    "payment_type": "card",
+    "tier": null,
+    "payout_percent": null,
+    "calculated_commission": 73.4798,
+    "currency_type": "fiat",
+    "chb_fee": 70,
+    "refund_fee": 3,
+    "card_brand": null,
+    "currency": "EUR",
+    "region": "RoW",
+    "payout_oct_fix": null
+  },
+  "total_fees": {
+    "comission_percent": 7.02,
+    "comission_eur": 73.48
+  },
+  "deviation": {
+    "actual": 73.48,
+    "calculated": 73.48,
+    "difference": 0.0,
+    "difference_percent": 0.0
+  },
+  "commission_fees": {},
+  "cost_fees": {},
+  "calculation": {
+    "type": "sale_eur",
+    "description": "Sale (EUR)",
+    "formula": "(1046.14 x 7.0%) + 0.25",
+    "steps": [
+      {
+        "label": "Amount (EUR)",
+        "value": 1046.14
+      },
+      {
+        "label": "WL Rate (7.0%)",
+        "value": 73.23
+      },
+      {
+        "label": "Fixed Fee",
+        "value": 0.25
+      },
+      {
+        "label": "Total",
+        "value": 73.48
+      }
+    ],
+    "calculated": 73.48
+  }
+}

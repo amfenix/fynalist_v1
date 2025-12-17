@@ -1,0 +1,108 @@
+{
+  "transaction": {
+    "transaction_id": "dd41f0ad-ebb9-4315-aa94-72daf5375ecb",
+    "error_message": "0",
+    "transaction_status": "approved",
+    "created_date_no_time": "2025-08-02",
+    "merchant_error_code": 0,
+    "transaction_type": "reversal",
+    "type": "refund",
+    "external_error_code": "0",
+    "merchant_error_message": "0",
+    "external_error_message": "0",
+    "error_code": 0,
+    "created_date": "2025-08-02 23:32:39.702856 UTC",
+    "status": "approved"
+  },
+  "order_details": {
+    "eea": "EEA",
+    "country": "IT",
+    "bin": 41659850,
+    "running_sum": 20.0,
+    "endpoint_id": 41502,
+    "gate_name": "card",
+    "amount_eur": 20.0,
+    "fx_date": "2025-08-02",
+    "european_union": "EU",
+    "card_brand": "VISA",
+    "currency": "EUR",
+    "fx_rate": 1.0,
+    "requisites_bank": null,
+    "card_brand_group": "Visa",
+    "mapping": "Italy",
+    "amount": 20.0,
+    "requisites_country": "CH",
+    "traffic_type_group": "card",
+    "gate_descriptor": "IN - Xpate DigitalCamo 3 (digcsm3)",
+    "card_bank_name": "REVOLUT BANK UAB",
+    "card_type": null,
+    "user_id": 22018181,
+    "gate_id": 36,
+    "main_requisite": "416598******0380",
+    "order_id": 1433419761
+  },
+  "merchant": {
+    "company_id": 12,
+    "kam": "Anna",
+    "company_name": "Start2Pay",
+    "merchant_name": "Faro Entertainment",
+    "merchant_group": "S2P",
+    "merchant_id": 30
+  },
+  "processing": {
+    "acquirer_name": "Xpate EU",
+    "processor_name": "Xpate",
+    "processor_id": 36,
+    "gate_name": "card"
+  },
+  "applied_plan": {
+    "wl_percent": 6.0,
+    "operation_type": "incoming",
+    "contract_id": "VSP-040823-20",
+    "traffic_type": null,
+    "fixed_fee": 0.15,
+    "actual_commission": 1.0,
+    "exchange_fee_percent": 0.5,
+    "plan_key": "VSP-040823-20:incoming:card:3",
+    "amount_eur": 20.0,
+    "payment_type": "card",
+    "tier": null,
+    "payout_percent": null,
+    "calculated_commission": 1.0,
+    "currency_type": "fiat",
+    "chb_fee": 50,
+    "refund_fee": 1,
+    "card_brand": null,
+    "currency": "EUR",
+    "region": "EEA",
+    "payout_oct_fix": null
+  },
+  "total_fees": {
+    "comission_percent": 5.0,
+    "comission_eur": 1.0
+  },
+  "deviation": {
+    "actual": 1.0,
+    "calculated": 1.0,
+    "difference": 0.0,
+    "difference_percent": 0.0
+  },
+  "commission_fees": {},
+  "cost_fees": {},
+  "calculation": {
+    "type": "reversal",
+    "description": "Reversal (Refund)",
+    "formula": "refund_fee = 1.00",
+    "steps": [
+      {
+        "label": "Refund Fee",
+        "value": 1
+      },
+      {
+        "label": "Total",
+        "value": 1
+      }
+    ],
+    "calculated": 1
+  }
+}

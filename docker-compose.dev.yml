@@ -1,0 +1,15 @@
+# Development overrides
+# Usage: docker compose -f docker-compose.yml -f docker-compose.dev.yml up
+
+services:
+  finalyst-demo:
+    build:
+      target: development
+    ports:
+      - "${PORT:-3001}:3001"
+    volumes:
+      # Mount source code for hot-reload
+      - ./src:/app/src:cached
+      - ./public:/app/public:cached
+      - ./data:/app/data:cached
+      - ./login:/app/login:cached

@@ -1,0 +1,116 @@
+{
+  "transaction": {
+    "transaction_id": "dd11e315-db7a-4042-887b-d4941466d33a",
+    "error_message": "0",
+    "transaction_status": "approved",
+    "created_date_no_time": "2025-05-27",
+    "merchant_error_code": 0,
+    "transaction_type": "sale",
+    "type": "payment",
+    "external_error_code": "0",
+    "merchant_error_message": "0",
+    "external_error_message": "0",
+    "error_code": 0,
+    "created_date": "2025-05-27 18:03:15.474837 UTC",
+    "status": "approved"
+  },
+  "order_details": {
+    "eea": "EEA",
+    "country": "HU",
+    "bin": 510121,
+    "running_sum": 6218422.51,
+    "endpoint_id": 70050492,
+    "gate_name": "card",
+    "amount_eur": 743.37,
+    "fx_date": "2025-05-27",
+    "european_union": "EU",
+    "card_brand": "MASTERCARD",
+    "currency": "EUR",
+    "fx_rate": 1.0,
+    "requisites_bank": null,
+    "card_brand_group": "MasterCard",
+    "mapping": "Hungary",
+    "amount": 743.37,
+    "requisites_country": "HU",
+    "traffic_type_group": "wl",
+    "gate_descriptor": "IN - LeoConte Noxious",
+    "card_bank_name": "OTP BANK PLC",
+    "card_type": "MasterCard",
+    "user_id": 25333341,
+    "gate_id": 47,
+    "main_requisite": "510121******8864",
+    "order_id": 1428990446
+  },
+  "merchant": {
+    "company_id": 128,
+    "kam": "Anna",
+    "company_name": "GR8",
+    "merchant_name": "SUISEN SOLUTIONS LIMITED",
+    "merchant_group": "GR8",
+    "merchant_id": 243
+  },
+  "processing": {
+    "acquirer_name": "Sends",
+    "processor_name": "LeoConte",
+    "processor_id": 47,
+    "gate_name": "card"
+  },
+  "applied_plan": {
+    "wl_percent": 5.0,
+    "operation_type": "incoming",
+    "contract_id": "VSP-281124-2",
+    "traffic_type": null,
+    "fixed_fee": 0.25,
+    "actual_commission": 48.57,
+    "exchange_fee_percent": 0.5,
+    "plan_key": "VSP-281124-2:incoming:card:7",
+    "amount_eur": 743.37,
+    "payment_type": "card",
+    "tier": null,
+    "payout_percent": null,
+    "calculated_commission": 37.4185,
+    "currency_type": "fiat",
+    "chb_fee": 70,
+    "refund_fee": 3,
+    "card_brand": null,
+    "currency": "EUR",
+    "region": "EEA",
+    "payout_oct_fix": null
+  },
+  "total_fees": {
+    "comission_percent": 6.53,
+    "comission_eur": 48.57
+  },
+  "deviation": {
+    "actual": 48.57,
+    "calculated": 37.42,
+    "difference": 11.15,
+    "difference_percent": 29.8
+  },
+  "commission_fees": {},
+  "cost_fees": {},
+  "calculation": {
+    "type": "sale_eur",
+    "description": "Sale (EUR)",
+    "formula": "(743.37 x 5.0%) + 0.25",
+    "steps": [
+      {
+        "label": "Amount (EUR)",
+        "value": 743.37
+      },
+      {
+        "label": "WL Rate (5.0%)",
+        "value": 37.17
+      },
+      {
+        "label": "Fixed Fee",
+        "value": 0.25
+      },
+      {
+        "label": "Total",
+        "value": 37.42
+      }
+    ],
+    "calculated": 37.42
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "transaction": {
+    "transaction_id": "dd12e1b7-83bf-4802-8b84-e03550488395",
+    "error_message": "0",
+    "transaction_status": "approved",
+    "created_date_no_time": "2025-12-11",
+    "merchant_error_code": 0,
+    "transaction_type": "sale",
+    "type": "payment",
+    "external_error_code": "0",
+    "merchant_error_message": "0",
+    "external_error_message": "0",
+    "error_code": 0,
+    "created_date": "2025-12-11 15:54:44.297538 UTC",
+    "status": "approved"
+  },
+  "order_details": {
+    "eea": "EEA",
+    "country": "DE",
+    "bin": null,
+    "running_sum": 834622.53,
+    "endpoint_id": 70051093,
+    "gate_name": "openbanking",
+    "amount_eur": 50.0,
+    "fx_date": "2025-12-11",
+    "european_union": "EU",
+    "card_brand": null,
+    "currency": "EUR",
+    "fx_rate": 1.0,
+    "requisites_bank": "REVOLUT",
+    "card_brand_group": "Any",
+    "mapping": "Germany",
+    "amount": 50.0,
+    "requisites_country": "DE",
+    "traffic_type_group": "ftd_openbanking",
+    "gate_descriptor": "IN - Volt Skunlock Openbanking",
+    "card_bank_name": null,
+    "card_type": "Any",
+    "user_id": 57313680,
+    "gate_id": 69,
+    "main_requisite": "DE71100101782138322286",
+    "order_id": 1457635713
+  },
+  "merchant": {
+    "company_id": 190,
+    "kam": "Karolina",
+    "company_name": "Yougmedia B.V.",
+    "merchant_name": "Yougmedia B.V.",
+    "merchant_group": "Fonbet",
+    "merchant_id": 405
+  },
+  "processing": {
+    "acquirer_name": "Volt",
+    "processor_name": "Volt",
+    "processor_id": 69,
+    "gate_name": "openbanking"
+  },
+  "applied_plan": {
+    "wl_percent": 2.5,
+    "operation_type": "incoming",
+    "contract_id": "VSP-300925-1",
+    "traffic_type": null,
+    "fixed_fee": 0.5,
+    "actual_commission": 2.45,
+    "exchange_fee_percent": 1.0,
+    "plan_key": "VSP-300925-1:incoming:apm:11",
+    "amount_eur": 50.0,
+    "payment_type": "apm",
+    "tier": null,
+    "payout_percent": null,
+    "calculated_commission": 1.75,
+    "currency_type": "fiat",
+    "chb_fee": 50,
+    "refund_fee": 1,
+    "card_brand": null,
+    "currency": "EUR",
+    "region": "EEA",
+    "payout_oct_fix": null
+  },
+  "total_fees": {
+    "comission_percent": 4.9,
+    "comission_eur": 2.45
+  },
+  "deviation": {
+    "actual": 2.45,
+    "calculated": 1.75,
+    "difference": 0.7,
+    "difference_percent": 40.0
+  },
+  "commission_fees": {},
+  "cost_fees": {},
+  "calculation": {
+    "type": "sale_eur",
+    "description": "Sale (EUR)",
+    "formula": "(50.00 x 2.5%) + 0.50",
+    "steps": [
+      {
+        "label": "Amount (EUR)",
+        "value": 50.0
+      },
+      {
+        "label": "WL Rate (2.5%)",
+        "value": 1.25
+      },
+      {
+        "label": "Fixed Fee",
+        "value": 0.5
+      },
+      {
+        "label": "Total",
+        "value": 1.75
+      }
+    ],
+    "calculated": 1.75
+  }
+}

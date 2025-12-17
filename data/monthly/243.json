@@ -1,0 +1,98 @@
+[
+  {
+    "month": "2025-12",
+    "transaction_count": 83618,
+    "approved_count": 70627,
+    "declined_count": 12991,
+    "total_amount_eur": 6211395.62,
+    "acceptance_rate": 84.5
+  },
+  {
+    "month": "2025-11",
+    "transaction_count": 188929,
+    "approved_count": 158696,
+    "declined_count": 30233,
+    "total_amount_eur": 12534896.71,
+    "acceptance_rate": 84.0
+  },
+  {
+    "month": "2025-10",
+    "transaction_count": 178538,
+    "approved_count": 152537,
+    "declined_count": 26001,
+    "total_amount_eur": 11851438.44,
+    "acceptance_rate": 85.4
+  },
+  {
+    "month": "2025-09",
+    "transaction_count": 153054,
+    "approved_count": 129109,
+    "declined_count": 23945,
+    "total_amount_eur": 10681411.34,
+    "acceptance_rate": 84.4
+  },
+  {
+    "month": "2025-08",
+    "transaction_count": 133426,
+    "approved_count": 112984,
+    "declined_count": 20442,
+    "total_amount_eur": 8104422.75,
+    "acceptance_rate": 84.7
+  },
+  {
+    "month": "2025-07",
+    "transaction_count": 121498,
+    "approved_count": 102606,
+    "declined_count": 18892,
+    "total_amount_eur": 7334345.07,
+    "acceptance_rate": 84.5
+  },
+  {
+    "month": "2025-06",
+    "transaction_count": 76816,
+    "approved_count": 65417,
+    "declined_count": 11399,
+    "total_amount_eur": 4652144.08,
+    "acceptance_rate": 85.2
+  },
+  {
+    "month": "2025-05",
+    "transaction_count": 37456,
+    "approved_count": 32893,
+    "declined_count": 4563,
+    "total_amount_eur": 2425727.85,
+    "acceptance_rate": 87.8
+  },
+  {
+    "month": "2025-04",
+    "transaction_count": 32401,
+    "approved_count": 28279,
+    "declined_count": 4122,
+    "total_amount_eur": 2200223.46,
+    "acceptance_rate": 87.3
+  },
+  {
+    "month": "2025-03",
+    "transaction_count": 28941,
+    "approved_count": 24827,
+    "declined_count": 4114,
+    "total_amount_eur": 1532141.88,
+    "acceptance_rate": 85.8
+  },
+  {
+    "month": "2025-02",
+    "transaction_count": 10590,
+    "approved_count": 8701,
+    "declined_count": 1889,
+    "total_amount_eur": 514527.56,
+    "acceptance_rate": 82.2
+  },
+  {
+    "month": "2025-01",
+    "transaction_count": 19,
+    "approved_count": 3,
+    "declined_count": 16,
+    "total_amount_eur": 75.87,
+    "acceptance_rate": 15.8
+  }
+]

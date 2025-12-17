@@ -1,0 +1,116 @@
+{
+  "transaction": {
+    "transaction_id": "dd119d0d-1eb6-479e-a081-4fe72265a805",
+    "error_message": "0",
+    "transaction_status": "approved",
+    "created_date_no_time": "2025-07-28",
+    "merchant_error_code": 0,
+    "transaction_type": "sale",
+    "type": "payment",
+    "external_error_code": "0",
+    "merchant_error_message": "0",
+    "external_error_message": "0",
+    "error_code": 0,
+    "created_date": "2025-07-28 16:50:56.292516 UTC",
+    "status": "approved"
+  },
+  "order_details": {
+    "eea": "EEA",
+    "country": "HU",
+    "bin": 54453728,
+    "running_sum": 4313945.12,
+    "endpoint_id": 70050492,
+    "gate_name": "card",
+    "amount_eur": 1509.66,
+    "fx_date": "2025-07-28",
+    "european_union": "EU",
+    "card_brand": "MASTERCARD",
+    "currency": "EUR",
+    "fx_rate": 1.0,
+    "requisites_bank": null,
+    "card_brand_group": "MasterCard",
+    "mapping": "Hungary",
+    "amount": 1509.66,
+    "requisites_country": "HU",
+    "traffic_type_group": "wl",
+    "gate_descriptor": "IN - Euroexchange Omnigen",
+    "card_bank_name": "K&H BANK ZRT",
+    "card_type": "MasterCard",
+    "user_id": 18948977,
+    "gate_id": 67,
+    "main_requisite": "544537******1177",
+    "order_id": 1437199001
+  },
+  "merchant": {
+    "company_id": 128,
+    "kam": "Anna",
+    "company_name": "GR8",
+    "merchant_name": "SUISEN SOLUTIONS LIMITED",
+    "merchant_group": "GR8",
+    "merchant_id": 243
+  },
+  "processing": {
+    "acquirer_name": "Euroexchange",
+    "processor_name": "Euroexchange",
+    "processor_id": 67,
+    "gate_name": "card"
+  },
+  "applied_plan": {
+    "wl_percent": 5.25,
+    "operation_type": "incoming",
+    "contract_id": "VSP-281124-2",
+    "traffic_type": null,
+    "fixed_fee": 0.25,
+    "actual_commission": 98.38,
+    "exchange_fee_percent": 0.5,
+    "plan_key": "VSP-281124-2:incoming:card:6",
+    "amount_eur": 1509.66,
+    "payment_type": "card",
+    "tier": null,
+    "payout_percent": null,
+    "calculated_commission": 79.5071,
+    "currency_type": "fiat",
+    "chb_fee": 70,
+    "refund_fee": 3,
+    "card_brand": null,
+    "currency": "EUR",
+    "region": "EEA",
+    "payout_oct_fix": null
+  },
+  "total_fees": {
+    "comission_percent": 6.52,
+    "comission_eur": 98.38
+  },
+  "deviation": {
+    "actual": 98.38,
+    "calculated": 79.51,
+    "difference": 18.87,
+    "difference_percent": 23.7
+  },
+  "commission_fees": {},
+  "cost_fees": {},
+  "calculation": {
+    "type": "sale_eur",
+    "description": "Sale (EUR)",
+    "formula": "(1509.66 x 5.25%) + 0.25",
+    "steps": [
+      {
+        "label": "Amount (EUR)",
+        "value": 1509.66
+      },
+      {
+        "label": "WL Rate (5.25%)",
+        "value": 79.26
+      },
+      {
+        "label": "Fixed Fee",
+        "value": 0.25
+      },
+      {
+        "label": "Total",
+        "value": 79.51
+      }
+    ],
+    "calculated": 79.51
+  }
+}

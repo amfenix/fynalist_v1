@@ -1,0 +1,15 @@
+# Production overrides
+# Usage: docker compose -f docker-compose.yml -f docker-compose.prod.yml up -d
+
+services:
+  finalyst-demo:
+    build:
+      target: production
+    ports:
+      - "${PORT:-3001}:3001"
+    restart: unless-stopped
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"

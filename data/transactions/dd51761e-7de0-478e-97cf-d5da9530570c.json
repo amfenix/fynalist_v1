@@ -1,0 +1,116 @@
+{
+  "transaction": {
+    "transaction_id": "dd51761e-7de0-478e-97cf-d5da9530570c",
+    "error_message": "0",
+    "transaction_status": "approved",
+    "created_date_no_time": "2025-12-01",
+    "merchant_error_code": 0,
+    "transaction_type": "payout",
+    "type": "payout",
+    "external_error_code": "0",
+    "merchant_error_message": "0",
+    "external_error_message": "0",
+    "error_code": 0,
+    "created_date": "2025-12-01 23:44:49.693427 UTC",
+    "status": "approved"
+  },
+  "order_details": {
+    "eea": "EEA",
+    "country": "IT",
+    "bin": 533317,
+    "running_sum": 88752.37,
+    "endpoint_id": 70051087,
+    "gate_name": "card",
+    "amount_eur": 3000.0,
+    "fx_date": "2025-12-01",
+    "european_union": "EU",
+    "card_brand": "MASTERCARD",
+    "currency": "EUR",
+    "fx_rate": 1.0,
+    "requisites_bank": null,
+    "card_brand_group": "MasterCard",
+    "mapping": "Italy",
+    "amount": 3000.0,
+    "requisites_country": "IT",
+    "traffic_type_group": "oct",
+    "gate_descriptor": "OUT - Xpate SR Online 7995 MC",
+    "card_bank_name": "POSTEPAY S.P.A",
+    "card_type": "MasterCard",
+    "user_id": 55555128,
+    "gate_id": 80,
+    "main_requisite": "533317******9953",
+    "order_id": 1455880884
+  },
+  "merchant": {
+    "company_id": 190,
+    "kam": "Karolina",
+    "company_name": "Yougmedia B.V.",
+    "merchant_name": "Yougmedia B.V.",
+    "merchant_group": "Fonbet",
+    "merchant_id": 405
+  },
+  "processing": {
+    "acquirer_name": "Xpate 7995",
+    "processor_name": "Xpate 7995",
+    "processor_id": 80,
+    "gate_name": "card"
+  },
+  "applied_plan": {
+    "wl_percent": null,
+    "operation_type": "outgoing",
+    "contract_id": "VSP-300925-1",
+    "traffic_type": null,
+    "fixed_fee": null,
+    "actual_commission": 106.0,
+    "exchange_fee_percent": 1.0,
+    "plan_key": "VSP-300925-1:outgoing:card:13",
+    "amount_eur": 3000.0,
+    "payment_type": "card",
+    "tier": null,
+    "payout_percent": 3.0,
+    "calculated_commission": 90.75,
+    "currency_type": "fiat",
+    "chb_fee": null,
+    "refund_fee": null,
+    "card_brand": null,
+    "currency": "EUR",
+    "region": "WW",
+    "payout_oct_fix": 0.75
+  },
+  "total_fees": {
+    "comission_percent": 3.53,
+    "comission_eur": 106.0
+  },
+  "deviation": {
+    "actual": 106.0,
+    "calculated": 90.75,
+    "difference": 15.25,
+    "difference_percent": 16.8
+  },
+  "commission_fees": {},
+  "cost_fees": {},
+  "calculation": {
+    "type": "payout",
+    "description": "Payout (Outgoing)",
+    "formula": "(3000.00 x 3.0%) + 0.75",
+    "steps": [
+      {
+        "label": "Amount (EUR)",
+        "value": 3000.0
+      },
+      {
+        "label": "Payout Rate (3.0%)",
+        "value": 90.0
+      },
+      {
+        "label": "Payout Fixed",
+        "value": 0.75
+      },
+      {
+        "label": "Total",
+        "value": 90.75
+      }
+    ],
+    "calculated": 90.75
+  }
+}

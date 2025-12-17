@@ -1,0 +1,116 @@
+{
+  "transaction": {
+    "transaction_id": "dd519a82-89d9-46e2-84a5-310f8f35ce77",
+    "error_message": "0",
+    "transaction_status": "approved",
+    "created_date_no_time": "2025-10-17",
+    "merchant_error_code": 0,
+    "transaction_type": "payout",
+    "type": "payout",
+    "external_error_code": "0",
+    "merchant_error_message": "0",
+    "external_error_message": "0",
+    "error_code": 0,
+    "created_date": "2025-10-17 17:43:38.225509 UTC",
+    "status": "approved"
+  },
+  "order_details": {
+    "eea": "non-EEA",
+    "country": "CL",
+    "bin": 434560,
+    "running_sum": 1561173.56,
+    "endpoint_id": 41499,
+    "gate_name": "card",
+    "amount_eur": 80.62,
+    "fx_date": "2025-10-17",
+    "european_union": "non-EU",
+    "card_brand": "VISA",
+    "currency": "EUR",
+    "fx_rate": 1.0,
+    "requisites_bank": null,
+    "card_brand_group": "Visa",
+    "mapping": "Chile",
+    "amount": 80.62,
+    "requisites_country": "CL",
+    "traffic_type_group": "oct",
+    "gate_descriptor": "OUT - Xpate EU DigitalCamo (VISA)",
+    "card_bank_name": "BANCO DEL ESTADO DE CHILE",
+    "card_type": "Visa",
+    "user_id": 48630890,
+    "gate_id": 36,
+    "main_requisite": "434560******3619",
+    "order_id": 1448958221
+  },
+  "merchant": {
+    "company_id": 12,
+    "kam": "Anna",
+    "company_name": "Start2Pay",
+    "merchant_name": "Faro Entertainment",
+    "merchant_group": "S2P",
+    "merchant_id": 30
+  },
+  "processing": {
+    "acquirer_name": "Xpate EU",
+    "processor_name": "Xpate",
+    "processor_id": 36,
+    "gate_name": "card"
+  },
+  "applied_plan": {
+    "wl_percent": null,
+    "operation_type": "outgoing",
+    "contract_id": "VSP-040823-20",
+    "traffic_type": null,
+    "fixed_fee": null,
+    "actual_commission": 3.82,
+    "exchange_fee_percent": 0.5,
+    "plan_key": "VSP-040823-20:outgoing:card:22",
+    "amount_eur": 80.62,
+    "payment_type": "card",
+    "tier": null,
+    "payout_percent": 3.5,
+    "calculated_commission": 3.8217,
+    "currency_type": "fiat",
+    "chb_fee": null,
+    "refund_fee": null,
+    "card_brand": "MC",
+    "currency": "EUR",
+    "region": "WW",
+    "payout_oct_fix": 1
+  },
+  "total_fees": {
+    "comission_percent": 4.74,
+    "comission_eur": 3.82
+  },
+  "deviation": {
+    "actual": 3.82,
+    "calculated": 3.82,
+    "difference": -0.0,
+    "difference_percent": -0.0
+  },
+  "commission_fees": {},
+  "cost_fees": {},
+  "calculation": {
+    "type": "payout",
+    "description": "Payout (Outgoing)",
+    "formula": "(80.62 x 3.5%) + 1.00",
+    "steps": [
+      {
+        "label": "Amount (EUR)",
+        "value": 80.62
+      },
+      {
+        "label": "Payout Rate (3.5%)",
+        "value": 2.82
+      },
+      {
+        "label": "Payout Fixed",
+        "value": 1
+      },
+      {
+        "label": "Total",
+        "value": 3.82
+      }
+    ],
+    "calculated": 3.82
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "transaction": {
+    "transaction_id": "dd12b408-b16e-4a1c-8766-04ef17eb1cfb",
+    "error_message": "0",
+    "transaction_status": "approved",
+    "created_date_no_time": "2025-12-11",
+    "merchant_error_code": 0,
+    "transaction_type": "sale",
+    "type": "payment",
+    "external_error_code": "0",
+    "merchant_error_message": "0",
+    "external_error_message": "0",
+    "error_code": 0,
+    "created_date": "2025-12-11 15:54:40.604076 UTC",
+    "status": "approved"
+  },
+  "order_details": {
+    "eea": "EEA",
+    "country": "DE",
+    "bin": null,
+    "running_sum": 834572.53,
+    "endpoint_id": 70050598,
+    "gate_name": "openbanking",
+    "amount_eur": 20.0,
+    "fx_date": "2025-12-11",
+    "european_union": "EU",
+    "card_brand": null,
+    "currency": "EUR",
+    "fx_rate": 1.0,
+    "requisites_bank": "BERLINER SPARKASSE",
+    "card_brand_group": "Any",
+    "mapping": "Germany",
+    "amount": 20.0,
+    "requisites_country": "PL",
+    "traffic_type_group": "openbanking",
+    "gate_descriptor": "IN - Volt Skunlock Openbanking",
+    "card_bank_name": null,
+    "card_type": "Any",
+    "user_id": 50079730,
+    "gate_id": 69,
+    "main_requisite": "DE37100500001067159050",
+    "order_id": 1457635681
+  },
+  "merchant": {
+    "company_id": 128,
+    "kam": "Anna",
+    "company_name": "GR8",
+    "merchant_name": "SUISEN SOLUTIONS LIMITED",
+    "merchant_group": "GR8",
+    "merchant_id": 243
+  },
+  "processing": {
+    "acquirer_name": "Volt",
+    "processor_name": "Volt",
+    "processor_id": 69,
+    "gate_name": "openbanking"
+  },
+  "applied_plan": {
+    "wl_percent": 3.0,
+    "operation_type": "incoming",
+    "contract_id": "VSP-281124-2",
+    "traffic_type": null,
+    "fixed_fee": 1,
+    "actual_commission": 1.6,
+    "exchange_fee_percent": 0.5,
+    "plan_key": "VSP-281124-2:incoming:apm:23",
+    "amount_eur": 20.0,
+    "payment_type": "apm",
+    "tier": null,
+    "payout_percent": null,
+    "calculated_commission": 1.6,
+    "currency_type": "fiat",
+    "chb_fee": 20,
+    "refund_fee": 1,
+    "card_brand": null,
+    "currency": "EUR",
+    "region": "EEA",
+    "payout_oct_fix": null
+  },
+  "total_fees": {
+    "comission_percent": 8.0,
+    "comission_eur": 1.6
+  },
+  "deviation": {
+    "actual": 1.6,
+    "calculated": 1.6,
+    "difference": 0.0,
+    "difference_percent": 0.0
+  },
+  "commission_fees": {},
+  "cost_fees": {},
+  "calculation": {
+    "type": "sale_eur",
+    "description": "Sale (EUR)",
+    "formula": "(20.00 x 3.0%) + 1.00",
+    "steps": [
+      {
+        "label": "Amount (EUR)",
+        "value": 20.0
+      },
+      {
+        "label": "WL Rate (3.0%)",
+        "value": 0.6
+      },
+      {
+        "label": "Fixed Fee",
+        "value": 1
+      },
+      {
+        "label": "Total",
+        "value": 1.6
+      }
+    ],
+    "calculated": 1.6
+  }
+}

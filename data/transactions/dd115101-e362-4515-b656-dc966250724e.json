@@ -1,0 +1,120 @@
+{
+  "transaction": {
+    "transaction_id": "dd115101-e362-4515-b656-dc966250724e",
+    "error_message": "Insufficient funds",
+    "transaction_status": "declined",
+    "created_date_no_time": "2025-12-11",
+    "merchant_error_code": 28,
+    "transaction_type": "sale",
+    "type": "payment",
+    "external_error_code": "Insufficient funds/over credit limit",
+    "merchant_error_message": "INSUFFICIENT_FUNDS",
+    "external_error_message": "0",
+    "error_code": 9066,
+    "created_date": "2025-12-11 12:41:26.403593 UTC",
+    "status": "declined"
+  },
+  "order_details": {
+    "eea": "EEA",
+    "country": "PL",
+    "bin": 557519,
+    "running_sum": 3736.0,
+    "endpoint_id": 70051087,
+    "gate_name": "card",
+    "amount_eur": 8.28474527485471,
+    "fx_date": "2025-12-11",
+    "european_union": "EU",
+    "card_brand": "MASTERCARD",
+    "currency": "PLN",
+    "fx_rate": 4.224632,
+    "requisites_bank": null,
+    "card_brand_group": "MasterCard",
+    "mapping": "Poland",
+    "amount": 35.0,
+    "requisites_country": "PL",
+    "traffic_type_group": "wl",
+    "gate_descriptor": "IN - Xpate AimSkinz",
+    "card_bank_name": "SANTANDER BANK POLSKA S.A.",
+    "card_type": "MasterCard",
+    "user_id": 57285602,
+    "gate_id": 36,
+    "main_requisite": "557519******2054",
+    "order_id": 1457607760
+  },
+  "merchant": {
+    "company_id": 190,
+    "kam": "Karolina",
+    "company_name": "Yougmedia B.V.",
+    "merchant_name": "Yougmedia B.V.",
+    "merchant_group": "Fonbet",
+    "merchant_id": 405
+  },
+  "processing": {
+    "acquirer_name": "Xpate",
+    "processor_name": "Xpate",
+    "processor_id": 36,
+    "gate_name": "card"
+  },
+  "applied_plan": {
+    "wl_percent": 6.5,
+    "operation_type": "incoming",
+    "contract_id": "VSP-300925-1",
+    "traffic_type": null,
+    "fixed_fee": 1,
+    "actual_commission": 0.0,
+    "exchange_fee_percent": 1.0,
+    "plan_key": "VSP-300925-1:incoming:card:6",
+    "amount_eur": 8.28474527485471,
+    "payment_type": "card",
+    "tier": null,
+    "payout_percent": null,
+    "calculated_commission": 1.6214,
+    "currency_type": "fiat",
+    "chb_fee": 70,
+    "refund_fee": 1,
+    "card_brand": null,
+    "currency": "PLN",
+    "region": "Poland",
+    "payout_oct_fix": null
+  },
+  "total_fees": {
+    "comission_percent": 0.0,
+    "comission_eur": 0.0
+  },
+  "deviation": {
+    "actual": 0,
+    "calculated": 1.62,
+    "difference": -1.62,
+    "difference_percent": -100.0
+  },
+  "commission_fees": {},
+  "cost_fees": {},
+  "calculation": {
+    "type": "sale_fx",
+    "description": "Sale (PLN)",
+    "formula": "(8.28 x 1.0%) + (8.28 x 6.5%) + 1.00",
+    "steps": [
+      {
+        "label": "Amount (EUR)",
+        "value": 8.28474527485471
+      },
+      {
+        "label": "Exchange Fee (1.0%)",
+        "value": 0.08
+      },
+      {
+        "label": "WL Rate (6.5%)",
+        "value": 0.54
+      },
+      {
+        "label": "Fixed Fee",
+        "value": 1
+      },
+      {
+        "label": "Total",
+        "value": 1.62
+      }
+    ],
+    "calculated": 1.62
+  }
+}

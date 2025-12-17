@@ -1,0 +1,116 @@
+{
+  "transaction": {
+    "transaction_id": "dd117f6c-27b2-4a50-815b-99afcff21f2b",
+    "error_message": "0",
+    "transaction_status": "approved",
+    "created_date_no_time": "2025-11-21",
+    "merchant_error_code": 0,
+    "transaction_type": "sale",
+    "type": "payment",
+    "external_error_code": "0",
+    "merchant_error_message": "0",
+    "external_error_message": "0",
+    "error_code": 0,
+    "created_date": "2025-11-21 10:51:20.709924 UTC",
+    "status": "approved"
+  },
+  "order_details": {
+    "eea": "non-EEA",
+    "country": "CH",
+    "bin": 431431400,
+    "running_sum": 35614.76,
+    "endpoint_id": 70051087,
+    "gate_name": "card",
+    "amount_eur": 30.0,
+    "fx_date": "2025-11-21",
+    "european_union": "non-EU",
+    "card_brand": "VISA",
+    "currency": "EUR",
+    "fx_rate": 1.0,
+    "requisites_bank": null,
+    "card_brand_group": "Visa",
+    "mapping": "Switzerland",
+    "amount": 30.0,
+    "requisites_country": "CH",
+    "traffic_type_group": "wl",
+    "gate_descriptor": "IN - Walletto Artimatter",
+    "card_bank_name": "CORNER BANCA S.A.",
+    "card_type": "Visa",
+    "user_id": 49884674,
+    "gate_id": 7,
+    "main_requisite": "431431******2879",
+    "order_id": 1454223101
+  },
+  "merchant": {
+    "company_id": 190,
+    "kam": "Karolina",
+    "company_name": "Yougmedia B.V.",
+    "merchant_name": "Yougmedia B.V.",
+    "merchant_group": "Fonbet",
+    "merchant_id": 405
+  },
+  "processing": {
+    "acquirer_name": "Walletto",
+    "processor_name": "Walletto",
+    "processor_id": 7,
+    "gate_name": "card"
+  },
+  "applied_plan": {
+    "wl_percent": 6.5,
+    "operation_type": "incoming",
+    "contract_id": "VSP-300925-1",
+    "traffic_type": null,
+    "fixed_fee": 0.25,
+    "actual_commission": 2.05,
+    "exchange_fee_percent": 1.0,
+    "plan_key": "VSP-300925-1:incoming:card:4",
+    "amount_eur": 30.0,
+    "payment_type": "card",
+    "tier": null,
+    "payout_percent": null,
+    "calculated_commission": 2.2,
+    "currency_type": "fiat",
+    "chb_fee": 70,
+    "refund_fee": 1,
+    "card_brand": null,
+    "currency": "EUR",
+    "region": "WW",
+    "payout_oct_fix": null
+  },
+  "total_fees": {
+    "comission_percent": 6.83,
+    "comission_eur": 2.05
+  },
+  "deviation": {
+    "actual": 2.05,
+    "calculated": 2.2,
+    "difference": -0.15,
+    "difference_percent": -6.8
+  },
+  "commission_fees": {},
+  "cost_fees": {},
+  "calculation": {
+    "type": "sale_eur",
+    "description": "Sale (EUR)",
+    "formula": "(30.00 x 6.5%) + 0.25",
+    "steps": [
+      {
+        "label": "Amount (EUR)",
+        "value": 30.0
+      },
+      {
+        "label": "WL Rate (6.5%)",
+        "value": 1.95
+      },
+      {
+        "label": "Fixed Fee",
+        "value": 0.25
+      },
+      {
+        "label": "Total",
+        "value": 2.2
+      }
+    ],
+    "calculated": 2.2
+  }
+}

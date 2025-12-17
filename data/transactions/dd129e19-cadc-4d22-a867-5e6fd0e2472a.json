@@ -1,0 +1,116 @@
+{
+  "transaction": {
+    "transaction_id": "dd129e19-cadc-4d22-a867-5e6fd0e2472a",
+    "error_message": "0",
+    "transaction_status": "approved",
+    "created_date_no_time": "2025-12-11",
+    "merchant_error_code": 0,
+    "transaction_type": "sale",
+    "type": "payment",
+    "external_error_code": "0",
+    "merchant_error_message": "0",
+    "external_error_message": "0",
+    "error_code": 0,
+    "created_date": "2025-12-11 16:34:33.872203 UTC",
+    "status": "approved"
+  },
+  "order_details": {
+    "eea": "EEA",
+    "country": "DE",
+    "bin": 454793071,
+    "running_sum": 490694.25,
+    "endpoint_id": null,
+    "gate_name": "apple_pay",
+    "amount_eur": 15.0,
+    "fx_date": "2025-12-11",
+    "european_union": "EU",
+    "card_brand": "VISA",
+    "currency": "EUR",
+    "fx_rate": 1.0,
+    "requisites_bank": null,
+    "card_brand_group": "Visa",
+    "mapping": "Germany",
+    "amount": 15.0,
+    "requisites_country": "PL",
+    "traffic_type_group": "apple_pay",
+    "gate_descriptor": "IN - Walletto Skinvalut ApplePay",
+    "card_bank_name": "REVOLUT BANK UAB",
+    "card_type": "Visa",
+    "user_id": 32855646,
+    "gate_id": 7,
+    "main_requisite": "454793******3321",
+    "order_id": null
+  },
+  "merchant": {
+    "company_id": 128,
+    "kam": "Anna",
+    "company_name": "GR8",
+    "merchant_name": "SUISEN SOLUTIONS LIMITED",
+    "merchant_group": "GR8",
+    "merchant_id": 243
+  },
+  "processing": {
+    "acquirer_name": "Walletto",
+    "processor_name": "Walletto",
+    "processor_id": 7,
+    "gate_name": "apple_pay"
+  },
+  "applied_plan": {
+    "wl_percent": 6.0,
+    "operation_type": "incoming",
+    "contract_id": "VSP-281124-2",
+    "traffic_type": null,
+    "fixed_fee": 0.25,
+    "actual_commission": 1.0,
+    "exchange_fee_percent": 0.5,
+    "plan_key": "VSP-281124-2:incoming:apm:12",
+    "amount_eur": 15.0,
+    "payment_type": "apm",
+    "tier": null,
+    "payout_percent": null,
+    "calculated_commission": 1.15,
+    "currency_type": "fiat",
+    "chb_fee": 30,
+    "refund_fee": 1,
+    "card_brand": null,
+    "currency": "EUR",
+    "region": "EEA",
+    "payout_oct_fix": null
+  },
+  "total_fees": {
+    "comission_percent": 6.67,
+    "comission_eur": 1.0
+  },
+  "deviation": {
+    "actual": 1.0,
+    "calculated": 1.15,
+    "difference": -0.15,
+    "difference_percent": -13.0
+  },
+  "commission_fees": {},
+  "cost_fees": {},
+  "calculation": {
+    "type": "sale_eur",
+    "description": "Sale (EUR)",
+    "formula": "(15.00 x 6.0%) + 0.25",
+    "steps": [
+      {
+        "label": "Amount (EUR)",
+        "value": 15.0
+      },
+      {
+        "label": "WL Rate (6.0%)",
+        "value": 0.9
+      },
+      {
+        "label": "Fixed Fee",
+        "value": 0.25
+      },
+      {
+        "label": "Total",
+        "value": 1.15
+      }
+    ],
+    "calculated": 1.15
+  }
+}

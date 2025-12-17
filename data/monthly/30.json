@@ -1,0 +1,170 @@
+[
+  {
+    "month": "2025-12",
+    "transaction_count": 16583,
+    "approved_count": 11434,
+    "declined_count": 5149,
+    "total_amount_eur": 441937.06,
+    "acceptance_rate": 69.0
+  },
+  {
+    "month": "2025-11",
+    "transaction_count": 32339,
+    "approved_count": 21815,
+    "declined_count": 10524,
+    "total_amount_eur": 1109011.86,
+    "acceptance_rate": 67.5
+  },
+  {
+    "month": "2025-10",
+    "transaction_count": 31100,
+    "approved_count": 21198,
+    "declined_count": 9902,
+    "total_amount_eur": 1120932.16,
+    "acceptance_rate": 68.2
+  },
+  {
+    "month": "2025-09",
+    "transaction_count": 38472,
+    "approved_count": 27477,
+    "declined_count": 10995,
+    "total_amount_eur": 1288140.65,
+    "acceptance_rate": 71.4
+  },
+  {
+    "month": "2025-08",
+    "transaction_count": 45674,
+    "approved_count": 32670,
+    "declined_count": 13004,
+    "total_amount_eur": 1788675.11,
+    "acceptance_rate": 71.5
+  },
+  {
+    "month": "2025-07",
+    "transaction_count": 75510,
+    "approved_count": 56286,
+    "declined_count": 19224,
+    "total_amount_eur": 3446350.54,
+    "acceptance_rate": 74.5
+  },
+  {
+    "month": "2025-06",
+    "transaction_count": 56680,
+    "approved_count": 43594,
+    "declined_count": 13086,
+    "total_amount_eur": 2272442.18,
+    "acceptance_rate": 76.9
+  },
+  {
+    "month": "2025-05",
+    "transaction_count": 72615,
+    "approved_count": 56920,
+    "declined_count": 15695,
+    "total_amount_eur": 3002004.87,
+    "acceptance_rate": 78.4
+  },
+  {
+    "month": "2025-04",
+    "transaction_count": 84170,
+    "approved_count": 65048,
+    "declined_count": 19122,
+    "total_amount_eur": 4401634.25,
+    "acceptance_rate": 77.3
+  },
+  {
+    "month": "2025-03",
+    "transaction_count": 89796,
+    "approved_count": 72326,
+    "declined_count": 17470,
+    "total_amount_eur": 5929507.19,
+    "acceptance_rate": 80.5
+  },
+  {
+    "month": "2025-02",
+    "transaction_count": 64726,
+    "approved_count": 51238,
+    "declined_count": 13488,
+    "total_amount_eur": 3174740.43,
+    "acceptance_rate": 79.2
+  },
+  {
+    "month": "2025-01",
+    "transaction_count": 74207,
+    "approved_count": 59826,
+    "declined_count": 14381,
+    "total_amount_eur": 4011149.84,
+    "acceptance_rate": 80.6
+  },
+  {
+    "month": "2024-12",
+    "transaction_count": 50772,
+    "approved_count": 39369,
+    "declined_count": 11403,
+    "total_amount_eur": 3660523.85,
+    "acceptance_rate": 77.5
+  },
+  {
+    "month": "2024-11",
+    "transaction_count": 65270,
+    "approved_count": 50918,
+    "declined_count": 14352,
+    "total_amount_eur": 4062832.27,
+    "acceptance_rate": 78.0
+  },
+  {
+    "month": "2024-10",
+    "transaction_count": 35070,
+    "approved_count": 27273,
+    "declined_count": 7797,
+    "total_amount_eur": 1547619.33,
+    "acceptance_rate": 77.8
+  },
+  {
+    "month": "2024-09",
+    "transaction_count": 19944,
+    "approved_count": 15619,
+    "declined_count": 4325,
+    "total_amount_eur": 1376255.5,
+    "acceptance_rate": 78.3
+  },
+  {
+    "month": "2024-08",
+    "transaction_count": 51896,
+    "approved_count": 42502,
+    "declined_count": 9394,
+    "total_amount_eur": 2661754.67,
+    "acceptance_rate": 81.9
+  },
+  {
+    "month": "2024-07",
+    "transaction_count": 54963,
+    "approved_count": 44860,
+    "declined_count": 10103,
+    "total_amount_eur": 3017673.35,
+    "acceptance_rate": 81.6
+  },
+  {
+    "month": "2024-06",
+    "transaction_count": 27173,
+    "approved_count": 19534,
+    "declined_count": 7639,
+    "total_amount_eur": 2043388.86,
+    "acceptance_rate": 71.9
+  },
+  {
+    "month": "2024-05",
+    "transaction_count": 35493,
+    "approved_count": 26163,
+    "declined_count": 9330,
+    "total_amount_eur": 2560904.45,
+    "acceptance_rate": 73.7
+  },
+  {
+    "month": "2024-03",
+    "transaction_count": 429,
+    "approved_count": 426,
+    "declined_count": 3,
+    "total_amount_eur": 276325.87,
+    "acceptance_rate": 99.3
+  }
+]

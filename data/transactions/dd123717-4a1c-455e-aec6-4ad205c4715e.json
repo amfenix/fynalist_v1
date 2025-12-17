@@ -1,0 +1,116 @@
+{
+  "transaction": {
+    "transaction_id": "dd123717-4a1c-455e-aec6-4ad205c4715e",
+    "error_message": "0",
+    "transaction_status": "approved",
+    "created_date_no_time": "2025-12-11",
+    "merchant_error_code": 0,
+    "transaction_type": "sale",
+    "type": "payment",
+    "external_error_code": "0",
+    "merchant_error_message": "0",
+    "external_error_message": "0",
+    "error_code": 0,
+    "created_date": "2025-12-11 16:20:57.76693 UTC",
+    "status": "approved"
+  },
+  "order_details": {
+    "eea": "EEA",
+    "country": "DE",
+    "bin": null,
+    "running_sum": 835745.37,
+    "endpoint_id": 70050555,
+    "gate_name": "openbanking",
+    "amount_eur": 20.0,
+    "fx_date": "2025-12-11",
+    "european_union": "EU",
+    "card_brand": null,
+    "currency": "EUR",
+    "fx_rate": 1.0,
+    "requisites_bank": "N26",
+    "card_brand_group": "Any",
+    "mapping": "Germany",
+    "amount": 20.0,
+    "requisites_country": "DE",
+    "traffic_type_group": "openbanking",
+    "gate_descriptor": "IN - Volt Skunlock Openbanking",
+    "card_bank_name": null,
+    "card_type": "Any",
+    "user_id": 2105844,
+    "gate_id": 69,
+    "main_requisite": "DE88100110012816694512",
+    "order_id": 1457639649
+  },
+  "merchant": {
+    "company_id": 12,
+    "kam": "Anna",
+    "company_name": "Start2Pay",
+    "merchant_name": "Faro Entertainment",
+    "merchant_group": "S2P",
+    "merchant_id": 30
+  },
+  "processing": {
+    "acquirer_name": "Volt",
+    "processor_name": "Volt",
+    "processor_id": 69,
+    "gate_name": "openbanking"
+  },
+  "applied_plan": {
+    "wl_percent": 1.5,
+    "operation_type": "incoming",
+    "contract_id": "VSP-040823-20",
+    "traffic_type": null,
+    "fixed_fee": 0.3,
+    "actual_commission": 1.1,
+    "exchange_fee_percent": 0.5,
+    "plan_key": "VSP-040823-20:incoming:apm:13",
+    "amount_eur": 20.0,
+    "payment_type": "apm",
+    "tier": null,
+    "payout_percent": null,
+    "calculated_commission": 0.3,
+    "currency_type": "fiat",
+    "chb_fee": null,
+    "refund_fee": 1,
+    "card_brand": null,
+    "currency": "EUR",
+    "region": "EEA",
+    "payout_oct_fix": null
+  },
+  "total_fees": {
+    "comission_percent": 5.5,
+    "comission_eur": 1.1
+  },
+  "deviation": {
+    "actual": 1.1,
+    "calculated": 0.3,
+    "difference": 0.8,
+    "difference_percent": 266.7
+  },
+  "commission_fees": {},
+  "cost_fees": {},
+  "calculation": {
+    "type": "sale_eur",
+    "description": "Sale (EUR)",
+    "formula": "(20.00 x 1.5%) + 0.30",
+    "steps": [
+      {
+        "label": "Amount (EUR)",
+        "value": 20.0
+      },
+      {
+        "label": "WL Rate (1.5%)",
+        "value": 0.3
+      },
+      {
+        "label": "Fixed Fee",
+        "value": 0.3
+      },
+      {
+        "label": "Total",
+        "value": 0.6
+      }
+    ],
+    "calculated": 0.6
+  }
+}

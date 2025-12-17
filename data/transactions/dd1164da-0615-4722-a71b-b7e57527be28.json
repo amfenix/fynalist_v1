@@ -1,0 +1,116 @@
+{
+  "transaction": {
+    "transaction_id": "dd1164da-0615-4722-a71b-b7e57527be28",
+    "error_message": "0",
+    "transaction_status": "approved",
+    "created_date_no_time": "2024-11-25",
+    "merchant_error_code": null,
+    "transaction_type": "sale",
+    "type": "payment",
+    "external_error_code": "0",
+    "merchant_error_message": null,
+    "external_error_message": "0",
+    "error_code": 0,
+    "created_date": "2024-11-25 14:33:42.063512 UTC",
+    "status": "approved"
+  },
+  "order_details": {
+    "eea": "non-EEA",
+    "country": "TR",
+    "bin": 543081,
+    "running_sum": 892626.28,
+    "endpoint_id": 41502,
+    "gate_name": "card",
+    "amount_eur": 1381.7,
+    "fx_date": "2024-11-25",
+    "european_union": "EU",
+    "card_brand": "MASTERCARD",
+    "currency": "EUR",
+    "fx_rate": 1.0,
+    "requisites_bank": null,
+    "card_brand_group": "MasterCard",
+    "mapping": "Turkey",
+    "amount": 1381.7,
+    "requisites_country": "TR",
+    "traffic_type_group": "wl",
+    "gate_descriptor": "IN - Dimoco Dasurity EUR",
+    "card_bank_name": "TURKIYE HALK BANKASI A.S.",
+    "card_type": "MasterCard",
+    "user_id": 12668859,
+    "gate_id": 12,
+    "main_requisite": "543081******9703",
+    "order_id": 1413154012
+  },
+  "merchant": {
+    "company_id": 12,
+    "kam": "Anna",
+    "company_name": "Start2Pay",
+    "merchant_name": "Faro Entertainment",
+    "merchant_group": "S2P",
+    "merchant_id": 30
+  },
+  "processing": {
+    "acquirer_name": "Dimoco",
+    "processor_name": "Dimoco",
+    "processor_id": 12,
+    "gate_name": "card"
+  },
+  "applied_plan": {
+    "wl_percent": 6.0,
+    "operation_type": "incoming",
+    "contract_id": "VSP-040823-20",
+    "traffic_type": null,
+    "fixed_fee": 0.15,
+    "actual_commission": 120.36,
+    "exchange_fee_percent": 0.5,
+    "plan_key": "VSP-040823-20:incoming:card:2",
+    "amount_eur": 1381.7,
+    "payment_type": "card",
+    "tier": null,
+    "payout_percent": null,
+    "calculated_commission": 83.052,
+    "currency_type": "fiat",
+    "chb_fee": 50,
+    "refund_fee": 1,
+    "card_brand": null,
+    "currency": "EUR",
+    "region": "WW",
+    "payout_oct_fix": null
+  },
+  "total_fees": {
+    "comission_percent": 8.71,
+    "comission_eur": 120.36
+  },
+  "deviation": {
+    "actual": 120.36,
+    "calculated": 83.05,
+    "difference": 37.31,
+    "difference_percent": 44.9
+  },
+  "commission_fees": {},
+  "cost_fees": {},
+  "calculation": {
+    "type": "sale_eur",
+    "description": "Sale (EUR)",
+    "formula": "(1381.70 x 6.0%) + 0.15",
+    "steps": [
+      {
+        "label": "Amount (EUR)",
+        "value": 1381.7
+      },
+      {
+        "label": "WL Rate (6.0%)",
+        "value": 82.9
+      },
+      {
+        "label": "Fixed Fee",
+        "value": 0.15
+      },
+      {
+        "label": "Total",
+        "value": 83.05
+      }
+    ],
+    "calculated": 83.05
+  }
+}

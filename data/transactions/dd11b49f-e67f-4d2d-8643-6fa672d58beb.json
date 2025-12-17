@@ -1,0 +1,116 @@
+{
+  "transaction": {
+    "transaction_id": "dd11b49f-e67f-4d2d-8643-6fa672d58beb",
+    "error_message": "0",
+    "transaction_status": "approved",
+    "created_date_no_time": "2025-11-10",
+    "merchant_error_code": 0,
+    "transaction_type": "sale",
+    "type": "payment",
+    "external_error_code": "0",
+    "merchant_error_message": "0",
+    "external_error_message": "0",
+    "error_code": 0,
+    "created_date": "2025-11-10 14:33:39.269069 UTC",
+    "status": "approved"
+  },
+  "order_details": {
+    "eea": "EEA",
+    "country": "HU",
+    "bin": 41659840,
+    "running_sum": 533464.89,
+    "endpoint_id": 70050492,
+    "gate_name": "card",
+    "amount_eur": 2608.23,
+    "fx_date": "2025-11-10",
+    "european_union": "EU",
+    "card_brand": "VISA",
+    "currency": "EUR",
+    "fx_rate": 1.0,
+    "requisites_bank": null,
+    "card_brand_group": "Visa",
+    "mapping": "Hungary",
+    "amount": 2608.23,
+    "requisites_country": "HU",
+    "traffic_type_group": "wl",
+    "gate_descriptor": "IN - Xpate Terragaminex",
+    "card_bank_name": "REVOLUT BANK UAB",
+    "card_type": "Visa",
+    "user_id": 30413563,
+    "gate_id": 36,
+    "main_requisite": "416598******6019",
+    "order_id": 1452588261
+  },
+  "merchant": {
+    "company_id": 128,
+    "kam": "Anna",
+    "company_name": "GR8",
+    "merchant_name": "SUISEN SOLUTIONS LIMITED",
+    "merchant_group": "GR8",
+    "merchant_id": 243
+  },
+  "processing": {
+    "acquirer_name": "Xpate",
+    "processor_name": "Xpate",
+    "processor_id": 36,
+    "gate_name": "card"
+  },
+  "applied_plan": {
+    "wl_percent": 6.0,
+    "operation_type": "incoming",
+    "contract_id": "VSP-281124-2",
+    "traffic_type": null,
+    "fixed_fee": 0.25,
+    "actual_commission": 130.66,
+    "exchange_fee_percent": 0.5,
+    "plan_key": "VSP-281124-2:incoming:card:4",
+    "amount_eur": 2608.23,
+    "payment_type": "card",
+    "tier": null,
+    "payout_percent": null,
+    "calculated_commission": 156.7438,
+    "currency_type": "fiat",
+    "chb_fee": 70,
+    "refund_fee": 3,
+    "card_brand": null,
+    "currency": "EUR",
+    "region": "EEA",
+    "payout_oct_fix": null
+  },
+  "total_fees": {
+    "comission_percent": 5.01,
+    "comission_eur": 130.66
+  },
+  "deviation": {
+    "actual": 130.66,
+    "calculated": 156.74,
+    "difference": -26.08,
+    "difference_percent": -16.6
+  },
+  "commission_fees": {},
+  "cost_fees": {},
+  "calculation": {
+    "type": "sale_eur",
+    "description": "Sale (EUR)",
+    "formula": "(2608.23 x 6.0%) + 0.25",
+    "steps": [
+      {
+        "label": "Amount (EUR)",
+        "value": 2608.23
+      },
+      {
+        "label": "WL Rate (6.0%)",
+        "value": 156.49
+      },
+      {
+        "label": "Fixed Fee",
+        "value": 0.25
+      },
+      {
+        "label": "Total",
+        "value": 156.74
+      }
+    ],
+    "calculated": 156.74
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "merchant_id": 405,
+  "merchant_name": "Yougmedia B.V.",
+  "merchant_group": "Fonbet",
+  "company_id": 190,
+  "company_name": "Yougmedia B.V.",
+  "kam": "Karolina",
+  "transaction_count": 17141,
+  "approved_count": 10950,
+  "declined_count": 6191,
+  "acceptance_rate": 63.9,
+  "total_amount_eur": 1282166.62,
+  "total_commission_eur": 39674.82,
+  "avg_commission_percent": 3.09,
+  "sale_count": 15534,
+  "payout_count": 1607,
+  "reversal_count": 0,
+  "first_transaction_date": "2025-10-14 13:02:35.050692 UTC",
+  "eur_count": 14832,
+  "non_eur_count": 2309,
+  "eur_percentage": 86.5
+}

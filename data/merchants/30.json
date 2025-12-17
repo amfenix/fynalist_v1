@@ -1,0 +1,22 @@
+{
+  "merchant_id": 30,
+  "merchant_name": "Faro Entertainment",
+  "merchant_group": "S2P",
+  "company_id": 12,
+  "company_name": "Start2Pay",
+  "kam": "Anna",
+  "transaction_count": 1022882,
+  "approved_count": 786496,
+  "declined_count": 236386,
+  "acceptance_rate": 76.9,
+  "total_amount_eur": 53193804.29,
+  "total_commission_eur": 2474307.72,
+  "avg_commission_percent": 4.65,
+  "sale_count": 968002,
+  "payout_count": 54849,
+  "reversal_count": 31,
+  "first_transaction_date": "2024-03-07 17:51:53.146508 UTC",
+  "eur_count": 1022861,
+  "non_eur_count": 21,
+  "eur_percentage": 100.0
+}

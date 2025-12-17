@@ -1,0 +1,116 @@
+{
+  "transaction": {
+    "transaction_id": "dd1214fa-58f4-4fa8-a47d-a5273b6203c2",
+    "error_message": "0",
+    "transaction_status": "approved",
+    "created_date_no_time": "2025-05-19",
+    "merchant_error_code": 0,
+    "transaction_type": "sale",
+    "type": "payment",
+    "external_error_code": "0",
+    "merchant_error_message": "0",
+    "external_error_message": "0",
+    "error_code": 0,
+    "created_date": "2025-05-19 17:10:12.2916 UTC",
+    "status": "approved"
+  },
+  "order_details": {
+    "eea": "EEA",
+    "country": "HU",
+    "bin": 44811594,
+    "running_sum": 2225468.07,
+    "endpoint_id": 70050493,
+    "gate_name": "apple_pay",
+    "amount_eur": 995.41,
+    "fx_date": "2025-05-19",
+    "european_union": "EU",
+    "card_brand": "VISA",
+    "currency": "EUR",
+    "fx_rate": 1.0,
+    "requisites_bank": null,
+    "card_brand_group": "Visa",
+    "mapping": "Hungary",
+    "amount": 995.41,
+    "requisites_country": "HU",
+    "traffic_type_group": "apple_pay",
+    "gate_descriptor": "IN - Walletto Lumant ApplePay",
+    "card_bank_name": "OTP BANK NYRT.",
+    "card_type": "Visa",
+    "user_id": 20062130,
+    "gate_id": 7,
+    "main_requisite": "448115******0257",
+    "order_id": 1428034456
+  },
+  "merchant": {
+    "company_id": 128,
+    "kam": "Anna",
+    "company_name": "GR8",
+    "merchant_name": "SUISEN SOLUTIONS LIMITED",
+    "merchant_group": "GR8",
+    "merchant_id": 243
+  },
+  "processing": {
+    "acquirer_name": "Walletto",
+    "processor_name": "Walletto",
+    "processor_id": 7,
+    "gate_name": "apple_pay"
+  },
+  "applied_plan": {
+    "wl_percent": 5.5,
+    "operation_type": "incoming",
+    "contract_id": "VSP-281124-2",
+    "traffic_type": null,
+    "fixed_fee": 0.25,
+    "actual_commission": 70.68,
+    "exchange_fee_percent": 0.5,
+    "plan_key": "VSP-281124-2:incoming:apm:14",
+    "amount_eur": 995.41,
+    "payment_type": "apm",
+    "tier": null,
+    "payout_percent": null,
+    "calculated_commission": 54.9975,
+    "currency_type": "fiat",
+    "chb_fee": 30,
+    "refund_fee": 1,
+    "card_brand": null,
+    "currency": "EUR",
+    "region": "EEA",
+    "payout_oct_fix": null
+  },
+  "total_fees": {
+    "comission_percent": 7.1,
+    "comission_eur": 70.68
+  },
+  "deviation": {
+    "actual": 70.68,
+    "calculated": 55.0,
+    "difference": 15.68,
+    "difference_percent": 28.5
+  },
+  "commission_fees": {},
+  "cost_fees": {},
+  "calculation": {
+    "type": "sale_eur",
+    "description": "Sale (EUR)",
+    "formula": "(995.41 x 5.5%) + 0.25",
+    "steps": [
+      {
+        "label": "Amount (EUR)",
+        "value": 995.41
+      },
+      {
+        "label": "WL Rate (5.5%)",
+        "value": 54.75
+      },
+      {
+        "label": "Fixed Fee",
+        "value": 0.25
+      },
+      {
+        "label": "Total",
+        "value": 55.0
+      }
+    ],
+    "calculated": 55.0
+  }
+}

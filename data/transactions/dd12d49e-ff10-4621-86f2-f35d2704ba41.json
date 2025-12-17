@@ -1,0 +1,116 @@
+{
+  "transaction": {
+    "transaction_id": "dd12d49e-ff10-4621-86f2-f35d2704ba41",
+    "error_message": "0",
+    "transaction_status": "approved",
+    "created_date_no_time": "2025-12-02",
+    "merchant_error_code": 0,
+    "transaction_type": "sale",
+    "type": "payment",
+    "external_error_code": "0",
+    "merchant_error_message": "0",
+    "external_error_message": "0",
+    "error_code": 0,
+    "created_date": "2025-12-02 04:30:34.54969 UTC",
+    "status": "approved"
+  },
+  "order_details": {
+    "eea": "EEA",
+    "country": "DE",
+    "bin": 53496492,
+    "running_sum": 6121.57,
+    "endpoint_id": 70050176,
+    "gate_name": "google_pay",
+    "amount_eur": 220.0,
+    "fx_date": "2025-12-02",
+    "european_union": "EU",
+    "card_brand": "MASTERCARD",
+    "currency": "EUR",
+    "fx_rate": 1.0,
+    "requisites_bank": null,
+    "card_brand_group": "MasterCard",
+    "mapping": "Germany",
+    "amount": 220.0,
+    "requisites_country": "DE",
+    "traffic_type_group": "google_pay",
+    "gate_descriptor": "IN - Sends (Myatranz) DivineNode EUR GooglePay",
+    "card_bank_name": "DEUTSCHE BANK AG",
+    "card_type": "MasterCard",
+    "user_id": 14233096,
+    "gate_id": 75,
+    "main_requisite": "534964******1783",
+    "order_id": 1455916311
+  },
+  "merchant": {
+    "company_id": 12,
+    "kam": "Anna",
+    "company_name": "Start2Pay",
+    "merchant_name": "Faro Entertainment",
+    "merchant_group": "S2P",
+    "merchant_id": 30
+  },
+  "processing": {
+    "acquirer_name": "Sends",
+    "processor_name": "LeoConte (Myatranz)",
+    "processor_id": 75,
+    "gate_name": "google_pay"
+  },
+  "applied_plan": {
+    "wl_percent": 6.0,
+    "operation_type": "incoming",
+    "contract_id": "VSP-040823-20",
+    "traffic_type": null,
+    "fixed_fee": 0.15,
+    "actual_commission": 13.35,
+    "exchange_fee_percent": 0.5,
+    "plan_key": "VSP-040823-20:incoming:apm:15",
+    "amount_eur": 220.0,
+    "payment_type": "apm",
+    "tier": null,
+    "payout_percent": null,
+    "calculated_commission": 13.35,
+    "currency_type": "fiat",
+    "chb_fee": 50,
+    "refund_fee": 1,
+    "card_brand": null,
+    "currency": "EUR",
+    "region": "EEA",
+    "payout_oct_fix": null
+  },
+  "total_fees": {
+    "comission_percent": 6.07,
+    "comission_eur": 13.35
+  },
+  "deviation": {
+    "actual": 13.35,
+    "calculated": 13.35,
+    "difference": 0.0,
+    "difference_percent": 0.0
+  },
+  "commission_fees": {},
+  "cost_fees": {},
+  "calculation": {
+    "type": "sale_eur",
+    "description": "Sale (EUR)",
+    "formula": "(220.00 x 6.0%) + 0.15",
+    "steps": [
+      {
+        "label": "Amount (EUR)",
+        "value": 220.0
+      },
+      {
+        "label": "WL Rate (6.0%)",
+        "value": 13.2
+      },
+      {
+        "label": "Fixed Fee",
+        "value": 0.15
+      },
+      {
+        "label": "Total",
+        "value": 13.35
+      }
+    ],
+    "calculated": 13.35
+  }
+}

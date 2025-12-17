@@ -1,0 +1,116 @@
+{
+  "transaction": {
+    "transaction_id": "dd121e35-400f-4536-8957-3947df10ace4",
+    "error_message": "0",
+    "transaction_status": "approved",
+    "created_date_no_time": "2025-05-28",
+    "merchant_error_code": 0,
+    "transaction_type": "sale",
+    "type": "payment",
+    "external_error_code": "0",
+    "merchant_error_message": "0",
+    "external_error_message": "0",
+    "error_code": 0,
+    "created_date": "2025-05-28 12:13:59.714502 UTC",
+    "status": "approved"
+  },
+  "order_details": {
+    "eea": "EEA",
+    "country": "DE",
+    "bin": null,
+    "running_sum": 5465.0,
+    "endpoint_id": 70050595,
+    "gate_name": "sofort",
+    "amount_eur": 200.0,
+    "fx_date": "2025-05-28",
+    "european_union": "EU",
+    "card_brand": null,
+    "currency": "EUR",
+    "fx_rate": 1.0,
+    "requisites_bank": null,
+    "card_brand_group": "Any",
+    "mapping": "Germany",
+    "amount": 200.0,
+    "requisites_country": "PL",
+    "traffic_type_group": "sofort",
+    "gate_descriptor": "IN - ZEN Blaiskin Sofort",
+    "card_bank_name": null,
+    "card_type": "Any",
+    "user_id": 22711043,
+    "gate_id": 60,
+    "main_requisite": null,
+    "order_id": 1428992686
+  },
+  "merchant": {
+    "company_id": 128,
+    "kam": "Anna",
+    "company_name": "GR8",
+    "merchant_name": "SUISEN SOLUTIONS LIMITED",
+    "merchant_group": "GR8",
+    "merchant_id": 243
+  },
+  "processing": {
+    "acquirer_name": "ZEN",
+    "processor_name": "ZEN",
+    "processor_id": 60,
+    "gate_name": "sofort"
+  },
+  "applied_plan": {
+    "wl_percent": 8.0,
+    "operation_type": "incoming",
+    "contract_id": "VSP-281124-2",
+    "traffic_type": null,
+    "fixed_fee": 2,
+    "actual_commission": 18.0,
+    "exchange_fee_percent": 0.5,
+    "plan_key": "VSP-281124-2:incoming:apm:11",
+    "amount_eur": 200.0,
+    "payment_type": "apm",
+    "tier": null,
+    "payout_percent": null,
+    "calculated_commission": 18.0,
+    "currency_type": "fiat",
+    "chb_fee": 20,
+    "refund_fee": 1,
+    "card_brand": null,
+    "currency": "EUR",
+    "region": "EEA",
+    "payout_oct_fix": null
+  },
+  "total_fees": {
+    "comission_percent": 9.0,
+    "comission_eur": 18.0
+  },
+  "deviation": {
+    "actual": 18.0,
+    "calculated": 18.0,
+    "difference": 0.0,
+    "difference_percent": 0.0
+  },
+  "commission_fees": {},
+  "cost_fees": {},
+  "calculation": {
+    "type": "sale_eur",
+    "description": "Sale (EUR)",
+    "formula": "(200.00 x 8.0%) + 2.00",
+    "steps": [
+      {
+        "label": "Amount (EUR)",
+        "value": 200.0
+      },
+      {
+        "label": "WL Rate (8.0%)",
+        "value": 16.0
+      },
+      {
+        "label": "Fixed Fee",
+        "value": 2
+      },
+      {
+        "label": "Total",
+        "value": 18.0
+      }
+    ],
+    "calculated": 18.0
+  }
+}

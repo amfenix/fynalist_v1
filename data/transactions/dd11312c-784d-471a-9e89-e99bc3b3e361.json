@@ -1,0 +1,120 @@
+{
+  "transaction": {
+    "transaction_id": "dd11312c-784d-471a-9e89-e99bc3b3e361",
+    "error_message": "0",
+    "transaction_status": "approved",
+    "created_date_no_time": "2025-10-31",
+    "merchant_error_code": 0,
+    "transaction_type": "sale",
+    "type": "payment",
+    "external_error_code": "0",
+    "merchant_error_message": "0",
+    "external_error_message": "0",
+    "error_code": 0,
+    "created_date": "2025-10-31 00:02:47.981371 UTC",
+    "status": "approved"
+  },
+  "order_details": {
+    "eea": "non-EEA",
+    "country": "CH",
+    "bin": 465968708,
+    "running_sum": 16610.4,
+    "endpoint_id": 70051087,
+    "gate_name": "card",
+    "amount_eur": 1713.3721197946952,
+    "fx_date": "2025-10-31",
+    "european_union": "non-EU",
+    "card_brand": "VISA",
+    "currency": "CHF",
+    "fx_rate": 0.933831,
+    "requisites_bank": null,
+    "card_brand_group": "Visa",
+    "mapping": "Switzerland",
+    "amount": 1600.0,
+    "requisites_country": "CH",
+    "traffic_type_group": "wl",
+    "gate_descriptor": "IN - Xpate Nuoplaym",
+    "card_bank_name": "VISECA PAYMENT SERVICES SA",
+    "card_type": "Visa",
+    "user_id": 50608017,
+    "gate_id": 36,
+    "main_requisite": "465968******7416",
+    "order_id": 1450935132
+  },
+  "merchant": {
+    "company_id": 190,
+    "kam": "Karolina",
+    "company_name": "Yougmedia B.V.",
+    "merchant_name": "Yougmedia B.V.",
+    "merchant_group": "Fonbet",
+    "merchant_id": 405
+  },
+  "processing": {
+    "acquirer_name": "Xpate",
+    "processor_name": "Xpate",
+    "processor_id": 36,
+    "gate_name": "card"
+  },
+  "applied_plan": {
+    "wl_percent": 7.0,
+    "operation_type": "incoming",
+    "contract_id": "VSP-300925-1",
+    "traffic_type": null,
+    "fixed_fee": 0.25,
+    "actual_commission": 120.20376277934659,
+    "exchange_fee_percent": 1.0,
+    "plan_key": "VSP-300925-1:incoming:card:7",
+    "amount_eur": 1713.3721197946952,
+    "payment_type": "card",
+    "tier": null,
+    "payout_percent": null,
+    "calculated_commission": 137.3198,
+    "currency_type": "fiat",
+    "chb_fee": 70,
+    "refund_fee": 1,
+    "card_brand": null,
+    "currency": "CHF",
+    "region": "Switzerland",
+    "payout_oct_fix": null
+  },
+  "total_fees": {
+    "comission_percent": 7.02,
+    "comission_eur": 120.20376277934659
+  },
+  "deviation": {
+    "actual": 120.2,
+    "calculated": 137.32,
+    "difference": -17.12,
+    "difference_percent": -12.5
+  },
+  "commission_fees": {},
+  "cost_fees": {},
+  "calculation": {
+    "type": "sale_fx",
+    "description": "Sale (CHF)",
+    "formula": "(1713.37 x 1.0%) + (1713.37 x 7.0%) + 0.25",
+    "steps": [
+      {
+        "label": "Amount (EUR)",
+        "value": 1713.3721197946952
+      },
+      {
+        "label": "Exchange Fee (1.0%)",
+        "value": 17.13
+      },
+      {
+        "label": "WL Rate (7.0%)",
+        "value": 119.94
+      },
+      {
+        "label": "Fixed Fee",
+        "value": 0.25
+      },
+      {
+        "label": "Total",
+        "value": 137.32
+      }
+    ],
+    "calculated": 137.32
+  }
+}

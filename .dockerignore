@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Build artifacts
+*.log
+*.tmp
+
+# Git
+.git
+.gitignore
+
+# Environment (will be injected via docker-compose)
+.env
+.env.local
+
+# Development files
+*.md
+.vscode/
+.idea/
+
+# UI source (only need built public/)
+ui/
+
+# Python extraction script (not needed in container)
+extract_data.py
+__pycache__/
+*.pyc
+
+# Docker files (not needed inside container)
+Dockerfile
+docker-compose*.yml
+.dockerignore

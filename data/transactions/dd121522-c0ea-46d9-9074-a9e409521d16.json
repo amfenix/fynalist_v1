@@ -1,0 +1,116 @@
+{
+  "transaction": {
+    "transaction_id": "dd121522-c0ea-46d9-9074-a9e409521d16",
+    "error_message": "0",
+    "transaction_status": "approved",
+    "created_date_no_time": "2025-05-05",
+    "merchant_error_code": 0,
+    "transaction_type": "sale",
+    "type": "payment",
+    "external_error_code": "0",
+    "merchant_error_message": "0",
+    "external_error_message": "0",
+    "error_code": 0,
+    "created_date": "2025-05-05 21:07:13.148562 UTC",
+    "status": "approved"
+  },
+  "order_details": {
+    "eea": "non-EEA",
+    "country": "US",
+    "bin": 414865,
+    "running_sum": 129710.05,
+    "endpoint_id": 70050176,
+    "gate_name": "google_pay",
+    "amount_eur": 1172.47,
+    "fx_date": "2025-05-05",
+    "european_union": "non-EU",
+    "card_brand": "VISA",
+    "currency": "EUR",
+    "fx_rate": 1.0,
+    "requisites_bank": null,
+    "card_brand_group": "Visa",
+    "mapping": "United States",
+    "amount": 1172.47,
+    "requisites_country": "PL",
+    "traffic_type_group": "google_pay",
+    "gate_descriptor": "IN - Xpate Terragaminex GooglePay",
+    "card_bank_name": "WELLS FARGO BANK, NATIONAL ASSOCIATION",
+    "card_type": "Visa",
+    "user_id": 25968849,
+    "gate_id": 36,
+    "main_requisite": "414865******9743",
+    "order_id": 1426331990
+  },
+  "merchant": {
+    "company_id": 12,
+    "kam": "Anna",
+    "company_name": "Start2Pay",
+    "merchant_name": "Faro Entertainment",
+    "merchant_group": "S2P",
+    "merchant_id": 30
+  },
+  "processing": {
+    "acquirer_name": "Xpate",
+    "processor_name": "Xpate",
+    "processor_id": 36,
+    "gate_name": "google_pay"
+  },
+  "applied_plan": {
+    "wl_percent": 6.0,
+    "operation_type": "incoming",
+    "contract_id": "VSP-040823-20",
+    "traffic_type": null,
+    "fixed_fee": 0.15,
+    "actual_commission": 88.24,
+    "exchange_fee_percent": 0.5,
+    "plan_key": "VSP-040823-20:incoming:apm:15",
+    "amount_eur": 1172.47,
+    "payment_type": "apm",
+    "tier": null,
+    "payout_percent": null,
+    "calculated_commission": 70.4982,
+    "currency_type": "fiat",
+    "chb_fee": 50,
+    "refund_fee": 1,
+    "card_brand": null,
+    "currency": "EUR",
+    "region": "EEA",
+    "payout_oct_fix": null
+  },
+  "total_fees": {
+    "comission_percent": 7.53,
+    "comission_eur": 88.24
+  },
+  "deviation": {
+    "actual": 88.24,
+    "calculated": 70.5,
+    "difference": 17.74,
+    "difference_percent": 25.2
+  },
+  "commission_fees": {},
+  "cost_fees": {},
+  "calculation": {
+    "type": "sale_eur",
+    "description": "Sale (EUR)",
+    "formula": "(1172.47 x 6.0%) + 0.15",
+    "steps": [
+      {
+        "label": "Amount (EUR)",
+        "value": 1172.47
+      },
+      {
+        "label": "WL Rate (6.0%)",
+        "value": 70.35
+      },
+      {
+        "label": "Fixed Fee",
+        "value": 0.15
+      },
+      {
+        "label": "Total",
+        "value": 70.5
+      }
+    ],
+    "calculated": 70.5
+  }
+}

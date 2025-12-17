@@ -1,0 +1,41 @@
+[
+  {
+    "merchant_id": 243,
+    "merchant_name": "SUISEN SOLUTIONS LIMITED",
+    "merchant_group": "GR8",
+    "company_name": "GR8",
+    "transaction_count": 1045286,
+    "approved_count": 886679,
+    "declined_count": 158607,
+    "acceptance_rate": 84.8,
+    "total_amount_eur": 68042750.62,
+    "total_commission_eur": 3278853.48,
+    "avg_commission_percent": 4.82
+  },
+  {
+    "merchant_id": 30,
+    "merchant_name": "Faro Entertainment",
+    "merchant_group": "S2P",
+    "company_name": "Start2Pay",
+    "transaction_count": 1022882,
+    "approved_count": 786496,
+    "declined_count": 236386,
+    "acceptance_rate": 76.9,
+    "total_amount_eur": 53193804.29,
+    "total_commission_eur": 2474307.72,
+    "avg_commission_percent": 4.65
+  },
+  {
+    "merchant_id": 405,
+    "merchant_name": "Yougmedia B.V.",
+    "merchant_group": "Fonbet",
+    "company_name": "Yougmedia B.V.",
+    "transaction_count": 17141,
+    "approved_count": 10950,
+    "declined_count": 6191,
+    "acceptance_rate": 63.9,
+    "total_amount_eur": 1282166.62,
+    "total_commission_eur": 39674.82,
+    "avg_commission_percent": 3.09
+  }
+]

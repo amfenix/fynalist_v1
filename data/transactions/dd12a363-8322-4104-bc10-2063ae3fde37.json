@@ -1,0 +1,116 @@
+{
+  "transaction": {
+    "transaction_id": "dd12a363-8322-4104-bc10-2063ae3fde37",
+    "error_message": "general decline",
+    "transaction_status": "declined",
+    "created_date_no_time": "2024-08-20",
+    "merchant_error_code": null,
+    "transaction_type": "sale",
+    "type": "payment",
+    "external_error_code": "IS0501",
+    "merchant_error_message": null,
+    "external_error_message": "Transaction has expired",
+    "error_code": 9010,
+    "created_date": "2024-08-20 15:37:16.758075 UTC",
+    "status": "declined"
+  },
+  "order_details": {
+    "eea": "EEA",
+    "country": "AT",
+    "bin": null,
+    "running_sum": 500.0,
+    "endpoint_id": 41508,
+    "gate_name": "sofort",
+    "amount_eur": 500.0,
+    "fx_date": "2024-08-20",
+    "european_union": "EU",
+    "card_brand": null,
+    "currency": "EUR",
+    "fx_rate": 1.0,
+    "requisites_bank": null,
+    "card_brand_group": "Any",
+    "mapping": "Austria",
+    "amount": 500.0,
+    "requisites_country": "AT",
+    "traffic_type_group": "sofort",
+    "gate_descriptor": "IN - ISX SofortUber Pixtub EUR",
+    "card_bank_name": null,
+    "card_type": "Any",
+    "user_id": 2084002,
+    "gate_id": 29,
+    "main_requisite": null,
+    "order_id": 1404241298
+  },
+  "merchant": {
+    "company_id": 12,
+    "kam": "Anna",
+    "company_name": "Start2Pay",
+    "merchant_name": "Faro Entertainment",
+    "merchant_group": "S2P",
+    "merchant_id": 30
+  },
+  "processing": {
+    "acquirer_name": "ISX",
+    "processor_name": "ISX",
+    "processor_id": 29,
+    "gate_name": "sofort"
+  },
+  "applied_plan": {
+    "wl_percent": 3.5,
+    "operation_type": "incoming",
+    "contract_id": "VSP-040823-20",
+    "traffic_type": null,
+    "fixed_fee": 0.3,
+    "actual_commission": 0.0,
+    "exchange_fee_percent": 0.5,
+    "plan_key": "VSP-040823-20:incoming:apm:8",
+    "amount_eur": 500.0,
+    "payment_type": "apm",
+    "tier": null,
+    "payout_percent": null,
+    "calculated_commission": 17.8,
+    "currency_type": "fiat",
+    "chb_fee": null,
+    "refund_fee": 1,
+    "card_brand": null,
+    "currency": "EUR",
+    "region": "EEA",
+    "payout_oct_fix": null
+  },
+  "total_fees": {
+    "comission_percent": 0.0,
+    "comission_eur": 0.0
+  },
+  "deviation": {
+    "actual": 0,
+    "calculated": 17.8,
+    "difference": -17.8,
+    "difference_percent": -100.0
+  },
+  "commission_fees": {},
+  "cost_fees": {},
+  "calculation": {
+    "type": "sale_eur",
+    "description": "Sale (EUR)",
+    "formula": "(500.00 x 3.5%) + 0.30",
+    "steps": [
+      {
+        "label": "Amount (EUR)",
+        "value": 500.0
+      },
+      {
+        "label": "WL Rate (3.5%)",
+        "value": 17.5
+      },
+      {
+        "label": "Fixed Fee",
+        "value": 0.3
+      },
+      {
+        "label": "Total",
+        "value": 17.8
+      }
+    ],
+    "calculated": 17.8
+  }
+}

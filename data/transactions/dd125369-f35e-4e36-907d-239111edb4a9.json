@@ -1,0 +1,116 @@
+{
+  "transaction": {
+    "transaction_id": "dd125369-f35e-4e36-907d-239111edb4a9",
+    "error_message": "0",
+    "transaction_status": "approved",
+    "created_date_no_time": "2025-02-15",
+    "merchant_error_code": null,
+    "transaction_type": "sale",
+    "type": "payment",
+    "external_error_code": "0",
+    "merchant_error_message": null,
+    "external_error_message": "0",
+    "error_code": 0,
+    "created_date": "2025-02-15 00:41:20.129167 UTC",
+    "status": "approved"
+  },
+  "order_details": {
+    "eea": "EEA",
+    "country": "HU",
+    "bin": null,
+    "running_sum": 249577.32,
+    "endpoint_id": 70050494,
+    "gate_name": "google_pay",
+    "amount_eur": 1500.0,
+    "fx_date": "2025-02-15",
+    "european_union": "EU",
+    "card_brand": null,
+    "currency": "EUR",
+    "fx_rate": 1.0,
+    "requisites_bank": null,
+    "card_brand_group": "Any",
+    "mapping": "Hungary",
+    "amount": 1500.0,
+    "requisites_country": "HU",
+    "traffic_type_group": "google_pay",
+    "gate_descriptor": "IN - Xpate Vitasic GooglePay",
+    "card_bank_name": null,
+    "card_type": "Any",
+    "user_id": 18062135,
+    "gate_id": 36,
+    "main_requisite": "535456******5840",
+    "order_id": 1418654804
+  },
+  "merchant": {
+    "company_id": 128,
+    "kam": "Anna",
+    "company_name": "GR8",
+    "merchant_name": "SUISEN SOLUTIONS LIMITED",
+    "merchant_group": "GR8",
+    "merchant_id": 243
+  },
+  "processing": {
+    "acquirer_name": "Xpate",
+    "processor_name": "Xpate",
+    "processor_id": 36,
+    "gate_name": "google_pay"
+  },
+  "applied_plan": {
+    "wl_percent": 6.0,
+    "operation_type": "incoming",
+    "contract_id": "VSP-281124-2",
+    "traffic_type": null,
+    "fixed_fee": 0.25,
+    "actual_commission": 106.0,
+    "exchange_fee_percent": 0.5,
+    "plan_key": "VSP-281124-2:incoming:apm:13",
+    "amount_eur": 1500.0,
+    "payment_type": "apm",
+    "tier": null,
+    "payout_percent": null,
+    "calculated_commission": 90.25,
+    "currency_type": "fiat",
+    "chb_fee": 30,
+    "refund_fee": 1,
+    "card_brand": null,
+    "currency": "EUR",
+    "region": "EEA",
+    "payout_oct_fix": null
+  },
+  "total_fees": {
+    "comission_percent": 7.07,
+    "comission_eur": 106.0
+  },
+  "deviation": {
+    "actual": 106.0,
+    "calculated": 90.25,
+    "difference": 15.75,
+    "difference_percent": 17.5
+  },
+  "commission_fees": {},
+  "cost_fees": {},
+  "calculation": {
+    "type": "sale_eur",
+    "description": "Sale (EUR)",
+    "formula": "(1500.00 x 6.0%) + 0.25",
+    "steps": [
+      {
+        "label": "Amount (EUR)",
+        "value": 1500.0
+      },
+      {
+        "label": "WL Rate (6.0%)",
+        "value": 90.0
+      },
+      {
+        "label": "Fixed Fee",
+        "value": 0.25
+      },
+      {
+        "label": "Total",
+        "value": 90.25
+      }
+    ],
+    "calculated": 90.25
+  }
+}

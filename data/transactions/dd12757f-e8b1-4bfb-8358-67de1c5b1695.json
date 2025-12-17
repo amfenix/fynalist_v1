@@ -1,0 +1,116 @@
+{
+  "transaction": {
+    "transaction_id": "dd12757f-e8b1-4bfb-8358-67de1c5b1695",
+    "error_message": "0",
+    "transaction_status": "approved",
+    "created_date_no_time": "2025-10-11",
+    "merchant_error_code": 0,
+    "transaction_type": "sale",
+    "type": "payment",
+    "external_error_code": "0",
+    "merchant_error_message": "0",
+    "external_error_message": "0",
+    "error_code": 0,
+    "created_date": "2025-10-11 04:01:18.735981 UTC",
+    "status": "approved"
+  },
+  "order_details": {
+    "eea": "EEA",
+    "country": "LT",
+    "bin": 53723047,
+    "running_sum": 107705.13,
+    "endpoint_id": 70050176,
+    "gate_name": "google_pay",
+    "amount_eur": 1172.83,
+    "fx_date": "2025-10-11",
+    "european_union": "EU",
+    "card_brand": "MASTERCARD",
+    "currency": "EUR",
+    "fx_rate": 1.0,
+    "requisites_bank": null,
+    "card_brand_group": "MasterCard",
+    "mapping": "Lithuania",
+    "amount": 1172.83,
+    "requisites_country": "PL",
+    "traffic_type_group": "google_pay",
+    "gate_descriptor": "IN - Xpate SkinValut GooglePay",
+    "card_bank_name": "UAB ZEN.COM",
+    "card_type": "MasterCard",
+    "user_id": 34882336,
+    "gate_id": 36,
+    "main_requisite": "537230******2251",
+    "order_id": 1447993769
+  },
+  "merchant": {
+    "company_id": 12,
+    "kam": "Anna",
+    "company_name": "Start2Pay",
+    "merchant_name": "Faro Entertainment",
+    "merchant_group": "S2P",
+    "merchant_id": 30
+  },
+  "processing": {
+    "acquirer_name": "Xpate",
+    "processor_name": "Xpate",
+    "processor_id": 36,
+    "gate_name": "google_pay"
+  },
+  "applied_plan": {
+    "wl_percent": 6.0,
+    "operation_type": "incoming",
+    "contract_id": "VSP-040823-20",
+    "traffic_type": null,
+    "fixed_fee": 0.15,
+    "actual_commission": 88.26,
+    "exchange_fee_percent": 0.5,
+    "plan_key": "VSP-040823-20:incoming:apm:15",
+    "amount_eur": 1172.83,
+    "payment_type": "apm",
+    "tier": null,
+    "payout_percent": null,
+    "calculated_commission": 70.5198,
+    "currency_type": "fiat",
+    "chb_fee": 50,
+    "refund_fee": 1,
+    "card_brand": null,
+    "currency": "EUR",
+    "region": "EEA",
+    "payout_oct_fix": null
+  },
+  "total_fees": {
+    "comission_percent": 7.53,
+    "comission_eur": 88.26
+  },
+  "deviation": {
+    "actual": 88.26,
+    "calculated": 70.52,
+    "difference": 17.74,
+    "difference_percent": 25.2
+  },
+  "commission_fees": {},
+  "cost_fees": {},
+  "calculation": {
+    "type": "sale_eur",
+    "description": "Sale (EUR)",
+    "formula": "(1172.83 x 6.0%) + 0.15",
+    "steps": [
+      {
+        "label": "Amount (EUR)",
+        "value": 1172.83
+      },
+      {
+        "label": "WL Rate (6.0%)",
+        "value": 70.37
+      },
+      {
+        "label": "Fixed Fee",
+        "value": 0.15
+      },
+      {
+        "label": "Total",
+        "value": 70.52
+      }
+    ],
+    "calculated": 70.52
+  }
+}

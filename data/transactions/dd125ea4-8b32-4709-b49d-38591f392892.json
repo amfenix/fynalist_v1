@@ -1,0 +1,116 @@
+{
+  "transaction": {
+    "transaction_id": "dd125ea4-8b32-4709-b49d-38591f392892",
+    "error_message": "0",
+    "transaction_status": "approved",
+    "created_date_no_time": "2025-10-01",
+    "merchant_error_code": 0,
+    "transaction_type": "sale",
+    "type": "payment",
+    "external_error_code": "0",
+    "merchant_error_message": "0",
+    "external_error_message": "0",
+    "error_code": 0,
+    "created_date": "2025-10-01 02:58:33.681669 UTC",
+    "status": "approved"
+  },
+  "order_details": {
+    "eea": "EEA",
+    "country": "AT",
+    "bin": 51687763,
+    "running_sum": 5463758.33,
+    "endpoint_id": 70050493,
+    "gate_name": "apple_pay",
+    "amount_eur": 20.0,
+    "fx_date": "2025-10-01",
+    "european_union": "EU",
+    "card_brand": "MASTERCARD",
+    "currency": "EUR",
+    "fx_rate": 1.0,
+    "requisites_bank": null,
+    "card_brand_group": "MasterCard",
+    "mapping": "Austria",
+    "amount": 20.0,
+    "requisites_country": "PL",
+    "traffic_type_group": "apple_pay",
+    "gate_descriptor": "IN - LeoConte (Myatranz) Nuopalym EUR ApplePay",
+    "card_bank_name": "PSA PAYMENT SERVICES AUSTRIA GMBH",
+    "card_type": "MasterCard",
+    "user_id": 25975151,
+    "gate_id": 75,
+    "main_requisite": "516877******2810",
+    "order_id": 1446529108
+  },
+  "merchant": {
+    "company_id": 128,
+    "kam": "Anna",
+    "company_name": "GR8",
+    "merchant_name": "SUISEN SOLUTIONS LIMITED",
+    "merchant_group": "GR8",
+    "merchant_id": 243
+  },
+  "processing": {
+    "acquirer_name": "Sends",
+    "processor_name": "LeoConte (Myatranz)",
+    "processor_id": 75,
+    "gate_name": "apple_pay"
+  },
+  "applied_plan": {
+    "wl_percent": 5.25,
+    "operation_type": "incoming",
+    "contract_id": "VSP-281124-2",
+    "traffic_type": null,
+    "fixed_fee": 0.25,
+    "actual_commission": 1.95,
+    "exchange_fee_percent": 0.5,
+    "plan_key": "VSP-281124-2:incoming:apm:16",
+    "amount_eur": 20.0,
+    "payment_type": "apm",
+    "tier": null,
+    "payout_percent": null,
+    "calculated_commission": 1.3,
+    "currency_type": "fiat",
+    "chb_fee": 30,
+    "refund_fee": 1,
+    "card_brand": null,
+    "currency": "EUR",
+    "region": "EEA",
+    "payout_oct_fix": null
+  },
+  "total_fees": {
+    "comission_percent": 9.75,
+    "comission_eur": 1.95
+  },
+  "deviation": {
+    "actual": 1.95,
+    "calculated": 1.3,
+    "difference": 0.65,
+    "difference_percent": 50.0
+  },
+  "commission_fees": {},
+  "cost_fees": {},
+  "calculation": {
+    "type": "sale_eur",
+    "description": "Sale (EUR)",
+    "formula": "(20.00 x 5.25%) + 0.25",
+    "steps": [
+      {
+        "label": "Amount (EUR)",
+        "value": 20.0
+      },
+      {
+        "label": "WL Rate (5.25%)",
+        "value": 1.05
+      },
+      {
+        "label": "Fixed Fee",
+        "value": 0.25
+      },
+      {
+        "label": "Total",
+        "value": 1.3
+      }
+    ],
+    "calculated": 1.3
+  }
+}

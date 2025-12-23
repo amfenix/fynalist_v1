@@ -1,0 +1,977 @@
+{
+  "months": [
+    "2025-10",
+    "2025-11",
+    "2025-12"
+  ],
+  "plans": [
+    {
+      "plan_id": "70051087_CHF_DOM_WL_IN",
+      "first": "2025-10",
+      "last": "2025-12",
+      "tx_types": [
+        "sale"
+      ],
+      "counts": {
+        "2025-10": 5,
+        "2025-11": 35,
+        "2025-12": 7
+      },
+      "coverage": {
+        "currencies": [
+          "CHF"
+        ],
+        "countries": [
+          "CH"
+        ],
+        "gate_types": [
+          "card"
+        ]
+      },
+      "commission": {
+        "avg_rate": 7.54,
+        "min_rate": 7.0,
+        "max_rate": 8.1,
+        "avg_fixed": 0.15,
+        "min_fixed": 0.15,
+        "max_fixed": 0.3
+      },
+      "monthly_commission": {
+        "2025-11": {
+          "avg_rate": 7.47,
+          "min_rate": 7.11,
+          "max_rate": 8.1,
+          "avg_fixed": 0.15,
+          "min_fixed": 0.15,
+          "max_fixed": 0.15
+        },
+        "2025-12": {
+          "avg_rate": 7.64,
+          "min_rate": 7.37,
+          "max_rate": 8.1,
+          "avg_fixed": 0.15,
+          "min_fixed": 0.15,
+          "max_fixed": 0.15
+        },
+        "2025-10": {
+          "avg_rate": 7.88,
+          "min_rate": 7.0,
+          "max_rate": 8.1,
+          "avg_fixed": 0.18,
+          "min_fixed": 0.15,
+          "max_fixed": 0.3
+        }
+      }
+    },
+    {
+      "plan_id": "70051087_EUR_EEA_WL_IN",
+      "first": "2025-10",
+      "last": "2025-12",
+      "tx_types": [
+        "sale"
+      ],
+      "counts": {
+        "2025-10": 464,
+        "2025-11": 1315,
+        "2025-12": 521
+      },
+      "coverage": {
+        "currencies": [
+          "EUR"
+        ],
+        "countries": [
+          "AT",
+          "BE",
+          "CH",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "ES",
+          "FR",
+          "GR",
+          "HU",
+          "IS",
+          "IT",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SK"
+        ],
+        "gate_types": [
+          "card"
+        ]
+      },
+      "commission": {
+        "avg_rate": 6.05,
+        "min_rate": 5.0,
+        "max_rate": 8.0,
+        "avg_fixed": 0.24,
+        "min_fixed": 0.09,
+        "max_fixed": 0.35
+      },
+      "monthly_commission": {
+        "2025-10": {
+          "avg_rate": 6.01,
+          "min_rate": 5.5,
+          "max_rate": 8.0,
+          "avg_fixed": 0.25,
+          "min_fixed": 0.15,
+          "max_fixed": 0.3
+        },
+        "2025-11": {
+          "avg_rate": 6.07,
+          "min_rate": 5.0,
+          "max_rate": 7.6,
+          "avg_fixed": 0.23,
+          "min_fixed": 0.09,
+          "max_fixed": 0.35
+        },
+        "2025-12": {
+          "avg_rate": 6.02,
+          "min_rate": 5.0,
+          "max_rate": 7.6,
+          "avg_fixed": 0.25,
+          "min_fixed": 0.09,
+          "max_fixed": 0.35
+        }
+      }
+    },
+    {
+      "plan_id": "70051087_EUR_WW_OUT",
+      "first": "2025-10",
+      "last": "2025-12",
+      "tx_types": [
+        "payout"
+      ],
+      "counts": {
+        "2025-10": 57,
+        "2025-11": 922,
+        "2025-12": 452
+      },
+      "coverage": {
+        "currencies": [
+          "EUR"
+        ],
+        "countries": [
+          "AT",
+          "BE",
+          "CH",
+          "CY",
+          "CZ",
+          "DE",
+          "EE",
+          "ES",
+          "FR",
+          "GB",
+          "GR",
+          "HR",
+          "IE",
+          "IT",
+          "NO",
+          "PL",
+          "RO"
+        ],
+        "gate_types": [
+          "card"
+        ]
+      },
+      "commission": {
+        "avg_rate": 5.58,
+        "min_rate": 3.51,
+        "max_rate": 12.5,
+        "avg_fixed": 0.22,
+        "min_fixed": 0.1,
+        "max_fixed": 0.8
+      },
+      "monthly_commission": {
+        "2025-10": {
+          "avg_rate": 6.97,
+          "min_rate": 3.53,
+          "max_rate": 10.3,
+          "avg_fixed": 0.2,
+          "min_fixed": 0.1,
+          "max_fixed": 0.2
+        },
+        "2025-11": {
+          "avg_rate": 5.5,
+          "min_rate": 3.51,
+          "max_rate": 12.5,
+          "avg_fixed": 0.21,
+          "min_fixed": 0.1,
+          "max_fixed": 0.8
+        },
+        "2025-12": {
+          "avg_rate": 5.56,
+          "min_rate": 3.52,
+          "max_rate": 12.5,
+          "avg_fixed": 0.26,
+          "min_fixed": 0.1,
+          "max_fixed": 0.8
+        }
+      }
+    },
+    {
+      "plan_id": "70051087_EUR_WW_WL_IN",
+      "first": "2025-10",
+      "last": "2025-12",
+      "tx_types": [
+        "sale"
+      ],
+      "counts": {
+        "2025-10": 21,
+        "2025-11": 120,
+        "2025-12": 30
+      },
+      "coverage": {
+        "currencies": [
+          "EUR"
+        ],
+        "countries": [
+          "AL",
+          "GB",
+          "IT",
+          "KG"
+        ],
+        "gate_types": [
+          "card"
+        ]
+      },
+      "commission": {
+        "avg_rate": 6.5,
+        "min_rate": 5.6,
+        "max_rate": 7.5,
+        "avg_fixed": 0.24,
+        "min_fixed": 0.15,
+        "max_fixed": 0.35
+      },
+      "monthly_commission": {
+        "2025-10": {
+          "avg_rate": 6.39,
+          "min_rate": 5.6,
+          "max_rate": 7.5,
+          "avg_fixed": 0.26,
+          "min_fixed": 0.15,
+          "max_fixed": 0.3
+        },
+        "2025-11": {
+          "avg_rate": 6.52,
+          "min_rate": 6.0,
+          "max_rate": 7.5,
+          "avg_fixed": 0.24,
+          "min_fixed": 0.15,
+          "max_fixed": 0.35
+        },
+        "2025-12": {
+          "avg_rate": 6.53,
+          "min_rate": 6.25,
+          "max_rate": 7.5,
+          "avg_fixed": 0.25,
+          "min_fixed": 0.15,
+          "max_fixed": 0.3
+        }
+      }
+    },
+    {
+      "plan_id": "70051087_PLN_DOM_WL_IN",
+      "first": "2025-10",
+      "last": "2025-12",
+      "tx_types": [
+        "sale"
+      ],
+      "counts": {
+        "2025-10": 286,
+        "2025-11": 852,
+        "2025-12": 122
+      },
+      "coverage": {
+        "currencies": [
+          "PLN"
+        ],
+        "countries": [
+          "PL"
+        ],
+        "gate_types": [
+          "card"
+        ]
+      },
+      "commission": {
+        "avg_rate": 6.48,
+        "min_rate": 5.74,
+        "max_rate": 7.54,
+        "avg_fixed": 0.24,
+        "min_fixed": 0.15,
+        "max_fixed": 0.3
+      },
+      "monthly_commission": {
+        "2025-10": {
+          "avg_rate": 6.88,
+          "min_rate": 5.74,
+          "max_rate": 7.54,
+          "avg_fixed": 0.18,
+          "min_fixed": 0.15,
+          "max_fixed": 0.3
+        },
+        "2025-11": {
+          "avg_rate": 6.38,
+          "min_rate": 5.74,
+          "max_rate": 7.54,
+          "avg_fixed": 0.25,
+          "min_fixed": 0.15,
+          "max_fixed": 0.3
+        },
+        "2025-12": {
+          "avg_rate": 6.21,
+          "min_rate": 5.74,
+          "max_rate": 7.54,
+          "avg_fixed": 0.28,
+          "min_fixed": 0.15,
+          "max_fixed": 0.3
+        }
+      }
+    },
+    {
+      "plan_id": "70051088_EUR_ApplePay_EEA_WL_IN",
+      "first": "2025-10",
+      "last": "2025-12",
+      "tx_types": [
+        "sale"
+      ],
+      "counts": {
+        "2025-10": 244,
+        "2025-11": 985,
+        "2025-12": 318
+      },
+      "coverage": {
+        "currencies": [
+          "EUR"
+        ],
+        "countries": [
+          "AT",
+          "BE",
+          "CH",
+          "DE",
+          "ES",
+          "GB",
+          "GR",
+          "HR",
+          "IT",
+          "NL",
+          "PL",
+          "PT",
+          "RO"
+        ],
+        "gate_types": [
+          "apple_pay"
+        ]
+      },
+      "commission": {
+        "avg_rate": 8.13,
+        "min_rate": 5.98,
+        "max_rate": 14.5,
+        "avg_fixed": 0.27,
+        "min_fixed": 0.15,
+        "max_fixed": 0.3
+      },
+      "monthly_commission": {
+        "2025-10": {
+          "avg_rate": 9.47,
+          "min_rate": 6.35,
+          "max_rate": 14.5,
+          "avg_fixed": 0.18,
+          "min_fixed": 0.15,
+          "max_fixed": 0.3
+        },
+        "2025-11": {
+          "avg_rate": 8.57,
+          "min_rate": 6.14,
+          "max_rate": 14.5,
+          "avg_fixed": 0.27,
+          "min_fixed": 0.15,
+          "max_fixed": 0.3
+        },
+        "2025-12": {
+          "avg_rate": 6.64,
+          "min_rate": 5.98,
+          "max_rate": 13.0,
+          "avg_fixed": 0.29,
+          "min_fixed": 0.15,
+          "max_fixed": 0.3
+        }
+      }
+    },
+    {
+      "plan_id": "70051089_EUR_GooglePay_EEA_WL_IN",
+      "first": "2025-10",
+      "last": "2025-12",
+      "tx_types": [
+        "sale"
+      ],
+      "counts": {
+        "2025-10": 5,
+        "2025-11": 180,
+        "2025-12": 100
+      },
+      "coverage": {
+        "currencies": [
+          "EUR"
+        ],
+        "countries": [
+          "AT",
+          "BE",
+          "BR",
+          "DE",
+          "ES",
+          "FR",
+          "GB",
+          "GR",
+          "IE",
+          "IT",
+          "NL",
+          "PL",
+          "RO"
+        ],
+        "gate_types": [
+          "google_pay"
+        ]
+      },
+      "commission": {
+        "avg_rate": 8.56,
+        "min_rate": 5.99,
+        "max_rate": 13.0,
+        "avg_fixed": 0.3,
+        "min_fixed": 0.3,
+        "max_fixed": 0.3
+      },
+      "monthly_commission": {
+        "2025-11": {
+          "avg_rate": 9.7,
+          "min_rate": 6.7,
+          "max_rate": 13.0,
+          "avg_fixed": 0.3,
+          "min_fixed": 0.3,
+          "max_fixed": 0.3
+        },
+        "2025-12": {
+          "avg_rate": 6.61,
+          "min_rate": 5.99,
+          "max_rate": 13.0,
+          "avg_fixed": 0.3,
+          "min_fixed": 0.3,
+          "max_fixed": 0.3
+        },
+        "2025-10": {
+          "avg_rate": 13.0,
+          "min_rate": 13.0,
+          "max_rate": 13.0,
+          "avg_fixed": 0.3,
+          "min_fixed": 0.3,
+          "max_fixed": 0.3
+        }
+      }
+    },
+    {
+      "plan_id": "70051091_PLN_Blik_IN",
+      "first": "2025-10",
+      "last": "2025-12",
+      "tx_types": [
+        "sale"
+      ],
+      "counts": {
+        "2025-10": 195,
+        "2025-11": 269,
+        "2025-12": 18
+      },
+      "coverage": {
+        "currencies": [
+          "PLN"
+        ],
+        "countries": [
+          "PL"
+        ],
+        "gate_types": [
+          "blik"
+        ]
+      },
+      "commission": {
+        "avg_rate": 7.13,
+        "min_rate": 4.55,
+        "max_rate": 8.81,
+        "avg_fixed": 0.09,
+        "min_fixed": 0.09,
+        "max_fixed": 0.09
+      },
+      "monthly_commission": {
+        "2025-10": {
+          "avg_rate": 7.65,
+          "min_rate": 6.58,
+          "max_rate": 8.81,
+          "avg_fixed": 0.09,
+          "min_fixed": 0.09,
+          "max_fixed": 0.09
+        },
+        "2025-11": {
+          "avg_rate": 6.89,
+          "min_rate": 4.55,
+          "max_rate": 8.81,
+          "avg_fixed": 0.09,
+          "min_fixed": 0.09,
+          "max_fixed": 0.09
+        },
+        "2025-12": {
+          "avg_rate": 5.03,
+          "min_rate": 4.58,
+          "max_rate": 5.26,
+          "avg_fixed": 0.09,
+          "min_fixed": 0.09,
+          "max_fixed": 0.09
+        }
+      }
+    },
+    {
+      "plan_id": "70051092_EUR_Open_Banking_EEA_WL_IN",
+      "first": "2025-10",
+      "last": "2025-12",
+      "tx_types": [
+        "sale"
+      ],
+      "counts": {
+        "2025-10": 249,
+        "2025-11": 1504,
+        "2025-12": 625
+      },
+      "coverage": {
+        "currencies": [
+          "EUR"
+        ],
+        "countries": [
+          "AT",
+          "BE",
+          "CH",
+          "CZ",
+          "DE",
+          "DK",
+          "ES",
+          "GR",
+          "HR",
+          "IT",
+          "LT",
+          "LU",
+          "NL",
+          "NO",
+          "PL",
+          "RO"
+        ],
+        "gate_types": [
+          "openbanking"
+        ]
+      },
+      "commission": {
+        "avg_rate": 8.61,
+        "min_rate": 2.53,
+        "max_rate": 19.6,
+        "avg_fixed": 0.15,
+        "min_fixed": 0.15,
+        "max_fixed": 0.15
+      },
+      "monthly_commission": {
+        "2025-10": {
+          "avg_rate": 6.01,
+          "min_rate": 2.53,
+          "max_rate": 19.6,
+          "avg_fixed": 0.15,
+          "min_fixed": 0.15,
+          "max_fixed": 0.15
+        },
+        "2025-11": {
+          "avg_rate": 9.63,
+          "min_rate": 2.65,
+          "max_rate": 19.6,
+          "avg_fixed": 0.15,
+          "min_fixed": 0.15,
+          "max_fixed": 0.15
+        },
+        "2025-12": {
+          "avg_rate": 7.21,
+          "min_rate": 2.57,
+          "max_rate": 19.6,
+          "avg_fixed": 0.15,
+          "min_fixed": 0.15,
+          "max_fixed": 0.15
+        }
+      }
+    },
+    {
+      "plan_id": "70051093_EUR_Open_Banking_EEA_FTD_IN",
+      "first": "2025-10",
+      "last": "2025-12",
+      "tx_types": [
+        "sale"
+      ],
+      "counts": {
+        "2025-10": 266,
+        "2025-11": 659,
+        "2025-12": 124
+      },
+      "coverage": {
+        "currencies": [
+          "EUR"
+        ],
+        "countries": [
+          "AT",
+          "BE",
+          "CH",
+          "CZ",
+          "DE",
+          "ES",
+          "FR",
+          "GR",
+          "HR",
+          "HU",
+          "IS",
+          "IT",
+          "LT",
+          "LU",
+          "NL",
+          "NO",
+          "PL",
+          "PT",
+          "RO"
+        ],
+        "gate_types": [
+          "openbanking"
+        ]
+      },
+      "commission": {
+        "avg_rate": 12.95,
+        "min_rate": 3.55,
+        "max_rate": 24.6,
+        "avg_fixed": 0.15,
+        "min_fixed": 0.15,
+        "max_fixed": 0.15
+      },
+      "monthly_commission": {
+        "2025-10": {
+          "avg_rate": 11.42,
+          "min_rate": 3.55,
+          "max_rate": 24.6,
+          "avg_fixed": 0.15,
+          "min_fixed": 0.15,
+          "max_fixed": 0.15
+        },
+        "2025-11": {
+          "avg_rate": 14.28,
+          "min_rate": 3.71,
+          "max_rate": 24.6,
+          "avg_fixed": 0.15,
+          "min_fixed": 0.15,
+          "max_fixed": 0.15
+        },
+        "2025-12": {
+          "avg_rate": 9.15,
+          "min_rate": 3.62,
+          "max_rate": 24.6,
+          "avg_fixed": 0.15,
+          "min_fixed": 0.15,
+          "max_fixed": 0.15
+        }
+      }
+    }
+  ],
+  "month_meta": {
+    "2025-10": {
+      "currencies": [
+        "CHF",
+        "EUR",
+        "PLN"
+      ],
+      "countries": [
+        {
+          "code": "DE",
+          "count": 549
+        },
+        {
+          "code": "PL",
+          "count": 546
+        },
+        {
+          "code": "AT",
+          "count": 299
+        },
+        {
+          "code": "IT",
+          "count": 120
+        },
+        {
+          "code": "LT",
+          "count": 100
+        },
+        {
+          "code": "ES",
+          "count": 56
+        },
+        {
+          "code": "GR",
+          "count": 41
+        },
+        {
+          "code": "RO",
+          "count": 28
+        },
+        {
+          "code": "AL",
+          "count": 12
+        },
+        {
+          "code": "CH",
+          "count": 12
+        },
+        {
+          "code": "FR",
+          "count": 11
+        },
+        {
+          "code": "EE",
+          "count": 5
+        },
+        {
+          "code": "BE",
+          "count": 5
+        },
+        {
+          "code": "CY",
+          "count": 3
+        },
+        {
+          "code": "DK",
+          "count": 2
+        },
+        {
+          "code": "GB",
+          "count": 2
+        },
+        {
+          "code": "SK",
+          "count": 1
+        },
+        {
+          "code": "HR",
+          "count": 0
+        },
+        {
+          "code": "CZ",
+          "count": 0
+        },
+        {
+          "code": "NL",
+          "count": 0
+        },
+        {
+          "code": "PT",
+          "count": 0
+        },
+        {
+          "code": "NO",
+          "count": 0
+        }
+      ],
+      "gate_types": [
+        "apple_pay",
+        "blik",
+        "card",
+        "google_pay",
+        "openbanking"
+      ]
+    },
+    "2025-11": {
+      "currencies": [
+        "CHF",
+        "EUR",
+        "PLN"
+      ],
+      "countries": [
+        {
+          "code": "DE",
+          "count": 2000
+        },
+        {
+          "code": "PL",
+          "count": 1575
+        },
+        {
+          "code": "IT",
+          "count": 986
+        },
+        {
+          "code": "AT",
+          "count": 684
+        },
+        {
+          "code": "LT",
+          "count": 458
+        },
+        {
+          "code": "ES",
+          "count": 440
+        },
+        {
+          "code": "GR",
+          "count": 412
+        },
+        {
+          "code": "CH",
+          "count": 95
+        },
+        {
+          "code": "GB",
+          "count": 63
+        },
+        {
+          "code": "BE",
+          "count": 55
+        },
+        {
+          "code": "RO",
+          "count": 52
+        },
+        {
+          "code": "FR",
+          "count": 8
+        },
+        {
+          "code": "NL",
+          "count": 4
+        },
+        {
+          "code": "NO",
+          "count": 3
+        },
+        {
+          "code": "AL",
+          "count": 2
+        },
+        {
+          "code": "IE",
+          "count": 2
+        },
+        {
+          "code": "HR",
+          "count": 1
+        },
+        {
+          "code": "HU",
+          "count": 1
+        },
+        {
+          "code": "LU",
+          "count": 0
+        },
+        {
+          "code": "CZ",
+          "count": 0
+        },
+        {
+          "code": "BR",
+          "count": 0
+        },
+        {
+          "code": "PT",
+          "count": 0
+        }
+      ],
+      "gate_types": [
+        "apple_pay",
+        "blik",
+        "card",
+        "google_pay",
+        "openbanking"
+      ]
+    },
+    "2025-12": {
+      "currencies": [
+        "CHF",
+        "EUR",
+        "PLN"
+      ],
+      "countries": [
+        {
+          "code": "DE",
+          "count": 977
+        },
+        {
+          "code": "IT",
+          "count": 490
+        },
+        {
+          "code": "PL",
+          "count": 317
+        },
+        {
+          "code": "AT",
+          "count": 213
+        },
+        {
+          "code": "ES",
+          "count": 141
+        },
+        {
+          "code": "LT",
+          "count": 87
+        },
+        {
+          "code": "GR",
+          "count": 36
+        },
+        {
+          "code": "BE",
+          "count": 20
+        },
+        {
+          "code": "RO",
+          "count": 12
+        },
+        {
+          "code": "CH",
+          "count": 8
+        },
+        {
+          "code": "GB",
+          "count": 7
+        },
+        {
+          "code": "CZ",
+          "count": 5
+        },
+        {
+          "code": "HR",
+          "count": 1
+        },
+        {
+          "code": "NO",
+          "count": 1
+        },
+        {
+          "code": "IS",
+          "count": 1
+        },
+        {
+          "code": "KG",
+          "count": 1
+        },
+        {
+          "code": "BR",
+          "count": 0
+        }
+      ],
+      "gate_types": [
+        "apple_pay",
+        "blik",
+        "card",
+        "google_pay",
+        "openbanking"
+      ]
+    }
+  }
+}

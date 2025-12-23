@@ -1,0 +1,1186 @@
+{
+  "generated_at": "2025-12-23T05:20:11.697510",
+  "scope": "APPROVED TRANSACTIONS ONLY",
+  "match_quality": {
+    "exact": {
+      "count": 314801,
+      "percent": 19.0,
+      "total_deviation": 308.31
+    },
+    "minor": {
+      "count": 10780,
+      "percent": 0.7,
+      "total_deviation": 4124.26
+    },
+    "significant": {
+      "count": 696091,
+      "percent": 42.0,
+      "total_deviation": 139935.47
+    },
+    "critical": {
+      "count": 634150,
+      "percent": 38.3,
+      "total_deviation": 653893.6
+    },
+    "total": 1655822,
+    "total_deviation": 798261.64
+  },
+  "rate_plan_analysis": {
+    "Faro Entertainment": [
+      {
+        "plan_key": "5927",
+        "conditions": "incoming/card EUR EEA",
+        "contract_rate": 6.0,
+        "contract_fixed": 0.15,
+        "avg_effective_rate": 6.7445,
+        "tx_count": 343546,
+        "underpay_count": 163,
+        "underpay_volume": 0.42,
+        "overcharge_count": 343358,
+        "overcharge_volume": 139901.27,
+        "net_balance": 139900.86
+      },
+      {
+        "plan_key": "70050175_EUR_ApplePay_IN",
+        "conditions": "incoming/apm/apple_pay EUR EEA",
+        "contract_rate": 6.0,
+        "contract_fixed": 0.15,
+        "avg_effective_rate": 7.5572,
+        "tx_count": 122773,
+        "underpay_count": 0,
+        "underpay_volume": 0,
+        "overcharge_count": 122773,
+        "overcharge_volume": 119113.57,
+        "net_balance": 119113.57
+      },
+      {
+        "plan_key": "5928",
+        "conditions": "incoming/card EUR WW",
+        "contract_rate": 6.0,
+        "contract_fixed": 0.15,
+        "avg_effective_rate": 7.5357,
+        "tx_count": 166102,
+        "underpay_count": 3306,
+        "underpay_volume": 9.53,
+        "overcharge_count": 162737,
+        "overcharge_volume": 76307.83,
+        "net_balance": 76298.3
+      },
+      {
+        "plan_key": "5925",
+        "conditions": "outgoing/apm/sepa EUR EEA",
+        "contract_rate": 0.0,
+        "contract_fixed": 2.5,
+        "avg_effective_rate": 2.0087,
+        "tx_count": 31021,
+        "underpay_count": 0,
+        "underpay_volume": 0,
+        "overcharge_count": 26517,
+        "overcharge_volume": 66292.5,
+        "net_balance": 66292.5
+      },
+      {
+        "plan_key": "70050176_EUR_GooglePay_IN",
+        "conditions": "incoming/apm/google_pay EUR EEA",
+        "contract_rate": 6.0,
+        "contract_fixed": 0.15,
+        "avg_effective_rate": 7.9406,
+        "tx_count": 46401,
+        "underpay_count": 164,
+        "underpay_volume": 0.51,
+        "overcharge_count": 45936,
+        "overcharge_volume": 31306.32,
+        "net_balance": 31305.82
+      },
+      {
+        "plan_key": "5934",
+        "conditions": "incoming/apm/sofort EUR EEA",
+        "contract_rate": 3.5,
+        "contract_fixed": 0.3,
+        "avg_effective_rate": 13.8309,
+        "tx_count": 4768,
+        "underpay_count": 0,
+        "underpay_volume": 0,
+        "overcharge_count": 4768,
+        "overcharge_volume": 26994.43,
+        "net_balance": 26994.43
+      },
+      {
+        "plan_key": "5923",
+        "conditions": "outgoing/card EUR EEA",
+        "contract_rate": 3.5,
+        "contract_fixed": 1.0,
+        "avg_effective_rate": 4.9451,
+        "tx_count": 13470,
+        "underpay_count": 94,
+        "underpay_volume": 0.23,
+        "overcharge_count": 13333,
+        "overcharge_volume": 25383.32,
+        "net_balance": 25383.09
+      },
+      {
+        "plan_key": "5924",
+        "conditions": "outgoing/card EUR EEA",
+        "contract_rate": 3.5,
+        "contract_fixed": 1.0,
+        "avg_effective_rate": 5.3099,
+        "tx_count": 4968,
+        "underpay_count": 90,
+        "underpay_volume": 0.21,
+        "overcharge_count": 4776,
+        "overcharge_volume": 15134.42,
+        "net_balance": 15134.21
+      },
+      {
+        "plan_key": "70050392_NOK_EEA_WL_IN",
+        "conditions": "incoming/card NOK EEA",
+        "contract_rate": 6.7,
+        "contract_fixed": 0.1545,
+        "avg_effective_rate": 7.6278,
+        "tx_count": 1,
+        "underpay_count": 0,
+        "underpay_volume": 0,
+        "overcharge_count": 1,
+        "overcharge_volume": 0.15,
+        "net_balance": 0.15
+      },
+      {
+        "plan_key": "70050555_EUR_Open_Banking_EEA_WL_IN",
+        "conditions": "incoming/apm/open_banking EUR EEA",
+        "contract_rate": 2.0,
+        "contract_fixed": 0.7,
+        "avg_effective_rate": 4.2729,
+        "tx_count": 25149,
+        "underpay_count": 324,
+        "underpay_volume": 0.76,
+        "overcharge_count": 347,
+        "overcharge_volume": 0.89,
+        "net_balance": 0.13
+      }
+    ],
+    "SUISEN SOLUTIONS LIMITED": [
+      {
+        "plan_key": "70050492_EUR_OUT",
+        "conditions": "outgoing/card EUR EEA",
+        "contract_rate": 3.0,
+        "contract_fixed": 0.5,
+        "avg_effective_rate": 4.2124,
+        "tx_count": 98319,
+        "underpay_count": 13916,
+        "underpay_volume": 33.96,
+        "overcharge_count": 81871,
+        "overcharge_volume": 144512.95,
+        "net_balance": 144478.99
+      },
+      {
+        "plan_key": "70050493_EUR_ApplePay_IN",
+        "conditions": "incoming/apm/apple_pay EUR EEA",
+        "contract_rate": 6.0,
+        "contract_fixed": 0.25,
+        "avg_effective_rate": 7.4293,
+        "tx_count": 273399,
+        "underpay_count": 54227,
+        "underpay_volume": 24749.53,
+        "overcharge_count": 214341,
+        "overcharge_volume": 138037.6,
+        "net_balance": 113288.07
+      },
+      {
+        "plan_key": "70050494_EUR_GooglePay_IN",
+        "conditions": "incoming/apm/google_pay EUR EEA",
+        "contract_rate": 6.0,
+        "contract_fixed": 0.25,
+        "avg_effective_rate": 7.6084,
+        "tx_count": 63826,
+        "underpay_count": 8671,
+        "underpay_volume": 3943.99,
+        "overcharge_count": 54216,
+        "overcharge_volume": 38010.06,
+        "net_balance": 34066.06
+      },
+      {
+        "plan_key": "70050492_EUR_EEA_WL_IN",
+        "conditions": "incoming/card EUR EEA",
+        "contract_rate": 6.0,
+        "contract_fixed": 0.25,
+        "avg_effective_rate": 6.2241,
+        "tx_count": 435463,
+        "underpay_count": 161353,
+        "underpay_volume": 28507.84,
+        "overcharge_count": 258587,
+        "overcharge_volume": 29933.07,
+        "net_balance": 1425.23
+      },
+      {
+        "plan_key": "70050492_EUR_ROW_WL_IN",
+        "conditions": "incoming/card EUR DOM",
+        "contract_rate": 7.0,
+        "contract_fixed": 0.25,
+        "avg_effective_rate": 7.1725,
+        "tx_count": 2975,
+        "underpay_count": 1140,
+        "underpay_volume": 2.82,
+        "overcharge_count": 1182,
+        "overcharge_volume": 35.97,
+        "net_balance": 33.15
+      },
+      {
+        "plan_key": "70050499_EUR_SEPA_OUT",
+        "conditions": "outgoing/apm/sepa EUR EEA",
+        "contract_rate": 1.5,
+        "contract_fixed": 1.5,
+        "avg_effective_rate": 1.8961,
+        "tx_count": 8797,
+        "underpay_count": 2434,
+        "underpay_volume": 6.16,
+        "overcharge_count": 2970,
+        "overcharge_volume": 8.16,
+        "net_balance": 2.0
+      },
+      {
+        "plan_key": "70050598_EUR_Open_Banking_IN",
+        "conditions": "incoming/apm/open_banking EUR EEA",
+        "contract_rate": 3.0,
+        "contract_fixed": 1.0,
+        "avg_effective_rate": 6.9068,
+        "tx_count": 3895,
+        "underpay_count": 607,
+        "underpay_volume": 1.45,
+        "overcharge_count": 618,
+        "overcharge_volume": 1.48,
+        "net_balance": 0.03
+      },
+      {
+        "plan_key": "70050595_EUR_SOFORT_EEA_WL_IN",
+        "conditions": "incoming/apm/sofort EUR EEA",
+        "contract_rate": 8.0,
+        "contract_fixed": 2.0,
+        "avg_effective_rate": 8.805,
+        "tx_count": 1,
+        "underpay_count": 0,
+        "underpay_volume": 0,
+        "overcharge_count": 0,
+        "overcharge_volume": 0,
+        "net_balance": 0
+      }
+    ],
+    "Yougmedia B.V.": [
+      {
+        "plan_key": "70051087_EUR_WW_OUT",
+        "conditions": "outgoing/card EUR EEA",
+        "contract_rate": 3.0,
+        "contract_fixed": 0.75,
+        "avg_effective_rate": 5.5803,
+        "tx_count": 1431,
+        "underpay_count": 0,
+        "underpay_volume": 0,
+        "overcharge_count": 1431,
+        "overcharge_volume": 1607.3,
+        "net_balance": 1607.3
+      },
+      {
+        "plan_key": "70051092_EUR_Open_Banking_EEA_WL_IN",
+        "conditions": "incoming/apm/open_banking EUR EEA",
+        "contract_rate": 2.5,
+        "contract_fixed": 0.5,
+        "avg_effective_rate": 8.614,
+        "tx_count": 2378,
+        "underpay_count": 3,
+        "underpay_volume": 0.01,
+        "overcharge_count": 2129,
+        "overcharge_volume": 969.24,
+        "net_balance": 969.23
+      },
+      {
+        "plan_key": "70051088_EUR_ApplePay_EEA_WL_IN",
+        "conditions": "incoming/apm/apple_pay EUR EEA",
+        "contract_rate": 6.0,
+        "contract_fixed": 0.3,
+        "avg_effective_rate": 8.1328,
+        "tx_count": 1547,
+        "underpay_count": 2,
+        "underpay_volume": 0.01,
+        "overcharge_count": 1345,
+        "overcharge_volume": 937.35,
+        "net_balance": 937.35
+      },
+      {
+        "plan_key": "70051093_EUR_Open_Banking_EEA_FTD_IN",
+        "conditions": "incoming/apm/open_banking EUR EEA",
+        "contract_rate": 3.5,
+        "contract_fixed": 0.7,
+        "avg_effective_rate": 12.9477,
+        "tx_count": 1047,
+        "underpay_count": 2,
+        "underpay_volume": 0.01,
+        "overcharge_count": 989,
+        "overcharge_volume": 473.82,
+        "net_balance": 473.81
+      },
+      {
+        "plan_key": "70051091_PLN_Blik_IN",
+        "conditions": "incoming/apm/blik PLN EEA",
+        "contract_rate": 4.5,
+        "contract_fixed": 0.4709,
+        "avg_effective_rate": 7.1307,
+        "tx_count": 482,
+        "underpay_count": 0,
+        "underpay_volume": 0,
+        "overcharge_count": 384,
+        "overcharge_volume": 372.63,
+        "net_balance": 372.63
+      },
+      {
+        "plan_key": "70051089_EUR_GooglePay_EEA_WL_IN",
+        "conditions": "incoming/apm/google_pay EUR EEA",
+        "contract_rate": 6.0,
+        "contract_fixed": 0.3,
+        "avg_effective_rate": 8.5562,
+        "tx_count": 285,
+        "underpay_count": 3,
+        "underpay_volume": 0.01,
+        "overcharge_count": 252,
+        "overcharge_volume": 155.5,
+        "net_balance": 155.49
+      },
+      {
+        "plan_key": "70051087_EUR_WW_WL_IN",
+        "conditions": "incoming/card EUR EEA",
+        "contract_rate": 6.0,
+        "contract_fixed": 0.25,
+        "avg_effective_rate": 6.504,
+        "tx_count": 171,
+        "underpay_count": 0,
+        "underpay_volume": 0,
+        "overcharge_count": 171,
+        "overcharge_volume": 28.99,
+        "net_balance": 28.99
+      },
+      {
+        "plan_key": "70051087_PLN_DOM_WL_IN",
+        "conditions": "incoming/card PLN EEA",
+        "contract_rate": 6.5,
+        "contract_fixed": 0.2355,
+        "avg_effective_rate": 6.4763,
+        "tx_count": 1260,
+        "underpay_count": 3,
+        "underpay_volume": 0.0,
+        "overcharge_count": 232,
+        "overcharge_volume": 0.27,
+        "net_balance": 0.27
+      },
+      {
+        "plan_key": "70051087_EUR_EEA_WL_IN",
+        "conditions": "incoming/card EUR EEA",
+        "contract_rate": 6.0,
+        "contract_fixed": 0.25,
+        "avg_effective_rate": 6.0488,
+        "tx_count": 2300,
+        "underpay_count": 7,
+        "underpay_volume": 0.02,
+        "overcharge_count": 9,
+        "overcharge_volume": 0.02,
+        "net_balance": 0.0
+      },
+      {
+        "plan_key": "70051087_CHF_DOM_WL_IN",
+        "conditions": "incoming/card CHF DOM",
+        "contract_rate": 7.0,
+        "contract_fixed": 0.268,
+        "avg_effective_rate": 7.5357,
+        "tx_count": 47,
+        "underpay_count": 0,
+        "underpay_volume": 0,
+        "overcharge_count": 0,
+        "overcharge_volume": 0,
+        "net_balance": 0
+      }
+    ]
+  },
+  "examples": {
+    "Faro Entertainment": {
+      "5927": [
+        {
+          "tx_id": "dd110f78-8797-478d-b3e6-71f00e2ed4a9",
+          "amount": 3000.0,
+          "planned": 180.15,
+          "actual": 225.15,
+          "deviation": 45.0,
+          "deviation_pct": 24.98,
+          "eff_rate": 7.5
+        },
+        {
+          "tx_id": "dd1172bf-ffe6-4722-b158-53b800aeea29",
+          "amount": 2100.0,
+          "planned": 126.15,
+          "actual": 157.65,
+          "deviation": 31.5,
+          "deviation_pct": 24.97,
+          "eff_rate": 7.5
+        },
+        {
+          "tx_id": "dd1184af-4a62-4fcd-828f-8909f4185503",
+          "amount": 2500.0,
+          "planned": 150.15,
+          "actual": 180.15,
+          "deviation": 30.0,
+          "deviation_pct": 19.98,
+          "eff_rate": 7.2
+        }
+      ],
+      "70050175_EUR_ApplePay_IN": [
+        {
+          "tx_id": "dd121f11-f763-405d-98ce-842f34c35c6c",
+          "amount": 1486.86,
+          "planned": 89.3616,
+          "actual": 111.81,
+          "deviation": 22.4484,
+          "deviation_pct": 25.12,
+          "eff_rate": 7.5098
+        },
+        {
+          "tx_id": "dd1206b0-34ca-46be-9295-16e931c93e1a",
+          "amount": 1446.11,
+          "planned": 86.9166,
+          "actual": 108.76,
+          "deviation": 21.8434,
+          "deviation_pct": 25.13,
+          "eff_rate": 7.5001
+        },
+        {
+          "tx_id": "dd125d74-2755-45aa-9417-7fd1d713c029",
+          "amount": 1443.55,
+          "planned": 86.763,
+          "actual": 108.57,
+          "deviation": 21.807,
+          "deviation_pct": 25.13,
+          "eff_rate": 7.5003
+        }
+      ],
+      "5928": [
+        {
+          "tx_id": "dd1165e7-c8f8-4f36-8491-0aba02258787",
+          "amount": 1432.44,
+          "planned": 86.0964,
+          "actual": 124.77,
+          "deviation": 38.6736,
+          "deviation_pct": 44.92,
+          "eff_rate": 8.6929
+        },
+        {
+          "tx_id": "dd1164da-0615-4722-a71b-b7e57527be28",
+          "amount": 1381.7,
+          "planned": 83.052,
+          "actual": 120.36,
+          "deviation": 37.308,
+          "deviation_pct": 44.92,
+          "eff_rate": 8.6929
+        },
+        {
+          "tx_id": "dd115ffb-fc94-463d-91db-f1d97fbeeec6",
+          "amount": 1361.23,
+          "planned": 81.8238,
+          "actual": 118.58,
+          "deviation": 36.7562,
+          "deviation_pct": 44.92,
+          "eff_rate": 8.6929
+        }
+      ],
+      "5925": [
+        {
+          "tx_id": "dd526c8f-397b-4544-a910-6a2e02928ce8",
+          "amount": 500.0,
+          "planned": 2.5,
+          "actual": 5.0,
+          "deviation": 2.5,
+          "deviation_pct": 100.0,
+          "eff_rate": null
+        },
+        {
+          "tx_id": "dd529224-26b2-4017-9357-618b27ddb7c1",
+          "amount": 200.0,
+          "planned": 2.5,
+          "actual": 5.0,
+          "deviation": 2.5,
+          "deviation_pct": 100.0,
+          "eff_rate": null
+        },
+        {
+          "tx_id": "dd5229f3-7b51-4353-8bc9-fc8d10ebb20a",
+          "amount": 70.62,
+          "planned": 2.5,
+          "actual": 5.0,
+          "deviation": 2.5,
+          "deviation_pct": 100.0,
+          "eff_rate": null
+        }
+      ],
+      "70050176_EUR_GooglePay_IN": [
+        {
+          "tx_id": "dd12018c-c025-4f86-9430-b97bc8106d51",
+          "amount": 2269.65,
+          "planned": 136.329,
+          "actual": 170.52,
+          "deviation": 34.191,
+          "deviation_pct": 25.08,
+          "eff_rate": 7.5064
+        },
+        {
+          "tx_id": "dd125388-c220-4011-9761-e146588451e5",
+          "amount": 1181.81,
+          "planned": 71.0586,
+          "actual": 88.94,
+          "deviation": 17.8814,
+          "deviation_pct": 25.16,
+          "eff_rate": 7.5131
+        },
+        {
+          "tx_id": "dd121522-c0ea-46d9-9074-a9e409521d16",
+          "amount": 1172.47,
+          "planned": 70.4982,
+          "actual": 88.24,
+          "deviation": 17.7418,
+          "deviation_pct": 25.17,
+          "eff_rate": 7.5004
+        }
+      ],
+      "5934": [
+        {
+          "tx_id": "dd125455-3bae-440c-890a-938b482232e7",
+          "amount": 2500.0,
+          "planned": 87.8,
+          "actual": 202.0,
+          "deviation": 114.2,
+          "deviation_pct": 130.07,
+          "eff_rate": 8.062
+        },
+        {
+          "tx_id": "dd123d86-3cae-4a7e-afc5-317206b3e387",
+          "amount": 2000.0,
+          "planned": 70.3,
+          "actual": 162.0,
+          "deviation": 91.7,
+          "deviation_pct": 130.44,
+          "eff_rate": 8.0775
+        },
+        {
+          "tx_id": "dd127b2d-a412-4755-a9cd-2e4e6d821093",
+          "amount": 2000.0,
+          "planned": 70.3,
+          "actual": 162.0,
+          "deviation": 91.7,
+          "deviation_pct": 130.44,
+          "eff_rate": 8.0775
+        }
+      ],
+      "5923": [
+        {
+          "tx_id": "dd518e71-6acc-49bd-98ad-49b98896a930",
+          "amount": 5505.94,
+          "planned": 193.7079,
+          "actual": 248.77,
+          "deviation": 55.0621,
+          "deviation_pct": 28.43,
+          "eff_rate": 4.5
+        },
+        {
+          "tx_id": "dd518981-902f-4c22-b76e-870a529efdcc",
+          "amount": 4846.48,
+          "planned": 170.6268,
+          "actual": 219.09,
+          "deviation": 48.4632,
+          "deviation_pct": 28.4,
+          "eff_rate": 4.5103
+        },
+        {
+          "tx_id": "dd519800-3c26-4cc3-be04-4c717d583227",
+          "amount": 4841.06,
+          "planned": 170.4371,
+          "actual": 218.85,
+          "deviation": 48.4129,
+          "deviation_pct": 28.41,
+          "eff_rate": 4.5
+        }
+      ],
+      "5924": [
+        {
+          "tx_id": "dd515b0e-9c95-4315-831d-f7e67afbff90",
+          "amount": 4299.89,
+          "planned": 151.4962,
+          "actual": 215.99,
+          "deviation": 64.4938,
+          "deviation_pct": 42.57,
+          "eff_rate": 5.0045
+        },
+        {
+          "tx_id": "dd5169e8-94fb-4b8a-ab06-8bdd05dc3ef6",
+          "amount": 1432.24,
+          "planned": 51.1284,
+          "actual": 72.61,
+          "deviation": 21.4816,
+          "deviation_pct": 42.02,
+          "eff_rate": 5.0557
+        },
+        {
+          "tx_id": "dd51b6b0-e627-4aff-8480-c964108b1949",
+          "amount": 644.98,
+          "planned": 23.5743,
+          "actual": 33.25,
+          "deviation": 9.6757,
+          "deviation_pct": 41.04,
+          "eff_rate": 5.0312
+        }
+      ],
+      "70050392_NOK_EEA_WL_IN": [
+        {
+          "tx_id": "dd11b563-f2d6-4972-8b99-8b0bb293be91",
+          "amount": 30.019675405605618,
+          "planned": 2.1659,
+          "actual": 2.3156,
+          "deviation": 0.1497,
+          "deviation_pct": 6.91,
+          "eff_rate": 7.6278
+        }
+      ],
+      "70050555_EUR_Open_Banking_EEA_WL_IN": [
+        {
+          "tx_id": "dd123be5-1302-46c0-b848-52985c8ba174",
+          "amount": 18.75,
+          "planned": 1.075,
+          "actual": 1.08,
+          "deviation": 0.005,
+          "deviation_pct": 0.47,
+          "eff_rate": 4.96
+        },
+        {
+          "tx_id": "dd123086-e040-4e98-8ab0-4b5a8a40ad44",
+          "amount": 25.25,
+          "planned": 1.205,
+          "actual": 1.21,
+          "deviation": 0.005,
+          "deviation_pct": 0.41,
+          "eff_rate": 4.198
+        },
+        {
+          "tx_id": "dd12abf1-4a85-4605-842b-d7e987868b36",
+          "amount": 23.75,
+          "planned": 1.175,
+          "actual": 1.18,
+          "deviation": 0.005,
+          "deviation_pct": 0.43,
+          "eff_rate": 4.3368
+        }
+      ]
+    },
+    "SUISEN SOLUTIONS LIMITED": {
+      "70050492_EUR_OUT": [
+        {
+          "tx_id": "dd51e51b-0bd3-4836-bdcb-f1c6a7461a18",
+          "amount": 3000.0,
+          "planned": 90.5,
+          "actual": 122.0,
+          "deviation": 31.5,
+          "deviation_pct": 34.81,
+          "eff_rate": 4.05
+        },
+        {
+          "tx_id": "dd51a083-f716-4d48-91ba-96ecce1ef109",
+          "amount": 3000.0,
+          "planned": 90.5,
+          "actual": 122.0,
+          "deviation": 31.5,
+          "deviation_pct": 34.81,
+          "eff_rate": 4.05
+        },
+        {
+          "tx_id": "dd51435f-9520-4aaa-8a15-b2d58a65e6b8",
+          "amount": 3000.0,
+          "planned": 90.5,
+          "actual": 122.0,
+          "deviation": 31.5,
+          "deviation_pct": 34.81,
+          "eff_rate": 4.0333
+        }
+      ],
+      "70050493_EUR_ApplePay_IN": [
+        {
+          "tx_id": "dd129486-0b41-4b60-b023-b84834eb88d1",
+          "amount": 3916.2,
+          "planned": 235.222,
+          "actual": 196.06,
+          "deviation": -39.162,
+          "deviation_pct": -16.65,
+          "eff_rate": 4.9987
+        },
+        {
+          "tx_id": "dd120776-d050-44ad-a807-0881ec66b25c",
+          "amount": 3269.18,
+          "planned": 196.4008,
+          "actual": 163.71,
+          "deviation": -32.6908,
+          "deviation_pct": -16.64,
+          "eff_rate": 4.9985
+        },
+        {
+          "tx_id": "dd12603e-30b4-4893-b057-d1424ce10003",
+          "amount": 2592.38,
+          "planned": 155.7928,
+          "actual": 129.87,
+          "deviation": -25.9228,
+          "deviation_pct": -16.64,
+          "eff_rate": 4.9981
+        }
+      ],
+      "70050494_EUR_GooglePay_IN": [
+        {
+          "tx_id": "dd12344d-722b-437d-8666-aef69eb17b61",
+          "amount": 2623.06,
+          "planned": 157.6336,
+          "actual": 131.4,
+          "deviation": -26.2336,
+          "deviation_pct": -16.64,
+          "eff_rate": 4.998
+        },
+        {
+          "tx_id": "dd129381-037c-4d32-9d05-478e66248d1c",
+          "amount": 1500.0,
+          "planned": 90.25,
+          "actual": 106.0,
+          "deviation": 15.75,
+          "deviation_pct": 17.45,
+          "eff_rate": 7.0467
+        },
+        {
+          "tx_id": "dd12df73-641f-40f2-872f-0778b2be7e61",
+          "amount": 1500.0,
+          "planned": 90.25,
+          "actual": 106.0,
+          "deviation": 15.75,
+          "deviation_pct": 17.45,
+          "eff_rate": 7.0467
+        }
+      ],
+      "70050492_EUR_EEA_WL_IN": [
+        {
+          "tx_id": "dd118604-7ad4-4f03-bcf7-7c19e1cd16d0",
+          "amount": 2645.05,
+          "planned": 158.953,
+          "actual": 132.5,
+          "deviation": -26.453,
+          "deviation_pct": -16.64,
+          "eff_rate": 4.998
+        },
+        {
+          "tx_id": "dd110b70-c060-4b8c-84a7-76647cfd63c5",
+          "amount": 2620.66,
+          "planned": 157.4896,
+          "actual": 131.28,
+          "deviation": -26.2096,
+          "deviation_pct": -16.64,
+          "eff_rate": 4.998
+        },
+        {
+          "tx_id": "dd11b49f-e67f-4d2d-8643-6fa672d58beb",
+          "amount": 2608.23,
+          "planned": 156.7438,
+          "actual": 130.66,
+          "deviation": -26.0838,
+          "deviation_pct": -16.64,
+          "eff_rate": 4.998
+        }
+      ],
+      "70050492_EUR_ROW_WL_IN": [
+        {
+          "tx_id": "dd119749-afda-4cc9-b17b-63c007f1f71e",
+          "amount": 297.03,
+          "planned": 21.0421,
+          "actual": 22.53,
+          "deviation": 1.4879,
+          "deviation_pct": 7.07,
+          "eff_rate": 7.5346
+        },
+        {
+          "tx_id": "dd11d3f8-cf14-468c-b6c3-03d7d6ab8088",
+          "amount": 197.73,
+          "planned": 14.0911,
+          "actual": 15.08,
+          "deviation": 0.9889,
+          "deviation_pct": 7.02,
+          "eff_rate": 7.5507
+        },
+        {
+          "tx_id": "dd114dd0-a033-467e-86e2-2e9cbbbb4115",
+          "amount": 149.18,
+          "planned": 10.6926,
+          "actual": 11.44,
+          "deviation": 0.7474,
+          "deviation_pct": 6.99,
+          "eff_rate": null
+        }
+      ],
+      "70050499_EUR_SEPA_OUT": [
+        {
+          "tx_id": "dd528c04-b147-479c-a9e3-67921552a50d",
+          "amount": 49.0,
+          "planned": 2.235,
+          "actual": 2.24,
+          "deviation": 0.005,
+          "deviation_pct": 0.22,
+          "eff_rate": null
+        },
+        {
+          "tx_id": "dd520802-a9fe-4bf3-a86f-6201af63ee9c",
+          "amount": 47.0,
+          "planned": 2.205,
+          "actual": 2.21,
+          "deviation": 0.005,
+          "deviation_pct": 0.23,
+          "eff_rate": null
+        },
+        {
+          "tx_id": "dd525045-f821-41ef-b6e5-9d5c882cf19f",
+          "amount": 55.0,
+          "planned": 2.325,
+          "actual": 2.33,
+          "deviation": 0.005,
+          "deviation_pct": 0.22,
+          "eff_rate": null
+        }
+      ],
+      "70050598_EUR_Open_Banking_IN": [
+        {
+          "tx_id": "dd12ed25-d9b7-4d56-87f8-56beb929c91c",
+          "amount": 25.5,
+          "planned": 1.765,
+          "actual": 1.77,
+          "deviation": 0.005,
+          "deviation_pct": 0.28,
+          "eff_rate": 6.3529
+        },
+        {
+          "tx_id": "dd12c0ed-0e2e-442f-adf0-48b7ea1a0486",
+          "amount": 10.5,
+          "planned": 1.315,
+          "actual": 1.32,
+          "deviation": 0.005,
+          "deviation_pct": 0.38,
+          "eff_rate": 11.1429
+        },
+        {
+          "tx_id": "dd12a4bb-f9e4-45ae-b6d7-6c2d40982a38",
+          "amount": 15.5,
+          "planned": 1.465,
+          "actual": 1.47,
+          "deviation": 0.005,
+          "deviation_pct": 0.34,
+          "eff_rate": 8.5161
+        }
+      ],
+      "70050595_EUR_SOFORT_EEA_WL_IN": [
+        {
+          "tx_id": "dd121e35-400f-4536-8957-3947df10ace4",
+          "amount": 200.0,
+          "planned": 18.0,
+          "actual": 18.0,
+          "deviation": 0.0,
+          "deviation_pct": 0.0,
+          "eff_rate": 8.805
+        }
+      ]
+    },
+    "Yougmedia B.V.": {
+      "70051087_EUR_WW_OUT": [
+        {
+          "tx_id": "dd51473b-2d0a-4dae-b527-8ea8c560539a",
+          "amount": 5000.0,
+          "planned": 150.75,
+          "actual": 176.0,
+          "deviation": 25.25,
+          "deviation_pct": 16.75,
+          "eff_rate": 3.518
+        },
+        {
+          "tx_id": "dd51860f-09d4-464a-9823-d378c72e132d",
+          "amount": 4000.0,
+          "planned": 120.75,
+          "actual": 141.0,
+          "deviation": 20.25,
+          "deviation_pct": 16.77,
+          "eff_rate": 3.5125
+        },
+        {
+          "tx_id": "dd511978-9829-45c5-b7c6-d3f88146fe01",
+          "amount": 3700.0,
+          "planned": 111.75,
+          "actual": 130.5,
+          "deviation": 18.75,
+          "deviation_pct": 16.78,
+          "eff_rate": 3.5243
+        }
+      ],
+      "70051092_EUR_Open_Banking_EEA_WL_IN": [
+        {
+          "tx_id": "dd122608-a141-48e3-b7d9-bf2cef263c74",
+          "amount": 5.0,
+          "planned": 0.625,
+          "actual": 1.13,
+          "deviation": 0.505,
+          "deviation_pct": 80.8,
+          "eff_rate": 19.6
+        },
+        {
+          "tx_id": "dd12de4c-9f23-467c-9241-f144ed10cf77",
+          "amount": 5.0,
+          "planned": 0.625,
+          "actual": 1.13,
+          "deviation": 0.505,
+          "deviation_pct": 80.8,
+          "eff_rate": 19.6
+        },
+        {
+          "tx_id": "dd12b2d6-bbd5-4bac-b570-015512c6af7d",
+          "amount": 5.0,
+          "planned": 0.625,
+          "actual": 1.13,
+          "deviation": 0.505,
+          "deviation_pct": 80.8,
+          "eff_rate": 19.6
+        }
+      ],
+      "70051088_EUR_ApplePay_EEA_WL_IN": [
+        {
+          "tx_id": "dd12950b-d4f8-4077-bf0d-016649050b35",
+          "amount": 322.25,
+          "planned": 19.635,
+          "actual": 20.34,
+          "deviation": 0.705,
+          "deviation_pct": 3.59,
+          "eff_rate": 6.2653
+        },
+        {
+          "tx_id": "dd1272f6-202f-4e97-b059-3eb44f834639",
+          "amount": 322.25,
+          "planned": 19.635,
+          "actual": 20.34,
+          "deviation": 0.705,
+          "deviation_pct": 3.59,
+          "eff_rate": 6.2188
+        },
+        {
+          "tx_id": "dd122e39-fc52-45ac-af24-46c4211015ef",
+          "amount": 11.75,
+          "planned": 1.005,
+          "actual": 1.71,
+          "deviation": 0.705,
+          "deviation_pct": 70.15,
+          "eff_rate": null
+        }
+      ],
+      "70051093_EUR_Open_Banking_EEA_FTD_IN": [
+        {
+          "tx_id": "dd12feb2-7569-4dd6-ba23-ed6e96982531",
+          "amount": 15.0,
+          "planned": 1.225,
+          "actual": 1.73,
+          "deviation": 0.505,
+          "deviation_pct": 41.22,
+          "eff_rate": 10.5333
+        },
+        {
+          "tx_id": "dd12dadd-f674-43a0-a997-214097997809",
+          "amount": 5.0,
+          "planned": 0.875,
+          "actual": 1.38,
+          "deviation": 0.505,
+          "deviation_pct": 57.71,
+          "eff_rate": 24.6
+        },
+        {
+          "tx_id": "dd12a00a-c715-40ce-baa6-07fb9e59029b",
+          "amount": 5.0,
+          "planned": 0.875,
+          "actual": 1.38,
+          "deviation": 0.505,
+          "deviation_pct": 57.71,
+          "eff_rate": 24.6
+        }
+      ],
+      "70051091_PLN_Blik_IN": [
+        {
+          "tx_id": "dd12cbc1-62ae-41cf-8a44-f2da7197a71f",
+          "amount": 472.63937898966714,
+          "planned": 21.7414,
+          "actual": 31.1942,
+          "deviation": 9.4528,
+          "deviation_pct": 43.48,
+          "eff_rate": 6.581
+        },
+        {
+          "tx_id": "dd122a21-9b22-4379-9b82-1dc5496e57fc",
+          "amount": 472.2917081397823,
+          "planned": 21.7254,
+          "actual": 31.1713,
+          "deviation": 9.4459,
+          "deviation_pct": 43.48,
+          "eff_rate": 6.581
+        },
+        {
+          "tx_id": "dd12e633-6187-4e1b-9c55-0d1ced38c0af",
+          "amount": 472.0893684057967,
+          "planned": 21.7161,
+          "actual": 31.1579,
+          "deviation": 9.4418,
+          "deviation_pct": 43.48,
+          "eff_rate": 6.581
+        }
+      ],
+      "70051089_EUR_GooglePay_EEA_WL_IN": [
+        {
+          "tx_id": "dd12431c-bd05-42f7-9a9a-761b220e4636",
+          "amount": 94.42,
+          "planned": 5.9652,
+          "actual": 6.67,
+          "deviation": 0.7048,
+          "deviation_pct": 11.82,
+          "eff_rate": null
+        },
+        {
+          "tx_id": "dd12c6ac-8d90-4281-950c-7f54aafa325e",
+          "amount": 18.92,
+          "planned": 1.4352,
+          "actual": 2.14,
+          "deviation": 0.7048,
+          "deviation_pct": 49.11,
+          "eff_rate": 9.7252
+        },
+        {
+          "tx_id": "dd126303-ea72-4e93-a897-882eb5b775e4",
+          "amount": 47.26,
+          "planned": 3.1356,
+          "actual": 3.84,
+          "deviation": 0.7044,
+          "deviation_pct": 22.46,
+          "eff_rate": null
+        }
+      ],
+      "70051087_EUR_WW_WL_IN": [
+        {
+          "tx_id": "dd11ea8f-58f0-4471-80fe-47aeccb7d3b9",
+          "amount": 300.0,
+          "planned": 18.25,
+          "actual": 19.75,
+          "deviation": 1.5,
+          "deviation_pct": 8.22,
+          "eff_rate": 6.4833
+        },
+        {
+          "tx_id": "dd1189e1-afa1-435a-9366-ef7ffa7a6933",
+          "amount": 100.0,
+          "planned": 6.25,
+          "actual": 6.75,
+          "deviation": 0.5,
+          "deviation_pct": 8.0,
+          "eff_rate": 6.6
+        },
+        {
+          "tx_id": "dd11da88-8b36-4cf1-8f17-2f184ba0aac8",
+          "amount": 100.0,
+          "planned": 6.25,
+          "actual": 6.75,
+          "deviation": 0.5,
+          "deviation_pct": 8.0,
+          "eff_rate": 6.5
+        }
+      ],
+      "70051087_PLN_DOM_WL_IN": [
+        {
+          "tx_id": "dd11b7c1-e389-4e12-8a97-9375e2033c97",
+          "amount": 8.255155049501449,
+          "planned": 0.7724,
+          "actual": 0.7736,
+          "deviation": 0.0012,
+          "deviation_pct": 0.15,
+          "eff_rate": 7.5429
+        },
+        {
+          "tx_id": "dd1152c6-c95a-4557-833b-6174a5aff558",
+          "amount": 17.689617963217387,
+          "planned": 1.3857,
+          "actual": 1.3869,
+          "deviation": 0.0012,
+          "deviation_pct": 0.09,
+          "eff_rate": 6.9867
+        },
+        {
+          "tx_id": "dd11148f-c1ba-449a-acd8-c66dd4950092",
+          "amount": 22.41881556913585,
+          "planned": 1.6932,
+          "actual": 1.6944,
+          "deviation": 0.0012,
+          "deviation_pct": 0.07,
+          "eff_rate": 6.2211
+        }
+      ],
+      "70051087_EUR_EEA_WL_IN": [
+        {
+          "tx_id": "dd11249a-e55b-4514-a389-427f85d684c6",
+          "amount": 10.09,
+          "planned": 0.8554,
+          "actual": 0.86,
+          "deviation": 0.0046,
+          "deviation_pct": 0.54,
+          "eff_rate": 5.55
+        },
+        {
+          "tx_id": "dd1118c8-d6eb-430a-82be-877508d3eb23",
+          "amount": 18.76,
+          "planned": 1.3756,
+          "actual": 1.38,
+          "deviation": 0.0044,
+          "deviation_pct": 0.32,
+          "eff_rate": 6.0235
+        },
+        {
+          "tx_id": "dd11605a-d4f1-41ca-b023-edadef5ebf36",
+          "amount": 21.1,
+          "planned": 1.516,
+          "actual": 1.52,
+          "deviation": 0.004,
+          "deviation_pct": 0.26,
+          "eff_rate": 6.019
+        }
+      ],
+      "70051087_CHF_DOM_WL_IN": [
+        {
+          "tx_id": "dd110ab0-5c57-4adb-80eb-a60a13d588ea",
+          "amount": 21.409700307015104,
+          "planned": 1.7663,
+          "actual": 1.7663,
+          "deviation": 0.0,
+          "deviation_pct": 0.0,
+          "eff_rate": 7.55
+        },
+        {
+          "tx_id": "dd11749e-0c82-47a9-8b87-f62a4923f17a",
+          "amount": 21.51877351598468,
+          "planned": 1.7753,
+          "actual": 1.7753,
+          "deviation": 0.0,
+          "deviation_pct": 0.0,
+          "eff_rate": 7.55
+        },
+        {
+          "tx_id": "dd115deb-a3fd-4667-8c9e-91f15c498ff0",
+          "amount": 16.069023956772185,
+          "planned": 1.3926,
+          "actual": 1.3926,
+          "deviation": 0.0,
+          "deviation_pct": 0.0,
+          "eff_rate": 7.7333
+        }
+      ]
+    }
+  },
+  "low_confidence_matches": [],
+  "volume_tier_suggestions": []
+}

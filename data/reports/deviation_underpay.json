@@ -1,0 +1,201 @@
+{
+  "generated_at": "2025-12-23T05:51:37.471946",
+  "scope": "APPROVED TRANSACTIONS WITH UNDERPAYMENT ONLY",
+  "source": "APPLIED relationship",
+  "merchant_summary": {
+    "Faro Entertainment": {
+      "total_count": 758199,
+      "exact_match_count": 39284,
+      "underpay_count": 4141,
+      "underpay_volume": 11.66,
+      "overcharge_count": 724546,
+      "overcharge_volume": 500434.7,
+      "net_balance": 500423.04,
+      "avg_deviation": 0.66
+    },
+    "SUISEN SOLUTIONS LIMITED": {
+      "total_count": 886675,
+      "exact_match_count": 270983,
+      "underpay_count": 242348,
+      "underpay_volume": 57245.75,
+      "overcharge_count": 613785,
+      "overcharge_volume": 350539.28,
+      "net_balance": 293293.53,
+      "avg_deviation": 0.3308
+    },
+    "Yougmedia B.V.": {
+      "total_count": 10948,
+      "exact_match_count": 4534,
+      "underpay_count": 20,
+      "underpay_volume": 0.05,
+      "overcharge_count": 6942,
+      "overcharge_volume": 4545.13,
+      "net_balance": 4545.08,
+      "avg_deviation": 0.4152
+    }
+  },
+  "plan_summary": {
+    "SUISEN SOLUTIONS LIMITED": [
+      {
+        "plan_key": "70050492_EUR_EEA_WL_IN",
+        "operation_type": "incoming",
+        "payment_type": "card",
+        "apm_type": null,
+        "currency": "EUR",
+        "rate": 6.0,
+        "fixed_fee": 0.25,
+        "tx_count": 77996,
+        "underpay_count": 77996,
+        "underpay_volume": 28302.66,
+        "overcharge_count": 0,
+        "overcharge_volume": 0,
+        "net_balance": -28302.66,
+        "avg_deviation": -0.3629,
+        "total_volume": 2830629.91
+      },
+      {
+        "plan_key": "70050493_EUR_ApplePay_IN",
+        "operation_type": "incoming",
+        "payment_type": "apm",
+        "apm_type": "apple_pay",
+        "currency": "EUR",
+        "rate": 6.0,
+        "fixed_fee": 0.25,
+        "tx_count": 42463,
+        "underpay_count": 42463,
+        "underpay_volume": 24722.79,
+        "overcharge_count": 0,
+        "overcharge_volume": 0,
+        "net_balance": -24722.79,
+        "avg_deviation": -0.5822,
+        "total_volume": 2472615.3
+      },
+      {
+        "plan_key": "70050494_EUR_GooglePay_IN",
+        "operation_type": "incoming",
+        "payment_type": "apm",
+        "apm_type": "google_pay",
+        "currency": "EUR",
+        "rate": 6.0,
+        "fixed_fee": 0.25,
+        "tx_count": 6851,
+        "underpay_count": 6851,
+        "underpay_volume": 3939.69,
+        "overcharge_count": 0,
+        "overcharge_volume": 0,
+        "net_balance": -3939.69,
+        "avg_deviation": -0.5751,
+        "total_volume": 394061.45
+      }
+    ]
+  },
+  "examples": {
+    "SUISEN SOLUTIONS LIMITED": {
+      "70050492_EUR_EEA_WL_IN": [
+        {
+          "tx_id": "dd118604-7ad4-4f03-bcf7-7c19e1cd16d0",
+          "merchant": "SUISEN SOLUTIONS LIMITED",
+          "amount_eur": 2645.05,
+          "actual_commission": 132.5,
+          "planned_commission": 158.953,
+          "deviation": -26.453,
+          "deviation_percent": -16.64,
+          "rate": 6.0,
+          "fixed_fee": 0.25
+        },
+        {
+          "tx_id": "dd110b70-c060-4b8c-84a7-76647cfd63c5",
+          "merchant": "SUISEN SOLUTIONS LIMITED",
+          "amount_eur": 2620.66,
+          "actual_commission": 131.28,
+          "planned_commission": 157.4896,
+          "deviation": -26.2096,
+          "deviation_percent": -16.64,
+          "rate": 6.0,
+          "fixed_fee": 0.25
+        },
+        {
+          "tx_id": "dd11b49f-e67f-4d2d-8643-6fa672d58beb",
+          "merchant": "SUISEN SOLUTIONS LIMITED",
+          "amount_eur": 2608.23,
+          "actual_commission": 130.66,
+          "planned_commission": 156.7438,
+          "deviation": -26.0838,
+          "deviation_percent": -16.64,
+          "rate": 6.0,
+          "fixed_fee": 0.25
+        }
+      ],
+      "70050493_EUR_ApplePay_IN": [
+        {
+          "tx_id": "dd129486-0b41-4b60-b023-b84834eb88d1",
+          "merchant": "SUISEN SOLUTIONS LIMITED",
+          "amount_eur": 3916.2,
+          "actual_commission": 196.06,
+          "planned_commission": 235.222,
+          "deviation": -39.162,
+          "deviation_percent": -16.65,
+          "rate": 6.0,
+          "fixed_fee": 0.25
+        },
+        {
+          "tx_id": "dd120776-d050-44ad-a807-0881ec66b25c",
+          "merchant": "SUISEN SOLUTIONS LIMITED",
+          "amount_eur": 3269.18,
+          "actual_commission": 163.71,
+          "planned_commission": 196.4008,
+          "deviation": -32.6908,
+          "deviation_percent": -16.64,
+          "rate": 6.0,
+          "fixed_fee": 0.25
+        },
+        {
+          "tx_id": "dd12603e-30b4-4893-b057-d1424ce10003",
+          "merchant": "SUISEN SOLUTIONS LIMITED",
+          "amount_eur": 2592.38,
+          "actual_commission": 129.87,
+          "planned_commission": 155.7928,
+          "deviation": -25.9228,
+          "deviation_percent": -16.64,
+          "rate": 6.0,
+          "fixed_fee": 0.25
+        }
+      ],
+      "70050494_EUR_GooglePay_IN": [
+        {
+          "tx_id": "dd12344d-722b-437d-8666-aef69eb17b61",
+          "merchant": "SUISEN SOLUTIONS LIMITED",
+          "amount_eur": 2623.06,
+          "actual_commission": 131.4,
+          "planned_commission": 157.6336,
+          "deviation": -26.2336,
+          "deviation_percent": -16.64,
+          "rate": 6.0,
+          "fixed_fee": 0.25
+        },
+        {
+          "tx_id": "dd124528-5f98-4e94-88fe-e8a62d291f0a",
+          "merchant": "SUISEN SOLUTIONS LIMITED",
+          "amount_eur": 1441.85,
+          "actual_commission": 72.34,
+          "planned_commission": 86.761,
+          "deviation": -14.421,
+          "deviation_percent": -16.62,
+          "rate": 6.0,
+          "fixed_fee": 0.25
+        },
+        {
+          "tx_id": "dd12b2a9-9d36-41a5-b33b-ef2e303a7992",
+          "merchant": "SUISEN SOLUTIONS LIMITED",
+          "amount_eur": 1309.37,
+          "actual_commission": 65.72,
+          "planned_commission": 78.8122,
+          "deviation": -13.0922,
+          "deviation_percent": -16.61,
+          "rate": 6.0,
+          "fixed_fee": 0.25
+        }
+      ]
+    }
+  }
+}

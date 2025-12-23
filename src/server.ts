@@ -238,6 +238,16 @@ async function serveApiRoute(pathname: string, extraHeaders: Record<string, stri
     const id = apiPath.split("/")[2];
     jsonPath = `${DATA_DIR}/stability/${id}.json`;
   }
+  // /api/merchants/:id/dynamics
+  else if (apiPath.match(/^\/merchants\/\d+\/dynamics$/)) {
+    const id = apiPath.split("/")[2];
+    jsonPath = `${DATA_DIR}/dynamics/${id}.json`;
+  }
+  // /api/merchants/:id/analysis
+  else if (apiPath.match(/^\/merchants\/\d+\/analysis$/)) {
+    const id = apiPath.split("/")[2];
+    jsonPath = `${DATA_DIR}/analysis/${id}.json`;
+  }
   // /api/transactions/:id
   else if (apiPath.match(/^\/transactions\/[a-f0-9-]+$/)) {
     const txId = apiPath.split("/")[2];
@@ -247,6 +257,22 @@ async function serveApiRoute(pathname: string, extraHeaders: Record<string, stri
   else if (apiPath.match(/^\/transactions\/[a-f0-9-]+\/why$/)) {
     const txId = apiPath.split("/")[2];
     jsonPath = `${DATA_DIR}/transactions/why/${txId}.json`;
+  }
+  // /api/reports/deviation
+  else if (apiPath === "/reports/deviation") {
+    jsonPath = `${DATA_DIR}/reports/deviation.json`;
+  }
+  // /api/reports/deviation/underpay
+  else if (apiPath === "/reports/deviation/underpay") {
+    jsonPath = `${DATA_DIR}/reports/deviation_underpay.json`;
+  }
+  // /api/reports/contract-mismatch
+  else if (apiPath === "/reports/contract-mismatch") {
+    jsonPath = `${DATA_DIR}/reports/contract_mismatch.json`;
+  }
+  // /api/reports/anomalies
+  else if (apiPath === "/reports/anomalies") {
+    jsonPath = `${DATA_DIR}/reports/anomalies.json`;
   }
   // /api/health
   else if (apiPath === "/health") {

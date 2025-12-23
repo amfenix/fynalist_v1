@@ -1,0 +1,558 @@
+{
+  "generated_at": "2025-12-23T05:52:31.998548",
+  "scope": "APPROVED TRANSACTIONS ONLY",
+  "overall_stats": {
+    "total_approved": 1684125,
+    "total_volume": 100385665.01,
+    "total_commission": 5792386.01
+  },
+  "zero_commission": {
+    "description": "Approved transactions with zero or null commission",
+    "severity": "medium",
+    "total_count": 15,
+    "total_volume": 848.37,
+    "by_merchant": {
+      "Faro Entertainment": {
+        "tx_count": 12,
+        "total_volume": 800.34,
+        "examples": [
+          {
+            "tx_id": "dd12f832-78d0-4a6e-bdd8-89ca04e1f2d4",
+            "amount": 233.93,
+            "commission": 0.0,
+            "tx_type": "sale",
+            "gate": "google_pay",
+            "date": "2025-11-02 04:59:21.096876 UTC"
+          },
+          {
+            "tx_id": "dd12fa1a-866d-473b-b96c-3299e780a3a7",
+            "amount": 200.0,
+            "commission": 0.0,
+            "tx_type": "sale",
+            "gate": "openbanking",
+            "date": "2025-11-24 08:00:43.013435 UTC"
+          },
+          {
+            "tx_id": "dd1241c2-ed88-48c8-9ba7-f2944feffefa",
+            "amount": 200.0,
+            "commission": 0.0,
+            "tx_type": "sale",
+            "gate": "openbanking",
+            "date": "2025-12-07 21:00:16.318407 UTC"
+          },
+          {
+            "tx_id": "dd12e2d6-98ff-4a21-a554-0e4cc38c743c",
+            "amount": 50.0,
+            "commission": 0.0,
+            "tx_type": "sale",
+            "gate": "openbanking",
+            "date": "2025-11-24 08:00:42.378694 UTC"
+          },
+          {
+            "tx_id": "dd123c2f-92cc-45c5-8c75-73cd5d6b61ba",
+            "amount": 25.0,
+            "commission": 0.0,
+            "tx_type": "sale",
+            "gate": "openbanking",
+            "date": "2025-11-24 18:00:49.207054 UTC"
+          },
+          {
+            "tx_id": "dd129ece-f336-4ebe-aaf5-2d535c86b086",
+            "amount": 20.0,
+            "commission": 0.0,
+            "tx_type": "sale",
+            "gate": "openbanking",
+            "date": "2025-11-11 03:00:55.200846 UTC"
+          },
+          {
+            "tx_id": "dd1223c7-2dbd-460f-98a1-75f7b1c9e8c8",
+            "amount": 15.0,
+            "commission": 0.0,
+            "tx_type": "sale",
+            "gate": "openbanking",
+            "date": "2025-11-07 20:33:53.956036 UTC"
+          },
+          {
+            "tx_id": "dd129456-75a2-47a7-8b70-c7550b8ab6a4",
+            "amount": 13.41,
+            "commission": 0.0,
+            "tx_type": "sale",
+            "gate": "apple_pay",
+            "date": "2024-12-06 05:54:17.08115 UTC"
+          },
+          {
+            "tx_id": "dd126928-5385-454b-a905-1072df5d39f3",
+            "amount": 13.0,
+            "commission": 0.0,
+            "tx_type": "sale",
+            "gate": "openbanking",
+            "date": "2025-12-01 23:00:46.823852 UTC"
+          },
+          {
+            "tx_id": "dd12a88c-c7ae-45f0-aeb6-466cadc21515",
+            "amount": 10.0,
+            "commission": 0.0,
+            "tx_type": "sale",
+            "gate": "openbanking",
+            "date": "2025-03-03 08:00:43.370026 UTC"
+          }
+        ]
+      },
+      "Yougmedia B.V.": {
+        "tx_count": 2,
+        "total_volume": 30.0,
+        "examples": [
+          {
+            "tx_id": "dd120c6d-bbe4-4071-a514-7c24207dddda",
+            "amount": 20.0,
+            "commission": 0.0,
+            "tx_type": "sale",
+            "gate": "openbanking",
+            "date": "2025-11-24 18:00:47.040403 UTC"
+          },
+          {
+            "tx_id": "dd12dc88-eaa0-452e-8590-6ec5db976865",
+            "amount": 10.0,
+            "commission": 0.0,
+            "tx_type": "sale",
+            "gate": "openbanking",
+            "date": "2025-11-04 03:00:45.318039 UTC"
+          }
+        ]
+      },
+      "SUISEN SOLUTIONS LIMITED": {
+        "tx_count": 1,
+        "total_volume": 18.03,
+        "examples": [
+          {
+            "tx_id": "dd115a22-9410-4b55-9c9f-9b00aaf9f969",
+            "amount": 18.03,
+            "commission": 0.0,
+            "tx_type": "sale",
+            "gate": "card",
+            "date": "2025-07-22 12:15:08.087599 UTC"
+          }
+        ]
+      }
+    }
+  },
+  "fixed_fee_mismatch": {
+    "description": "Commission matches but fixed fee differs from contract",
+    "severity": "medium",
+    "total_count": 216666,
+    "total_volume": 11940242.77,
+    "total_commission": 622353.81,
+    "by_merchant": {
+      "SUISEN SOLUTIONS LIMITED": {
+        "tx_count": 179899,
+        "total_volume": 10291558.11,
+        "total_commission": 556577.72,
+        "examples": [
+          {
+            "tx_id": "dd121e35-400f-4536-8957-3947df10ace4",
+            "amount": 200.0,
+            "commission": 18.0,
+            "actual_fixed": 0.39,
+            "expected_fixed": 2.0,
+            "plan": "70050595_EUR_SOFORT_EEA_WL_IN",
+            "date": "2025-05-28 12:13:59.714502 UTC"
+          },
+          {
+            "tx_id": "dd12ff59-58d6-4c37-90ff-54af756ca17d",
+            "amount": 50.0,
+            "commission": 2.5,
+            "actual_fixed": 0.15,
+            "expected_fixed": 1.0,
+            "plan": "70050598_EUR_Open_Banking_IN",
+            "date": "2025-08-31 00:46:00.50111 UTC"
+          },
+          {
+            "tx_id": "dd12351b-b60d-425e-80e9-6dee51c71846",
+            "amount": 65.0,
+            "commission": 2.95,
+            "actual_fixed": 0.15,
+            "expected_fixed": 1.0,
+            "plan": "70050598_EUR_Open_Banking_IN",
+            "date": "2025-09-01 06:27:34.764529 UTC"
+          },
+          {
+            "tx_id": "dd12ff12-aa84-4bd1-93b2-674a98dfba38",
+            "amount": 20.0,
+            "commission": 1.6,
+            "actual_fixed": 0.15,
+            "expected_fixed": 1.0,
+            "plan": "70050598_EUR_Open_Banking_IN",
+            "date": "2025-07-07 09:28:58.85492 UTC"
+          },
+          {
+            "tx_id": "dd1277bd-35c2-475f-bac2-950f758eddd5",
+            "amount": 29.0,
+            "commission": 1.87,
+            "actual_fixed": 0.15,
+            "expected_fixed": 1.0,
+            "plan": "70050598_EUR_Open_Banking_IN",
+            "date": "2025-07-14 23:30:27.153603 UTC"
+          },
+          {
+            "tx_id": "dd1277cd-0be7-4403-8afa-987fd7dae95e",
+            "amount": 30.0,
+            "commission": 1.9,
+            "actual_fixed": 0.15,
+            "expected_fixed": 1.0,
+            "plan": "70050598_EUR_Open_Banking_IN",
+            "date": "2025-08-31 10:34:56.440014 UTC"
+          },
+          {
+            "tx_id": "dd1293ea-e676-4c40-a9a1-4978408eb7a8",
+            "amount": 20.0,
+            "commission": 1.6,
+            "actual_fixed": 0.15,
+            "expected_fixed": 1.0,
+            "plan": "70050598_EUR_Open_Banking_IN",
+            "date": "2025-07-07 14:20:11.781239 UTC"
+          },
+          {
+            "tx_id": "dd126dba-99bb-422d-9369-f535c1e5079d",
+            "amount": 100.0,
+            "commission": 4.0,
+            "actual_fixed": 0.15,
+            "expected_fixed": 1.0,
+            "plan": "70050598_EUR_Open_Banking_IN",
+            "date": "2025-09-01 19:20:22.785329 UTC"
+          },
+          {
+            "tx_id": "dd12da8e-4d72-4ee6-9fc9-30fb070b6f18",
+            "amount": 10.0,
+            "commission": 1.3,
+            "actual_fixed": 0.15,
+            "expected_fixed": 1.0,
+            "plan": "70050598_EUR_Open_Banking_IN",
+            "date": "2025-07-07 21:25:36.855491 UTC"
+          },
+          {
+            "tx_id": "dd12ca98-0074-43eb-a9dc-4f3d6fcff435",
+            "amount": 10.0,
+            "commission": 1.3,
+            "actual_fixed": 0.15,
+            "expected_fixed": 1.0,
+            "plan": "70050598_EUR_Open_Banking_IN",
+            "date": "2025-07-14 20:51:26.478163 UTC"
+          }
+        ]
+      },
+      "Faro Entertainment": {
+        "tx_count": 33585,
+        "total_volume": 1502884.89,
+        "total_commission": 56667.74,
+        "examples": [
+          {
+            "tx_id": "dd5257ea-486c-4741-a89d-404269f45367",
+            "amount": 700.0,
+            "commission": 2.5,
+            "actual_fixed": 0.8,
+            "expected_fixed": 2.5,
+            "plan": "5925",
+            "date": "2025-07-28 12:07:23.787404 UTC"
+          },
+          {
+            "tx_id": "dd526e5c-2f78-4d8d-a0de-3f215daa6691",
+            "amount": 200.0,
+            "commission": 2.5,
+            "actual_fixed": 0.8,
+            "expected_fixed": 2.5,
+            "plan": "5925",
+            "date": "2025-07-28 12:54:45.822218 UTC"
+          },
+          {
+            "tx_id": "dd5251d2-8612-422c-8c2f-988e9fa5168d",
+            "amount": 233.98,
+            "commission": 2.5,
+            "actual_fixed": 0.8,
+            "expected_fixed": 2.5,
+            "plan": "5925",
+            "date": "2025-07-29 16:59:10.610555 UTC"
+          },
+          {
+            "tx_id": "dd5256d3-f1b6-4698-83e8-7deef7a944b1",
+            "amount": 200.0,
+            "commission": 2.5,
+            "actual_fixed": 0.8,
+            "expected_fixed": 2.5,
+            "plan": "5925",
+            "date": "2025-07-29 12:59:51.928675 UTC"
+          },
+          {
+            "tx_id": "dd525a33-fbd0-4239-8b0f-6b61a95551f5",
+            "amount": 100.0,
+            "commission": 2.5,
+            "actual_fixed": 0.8,
+            "expected_fixed": 2.5,
+            "plan": "5925",
+            "date": "2025-07-23 13:12:18.597214 UTC"
+          },
+          {
+            "tx_id": "dd52cfb8-4b62-4072-8d52-60c417cfb57a",
+            "amount": 50.0,
+            "commission": 2.5,
+            "actual_fixed": 0.8,
+            "expected_fixed": 2.5,
+            "plan": "5925",
+            "date": "2025-07-18 00:07:30.098723 UTC"
+          },
+          {
+            "tx_id": "dd5237e3-ae9c-4367-8684-71708c6cc425",
+            "amount": 400.0,
+            "commission": 2.5,
+            "actual_fixed": 0.8,
+            "expected_fixed": 2.5,
+            "plan": "5925",
+            "date": "2025-07-07 14:45:44.397849 UTC"
+          },
+          {
+            "tx_id": "dd521591-f579-4637-96bb-2169b93db1f4",
+            "amount": 436.04,
+            "commission": 2.5,
+            "actual_fixed": 0.8,
+            "expected_fixed": 2.5,
+            "plan": "5925",
+            "date": "2025-07-22 12:06:47.974591 UTC"
+          },
+          {
+            "tx_id": "dd527eef-496e-4943-9b8f-a846d95d88f4",
+            "amount": 352.47,
+            "commission": 2.5,
+            "actual_fixed": 0.8,
+            "expected_fixed": 2.5,
+            "plan": "5925",
+            "date": "2025-07-23 17:32:21.726506 UTC"
+          },
+          {
+            "tx_id": "dd52e560-4a51-46a9-beae-4c5ef28d45b8",
+            "amount": 152.67,
+            "commission": 2.5,
+            "actual_fixed": 0.8,
+            "expected_fixed": 2.5,
+            "plan": "5925",
+            "date": "2025-07-28 16:46:21.963157 UTC"
+          }
+        ]
+      },
+      "Yougmedia B.V.": {
+        "tx_count": 3182,
+        "total_volume": 145799.77,
+        "total_commission": 9108.35,
+        "examples": [
+          {
+            "tx_id": "dd12aac1-9528-45ed-be44-b3909392c70e",
+            "amount": 14.0,
+            "commission": 1.19,
+            "actual_fixed": 0.15,
+            "expected_fixed": 0.7,
+            "plan": "70051093_EUR_Open_Banking_EEA_FTD_IN",
+            "date": "2025-12-04 23:26:53.948145 UTC"
+          },
+          {
+            "tx_id": "dd12fc03-0bf5-4c1c-98b8-177ff60bb298",
+            "amount": 10.0,
+            "commission": 1.05,
+            "actual_fixed": 0.15,
+            "expected_fixed": 0.7,
+            "plan": "70051093_EUR_Open_Banking_EEA_FTD_IN",
+            "date": "2025-12-04 19:51:27.304639 UTC"
+          },
+          {
+            "tx_id": "dd12d8c0-b2ca-4a87-b6e1-27ba85a440bc",
+            "amount": 20.0,
+            "commission": 1.4,
+            "actual_fixed": 0.15,
+            "expected_fixed": 0.7,
+            "plan": "70051093_EUR_Open_Banking_EEA_FTD_IN",
+            "date": "2025-12-04 19:26:41.203907 UTC"
+          },
+          {
+            "tx_id": "dd125bad-d42a-4120-838d-18adc441fbf7",
+            "amount": 20.0,
+            "commission": 1.4,
+            "actual_fixed": 0.15,
+            "expected_fixed": 0.7,
+            "plan": "70051093_EUR_Open_Banking_EEA_FTD_IN",
+            "date": "2025-12-04 19:47:03.864183 UTC"
+          },
+          {
+            "tx_id": "dd12bf39-b2b9-4288-a722-78e7251e8d5f",
+            "amount": 40.0,
+            "commission": 2.1,
+            "actual_fixed": 0.15,
+            "expected_fixed": 0.7,
+            "plan": "70051093_EUR_Open_Banking_EEA_FTD_IN",
+            "date": "2025-12-04 23:45:01.793231 UTC"
+          },
+          {
+            "tx_id": "dd12f658-73e4-4641-8c1a-6cb33f6e9dbd",
+            "amount": 10.0,
+            "commission": 1.05,
+            "actual_fixed": 0.15,
+            "expected_fixed": 0.7,
+            "plan": "70051093_EUR_Open_Banking_EEA_FTD_IN",
+            "date": "2025-12-04 16:17:31.977003 UTC"
+          },
+          {
+            "tx_id": "dd12bc07-cf57-40c0-8df4-0edc45d11cf3",
+            "amount": 20.0,
+            "commission": 1.4,
+            "actual_fixed": 0.15,
+            "expected_fixed": 0.7,
+            "plan": "70051093_EUR_Open_Banking_EEA_FTD_IN",
+            "date": "2025-12-04 13:52:05.038527 UTC"
+          },
+          {
+            "tx_id": "dd1239a8-2bd7-49c0-a8eb-88c3d9ff1e57",
+            "amount": 15.0,
+            "commission": 1.23,
+            "actual_fixed": 0.15,
+            "expected_fixed": 0.7,
+            "plan": "70051093_EUR_Open_Banking_EEA_FTD_IN",
+            "date": "2025-12-04 17:06:54.57946 UTC"
+          },
+          {
+            "tx_id": "dd1289f7-8063-4bfa-853c-ae46d3a551f6",
+            "amount": 40.0,
+            "commission": 2.1,
+            "actual_fixed": 0.15,
+            "expected_fixed": 0.7,
+            "plan": "70051093_EUR_Open_Banking_EEA_FTD_IN",
+            "date": "2025-12-04 23:23:43.397206 UTC"
+          },
+          {
+            "tx_id": "dd12f3be-9d4b-4f76-a7b6-70778b6a8bc1",
+            "amount": 5.0,
+            "commission": 0.88,
+            "actual_fixed": 0.15,
+            "expected_fixed": 0.7,
+            "plan": "70051093_EUR_Open_Banking_EEA_FTD_IN",
+            "date": "2025-12-11 05:04:53.143144 UTC"
+          }
+        ]
+      }
+    }
+  },
+  "manual_transactions": {
+    "description": "Transactions with status = 'manual' (require review)",
+    "severity": "info",
+    "total_count": 281,
+    "total_volume": 183220.45,
+    "total_commission": 15148.72,
+    "by_merchant": {
+      "Faro Entertainment": {
+        "tx_count": 279,
+        "total_volume": 183190.45,
+        "total_commission": 15148.72,
+        "examples": [
+          {
+            "tx_id": "dd128b40-12bb-47a5-a1c0-0b363131e224",
+            "amount": 2000.0,
+            "commission": 162.0,
+            "tx_type": "sale",
+            "gate": "sofort",
+            "date": "2024-05-23 05:38:56.648691 UTC"
+          },
+          {
+            "tx_id": "dd122e19-f901-43c6-a46b-a313883780fb",
+            "amount": 2000.0,
+            "commission": 162.0,
+            "tx_type": "sale",
+            "gate": "sofort",
+            "date": "2024-06-08 11:44:29.370772 UTC"
+          },
+          {
+            "tx_id": "dd126138-19cc-4f83-99c0-8f64b5f5baad",
+            "amount": 2000.0,
+            "commission": 162.0,
+            "tx_type": "sale",
+            "gate": "sofort",
+            "date": "2024-06-08 06:09:40.769522 UTC"
+          },
+          {
+            "tx_id": "dd128b31-4cc7-48ab-bb07-582a1df9ac8c",
+            "amount": 2000.0,
+            "commission": 162.0,
+            "tx_type": "sale",
+            "gate": "sofort",
+            "date": "2024-06-08 05:46:31.738769 UTC"
+          },
+          {
+            "tx_id": "dd12e90e-a2ad-45cd-9558-4e79d1182fad",
+            "amount": 2000.0,
+            "commission": 162.0,
+            "tx_type": "sale",
+            "gate": "sofort",
+            "date": "2024-05-23 05:25:00.729583 UTC"
+          },
+          {
+            "tx_id": "dd12d2ae-6232-4fd8-a5c2-191c11637fee",
+            "amount": 2000.0,
+            "commission": 162.0,
+            "tx_type": "sale",
+            "gate": "sofort",
+            "date": "2024-06-08 05:29:30.405888 UTC"
+          },
+          {
+            "tx_id": "dd125918-cff2-4cfa-a9ff-849cea938f53",
+            "amount": 2000.0,
+            "commission": 162.0,
+            "tx_type": "sale",
+            "gate": "sofort",
+            "date": "2024-06-08 12:35:31.147529 UTC"
+          },
+          {
+            "tx_id": "dd1275d8-08be-4d05-926b-6fe5cdda3531",
+            "amount": 2000.0,
+            "commission": 162.0,
+            "tx_type": "sale",
+            "gate": "sofort",
+            "date": "2024-06-08 11:47:56.809895 UTC"
+          },
+          {
+            "tx_id": "dd12631d-3c0c-4ca4-a7db-92b7e9b24d8c",
+            "amount": 2000.0,
+            "commission": 162.0,
+            "tx_type": "sale",
+            "gate": "sofort",
+            "date": "2024-06-08 04:09:03.013871 UTC"
+          },
+          {
+            "tx_id": "dd12b413-7e0f-431d-b435-cec20f5d4f16",
+            "amount": 2000.0,
+            "commission": 162.0,
+            "tx_type": "sale",
+            "gate": "sofort",
+            "date": "2024-06-08 04:19:01.701878 UTC"
+          }
+        ]
+      },
+      "Yougmedia B.V.": {
+        "tx_count": 2,
+        "total_volume": 30.0,
+        "total_commission": 0,
+        "examples": [
+          {
+            "tx_id": "dd120c6d-bbe4-4071-a514-7c24207dddda",
+            "amount": 20.0,
+            "commission": 0.0,
+            "tx_type": "sale",
+            "gate": "openbanking",
+            "date": "2025-11-24 18:00:47.040403 UTC"
+          },
+          {
+            "tx_id": "dd12dc88-eaa0-452e-8590-6ec5db976865",
+            "amount": 10.0,
+            "commission": 0.0,
+            "tx_type": "sale",
+            "gate": "openbanking",
+            "date": "2025-11-04 03:00:45.318039 UTC"
+          }
+        ]
+      }
+    }
+  }
+}

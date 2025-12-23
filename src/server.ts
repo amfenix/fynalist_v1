@@ -243,8 +243,8 @@ async function serveApiRoute(pathname: string, extraHeaders: Record<string, stri
     const id = apiPath.split("/")[2];
     jsonPath = `${DATA_DIR}/dynamics/${id}.json`;
   }
-  // /api/merchants/:id/analysis
-  else if (apiPath.match(/^\/merchants\/\d+\/analysis$/)) {
+  // /api/merchants/:id/analysis OR /api/merchants/:id/rate-plan-analysis
+  else if (apiPath.match(/^\/merchants\/\d+\/(analysis|rate-plan-analysis)$/)) {
     const id = apiPath.split("/")[2];
     jsonPath = `${DATA_DIR}/analysis/${id}.json`;
   }

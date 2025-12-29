@@ -243,10 +243,27 @@ async function serveApiRoute(pathname: string, extraHeaders: Record<string, stri
     const id = apiPath.split("/")[2];
     jsonPath = `${DATA_DIR}/dynamics/${id}.json`;
   }
-  // /api/merchants/:id/analysis OR /api/merchants/:id/rate-plan-analysis
-  else if (apiPath.match(/^\/merchants\/\d+\/(analysis|rate-plan-analysis)$/)) {
+  // /api/merchants/:id/analysis OR /api/merchants/:id/rate-plan-analysis OR /api/merchants/:id/analysis-config
+  else if (apiPath.match(/^\/merchants\/\d+\/(analysis|rate-plan-analysis|analysis-config)$/)) {
     const id = apiPath.split("/")[2];
     jsonPath = `${DATA_DIR}/analysis/${id}.json`;
+  }
+  // /api/contracts/:merchantId/:contractId/mapping (POST - but we return cached data)
+  else if (apiPath.match(/^\/contracts\/\d+\/[A-Za-z0-9-]+\/mapping$/)) {
+    const merchantId = apiPath.split("/")[2];
+    const contractId = apiPath.split("/")[3];
+    jsonPath = `${DATA_DIR}/contracts/mapping/${merchantId}_${contractId}.json`;
+  }
+  // /api/contracts/:merchantId/:contractId (contract details)
+  else if (apiPath.match(/^\/contracts\/\d+\/[A-Za-z0-9-]+$/)) {
+    const merchantId = apiPath.split("/")[2];
+    const contractId = apiPath.split("/")[3];
+    jsonPath = `${DATA_DIR}/contracts/details/${merchantId}_${contractId}.json`;
+  }
+  // /api/contracts/:id (list of contracts for merchant)
+  else if (apiPath.match(/^\/contracts\/\d+$/)) {
+    const id = apiPath.split("/")[2];
+    jsonPath = `${DATA_DIR}/contracts/${id}.json`;
   }
   // /api/transactions/:id
   else if (apiPath.match(/^\/transactions\/[a-f0-9-]+$/)) {

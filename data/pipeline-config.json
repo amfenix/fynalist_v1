@@ -1,0 +1,213 @@
+{
+  "pipelines": [
+    {
+      "id": "contract_deviation",
+      "name": "Contract Deviation Analysis",
+      "description": "Analyze deviations between actual and contract-expected commissions",
+      "icon": "git-branch",
+      "defaultStageConfig": "full"
+    }
+  ],
+  "stageConfigs": [
+    { "id": "full", "name": "Full Pipeline", "stages": [1, 2, 3, 4, 5, 6], "description": "Run all stages" },
+    { "id": "load_map", "name": "Load & Map", "stages": [1, 2], "description": "Load data and map contracts" },
+    { "id": "analysis", "name": "Analysis", "stages": [1, 2, 3], "description": "Load, map, and analyze patterns" },
+    { "id": "discovery", "name": "Discovery", "stages": [1, 2, 3, 4], "description": "Load through variant discovery" },
+    { "id": "apply", "name": "Apply", "stages": [1, 2, 3, 4, 5], "description": "All except deviation classification" },
+    { "id": "custom", "name": "Custom", "stages": [], "description": "Select individual stages" }
+  ],
+  "stages": [
+    { "id": 1, "name": "Load", "description": "Load transactions and rate plans from data source" },
+    { "id": 2, "name": "Map", "description": "Map transactions to contract rate plans" },
+    { "id": 3, "name": "Analyze", "description": "Analyze transaction patterns and cluster by effective rate" },
+    { "id": 4, "name": "Discover", "description": "Discover pricing variants through grid search" },
+    { "id": 5, "name": "Apply", "description": "Apply discovered rates to transactions" },
+    { "id": 6, "name": "Deviation", "description": "Classify deviations between actual and expected" }
+  ],
+  "defaults": {
+    "pipeline": {
+      "stages": [1, 2, 3, 4, 5, 6],
+      "min_mapping_confidence": 50,
+      "cluster_precision": 0.5,
+      "cluster_min_precision": 0.05,
+      "cluster_min_transactions": 3,
+      "use_net_effective_rate": true,
+      "rate_precision": 0.25,
+      "rate_min": 1.0,
+      "rate_max": 15.0,
+      "fixed_precision": 0.25,
+      "fixed_min": 0,
+      "fixed_max": 5.0,
+      "min_transactions": 3,
+      "max_variants": 10,
+      "contract_match_threshold": 90,
+      "match_tolerance_eur": 0.02,
+      "match_tolerance_pct": 0.02,
+      "threshold_exact": 1,
+      "threshold_minor": 5,
+      "threshold_significant": 20
+    },
+    "scoring": {
+      "weight_proximity": 0.30,
+      "weight_smoothness": 0.25,
+      "weight_proportionality": 0.20,
+      "weight_intersection": 0.25,
+      "proximity_rate_max_deviation": 5.0,
+      "proximity_fixed_max_deviation": 2.0,
+      "proximity_rate_penalty_weight": 50,
+      "proximity_fixed_penalty_weight": 30,
+      "proximity_min_score": 0,
+      "smoothness_rate_threshold": 1.5,
+      "smoothness_fixed_threshold": 0.75,
+      "smoothness_rate_excess_penalty": 25,
+      "smoothness_fixed_excess_penalty": 20,
+      "smoothness_min_score": 0,
+      "proportionality_months_per_plan": 2,
+      "proportionality_excess_penalty_multiplier": 40,
+      "proportionality_max_penalty": 70,
+      "proportionality_min_score": 30,
+      "intersection_clean_days": 3,
+      "intersection_acceptable_days": 7,
+      "intersection_warning_days": 14,
+      "intersection_acceptable_penalty_per_day": 5,
+      "intersection_warning_penalty_per_day": 4.3,
+      "intersection_critical_penalty_per_day": 3,
+      "intersection_acceptable_base": 100,
+      "intersection_warning_base": 80,
+      "intersection_critical_base": 50,
+      "intersection_min_score": 10,
+      "intersection_critical_max_penalty": 40,
+      "grade_a_threshold": 90,
+      "grade_b_threshold": 75,
+      "grade_c_threshold": 60,
+      "grade_d_threshold": 40,
+      "contract_score": 100
+    }
+  },
+  "configSections": [
+    {
+      "id": "stage2",
+      "name": "Stage 2: Contract Mapping",
+      "stage": 2,
+      "fields": [
+        { "key": "min_mapping_confidence", "label": "Min Mapping Confidence", "type": "number", "unit": "%", "min": 0, "max": 100, "step": 1, "description": "Minimum confidence percentage to accept a contract mapping" }
+      ]
+    },
+    {
+      "id": "stage3",
+      "name": "Stage 3: Analysis / Clustering",
+      "stage": 3,
+      "fields": [
+        { "key": "cluster_precision", "label": "Cluster Precision", "type": "number", "unit": "%", "min": 0.01, "max": 5, "step": 0.01, "description": "Initial rate bin width for clustering transactions" },
+        { "key": "cluster_min_precision", "label": "Min Precision", "type": "number", "unit": "%", "min": 0.01, "max": 1, "step": 0.01, "description": "Minimum precision for cluster refinement" },
+        { "key": "cluster_min_transactions", "label": "Min Transactions", "type": "number", "min": 1, "max": 100, "step": 1, "description": "Minimum transactions required per cluster" },
+        { "key": "use_net_effective_rate", "label": "Use Net Effective Rate", "type": "boolean", "description": "Subtract fixed fee when calculating effective rate (vs gross)" }
+      ]
+    },
+    {
+      "id": "stage4",
+      "name": "Stage 4: Variant Discovery",
+      "stage": 4,
+      "fields": [
+        { "key": "rate_precision", "label": "Rate Precision", "type": "number", "unit": "%", "min": 0.01, "max": 1, "step": 0.01, "description": "Grid step size for rate search" },
+        { "key": "rate_min", "label": "Rate Min", "type": "number", "unit": "%", "min": 0, "max": 50, "step": 0.1, "description": "Minimum rate percentage to search" },
+        { "key": "rate_max", "label": "Rate Max", "type": "number", "unit": "%", "min": 0, "max": 50, "step": 0.1, "description": "Maximum rate percentage to search" },
+        { "key": "fixed_precision", "label": "Fixed Precision", "type": "number", "unit": "EUR", "min": 0.01, "max": 1, "step": 0.01, "description": "Grid step size for fixed fee search" },
+        { "key": "fixed_min", "label": "Fixed Min", "type": "number", "unit": "EUR", "min": 0, "max": 10, "step": 0.1, "description": "Minimum fixed fee to search" },
+        { "key": "fixed_max", "label": "Fixed Max", "type": "number", "unit": "EUR", "min": 0, "max": 20, "step": 0.1, "description": "Maximum fixed fee to search" },
+        { "key": "min_transactions", "label": "Min Transactions", "type": "number", "min": 1, "max": 100, "step": 1, "description": "Minimum transactions required per variant" },
+        { "key": "max_variants", "label": "Max Variants", "type": "number", "min": 1, "max": 50, "step": 1, "description": "Maximum number of variants to keep" },
+        { "key": "contract_match_threshold", "label": "Contract Match Threshold", "type": "number", "unit": "%", "min": 0, "max": 100, "step": 1, "description": "Confidence threshold to accept contract parameters as-is" }
+      ]
+    },
+    {
+      "id": "stage5",
+      "name": "Stage 5: Apply Rates",
+      "stage": 5,
+      "fields": [
+        { "key": "match_tolerance_eur", "label": "EUR Tolerance", "type": "number", "unit": "EUR", "min": 0, "max": 1, "step": 0.01, "description": "Absolute tolerance in EUR for rate matching" },
+        { "key": "match_tolerance_pct", "label": "Percentage Tolerance", "type": "number", "unit": "%", "min": 0, "max": 10, "step": 0.01, "description": "Relative tolerance percentage for rate matching" }
+      ]
+    },
+    {
+      "id": "stage6",
+      "name": "Stage 6: Deviation Classification",
+      "stage": 6,
+      "fields": [
+        { "key": "threshold_exact", "label": "Exact Threshold", "type": "number", "unit": "%", "min": 0, "max": 10, "step": 0.1, "description": "Deviation below this is classified as exact match" },
+        { "key": "threshold_minor", "label": "Minor Threshold", "type": "number", "unit": "%", "min": 0, "max": 20, "step": 0.1, "description": "Deviation below this is classified as minor" },
+        { "key": "threshold_significant", "label": "Significant Threshold", "type": "number", "unit": "%", "min": 0, "max": 50, "step": 0.1, "description": "Deviation below this is significant, above is critical" }
+      ]
+    },
+    {
+      "id": "scoring_weights",
+      "name": "Scoring: Weights",
+      "fields": [
+        { "key": "weight_proximity", "label": "Proximity Weight", "type": "number", "min": 0, "max": 1, "step": 0.05, "description": "Weight for contract proximity score (all weights must sum to 1.0)" },
+        { "key": "weight_smoothness", "label": "Smoothness Weight", "type": "number", "min": 0, "max": 1, "step": 0.05, "description": "Weight for temporal smoothness score" },
+        { "key": "weight_proportionality", "label": "Proportionality Weight", "type": "number", "min": 0, "max": 1, "step": 0.05, "description": "Weight for plan count proportionality score" },
+        { "key": "weight_intersection", "label": "Intersection Weight", "type": "number", "min": 0, "max": 1, "step": 0.05, "description": "Weight for date intersection score" }
+      ]
+    },
+    {
+      "id": "scoring_proximity",
+      "name": "Scoring: Contract Proximity",
+      "fields": [
+        { "key": "proximity_rate_max_deviation", "label": "Rate Max Deviation", "type": "number", "unit": "%", "min": 0, "max": 20, "step": 0.1, "description": "Maximum rate deviation for scoring normalization" },
+        { "key": "proximity_fixed_max_deviation", "label": "Fixed Max Deviation", "type": "number", "unit": "EUR", "min": 0, "max": 10, "step": 0.1, "description": "Maximum fixed fee deviation for scoring normalization" },
+        { "key": "proximity_rate_penalty_weight", "label": "Rate Penalty Weight", "type": "number", "min": 0, "max": 100, "step": 1, "description": "Penalty weight applied to rate deviations" },
+        { "key": "proximity_fixed_penalty_weight", "label": "Fixed Penalty Weight", "type": "number", "min": 0, "max": 100, "step": 1, "description": "Penalty weight applied to fixed fee deviations" },
+        { "key": "proximity_min_score", "label": "Min Score", "type": "number", "min": 0, "max": 100, "step": 1, "description": "Minimum possible proximity score" }
+      ]
+    },
+    {
+      "id": "scoring_smoothness",
+      "name": "Scoring: Temporal Smoothness",
+      "fields": [
+        { "key": "smoothness_rate_threshold", "label": "Rate Threshold", "type": "number", "unit": "%", "min": 0, "max": 10, "step": 0.1, "description": "Rate change threshold before penalties apply" },
+        { "key": "smoothness_fixed_threshold", "label": "Fixed Threshold", "type": "number", "unit": "EUR", "min": 0, "max": 5, "step": 0.05, "description": "Fixed fee change threshold before penalties apply" },
+        { "key": "smoothness_rate_excess_penalty", "label": "Rate Excess Penalty", "type": "number", "min": 0, "max": 100, "step": 1, "description": "Penalty for rate changes exceeding threshold" },
+        { "key": "smoothness_fixed_excess_penalty", "label": "Fixed Excess Penalty", "type": "number", "min": 0, "max": 100, "step": 1, "description": "Penalty for fixed fee changes exceeding threshold" },
+        { "key": "smoothness_min_score", "label": "Min Score", "type": "number", "min": 0, "max": 100, "step": 1, "description": "Minimum possible smoothness score" }
+      ]
+    },
+    {
+      "id": "scoring_proportionality",
+      "name": "Scoring: Plan Count",
+      "fields": [
+        { "key": "proportionality_months_per_plan", "label": "Months Per Plan", "type": "number", "min": 1, "max": 12, "step": 1, "description": "Expected months of data per plan variant" },
+        { "key": "proportionality_excess_penalty_multiplier", "label": "Excess Penalty Multiplier", "type": "number", "min": 0, "max": 100, "step": 1, "description": "Penalty multiplier for excess plan count" },
+        { "key": "proportionality_max_penalty", "label": "Max Penalty", "type": "number", "min": 0, "max": 100, "step": 1, "description": "Maximum possible penalty" },
+        { "key": "proportionality_min_score", "label": "Min Score", "type": "number", "min": 0, "max": 100, "step": 1, "description": "Minimum possible proportionality score" }
+      ]
+    },
+    {
+      "id": "scoring_intersection",
+      "name": "Scoring: Date Intersection",
+      "fields": [
+        { "key": "intersection_clean_days", "label": "Clean Days", "type": "number", "unit": "days", "min": 0, "max": 30, "step": 1, "description": "Overlap days with no penalty" },
+        { "key": "intersection_acceptable_days", "label": "Acceptable Days", "type": "number", "unit": "days", "min": 0, "max": 30, "step": 1, "description": "Upper limit for acceptable overlap" },
+        { "key": "intersection_warning_days", "label": "Warning Days", "type": "number", "unit": "days", "min": 0, "max": 60, "step": 1, "description": "Upper limit for warning overlap" },
+        { "key": "intersection_acceptable_penalty_per_day", "label": "Acceptable Penalty/Day", "type": "number", "min": 0, "max": 20, "step": 0.1, "description": "Penalty per day in acceptable zone" },
+        { "key": "intersection_warning_penalty_per_day", "label": "Warning Penalty/Day", "type": "number", "min": 0, "max": 20, "step": 0.1, "description": "Penalty per day in warning zone" },
+        { "key": "intersection_critical_penalty_per_day", "label": "Critical Penalty/Day", "type": "number", "min": 0, "max": 20, "step": 0.1, "description": "Penalty per day in critical zone" },
+        { "key": "intersection_acceptable_base", "label": "Acceptable Base Score", "type": "number", "min": 0, "max": 100, "step": 1, "description": "Base score for acceptable overlap" },
+        { "key": "intersection_warning_base", "label": "Warning Base Score", "type": "number", "min": 0, "max": 100, "step": 1, "description": "Base score for warning overlap" },
+        { "key": "intersection_critical_base", "label": "Critical Base Score", "type": "number", "min": 0, "max": 100, "step": 1, "description": "Base score for critical overlap" },
+        { "key": "intersection_min_score", "label": "Min Score", "type": "number", "min": 0, "max": 100, "step": 1, "description": "Minimum possible intersection score" },
+        { "key": "intersection_critical_max_penalty", "label": "Critical Max Penalty", "type": "number", "min": 0, "max": 100, "step": 1, "description": "Maximum penalty in critical zone" }
+      ]
+    },
+    {
+      "id": "scoring_grades",
+      "name": "Scoring: Grade Thresholds",
+      "fields": [
+        { "key": "grade_a_threshold", "label": "Grade A Threshold", "type": "number", "min": 0, "max": 100, "step": 1, "description": "Minimum score for grade A" },
+        { "key": "grade_b_threshold", "label": "Grade B Threshold", "type": "number", "min": 0, "max": 100, "step": 1, "description": "Minimum score for grade B" },
+        { "key": "grade_c_threshold", "label": "Grade C Threshold", "type": "number", "min": 0, "max": 100, "step": 1, "description": "Minimum score for grade C" },
+        { "key": "grade_d_threshold", "label": "Grade D Threshold", "type": "number", "min": 0, "max": 100, "step": 1, "description": "Minimum score for grade D" },
+        { "key": "contract_score", "label": "Contract Score", "type": "number", "min": 0, "max": 100, "step": 1, "description": "Fixed score assigned to contract variants" }
+      ]
+    }
+  ]
+}

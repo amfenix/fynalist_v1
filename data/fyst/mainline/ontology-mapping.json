@@ -1,0 +1,301 @@
+{
+  "version": "1.0.0",
+  "sources": [
+    {
+      "id": "RawTransaction",
+      "name": "Raw Transaction",
+      "description": "Transaction data from CSV import",
+      "fields": [
+        "transaction_id", "order_id", "merchant_id", "merchant_name",
+        "amount_eur", "comission_eur", "currency", "fx_rate",
+        "transaction_type", "transaction_status", "gate_type",
+        "country", "bin_country", "european_union",
+        "created_date", "created_date_no_time",
+        "base_eur", "fixed_eur", "agent_eur", "mdr_eur",
+        "tax_reserved_eur", "settle_eur", "trx", "running_sum"
+      ]
+    },
+    {
+      "id": "RatePlan",
+      "name": "Rate Plan",
+      "description": "Contract rate configuration",
+      "fields": [
+        "plan_key", "contract_id", "operation_type", "payment_type",
+        "apm_type", "currency", "region",
+        "wl_percent", "fixed_fee", "exchange_fee_percent",
+        "payout_percent", "payout_fixed", "payout_min",
+        "refund_fee", "chb_fee",
+        "volume_min", "volume_max"
+      ]
+    },
+    {
+      "id": "Merchant",
+      "name": "Merchant",
+      "description": "Merchant entity information",
+      "fields": [
+        "merchant_id", "merchant_name", "merchant_full_name",
+        "company_id", "company_name", "company_address",
+        "contract_id", "contract_date", "kam",
+        "hold_days", "settlement_cycle"
+      ]
+    },
+    {
+      "id": "APPLIED",
+      "name": "Applied Relationship",
+      "description": "Transaction to RatePlan link properties",
+      "fields": [
+        "plan_key", "why", "is_refund", "linked_at",
+        "planned_commission", "effective_rate",
+        "plan_rate", "plan_fixed",
+        "deviation", "deviation_percent",
+        "calculation_comment", "suggested_plan"
+      ]
+    },
+    {
+      "id": "Computed",
+      "name": "Computed",
+      "description": "Derived/calculated values",
+      "fields": ["region_from_country", "payment_type_from_gate", "apm_type_from_gate"]
+    },
+    {
+      "id": "Constant",
+      "name": "Constant",
+      "description": "Fixed values",
+      "fields": ["zero", "one", "hundred"]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "Transaction",
+      "name": "Transaction",
+      "description": "Source data from raw transactions",
+      "icon": "receipt",
+      "fields": [
+        {
+          "id": "amount",
+          "name": "amount",
+          "description": "Transaction amount in EUR (converted if non-EUR)",
+          "type": "CURRENCY",
+          "source": "RawTransaction",
+          "sourceField": "amount_eur"
+        },
+        {
+          "id": "currency",
+          "name": "currency",
+          "description": "Original transaction currency code (EUR, USD, PLN, etc.)",
+          "type": "STRING",
+          "source": "RawTransaction",
+          "sourceField": "currency"
+        },
+        {
+          "id": "fx_rate",
+          "name": "fx_rate",
+          "description": "Exchange rate used for non-EUR transactions",
+          "type": "NUMBER",
+          "source": "RawTransaction",
+          "sourceField": "fx_rate"
+        },
+        {
+          "id": "operation_type",
+          "name": "operation_type",
+          "description": "Type of operation: incoming, outgoing, chargeback, refund",
+          "type": "ENUM",
+          "source": "RawTransaction",
+          "sourceField": "transaction_type"
+        },
+        {
+          "id": "payment_type",
+          "name": "payment_type",
+          "description": "Payment method category: card, apm, crypto",
+          "type": "ENUM",
+          "source": "Computed",
+          "sourceField": "payment_type_from_gate"
+        },
+        {
+          "id": "apm_type",
+          "name": "apm_type",
+          "description": "Alternative payment method name: apple_pay, blik, sepa, etc.",
+          "type": "STRING",
+          "source": "Computed",
+          "sourceField": "apm_type_from_gate"
+        },
+        {
+          "id": "region",
+          "name": "region",
+          "description": "Geographic region derived from country: EEA, WW, UK, etc.",
+          "type": "ENUM",
+          "source": "Computed",
+          "sourceField": "region_from_country"
+        },
+        {
+          "id": "running_sum",
+          "name": "running_sum",
+          "description": "Cumulative transaction volume for tier matching",
+          "type": "CURRENCY",
+          "source": "RawTransaction",
+          "sourceField": "running_sum"
+        }
+      ]
+    },
+    {
+      "id": "RatePlan",
+      "name": "Rate Plan",
+      "description": "Contract rate configuration from merchant agreement",
+      "icon": "file-text",
+      "fields": [
+        {
+          "id": "wl_rate",
+          "name": "wl_rate",
+          "description": "White-label percentage rate for incoming transactions",
+          "type": "PERCENT",
+          "source": "RatePlan",
+          "sourceField": "wl_percent"
+        },
+        {
+          "id": "fixed",
+          "name": "fixed",
+          "description": "Fixed fee per transaction (in local currency for non-EUR)",
+          "type": "CURRENCY",
+          "source": "RatePlan",
+          "sourceField": "fixed_fee"
+        },
+        {
+          "id": "exchange_fee",
+          "name": "exchange_fee",
+          "description": "FX conversion fee percentage for non-EUR transactions",
+          "type": "PERCENT",
+          "source": "RatePlan",
+          "sourceField": "exchange_fee_percent"
+        },
+        {
+          "id": "payout_rate",
+          "name": "payout_rate",
+          "description": "Percentage rate for payout/outgoing transactions",
+          "type": "PERCENT",
+          "source": "RatePlan",
+          "sourceField": "payout_percent"
+        },
+        {
+          "id": "payout_fixed",
+          "name": "payout_fixed",
+          "description": "Fixed fee for payout transactions",
+          "type": "CURRENCY",
+          "source": "RatePlan",
+          "sourceField": "payout_fixed"
+        },
+        {
+          "id": "payout_min",
+          "name": "payout_min",
+          "description": "Minimum fee for payout transactions",
+          "type": "CURRENCY",
+          "source": "RatePlan",
+          "sourceField": "payout_min"
+        },
+        {
+          "id": "refund_fee",
+          "name": "refund_fee",
+          "description": "Flat fee charged for refund/reversal transactions",
+          "type": "CURRENCY",
+          "source": "RatePlan",
+          "sourceField": "refund_fee"
+        },
+        {
+          "id": "chb_fee",
+          "name": "chb_fee",
+          "description": "Flat fee charged for chargeback transactions",
+          "type": "CURRENCY",
+          "source": "RatePlan",
+          "sourceField": "chb_fee"
+        },
+        {
+          "id": "volume_min",
+          "name": "volume_min",
+          "description": "Minimum cumulative volume for this rate tier",
+          "type": "CURRENCY",
+          "source": "RatePlan",
+          "sourceField": "volume_min"
+        },
+        {
+          "id": "volume_max",
+          "name": "volume_max",
+          "description": "Maximum cumulative volume for this rate tier",
+          "type": "CURRENCY",
+          "source": "RatePlan",
+          "sourceField": "volume_max"
+        }
+      ]
+    },
+    {
+      "id": "Commission",
+      "name": "Commission",
+      "description": "Calculated and actual commission values",
+      "icon": "calculator",
+      "fields": [
+        {
+          "id": "actual",
+          "name": "actual",
+          "description": "Actual commission amount charged to merchant",
+          "type": "CURRENCY",
+          "source": "RawTransaction",
+          "sourceField": "comission_eur"
+        },
+        {
+          "id": "planned",
+          "name": "planned",
+          "description": "Expected commission calculated from rate plan formula",
+          "type": "CURRENCY",
+          "source": "APPLIED",
+          "sourceField": "planned_commission"
+        },
+        {
+          "id": "effective_rate",
+          "name": "effective_rate",
+          "description": "Back-calculated percentage rate from actual commission",
+          "type": "PERCENT",
+          "source": "APPLIED",
+          "sourceField": "effective_rate"
+        },
+        {
+          "id": "deviation",
+          "name": "deviation",
+          "description": "Difference between actual and planned commission (EUR)",
+          "type": "CURRENCY",
+          "source": "APPLIED",
+          "sourceField": "deviation"
+        },
+        {
+          "id": "deviation_percent",
+          "name": "deviation_percent",
+          "description": "Deviation as percentage of planned commission",
+          "type": "PERCENT",
+          "source": "APPLIED",
+          "sourceField": "deviation_percent"
+        }
+      ]
+    },
+    {
+      "id": "Merchant",
+      "name": "Merchant",
+      "description": "Merchant entity information",
+      "icon": "store",
+      "fields": [
+        {
+          "id": "merchant_id",
+          "name": "merchant_id",
+          "description": "Unique merchant identifier",
+          "type": "INTEGER",
+          "source": "Merchant",
+          "sourceField": "merchant_id"
+        },
+        {
+          "id": "merchant_name",
+          "name": "merchant_name",
+          "description": "Merchant display name",
+          "type": "STRING",
+          "source": "Merchant",
+          "sourceField": "merchant_name"
+        }
+      ]
+    }
+  ]
+}

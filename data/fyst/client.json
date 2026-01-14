@@ -1,0 +1,8 @@
+{
+  "id": "fyst",
+  "name": "Fyst Analytics",
+  "invite_code": "fyst-Xk9mP2nQr5tY",
+  "password": "fyst-Hw3jL8vBn4kZ",
+  "default_version": "mainline",
+  "versions": ["mainline", "demo-1"]
+}

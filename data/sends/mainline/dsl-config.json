@@ -1,0 +1,202 @@
+{
+  "current": "1.0.0",
+  "versions": {
+    "1.0.0": {
+      "name": "Initial Configuration",
+      "description": "Base DSL configuration for commission calculations",
+      "created": "2024-01-15",
+      "calculations": [
+        {
+          "name": "incoming_eur",
+          "description": "EUR incoming: (amount x rate%) + fixed",
+          "formula": "(amount x wl_rate%) + fixed",
+          "vars": [
+            { "name": "amount", "format": "CURRENCY", "label": "Transaction Amount" },
+            { "name": "wl_rate", "format": "PERCENT", "label": "WL Rate" },
+            { "name": "fixed", "format": "CURRENCY", "label": "Fixed Fee" },
+            { "name": "wl_fee", "format": "CURRENCY", "label": "WL Fee (calculated)" },
+            { "name": "total", "format": "CURRENCY", "label": "Total Commission" }
+          ],
+          "steps": [
+            { "op": "SHOW", "a": "amount", "label": "Amount (EUR)" },
+            { "op": "MUL_PCT", "a": "amount", "b": "wl_rate", "result": "wl_fee", "label": "WL Rate ({wl_rate}%)" },
+            { "op": "SHOW", "a": "fixed", "label": "Fixed Fee" },
+            { "op": "ADD", "a": "wl_fee", "b": "fixed", "result": "total", "label": "Total" }
+          ],
+          "result": "total"
+        },
+        {
+          "name": "incoming_fx",
+          "description": "Non-EUR incoming: (amount x rate%) + fixed_eur",
+          "formula": "(amount x wl_rate%) + fixed_eur",
+          "vars": [
+            { "name": "amount", "format": "CURRENCY", "label": "Transaction Amount (EUR)" },
+            { "name": "wl_rate", "format": "PERCENT", "label": "WL Rate" },
+            { "name": "fixed", "format": "CURRENCY", "label": "Fixed Fee (converted to EUR)" },
+            { "name": "wl_fee", "format": "CURRENCY", "label": "WL Fee (calculated)" },
+            { "name": "total", "format": "CURRENCY", "label": "Total Commission" }
+          ],
+          "steps": [
+            { "op": "SHOW", "a": "amount", "label": "Amount (EUR)" },
+            { "op": "MUL_PCT", "a": "amount", "b": "wl_rate", "result": "wl_fee", "label": "WL Rate ({wl_rate}%)" },
+            { "op": "SHOW", "a": "fixed", "label": "Fixed Fee (converted)" },
+            { "op": "ADD", "a": "wl_fee", "b": "fixed", "result": "total", "label": "Total" }
+          ],
+          "result": "total"
+        },
+        {
+          "name": "outgoing",
+          "description": "Payout: (amount x rate%) + fixed",
+          "formula": "(amount x payout_rate%) + payout_fixed",
+          "vars": [
+            { "name": "amount", "format": "CURRENCY", "label": "Payout Amount" },
+            { "name": "payout_rate", "format": "PERCENT", "label": "Payout Rate" },
+            { "name": "payout_fixed", "format": "CURRENCY", "label": "Payout Fixed Fee" },
+            { "name": "payout_fee", "format": "CURRENCY", "label": "Payout Fee (calculated)" },
+            { "name": "total", "format": "CURRENCY", "label": "Total Commission" }
+          ],
+          "steps": [
+            { "op": "SHOW", "a": "amount", "label": "Amount (EUR)" },
+            { "op": "MUL_PCT", "a": "amount", "b": "payout_rate", "result": "payout_fee", "label": "Payout Rate ({payout_rate}%)" },
+            { "op": "SHOW", "a": "payout_fixed", "label": "Payout Fixed" },
+            { "op": "ADD", "a": "payout_fee", "b": "payout_fixed", "result": "total", "label": "Total" }
+          ],
+          "result": "total"
+        },
+        {
+          "name": "outgoing_with_min",
+          "description": "Payout with minimum: max((amount x rate%) + fixed, min_fee)",
+          "formula": "max((amount x payout_rate%) + payout_fixed, payout_min)",
+          "vars": [
+            { "name": "amount", "format": "CURRENCY", "label": "Payout Amount" },
+            { "name": "payout_rate", "format": "PERCENT", "label": "Payout Rate" },
+            { "name": "payout_fixed", "format": "CURRENCY", "label": "Payout Fixed Fee" },
+            { "name": "payout_min", "format": "CURRENCY", "label": "Minimum Fee" },
+            { "name": "payout_fee", "format": "CURRENCY", "label": "Payout Fee (calculated)" },
+            { "name": "subtotal", "format": "CURRENCY", "label": "Subtotal" },
+            { "name": "total", "format": "CURRENCY", "label": "Total Commission" }
+          ],
+          "steps": [
+            { "op": "SHOW", "a": "amount", "label": "Amount (EUR)" },
+            { "op": "MUL_PCT", "a": "amount", "b": "payout_rate", "result": "payout_fee", "label": "Payout Rate ({payout_rate}%)" },
+            { "op": "SHOW", "a": "payout_fixed", "label": "Payout Fixed" },
+            { "op": "ADD", "a": "payout_fee", "b": "payout_fixed", "result": "subtotal" },
+            { "op": "MAX", "a": "subtotal", "b": "payout_min", "result": "total", "label": "Total (min: {payout_min})" }
+          ],
+          "result": "total"
+        },
+        {
+          "name": "refund",
+          "description": "Flat refund fee",
+          "formula": "refund_fee",
+          "vars": [
+            { "name": "refund_fee", "format": "CURRENCY", "label": "Refund Fee" },
+            { "name": "total", "format": "CURRENCY", "label": "Total" }
+          ],
+          "steps": [
+            { "op": "SHOW", "a": "refund_fee", "label": "Refund Fee" },
+            { "op": "SHOW", "a": "refund_fee", "result": "total", "label": "Total" }
+          ],
+          "result": "total"
+        },
+        {
+          "name": "chargeback",
+          "description": "Flat chargeback fee",
+          "formula": "chb_fee",
+          "vars": [
+            { "name": "chb_fee", "format": "CURRENCY", "label": "Chargeback Fee" },
+            { "name": "total", "format": "CURRENCY", "label": "Total" }
+          ],
+          "steps": [
+            { "op": "SHOW", "a": "chb_fee", "label": "Chargeback Fee" },
+            { "op": "SHOW", "a": "chb_fee", "result": "total", "label": "Total" }
+          ],
+          "result": "total"
+        },
+        {
+          "name": "effective_rate",
+          "description": "Back-calculate: ((commission - fixed) / amount) x 100",
+          "formula": "((commission - fixed) / amount) x 100",
+          "vars": [
+            { "name": "commission", "format": "CURRENCY", "label": "Actual Commission" },
+            { "name": "fixed", "format": "CURRENCY", "label": "Fixed Fee" },
+            { "name": "amount", "format": "CURRENCY", "label": "Transaction Amount" },
+            { "name": "net", "format": "CURRENCY", "label": "Net (commission - fixed)" },
+            { "name": "rate", "format": "PERCENT_PRECISE", "label": "Effective Rate" }
+          ],
+          "steps": [
+            { "op": "SUB", "a": "commission", "b": "fixed", "result": "net" },
+            { "op": "DIV_PCT", "a": "net", "b": "amount", "result": "rate", "label": "Effective Rate" }
+          ],
+          "result": "rate"
+        },
+        {
+          "name": "deviation",
+          "description": "Compare: ((actual - planned) / planned) x 100",
+          "formula": "((actual - planned) / planned) x 100",
+          "vars": [
+            { "name": "actual", "format": "CURRENCY", "label": "Actual Commission" },
+            { "name": "planned", "format": "CURRENCY", "label": "Planned Commission" },
+            { "name": "diff", "format": "CURRENCY", "label": "Difference" },
+            { "name": "percent", "format": "PERCENT", "label": "Deviation %" }
+          ],
+          "steps": [
+            { "op": "SUB", "a": "actual", "b": "planned", "result": "diff", "label": "Deviation Amount" },
+            { "op": "DIV_PCT", "a": "diff", "b": "planned", "result": "percent", "label": "Deviation %" }
+          ],
+          "result": "percent"
+        }
+      ],
+      "matching": [
+        {
+          "field": "operation_type",
+          "priority": 0,
+          "emptyMeans": "reject",
+          "op": "EQ",
+          "label": "Operation Type",
+          "description": "incoming, outgoing, chargeback, etc."
+        },
+        {
+          "field": "currency",
+          "priority": 0,
+          "emptyMeans": "reject",
+          "op": "EQ",
+          "label": "Currency",
+          "description": "EUR, USD, PLN, etc."
+        },
+        {
+          "field": "payment_type",
+          "priority": 0,
+          "emptyMeans": "any",
+          "op": "EQ",
+          "label": "Payment Type",
+          "description": "card, apm, crypto"
+        },
+        {
+          "field": "apm_type",
+          "priority": 1,
+          "emptyMeans": "any",
+          "op": "EQ",
+          "label": "APM Type",
+          "description": "apple_pay, blik, sepa, etc."
+        },
+        {
+          "field": "region",
+          "priority": 2,
+          "emptyMeans": "any",
+          "op": "EQ",
+          "label": "Region",
+          "description": "EEA, WW, UK, etc."
+        },
+        {
+          "field": "volume_tier",
+          "priority": 3,
+          "emptyMeans": "any",
+          "op": "BETWEEN",
+          "label": "Volume Tier",
+          "description": "Cumulative volume range matching"
+        }
+      ]
+    }
+  }
+}

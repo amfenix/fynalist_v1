@@ -31,3 +31,8 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.temp
+tmpclaude*
+nul
+
+# Client data (credentials, version-specific data)
+data/

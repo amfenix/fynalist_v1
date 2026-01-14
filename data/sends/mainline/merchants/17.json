@@ -1,0 +1,25 @@
+{
+  "merchant_id": 17,
+  "merchant_name": "SKINVEX LTD",
+  "merchant_group": "SENDS",
+  "company_name": "SKINVEX LTD",
+  "kam": "Yuliia NIKULINA",
+  "contract_id": "2025/1509-02",
+  "transaction_count": 0,
+  "approved_count": 0,
+  "declined_count": 0,
+  "acceptance_rate": 0,
+  "total_amount_eur": 0.0,
+  "total_commission_eur": 0.0,
+  "sale_count": 0,
+  "sale_amount": 0.0,
+  "payout_count": 0,
+  "payout_amount": 0.0,
+  "reversal_count": 0,
+  "reversal_amount": 0.0,
+  "first_transaction_date": "",
+  "partners": [
+    "SENDS"
+  ],
+  "currency_breakdown": []
+}

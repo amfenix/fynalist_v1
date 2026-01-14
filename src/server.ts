@@ -9,12 +9,13 @@
  *   data/{client_id}/{version}/      - Version-specific data
  *
  * Flow:
- * 1. No invite param → "No invite" page
+ * 1. No invite param, no cookie → "No invite" page
  * 2. With invite param → Lookup client by invite_code
  * 3. Valid client, no cookie → Login page (enter password)
  * 4. POST /auth with invite + password → Validate and set cookie (client_id + version)
- * 5. Valid cookie → Serve client/version-specific content
- * 6. POST /api/version → Switch version (updates cookie)
+ * 5. Valid cookie, no invite or matching invite → Serve client/version-specific content
+ * 6. Valid cookie, different invite → Show login page for new client (requires re-auth)
+ * 7. POST /api/version → Switch version (updates cookie)
  */
 
 import { resolve, dirname, join } from "path";
@@ -639,8 +640,20 @@ const server = Bun.serve({
       });
     }
 
-    // Already authenticated - serve content
+    // Already authenticated - but check if URL has a different invite code
     if (authedClient) {
+      // If URL has invite param, validate it matches authenticated client
+      if (inviteParam) {
+        const requestedClient = clients.get(inviteParam);
+        if (!requestedClient) {
+          // Invalid invite code - show no invite page
+          return serveNoInvitePage();
+        }
+        if (requestedClient.id !== authedClient.id) {
+          // Different client requested - require re-login
+          return serveLoginPage(requestedClient);
+        }
+      }
       // POST /api/reload - reload all client data from disk (requires auth)
       if (url.pathname === "/api/reload" && req.method === "POST") {
         console.log(`Reloading client data (requested by ${authedClient.id})...`);

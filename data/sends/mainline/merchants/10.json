@@ -1,0 +1,25 @@
+{
+  "merchant_id": 10,
+  "merchant_name": "NOXIOUS LIMITED",
+  "merchant_group": "SENDS",
+  "company_name": "NOXIOUS LIMITED",
+  "kam": "Anastasiia Pervushyna",
+  "contract_id": "2203-24",
+  "transaction_count": 0,
+  "approved_count": 0,
+  "declined_count": 0,
+  "acceptance_rate": 0,
+  "total_amount_eur": 0.0,
+  "total_commission_eur": 0.0,
+  "sale_count": 0,
+  "sale_amount": 0.0,
+  "payout_count": 0,
+  "payout_amount": 0.0,
+  "reversal_count": 0,
+  "reversal_amount": 0.0,
+  "first_transaction_date": "",
+  "partners": [
+    "SENDS"
+  ],
+  "currency_breakdown": []
+}

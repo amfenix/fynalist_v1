@@ -1,0 +1,25 @@
+{
+  "merchant_id": 13,
+  "merchant_name": "QUANTESSA LTD",
+  "merchant_group": "SENDS",
+  "company_name": "QUANTESSA LTD",
+  "kam": "ZHUKOVA, Olena",
+  "contract_id": "13/10-02",
+  "transaction_count": 0,
+  "approved_count": 0,
+  "declined_count": 0,
+  "acceptance_rate": 0,
+  "total_amount_eur": 0.0,
+  "total_commission_eur": 0.0,
+  "sale_count": 0,
+  "sale_amount": 0.0,
+  "payout_count": 0,
+  "payout_amount": 0.0,
+  "reversal_count": 0,
+  "reversal_amount": 0.0,
+  "first_transaction_date": "",
+  "partners": [
+    "SENDS"
+  ],
+  "currency_breakdown": []
+}

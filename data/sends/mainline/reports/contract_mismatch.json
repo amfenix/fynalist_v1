@@ -1,6 +1,15 @@
 {
-  "mismatches": [],
-  "summary": {
-    "total_mismatches": 0
-  }
+  "generated_at": "2025-01-14T10:00:00.000000",
+  "scope": "NO DATA - Reports not generated yet",
+  "match_quality": {
+    "exact": 0,
+    "minor": 0,
+    "significant": 0,
+    "critical": 0,
+    "total": 0
+  },
+  "rate_plan_analysis": {},
+  "examples": {},
+  "low_confidence_matches": [],
+  "volume_tier_suggestions": []
 }

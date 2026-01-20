@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-01-20T23:10:11.562376",
-  "scope": "Commission Compliance Analysis (Oct-Dec 2025)",
+  "scope": "Commission Compliance Analysis (Full Year 2025)",
   "data_source": "SendsTransaction nodes with actual contract rates from JSON files",
   "summary": {
     "total_transactions": 2708089,

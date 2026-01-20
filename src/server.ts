@@ -486,6 +486,10 @@ async function serveApiRoute(
     const txId = apiPath.split("/")[2];
     jsonPath = `${VERSION_DATA_DIR}/transactions/why/${txId}.json`;
   }
+  // /api/reports/list - available reports for this client/version
+  else if (apiPath === "/reports/list") {
+    jsonPath = `${VERSION_DATA_DIR}/reports/list.json`;
+  }
   // /api/reports/deviation
   else if (apiPath === "/reports/deviation") {
     jsonPath = `${VERSION_DATA_DIR}/reports/deviation.json`;
@@ -501,6 +505,14 @@ async function serveApiRoute(
   // /api/reports/anomalies
   else if (apiPath === "/reports/anomalies") {
     jsonPath = `${VERSION_DATA_DIR}/reports/anomalies.json`;
+  }
+  // /api/reports/reconciliation-deviation
+  else if (apiPath === "/reports/reconciliation-deviation") {
+    jsonPath = `${VERSION_DATA_DIR}/reports/reconciliation-deviation.json`;
+  }
+  // /api/reports/underpayment-v2 (Commission Compliance)
+  else if (apiPath === "/reports/underpayment-v2") {
+    jsonPath = `${VERSION_DATA_DIR}/reports/underpayment-v2.json`;
   }
   // /api/dsl-config - DSL configuration with versioning
   else if (apiPath === "/dsl-config") {

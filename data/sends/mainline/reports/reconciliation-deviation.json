@@ -1,0 +1,231 @@
+{
+  "generated_at": "2026-01-20T12:00:00.000000",
+  "scope": "Reconciliation vs Transactions (Jan 1 - Dec 31, 2025)",
+  "data_source": "Reconciliation files updated Dec 31 2025",
+
+  "summary": {
+    "total_records": 3158,
+    "with_recon_data": 2895,
+    "missing_recon_data": 263,
+    "total_deviations": 17,
+    "significant_deviations": 7,
+    "rounding_errors": 10
+  },
+
+  "comparison_v1": {
+    "previous_with_recon": 2417,
+    "previous_missing": 883,
+    "previous_deviations": 159,
+    "records_added": 478,
+    "deviations_resolved": 142
+  },
+
+  "date_shifts": [
+    {
+      "id": "fyst-eur-1697",
+      "merchant": "FYST",
+      "point_id": 1697,
+      "currency": "EUR",
+      "sheet": "EUR 1697 (F-N)",
+      "description": "Data swap between 2025-08-29 and 2025-08-31",
+      "pairs": [
+        {"date": "2025-08-29", "actual": 159224.99, "expected": 112116.41, "deviation": 47108.58},
+        {"date": "2025-08-31", "actual": 112116.41, "expected": 159224.99, "deviation": -47108.58}
+      ],
+      "net_impact": 0,
+      "status": "NOT_FIXED",
+      "severity": "critical"
+    },
+    {
+      "id": "nuoplaym-aud-20299",
+      "merchant": "NUOPLAYM LIMITED",
+      "point_id": 20299,
+      "currency": "AUD",
+      "sheet": "AUD (S)",
+      "description": "Partial data swap between 2025-08-20 and 2025-08-27",
+      "pairs": [
+        {"date": "2025-08-20", "actual": 718845.00, "expected": 741611.15, "deviation": -22766.15},
+        {"date": "2025-08-27", "actual": 451392.15, "expected": 428626.00, "deviation": 22766.15}
+      ],
+      "net_impact": 0,
+      "status": "NOT_FIXED",
+      "severity": "critical"
+    },
+    {
+      "id": "fyst-aud-20385",
+      "merchant": "FYST",
+      "point_id": 20385,
+      "currency": "AUD",
+      "sheet": "AUD 20385 (F-N)",
+      "description": "Partial data swap between 2025-09-11 and 2025-09-26",
+      "pairs": [
+        {"date": "2025-09-11", "actual": 12704.57, "expected": 13816.79, "deviation": -1112.22},
+        {"date": "2025-09-26", "actual": 29231.00, "expected": 28118.78, "deviation": 1112.22}
+      ],
+      "net_impact": 0,
+      "status": "NOT_FIXED",
+      "severity": "warning"
+    },
+    {
+      "id": "fyst-usd-20405",
+      "merchant": "FYST",
+      "point_id": 20405,
+      "currency": "USD",
+      "sheet": "USD 20405 (F-N)",
+      "description": "Single deviation - offsetting entry may be outside date range",
+      "pairs": [
+        {"date": "2025-09-30", "actual": 951.94, "expected": 2064.16, "deviation": -1112.22}
+      ],
+      "net_impact": -1112.22,
+      "status": "NOT_FIXED",
+      "severity": "warning"
+    }
+  ],
+
+  "unmatched_transactions": {
+    "total_count": 316283,
+    "total_percent": 6.3,
+    "groups": [
+      {
+        "merchant": "BLOGWIZARRO LTD",
+        "currency": "AUD",
+        "point_name": "BLOGWIZARRO acquiring AUD",
+        "point_id": 20174,
+        "payment_type": "card",
+        "transaction_count": 303850,
+        "total_amount": 24589768.25,
+        "percent_of_unmatched": 96.1,
+        "reason": "Missing AUD rate plan in contract",
+        "recommendation": "Add AUD card rate plan to BLOGWIZARRO contract"
+      },
+      {
+        "merchant": "DIVINENODE LIMITED",
+        "currency": "AUD",
+        "point_name": "DIVINENODE AUD",
+        "point_id": 20460,
+        "payment_type": "card",
+        "transaction_count": 11752,
+        "total_amount": 849502.00,
+        "percent_of_unmatched": 3.7,
+        "reason": "Missing AUD rate plan in contract",
+        "recommendation": "Add AUD card rate plan to DIVINENODE contract"
+      },
+      {
+        "merchant": "BLOGWIZARRO LTD",
+        "currency": "NOK",
+        "point_name": "BLOGWIZARRO acquiring NOK",
+        "point_id": 20175,
+        "payment_type": "card",
+        "transaction_count": 678,
+        "total_amount": 411695.43,
+        "percent_of_unmatched": 0.2,
+        "reason": "Missing NOK rate plan in contract",
+        "recommendation": "Add NOK card rate plan to BLOGWIZARRO contract"
+      },
+      {
+        "merchant": "AIMSKINZ LIMITED",
+        "currency": "PLN",
+        "point_name": "AIMSKINZ BLIK",
+        "point_id": 20430,
+        "payment_type": "blik",
+        "transaction_count": 2,
+        "total_amount": 190.00,
+        "percent_of_unmatched": 0.0,
+        "reason": "Missing BLIK rate plan for PLN",
+        "recommendation": "Add BLIK rate plan if BLIK processing continues"
+      },
+      {
+        "merchant": "ARTIMATTER LIMITED",
+        "currency": "PLN",
+        "point_name": "ARTIMATTER BLIK",
+        "point_id": 20464,
+        "payment_type": "blik",
+        "transaction_count": 1,
+        "total_amount": 22.00,
+        "percent_of_unmatched": 0.0,
+        "reason": "Missing BLIK rate plan for PLN",
+        "recommendation": "Add BLIK rate plan if BLIK processing continues"
+      }
+    ]
+  },
+
+  "missing_reconciliation": [
+    {
+      "merchant": "NOXIOUS LIMITED",
+      "records": 253,
+      "date_from": "2025-01-01",
+      "date_to": "2025-12-31",
+      "total_amount": 24859434.80,
+      "currency": "PLN",
+      "point_ids": [20087, 1132, 1589],
+      "reason": "Merchant name/point mismatch - database has PLN/BLIK points but reconciliation file (SkinsMagnate.xlsx) contains EUR/GBP sheets",
+      "severity": "high"
+    },
+    {
+      "merchant": "FYST",
+      "records": 6,
+      "date_from": "2025-09-11",
+      "date_to": "2025-11-05",
+      "total_amount": 655535.75,
+      "currency": "mixed",
+      "point_ids": [20338, 20339],
+      "reason": "Points not covered in reconciliation file",
+      "severity": "medium"
+    },
+    {
+      "merchant": "AIMSKINZ LIMITED",
+      "records": 2,
+      "date_from": "2025-09-25",
+      "date_to": "2025-09-26",
+      "total_amount": 190.00,
+      "currency": "PLN",
+      "point_ids": [20430],
+      "reason": "BLIK transactions - no PLN reconciliation sheet",
+      "severity": "low"
+    },
+    {
+      "merchant": "WEBNORUS LIMITED",
+      "records": 1,
+      "date_from": "2025-10-08",
+      "date_to": "2025-10-08",
+      "total_amount": 415.98,
+      "currency": "PLN",
+      "point_ids": [20463],
+      "reason": "BLIK transaction - no PLN reconciliation sheet",
+      "severity": "low"
+    },
+    {
+      "merchant": "ARTIMATTER LIMITED",
+      "records": 1,
+      "date_from": "2025-10-07",
+      "date_to": "2025-10-07",
+      "total_amount": 22.00,
+      "currency": "PLN",
+      "point_ids": [20464],
+      "reason": "BLIK transaction - no PLN reconciliation sheet",
+      "severity": "low"
+    }
+  ],
+
+  "rounding_errors": [
+    {"merchant": "AIMSKINZ LIMITED", "point_id": 1712, "date": "2025-08-28", "currency": "AUD", "actual": 15682.31, "expected": 15682.30, "deviation": 0.01},
+    {"merchant": "AIMSKINZ LIMITED", "point_id": 1712, "date": "2025-08-30", "currency": "AUD", "actual": 186018.16, "expected": 186018.20, "deviation": -0.04},
+    {"merchant": "AIMSKINZ LIMITED", "point_id": 1712, "date": "2025-08-31", "currency": "AUD", "actual": 132488.03, "expected": 132488.00, "deviation": 0.03},
+    {"merchant": "FYST", "point_id": 1653, "date": "2025-08-07", "currency": "EUR", "actual": 163963.38, "expected": 163963.40, "deviation": -0.02},
+    {"merchant": "FYST", "point_id": 1653, "date": "2025-08-08", "currency": "EUR", "actual": 76764.18, "expected": 76764.16, "deviation": 0.02},
+    {"merchant": "FYST", "point_id": 1640, "date": "2025-08-26", "currency": "EUR", "actual": 85017.26, "expected": 85017.25, "deviation": 0.01},
+    {"merchant": "NUOPLAYM LIMITED", "point_id": 20299, "date": "2025-09-01", "currency": "AUD", "actual": 272421.77, "expected": 272421.80, "deviation": -0.03},
+    {"merchant": "NUOPLAYM LIMITED", "point_id": 20299, "date": "2025-09-23", "currency": "AUD", "actual": 247471.93, "expected": 247471.90, "deviation": 0.03}
+  ],
+
+  "small_discrepancies": [
+    {"merchant": "AIMSKINZ LIMITED", "point_id": 1711, "date": "2025-09-24", "currency": "NOK", "actual": 7737.26, "expected": 7736.26, "deviation": 1.00, "note": "1 NOK = ~0.09 EUR"},
+    {"merchant": "AIMSKINZ LIMITED", "point_id": 1711, "date": "2025-09-28", "currency": "NOK", "actual": 7571.00, "expected": 7572.00, "deviation": -1.00, "note": "1 NOK = ~0.09 EUR"}
+  ],
+
+  "resolved_issues": {
+    "description": "Issues from v1 report that are now resolved",
+    "count": 119,
+    "details": "All 119 'Missing Recon Data' records for Dec 25-31, 2025 are now filled with data from the updated reconciliation files."
+  }
+}

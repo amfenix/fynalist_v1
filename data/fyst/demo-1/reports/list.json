@@ -1,0 +1,34 @@
+{
+  "reports": [
+    {
+      "id": "underpayment-analysis",
+      "title": "Underpayment Analysis",
+      "description": "Analysis of transactions where actual commission is lower than contracted rates",
+      "icon": "TrendingDown",
+      "href": "/reports/underpayment",
+      "dataEndpoint": "/api/reports/deviation",
+      "available": true,
+      "generated_at": "2025-12-23T15:14:48.377384"
+    },
+    {
+      "id": "contract-mismatch",
+      "title": "Contract Mismatch Analysis",
+      "description": "Analysis of rate plan matches, deviations, and potential contract issues",
+      "icon": "FileWarning",
+      "href": "/reports/contract-mismatch",
+      "dataEndpoint": "/api/reports/contract-mismatch",
+      "available": true,
+      "generated_at": "2025-12-23T15:14:48.377384"
+    },
+    {
+      "id": "anomalies",
+      "title": "Anomalies Detected",
+      "description": "Zero commission, fixed fee mismatches, and manual transactions requiring review",
+      "icon": "AlertTriangle",
+      "href": "/reports/anomalies",
+      "dataEndpoint": "/api/reports/anomalies",
+      "available": true,
+      "generated_at": "2025-12-23T15:14:48.377384"
+    }
+  ]
+}

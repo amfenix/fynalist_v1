@@ -1,0 +1,748 @@
+{
+  "generated_at": "2026-01-20T13:29:04.443850",
+  "scope": "Commission Compliance Analysis (Oct-Dec 2025)",
+  "data_source": "SendsTransaction nodes with actual contract rates from JSON files",
+  "summary": {
+    "total_transactions": 2708089,
+    "total_volume": 148710802.94,
+    "total_expected_commission": 5186865.06,
+    "total_actual_commission": 5289826.36,
+    "total_deviation": 102961.3,
+    "match_percentage": 98.01,
+    "merchants_analyzed": 20,
+    "merchants_with_transactions": 17
+  },
+  "deviation_distribution": {
+    "exact_match": {
+      "count": 15,
+      "description": "Deviation < 0.1%"
+    },
+    "minor_deviation": {
+      "count": 1,
+      "description": "Deviation 0.1% - 0.5%"
+    },
+    "significant_deviation": {
+      "count": 1,
+      "description": "Deviation > 0.5%"
+    },
+    "no_transactions": {
+      "count": 3,
+      "description": "No transactions found"
+    }
+  },
+  "merchant_summary": [
+    {
+      "merchant": "FYST",
+      "transaction_count": 1280157,
+      "total_volume": 58424027.88,
+      "contract_rate": 3.8,
+      "contract_fixed": 0,
+      "expected_commission": 2220094.9,
+      "actual_commission": 2210691.25,
+      "deviation": -9403.65,
+      "deviation_percent": -0.4236,
+      "status": "minor",
+      "currencies": [
+        "EUR",
+        "AUD",
+        "USD"
+      ],
+      "currency_details": [
+        {
+          "currency": "EUR",
+          "tx_count": 1266324,
+          "rate": 3.8,
+          "fixed": 0,
+          "volume": 57416839.68,
+          "expected": 2181822.72,
+          "actual": 2172419.07,
+          "deviation": -9403.65
+        },
+        {
+          "currency": "AUD",
+          "tx_count": 10936,
+          "rate": 3.8,
+          "fixed": 0,
+          "volume": 853480.71,
+          "expected": 32432.25,
+          "actual": 32432.25,
+          "deviation": 0.0
+        },
+        {
+          "currency": "USD",
+          "tx_count": 2897,
+          "rate": 3.8,
+          "fixed": 0,
+          "volume": 153707.49,
+          "expected": 5839.93,
+          "actual": 5839.93,
+          "deviation": 0.0
+        }
+      ]
+    },
+    {
+      "merchant": "SKINVALUT LIMITED",
+      "transaction_count": 442797,
+      "total_volume": 22902995.16,
+      "contract_rate": 3.8,
+      "contract_fixed": 0,
+      "expected_commission": 870297.3,
+      "actual_commission": 870297.3,
+      "deviation": 0.0,
+      "deviation_percent": 0.0,
+      "status": "exact",
+      "currencies": [
+        "AUD",
+        "EUR",
+        "USD"
+      ],
+      "currency_details": [
+        {
+          "currency": "AUD",
+          "tx_count": 78396,
+          "rate": 3.8,
+          "fixed": 0,
+          "volume": 5984274.07,
+          "expected": 227402.19,
+          "actual": 227402.19,
+          "deviation": 0.0
+        },
+        {
+          "currency": "EUR",
+          "tx_count": 364120,
+          "rate": 3.8,
+          "fixed": 0,
+          "volume": 16907762.01,
+          "expected": 642478.76,
+          "actual": 642478.76,
+          "deviation": 0.0
+        },
+        {
+          "currency": "USD",
+          "tx_count": 281,
+          "rate": 3.8,
+          "fixed": 0,
+          "volume": 10959.08,
+          "expected": 416.35,
+          "actual": 416.35,
+          "deviation": 0.0
+        }
+      ]
+    },
+    {
+      "merchant": "NOXIOUS LIMITED",
+      "transaction_count": 230115,
+      "total_volume": 27059691.64,
+      "contract_rate": 2.0,
+      "contract_fixed": 0.1,
+      "expected_commission": 564211.73,
+      "actual_commission": 676576.68,
+      "deviation": 112364.95,
+      "deviation_percent": 19.9154,
+      "status": "significant",
+      "currencies": [
+        "PLN"
+      ],
+      "currency_details": [
+        {
+          "currency": "PLN",
+          "tx_count": 230115,
+          "rate": 2.0,
+          "fixed": 0.1,
+          "volume": 27059691.64,
+          "expected": 564211.73,
+          "actual": 676576.68,
+          "deviation": 112364.95
+        }
+      ]
+    },
+    {
+      "merchant": "AIMSKINZ LIMITED",
+      "transaction_count": 202791,
+      "total_volume": 14802681.81,
+      "contract_rate": 3.8,
+      "contract_fixed": 0,
+      "expected_commission": 562459.74,
+      "actual_commission": 562459.74,
+      "deviation": 0.0,
+      "deviation_percent": 0.0,
+      "status": "exact",
+      "currencies": [
+        "NOK",
+        "AUD",
+        "EUR"
+      ],
+      "currency_details": [
+        {
+          "currency": "NOK",
+          "tx_count": 2037,
+          "rate": 3.8,
+          "fixed": 0,
+          "volume": 1039053.45,
+          "expected": 39483.93,
+          "actual": 39483.93,
+          "deviation": 0.0
+        },
+        {
+          "currency": "AUD",
+          "tx_count": 149849,
+          "rate": 3.8,
+          "fixed": 0,
+          "volume": 11285339.41,
+          "expected": 428844.7,
+          "actual": 428844.7,
+          "deviation": 0.0
+        },
+        {
+          "currency": "EUR",
+          "tx_count": 50905,
+          "rate": 3.8,
+          "fixed": 0,
+          "volume": 2478288.95,
+          "expected": 94131.11,
+          "actual": 94131.11,
+          "deviation": 0.0
+        }
+      ]
+    },
+    {
+      "merchant": "DIVINENODE LIMITED",
+      "transaction_count": 95763,
+      "total_volume": 2502013.08,
+      "contract_rate": 3.8,
+      "contract_fixed": 0,
+      "expected_commission": 95096.1,
+      "actual_commission": 95096.1,
+      "deviation": 0.0,
+      "deviation_percent": 0.0,
+      "status": "exact",
+      "currencies": [
+        "EUR"
+      ],
+      "currency_details": [
+        {
+          "currency": "EUR",
+          "tx_count": 95763,
+          "rate": 3.8,
+          "fixed": 0,
+          "volume": 2502013.08,
+          "expected": 95096.1,
+          "actual": 95096.1,
+          "deviation": 0.0
+        }
+      ]
+    },
+    {
+      "merchant": "DIRMENION LTD",
+      "transaction_count": 92071,
+      "total_volume": 4543447.59,
+      "contract_rate": 3.8,
+      "contract_fixed": 0,
+      "expected_commission": 172655.38,
+      "actual_commission": 172655.38,
+      "deviation": 0.0,
+      "deviation_percent": 0.0,
+      "status": "exact",
+      "currencies": [
+        "EUR",
+        "USD"
+      ],
+      "currency_details": [
+        {
+          "currency": "EUR",
+          "tx_count": 92070,
+          "rate": 3.8,
+          "fixed": 0,
+          "volume": 4543442.39,
+          "expected": 172655.18,
+          "actual": 172655.18,
+          "deviation": 0.0
+        },
+        {
+          "currency": "USD",
+          "tx_count": 1,
+          "rate": 3.8,
+          "fixed": 0,
+          "volume": 5.2,
+          "expected": 0.2,
+          "actual": 0.2,
+          "deviation": 0.0
+        }
+      ]
+    },
+    {
+      "merchant": "ARTIMATTER LIMITED",
+      "transaction_count": 75287,
+      "total_volume": 3683857.06,
+      "contract_rate": 3.8,
+      "contract_fixed": 0,
+      "expected_commission": 139986.1,
+      "actual_commission": 139986.1,
+      "deviation": 0.0,
+      "deviation_percent": 0.0,
+      "status": "exact",
+      "currencies": [
+        "EUR"
+      ],
+      "currency_details": [
+        {
+          "currency": "EUR",
+          "tx_count": 75287,
+          "rate": 3.8,
+          "fixed": 0,
+          "volume": 3683857.06,
+          "expected": 139986.1,
+          "actual": 139986.1,
+          "deviation": 0.0
+        }
+      ]
+    },
+    {
+      "merchant": "AETHERIC CORE LIMITED",
+      "transaction_count": 74689,
+      "total_volume": 3641591.19,
+      "contract_rate": 3.8,
+      "contract_fixed": 0,
+      "expected_commission": 138386.8,
+      "actual_commission": 138386.8,
+      "deviation": 0.0,
+      "deviation_percent": 0.0,
+      "status": "exact",
+      "currencies": [
+        "EUR",
+        "AUD"
+      ],
+      "currency_details": [
+        {
+          "currency": "EUR",
+          "tx_count": 74640,
+          "rate": 3.8,
+          "fixed": 0,
+          "volume": 3637054.19,
+          "expected": 138214.39,
+          "actual": 138214.39,
+          "deviation": 0.0
+        },
+        {
+          "currency": "AUD",
+          "tx_count": 49,
+          "rate": 3.8,
+          "fixed": 0,
+          "volume": 4537.0,
+          "expected": 172.41,
+          "actual": 172.41,
+          "deviation": 0.0
+        }
+      ]
+    },
+    {
+      "merchant": "DINTARES LTD",
+      "transaction_count": 72604,
+      "total_volume": 4024670.06,
+      "contract_rate": 3.8,
+      "contract_fixed": 0,
+      "expected_commission": 152888.78,
+      "actual_commission": 152888.78,
+      "deviation": 0.0,
+      "deviation_percent": 0.0,
+      "status": "exact",
+      "currencies": [
+        "EUR",
+        "AUD"
+      ],
+      "currency_details": [
+        {
+          "currency": "EUR",
+          "tx_count": 50558,
+          "rate": 3.8,
+          "fixed": 0,
+          "volume": 2466082.36,
+          "expected": 93662.83,
+          "actual": 93662.83,
+          "deviation": 0.0
+        },
+        {
+          "currency": "AUD",
+          "tx_count": 22046,
+          "rate": 3.8,
+          "fixed": 0,
+          "volume": 1558587.7,
+          "expected": 59225.95,
+          "actual": 59225.95,
+          "deviation": 0.0
+        }
+      ]
+    },
+    {
+      "merchant": "SKINVEX LTD",
+      "transaction_count": 56016,
+      "total_volume": 2923774.53,
+      "contract_rate": 3.8,
+      "contract_fixed": 0,
+      "expected_commission": 111105.07,
+      "actual_commission": 111105.07,
+      "deviation": 0.0,
+      "deviation_percent": 0.0,
+      "status": "exact",
+      "currencies": [
+        "EUR",
+        "AUD"
+      ],
+      "currency_details": [
+        {
+          "currency": "EUR",
+          "tx_count": 47779,
+          "rate": 3.8,
+          "fixed": 0,
+          "volume": 2358222.53,
+          "expected": 89614.19,
+          "actual": 89614.19,
+          "deviation": 0.0
+        },
+        {
+          "currency": "AUD",
+          "tx_count": 8237,
+          "rate": 3.8,
+          "fixed": 0,
+          "volume": 565552.0,
+          "expected": 21490.88,
+          "actual": 21490.88,
+          "deviation": 0.0
+        }
+      ]
+    },
+    {
+      "merchant": "RENAMESTRA LTD",
+      "transaction_count": 26390,
+      "total_volume": 1232975.11,
+      "contract_rate": 3.8,
+      "contract_fixed": 0,
+      "expected_commission": 46851.84,
+      "actual_commission": 46851.84,
+      "deviation": 0.0,
+      "deviation_percent": 0.0,
+      "status": "exact",
+      "currencies": [
+        "EUR"
+      ],
+      "currency_details": [
+        {
+          "currency": "EUR",
+          "tx_count": 26390,
+          "rate": 3.8,
+          "fixed": 0,
+          "volume": 1232975.11,
+          "expected": 46851.84,
+          "actual": 46851.84,
+          "deviation": 0.0
+        }
+      ]
+    },
+    {
+      "merchant": "SKINRIFF LIMITED",
+      "transaction_count": 19844,
+      "total_volume": 968081.94,
+      "contract_rate": 3.8,
+      "contract_fixed": 0,
+      "expected_commission": 36788.99,
+      "actual_commission": 36788.99,
+      "deviation": 0.0,
+      "deviation_percent": 0.0,
+      "status": "exact",
+      "currencies": [
+        "EUR",
+        "AUD"
+      ],
+      "currency_details": [
+        {
+          "currency": "EUR",
+          "tx_count": 19577,
+          "rate": 3.8,
+          "fixed": 0,
+          "volume": 945330.98,
+          "expected": 35924.47,
+          "actual": 35924.47,
+          "deviation": 0.0
+        },
+        {
+          "currency": "AUD",
+          "tx_count": 267,
+          "rate": 3.8,
+          "fixed": 0,
+          "volume": 22750.96,
+          "expected": 864.52,
+          "actual": 864.52,
+          "deviation": 0.0
+        }
+      ]
+    },
+    {
+      "merchant": "TERRAGAMINEX LIMITED",
+      "transaction_count": 17920,
+      "total_volume": 616574.67,
+      "contract_rate": 3.8,
+      "contract_fixed": 0,
+      "expected_commission": 23434.23,
+      "actual_commission": 23434.23,
+      "deviation": 0.0,
+      "deviation_percent": 0.0,
+      "status": "exact",
+      "currencies": [
+        "EUR"
+      ],
+      "currency_details": [
+        {
+          "currency": "EUR",
+          "tx_count": 17920,
+          "rate": 3.8,
+          "fixed": 0,
+          "volume": 616574.67,
+          "expected": 23434.23,
+          "actual": 23434.23,
+          "deviation": 0.0
+        }
+      ]
+    },
+    {
+      "merchant": "QUANTESSA LTD",
+      "transaction_count": 10810,
+      "total_volume": 723821.95,
+      "contract_rate": 3.8,
+      "contract_fixed": 0,
+      "expected_commission": 27504.87,
+      "actual_commission": 27504.87,
+      "deviation": 0.0,
+      "deviation_percent": 0.0,
+      "status": "exact",
+      "currencies": [
+        "EUR",
+        "AUD"
+      ],
+      "currency_details": [
+        {
+          "currency": "EUR",
+          "tx_count": 5853,
+          "rate": 3.8,
+          "fixed": 0,
+          "volume": 317864.23,
+          "expected": 12078.42,
+          "actual": 12078.42,
+          "deviation": 0.0
+        },
+        {
+          "currency": "AUD",
+          "tx_count": 4957,
+          "rate": 3.8,
+          "fixed": 0,
+          "volume": 405957.72,
+          "expected": 15426.45,
+          "actual": 15426.45,
+          "deviation": 0.0
+        }
+      ]
+    },
+    {
+      "merchant": "DEVALENIUS LTD",
+      "transaction_count": 6428,
+      "total_volume": 371414.82,
+      "contract_rate": 3.8,
+      "contract_fixed": 0,
+      "expected_commission": 14114.22,
+      "actual_commission": 14114.22,
+      "deviation": 0.0,
+      "deviation_percent": 0.0,
+      "status": "exact",
+      "currencies": [
+        "EUR",
+        "AUD"
+      ],
+      "currency_details": [
+        {
+          "currency": "EUR",
+          "tx_count": 4121,
+          "rate": 3.8,
+          "fixed": 0,
+          "volume": 177225.3,
+          "expected": 6735.13,
+          "actual": 6735.13,
+          "deviation": 0.0
+        },
+        {
+          "currency": "AUD",
+          "tx_count": 2307,
+          "rate": 3.8,
+          "fixed": 0,
+          "volume": 194189.52,
+          "expected": 7379.09,
+          "actual": 7379.09,
+          "deviation": 0.0
+        }
+      ]
+    },
+    {
+      "merchant": "WEBNORUS LIMITED",
+      "transaction_count": 4228,
+      "total_volume": 279856.45,
+      "contract_rate": 3.8,
+      "contract_fixed": 0,
+      "expected_commission": 10634.61,
+      "actual_commission": 10634.61,
+      "deviation": 0.0,
+      "deviation_percent": 0.0,
+      "status": "exact",
+      "currencies": [
+        "EUR"
+      ],
+      "currency_details": [
+        {
+          "currency": "EUR",
+          "tx_count": 4228,
+          "rate": 3.8,
+          "fixed": 0,
+          "volume": 279856.45,
+          "expected": 10634.61,
+          "actual": 10634.61,
+          "deviation": 0.0
+        }
+      ]
+    },
+    {
+      "merchant": "ARTEFACTAX LIMITED",
+      "transaction_count": 179,
+      "total_volume": 9328.0,
+      "contract_rate": 3.8,
+      "contract_fixed": 0,
+      "expected_commission": 354.4,
+      "actual_commission": 354.4,
+      "deviation": 0.0,
+      "deviation_percent": 0.0,
+      "status": "exact",
+      "currencies": [
+        "EUR",
+        "AUD",
+        "USD"
+      ],
+      "currency_details": [
+        {
+          "currency": "EUR",
+          "tx_count": 148,
+          "rate": 3.8,
+          "fixed": 0,
+          "volume": 6466.13,
+          "expected": 245.66,
+          "actual": 245.66,
+          "deviation": 0.0
+        },
+        {
+          "currency": "AUD",
+          "tx_count": 20,
+          "rate": 3.8,
+          "fixed": 0,
+          "volume": 2176.0,
+          "expected": 82.69,
+          "actual": 82.69,
+          "deviation": 0.0
+        },
+        {
+          "currency": "USD",
+          "tx_count": 11,
+          "rate": 3.8,
+          "fixed": 0,
+          "volume": 685.87,
+          "expected": 26.05,
+          "actual": 26.05,
+          "deviation": 0.0
+        }
+      ]
+    },
+    {
+      "merchant": "BLOGWIZARRO LTD",
+      "transaction_count": 0,
+      "total_volume": 0.0,
+      "contract_rate": 3.5,
+      "contract_fixed": 0,
+      "expected_commission": 0.0,
+      "actual_commission": 0.0,
+      "deviation": 0.0,
+      "deviation_percent": 0.0,
+      "status": "no_transactions",
+      "currencies": [],
+      "currency_details": []
+    },
+    {
+      "merchant": "NUOPLAYM LIMITED",
+      "transaction_count": 0,
+      "total_volume": 0.0,
+      "contract_rate": 3.8,
+      "contract_fixed": 0,
+      "expected_commission": 0.0,
+      "actual_commission": 0.0,
+      "deviation": 0.0,
+      "deviation_percent": 0.0,
+      "status": "no_transactions",
+      "currencies": [],
+      "currency_details": []
+    },
+    {
+      "merchant": "PIXTHENA LIMITED",
+      "transaction_count": 0,
+      "total_volume": 0.0,
+      "contract_rate": 3.8,
+      "contract_fixed": 0,
+      "expected_commission": 0.0,
+      "actual_commission": 0.0,
+      "deviation": 0.0,
+      "deviation_percent": 0.0,
+      "status": "no_transactions",
+      "currencies": [],
+      "currency_details": []
+    }
+  ],
+  "currency_breakdown": [
+    {
+      "currency": "AUD",
+      "transaction_count": 277064,
+      "total_volume": 20876845.09,
+      "actual_commission": 793321.13,
+      "expected_commission": 793321.13,
+      "deviation": 0.0,
+      "avg_effective_rate": 3.8
+    },
+    {
+      "currency": "EUR",
+      "transaction_count": 2195683,
+      "total_volume": 99569855.12,
+      "actual_commission": 3774162.09,
+      "expected_commission": 3783565.74,
+      "deviation": -9403.65,
+      "avg_effective_rate": 3.7905
+    },
+    {
+      "currency": "NOK",
+      "transaction_count": 2037,
+      "total_volume": 1039053.45,
+      "actual_commission": 39483.93,
+      "expected_commission": 39483.93,
+      "deviation": 0.0,
+      "avg_effective_rate": 3.8
+    },
+    {
+      "currency": "PLN",
+      "transaction_count": 230115,
+      "total_volume": 27059691.64,
+      "actual_commission": 676576.68,
+      "expected_commission": 564211.73,
+      "deviation": 112364.95,
+      "avg_effective_rate": 2.5003
+    },
+    {
+      "currency": "USD",
+      "transaction_count": 3190,
+      "total_volume": 165357.64,
+      "actual_commission": 6282.53,
+      "expected_commission": 6282.53,
+      "deviation": 0.0,
+      "avg_effective_rate": 3.7994
+    }
+  ]
+}

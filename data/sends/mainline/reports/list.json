@@ -1,0 +1,24 @@
+{
+  "reports": [
+    {
+      "id": "commission-compliance",
+      "title": "Commission Compliance",
+      "description": "Verify contracted rates are applied correctly - compare expected vs actual commission per merchant",
+      "icon": "CheckCircle",
+      "href": "/reports/commission-compliance",
+      "dataEndpoint": "/api/reports/underpayment-v2",
+      "available": true,
+      "generated_at": "2026-01-20T12:00:00.000000"
+    },
+    {
+      "id": "reconciliation-deviation",
+      "title": "Reconciliation Deviation",
+      "description": "Compare daily transaction totals with reconciliation files - find date shifts, missing data, and discrepancies",
+      "icon": "FileCheck",
+      "href": "/reports/reconciliation-deviation",
+      "dataEndpoint": "/api/reports/reconciliation-deviation",
+      "available": true,
+      "generated_at": "2026-01-20T12:00:00.000000"
+    }
+  ]
+}

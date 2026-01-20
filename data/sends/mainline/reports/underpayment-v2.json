@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-20T13:29:04.443850",
+  "generated_at": "2026-01-20T23:10:11.562376",
   "scope": "Commission Compliance Analysis (Oct-Dec 2025)",
   "data_source": "SendsTransaction nodes with actual contract rates from JSON files",
   "summary": {

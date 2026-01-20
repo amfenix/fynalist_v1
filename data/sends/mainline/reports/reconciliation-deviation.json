@@ -131,8 +131,8 @@
         "transaction_count": 2,
         "total_amount": 190.00,
         "percent_of_unmatched": 0.0,
-        "reason": "Missing BLIK rate plan for PLN",
-        "recommendation": "Add BLIK rate plan if BLIK processing continues"
+        "reason": "BLIK rate plan added (2.5% + 0.1 EUR) - no PLN reconciliation data",
+        "recommendation": "Reconciliation data needed from FINTHESIS LTD"
       },
       {
         "merchant": "ARTIMATTER LIMITED",
@@ -143,8 +143,8 @@
         "transaction_count": 1,
         "total_amount": 22.00,
         "percent_of_unmatched": 0.0,
-        "reason": "Missing BLIK rate plan for PLN",
-        "recommendation": "Add BLIK rate plan if BLIK processing continues"
+        "reason": "BLIK rate plan added (2.5% + 0.1 EUR) - no PLN reconciliation data",
+        "recommendation": "Reconciliation data needed from FINTHESIS LTD"
       }
     ]
   },

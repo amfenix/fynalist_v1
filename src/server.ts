@@ -514,6 +514,10 @@ async function serveApiRoute(
   else if (apiPath === "/reports/underpayment-v2") {
     jsonPath = `${VERSION_DATA_DIR}/reports/underpayment-v2.json`;
   }
+  // /api/reports/merchants-overview
+  else if (apiPath === "/reports/merchants-overview") {
+    jsonPath = `${VERSION_DATA_DIR}/reports/merchants-overview.json`;
+  }
   // /api/dsl-config - DSL configuration with versioning
   else if (apiPath === "/dsl-config") {
     jsonPath = `${VERSION_DATA_DIR}/dsl-config.json`;

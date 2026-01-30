@@ -4,59 +4,59 @@
     "merchant_name": "AETHERIC CORE LIMITED",
     "merchant_group": "SENDS",
     "company_name": "AETHERIC CORE LIMITED",
-    "transaction_count": 627,
-    "approved_count": 627,
+    "transaction_count": 74689,
+    "approved_count": 74689,
     "declined_count": 0,
     "acceptance_rate": 100.0,
-    "total_amount_eur": 26547.95,
-    "total_commission_eur": 0.0
+    "total_amount_eur": 3641591.19,
+    "total_commission_eur": 138386.8
   },
   {
     "merchant_id": 2,
     "merchant_name": "AIMSKINZ LIMITED",
     "merchant_group": "SENDS",
     "company_name": "AIMSKINZ LIMITED",
-    "transaction_count": 0,
-    "approved_count": 0,
+    "transaction_count": 206350,
+    "approved_count": 206350,
     "declined_count": 0,
     "acceptance_rate": 0,
-    "total_amount_eur": 0.0,
-    "total_commission_eur": 0.0
+    "total_amount_eur": 15854959.72,
+    "total_commission_eur": 578177.38
   },
   {
     "merchant_id": 3,
     "merchant_name": "ARTEFACTAX LIMITED",
     "merchant_group": "SENDS",
     "company_name": "ARTEFACTAX LIMITED",
-    "transaction_count": 131,
-    "approved_count": 131,
+    "transaction_count": 179,
+    "approved_count": 179,
     "declined_count": 0,
     "acceptance_rate": 100.0,
-    "total_amount_eur": 6494.96,
-    "total_commission_eur": 0.0
+    "total_amount_eur": 9328.0,
+    "total_commission_eur": 354.4
   },
   {
     "merchant_id": 4,
     "merchant_name": "ARTIMATTER LIMITED",
     "merchant_group": "SENDS",
     "company_name": "ARTIMATTER LIMITED",
-    "transaction_count": 46305,
-    "approved_count": 46304,
+    "transaction_count": 75287,
+    "approved_count": 75287,
     "declined_count": 1,
     "acceptance_rate": 100.0,
-    "total_amount_eur": 2311451.11,
-    "total_commission_eur": 0.0
+    "total_amount_eur": 3683869.06,
+    "total_commission_eur": 139985.72
   },
   {
     "merchant_id": 5,
     "merchant_name": "BLOGWIZARRO LTD",
     "merchant_group": "SENDS",
     "company_name": "BLOGWIZARRO LTD",
-    "transaction_count": 5202,
-    "approved_count": 5201,
+    "transaction_count": 543653,
+    "approved_count": 543653,
     "declined_count": 1,
     "acceptance_rate": 99.98,
-    "total_amount_eur": 136130.15,
+    "total_amount_eur": 64429288.69,
     "total_commission_eur": 0.0
   },
   {
@@ -64,71 +64,71 @@
     "merchant_name": "DEVALENIUS LTD",
     "merchant_group": "SENDS",
     "company_name": "DEVALENIUS LTD",
-    "transaction_count": 31,
-    "approved_count": 31,
+    "transaction_count": 6428,
+    "approved_count": 6428,
     "declined_count": 0,
     "acceptance_rate": 100.0,
-    "total_amount_eur": 767.25,
-    "total_commission_eur": 0.0
+    "total_amount_eur": 371414.82,
+    "total_commission_eur": 14114.22
   },
   {
     "merchant_id": 7,
     "merchant_name": "DINTARES LTD",
     "merchant_group": "SENDS",
     "company_name": "DINTARES LTD",
-    "transaction_count": 48071,
-    "approved_count": 48069,
+    "transaction_count": 72593,
+    "approved_count": 72593,
     "declined_count": 2,
     "acceptance_rate": 100.0,
-    "total_amount_eur": 2825601.62,
-    "total_commission_eur": 0.0
+    "total_amount_eur": 4023671.19,
+    "total_commission_eur": 152850.84
   },
   {
     "merchant_id": 8,
     "merchant_name": "DIRMENION LTD",
     "merchant_group": "SENDS",
     "company_name": "DIRMENION LTD",
-    "transaction_count": 49603,
-    "approved_count": 49601,
+    "transaction_count": 92068,
+    "approved_count": 92068,
     "declined_count": 2,
     "acceptance_rate": 100.0,
-    "total_amount_eur": 2462395.56,
-    "total_commission_eur": 0.0
+    "total_amount_eur": 4543247.87,
+    "total_commission_eur": 172647.79
   },
   {
     "merchant_id": 9,
     "merchant_name": "DIVINENODE LIMITED",
     "merchant_group": "SENDS",
     "company_name": "DIVINENODE LIMITED",
-    "transaction_count": 2346,
-    "approved_count": 2346,
+    "transaction_count": 107515,
+    "approved_count": 107515,
     "declined_count": 0,
     "acceptance_rate": 100.0,
-    "total_amount_eur": 58513.35,
-    "total_commission_eur": 0.0
+    "total_amount_eur": 3351515.08,
+    "total_commission_eur": 127377.22
   },
   {
     "merchant_id": 10,
     "merchant_name": "NOXIOUS LIMITED",
     "merchant_group": "SENDS",
     "company_name": "NOXIOUS LIMITED",
-    "transaction_count": 0,
-    "approved_count": 0,
+    "transaction_count": 1595081,
+    "approved_count": 1595081,
     "declined_count": 0,
     "acceptance_rate": 0,
-    "total_amount_eur": 0.0,
-    "total_commission_eur": 0.0
+    "total_amount_eur": 90025541.93,
+    "total_commission_eur": 676576.05
   },
   {
     "merchant_id": 11,
     "merchant_name": "NUOPLAYM LIMITED",
     "merchant_group": "SENDS",
     "company_name": "NUOPLAYM LIMITED",
-    "transaction_count": 0,
-    "approved_count": 0,
+    "transaction_count": 1182734,
+    "approved_count": 1182734,
     "declined_count": 0,
     "acceptance_rate": 0,
-    "total_amount_eur": 0.0,
+    "total_amount_eur": 75551984.95,
     "total_commission_eur": 0.0
   },
   {
@@ -136,11 +136,11 @@
     "merchant_name": "PIXTHENA LIMITED",
     "merchant_group": "SENDS",
     "company_name": "PIXTHENA LIMITED",
-    "transaction_count": 0,
-    "approved_count": 0,
+    "transaction_count": 546918,
+    "approved_count": 546918,
     "declined_count": 0,
     "acceptance_rate": 0,
-    "total_amount_eur": 0.0,
+    "total_amount_eur": 41444337.23,
     "total_commission_eur": 0.0
   },
   {
@@ -148,24 +148,24 @@
     "merchant_name": "QUANTESSA LTD",
     "merchant_group": "SENDS",
     "company_name": "QUANTESSA LTD",
-    "transaction_count": 0,
-    "approved_count": 0,
+    "transaction_count": 10810,
+    "approved_count": 10810,
     "declined_count": 0,
     "acceptance_rate": 0,
-    "total_amount_eur": 0.0,
-    "total_commission_eur": 0.0
+    "total_amount_eur": 723821.95,
+    "total_commission_eur": 27504.87
   },
   {
     "merchant_id": 14,
     "merchant_name": "RENAMESTRA LTD",
     "merchant_group": "SENDS",
     "company_name": "RENAMESTRA LTD",
-    "transaction_count": 0,
-    "approved_count": 0,
+    "transaction_count": 26375,
+    "approved_count": 26375,
     "declined_count": 0,
     "acceptance_rate": 0,
-    "total_amount_eur": 0.0,
-    "total_commission_eur": 0.0
+    "total_amount_eur": 1232470.4,
+    "total_commission_eur": 46832.66
   },
   {
     "merchant_id": 15,
@@ -184,47 +184,47 @@
     "merchant_name": "SKINVALUT LIMITED",
     "merchant_group": "SENDS",
     "company_name": "SKINVALUT LIMITED",
-    "transaction_count": 0,
-    "approved_count": 0,
+    "transaction_count": 442776,
+    "approved_count": 442776,
     "declined_count": 0,
     "acceptance_rate": 0,
-    "total_amount_eur": 0.0,
-    "total_commission_eur": 0.0
+    "total_amount_eur": 22901449.02,
+    "total_commission_eur": 870238.54
   },
   {
     "merchant_id": 17,
     "merchant_name": "SKINVEX LTD",
     "merchant_group": "SENDS",
     "company_name": "SKINVEX LTD",
-    "transaction_count": 0,
-    "approved_count": 0,
+    "transaction_count": 55996,
+    "approved_count": 55996,
     "declined_count": 0,
     "acceptance_rate": 0,
-    "total_amount_eur": 0.0,
-    "total_commission_eur": 0.0
+    "total_amount_eur": 2922789.53,
+    "total_commission_eur": 111067.64
   },
   {
     "merchant_id": 18,
     "merchant_name": "TERRAGAMINEX LIMITED",
     "merchant_group": "SENDS",
     "company_name": "TERRAGAMINEX LIMITED",
-    "transaction_count": 0,
-    "approved_count": 0,
+    "transaction_count": 17920,
+    "approved_count": 17920,
     "declined_count": 0,
     "acceptance_rate": 0,
-    "total_amount_eur": 0.0,
-    "total_commission_eur": 0.0
+    "total_amount_eur": 616574.67,
+    "total_commission_eur": 23434.23
   },
   {
     "merchant_id": 19,
     "merchant_name": "WEBNORUS LIMITED",
     "merchant_group": "SENDS",
     "company_name": "WEBNORUS LIMITED",
-    "transaction_count": 0,
-    "approved_count": 0,
+    "transaction_count": 4234,
+    "approved_count": 4234,
     "declined_count": 0,
     "acceptance_rate": 0,
-    "total_amount_eur": 0.0,
-    "total_commission_eur": 0.0
+    "total_amount_eur": 280271.43,
+    "total_commission_eur": 10634.57
   }
 ]

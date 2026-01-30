@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-01-20T23:10:11.562376",
-  "scope": "Commission Compliance Analysis (Full Year 2025)",
+  "scope": "Commission Mismatch Report (Full Year 2025)",
   "data_source": "SendsTransaction nodes with actual contract rates from JSON files",
   "summary": {
     "total_transactions": 2708089,
@@ -154,7 +154,21 @@
           "actual": 676576.68,
           "deviation": 112364.95
         }
-      ]
+      ],
+      "transaction_example": {
+        "source_file": "12.2025/skinsmagnate-(bl)-20087-report-all-payments-202512.xlsx",
+        "transaction_date": "01.12.2025 00:05:08",
+        "amount": 25.0,
+        "currency": "PLN",
+        "actual_commission": 0.63,
+        "expected_commission": 0.6,
+        "effective_rate": 2.52,
+        "contract_rate": 2.0,
+        "contract_fixed": 0.1,
+        "point_id": "20087",
+        "point_name": "SKINSMAGNATE (BL)",
+        "contract_line": "2. | Payment Initiation Services | **2%**"
+      }
     },
     {
       "merchant": "AIMSKINZ LIMITED",

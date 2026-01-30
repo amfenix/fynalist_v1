@@ -1,0 +1,98 @@
+[
+  {
+    "month": "2025-01",
+    "incoming": {
+      "count": 8234,
+      "amount": 412567.89,
+      "recon_count": 8234,
+      "recon_amount": 412567.89,
+      "count_diff": 0,
+      "amount_diff": 0.0,
+      "status": "ok",
+      "deviation_percent": 0.0
+    },
+    "refund": null,
+    "payout": null,
+    "failed": null
+  },
+  {
+    "month": "2024-12",
+    "incoming": {
+      "count": 9156,
+      "amount": 478234.56,
+      "recon_count": 9156,
+      "recon_amount": 478122.45,
+      "count_diff": 0,
+      "amount_diff": 112.11,
+      "status": "warning",
+      "deviation_percent": 0.02
+    },
+    "refund": null,
+    "payout": null,
+    "failed": null
+  },
+  {
+    "month": "2024-11",
+    "incoming": {
+      "count": 7823,
+      "amount": 398456.78,
+      "recon_count": 7820,
+      "recon_amount": 398000.00,
+      "count_diff": 3,
+      "amount_diff": 456.78,
+      "status": "warning",
+      "deviation_percent": 0.11
+    },
+    "refund": null,
+    "payout": null,
+    "failed": null
+  },
+  {
+    "month": "2024-10",
+    "incoming": {
+      "count": 8567,
+      "amount": 432156.90,
+      "recon_count": 8400,
+      "recon_amount": 420000.00,
+      "count_diff": 167,
+      "amount_diff": 12156.90,
+      "status": "error",
+      "deviation_percent": 2.89
+    },
+    "refund": null,
+    "payout": null,
+    "failed": null
+  },
+  {
+    "month": "2024-09",
+    "incoming": {
+      "count": 7234,
+      "amount": 356789.12,
+      "recon_count": null,
+      "recon_amount": null,
+      "count_diff": null,
+      "amount_diff": null,
+      "status": "missing",
+      "deviation_percent": null
+    },
+    "refund": null,
+    "payout": null,
+    "failed": null
+  },
+  {
+    "month": "2024-08",
+    "incoming": {
+      "count": 6890,
+      "amount": 334567.45,
+      "recon_count": 6890,
+      "recon_amount": 334567.45,
+      "count_diff": 0,
+      "amount_diff": 0.0,
+      "status": "ok",
+      "deviation_percent": 0.0
+    },
+    "refund": null,
+    "payout": null,
+    "failed": null
+  }
+]

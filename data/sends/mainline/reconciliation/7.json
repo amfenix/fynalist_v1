@@ -1,0 +1,66 @@
+[
+  {
+    "month": "2025-01",
+    "incoming": {
+      "count": 6234,
+      "amount": 389567.12,
+      "recon_count": 6234,
+      "recon_amount": 389567.12,
+      "count_diff": 0,
+      "amount_diff": 0.0,
+      "status": "ok",
+      "deviation_percent": 0.0
+    },
+    "refund": null,
+    "payout": null,
+    "failed": null
+  },
+  {
+    "month": "2024-12",
+    "incoming": {
+      "count": 8912,
+      "amount": 534678.90,
+      "recon_count": 8912,
+      "recon_amount": 534678.90,
+      "count_diff": 0,
+      "amount_diff": 0.0,
+      "status": "ok",
+      "deviation_percent": 0.0
+    },
+    "refund": null,
+    "payout": null,
+    "failed": null
+  },
+  {
+    "month": "2024-11",
+    "incoming": {
+      "count": 7567,
+      "amount": 456789.34,
+      "recon_count": 7567,
+      "recon_amount": 456123.00,
+      "count_diff": 0,
+      "amount_diff": 666.34,
+      "status": "warning",
+      "deviation_percent": 0.15
+    },
+    "refund": null,
+    "payout": null,
+    "failed": null
+  },
+  {
+    "month": "2024-10",
+    "incoming": {
+      "count": 8234,
+      "amount": 498765.43,
+      "recon_count": 8234,
+      "recon_amount": 498765.43,
+      "count_diff": 0,
+      "amount_diff": 0.0,
+      "status": "ok",
+      "deviation_percent": 0.0
+    },
+    "refund": null,
+    "payout": null,
+    "failed": null
+  }
+]

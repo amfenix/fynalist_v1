@@ -1,11 +1,21 @@
 {
   "reports": [
     {
+      "id": "merchants-overview",
+      "title": "Merchants Overview",
+      "description": "Combined heatmap view of all merchant issues - commission mismatch, date shifts, unmatched transactions, missing reconciliation",
+      "icon": "LayoutGrid",
+      "href": "/reports/merchants-overview",
+      "dataEndpoint": "/api/reports/merchants-overview",
+      "available": true,
+      "generated_at": "2026-01-30T12:00:00.000000"
+    },
+    {
       "id": "commission-compliance",
-      "title": "Commission Compliance",
+      "title": "Commission Mismatch Report",
       "description": "Verify contracted rates are applied correctly - compare expected vs actual commission per merchant",
       "icon": "CheckCircle",
-      "href": "/reports/commission-compliance",
+      "href": "/reports/commission-mismatch",
       "dataEndpoint": "/api/reports/underpayment-v2",
       "available": true,
       "generated_at": "2026-01-20T12:00:00.000000"

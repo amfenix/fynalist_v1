@@ -4,5 +4,5 @@
   "invite_code": "sends-Qw7eR3tYu9iO",
   "password": "sends-Zx5cV2bN8mK",
   "default_version": "mainline",
-  "versions": ["mainline"]
+  "versions": ["mainline", "branch-2"]
 }

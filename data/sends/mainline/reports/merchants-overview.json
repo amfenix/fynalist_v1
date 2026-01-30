@@ -1,0 +1,781 @@
+{
+  "generated_at": "2026-01-30T02:40:30.039304",
+  "scope": "Merchants Overview Report",
+  "description": "Combined view of all merchant issues from Commission Mismatch and Reconciliation Deviation reports",
+  "columns": [
+    {
+      "id": "commission_mismatch",
+      "label": "Commission Mismatch",
+      "total_score": 182.68675714285715
+    },
+    {
+      "id": "date_shifts",
+      "label": "Date Shifts",
+      "total_score": 200.31777714285715
+    },
+    {
+      "id": "unmatched_transactions",
+      "label": "Unmatched Txns",
+      "total_score": 217.3860507657143
+    },
+    {
+      "id": "missing_reconciliation",
+      "label": "Missing Recon",
+      "total_score": 247.2901710085714
+    }
+  ],
+  "merchants": [
+    {
+      "merchant_id": 10,
+      "merchant_name": "NOXIOUS LIMITED",
+      "problems": {
+        "commission_mismatch": {
+          "severity": "critical",
+          "score": 130,
+          "amount": 112364.95,
+          "percent": 19.9154,
+          "expected": 564211.73,
+          "actual": 676576.68,
+          "contract_rate": 2.0,
+          "effective_rate": 2.5,
+          "details": "Deviation: €112,364.95 (+19.92%)"
+        },
+        "date_shifts": {
+          "severity": "none",
+          "score": 0,
+          "details": null
+        },
+        "unmatched_transactions": {
+          "severity": "none",
+          "score": 0,
+          "details": null
+        },
+        "missing_reconciliation": {
+          "severity": "critical",
+          "score": 107.10269565714286,
+          "records": 253,
+          "amount": 24859434.8,
+          "reason": "Merchant name/point mismatch - database has PLN/BLIK points but reconciliation file (SkinsMagnate.xlsx) contains EUR/GBP sheets",
+          "details": "253 records missing (PLN) - Merchant name/point mismatch - database has PLN/BLIK points but reconciliation file (SkinsMagnate.xlsx) contains EUR/GBP sheets"
+        }
+      },
+      "total_score": 237.10269565714287
+    },
+    {
+      "merchant_id": null,
+      "merchant_name": "FYST",
+      "problems": {
+        "commission_mismatch": {
+          "severity": "warning",
+          "score": 52.68675714285714,
+          "amount": -9403.65,
+          "percent": -0.4236,
+          "expected": 2220094.9,
+          "actual": 2210691.25,
+          "contract_rate": 3.8,
+          "effective_rate": 3.78,
+          "details": "Deviation: €-9,403.65 (-0.42%)"
+        },
+        "date_shifts": {
+          "severity": "critical",
+          "score": 100.31777714285714,
+          "count": 3,
+          "critical_count": 1,
+          "net_impact": 1112.22,
+          "details": "EUR: Data swap between 2025-08-29 and 2025-08-31; AUD: Partial data swap between 2025-09-11 and 2025-09-26; USD: Single deviation - offsetting entry may be outside date range",
+          "shifts": [
+            {
+              "currency": "EUR",
+              "description": "Data swap between 2025-08-29 and 2025-08-31",
+              "severity": "critical"
+            },
+            {
+              "currency": "AUD",
+              "description": "Partial data swap between 2025-09-11 and 2025-09-26",
+              "severity": "warning"
+            },
+            {
+              "currency": "USD",
+              "description": "Single deviation - offsetting entry may be outside date range",
+              "severity": "warning"
+            }
+          ]
+        },
+        "unmatched_transactions": {
+          "severity": "none",
+          "score": 0,
+          "details": null
+        },
+        "missing_reconciliation": {
+          "severity": "warning",
+          "score": 50.18729592857143,
+          "records": 6,
+          "amount": 655535.75,
+          "reason": "Points not covered in reconciliation file",
+          "details": "6 records missing (mixed) - Points not covered in reconciliation file"
+        }
+      },
+      "total_score": 203.19183021428572
+    },
+    {
+      "merchant_id": 5,
+      "merchant_name": "BLOGWIZARRO LTD",
+      "problems": {
+        "commission_mismatch": {
+          "severity": "none",
+          "score": 0,
+          "amount": 0.0,
+          "percent": 0.0,
+          "expected": 0.0,
+          "actual": 0.0,
+          "contract_rate": 3.5,
+          "effective_rate": 0,
+          "details": "No transactions"
+        },
+        "date_shifts": {
+          "severity": "none",
+          "score": 0,
+          "details": null
+        },
+        "unmatched_transactions": {
+          "severity": "critical",
+          "score": 107.14327533714285,
+          "count": 304528,
+          "amount": 25001463.68,
+          "details": "304,528 txns (€25,001,464) - Missing AUD rate plan in contract (+1 more issues)",
+          "groups": [
+            {
+              "currency": "AUD",
+              "count": 303850,
+              "reason": "Missing AUD rate plan in contract"
+            },
+            {
+              "currency": "NOK",
+              "count": 678,
+              "reason": "Missing NOK rate plan in contract"
+            }
+          ]
+        },
+        "missing_reconciliation": {
+          "severity": "none",
+          "score": 0,
+          "details": null
+        }
+      },
+      "total_score": 107.14327533714285
+    },
+    {
+      "merchant_id": 11,
+      "merchant_name": "NUOPLAYM LIMITED",
+      "problems": {
+        "commission_mismatch": {
+          "severity": "none",
+          "score": 0,
+          "amount": 0.0,
+          "percent": 0.0,
+          "expected": 0.0,
+          "actual": 0.0,
+          "contract_rate": 3.8,
+          "effective_rate": 0,
+          "details": "No transactions"
+        },
+        "date_shifts": {
+          "severity": "critical",
+          "score": 100,
+          "count": 1,
+          "critical_count": 1,
+          "net_impact": 0,
+          "details": "AUD: Partial data swap between 2025-08-20 and 2025-08-27",
+          "shifts": [
+            {
+              "currency": "AUD",
+              "description": "Partial data swap between 2025-08-20 and 2025-08-27",
+              "severity": "critical"
+            }
+          ]
+        },
+        "unmatched_transactions": {
+          "severity": "none",
+          "score": 0,
+          "details": null
+        },
+        "missing_reconciliation": {
+          "severity": "none",
+          "score": 0,
+          "details": null
+        }
+      },
+      "total_score": 100
+    },
+    {
+      "merchant_id": 2,
+      "merchant_name": "AIMSKINZ LIMITED",
+      "problems": {
+        "commission_mismatch": {
+          "severity": "ok",
+          "score": 0,
+          "amount": 0.0,
+          "percent": 0.0,
+          "expected": 562459.74,
+          "actual": 562459.74,
+          "contract_rate": 3.8,
+          "effective_rate": 3.8,
+          "details": "No deviation"
+        },
+        "date_shifts": {
+          "severity": "none",
+          "score": 0,
+          "details": null
+        },
+        "unmatched_transactions": {
+          "severity": "minor",
+          "score": 30.000054285714285,
+          "count": 2,
+          "amount": 190.0,
+          "details": "2 txns (€190) - BLIK rate plan added (2.5% + 0.1 EUR) - no PLN reconciliation data",
+          "groups": [
+            {
+              "currency": "PLN",
+              "count": 2,
+              "reason": "BLIK rate plan added (2.5% + 0.1 EUR) - no PLN reconciliation data"
+            }
+          ]
+        },
+        "missing_reconciliation": {
+          "severity": "minor",
+          "score": 30.000054285714285,
+          "records": 2,
+          "amount": 190.0,
+          "reason": "BLIK transactions - no PLN reconciliation sheet",
+          "details": "2 records missing (PLN) - BLIK transactions - no PLN reconciliation sheet"
+        }
+      },
+      "total_score": 60.00010857142857
+    },
+    {
+      "merchant_id": 4,
+      "merchant_name": "ARTIMATTER LIMITED",
+      "problems": {
+        "commission_mismatch": {
+          "severity": "ok",
+          "score": 0,
+          "amount": 0.0,
+          "percent": 0.0,
+          "expected": 139986.1,
+          "actual": 139986.1,
+          "contract_rate": 3.8,
+          "effective_rate": 3.8,
+          "details": "No deviation"
+        },
+        "date_shifts": {
+          "severity": "none",
+          "score": 0,
+          "details": null
+        },
+        "unmatched_transactions": {
+          "severity": "minor",
+          "score": 30.000006285714285,
+          "count": 1,
+          "amount": 22.0,
+          "details": "1 txns (€22) - BLIK rate plan added (2.5% + 0.1 EUR) - no PLN reconciliation data",
+          "groups": [
+            {
+              "currency": "PLN",
+              "count": 1,
+              "reason": "BLIK rate plan added (2.5% + 0.1 EUR) - no PLN reconciliation data"
+            }
+          ]
+        },
+        "missing_reconciliation": {
+          "severity": "minor",
+          "score": 30.000006285714285,
+          "records": 1,
+          "amount": 22.0,
+          "reason": "BLIK transaction - no PLN reconciliation sheet",
+          "details": "1 records missing (PLN) - BLIK transaction - no PLN reconciliation sheet"
+        }
+      },
+      "total_score": 60.00001257142857
+    },
+    {
+      "merchant_id": 9,
+      "merchant_name": "DIVINENODE LIMITED",
+      "problems": {
+        "commission_mismatch": {
+          "severity": "ok",
+          "score": 0,
+          "amount": 0.0,
+          "percent": 0.0,
+          "expected": 95096.1,
+          "actual": 95096.1,
+          "contract_rate": 3.8,
+          "effective_rate": 3.8,
+          "details": "No deviation"
+        },
+        "date_shifts": {
+          "severity": "none",
+          "score": 0,
+          "details": null
+        },
+        "unmatched_transactions": {
+          "severity": "warning",
+          "score": 50.24271485714286,
+          "count": 11752,
+          "amount": 849502.0,
+          "details": "11,752 txns (€849,502) - Missing AUD rate plan in contract",
+          "groups": [
+            {
+              "currency": "AUD",
+              "count": 11752,
+              "reason": "Missing AUD rate plan in contract"
+            }
+          ]
+        },
+        "missing_reconciliation": {
+          "severity": "none",
+          "score": 0,
+          "details": null
+        }
+      },
+      "total_score": 50.24271485714286
+    },
+    {
+      "merchant_id": 19,
+      "merchant_name": "WEBNORUS LIMITED",
+      "problems": {
+        "commission_mismatch": {
+          "severity": "ok",
+          "score": 0,
+          "amount": 0.0,
+          "percent": 0.0,
+          "expected": 10634.61,
+          "actual": 10634.61,
+          "contract_rate": 3.8,
+          "effective_rate": 3.8,
+          "details": "No deviation"
+        },
+        "date_shifts": {
+          "severity": "none",
+          "score": 0,
+          "details": null
+        },
+        "unmatched_transactions": {
+          "severity": "none",
+          "score": 0,
+          "details": null
+        },
+        "missing_reconciliation": {
+          "severity": "minor",
+          "score": 30.00011885142857,
+          "records": 1,
+          "amount": 415.98,
+          "reason": "BLIK transaction - no PLN reconciliation sheet",
+          "details": "1 records missing (PLN) - BLIK transaction - no PLN reconciliation sheet"
+        }
+      },
+      "total_score": 30.00011885142857
+    },
+    {
+      "merchant_id": 16,
+      "merchant_name": "SKINVALUT LIMITED",
+      "problems": {
+        "commission_mismatch": {
+          "severity": "ok",
+          "score": 0,
+          "amount": 0.0,
+          "percent": 0.0,
+          "expected": 870297.3,
+          "actual": 870297.3,
+          "contract_rate": 3.8,
+          "effective_rate": 3.8,
+          "details": "No deviation"
+        },
+        "date_shifts": {
+          "severity": "none",
+          "score": 0,
+          "details": null
+        },
+        "unmatched_transactions": {
+          "severity": "none",
+          "score": 0,
+          "details": null
+        },
+        "missing_reconciliation": {
+          "severity": "none",
+          "score": 0,
+          "details": null
+        }
+      },
+      "total_score": 0
+    },
+    {
+      "merchant_id": 8,
+      "merchant_name": "DIRMENION LTD",
+      "problems": {
+        "commission_mismatch": {
+          "severity": "ok",
+          "score": 0,
+          "amount": 0.0,
+          "percent": 0.0,
+          "expected": 172655.38,
+          "actual": 172655.38,
+          "contract_rate": 3.8,
+          "effective_rate": 3.8,
+          "details": "No deviation"
+        },
+        "date_shifts": {
+          "severity": "none",
+          "score": 0,
+          "details": null
+        },
+        "unmatched_transactions": {
+          "severity": "none",
+          "score": 0,
+          "details": null
+        },
+        "missing_reconciliation": {
+          "severity": "none",
+          "score": 0,
+          "details": null
+        }
+      },
+      "total_score": 0
+    },
+    {
+      "merchant_id": 1,
+      "merchant_name": "AETHERIC CORE LIMITED",
+      "problems": {
+        "commission_mismatch": {
+          "severity": "ok",
+          "score": 0,
+          "amount": 0.0,
+          "percent": 0.0,
+          "expected": 138386.8,
+          "actual": 138386.8,
+          "contract_rate": 3.8,
+          "effective_rate": 3.8,
+          "details": "No deviation"
+        },
+        "date_shifts": {
+          "severity": "none",
+          "score": 0,
+          "details": null
+        },
+        "unmatched_transactions": {
+          "severity": "none",
+          "score": 0,
+          "details": null
+        },
+        "missing_reconciliation": {
+          "severity": "none",
+          "score": 0,
+          "details": null
+        }
+      },
+      "total_score": 0
+    },
+    {
+      "merchant_id": 7,
+      "merchant_name": "DINTARES LTD",
+      "problems": {
+        "commission_mismatch": {
+          "severity": "ok",
+          "score": 0,
+          "amount": 0.0,
+          "percent": 0.0,
+          "expected": 152888.78,
+          "actual": 152888.78,
+          "contract_rate": 3.8,
+          "effective_rate": 3.8,
+          "details": "No deviation"
+        },
+        "date_shifts": {
+          "severity": "none",
+          "score": 0,
+          "details": null
+        },
+        "unmatched_transactions": {
+          "severity": "none",
+          "score": 0,
+          "details": null
+        },
+        "missing_reconciliation": {
+          "severity": "none",
+          "score": 0,
+          "details": null
+        }
+      },
+      "total_score": 0
+    },
+    {
+      "merchant_id": 17,
+      "merchant_name": "SKINVEX LTD",
+      "problems": {
+        "commission_mismatch": {
+          "severity": "ok",
+          "score": 0,
+          "amount": 0.0,
+          "percent": 0.0,
+          "expected": 111105.07,
+          "actual": 111105.07,
+          "contract_rate": 3.8,
+          "effective_rate": 3.8,
+          "details": "No deviation"
+        },
+        "date_shifts": {
+          "severity": "none",
+          "score": 0,
+          "details": null
+        },
+        "unmatched_transactions": {
+          "severity": "none",
+          "score": 0,
+          "details": null
+        },
+        "missing_reconciliation": {
+          "severity": "none",
+          "score": 0,
+          "details": null
+        }
+      },
+      "total_score": 0
+    },
+    {
+      "merchant_id": 14,
+      "merchant_name": "RENAMESTRA LTD",
+      "problems": {
+        "commission_mismatch": {
+          "severity": "ok",
+          "score": 0,
+          "amount": 0.0,
+          "percent": 0.0,
+          "expected": 46851.84,
+          "actual": 46851.84,
+          "contract_rate": 3.8,
+          "effective_rate": 3.8,
+          "details": "No deviation"
+        },
+        "date_shifts": {
+          "severity": "none",
+          "score": 0,
+          "details": null
+        },
+        "unmatched_transactions": {
+          "severity": "none",
+          "score": 0,
+          "details": null
+        },
+        "missing_reconciliation": {
+          "severity": "none",
+          "score": 0,
+          "details": null
+        }
+      },
+      "total_score": 0
+    },
+    {
+      "merchant_id": 15,
+      "merchant_name": "SKINRIFF LIMITED",
+      "problems": {
+        "commission_mismatch": {
+          "severity": "ok",
+          "score": 0,
+          "amount": 0.0,
+          "percent": 0.0,
+          "expected": 36788.99,
+          "actual": 36788.99,
+          "contract_rate": 3.8,
+          "effective_rate": 3.8,
+          "details": "No deviation"
+        },
+        "date_shifts": {
+          "severity": "none",
+          "score": 0,
+          "details": null
+        },
+        "unmatched_transactions": {
+          "severity": "none",
+          "score": 0,
+          "details": null
+        },
+        "missing_reconciliation": {
+          "severity": "none",
+          "score": 0,
+          "details": null
+        }
+      },
+      "total_score": 0
+    },
+    {
+      "merchant_id": 18,
+      "merchant_name": "TERRAGAMINEX LIMITED",
+      "problems": {
+        "commission_mismatch": {
+          "severity": "ok",
+          "score": 0,
+          "amount": 0.0,
+          "percent": 0.0,
+          "expected": 23434.23,
+          "actual": 23434.23,
+          "contract_rate": 3.8,
+          "effective_rate": 3.8,
+          "details": "No deviation"
+        },
+        "date_shifts": {
+          "severity": "none",
+          "score": 0,
+          "details": null
+        },
+        "unmatched_transactions": {
+          "severity": "none",
+          "score": 0,
+          "details": null
+        },
+        "missing_reconciliation": {
+          "severity": "none",
+          "score": 0,
+          "details": null
+        }
+      },
+      "total_score": 0
+    },
+    {
+      "merchant_id": 13,
+      "merchant_name": "QUANTESSA LTD",
+      "problems": {
+        "commission_mismatch": {
+          "severity": "ok",
+          "score": 0,
+          "amount": 0.0,
+          "percent": 0.0,
+          "expected": 27504.87,
+          "actual": 27504.87,
+          "contract_rate": 3.8,
+          "effective_rate": 3.8,
+          "details": "No deviation"
+        },
+        "date_shifts": {
+          "severity": "none",
+          "score": 0,
+          "details": null
+        },
+        "unmatched_transactions": {
+          "severity": "none",
+          "score": 0,
+          "details": null
+        },
+        "missing_reconciliation": {
+          "severity": "none",
+          "score": 0,
+          "details": null
+        }
+      },
+      "total_score": 0
+    },
+    {
+      "merchant_id": 6,
+      "merchant_name": "DEVALENIUS LTD",
+      "problems": {
+        "commission_mismatch": {
+          "severity": "ok",
+          "score": 0,
+          "amount": 0.0,
+          "percent": 0.0,
+          "expected": 14114.22,
+          "actual": 14114.22,
+          "contract_rate": 3.8,
+          "effective_rate": 3.8,
+          "details": "No deviation"
+        },
+        "date_shifts": {
+          "severity": "none",
+          "score": 0,
+          "details": null
+        },
+        "unmatched_transactions": {
+          "severity": "none",
+          "score": 0,
+          "details": null
+        },
+        "missing_reconciliation": {
+          "severity": "none",
+          "score": 0,
+          "details": null
+        }
+      },
+      "total_score": 0
+    },
+    {
+      "merchant_id": 3,
+      "merchant_name": "ARTEFACTAX LIMITED",
+      "problems": {
+        "commission_mismatch": {
+          "severity": "ok",
+          "score": 0,
+          "amount": 0.0,
+          "percent": 0.0,
+          "expected": 354.4,
+          "actual": 354.4,
+          "contract_rate": 3.8,
+          "effective_rate": 3.8,
+          "details": "No deviation"
+        },
+        "date_shifts": {
+          "severity": "none",
+          "score": 0,
+          "details": null
+        },
+        "unmatched_transactions": {
+          "severity": "none",
+          "score": 0,
+          "details": null
+        },
+        "missing_reconciliation": {
+          "severity": "none",
+          "score": 0,
+          "details": null
+        }
+      },
+      "total_score": 0
+    },
+    {
+      "merchant_id": 12,
+      "merchant_name": "PIXTHENA LIMITED",
+      "problems": {
+        "commission_mismatch": {
+          "severity": "none",
+          "score": 0,
+          "amount": 0.0,
+          "percent": 0.0,
+          "expected": 0.0,
+          "actual": 0.0,
+          "contract_rate": 3.8,
+          "effective_rate": 0,
+          "details": "No transactions"
+        },
+        "date_shifts": {
+          "severity": "none",
+          "score": 0,
+          "details": null
+        },
+        "unmatched_transactions": {
+          "severity": "none",
+          "score": 0,
+          "details": null
+        },
+        "missing_reconciliation": {
+          "severity": "none",
+          "score": 0,
+          "details": null
+        }
+      },
+      "total_score": 0
+    }
+  ],
+  "summary": {
+    "total_merchants": 20,
+    "merchants_with_issues": 8,
+    "critical_issues": 5,
+    "warning_issues": 3
+  }
+}

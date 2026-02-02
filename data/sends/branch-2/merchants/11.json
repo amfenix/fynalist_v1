@@ -1,0 +1,43 @@
+{
+  "merchant_id": 11,
+  "merchant_name": "QEBOR",
+  "merchant_group": "SENDS",
+  "company_name": "QEBOR LTD",
+  "kam": "",
+  "contract_id": "",
+  "transaction_count": 124615,
+  "approved_count": 124615,
+  "declined_count": 0,
+  "acceptance_rate": 0,
+  "total_amount_eur": 7268874.11,
+  "total_commission_eur": 363443.71,
+  "sale_count": 124615,
+  "sale_amount": 7268874.11,
+  "payout_count": 0,
+  "payout_amount": 0.0,
+  "reversal_count": 0,
+  "reversal_amount": 0.0,
+  "first_transaction_date": "",
+  "partners": [
+    "SENDS"
+  ],
+  "currency_breakdown": [
+    {"currency": "EUR", "cnt": 124615, "amount": 7268874.11}
+  ],
+  "monthly_reconciliation": {
+    "EUR": [
+      {"month": "2025-01", "tx_count": 32456, "tx_amount": 1912876.45, "tx_commission": 95643.82, "tx_effective_rate": 5.0, "recon_count": 32456, "recon_amount": 1912876.45, "recon_commission": 95643.82, "recon_rate": 5.0, "contract_rate": 5.0, "amount_diff": 0, "deviation_percent": 0, "status": "ok"},
+      {"month": "2025-02", "tx_count": 31234, "tx_amount": 1812876.45, "tx_commission": 90643.82, "tx_effective_rate": 5.0, "recon_count": 31234, "recon_amount": 1812876.45, "recon_commission": 90643.82, "recon_rate": 5.0, "contract_rate": 5.0, "amount_diff": 0, "deviation_percent": 0, "status": "ok"},
+      {"month": "2025-03", "tx_count": 30567, "tx_amount": 1778234.18, "tx_commission": 88911.71, "tx_effective_rate": 5.0, "recon_count": 30567, "recon_amount": 1778234.18, "recon_commission": 88911.71, "recon_rate": 5.0, "contract_rate": 5.0, "amount_diff": 0, "deviation_percent": 0, "status": "ok"},
+      {"month": "2025-04", "tx_count": 30358, "tx_amount": 1764887.03, "tx_commission": 88244.36, "tx_effective_rate": 5.0, "recon_count": 30358, "recon_amount": 1764887.03, "recon_commission": 88244.36, "recon_rate": 5.0, "contract_rate": 5.0, "amount_diff": 0, "deviation_percent": 0, "status": "ok"},
+      {"month": "2025-05", "tx_count": 0, "tx_amount": 0, "tx_commission": 0, "tx_effective_rate": 0, "recon_count": null, "recon_amount": null, "recon_commission": null, "recon_rate": null, "contract_rate": 5.0, "amount_diff": null, "deviation_percent": null, "status": "empty"},
+      {"month": "2025-06", "tx_count": 0, "tx_amount": 0, "tx_commission": 0, "tx_effective_rate": 0, "recon_count": null, "recon_amount": null, "recon_commission": null, "recon_rate": null, "contract_rate": 5.0, "amount_diff": null, "deviation_percent": null, "status": "empty"},
+      {"month": "2025-07", "tx_count": 0, "tx_amount": 0, "tx_commission": 0, "tx_effective_rate": 0, "recon_count": null, "recon_amount": null, "recon_commission": null, "recon_rate": null, "contract_rate": 5.0, "amount_diff": null, "deviation_percent": null, "status": "empty"},
+      {"month": "2025-08", "tx_count": 0, "tx_amount": 0, "tx_commission": 0, "tx_effective_rate": 0, "recon_count": null, "recon_amount": null, "recon_commission": null, "recon_rate": null, "contract_rate": 5.0, "amount_diff": null, "deviation_percent": null, "status": "empty"},
+      {"month": "2025-09", "tx_count": 0, "tx_amount": 0, "tx_commission": 0, "tx_effective_rate": 0, "recon_count": null, "recon_amount": null, "recon_commission": null, "recon_rate": null, "contract_rate": 5.0, "amount_diff": null, "deviation_percent": null, "status": "empty"},
+      {"month": "2025-10", "tx_count": 0, "tx_amount": 0, "tx_commission": 0, "tx_effective_rate": 0, "recon_count": null, "recon_amount": null, "recon_commission": null, "recon_rate": null, "contract_rate": 5.0, "amount_diff": null, "deviation_percent": null, "status": "empty"},
+      {"month": "2025-11", "tx_count": 0, "tx_amount": 0, "tx_commission": 0, "tx_effective_rate": 0, "recon_count": null, "recon_amount": null, "recon_commission": null, "recon_rate": null, "contract_rate": 5.0, "amount_diff": null, "deviation_percent": null, "status": "empty"},
+      {"month": "2025-12", "tx_count": 0, "tx_amount": 0, "tx_commission": 0, "tx_effective_rate": 0, "recon_count": null, "recon_amount": null, "recon_commission": null, "recon_rate": null, "contract_rate": 5.0, "amount_diff": null, "deviation_percent": null, "status": "empty"}
+    ]
+  }
+}

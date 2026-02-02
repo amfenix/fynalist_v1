@@ -1,0 +1,43 @@
+{
+  "merchant_id": 7,
+  "merchant_name": "Muizagn",
+  "merchant_group": "SENDS",
+  "company_name": "MUIZAGN LTD",
+  "kam": "",
+  "contract_id": "",
+  "transaction_count": 66830,
+  "approved_count": 66830,
+  "declined_count": 0,
+  "acceptance_rate": 0,
+  "total_amount_eur": 3285441.02,
+  "total_commission_eur": 164272.05,
+  "sale_count": 66830,
+  "sale_amount": 3285441.02,
+  "payout_count": 0,
+  "payout_amount": 0.0,
+  "reversal_count": 0,
+  "reversal_amount": 0.0,
+  "first_transaction_date": "",
+  "partners": [
+    "SENDS"
+  ],
+  "currency_breakdown": [
+    {"currency": "EUR", "cnt": 66830, "amount": 3285441.02}
+  ],
+  "monthly_reconciliation": {
+    "EUR": [
+      {"month": "2025-01", "tx_count": 23456, "tx_amount": 1189234.18, "tx_commission": 59461.71, "tx_effective_rate": 5.0, "recon_count": 23456, "recon_amount": 1189234.18, "recon_commission": 59461.71, "recon_rate": 5.0, "contract_rate": 5.0, "amount_diff": 0, "deviation_percent": 0, "status": "ok"},
+      {"month": "2025-02", "tx_count": 22123, "tx_amount": 1087621.45, "tx_commission": 54381.07, "tx_effective_rate": 5.0, "recon_count": 22123, "recon_amount": 1087621.45, "recon_commission": 54381.07, "recon_rate": 5.0, "contract_rate": 5.0, "amount_diff": 0, "deviation_percent": 0, "status": "ok"},
+      {"month": "2025-03", "tx_count": 21251, "tx_amount": 1008585.39, "tx_commission": 50429.27, "tx_effective_rate": 5.0, "recon_count": 21251, "recon_amount": 1008585.39, "recon_commission": 50429.27, "recon_rate": 5.0, "contract_rate": 5.0, "amount_diff": 0, "deviation_percent": 0, "status": "ok"},
+      {"month": "2025-04", "tx_count": 0, "tx_amount": 0, "tx_commission": 0, "tx_effective_rate": 0, "recon_count": null, "recon_amount": null, "recon_commission": null, "recon_rate": null, "contract_rate": 5.0, "amount_diff": null, "deviation_percent": null, "status": "empty"},
+      {"month": "2025-05", "tx_count": 0, "tx_amount": 0, "tx_commission": 0, "tx_effective_rate": 0, "recon_count": null, "recon_amount": null, "recon_commission": null, "recon_rate": null, "contract_rate": 5.0, "amount_diff": null, "deviation_percent": null, "status": "empty"},
+      {"month": "2025-06", "tx_count": 0, "tx_amount": 0, "tx_commission": 0, "tx_effective_rate": 0, "recon_count": null, "recon_amount": null, "recon_commission": null, "recon_rate": null, "contract_rate": 5.0, "amount_diff": null, "deviation_percent": null, "status": "empty"},
+      {"month": "2025-07", "tx_count": 0, "tx_amount": 0, "tx_commission": 0, "tx_effective_rate": 0, "recon_count": null, "recon_amount": null, "recon_commission": null, "recon_rate": null, "contract_rate": 5.0, "amount_diff": null, "deviation_percent": null, "status": "empty"},
+      {"month": "2025-08", "tx_count": 0, "tx_amount": 0, "tx_commission": 0, "tx_effective_rate": 0, "recon_count": null, "recon_amount": null, "recon_commission": null, "recon_rate": null, "contract_rate": 5.0, "amount_diff": null, "deviation_percent": null, "status": "empty"},
+      {"month": "2025-09", "tx_count": 0, "tx_amount": 0, "tx_commission": 0, "tx_effective_rate": 0, "recon_count": null, "recon_amount": null, "recon_commission": null, "recon_rate": null, "contract_rate": 5.0, "amount_diff": null, "deviation_percent": null, "status": "empty"},
+      {"month": "2025-10", "tx_count": 0, "tx_amount": 0, "tx_commission": 0, "tx_effective_rate": 0, "recon_count": null, "recon_amount": null, "recon_commission": null, "recon_rate": null, "contract_rate": 5.0, "amount_diff": null, "deviation_percent": null, "status": "empty"},
+      {"month": "2025-11", "tx_count": 0, "tx_amount": 0, "tx_commission": 0, "tx_effective_rate": 0, "recon_count": null, "recon_amount": null, "recon_commission": null, "recon_rate": null, "contract_rate": 5.0, "amount_diff": null, "deviation_percent": null, "status": "empty"},
+      {"month": "2025-12", "tx_count": 0, "tx_amount": 0, "tx_commission": 0, "tx_effective_rate": 0, "recon_count": null, "recon_amount": null, "recon_commission": null, "recon_rate": null, "contract_rate": 5.0, "amount_diff": null, "deviation_percent": null, "status": "empty"}
+    ]
+  }
+}

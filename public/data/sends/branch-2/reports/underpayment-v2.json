@@ -1,0 +1,568 @@
+{
+  "generated_at": "2026-02-01T10:10:03.048582",
+  "scope": "Commission Compliance Analysis (Static JSON Data)",
+  "data_source": "Registry and Reconciliation JSON files from SENDS/contracts/",
+  "summary": {
+    "total_transactions": 2916211,
+    "total_volume": 171354231.43,
+    "total_expected_commission": 5556249.02,
+    "total_actual_commission": 8022023.88,
+    "total_deviation": 2465774.86,
+    "match_percentage": 55.62,
+    "merchants_analyzed": 17
+  },
+  "deviation_distribution": {
+    "exact_match": {
+      "count": 1,
+      "description": "Deviation < 0.1%"
+    },
+    "minor_deviation": {
+      "count": 0,
+      "description": "Deviation 0.1% - 0.5%"
+    },
+    "significant_deviation": {
+      "count": 16,
+      "description": "Deviation > 0.5%"
+    }
+  },
+  "merchant_summary": [
+    {
+      "merchant": "Inateus",
+      "merchant_key": "inateus",
+      "transaction_count": 452991,
+      "total_volume": 27007352.14,
+      "contract_rate": 4.8,
+      "contract_fixed": 0,
+      "expected_commission": 1296326.64,
+      "actual_commission": 1145930.72,
+      "deviation": -150395.92,
+      "deviation_percent": -11.6017,
+      "status": "significant",
+      "currencies": [
+        "EUR"
+      ],
+      "currency_details": [
+        {
+          "currency": "EUR",
+          "tx_count": 452991,
+          "payment_count": 452987,
+          "refund_count": 4,
+          "rate": 4.8,
+          "fixed": 0.0,
+          "volume": 27007352.14,
+          "expected": 1296326.64,
+          "actual": 1145930.72,
+          "deviation": -150395.92
+        }
+      ],
+      "missing_rates": null
+    },
+    {
+      "merchant": "Cybervox",
+      "merchant_key": "cybervox",
+      "transaction_count": 360609,
+      "total_volume": 18228743.35,
+      "contract_rate": 1.75,
+      "contract_fixed": 0,
+      "expected_commission": 319647.65,
+      "actual_commission": 911625.33,
+      "deviation": 591977.68,
+      "deviation_percent": 185.1969,
+      "status": "significant",
+      "currencies": [
+        "EUR"
+      ],
+      "currency_details": [
+        {
+          "currency": "EUR",
+          "tx_count": 360609,
+          "payment_count": 360572,
+          "refund_count": 37,
+          "rate": 1.75,
+          "fixed": 0.0,
+          "volume": 18228743.35,
+          "expected": 319647.65,
+          "actual": 911625.33,
+          "deviation": 591977.68
+        }
+      ],
+      "missing_rates": null
+    },
+    {
+      "merchant": "LIMITEDCO LTD",
+      "merchant_key": "limitedco",
+      "transaction_count": 224571,
+      "total_volume": 12738289.85,
+      "contract_rate": 1.75,
+      "contract_fixed": 0,
+      "expected_commission": 223286.26,
+      "actual_commission": 630834.57,
+      "deviation": 407548.31,
+      "deviation_percent": 182.5228,
+      "status": "significant",
+      "currencies": [
+        "EUR"
+      ],
+      "currency_details": [
+        {
+          "currency": "EUR",
+          "tx_count": 224571,
+          "payment_count": 224566,
+          "refund_count": 5,
+          "rate": 1.75,
+          "fixed": 0.0,
+          "volume": 12738289.85,
+          "expected": 223286.26,
+          "actual": 630834.57,
+          "deviation": 407548.31
+        }
+      ],
+      "missing_rates": null
+    },
+    {
+      "merchant": "FINTECH AI FUSION LTD",
+      "merchant_key": "fintech_ai_fusion",
+      "transaction_count": 212613,
+      "total_volume": 11942841.97,
+      "contract_rate": 1.75,
+      "contract_fixed": 0,
+      "expected_commission": 209275.82,
+      "actual_commission": 591122.15,
+      "deviation": 381846.33,
+      "deviation_percent": 182.4608,
+      "status": "significant",
+      "currencies": [
+        "EUR"
+      ],
+      "currency_details": [
+        {
+          "currency": "EUR",
+          "tx_count": 212613,
+          "payment_count": 212612,
+          "refund_count": 1,
+          "rate": 1.75,
+          "fixed": 0.0,
+          "volume": 11942841.97,
+          "expected": 209275.82,
+          "actual": 591122.15,
+          "deviation": 381846.33
+        }
+      ],
+      "missing_rates": null
+    },
+    {
+      "merchant": "UNI COBRAND LTD",
+      "merchant_key": "uni_cobrand",
+      "transaction_count": 209526,
+      "total_volume": 12001529.63,
+      "contract_rate": 1.75,
+      "contract_fixed": 0,
+      "expected_commission": 210294.59,
+      "actual_commission": 594093.27,
+      "deviation": 383798.68,
+      "deviation_percent": 182.5053,
+      "status": "significant",
+      "currencies": [
+        "EUR"
+      ],
+      "currency_details": [
+        {
+          "currency": "EUR",
+          "tx_count": 209526,
+          "payment_count": 209526,
+          "refund_count": 0,
+          "rate": 1.75,
+          "fixed": 0.0,
+          "volume": 12001529.63,
+          "expected": 210294.59,
+          "actual": 594093.27,
+          "deviation": 383798.68
+        }
+      ],
+      "missing_rates": null
+    },
+    {
+      "merchant": "TECHFIN SIGMA SOLUTION LTD",
+      "merchant_key": "techfin_sigma",
+      "transaction_count": 200737,
+      "total_volume": 10933957.4,
+      "contract_rate": 5.0,
+      "contract_fixed": 0,
+      "expected_commission": 546864.08,
+      "actual_commission": 540893.56,
+      "deviation": -5970.52,
+      "deviation_percent": -1.0918,
+      "status": "significant",
+      "currencies": [
+        "EUR"
+      ],
+      "currency_details": [
+        {
+          "currency": "EUR",
+          "tx_count": 200737,
+          "payment_count": 200699,
+          "refund_count": 38,
+          "rate": 5.0,
+          "fixed": 0.0,
+          "volume": 10933957.4,
+          "expected": 546864.08,
+          "actual": 540893.56,
+          "deviation": -5970.52
+        }
+      ],
+      "missing_rates": null
+    },
+    {
+      "merchant": "SHOP ONLINE AI",
+      "merchant_key": "shop_online_ai",
+      "transaction_count": 176899,
+      "total_volume": 9874212.07,
+      "contract_rate": 5.0,
+      "contract_fixed": 0,
+      "expected_commission": 493750.0,
+      "actual_commission": 487764.28,
+      "deviation": -5985.72,
+      "deviation_percent": -1.2123,
+      "status": "significant",
+      "currencies": [
+        "EUR"
+      ],
+      "currency_details": [
+        {
+          "currency": "EUR",
+          "tx_count": 176899,
+          "payment_count": 176895,
+          "refund_count": 4,
+          "rate": 5.0,
+          "fixed": 0.0,
+          "volume": 9874212.07,
+          "expected": 493750.0,
+          "actual": 487764.28,
+          "deviation": -5985.72
+        }
+      ],
+      "missing_rates": null
+    },
+    {
+      "merchant": "ONLINE GO",
+      "merchant_key": "online_go",
+      "transaction_count": 160037,
+      "total_volume": 10385985.34,
+      "contract_rate": 5.0,
+      "contract_fixed": 0,
+      "expected_commission": 519326.85,
+      "actual_commission": 519335.09,
+      "deviation": 8.24,
+      "deviation_percent": 0.0016,
+      "status": "exact",
+      "currencies": [
+        "EUR"
+      ],
+      "currency_details": [
+        {
+          "currency": "EUR",
+          "tx_count": 160037,
+          "payment_count": 160034,
+          "refund_count": 3,
+          "rate": 5.0,
+          "fixed": 0.0,
+          "volume": 10385985.34,
+          "expected": 519326.85,
+          "actual": 519335.09,
+          "deviation": 8.24
+        }
+      ],
+      "missing_rates": null
+    },
+    {
+      "merchant": "SellPro",
+      "merchant_key": "sellpro",
+      "transaction_count": 149315,
+      "total_volume": 15242391.74,
+      "contract_rate": 5.0,
+      "contract_fixed": 0,
+      "expected_commission": 762126.14,
+      "actual_commission": 476883.57,
+      "deviation": -285242.57,
+      "deviation_percent": -37.4272,
+      "status": "significant",
+      "currencies": [
+        "EUR"
+      ],
+      "currency_details": [
+        {
+          "currency": "EUR",
+          "tx_count": 149315,
+          "payment_count": 149312,
+          "refund_count": 3,
+          "rate": 5.0,
+          "fixed": 0.0,
+          "volume": 15242391.74,
+          "expected": 762126.14,
+          "actual": 476883.57,
+          "deviation": -285242.57
+        }
+      ],
+      "missing_rates": null
+    },
+    {
+      "merchant": "XYZ AI LIMITED",
+      "merchant_key": "xyz_ai",
+      "transaction_count": 148035,
+      "total_volume": 8468871.55,
+      "contract_rate": 1.75,
+      "contract_fixed": 0,
+      "expected_commission": 148447.65,
+      "actual_commission": 417479.04,
+      "deviation": 269031.39,
+      "deviation_percent": 181.2298,
+      "status": "significant",
+      "currencies": [
+        "EUR"
+      ],
+      "currency_details": [
+        {
+          "currency": "EUR",
+          "tx_count": 148035,
+          "payment_count": 148028,
+          "refund_count": 7,
+          "rate": 1.75,
+          "fixed": 0.0,
+          "volume": 8468871.55,
+          "expected": 148447.65,
+          "actual": 417479.04,
+          "deviation": 269031.39
+        }
+      ],
+      "missing_rates": null
+    },
+    {
+      "merchant": "PLAYOFF GO",
+      "merchant_key": "playoff_go",
+      "transaction_count": 128007,
+      "total_volume": 6875989.16,
+      "contract_rate": 1.75,
+      "contract_fixed": 0,
+      "expected_commission": 120536.02,
+      "actual_commission": 342131.33,
+      "deviation": 221595.31,
+      "deviation_percent": 183.8416,
+      "status": "significant",
+      "currencies": [
+        "EUR"
+      ],
+      "currency_details": [
+        {
+          "currency": "EUR",
+          "tx_count": 128007,
+          "payment_count": 127994,
+          "refund_count": 13,
+          "rate": 1.75,
+          "fixed": 0.0,
+          "volume": 6875989.16,
+          "expected": 120536.02,
+          "actual": 342131.33,
+          "deviation": 221595.31
+        }
+      ],
+      "missing_rates": null
+    },
+    {
+      "merchant": "QEBOR",
+      "merchant_key": "qebor",
+      "transaction_count": 124615,
+      "total_volume": 7270892.11,
+      "contract_rate": 4.8,
+      "contract_fixed": 0,
+      "expected_commission": 348989.05,
+      "actual_commission": 360693.97,
+      "deviation": 11704.92,
+      "deviation_percent": 3.354,
+      "status": "significant",
+      "currencies": [
+        "EUR"
+      ],
+      "currency_details": [
+        {
+          "currency": "EUR",
+          "tx_count": 124615,
+          "payment_count": 124608,
+          "refund_count": 7,
+          "rate": 4.8,
+          "fixed": 0.0,
+          "volume": 7270892.11,
+          "expected": 348989.05,
+          "actual": 360693.97,
+          "deviation": 11704.92
+        }
+      ],
+      "missing_rates": null
+    },
+    {
+      "merchant": "DNS_X",
+      "merchant_key": "dns_x",
+      "transaction_count": 102715,
+      "total_volume": 6086218.05,
+      "contract_rate": 1.75,
+      "contract_fixed": 0,
+      "expected_commission": 106637.4,
+      "actual_commission": 304350.85,
+      "deviation": 197713.45,
+      "deviation_percent": 185.4072,
+      "status": "significant",
+      "currencies": [
+        "EUR"
+      ],
+      "currency_details": [
+        {
+          "currency": "EUR",
+          "tx_count": 102715,
+          "payment_count": 102709,
+          "refund_count": 6,
+          "rate": 1.75,
+          "fixed": 0.0,
+          "volume": 6086218.05,
+          "expected": 106637.4,
+          "actual": 304350.85,
+          "deviation": 197713.45
+        }
+      ],
+      "missing_rates": null
+    },
+    {
+      "merchant": "SIKCINTIVK SMART+FIN",
+      "merchant_key": "sikcintivk",
+      "transaction_count": 102322,
+      "total_volume": 5158788.64,
+      "contract_rate": 1.75,
+      "contract_fixed": 0,
+      "expected_commission": 90424.05,
+      "actual_commission": 257966.96,
+      "deviation": 167542.91,
+      "deviation_percent": 185.2858,
+      "status": "significant",
+      "currencies": [
+        "EUR"
+      ],
+      "currency_details": [
+        {
+          "currency": "EUR",
+          "tx_count": 102322,
+          "payment_count": 102322,
+          "refund_count": 0,
+          "rate": 1.75,
+          "fixed": 0.0,
+          "volume": 5158788.64,
+          "expected": 90424.05,
+          "actual": 257966.96,
+          "deviation": 167542.91
+        }
+      ],
+      "missing_rates": null
+    },
+    {
+      "merchant": "Muizagn",
+      "merchant_key": "muizagn",
+      "transaction_count": 66830,
+      "total_volume": 3286904.28,
+      "contract_rate": 1.75,
+      "contract_fixed": 0,
+      "expected_commission": 57703.39,
+      "actual_commission": 164424.86,
+      "deviation": 106721.47,
+      "deviation_percent": 184.9484,
+      "status": "significant",
+      "currencies": [
+        "EUR"
+      ],
+      "currency_details": [
+        {
+          "currency": "EUR",
+          "tx_count": 66830,
+          "payment_count": 66810,
+          "refund_count": 20,
+          "rate": 1.75,
+          "fixed": 0.0,
+          "volume": 3286904.28,
+          "expected": 57703.39,
+          "actual": 164424.86,
+          "deviation": 106721.47
+        }
+      ],
+      "missing_rates": null
+    },
+    {
+      "merchant": "ALFA",
+      "merchant_key": "alfa",
+      "transaction_count": 48366,
+      "total_volume": 2830824.23,
+      "contract_rate": 1.75,
+      "contract_fixed": 0,
+      "expected_commission": 49640.08,
+      "actual_commission": 138188.28,
+      "deviation": 88548.2,
+      "deviation_percent": 178.3805,
+      "status": "significant",
+      "currencies": [
+        "EUR"
+      ],
+      "currency_details": [
+        {
+          "currency": "EUR",
+          "tx_count": 48366,
+          "payment_count": 48361,
+          "refund_count": 5,
+          "rate": 1.75,
+          "fixed": 0.0,
+          "volume": 2830824.23,
+          "expected": 49640.08,
+          "actual": 138188.28,
+          "deviation": 88548.2
+        }
+      ],
+      "missing_rates": null
+    },
+    {
+      "merchant": "Orion",
+      "merchant_key": "orion",
+      "transaction_count": 48023,
+      "total_volume": 3020439.92,
+      "contract_rate": 1.75,
+      "contract_fixed": 0,
+      "expected_commission": 52973.35,
+      "actual_commission": 138306.05,
+      "deviation": 85332.7,
+      "deviation_percent": 161.0861,
+      "status": "significant",
+      "currencies": [
+        "EUR"
+      ],
+      "currency_details": [
+        {
+          "currency": "EUR",
+          "tx_count": 48023,
+          "payment_count": 48015,
+          "refund_count": 8,
+          "rate": 1.75,
+          "fixed": 0.0,
+          "volume": 3020439.92,
+          "expected": 52973.35,
+          "actual": 138306.05,
+          "deviation": 85332.7
+        }
+      ],
+      "missing_rates": null
+    }
+  ],
+  "currency_breakdown": [
+    {
+      "currency": "EUR",
+      "transaction_count": 2916211,
+      "total_volume": 171354231.43,
+      "actual_commission": 8022023.88,
+      "expected_commission": 5556249.02,
+      "deviation": 2465774.86,
+      "avg_effective_rate": 4.6815
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "generated_at": "2026-02-01T10:10:00.000000",
+  "scope": "Contract Mismatch Report (Batch 2)",
+  "data_source": "Static JSON - placeholder",
+  "match_quality": {
+    "exact": 0,
+    "minor": 0,
+    "significant": 0,
+    "critical": 0,
+    "total": 0,
+    "total_deviation": 0
+  },
+  "rate_plan_analysis": {},
+  "examples": {},
+  "low_confidence_matches": [],
+  "volume_tier_suggestions": []
+}

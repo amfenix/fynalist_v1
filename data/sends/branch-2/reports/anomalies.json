@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-02-01T10:10:00.000000",
+  "scope": "Anomalies Report (Batch 2)",
+  "overall_stats": {
+    "total_approved": 0,
+    "total_volume": 0,
+    "total_commission": 0
+  },
+  "zero_commission": {
+    "description": "Approved transactions with zero or null commission",
+    "severity": "medium",
+    "total_count": 0,
+    "total_volume": 0,
+    "by_merchant": {}
+  },
+  "fixed_fee_mismatch": {
+    "description": "Commission matches but fixed fee differs from contract",
+    "severity": "medium",
+    "total_count": 0,
+    "total_volume": 0,
+    "total_commission": 0,
+    "by_merchant": {}
+  },
+  "manual_transactions": {
+    "description": "Transactions with status = 'manual' (require review)",
+    "severity": "info",
+    "total_count": 0,
+    "total_volume": 0,
+    "total_commission": 0,
+    "by_merchant": {}
+  }
+}

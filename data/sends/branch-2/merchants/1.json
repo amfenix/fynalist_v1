@@ -1,0 +1,43 @@
+{
+  "merchant_id": 1,
+  "merchant_name": "ALFA",
+  "merchant_group": "SENDS",
+  "company_name": "ALFA LEAD LTD",
+  "kam": "",
+  "contract_id": "",
+  "transaction_count": 48358,
+  "approved_count": 48358,
+  "declined_count": 0,
+  "acceptance_rate": 0,
+  "total_amount_eur": 2830397.62,
+  "total_commission_eur": 138148.28,
+  "sale_count": 48358,
+  "sale_amount": 2830397.62,
+  "payout_count": 0,
+  "payout_amount": 0.0,
+  "reversal_count": 3,
+  "reversal_amount": 158.87,
+  "first_transaction_date": "",
+  "partners": [
+    "SENDS"
+  ],
+  "currency_breakdown": [
+    {"currency": "EUR", "cnt": 48358, "amount": 2830397.62}
+  ],
+  "monthly_reconciliation": {
+    "EUR": [
+      {"month": "2025-01", "tx_count": 0, "tx_amount": 0, "tx_commission": 0, "tx_effective_rate": 0, "recon_count": null, "recon_amount": null, "recon_commission": null, "recon_rate": null, "contract_rate": 4.8, "amount_diff": null, "deviation_percent": null, "status": "empty"},
+      {"month": "2025-02", "tx_count": 0, "tx_amount": 0, "tx_commission": 0, "tx_effective_rate": 0, "recon_count": null, "recon_amount": null, "recon_commission": null, "recon_rate": null, "contract_rate": 4.8, "amount_diff": null, "deviation_percent": null, "status": "empty"},
+      {"month": "2025-03", "tx_count": 0, "tx_amount": 0, "tx_commission": 0, "tx_effective_rate": 0, "recon_count": null, "recon_amount": null, "recon_commission": null, "recon_rate": null, "contract_rate": 4.8, "amount_diff": null, "deviation_percent": null, "status": "empty"},
+      {"month": "2025-04", "tx_count": 0, "tx_amount": 0, "tx_commission": 0, "tx_effective_rate": 0, "recon_count": null, "recon_amount": null, "recon_commission": null, "recon_rate": null, "contract_rate": 4.8, "amount_diff": null, "deviation_percent": null, "status": "empty"},
+      {"month": "2025-05", "tx_count": 0, "tx_amount": 0, "tx_commission": 0, "tx_effective_rate": 0, "recon_count": null, "recon_amount": null, "recon_commission": null, "recon_rate": null, "contract_rate": 4.8, "amount_diff": null, "deviation_percent": null, "status": "empty"},
+      {"month": "2025-06", "tx_count": 0, "tx_amount": 0, "tx_commission": 0, "tx_effective_rate": 0, "recon_count": null, "recon_amount": null, "recon_commission": null, "recon_rate": null, "contract_rate": 4.8, "amount_diff": null, "deviation_percent": null, "status": "empty"},
+      {"month": "2025-07", "tx_count": 0, "tx_amount": 0, "tx_commission": 0, "tx_effective_rate": 0, "recon_count": null, "recon_amount": null, "recon_commission": null, "recon_rate": null, "contract_rate": 4.8, "amount_diff": null, "deviation_percent": null, "status": "empty"},
+      {"month": "2025-08", "tx_count": 0, "tx_amount": 0, "tx_commission": 0, "tx_effective_rate": 0, "recon_count": null, "recon_amount": null, "recon_commission": null, "recon_rate": null, "contract_rate": 4.8, "amount_diff": null, "deviation_percent": null, "status": "empty"},
+      {"month": "2025-09", "tx_count": 0, "tx_amount": 0, "tx_commission": 0, "tx_effective_rate": 0, "recon_count": null, "recon_amount": null, "recon_commission": null, "recon_rate": null, "contract_rate": 4.8, "amount_diff": null, "deviation_percent": null, "status": "empty"},
+      {"month": "2025-10", "tx_count": 3113, "tx_amount": 186557.20, "tx_commission": 8954.56, "tx_effective_rate": 4.8, "recon_count": 3113, "recon_amount": 186557.20, "recon_commission": 8954.56, "recon_rate": 4.8, "contract_rate": 4.8, "amount_diff": 0, "deviation_percent": 0, "status": "ok"},
+      {"month": "2025-11", "tx_count": 26015, "tx_amount": 1500767.82, "tx_commission": 72037.69, "tx_effective_rate": 4.8, "recon_count": 26015, "recon_amount": 1500767.82, "recon_commission": 72037.69, "recon_rate": 4.8, "contract_rate": 4.8, "amount_diff": 0, "deviation_percent": 0, "status": "ok"},
+      {"month": "2025-12", "tx_count": 19230, "tx_amount": 1143072.60, "tx_commission": 57156.03, "tx_effective_rate": 5.0, "recon_count": 19230, "recon_amount": 1143072.60, "recon_commission": 57156.03, "recon_rate": 5.0, "contract_rate": 4.8, "amount_diff": 0, "deviation_percent": 0, "status": "ok"}
+    ]
+  }
+}

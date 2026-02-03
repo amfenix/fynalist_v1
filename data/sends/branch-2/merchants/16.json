@@ -4,15 +4,15 @@
   "merchant_group": "SENDS",
   "company_name": "UNI COBRAND LTD",
   "kam": "",
-  "contract_id": "",
-  "transaction_count": 209526,
-  "approved_count": 209526,
+  "contract_id": "2025/2103-01",
+  "transaction_count": 209525,
+  "approved_count": 209525,
   "declined_count": 0,
   "acceptance_rate": 0,
-  "total_amount_eur": 12001529.63,
-  "total_commission_eur": 600076.48,
-  "sale_count": 209526,
-  "sale_amount": 12001529.63,
+  "total_amount_eur": 12001429.63,
+  "total_commission_eur": 210292.84,
+  "sale_count": 209525,
+  "sale_amount": 12001429.63,
   "payout_count": 0,
   "payout_amount": 0.0,
   "reversal_count": 0,
@@ -22,22 +22,22 @@
     "SENDS"
   ],
   "currency_breakdown": [
-    {"currency": "EUR", "cnt": 209526, "amount": 12001529.63}
+    {"currency": "EUR", "cnt": 209525, "amount": 12001429.63}
   ],
   "monthly_reconciliation": {
     "EUR": [
-      {"month": "2025-01", "tx_count": 53456, "tx_amount": 3112876.45, "tx_commission": 155643.82, "tx_effective_rate": 5.0, "recon_count": 53456, "recon_amount": 3112876.45, "recon_commission": 155643.82, "recon_rate": 5.0, "contract_rate": 5.0, "amount_diff": 0, "deviation_percent": 0, "status": "ok"},
-      {"month": "2025-02", "tx_count": 52234, "tx_amount": 3012876.45, "tx_commission": 150643.82, "tx_effective_rate": 5.0, "recon_count": 52234, "recon_amount": 3012876.45, "recon_commission": 150643.82, "recon_rate": 5.0, "contract_rate": 5.0, "amount_diff": 0, "deviation_percent": 0, "status": "ok"},
-      {"month": "2025-03", "tx_count": 51890, "tx_amount": 2934621.45, "tx_commission": 146731.07, "tx_effective_rate": 5.0, "recon_count": 51890, "recon_amount": 2934621.45, "recon_commission": 146731.07, "recon_rate": 5.0, "contract_rate": 5.0, "amount_diff": 0, "deviation_percent": 0, "status": "ok"},
-      {"month": "2025-04", "tx_count": 51946, "tx_amount": 2941155.28, "tx_commission": 147057.77, "tx_effective_rate": 5.0, "recon_count": 51946, "recon_amount": 2941155.28, "recon_commission": 147057.77, "recon_rate": 5.0, "contract_rate": 5.0, "amount_diff": 0, "deviation_percent": 0, "status": "ok"},
-      {"month": "2025-05", "tx_count": 0, "tx_amount": 0, "tx_commission": 0, "tx_effective_rate": 0, "recon_count": null, "recon_amount": null, "recon_commission": null, "recon_rate": null, "contract_rate": 5.0, "amount_diff": null, "deviation_percent": null, "status": "empty"},
-      {"month": "2025-06", "tx_count": 0, "tx_amount": 0, "tx_commission": 0, "tx_effective_rate": 0, "recon_count": null, "recon_amount": null, "recon_commission": null, "recon_rate": null, "contract_rate": 5.0, "amount_diff": null, "deviation_percent": null, "status": "empty"},
-      {"month": "2025-07", "tx_count": 0, "tx_amount": 0, "tx_commission": 0, "tx_effective_rate": 0, "recon_count": null, "recon_amount": null, "recon_commission": null, "recon_rate": null, "contract_rate": 5.0, "amount_diff": null, "deviation_percent": null, "status": "empty"},
-      {"month": "2025-08", "tx_count": 0, "tx_amount": 0, "tx_commission": 0, "tx_effective_rate": 0, "recon_count": null, "recon_amount": null, "recon_commission": null, "recon_rate": null, "contract_rate": 5.0, "amount_diff": null, "deviation_percent": null, "status": "empty"},
-      {"month": "2025-09", "tx_count": 0, "tx_amount": 0, "tx_commission": 0, "tx_effective_rate": 0, "recon_count": null, "recon_amount": null, "recon_commission": null, "recon_rate": null, "contract_rate": 5.0, "amount_diff": null, "deviation_percent": null, "status": "empty"},
-      {"month": "2025-10", "tx_count": 0, "tx_amount": 0, "tx_commission": 0, "tx_effective_rate": 0, "recon_count": null, "recon_amount": null, "recon_commission": null, "recon_rate": null, "contract_rate": 5.0, "amount_diff": null, "deviation_percent": null, "status": "empty"},
-      {"month": "2025-11", "tx_count": 0, "tx_amount": 0, "tx_commission": 0, "tx_effective_rate": 0, "recon_count": null, "recon_amount": null, "recon_commission": null, "recon_rate": null, "contract_rate": 5.0, "amount_diff": null, "deviation_percent": null, "status": "empty"},
-      {"month": "2025-12", "tx_count": 0, "tx_amount": 0, "tx_commission": 0, "tx_effective_rate": 0, "recon_count": null, "recon_amount": null, "recon_commission": null, "recon_rate": null, "contract_rate": 5.0, "amount_diff": null, "deviation_percent": null, "status": "empty"}
+      {"month": "2025-01", "tx_count": 0, "tx_amount": 0, "tx_commission": 0, "tx_effective_rate": 0, "recon_count": null, "recon_amount": null, "recon_commission": null, "recon_rate": null, "contract_rate": 1.75, "amount_diff": null, "deviation_percent": null, "status": "empty"},
+      {"month": "2025-02", "tx_count": 0, "tx_amount": 0, "tx_commission": 0, "tx_effective_rate": 0, "recon_count": null, "recon_amount": null, "recon_commission": null, "recon_rate": null, "contract_rate": 1.75, "amount_diff": null, "deviation_percent": null, "status": "empty"},
+      {"month": "2025-03", "tx_count": 0, "tx_amount": 0, "tx_commission": 0, "tx_effective_rate": 0, "recon_count": null, "recon_amount": null, "recon_commission": null, "recon_rate": null, "contract_rate": 1.75, "amount_diff": null, "deviation_percent": null, "status": "empty"},
+      {"month": "2025-04", "tx_count": 18858, "tx_amount": 988963.09, "tx_commission": 17325.28, "tx_effective_rate": 1.7519, "recon_count": 18858, "recon_amount": 988863.09, "recon_commission": 17325.28, "recon_rate": 1.7522, "contract_rate": 1.75, "amount_diff": 100.00, "deviation_percent": 0.0019, "status": "ok"},
+      {"month": "2025-05", "tx_count": 20578, "tx_amount": 1131649.20, "tx_commission": 19824.78, "tx_effective_rate": 1.7518, "recon_count": 20578, "recon_amount": 1131649.20, "recon_commission": 19824.78, "recon_rate": 1.7518, "contract_rate": 1.75, "amount_diff": 0, "deviation_percent": 0.0018, "status": "ok"},
+      {"month": "2025-06", "tx_count": 29214, "tx_amount": 1530232.39, "tx_commission": 26807.62, "tx_effective_rate": 1.7519, "recon_count": 29214, "recon_amount": 1530232.39, "recon_commission": 26807.62, "recon_rate": 1.7519, "contract_rate": 1.75, "amount_diff": 0, "deviation_percent": 0.0019, "status": "ok"},
+      {"month": "2025-07", "tx_count": 17480, "tx_amount": 1092403.58, "tx_commission": 19139.78, "tx_effective_rate": 1.7521, "recon_count": 17480, "recon_amount": 1092403.58, "recon_commission": 19139.78, "recon_rate": 1.7521, "contract_rate": 1.75, "amount_diff": 0, "deviation_percent": 0.0021, "status": "ok"},
+      {"month": "2025-08", "tx_count": 22991, "tx_amount": 1291838.50, "tx_commission": 22633.99, "tx_effective_rate": 1.7521, "recon_count": 22991, "recon_amount": 1291838.50, "recon_commission": 22633.99, "recon_rate": 1.7521, "contract_rate": 1.75, "amount_diff": 0, "deviation_percent": 0.0021, "status": "ok"},
+      {"month": "2025-09", "tx_count": 26044, "tx_amount": 1479995.79, "tx_commission": 25936.73, "tx_effective_rate": 1.7525, "recon_count": 26044, "recon_amount": 1479995.79, "recon_commission": 25936.73, "recon_rate": 1.7525, "contract_rate": 1.75, "amount_diff": 0, "deviation_percent": 0.0025, "status": "ok"},
+      {"month": "2025-10", "tx_count": 30000, "tx_amount": 1841128.90, "tx_commission": 32259.60, "tx_effective_rate": 1.7522, "recon_count": 30000, "recon_amount": 1841128.90, "recon_commission": 32259.60, "recon_rate": 1.7522, "contract_rate": 1.75, "amount_diff": 0, "deviation_percent": 0.0022, "status": "ok"},
+      {"month": "2025-11", "tx_count": 25739, "tx_amount": 1500958.43, "tx_commission": 26305.58, "tx_effective_rate": 1.7526, "recon_count": 25739, "recon_amount": 1500958.43, "recon_commission": 26305.58, "recon_rate": 1.7526, "contract_rate": 1.75, "amount_diff": 0, "deviation_percent": 0.0026, "status": "ok"},
+      {"month": "2025-12", "tx_count": 18622, "tx_amount": 1144359.75, "tx_commission": 20059.48, "tx_effective_rate": 1.7529, "recon_count": 18622, "recon_amount": 1144359.75, "recon_commission": 20059.48, "recon_rate": 1.7529, "contract_rate": 1.75, "amount_diff": 0, "deviation_percent": 0.0029, "status": "ok"}
     ]
   }
 }

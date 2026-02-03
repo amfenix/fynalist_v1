@@ -1,343 +1,155 @@
 {
-  "generated_at": "2026-02-01T10:10:33.495735",
-  "scope": "Reconciliation vs Registry Transactions (Static JSON Data)",
-  "data_source": "Registry and Reconciliation JSON files from SENDS/contracts/",
+  "generated_at": "2026-02-03T21:00:00.000000",
+  "scope": "Reconciliation vs Registry (17 Merchants - Branch 2)",
+  "data_source": "Registry and Reconciliation files from SENDS batch-2",
   "summary": {
-    "total_records": 6685,
-    "with_recon_data": 4039,
-    "missing_recon_data": 2646,
-    "total_deviations": 0,
-    "significant_deviations": 0,
+    "total_records": 2960873,
+    "with_recon_data": 2862415,
+    "missing_recon_data": 98458,
+    "total_deviations": 12,
+    "significant_deviations": 7,
     "rounding_errors": 0
+  },
+  "comparison_v1": {
+    "previous_with_recon": 0,
+    "previous_missing": 0,
+    "previous_deviations": 0,
+    "records_added": 0,
+    "deviations_resolved": 0
   },
   "date_shifts": [],
   "unmatched_transactions": {
-    "total_count": 1776970,
-    "total_percent": 59291.6,
-    "groups": [
-      {
-        "merchant": "Inateus",
-        "currency": "EUR",
-        "point_name": "Inateus EUR",
-        "point_id": 0,
-        "payment_type": "card",
-        "transaction_count": 452990,
-        "total_amount": 22973478.68,
-        "percent_of_unmatched": 25.5,
-        "reason": "Missing reconciliation data for this point",
-        "recommendation": "Add EUR reconciliation data"
-      },
-      {
-        "merchant": "FINTECH AI FUSION LTD",
-        "currency": "EUR",
-        "point_name": "FINTECH AI FUSION LTD EUR",
-        "point_id": 20033,
-        "payment_type": "card",
-        "transaction_count": 182911,
-        "total_amount": 10159523.58,
-        "percent_of_unmatched": 10.3,
-        "reason": "Missing reconciliation data for this point",
-        "recommendation": "Add EUR reconciliation data"
-      },
-      {
-        "merchant": "LIMITEDCO LTD",
-        "currency": "EUR",
-        "point_name": "LIMITEDCO LTD EUR",
-        "point_id": 20012,
-        "payment_type": "card",
-        "transaction_count": 178201,
-        "total_amount": 10339942.87,
-        "percent_of_unmatched": 10.0,
-        "reason": "Missing reconciliation data for this point",
-        "recommendation": "Add EUR reconciliation data"
-      },
-      {
-        "merchant": "UNI COBRAND LTD",
-        "currency": "EUR",
-        "point_name": "UNI COBRAND LTD EUR",
-        "point_id": 20014,
-        "payment_type": "card",
-        "transaction_count": 175033,
-        "total_amount": 10152707.86,
-        "percent_of_unmatched": 9.9,
-        "reason": "Missing reconciliation data for this point",
-        "recommendation": "Add EUR reconciliation data"
-      },
-      {
-        "merchant": "ONLINE GO",
-        "currency": "EUR",
-        "point_name": "ONLINE GO EUR",
-        "point_id": 0,
-        "payment_type": "card",
-        "transaction_count": 160035,
-        "total_amount": 8422650.75,
-        "percent_of_unmatched": 9.0,
-        "reason": "Missing reconciliation data for this point",
-        "recommendation": "Add EUR reconciliation data"
-      },
-      {
-        "merchant": "SellPro",
-        "currency": "EUR",
-        "point_name": "SellPro EUR",
-        "point_id": 0,
-        "payment_type": "card",
-        "transaction_count": 149309,
-        "total_amount": 8137871.68,
-        "percent_of_unmatched": 8.4,
-        "reason": "Missing reconciliation data for this point",
-        "recommendation": "Add EUR reconciliation data"
-      },
-      {
-        "merchant": "PLAYOFF GO",
-        "currency": "EUR",
-        "point_name": "PLAYOFF GO EUR",
-        "point_id": 20009,
-        "payment_type": "card",
-        "transaction_count": 128007,
-        "total_amount": 6875989.16,
-        "percent_of_unmatched": 7.2,
-        "reason": "Missing reconciliation data for this point",
-        "recommendation": "Add EUR reconciliation data"
-      },
-      {
-        "merchant": "QEBOR",
-        "currency": "EUR",
-        "point_name": "QEBOR EUR",
-        "point_id": 0,
-        "payment_type": "card",
-        "transaction_count": 124615,
-        "total_amount": 7270892.11,
-        "percent_of_unmatched": 7.0,
-        "reason": "Missing reconciliation data for this point",
-        "recommendation": "Add EUR reconciliation data"
-      },
-      {
-        "merchant": "DNS_X",
-        "currency": "EUR",
-        "point_name": "DNS_X EUR",
-        "point_id": 0,
-        "payment_type": "card",
-        "transaction_count": 102715,
-        "total_amount": 6086218.05,
-        "percent_of_unmatched": 5.8,
-        "reason": "Missing reconciliation data for this point",
-        "recommendation": "Add EUR reconciliation data"
-      },
-      {
-        "merchant": "Muizagn",
-        "currency": "EUR",
-        "point_name": "Muizagn EUR",
-        "point_id": 0,
-        "payment_type": "card",
-        "transaction_count": 66830,
-        "total_amount": 3286904.28,
-        "percent_of_unmatched": 3.8,
-        "reason": "Missing reconciliation data for this point",
-        "recommendation": "Add EUR reconciliation data"
-      },
-      {
-        "merchant": "SIKCINTIVK SMART+FIN",
-        "currency": "EUR",
-        "point_name": "SIKCINTIVK SMART+FIN EUR",
-        "point_id": 1106,
-        "payment_type": "card",
-        "transaction_count": 45049,
-        "total_amount": 2244255.38,
-        "percent_of_unmatched": 2.5,
-        "reason": "Missing reconciliation data for this point",
-        "recommendation": "Add EUR reconciliation data"
-      },
-      {
-        "merchant": "SIKCINTIVK SMART+FIN",
-        "currency": "EUR",
-        "point_name": "SIKCINTIVK SMART+FIN EUR",
-        "point_id": 20002,
-        "payment_type": "card",
-        "transaction_count": 5807,
-        "total_amount": 350361.58,
-        "percent_of_unmatched": 0.3,
-        "reason": "Missing reconciliation data for this point",
-        "recommendation": "Add EUR reconciliation data"
-      },
-      {
-        "merchant": "SIKCINTIVK SMART+FIN",
-        "currency": "EUR",
-        "point_name": "SIKCINTIVK SMART+FIN EUR",
-        "point_id": 20003,
-        "payment_type": "card",
-        "transaction_count": 5468,
-        "total_amount": 321288.86,
-        "percent_of_unmatched": 0.3,
-        "reason": "Missing reconciliation data for this point",
-        "recommendation": "Add EUR reconciliation data"
-      }
-    ]
+    "total_count": 0,
+    "total_percent": 0,
+    "groups": []
   },
   "missing_reconciliation": [
     {
-      "merchant": "Cybervox",
-      "records": 152,
-      "date_from": "2024-08-02",
-      "date_to": "2024-12-31",
-      "total_amount": 38480144.4,
+      "merchant": "SIKCINTIVK SMART",
+      "records": 98458,
+      "date_from": "2025-01",
+      "date_to": "2025-06",
+      "total_amount": 5202347.5200000005,
       "currency": "EUR",
-      "point_ids": [
-        0
-      ],
-      "reason": "Reconciliation records without registry transactions",
-      "severity": "high"
-    },
-    {
-      "merchant": "DNS_X",
-      "records": 135,
-      "date_from": "2024-12-11",
-      "date_to": "2025-04-24",
-      "total_amount": 6902967.03,
-      "currency": "EUR",
-      "point_ids": [
-        1197
-      ],
-      "reason": "Reconciliation records without registry transactions",
-      "severity": "high"
-    },
-    {
-      "merchant": "FINTECH AI FUSION LTD",
-      "records": 340,
-      "date_from": "2025-05-28",
-      "date_to": "2025-12-31",
-      "total_amount": 10136122.85,
-      "currency": "EUR",
-      "point_ids": [
-        0,
-        1512
-      ],
-      "reason": "Reconciliation records without registry transactions",
-      "severity": "high"
-    },
-    {
-      "merchant": "Inateus",
-      "records": 339,
-      "date_from": "2024-11-26",
-      "date_to": "2025-10-30",
-      "total_amount": 28933542.42,
-      "currency": "EUR",
-      "point_ids": [
-        1164
-      ],
-      "reason": "Reconciliation records without registry transactions",
-      "severity": "high"
-    },
-    {
-      "merchant": "LIMITEDCO LTD",
-      "records": 218,
-      "date_from": "2025-05-28",
-      "date_to": "2025-12-31",
-      "total_amount": 10303097.19,
-      "currency": "EUR",
-      "point_ids": [
-        1442
-      ],
-      "reason": "Reconciliation records without registry transactions",
-      "severity": "high"
-    },
-    {
-      "merchant": "Muizagn",
-      "records": 205,
-      "date_from": "2024-08-29",
-      "date_to": "2025-03-26",
-      "total_amount": 9604428.31,
-      "currency": "EUR",
-      "point_ids": [
-        1098
-      ],
-      "reason": "Reconciliation records without registry transactions",
-      "severity": "high"
-    },
-    {
-      "merchant": "ONLINE GO",
-      "records": 239,
-      "date_from": "2025-01-30",
-      "date_to": "2025-09-25",
-      "total_amount": 8422275.75,
-      "currency": "EUR",
-      "point_ids": [
-        1248
-      ],
-      "reason": "Reconciliation records without registry transactions",
-      "severity": "high"
-    },
-    {
-      "merchant": "PLAYOFF GO",
-      "records": 201,
-      "date_from": "2025-03-04",
-      "date_to": "2025-10-21",
-      "total_amount": 9335434.1,
-      "currency": "EUR",
-      "point_ids": [
-        1317
-      ],
-      "reason": "Reconciliation records without registry transactions",
-      "severity": "high"
-    },
-    {
-      "merchant": "QEBOR",
-      "records": 144,
-      "date_from": "2025-03-11",
-      "date_to": "2025-10-30",
-      "total_amount": 7269883.11,
-      "currency": "EUR",
-      "point_ids": [
-        1220
-      ],
-      "reason": "Reconciliation records without registry transactions",
-      "severity": "high"
-    },
-    {
-      "merchant": "SellPro",
-      "records": 177,
-      "date_from": "2025-03-11",
-      "date_to": "2025-09-03",
-      "total_amount": 8137295.03,
-      "currency": "EUR",
-      "point_ids": [
-        1351
-      ],
-      "reason": "Reconciliation records without registry transactions",
-      "severity": "high"
-    },
-    {
-      "merchant": "SIKCINTIVK SMART+FIN",
-      "records": 278,
-      "date_from": "2024-06-14",
-      "date_to": "2025-07-19",
-      "total_amount": 41640037.48,
-      "currency": "EUR",
-      "point_ids": [
-        0,
-        1105
-      ],
-      "reason": "Reconciliation records without registry transactions",
-      "severity": "high"
-    },
-    {
-      "merchant": "UNI COBRAND LTD",
-      "records": 218,
-      "date_from": "2025-05-28",
-      "date_to": "2025-12-31",
-      "total_amount": 10128372.79,
-      "currency": "EUR",
-      "point_ids": [
-        1462
-      ],
-      "reason": "Reconciliation records without registry transactions",
+      "point_ids": [],
+      "reason": "Missing reconciliation data for months: 2025-01, 2025-02, 2025-03, 2025-04, 2025-05, 2025-06",
       "severity": "high"
     }
   ],
-  "rounding_errors": [],
+  "rounding_errors": [
+    {
+      "merchant": "Cybervox",
+      "point_id": 0,
+      "date": "2025-01",
+      "currency": "EUR",
+      "actual": 5356402.61,
+      "expected": 5356643.67,
+      "deviation": -241.06
+    },
+    {
+      "merchant": "Cybervox",
+      "point_id": 0,
+      "date": "2025-02",
+      "currency": "EUR",
+      "actual": 7209488.27,
+      "expected": 7210424.64,
+      "deviation": -936.37
+    },
+    {
+      "merchant": "Cybervox",
+      "point_id": 0,
+      "date": "2025-03",
+      "currency": "EUR",
+      "actual": 4876422.68,
+      "expected": 4876527.33,
+      "deviation": -104.65
+    },
+    {
+      "merchant": "Cybervox",
+      "point_id": 0,
+      "date": "2025-04",
+      "currency": "EUR",
+      "actual": 783585.63,
+      "expected": 783725.63,
+      "deviation": -140.0
+    },
+    {
+      "merchant": "Inateus",
+      "point_id": 0,
+      "date": "2025-03",
+      "currency": "EUR",
+      "actual": 2480349.59,
+      "expected": 2480372.8,
+      "deviation": -23.21
+    },
+    {
+      "merchant": "Inateus",
+      "point_id": 0,
+      "date": "2025-04",
+      "currency": "EUR",
+      "actual": 955092.47,
+      "expected": 955192.47,
+      "deviation": -100.0
+    },
+    {
+      "merchant": "Inateus",
+      "point_id": 0,
+      "date": "2025-10",
+      "currency": "EUR",
+      "actual": 1763551.22,
+      "expected": 1763649.22,
+      "deviation": -98.0
+    },
+    {
+      "merchant": "PLAYOFF GO",
+      "point_id": 0,
+      "date": "2025-08",
+      "currency": "EUR",
+      "actual": 1290107.65,
+      "expected": 1290138.82,
+      "deviation": -31.17
+    },
+    {
+      "merchant": "PLAYOFF GO",
+      "point_id": 0,
+      "date": "2025-10",
+      "currency": "EUR",
+      "actual": 1207722.47,
+      "expected": 1208202.47,
+      "deviation": -480.0
+    },
+    {
+      "merchant": "QEBOR",
+      "point_id": 0,
+      "date": "2025-07",
+      "currency": "EUR",
+      "actual": 1228820.06,
+      "expected": 1229002.56,
+      "deviation": -182.5
+    },
+    {
+      "merchant": "TECHFIN SIGMA SOLUTION",
+      "point_id": 0,
+      "date": "2025-09",
+      "currency": "EUR",
+      "actual": 1481719.2,
+      "expected": 1481814.2,
+      "deviation": -95.0
+    },
+    {
+      "merchant": "TECHFIN SIGMA SOLUTION",
+      "point_id": 0,
+      "date": "2025-10",
+      "currency": "EUR",
+      "actual": 1847705.07,
+      "expected": 1848155.07,
+      "deviation": -450.0
+    }
+  ],
   "small_discrepancies": [],
   "resolved_issues": {
-    "description": "Issues resolved from previous report",
+    "description": "Reconciliation analysis for Branch 2 SENDS merchants",
     "count": 0,
-    "details": "No previous report to compare."
+    "details": "Initial analysis comparing registry amounts with reconciliation data."
   }
 }

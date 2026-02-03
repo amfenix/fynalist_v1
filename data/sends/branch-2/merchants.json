@@ -6,7 +6,7 @@
     "merchant_group": "SENDS",
     "transaction_count": 48358,
     "total_amount_eur": 2830397.62,
-    "total_commission_eur": 138148.28,
+    "total_commission_eur": 49612.29,
     "active_months": "2025-10 to 2025-12",
     "status": "ok"
   },
@@ -15,9 +15,9 @@
     "merchant_name": "Cybervox",
     "company_name": "CYBERVOX LTD",
     "merchant_group": "SENDS",
-    "transaction_count": 360609,
+    "transaction_count": 360571,
     "total_amount_eur": 18225899.19,
-    "total_commission_eur": 911294.96,
+    "total_commission_eur": 499568.94,
     "active_months": "2025-01 to 2025-04",
     "status": "ok"
   },
@@ -39,8 +39,8 @@
     "merchant_group": "SENDS",
     "transaction_count": 212609,
     "total_amount_eur": 11941971.77,
-    "total_commission_eur": 597098.59,
-    "active_months": "2025-01 to 2025-04",
+    "total_commission_eur": 209259.96,
+    "active_months": "2025-04 to 2025-12",
     "status": "ok"
   },
   {
@@ -48,10 +48,10 @@
     "merchant_name": "Inateus",
     "company_name": "INATEUS LTD",
     "merchant_group": "SENDS",
-    "transaction_count": 452990,
+    "transaction_count": 452986,
     "total_amount_eur": 22973036.26,
-    "total_commission_eur": 1148651.81,
-    "active_months": "2025-01 to 2025-04",
+    "total_commission_eur": 770934.05,
+    "active_months": "2025-01 to 2025-10",
     "status": "ok"
   },
   {
@@ -61,8 +61,8 @@
     "merchant_group": "SENDS",
     "transaction_count": 224562,
     "total_amount_eur": 12735544.13,
-    "total_commission_eur": 636777.21,
-    "active_months": "2025-01 to 2025-04",
+    "total_commission_eur": 223245.11,
+    "active_months": "2025-04 to 2025-12",
     "status": "ok"
   },
   {
@@ -70,9 +70,9 @@
     "merchant_name": "Muizagn",
     "company_name": "MUIZAGN LTD",
     "merchant_group": "SENDS",
-    "transaction_count": 66830,
-    "total_amount_eur": 3285441.02,
-    "total_commission_eur": 164272.05,
+    "transaction_count": 66810,
+    "total_amount_eur": 3286172.65,
+    "total_commission_eur": 96746.26,
     "active_months": "2025-01 to 2025-03",
     "status": "ok"
   },
@@ -81,9 +81,9 @@
     "merchant_name": "ONLINE GO",
     "company_name": "ONLINE GO LTD",
     "merchant_group": "SENDS",
-    "transaction_count": 160035,
-    "total_amount_eur": 8421900.75,
-    "total_commission_eur": 421160.12,
+    "transaction_count": 160032,
+    "total_amount_eur": 8422275.75,
+    "total_commission_eur": 239991.60,
     "active_months": "2025-01 to 2025-09",
     "status": "ok"
   },
@@ -94,7 +94,7 @@
     "merchant_group": "SENDS",
     "transaction_count": 48010,
     "total_amount_eur": 2832800.14,
-    "total_commission_eur": 138261.05,
+    "total_commission_eur": 49652.44,
     "active_months": "2025-10 to 2025-12",
     "status": "ok"
   },
@@ -103,10 +103,10 @@
     "merchant_name": "PLAYOFF GO",
     "company_name": "PLAYOFF GO LTD",
     "merchant_group": "SENDS",
-    "transaction_count": 177157,
-    "total_amount_eur": 9335945.27,
-    "total_commission_eur": 466797.26,
-    "active_months": "2025-01 to 2025-04",
+    "transaction_count": 177146,
+    "total_amount_eur": 9335434.10,
+    "total_commission_eur": 164871.78,
+    "active_months": "2025-03 to 2025-10",
     "status": "ok"
   },
   {
@@ -114,10 +114,10 @@
     "merchant_name": "QEBOR",
     "company_name": "QEBOR LTD",
     "merchant_group": "SENDS",
-    "transaction_count": 124615,
-    "total_amount_eur": 7268874.11,
-    "total_commission_eur": 363443.71,
-    "active_months": "2025-01 to 2025-04",
+    "transaction_count": 124603,
+    "total_amount_eur": 7269700.61,
+    "total_commission_eur": 127274.45,
+    "active_months": "2025-03 to 2025-10",
     "status": "ok"
   },
   {
@@ -125,10 +125,10 @@
     "merchant_name": "SellPro",
     "company_name": "SELLPRO LTD",
     "merchant_group": "SENDS",
-    "transaction_count": 149309,
-    "total_amount_eur": 8136718.38,
-    "total_commission_eur": 406835.92,
-    "active_months": "2025-01 to 2025-04",
+    "transaction_count": 149306,
+    "total_amount_eur": 8137295.03,
+    "total_commission_eur": 276203.63,
+    "active_months": "2025-03 to 2025-09",
     "status": "ok"
   },
   {
@@ -136,9 +136,9 @@
     "merchant_name": "SHOP ONLINE AI",
     "company_name": "SHOP ONLINE AI LTD",
     "merchant_group": "SENDS",
-    "transaction_count": 176895,
-    "total_amount_eur": 9874130.80,
-    "total_commission_eur": 487744.28,
+    "transaction_count": 176892,
+    "total_amount_eur": 9874069.53,
+    "total_commission_eur": 487729.28,
     "active_months": "2025-06 to 2025-12",
     "status": "ok"
   },
@@ -147,10 +147,10 @@
     "merchant_name": "SIKCINTIVK SMART+FIN",
     "company_name": "SIKCINTIVK LTD",
     "merchant_group": "SENDS",
-    "transaction_count": 200788,
-    "total_amount_eur": 10360920.06,
-    "total_commission_eur": 518046.00,
-    "active_months": "2025-01 to 2025-04",
+    "transaction_count": 200779,
+    "total_amount_eur": 10361106.16,
+    "total_commission_eur": 181545.56,
+    "active_months": "2025-01 to 2025-07",
     "status": "ok"
   },
   {
@@ -158,9 +158,9 @@
     "merchant_name": "TECHFIN SIGMA SOLUTION LTD",
     "company_name": "TECHFIN SIGMA SOLUTION LTD",
     "merchant_group": "SENDS",
-    "transaction_count": 200699,
-    "total_amount_eur": 10932867.40,
-    "total_commission_eur": 540703.56,
+    "transaction_count": 200661,
+    "total_amount_eur": 10931777.40,
+    "total_commission_eur": 400739.26,
     "active_months": "2025-05 to 2025-12",
     "status": "ok"
   },
@@ -169,10 +169,10 @@
     "merchant_name": "UNI COBRAND LTD",
     "company_name": "UNI COBRAND LTD",
     "merchant_group": "SENDS",
-    "transaction_count": 209526,
-    "total_amount_eur": 12001529.63,
-    "total_commission_eur": 600076.48,
-    "active_months": "2025-01 to 2025-04",
+    "transaction_count": 209525,
+    "total_amount_eur": 12001429.63,
+    "total_commission_eur": 210292.84,
+    "active_months": "2025-04 to 2025-12",
     "status": "ok"
   },
   {
@@ -180,9 +180,9 @@
     "merchant_name": "XYZ AI LIMITED",
     "company_name": "XYZ AI LIMITED",
     "merchant_group": "SENDS",
-    "transaction_count": 148028,
-    "total_amount_eur": 8468600.73,
-    "total_commission_eur": 417444.04,
+    "transaction_count": 148023,
+    "total_amount_eur": 8468370.32,
+    "total_commission_eur": 148408.61,
     "active_months": "2025-07 to 2025-12",
     "status": "ok"
   }

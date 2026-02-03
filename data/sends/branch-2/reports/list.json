@@ -8,8 +8,8 @@
       "href": "/reports/merchants-overview",
       "dataEndpoint": "/api/reports/merchants-overview",
       "available": true,
-      "generated_at": "2026-02-01T05:16:00.000000",
-      "data_source": "Static JSON from SENDS/contracts/"
+      "generated_at": "2026-02-03T21:30:00.000000",
+      "data_source": "Static JSON from SENDS batch-2"
     },
     {
       "id": "commission-compliance",
@@ -19,8 +19,8 @@
       "href": "/reports/commission-mismatch",
       "dataEndpoint": "/api/reports/underpayment-v2",
       "available": true,
-      "generated_at": "2026-02-01T05:15:00.000000",
-      "data_source": "Static JSON from SENDS/contracts/"
+      "generated_at": "2026-02-03T17:00:00.000000",
+      "data_source": "Static JSON from SENDS batch-2"
     },
     {
       "id": "reconciliation-deviation",
@@ -30,8 +30,8 @@
       "href": "/reports/reconciliation-deviation",
       "dataEndpoint": "/api/reports/reconciliation-deviation",
       "available": true,
-      "generated_at": "2026-02-01T05:16:00.000000",
-      "data_source": "Static JSON from SENDS/contracts/"
+      "generated_at": "2026-02-03T21:00:00.000000",
+      "data_source": "Static JSON from SENDS batch-2"
     }
   ]
 }

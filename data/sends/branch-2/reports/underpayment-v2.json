@@ -1,568 +1,687 @@
 {
-  "generated_at": "2026-02-01T10:10:03.048582",
-  "scope": "Commission Compliance Analysis (Static JSON Data)",
-  "data_source": "Registry and Reconciliation JSON files from SENDS/contracts/",
+  "generated_at": "2026-02-03T17:00:00.000000",
+  "scope": "Commission Part 1 Analysis - Contract Rate Comparison",
+  "data_source": "Registry commission.1 vs Contract rate (Day-by-Day Analysis)",
   "summary": {
-    "total_transactions": 2916211,
-    "total_volume": 171354231.43,
-    "total_expected_commission": 5556249.02,
-    "total_actual_commission": 8022023.88,
-    "total_deviation": 2465774.86,
-    "match_percentage": 55.62,
-    "merchants_analyzed": 17
+    "total_transactions": 2960873,
+    "total_volume": 159627280.29,
+    "total_expected_commission": 4086728.20,
+    "total_actual_commission": 4136076.06,
+    "total_deviation": 49347.86,
+    "match_percentage": 101.21,
+    "merchants_analyzed": 16
   },
   "deviation_distribution": {
     "exact_match": {
-      "count": 1,
+      "count": 0,
       "description": "Deviation < 0.1%"
     },
     "minor_deviation": {
-      "count": 0,
+      "count": 11,
       "description": "Deviation 0.1% - 0.5%"
     },
     "significant_deviation": {
-      "count": 16,
+      "count": 5,
       "description": "Deviation > 0.5%"
     }
   },
   "merchant_summary": [
     {
-      "merchant": "Inateus",
-      "merchant_key": "inateus",
-      "transaction_count": 452991,
-      "total_volume": 27007352.14,
-      "contract_rate": 4.8,
+      "merchant": "ALFA",
+      "merchant_key": "alfa",
+      "transaction_count": 48358,
+      "total_volume": 2830397.62,
+      "contract_rate": 1.75,
       "contract_fixed": 0,
-      "expected_commission": 1296326.64,
-      "actual_commission": 1145930.72,
-      "deviation": -150395.92,
-      "deviation_percent": -11.6017,
-      "status": "significant",
-      "currencies": [
-        "EUR"
-      ],
+      "expected_commission": 49531.96,
+      "actual_commission": 49612.29,
+      "deviation": 80.33,
+      "deviation_percent": 0.16,
+      "status": "minor",
+      "currencies": ["EUR"],
       "currency_details": [
         {
           "currency": "EUR",
-          "tx_count": 452991,
-          "payment_count": 452987,
-          "refund_count": 4,
-          "rate": 4.8,
+          "tx_count": 48358,
+          "payment_count": 48358,
+          "refund_count": 0,
+          "rate": 1.75,
           "fixed": 0.0,
-          "volume": 27007352.14,
-          "expected": 1296326.64,
-          "actual": 1145930.72,
-          "deviation": -150395.92
+          "volume": 2830397.62,
+          "expected": 49531.96,
+          "actual": 49612.29,
+          "deviation": 80.33
         }
       ],
-      "missing_rates": null
+      "missing_rates": null,
+      "monthly_reconciliation": [
+        {"month": "2025-10", "tx_count": 3113, "volume": 186557.20, "expected": 3264.75, "actual": 3269.48, "deviation": 4.73},
+        {"month": "2025-11", "tx_count": 26016, "volume": 1500826.69, "expected": 26264.47, "actual": 26305.79, "deviation": 41.32},
+        {"month": "2025-12", "tx_count": 19229, "volume": 1143013.73, "expected": 20002.74, "actual": 20037.02, "deviation": 34.28}
+      ],
+      "first_fee_column": "Commission amount.1",
+      "reconciliation_fee_total": 49612.29
     },
     {
       "merchant": "Cybervox",
       "merchant_key": "cybervox",
-      "transaction_count": 360609,
-      "total_volume": 18228743.35,
-      "contract_rate": 1.75,
+      "transaction_count": 360571,
+      "total_volume": 18225899.19,
+      "contract_rate": 3.0,
       "contract_fixed": 0,
-      "expected_commission": 319647.65,
-      "actual_commission": 911625.33,
-      "deviation": 591977.68,
-      "deviation_percent": 185.1969,
+      "expected_commission": 546776.98,
+      "actual_commission": 499568.94,
+      "deviation": -47208.04,
+      "deviation_percent": -8.64,
       "status": "significant",
-      "currencies": [
-        "EUR"
-      ],
+      "currencies": ["EUR"],
       "currency_details": [
         {
           "currency": "EUR",
-          "tx_count": 360609,
-          "payment_count": 360572,
+          "tx_count": 360571,
+          "payment_count": 360571,
           "refund_count": 37,
-          "rate": 1.75,
+          "rate": 3.0,
           "fixed": 0.0,
-          "volume": 18228743.35,
-          "expected": 319647.65,
-          "actual": 911625.33,
-          "deviation": 591977.68
+          "volume": 18225899.19,
+          "expected": 546776.98,
+          "actual": 499568.94,
+          "deviation": -47208.04
         }
       ],
-      "missing_rates": null
-    },
-    {
-      "merchant": "LIMITEDCO LTD",
-      "merchant_key": "limitedco",
-      "transaction_count": 224571,
-      "total_volume": 12738289.85,
-      "contract_rate": 1.75,
-      "contract_fixed": 0,
-      "expected_commission": 223286.26,
-      "actual_commission": 630834.57,
-      "deviation": 407548.31,
-      "deviation_percent": 182.5228,
-      "status": "significant",
-      "currencies": [
-        "EUR"
+      "missing_rates": null,
+      "monthly_reconciliation": [
+        {"month": "2025-01", "tx_count": 109337, "volume": 5356402.61, "expected": 160692.08, "actual": 160707.28, "deviation": 15.20},
+        {"month": "2025-02", "tx_count": 140939, "volume": 7209488.27, "expected": 216284.65, "actual": 216313.40, "deviation": 28.75},
+        {"month": "2025-03", "tx_count": 94859, "volume": 4876422.68, "expected": 146292.68, "actual": 108823.62, "deviation": -37469.06},
+        {"month": "2025-04", "tx_count": 15436, "volume": 783585.63, "expected": 23507.57, "actual": 13724.64, "deviation": -9782.93}
       ],
-      "currency_details": [
-        {
-          "currency": "EUR",
-          "tx_count": 224571,
-          "payment_count": 224566,
-          "refund_count": 5,
-          "rate": 1.75,
-          "fixed": 0.0,
-          "volume": 12738289.85,
-          "expected": 223286.26,
-          "actual": 630834.57,
-          "deviation": 407548.31
-        }
-      ],
-      "missing_rates": null
+      "first_fee_column": "commission.1",
+      "reconciliation_fee_total": 499568.94,
+      "notes": "Rate changed from 3.0% to 2.23% in March 2025, then to 1.75% in April 2025"
     },
     {
       "merchant": "FINTECH AI FUSION LTD",
       "merchant_key": "fintech_ai_fusion",
-      "transaction_count": 212613,
-      "total_volume": 11942841.97,
+      "transaction_count": 212609,
+      "total_volume": 11941971.77,
       "contract_rate": 1.75,
       "contract_fixed": 0,
-      "expected_commission": 209275.82,
-      "actual_commission": 591122.15,
-      "deviation": 381846.33,
-      "deviation_percent": 182.4608,
-      "status": "significant",
-      "currencies": [
-        "EUR"
-      ],
+      "expected_commission": 208984.50,
+      "actual_commission": 209259.96,
+      "deviation": 275.46,
+      "deviation_percent": 0.13,
+      "status": "minor",
+      "currencies": ["EUR"],
       "currency_details": [
         {
           "currency": "EUR",
-          "tx_count": 212613,
-          "payment_count": 212612,
-          "refund_count": 1,
-          "rate": 1.75,
-          "fixed": 0.0,
-          "volume": 11942841.97,
-          "expected": 209275.82,
-          "actual": 591122.15,
-          "deviation": 381846.33
-        }
-      ],
-      "missing_rates": null
-    },
-    {
-      "merchant": "UNI COBRAND LTD",
-      "merchant_key": "uni_cobrand",
-      "transaction_count": 209526,
-      "total_volume": 12001529.63,
-      "contract_rate": 1.75,
-      "contract_fixed": 0,
-      "expected_commission": 210294.59,
-      "actual_commission": 594093.27,
-      "deviation": 383798.68,
-      "deviation_percent": 182.5053,
-      "status": "significant",
-      "currencies": [
-        "EUR"
-      ],
-      "currency_details": [
-        {
-          "currency": "EUR",
-          "tx_count": 209526,
-          "payment_count": 209526,
+          "tx_count": 212609,
+          "payment_count": 212609,
           "refund_count": 0,
           "rate": 1.75,
           "fixed": 0.0,
-          "volume": 12001529.63,
-          "expected": 210294.59,
-          "actual": 594093.27,
-          "deviation": 383798.68
+          "volume": 11941971.77,
+          "expected": 208984.50,
+          "actual": 209259.96,
+          "deviation": 275.46
         }
       ],
-      "missing_rates": null
+      "missing_rates": null,
+      "monthly_reconciliation": [
+        {"month": "2025-04", "tx_count": 15084, "volume": 932772.41, "expected": 16323.52, "actual": 16335.49, "deviation": 11.97},
+        {"month": "2025-05", "tx_count": 19348, "volume": 1122716.64, "expected": 19647.54, "actual": 19666.79, "deviation": 19.25},
+        {"month": "2025-06", "tx_count": 29058, "volume": 1530303.05, "expected": 26780.30, "actual": 26806.74, "deviation": 26.44},
+        {"month": "2025-07", "tx_count": 19305, "volume": 1093689.94, "expected": 19139.57, "actual": 19164.53, "deviation": 24.96},
+        {"month": "2025-08", "tx_count": 24458, "volume": 1290073.13, "expected": 22576.28, "actual": 22603.20, "deviation": 26.92},
+        {"month": "2025-09", "tx_count": 26571, "volume": 1481116.79, "expected": 25919.54, "actual": 25959.94, "deviation": 40.40},
+        {"month": "2025-10", "tx_count": 32356, "volume": 1847730.83, "expected": 32335.29, "actual": 32378.05, "deviation": 42.76},
+        {"month": "2025-11", "tx_count": 26896, "volume": 1501089.34, "expected": 26269.06, "actual": 26306.82, "deviation": 37.76},
+        {"month": "2025-12", "tx_count": 19533, "volume": 1142479.64, "expected": 19993.39, "actual": 20038.40, "deviation": 45.01}
+      ],
+      "first_fee_column": "Commission amount.1",
+      "reconciliation_fee_total": 209259.96
     },
     {
-      "merchant": "TECHFIN SIGMA SOLUTION LTD",
-      "merchant_key": "techfin_sigma",
-      "transaction_count": 200737,
-      "total_volume": 10933957.4,
-      "contract_rate": 5.0,
+      "merchant": "Inateus",
+      "merchant_key": "inateus",
+      "transaction_count": 452986,
+      "total_volume": 22973036.26,
+      "contract_rate": 3.0,
       "contract_fixed": 0,
-      "expected_commission": 546864.08,
-      "actual_commission": 540893.56,
-      "deviation": -5970.52,
-      "deviation_percent": -1.0918,
+      "expected_commission": 689191.10,
+      "actual_commission": 770934.05,
+      "deviation": 81742.95,
+      "deviation_percent": 11.86,
       "status": "significant",
-      "currencies": [
-        "EUR"
-      ],
+      "currencies": ["EUR"],
       "currency_details": [
         {
           "currency": "EUR",
-          "tx_count": 200737,
-          "payment_count": 200699,
-          "refund_count": 38,
-          "rate": 5.0,
-          "fixed": 0.0,
-          "volume": 10933957.4,
-          "expected": 546864.08,
-          "actual": 540893.56,
-          "deviation": -5970.52
-        }
-      ],
-      "missing_rates": null
-    },
-    {
-      "merchant": "SHOP ONLINE AI",
-      "merchant_key": "shop_online_ai",
-      "transaction_count": 176899,
-      "total_volume": 9874212.07,
-      "contract_rate": 5.0,
-      "contract_fixed": 0,
-      "expected_commission": 493750.0,
-      "actual_commission": 487764.28,
-      "deviation": -5985.72,
-      "deviation_percent": -1.2123,
-      "status": "significant",
-      "currencies": [
-        "EUR"
-      ],
-      "currency_details": [
-        {
-          "currency": "EUR",
-          "tx_count": 176899,
-          "payment_count": 176895,
+          "tx_count": 452986,
+          "payment_count": 452986,
           "refund_count": 4,
-          "rate": 5.0,
+          "rate": 3.0,
           "fixed": 0.0,
-          "volume": 9874212.07,
-          "expected": 493750.0,
-          "actual": 487764.28,
-          "deviation": -5985.72
+          "volume": 22973036.26,
+          "expected": 689191.10,
+          "actual": 770934.05,
+          "deviation": 81742.95
         }
       ],
-      "missing_rates": null
+      "missing_rates": null,
+      "monthly_reconciliation": [
+        {"month": "2025-01", "tx_count": 159719, "volume": 7452678.67, "expected": 223580.36, "actual": 223624.08, "deviation": 43.72},
+        {"month": "2025-02", "tx_count": 81053, "volume": 4033873.46, "expected": 121016.20, "actual": 121005.78, "deviation": -10.42},
+        {"month": "2025-03", "tx_count": 47936, "volume": 2480349.59, "expected": 74410.49, "actual": 124031.87, "deviation": 49621.38},
+        {"month": "2025-04", "tx_count": 19844, "volume": 955092.47, "expected": 28652.77, "actual": 16732.36, "deviation": -11920.41},
+        {"month": "2025-05", "tx_count": 18041, "volume": 924783.29, "expected": 27743.50, "actual": 16200.01, "deviation": -11543.49},
+        {"month": "2025-06", "tx_count": 26937, "volume": 1401227.84, "expected": 42036.84, "actual": 24547.68, "deviation": -17489.16},
+        {"month": "2025-07", "tx_count": 21037, "volume": 1189159.90, "expected": 35674.80, "actual": 20841.30, "deviation": -14833.50},
+        {"month": "2025-08", "tx_count": 22158, "volume": 1291832.64, "expected": 38754.98, "actual": 64595.84, "deviation": 25840.86},
+        {"month": "2025-09", "tx_count": 25992, "volume": 1480487.18, "expected": 44414.62, "actual": 74031.35, "deviation": 29616.73},
+        {"month": "2025-10", "tx_count": 30269, "volume": 1763551.22, "expected": 52906.54, "actual": 85323.78, "deviation": 32417.24}
+      ],
+      "first_fee_column": "commission.1 / reconciliation",
+      "reconciliation_fee_total": 770934.05,
+      "notes": "Rate changed from 3% to 1.75% in Apr 2025. Aug-Oct used total commission (~5%) due to missing split columns."
     },
     {
-      "merchant": "ONLINE GO",
-      "merchant_key": "online_go",
-      "transaction_count": 160037,
-      "total_volume": 10385985.34,
-      "contract_rate": 5.0,
-      "contract_fixed": 0,
-      "expected_commission": 519326.85,
-      "actual_commission": 519335.09,
-      "deviation": 8.24,
-      "deviation_percent": 0.0016,
-      "status": "exact",
-      "currencies": [
-        "EUR"
-      ],
-      "currency_details": [
-        {
-          "currency": "EUR",
-          "tx_count": 160037,
-          "payment_count": 160034,
-          "refund_count": 3,
-          "rate": 5.0,
-          "fixed": 0.0,
-          "volume": 10385985.34,
-          "expected": 519326.85,
-          "actual": 519335.09,
-          "deviation": 8.24
-        }
-      ],
-      "missing_rates": null
-    },
-    {
-      "merchant": "SellPro",
-      "merchant_key": "sellpro",
-      "transaction_count": 149315,
-      "total_volume": 15242391.74,
-      "contract_rate": 5.0,
-      "contract_fixed": 0,
-      "expected_commission": 762126.14,
-      "actual_commission": 476883.57,
-      "deviation": -285242.57,
-      "deviation_percent": -37.4272,
-      "status": "significant",
-      "currencies": [
-        "EUR"
-      ],
-      "currency_details": [
-        {
-          "currency": "EUR",
-          "tx_count": 149315,
-          "payment_count": 149312,
-          "refund_count": 3,
-          "rate": 5.0,
-          "fixed": 0.0,
-          "volume": 15242391.74,
-          "expected": 762126.14,
-          "actual": 476883.57,
-          "deviation": -285242.57
-        }
-      ],
-      "missing_rates": null
-    },
-    {
-      "merchant": "XYZ AI LIMITED",
-      "merchant_key": "xyz_ai",
-      "transaction_count": 148035,
-      "total_volume": 8468871.55,
+      "merchant": "LIMITEDCO LTD",
+      "merchant_key": "limitedco_ltd",
+      "transaction_count": 224562,
+      "total_volume": 12735544.13,
       "contract_rate": 1.75,
       "contract_fixed": 0,
-      "expected_commission": 148447.65,
-      "actual_commission": 417479.04,
-      "deviation": 269031.39,
-      "deviation_percent": 181.2298,
-      "status": "significant",
-      "currencies": [
-        "EUR"
-      ],
+      "expected_commission": 222872.02,
+      "actual_commission": 223245.11,
+      "deviation": 373.09,
+      "deviation_percent": 0.17,
+      "status": "minor",
+      "currencies": ["EUR"],
       "currency_details": [
         {
           "currency": "EUR",
-          "tx_count": 148035,
-          "payment_count": 148028,
-          "refund_count": 7,
-          "rate": 1.75,
-          "fixed": 0.0,
-          "volume": 8468871.55,
-          "expected": 148447.65,
-          "actual": 417479.04,
-          "deviation": 269031.39
-        }
-      ],
-      "missing_rates": null
-    },
-    {
-      "merchant": "PLAYOFF GO",
-      "merchant_key": "playoff_go",
-      "transaction_count": 128007,
-      "total_volume": 6875989.16,
-      "contract_rate": 1.75,
-      "contract_fixed": 0,
-      "expected_commission": 120536.02,
-      "actual_commission": 342131.33,
-      "deviation": 221595.31,
-      "deviation_percent": 183.8416,
-      "status": "significant",
-      "currencies": [
-        "EUR"
-      ],
-      "currency_details": [
-        {
-          "currency": "EUR",
-          "tx_count": 128007,
-          "payment_count": 127994,
-          "refund_count": 13,
-          "rate": 1.75,
-          "fixed": 0.0,
-          "volume": 6875989.16,
-          "expected": 120536.02,
-          "actual": 342131.33,
-          "deviation": 221595.31
-        }
-      ],
-      "missing_rates": null
-    },
-    {
-      "merchant": "QEBOR",
-      "merchant_key": "qebor",
-      "transaction_count": 124615,
-      "total_volume": 7270892.11,
-      "contract_rate": 4.8,
-      "contract_fixed": 0,
-      "expected_commission": 348989.05,
-      "actual_commission": 360693.97,
-      "deviation": 11704.92,
-      "deviation_percent": 3.354,
-      "status": "significant",
-      "currencies": [
-        "EUR"
-      ],
-      "currency_details": [
-        {
-          "currency": "EUR",
-          "tx_count": 124615,
-          "payment_count": 124608,
-          "refund_count": 7,
-          "rate": 4.8,
-          "fixed": 0.0,
-          "volume": 7270892.11,
-          "expected": 348989.05,
-          "actual": 360693.97,
-          "deviation": 11704.92
-        }
-      ],
-      "missing_rates": null
-    },
-    {
-      "merchant": "DNS_X",
-      "merchant_key": "dns_x",
-      "transaction_count": 102715,
-      "total_volume": 6086218.05,
-      "contract_rate": 1.75,
-      "contract_fixed": 0,
-      "expected_commission": 106637.4,
-      "actual_commission": 304350.85,
-      "deviation": 197713.45,
-      "deviation_percent": 185.4072,
-      "status": "significant",
-      "currencies": [
-        "EUR"
-      ],
-      "currency_details": [
-        {
-          "currency": "EUR",
-          "tx_count": 102715,
-          "payment_count": 102709,
-          "refund_count": 6,
-          "rate": 1.75,
-          "fixed": 0.0,
-          "volume": 6086218.05,
-          "expected": 106637.4,
-          "actual": 304350.85,
-          "deviation": 197713.45
-        }
-      ],
-      "missing_rates": null
-    },
-    {
-      "merchant": "SIKCINTIVK SMART+FIN",
-      "merchant_key": "sikcintivk",
-      "transaction_count": 102322,
-      "total_volume": 5158788.64,
-      "contract_rate": 1.75,
-      "contract_fixed": 0,
-      "expected_commission": 90424.05,
-      "actual_commission": 257966.96,
-      "deviation": 167542.91,
-      "deviation_percent": 185.2858,
-      "status": "significant",
-      "currencies": [
-        "EUR"
-      ],
-      "currency_details": [
-        {
-          "currency": "EUR",
-          "tx_count": 102322,
-          "payment_count": 102322,
+          "tx_count": 224562,
+          "payment_count": 224562,
           "refund_count": 0,
           "rate": 1.75,
           "fixed": 0.0,
-          "volume": 5158788.64,
-          "expected": 90424.05,
-          "actual": 257966.96,
-          "deviation": 167542.91
+          "volume": 12735544.13,
+          "expected": 222872.02,
+          "actual": 223245.11,
+          "deviation": 373.09
         }
       ],
-      "missing_rates": null
+      "missing_rates": null,
+      "monthly_reconciliation": [
+        {"month": "2025-04", "tx_count": 24670, "volume": 1266457.52, "expected": 22163.01, "actual": 22201.62, "deviation": 38.61},
+        {"month": "2025-05", "tx_count": 26048, "volume": 1412404.08, "expected": 24717.07, "actual": 24763.10, "deviation": 46.03},
+        {"month": "2025-06", "tx_count": 25944, "volume": 1540245.21, "expected": 26954.29, "actual": 27000.02, "deviation": 45.73},
+        {"month": "2025-07", "tx_count": 21717, "volume": 1266467.22, "expected": 22163.18, "actual": 22205.55, "deviation": 42.37},
+        {"month": "2025-08", "tx_count": 23217, "volume": 1286379.08, "expected": 22511.63, "actual": 22558.18, "deviation": 46.55},
+        {"month": "2025-09", "tx_count": 26405, "volume": 1482909.19, "expected": 25950.91, "actual": 25987.64, "deviation": 36.73},
+        {"month": "2025-10", "tx_count": 31815, "volume": 1835127.09, "expected": 32114.72, "actual": 32141.58, "deviation": 26.86},
+        {"month": "2025-11", "tx_count": 25555, "volume": 1503702.23, "expected": 26314.79, "actual": 26353.86, "deviation": 39.07},
+        {"month": "2025-12", "tx_count": 19191, "volume": 1141852.51, "expected": 19982.42, "actual": 20033.56, "deviation": 51.14}
+      ],
+      "first_fee_column": "commission.1",
+      "reconciliation_fee_total": 223245.11
     },
     {
       "merchant": "Muizagn",
       "merchant_key": "muizagn",
-      "transaction_count": 66830,
-      "total_volume": 3286904.28,
-      "contract_rate": 1.75,
+      "transaction_count": 66810,
+      "total_volume": 3286172.65,
+      "contract_rate": 3.0,
       "contract_fixed": 0,
-      "expected_commission": 57703.39,
-      "actual_commission": 164424.86,
-      "deviation": 106721.47,
-      "deviation_percent": 184.9484,
+      "expected_commission": 98585.18,
+      "actual_commission": 96746.26,
+      "deviation": -1838.92,
+      "deviation_percent": -1.87,
       "status": "significant",
-      "currencies": [
-        "EUR"
-      ],
+      "currencies": ["EUR"],
       "currency_details": [
         {
           "currency": "EUR",
-          "tx_count": 66830,
+          "tx_count": 66810,
           "payment_count": 66810,
-          "refund_count": 20,
-          "rate": 1.75,
+          "refund_count": 0,
+          "rate": 3.0,
           "fixed": 0.0,
-          "volume": 3286904.28,
-          "expected": 57703.39,
-          "actual": 164424.86,
-          "deviation": 106721.47
+          "volume": 3286172.65,
+          "expected": 98585.18,
+          "actual": 96746.26,
+          "deviation": -1838.92
         }
       ],
-      "missing_rates": null
+      "missing_rates": null,
+      "monthly_reconciliation": [
+        {"month": "2025-01", "tx_count": 37932, "volume": 1814859.92, "expected": 54445.80, "actual": 54462.33, "deviation": 16.53},
+        {"month": "2025-02", "tx_count": 20262, "volume": 1038236.71, "expected": 31147.10, "actual": 31152.24, "deviation": 5.14},
+        {"month": "2025-03", "tx_count": 8616, "volume": 433076.02, "expected": 12992.28, "actual": 11131.69, "deviation": -1860.59}
+      ],
+      "first_fee_column": "commission.1 / reconciliation",
+      "reconciliation_fee_total": 96746.26,
+      "notes": "March 2025 rate dropped to ~2.57% from contract 3%"
     },
     {
-      "merchant": "ALFA",
-      "merchant_key": "alfa",
-      "transaction_count": 48366,
-      "total_volume": 2830824.23,
-      "contract_rate": 1.75,
+      "merchant": "ONLINE GO",
+      "merchant_key": "online_go",
+      "transaction_count": 160032,
+      "total_volume": 8422275.75,
+      "contract_rate": 3.0,
       "contract_fixed": 0,
-      "expected_commission": 49640.08,
-      "actual_commission": 138188.28,
-      "deviation": 88548.2,
-      "deviation_percent": 178.3805,
+      "expected_commission": 252668.29,
+      "actual_commission": 239991.60,
+      "deviation": -12676.69,
+      "deviation_percent": -5.02,
       "status": "significant",
-      "currencies": [
-        "EUR"
-      ],
+      "currencies": ["EUR"],
       "currency_details": [
         {
           "currency": "EUR",
-          "tx_count": 48366,
-          "payment_count": 48361,
+          "tx_count": 160032,
+          "payment_count": 160032,
           "refund_count": 5,
-          "rate": 1.75,
+          "rate": 3.0,
           "fixed": 0.0,
-          "volume": 2830824.23,
-          "expected": 49640.08,
-          "actual": 138188.28,
-          "deviation": 88548.2
+          "volume": 8422275.75,
+          "expected": 252668.29,
+          "actual": 239991.60,
+          "deviation": -12676.69
         }
       ],
-      "missing_rates": null
+      "missing_rates": null,
+      "monthly_reconciliation": [
+        {"month": "2025-01", "tx_count": 452, "volume": 19943.57, "expected": 598.31, "actual": 598.16, "deviation": -0.15},
+        {"month": "2025-02", "tx_count": 17060, "volume": 806586.23, "expected": 24197.59, "actual": 24196.65, "deviation": -0.94},
+        {"month": "2025-03", "tx_count": 15372, "volume": 670210.68, "expected": 20106.32, "actual": 16166.07, "deviation": -3940.25},
+        {"month": "2025-04", "tx_count": 18493, "volume": 955395.86, "expected": 28661.88, "actual": 16737.72, "deviation": -11924.16},
+        {"month": "2025-05", "tx_count": 20290, "volume": 993905.67, "expected": 29817.17, "actual": 17410.37, "deviation": -12406.80},
+        {"month": "2025-06", "tx_count": 25449, "volume": 1399336.06, "expected": 41980.08, "actual": 24515.31, "deviation": -17464.77},
+        {"month": "2025-07", "tx_count": 21199, "volume": 1185127.60, "expected": 35553.83, "actual": 20770.50, "deviation": -14783.33},
+        {"month": "2025-08", "tx_count": 22194, "volume": 1293123.91, "expected": 38793.72, "actual": 64660.53, "deviation": 25866.81},
+        {"month": "2025-09", "tx_count": 19523, "volume": 1098646.17, "expected": 32959.39, "actual": 54936.29, "deviation": 21976.90}
+      ],
+      "first_fee_column": "commission.1 / reconciliation",
+      "reconciliation_fee_total": 239991.60,
+      "notes": "Rate changed from 3% to ~1.75% in Mar-Jul 2025. Aug-Sep used total commission (~5%)"
     },
     {
       "merchant": "Orion",
       "merchant_key": "orion",
-      "transaction_count": 48023,
-      "total_volume": 3020439.92,
+      "transaction_count": 48010,
+      "total_volume": 2832800.14,
       "contract_rate": 1.75,
       "contract_fixed": 0,
-      "expected_commission": 52973.35,
-      "actual_commission": 138306.05,
-      "deviation": 85332.7,
-      "deviation_percent": 161.0861,
-      "status": "significant",
-      "currencies": [
-        "EUR"
-      ],
+      "expected_commission": 49574.01,
+      "actual_commission": 49652.44,
+      "deviation": 78.43,
+      "deviation_percent": 0.16,
+      "status": "minor",
+      "currencies": ["EUR"],
       "currency_details": [
         {
           "currency": "EUR",
-          "tx_count": 48023,
-          "payment_count": 48015,
-          "refund_count": 8,
+          "tx_count": 48010,
+          "payment_count": 48010,
+          "refund_count": 0,
           "rate": 1.75,
           "fixed": 0.0,
-          "volume": 3020439.92,
-          "expected": 52973.35,
-          "actual": 138306.05,
-          "deviation": 85332.7
+          "volume": 2832800.14,
+          "expected": 49574.01,
+          "actual": 49652.44,
+          "deviation": 78.43
         }
       ],
-      "missing_rates": null
+      "missing_rates": null,
+      "monthly_reconciliation": [
+        {"month": "2025-10", "tx_count": 3054, "volume": 187399.78, "expected": 3279.50, "actual": 3283.92, "deviation": 4.42},
+        {"month": "2025-11", "tx_count": 25117, "volume": 1503966.04, "expected": 26319.41, "actual": 26357.16, "deviation": 37.75},
+        {"month": "2025-12", "tx_count": 19839, "volume": 1141434.32, "expected": 19975.10, "actual": 20011.36, "deviation": 36.26}
+      ],
+      "first_fee_column": "Commission amount.1",
+      "reconciliation_fee_total": 49652.44
+    },
+    {
+      "merchant": "PLAYOFF GO",
+      "merchant_key": "playoff_go",
+      "transaction_count": 177146,
+      "total_volume": 9335434.10,
+      "contract_rate": 1.75,
+      "contract_fixed": 0,
+      "expected_commission": 163370.10,
+      "actual_commission": 164871.78,
+      "deviation": 1501.68,
+      "deviation_percent": 0.9191,
+      "status": "significant",
+      "currencies": ["EUR"],
+      "currency_details": [
+        {
+          "currency": "EUR",
+          "tx_count": 177146,
+          "payment_count": 177146,
+          "refund_count": 12,
+          "rate": 1.75,
+          "fixed": 0.0,
+          "volume": 9335434.10,
+          "expected": 163370.10,
+          "actual": 164871.78,
+          "deviation": 1501.68
+        }
+      ],
+      "missing_rates": null,
+      "monthly_reconciliation": [
+        {"month": "2025-03", "tx_count": 21538, "volume": 934491.46, "expected": 16353.60, "actual": 16383.55, "deviation": 29.95},
+        {"month": "2025-04", "tx_count": 16687, "volume": 710010.37, "expected": 12425.18, "actual": 12443.53, "deviation": 18.35},
+        {"month": "2025-05", "tx_count": 15893, "volume": 1087784.20, "expected": 19036.22, "actual": 19054.53, "deviation": 18.31},
+        {"month": "2025-06", "tx_count": 30002, "volume": 1530361.21, "expected": 26781.32, "actual": 26814.65, "deviation": 33.33},
+        {"month": "2025-07", "tx_count": 20092, "volume": 1093962.96, "expected": 19144.35, "actual": 19177.09, "deviation": 32.74},
+        {"month": "2025-08", "tx_count": 25107, "volume": 1290169.99, "expected": 22577.97, "actual": 22613.44, "deviation": 35.47},
+        {"month": "2025-09", "tx_count": 26599, "volume": 1480482.61, "expected": 25908.45, "actual": 25953.32, "deviation": 44.87},
+        {"month": "2025-10", "tx_count": 21228, "volume": 1208171.30, "expected": 21143.00, "actual": 22431.67, "deviation": 1288.67}
+      ],
+      "first_fee_column": "Commission amount.1",
+      "reconciliation_fee_total": 164871.78,
+      "notes": "Contract rate 1.75%. All months consistent."
+    },
+    {
+      "merchant": "QEBOR",
+      "merchant_key": "qebor",
+      "transaction_count": 124603,
+      "total_volume": 7269700.61,
+      "contract_rate": 1.75,
+      "contract_fixed": 0,
+      "expected_commission": 127219.76,
+      "actual_commission": 127274.45,
+      "deviation": 54.69,
+      "deviation_percent": 0.0430,
+      "status": "minor",
+      "currencies": ["EUR"],
+      "currency_details": [
+        {
+          "currency": "EUR",
+          "tx_count": 124603,
+          "payment_count": 124603,
+          "refund_count": 0,
+          "rate": 1.75,
+          "fixed": 0.0,
+          "volume": 7269700.61,
+          "expected": 127219.76,
+          "actual": 127274.45,
+          "deviation": 54.69
+        }
+      ],
+      "missing_rates": null,
+      "monthly_reconciliation": [
+        {"month": "2025-03", "tx_count": 537, "volume": 28085.77, "expected": 491.50, "actual": 492.18, "deviation": 0.68},
+        {"month": "2025-05", "tx_count": 1, "volume": 25.00, "expected": 0.44, "actual": 0.44, "deviation": 0.00},
+        {"month": "2025-06", "tx_count": 22250, "volume": 1477839.78, "expected": 25862.20, "actual": 25887.28, "deviation": 25.08},
+        {"month": "2025-07", "tx_count": 21758, "volume": 1228303.56, "expected": 21495.31, "actual": 21514.24, "deviation": 18.93},
+        {"month": "2025-08", "tx_count": 25883, "volume": 1289890.27, "expected": 22573.08, "actual": 22602.36, "deviation": 29.28},
+        {"month": "2025-09", "tx_count": 27091, "volume": 1481720.19, "expected": 25930.10, "actual": 25972.94, "deviation": 42.84},
+        {"month": "2025-10", "tx_count": 27083, "volume": 1763836.04, "expected": 30867.13, "actual": 30805.01, "deviation": -62.12}
+      ],
+      "first_fee_column": "commission.1",
+      "reconciliation_fee_total": 127274.45,
+      "notes": "Contract rate 1.75%. Full analysis Mar-Oct 2025."
+    },
+    {
+      "merchant": "SellPro",
+      "merchant_key": "sellpro",
+      "transaction_count": 149306,
+      "total_volume": 8137295.03,
+      "contract_rate": 3.0,
+      "contract_fixed": 0,
+      "expected_commission": 244118.86,
+      "actual_commission": 276203.63,
+      "deviation": 32084.77,
+      "deviation_percent": 13.14,
+      "status": "significant",
+      "currencies": ["EUR"],
+      "currency_details": [
+        {
+          "currency": "EUR",
+          "tx_count": 149306,
+          "payment_count": 149306,
+          "refund_count": 3,
+          "rate": 3.0,
+          "fixed": 0.0,
+          "volume": 8137295.03,
+          "expected": 244118.86,
+          "actual": 276203.63,
+          "deviation": 32084.77
+        }
+      ],
+      "missing_rates": null,
+      "monthly_reconciliation": [
+        {"month": "2025-03", "tx_count": 24476, "volume": 1126682.01, "expected": 33800.46, "actual": 56338.75, "deviation": 22538.29},
+        {"month": "2025-04", "tx_count": 24001, "volume": 1195001.21, "expected": 35850.04, "actual": 37342.34, "deviation": 1492.30},
+        {"month": "2025-05", "tx_count": 22044, "volume": 1205553.05, "expected": 36166.59, "actual": 38039.75, "deviation": 1873.16},
+        {"month": "2025-06", "tx_count": 20775, "volume": 1231693.95, "expected": 36950.82, "actual": 21574.92, "deviation": -15375.90},
+        {"month": "2025-07", "tx_count": 20014, "volume": 1157437.57, "expected": 34723.13, "actual": 20282.21, "deviation": -14440.92},
+        {"month": "2025-08", "tx_count": 20002, "volume": 1129005.63, "expected": 33870.17, "actual": 56454.68, "deviation": 22584.51},
+        {"month": "2025-09", "tx_count": 17994, "volume": 1091921.61, "expected": 32757.65, "actual": 46171.48, "deviation": 13413.83}
+      ],
+      "first_fee_column": "commission.1 / variable",
+      "reconciliation_fee_total": 276203.63,
+      "notes": "Complex rate structure: Mar 5%, Apr-May 3.5%, Jun-Jul 1.75%, Aug-Sep 5%"
+    },
+    {
+      "merchant": "SHOP ONLINE AI",
+      "merchant_key": "shop_online_ai",
+      "transaction_count": 176892,
+      "total_volume": 9874069.53,
+      "contract_rate": 5.0,
+      "contract_fixed": 0,
+      "expected_commission": 493703.48,
+      "actual_commission": 487729.28,
+      "deviation": -5974.20,
+      "deviation_percent": -1.21,
+      "status": "significant",
+      "currencies": ["EUR"],
+      "currency_details": [
+        {
+          "currency": "EUR",
+          "tx_count": 176892,
+          "payment_count": 176892,
+          "refund_count": 0,
+          "rate": 5.0,
+          "fixed": 0.0,
+          "volume": 9874069.53,
+          "expected": 493703.48,
+          "actual": 487729.28,
+          "deviation": -5974.20
+        }
+      ],
+      "missing_rates": null,
+      "monthly_reconciliation": [
+        {"month": "2025-06", "tx_count": 29862, "volume": 1533127.33, "expected": 76656.37, "actual": 76668.95, "deviation": 12.58},
+        {"month": "2025-07", "tx_count": 21168, "volume": 1094100.72, "expected": 54705.04, "actual": 54712.29, "deviation": 7.25},
+        {"month": "2025-08", "tx_count": 22866, "volume": 1293320.30, "expected": 64666.02, "actual": 64674.39, "deviation": 8.37},
+        {"month": "2025-09", "tx_count": 27839, "volume": 1483072.47, "expected": 74153.62, "actual": 75136.64, "deviation": 983.02},
+        {"month": "2025-10", "tx_count": 31628, "volume": 1827339.64, "expected": 91366.98, "actual": 85266.51, "deviation": -6100.47},
+        {"month": "2025-11", "tx_count": 24517, "volume": 1502117.53, "expected": 75105.88, "actual": 74943.78, "deviation": -162.10},
+        {"month": "2025-12", "tx_count": 19012, "volume": 1140991.54, "expected": 57049.58, "actual": 56326.72, "deviation": -722.86}
+      ],
+      "first_fee_column": "Commission amount.1 / commission",
+      "reconciliation_fee_total": 487729.28,
+      "notes": "Contract rate 5.0%. Sep-Dec 2025 show rate changes, Oct-Dec using first-part ~1.75%"
+    },
+    {
+      "merchant": "SIKCINTIVK SMART+FIN",
+      "merchant_key": "sikcintivk",
+      "transaction_count": 200779,
+      "total_volume": 10361106.16,
+      "contract_rate": 1.75,
+      "contract_fixed": 0,
+      "expected_commission": 181319.36,
+      "actual_commission": 181545.56,
+      "deviation": 226.20,
+      "deviation_percent": 0.1247,
+      "status": "minor",
+      "currencies": ["EUR"],
+      "currency_details": [
+        {
+          "currency": "EUR",
+          "tx_count": 200779,
+          "payment_count": 200779,
+          "refund_count": 0,
+          "rate": 1.75,
+          "fixed": 0.0,
+          "volume": 10361106.16,
+          "expected": 181319.36,
+          "actual": 181545.56,
+          "deviation": 226.20
+        }
+      ],
+      "missing_rates": null,
+      "monthly_reconciliation": [
+        {"month": "2025-01", "tx_count": 3, "volume": 20.00, "expected": 0.35, "actual": 0.60, "deviation": 0.25},
+        {"month": "2025-03", "tx_count": 18549, "volume": 993641.89, "expected": 17388.73, "actual": 17419.74, "deviation": 31.01},
+        {"month": "2025-04", "tx_count": 87333, "volume": 4418756.65, "expected": 77328.24, "actual": 77445.95, "deviation": 117.71},
+        {"month": "2025-05", "tx_count": 79345, "volume": 4075132.72, "expected": 71314.82, "actual": 71392.58, "deviation": 77.76},
+        {"month": "2025-06", "tx_count": 14989, "volume": 847481.31, "expected": 14830.92, "actual": 14830.29, "deviation": -0.63},
+        {"month": "2025-07", "tx_count": 560, "volume": 26073.59, "expected": 456.29, "actual": 456.40, "deviation": 0.11}
+      ],
+      "first_fee_column": "Commission amount.1",
+      "reconciliation_fee_total": 181545.56,
+      "notes": "Combined data from SIKCINTIVK FIN (2024/1208-01) and SIKCINTIVK SMART (1106-24) contracts."
+    },
+    {
+      "merchant": "TECHFIN SIGMA SOLUTION LTD",
+      "merchant_key": "techfin_sigma",
+      "transaction_count": 200661,
+      "total_volume": 10931777.40,
+      "contract_rate": 5.0,
+      "contract_fixed": 0,
+      "expected_commission": 400591.12,
+      "actual_commission": 400739.26,
+      "deviation": 148.14,
+      "deviation_percent": 0.0370,
+      "status": "minor",
+      "currencies": ["EUR"],
+      "currency_details": [
+        {
+          "currency": "EUR",
+          "tx_count": 200661,
+          "payment_count": 200661,
+          "refund_count": 38,
+          "rate": 5.0,
+          "fixed": 0.0,
+          "volume": 10931777.40,
+          "expected": 400591.12,
+          "actual": 400739.26,
+          "deviation": 148.14
+        }
+      ],
+      "missing_rates": null,
+      "monthly_reconciliation": [
+        {"month": "2025-05", "tx_count": 15443, "volume": 1043191.33, "expected": 52159.57, "actual": 52164.13, "deviation": 4.56},
+        {"month": "2025-06", "tx_count": 30589, "volume": 1530459.24, "expected": 76522.96, "actual": 76527.05, "deviation": 4.09},
+        {"month": "2025-07", "tx_count": 21385, "volume": 1093619.05, "expected": 54680.95, "actual": 54683.64, "deviation": 2.69},
+        {"month": "2025-08", "tx_count": 26583, "volume": 1290550.28, "expected": 64527.51, "actual": 64531.08, "deviation": 3.57},
+        {"month": "2025-09", "tx_count": 27081, "volume": 1481719.20, "expected": 74085.96, "actual": 74091.55, "deviation": 5.59},
+        {"month": "2025-10", "tx_count": 33382, "volume": 1847705.07, "expected": 32334.84, "actual": 32382.48, "deviation": 47.64},
+        {"month": "2025-11", "tx_count": 26737, "volume": 1500825.58, "expected": 26264.45, "actual": 26308.64, "deviation": 44.19},
+        {"month": "2025-12", "tx_count": 19461, "volume": 1143707.65, "expected": 20014.88, "actual": 20050.69, "deviation": 35.81}
+      ],
+      "first_fee_column": "Commission amount / Commission amount.1",
+      "reconciliation_fee_total": 400739.26,
+      "notes": "Contract rate 5.0% May-Sep, then 1.75% Oct-Dec. Oct-Dec expected calculated at 1.75%."
+    },
+    {
+      "merchant": "UNI COBRAND LTD",
+      "merchant_key": "uni_cobrand_ltd",
+      "transaction_count": 209525,
+      "total_volume": 12001429.63,
+      "contract_rate": 1.75,
+      "contract_fixed": 0,
+      "expected_commission": 210025.02,
+      "actual_commission": 210292.84,
+      "deviation": 267.82,
+      "deviation_percent": 0.1275,
+      "status": "minor",
+      "currencies": ["EUR"],
+      "currency_details": [
+        {
+          "currency": "EUR",
+          "tx_count": 209525,
+          "payment_count": 209525,
+          "refund_count": 0,
+          "rate": 1.75,
+          "fixed": 0.0,
+          "volume": 12001429.63,
+          "expected": 210025.02,
+          "actual": 210292.84,
+          "deviation": 267.82
+        }
+      ],
+      "missing_rates": null,
+      "monthly_reconciliation": [
+        {"month": "2025-04", "tx_count": 18858, "volume": 988963.09, "expected": 17306.85, "actual": 17325.28, "deviation": 18.43},
+        {"month": "2025-05", "tx_count": 20578, "volume": 1131649.20, "expected": 19803.86, "actual": 19824.78, "deviation": 20.92},
+        {"month": "2025-06", "tx_count": 29214, "volume": 1530232.39, "expected": 26779.07, "actual": 26807.62, "deviation": 28.55},
+        {"month": "2025-07", "tx_count": 17480, "volume": 1092403.58, "expected": 19117.06, "actual": 19139.78, "deviation": 22.72},
+        {"month": "2025-08", "tx_count": 22991, "volume": 1291838.50, "expected": 22607.17, "actual": 22633.99, "deviation": 26.82},
+        {"month": "2025-09", "tx_count": 26044, "volume": 1479995.79, "expected": 25899.93, "actual": 25936.73, "deviation": 36.80},
+        {"month": "2025-10", "tx_count": 30000, "volume": 1841128.90, "expected": 32219.76, "actual": 32259.60, "deviation": 39.84},
+        {"month": "2025-11", "tx_count": 25739, "volume": 1500958.43, "expected": 26266.77, "actual": 26305.58, "deviation": 38.81},
+        {"month": "2025-12", "tx_count": 18621, "volume": 1144259.75, "expected": 20024.55, "actual": 20059.48, "deviation": 34.93}
+      ],
+      "first_fee_column": "Commission amount.1",
+      "reconciliation_fee_total": 210292.84
+    },
+    {
+      "merchant": "XYZ AI LIMITED",
+      "merchant_key": "xyz_ai_limited",
+      "transaction_count": 148023,
+      "total_volume": 8468370.32,
+      "contract_rate": 1.75,
+      "contract_fixed": 0,
+      "expected_commission": 148196.48,
+      "actual_commission": 148408.61,
+      "deviation": 212.13,
+      "deviation_percent": 0.1431,
+      "status": "minor",
+      "currencies": ["EUR"],
+      "currency_details": [
+        {
+          "currency": "EUR",
+          "tx_count": 148023,
+          "payment_count": 148023,
+          "refund_count": 0,
+          "rate": 1.75,
+          "fixed": 0.0,
+          "volume": 8468370.32,
+          "expected": 148196.48,
+          "actual": 148408.61,
+          "deviation": 212.13
+        }
+      ],
+      "missing_rates": null,
+      "monthly_reconciliation": [
+        {"month": "2025-07", "tx_count": 19625, "volume": 1207338.18, "expected": 21128.42, "actual": 21154.43, "deviation": 26.01},
+        {"month": "2025-08", "tx_count": 25013, "volume": 1289986.67, "expected": 22574.77, "actual": 22602.32, "deviation": 27.55},
+        {"month": "2025-09", "tx_count": 25983, "volume": 1481992.07, "expected": 25934.86, "actual": 25972.92, "deviation": 38.06},
+        {"month": "2025-10", "tx_count": 32396, "volume": 1839822.65, "expected": 32196.90, "actual": 32243.95, "deviation": 47.05},
+        {"month": "2025-11", "tx_count": 25572, "volume": 1502416.21, "expected": 26292.28, "actual": 26328.58, "deviation": 36.30},
+        {"month": "2025-12", "tx_count": 19434, "volume": 1146814.54, "expected": 20069.25, "actual": 20106.41, "deviation": 37.16}
+      ],
+      "first_fee_column": "Commission amount.1",
+      "reconciliation_fee_total": 148408.61
     }
   ],
   "currency_breakdown": [
     {
       "currency": "EUR",
-      "transaction_count": 2916211,
-      "total_volume": 171354231.43,
-      "actual_commission": 8022023.88,
-      "expected_commission": 5556249.02,
-      "deviation": 2465774.86,
-      "avg_effective_rate": 4.6815
+      "transaction_count": 2960873,
+      "total_volume": 159627280.29,
+      "actual_commission": 4136076.06,
+      "expected_commission": 4086728.20,
+      "deviation": 49347.86,
+      "avg_effective_rate": 2.59
     }
   ]
 }

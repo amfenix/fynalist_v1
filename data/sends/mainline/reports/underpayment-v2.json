@@ -3,14 +3,14 @@
   "scope": "Commission Mismatch Report (Full Year 2025)",
   "data_source": "SendsTransaction nodes with actual contract rates from JSON files",
   "summary": {
-    "total_transactions": 3251711,
-    "total_volume": 185469790.15,
-    "total_expected_commission": 6473429.61,
-    "total_actual_commission": 6652793.14,
-    "total_deviation": 179363.53,
-    "match_percentage": 97.23,
+    "total_transactions": 4981206,
+    "total_volume": 302476359.13,
+    "total_expected_commission": 10919679.03,
+    "total_actual_commission": 10979954.10,
+    "total_deviation": 60275.07,
+    "match_percentage": 99.45,
     "merchants_analyzed": 20,
-    "merchants_with_transactions": 18
+    "merchants_with_transactions": 20
   },
   "deviation_distribution": {
     "exact_match": {
@@ -18,15 +18,15 @@
       "description": "Deviation < 0.1%"
     },
     "minor_deviation": {
-      "count": 1,
+      "count": 2,
       "description": "Deviation 0.1% - 0.5%"
     },
     "significant_deviation": {
-      "count": 2,
+      "count": 3,
       "description": "Deviation > 0.5%"
     },
     "no_transactions": {
-      "count": 2,
+      "count": 0,
       "description": "No transactions found"
     }
   },
@@ -731,68 +731,160 @@
     },
     {
       "merchant": "NUOPLAYM LIMITED",
-      "transaction_count": 0,
-      "total_volume": 0.0,
+      "transaction_count": 1182577,
+      "total_volume": 75562231.95,
       "contract_rate": 3.8,
       "contract_fixed": 0,
-      "expected_commission": 0.0,
-      "actual_commission": 0.0,
-      "deviation": 0.0,
-      "deviation_percent": 0.0,
-      "status": "no_transactions",
-      "currencies": [],
-      "currency_details": []
+      "expected_commission": 2871364.82,
+      "actual_commission": 2871306.78,
+      "deviation": -58.04,
+      "deviation_percent": -0.002,
+      "status": "minor",
+      "currencies": [
+        "EUR",
+        "AUD",
+        "NOK"
+      ],
+      "currency_details": [
+        {
+          "currency": "EUR",
+          "tx_count": 555061,
+          "rate": 3.8,
+          "fixed": 0,
+          "volume": 24596861.26,
+          "expected": 934680.73,
+          "actual": 934621.65,
+          "deviation": -59.08
+        },
+        {
+          "currency": "AUD",
+          "tx_count": 627051,
+          "rate": 3.8,
+          "fixed": 0,
+          "volume": 50736694.37,
+          "expected": 1927994.39,
+          "actual": 1927995.46,
+          "deviation": 1.07
+        },
+        {
+          "currency": "NOK",
+          "tx_count": 465,
+          "rate": 3.8,
+          "fixed": 0,
+          "volume": 228676.32,
+          "expected": 8689.70,
+          "actual": 8689.67,
+          "deviation": -0.03
+        }
+      ]
     },
     {
       "merchant": "PIXTHENA LIMITED",
-      "transaction_count": 0,
-      "total_volume": 0.0,
+      "transaction_count": 546918,
+      "total_volume": 41444337.03,
       "contract_rate": 3.8,
       "contract_fixed": 0,
-      "expected_commission": 0.0,
-      "actual_commission": 0.0,
-      "deviation": 0.0,
-      "deviation_percent": 0.0,
-      "status": "no_transactions",
-      "currencies": [],
-      "currency_details": []
+      "expected_commission": 1574884.60,
+      "actual_commission": 1455854.18,
+      "deviation": -119030.42,
+      "deviation_percent": -7.56,
+      "status": "significant",
+      "currencies": [
+        "EUR",
+        "AUD",
+        "USD",
+        "NOK",
+        "GBP"
+      ],
+      "currency_details": [
+        {
+          "currency": "EUR",
+          "tx_count": 503902,
+          "rate": 3.8,
+          "fixed": 0,
+          "volume": 37648224.37,
+          "expected": 1430632.53,
+          "actual": 1322783.98,
+          "deviation": -107848.55
+        },
+        {
+          "currency": "AUD",
+          "tx_count": 37978,
+          "rate": 3.8,
+          "fixed": 0,
+          "volume": 3217413.55,
+          "expected": 122261.71,
+          "actual": 112810.81,
+          "deviation": -9450.90
+        },
+        {
+          "currency": "USD",
+          "tx_count": 5001,
+          "rate": 3.8,
+          "fixed": 0,
+          "volume": 538895.11,
+          "expected": 20477.81,
+          "actual": 18866.19,
+          "deviation": -1611.62
+        },
+        {
+          "currency": "NOK",
+          "tx_count": 35,
+          "rate": 3.8,
+          "fixed": 0,
+          "volume": 39804.00,
+          "expected": 1512.55,
+          "actual": 1393.16,
+          "deviation": -119.39
+        },
+        {
+          "currency": "GBP",
+          "tx_count": 2,
+          "rate": 4.8,
+          "fixed": 0,
+          "volume": 0.00,
+          "expected": 0.00,
+          "actual": 0.04,
+          "deviation": 0.04
+        }
+      ]
     }
   ],
   "currency_breakdown": [
     {
       "currency": "AUD",
-      "transaction_count": 580915,
-      "total_volume": 45466563.34,
-      "actual_commission": 1710436.35,
-      "expected_commission": 1653961.27,
-      "deviation": 56475.08,
-      "avg_effective_rate": 3.76
+      "transaction_count": 1245944,
+      "total_volume": 99420671.26,
+      "actual_commission": 3751242.62,
+      "expected_commission": 3704217.37,
+      "deviation": 47025.25,
+      "avg_effective_rate": 3.77
     },
     {
       "currency": "EUR",
-      "transaction_count": 2433938,
-      "total_volume": 111290656.89,
-      "actual_commission": 4203432.57,
-      "expected_commission": 4193793.80,
-      "deviation": 9638.77,
-      "avg_effective_rate": 3.78
+      "transaction_count": 3492901,
+      "total_volume": 173535742.52,
+      "actual_commission": 6460838.20,
+      "expected_commission": 6559107.06,
+      "deviation": -98268.86,
+      "avg_effective_rate": 3.73
     },
     {
       "currency": "GBP",
-      "transaction_count": 838,
+      "transaction_count": 840,
       "total_volume": 36771.76,
-      "actual_commission": 1397.72,
+      "actual_commission": 1397.76,
       "expected_commission": 1287.01,
-      "deviation": 110.71,
+      "deviation": 110.75,
       "avg_effective_rate": 3.8
     },
     {
       "currency": "NOK",
-      "transaction_count": 2715,
-      "total_volume": 1450748.88,
-      "actual_commission": 54667.29,
-      "expected_commission": 53893.27,
-      "deviation": 774.02,
+      "transaction_count": 3215,
+      "total_volume": 1719229.20,
+      "actual_commission": 64750.12,
+      "expected_commission": 64095.52,
+      "deviation": 654.60,
       "avg_effective_rate": 3.77
     },
     {
@@ -806,12 +898,12 @@
     },
     {
       "currency": "USD",
-      "transaction_count": 3190,
-      "total_volume": 165357.64,
-      "actual_commission": 6282.53,
-      "expected_commission": 6282.53,
-      "deviation": 0.0,
-      "avg_effective_rate": 3.7994
+      "transaction_count": 8191,
+      "total_volume": 704252.75,
+      "actual_commission": 25148.72,
+      "expected_commission": 26760.34,
+      "deviation": -1611.62,
+      "avg_effective_rate": 3.57
     }
   ]
 }

@@ -8,7 +8,7 @@
     "total_expected_commission": 4086728.20,
     "total_actual_commission": 4136076.06,
     "total_deviation": 49347.86,
-    "match_percentage": 101.21,
+    "match_percentage": 98.79,
     "merchants_analyzed": 16
   },
   "deviation_distribution": {

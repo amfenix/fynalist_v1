@@ -1,0 +1,30 @@
+{
+  "plan_id": "LIMITEDCO_LTD_EUR_1.76",
+  "merchant_id": 6,
+  "merchant_name": "LIMITEDCO LTD",
+  "is_contract": false,
+  "is_anomaly": false,
+  "rate": 1.76,
+  "fixed_fee": 0,
+  "formula": "1.76%",
+  "months": [
+    "2025-04"
+  ],
+  "monthly_data": [
+    {
+      "month": "2025-04",
+      "tx_count": 2532,
+      "volume": 129982.59,
+      "commission": 2278.66,
+      "avg_rate": 1.76,
+      "min_rate": 1.76,
+      "max_rate": 1.76
+    }
+  ],
+  "totals": {
+    "tx_count": 2532,
+    "volume": 129982.59,
+    "commission": 2278.66,
+    "avg_rate": 1.76
+  }
+}

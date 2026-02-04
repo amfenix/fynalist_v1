@@ -1,0 +1,30 @@
+{
+  "plan_id": "Muizagn_EUR_2.57",
+  "merchant_id": 7,
+  "merchant_name": "Muizagn",
+  "is_contract": false,
+  "is_anomaly": false,
+  "rate": 2.57,
+  "fixed_fee": 0,
+  "formula": "2.57%",
+  "months": [
+    "2025-03"
+  ],
+  "monthly_data": [
+    {
+      "month": "2025-03",
+      "tx_count": 8633,
+      "volume": 432404.39,
+      "commission": 11131.69,
+      "avg_rate": 2.57,
+      "min_rate": 2.57,
+      "max_rate": 2.57
+    }
+  ],
+  "totals": {
+    "tx_count": 8633,
+    "volume": 432404.39,
+    "commission": 11131.69,
+    "avg_rate": 2.57
+  }
+}

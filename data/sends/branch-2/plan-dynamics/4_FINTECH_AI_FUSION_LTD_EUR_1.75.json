@@ -1,0 +1,110 @@
+{
+  "plan_id": "FINTECH_AI_FUSION_LTD_EUR_1.75",
+  "merchant_id": 4,
+  "merchant_name": "FINTECH AI FUSION LTD",
+  "is_contract": false,
+  "is_anomaly": false,
+  "rate": 1.75,
+  "fixed_fee": 0,
+  "formula": "1.75%",
+  "months": [
+    "2025-04",
+    "2025-05",
+    "2025-06",
+    "2025-07",
+    "2025-08",
+    "2025-09",
+    "2025-10",
+    "2025-11",
+    "2025-12"
+  ],
+  "monthly_data": [
+    {
+      "month": "2025-04",
+      "tx_count": 15082,
+      "volume": 932772.41,
+      "commission": 16335.49,
+      "avg_rate": 1.75,
+      "min_rate": 1.75,
+      "max_rate": 1.75
+    },
+    {
+      "month": "2025-05",
+      "tx_count": 19348,
+      "volume": 1122716.64,
+      "commission": 19666.79,
+      "avg_rate": 1.75,
+      "min_rate": 1.75,
+      "max_rate": 1.75
+    },
+    {
+      "month": "2025-06",
+      "tx_count": 29058,
+      "volume": 1530303.05,
+      "commission": 26806.74,
+      "avg_rate": 1.75,
+      "min_rate": 1.75,
+      "max_rate": 1.75
+    },
+    {
+      "month": "2025-07",
+      "tx_count": 19305,
+      "volume": 1093689.94,
+      "commission": 19164.53,
+      "avg_rate": 1.75,
+      "min_rate": 1.75,
+      "max_rate": 1.75
+    },
+    {
+      "month": "2025-08",
+      "tx_count": 24458,
+      "volume": 1290073.13,
+      "commission": 22603.2,
+      "avg_rate": 1.75,
+      "min_rate": 1.75,
+      "max_rate": 1.75
+    },
+    {
+      "month": "2025-09",
+      "tx_count": 26571,
+      "volume": 1481116.79,
+      "commission": 25959.94,
+      "avg_rate": 1.75,
+      "min_rate": 1.75,
+      "max_rate": 1.75
+    },
+    {
+      "month": "2025-10",
+      "tx_count": 32356,
+      "volume": 1847730.83,
+      "commission": 32378.05,
+      "avg_rate": 1.75,
+      "min_rate": 1.75,
+      "max_rate": 1.75
+    },
+    {
+      "month": "2025-11",
+      "tx_count": 26895,
+      "volume": 1501089.34,
+      "commission": 26306.82,
+      "avg_rate": 1.75,
+      "min_rate": 1.75,
+      "max_rate": 1.75
+    },
+    {
+      "month": "2025-12",
+      "tx_count": 19536,
+      "volume": 1143099.84,
+      "commission": 20038.4,
+      "avg_rate": 1.75,
+      "min_rate": 1.75,
+      "max_rate": 1.75
+    }
+  ],
+  "totals": {
+    "tx_count": 212609,
+    "volume": 11942591.97,
+    "commission": 209259.96,
+    "avg_rate": 1.75
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "plan_id": "XYZ_AI_LIMITED_EUR_1.75",
+  "merchant_id": 17,
+  "merchant_name": "XYZ AI LIMITED",
+  "is_contract": false,
+  "is_anomaly": false,
+  "rate": 1.75,
+  "fixed_fee": 0,
+  "formula": "1.75%",
+  "months": [
+    "2025-07",
+    "2025-08",
+    "2025-09",
+    "2025-10",
+    "2025-11",
+    "2025-12"
+  ],
+  "monthly_data": [
+    {
+      "month": "2025-07",
+      "tx_count": 19624,
+      "volume": 1207338.18,
+      "commission": 21154.43,
+      "avg_rate": 1.75,
+      "min_rate": 1.75,
+      "max_rate": 1.75
+    },
+    {
+      "month": "2025-08",
+      "tx_count": 25013,
+      "volume": 1289986.67,
+      "commission": 22602.32,
+      "avg_rate": 1.75,
+      "min_rate": 1.75,
+      "max_rate": 1.75
+    },
+    {
+      "month": "2025-09",
+      "tx_count": 25982,
+      "volume": 1481992.07,
+      "commission": 25972.92,
+      "avg_rate": 1.75,
+      "min_rate": 1.75,
+      "max_rate": 1.75
+    },
+    {
+      "month": "2025-10",
+      "tx_count": 32396,
+      "volume": 1839822.65,
+      "commission": 32243.95,
+      "avg_rate": 1.75,
+      "min_rate": 1.75,
+      "max_rate": 1.75
+    },
+    {
+      "month": "2025-11",
+      "tx_count": 25569,
+      "volume": 1502416.21,
+      "commission": 26328.58,
+      "avg_rate": 1.75,
+      "min_rate": 1.75,
+      "max_rate": 1.75
+    },
+    {
+      "month": "2025-12",
+      "tx_count": 19439,
+      "volume": 1147044.95,
+      "commission": 20106.41,
+      "avg_rate": 1.75,
+      "min_rate": 1.75,
+      "max_rate": 1.75
+    }
+  ],
+  "totals": {
+    "tx_count": 148023,
+    "volume": 8468600.73,
+    "commission": 148408.61,
+    "avg_rate": 1.75
+  }
+}

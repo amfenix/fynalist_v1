@@ -1,0 +1,18 @@
+{
+  "plan_id": "TECHFIN_SIGMA_SOLUTION_LTD_EUR_CONTRACT",
+  "merchant_id": 15,
+  "merchant_name": "TECHFIN SIGMA SOLUTION LTD",
+  "is_contract": true,
+  "is_anomaly": false,
+  "rate": 5.0,
+  "fixed_fee": 0,
+  "formula": "5.0%",
+  "months": [],
+  "monthly_data": [],
+  "totals": {
+    "tx_count": 0,
+    "volume": 0,
+    "commission": 0,
+    "avg_rate": 5.0
+  }
+}

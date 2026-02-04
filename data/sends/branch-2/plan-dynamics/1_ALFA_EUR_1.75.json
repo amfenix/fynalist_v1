@@ -1,0 +1,46 @@
+{
+  "plan_id": "ALFA_EUR_1.75",
+  "merchant_id": 1,
+  "merchant_name": "ALFA",
+  "is_contract": true,
+  "is_anomaly": false,
+  "rate": 1.75,
+  "fixed_fee": 0,
+  "formula": "1.75%",
+  "months": ["2025-10", "2025-11", "2025-12"],
+  "monthly_data": [
+    {
+      "month": "2025-10",
+      "tx_count": 3113,
+      "volume": 186557.20,
+      "commission": 3269.48,
+      "avg_rate": 1.75,
+      "min_rate": 1.75,
+      "max_rate": 1.75
+    },
+    {
+      "month": "2025-11",
+      "tx_count": 26015,
+      "volume": 1500767.82,
+      "commission": 26305.79,
+      "avg_rate": 1.75,
+      "min_rate": 1.75,
+      "max_rate": 1.75
+    },
+    {
+      "month": "2025-12",
+      "tx_count": 19230,
+      "volume": 1143072.60,
+      "commission": 20037.02,
+      "avg_rate": 1.75,
+      "min_rate": 1.75,
+      "max_rate": 1.75
+    }
+  ],
+  "totals": {
+    "tx_count": 48358,
+    "volume": 2830397.62,
+    "commission": 49612.29,
+    "avg_rate": 1.75
+  }
+}

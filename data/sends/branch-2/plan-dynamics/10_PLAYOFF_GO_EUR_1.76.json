@@ -1,0 +1,40 @@
+{
+  "plan_id": "PLAYOFF_GO_EUR_1.76",
+  "merchant_id": 10,
+  "merchant_name": "PLAYOFF GO",
+  "is_contract": false,
+  "is_anomaly": false,
+  "rate": 1.76,
+  "fixed_fee": 0,
+  "formula": "1.76%",
+  "months": [
+    "2025-03",
+    "2025-04"
+  ],
+  "monthly_data": [
+    {
+      "month": "2025-03",
+      "tx_count": 7243,
+      "volume": 314274.12,
+      "commission": 5939.66,
+      "avg_rate": 1.76,
+      "min_rate": 1.76,
+      "max_rate": 1.76
+    },
+    {
+      "month": "2025-04",
+      "tx_count": 6826,
+      "volume": 290437.51,
+      "commission": 5096.4,
+      "avg_rate": 1.76,
+      "min_rate": 1.76,
+      "max_rate": 1.76
+    }
+  ],
+  "totals": {
+    "tx_count": 14069,
+    "volume": 604711.63,
+    "commission": 11036.06,
+    "avg_rate": 1.76
+  }
+}

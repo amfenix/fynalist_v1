@@ -1,0 +1,18 @@
+{
+  "plan_id": "XYZ_AI_LIMITED_EUR_CONTRACT",
+  "merchant_id": 17,
+  "merchant_name": "XYZ AI LIMITED",
+  "is_contract": true,
+  "is_anomaly": false,
+  "rate": 1.75,
+  "fixed_fee": 0,
+  "formula": "1.75%",
+  "months": [],
+  "monthly_data": [],
+  "totals": {
+    "tx_count": 0,
+    "volume": 0,
+    "commission": 0,
+    "avg_rate": 1.75
+  }
+}

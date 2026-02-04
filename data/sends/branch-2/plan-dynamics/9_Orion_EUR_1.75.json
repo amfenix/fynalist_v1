@@ -1,0 +1,50 @@
+{
+  "plan_id": "Orion_EUR_1.75",
+  "merchant_id": 9,
+  "merchant_name": "Orion",
+  "is_contract": false,
+  "is_anomaly": false,
+  "rate": 1.75,
+  "fixed_fee": 0,
+  "formula": "1.75%",
+  "months": [
+    "2025-10",
+    "2025-11",
+    "2025-12"
+  ],
+  "monthly_data": [
+    {
+      "month": "2025-10",
+      "tx_count": 3054,
+      "volume": 187399.78,
+      "commission": 3283.92,
+      "avg_rate": 1.75,
+      "min_rate": 1.75,
+      "max_rate": 1.75
+    },
+    {
+      "month": "2025-11",
+      "tx_count": 25117,
+      "volume": 1503966.04,
+      "commission": 26357.16,
+      "avg_rate": 1.75,
+      "min_rate": 1.75,
+      "max_rate": 1.75
+    },
+    {
+      "month": "2025-12",
+      "tx_count": 19839,
+      "volume": 1141514.32,
+      "commission": 20011.36,
+      "avg_rate": 1.75,
+      "min_rate": 1.75,
+      "max_rate": 1.75
+    }
+  ],
+  "totals": {
+    "tx_count": 48010,
+    "volume": 2832880.14,
+    "commission": 49652.44,
+    "avg_rate": 1.75
+  }
+}

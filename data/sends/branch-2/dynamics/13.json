@@ -1,0 +1,274 @@
+{
+  "months": [
+    "2025-06",
+    "2025-07",
+    "2025-08",
+    "2025-09",
+    "2025-10",
+    "2025-11",
+    "2025-12"
+  ],
+  "plans": [
+    {
+      "plan_id": "SHOP_ONLINE_AI_EUR_CONTRACT",
+      "label": "Internet Acquiring (Contract)",
+      "is_contract": true,
+      "is_anomaly": false,
+      "first": null,
+      "last": null,
+      "tx_types": [
+        "sale"
+      ],
+      "counts": {},
+      "coverage": {
+        "currencies": [
+          "EUR"
+        ],
+        "countries": [],
+        "gate_types": [
+          "card"
+        ]
+      },
+      "commission": {
+        "avg_rate": 5.0,
+        "min_rate": 5.0,
+        "max_rate": 5.0,
+        "avg_fixed": 0,
+        "min_fixed": 0,
+        "max_fixed": 0
+      },
+      "monthly_commission": {}
+    },
+    {
+      "plan_id": "SHOP_ONLINE_AI_EUR_5.0",
+      "label": "Internet Acquiring @ 5.0%",
+      "is_contract": false,
+      "is_anomaly": false,
+      "first": "2025-06",
+      "last": "2025-12",
+      "tx_types": [
+        "sale"
+      ],
+      "counts": {
+        "2025-06": 28853,
+        "2025-07": 20158,
+        "2025-08": 25075,
+        "2025-09": 27839,
+        "2025-10": 6138,
+        "2025-12": 18824
+      },
+      "coverage": {
+        "currencies": [
+          "EUR"
+        ],
+        "countries": [],
+        "gate_types": [
+          "card"
+        ]
+      },
+      "commission": {
+        "avg_rate": 5.0,
+        "min_rate": 5.0,
+        "max_rate": 5.0,
+        "avg_fixed": 0,
+        "min_fixed": 0,
+        "max_fixed": 0
+      },
+      "monthly_commission": {
+        "2025-06": {
+          "avg_rate": 5.0,
+          "min_rate": 5.0,
+          "max_rate": 5.0,
+          "avg_fixed": 0,
+          "min_fixed": 0,
+          "max_fixed": 0,
+          "tx_count": 28853,
+          "volume": 1535762.37,
+          "commission": 76790.54
+        },
+        "2025-07": {
+          "avg_rate": 5.0,
+          "min_rate": 5.0,
+          "max_rate": 5.0,
+          "avg_fixed": 0,
+          "min_fixed": 0,
+          "max_fixed": 0,
+          "tx_count": 20158,
+          "volume": 1092167.78,
+          "commission": 54610.83
+        },
+        "2025-08": {
+          "avg_rate": 5.0,
+          "min_rate": 5.0,
+          "max_rate": 5.0,
+          "avg_fixed": 0,
+          "min_fixed": 0,
+          "max_fixed": 0,
+          "tx_count": 25075,
+          "volume": 1290491.23,
+          "commission": 64525.94
+        },
+        "2025-09": {
+          "avg_rate": 5.0,
+          "min_rate": 5.0,
+          "max_rate": 5.0,
+          "avg_fixed": 0,
+          "min_fixed": 0,
+          "max_fixed": 0,
+          "tx_count": 27839,
+          "volume": 1483072.47,
+          "commission": 74159.86
+        },
+        "2025-10": {
+          "avg_rate": 5.0,
+          "min_rate": 5.0,
+          "max_rate": 5.0,
+          "avg_fixed": 0,
+          "min_fixed": 0,
+          "max_fixed": 0,
+          "tx_count": 6138,
+          "volume": 354651.57,
+          "commission": 17152.49
+        },
+        "2025-12": {
+          "avg_rate": 5.0,
+          "min_rate": 5.0,
+          "max_rate": 5.0,
+          "avg_fixed": 0,
+          "min_fixed": 0,
+          "max_fixed": 0,
+          "tx_count": 18824,
+          "volume": 1143179.78,
+          "commission": 57160.98
+        }
+      },
+      "total_tx": 126887,
+      "total_volume": 6899325.2,
+      "total_commission": 344400.64
+    },
+    {
+      "plan_id": "SHOP_ONLINE_AI_EUR_4.8",
+      "label": "Internet Acquiring @ 4.8%",
+      "is_contract": false,
+      "is_anomaly": false,
+      "first": "2025-10",
+      "last": "2025-11",
+      "tx_types": [
+        "sale"
+      ],
+      "counts": {
+        "2025-10": 25488,
+        "2025-11": 24517
+      },
+      "coverage": {
+        "currencies": [
+          "EUR"
+        ],
+        "countries": [],
+        "gate_types": [
+          "card"
+        ]
+      },
+      "commission": {
+        "avg_rate": 4.8,
+        "min_rate": 4.8,
+        "max_rate": 4.8,
+        "avg_fixed": 0,
+        "min_fixed": 0,
+        "max_fixed": 0
+      },
+      "monthly_commission": {
+        "2025-10": {
+          "avg_rate": 4.8,
+          "min_rate": 4.8,
+          "max_rate": 4.8,
+          "avg_fixed": 0,
+          "min_fixed": 0,
+          "max_fixed": 0,
+          "tx_count": 25488,
+          "volume": 1472688.07,
+          "commission": 71225.57
+        },
+        "2025-11": {
+          "avg_rate": 4.8,
+          "min_rate": 4.8,
+          "max_rate": 4.8,
+          "avg_fixed": 0,
+          "min_fixed": 0,
+          "max_fixed": 0,
+          "tx_count": 24517,
+          "volume": 1502117.53,
+          "commission": 72103.07
+        }
+      },
+      "total_tx": 50005,
+      "total_volume": 2974805.6,
+      "total_commission": 143328.64
+    }
+  ],
+  "month_meta": {
+    "2025-06": {
+      "currencies": [
+        "EUR"
+      ],
+      "countries": [],
+      "gate_types": [
+        "card"
+      ]
+    },
+    "2025-07": {
+      "currencies": [
+        "EUR"
+      ],
+      "countries": [],
+      "gate_types": [
+        "card"
+      ]
+    },
+    "2025-08": {
+      "currencies": [
+        "EUR"
+      ],
+      "countries": [],
+      "gate_types": [
+        "card"
+      ]
+    },
+    "2025-09": {
+      "currencies": [
+        "EUR"
+      ],
+      "countries": [],
+      "gate_types": [
+        "card"
+      ]
+    },
+    "2025-10": {
+      "currencies": [
+        "EUR"
+      ],
+      "countries": [],
+      "gate_types": [
+        "card"
+      ]
+    },
+    "2025-11": {
+      "currencies": [
+        "EUR"
+      ],
+      "countries": [],
+      "gate_types": [
+        "card"
+      ]
+    },
+    "2025-12": {
+      "currencies": [
+        "EUR"
+      ],
+      "countries": [],
+      "gate_types": [
+        "card"
+      ]
+    }
+  }
+}

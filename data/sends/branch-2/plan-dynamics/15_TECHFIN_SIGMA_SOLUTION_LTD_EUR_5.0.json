@@ -1,0 +1,70 @@
+{
+  "plan_id": "TECHFIN_SIGMA_SOLUTION_LTD_EUR_5.0",
+  "merchant_id": 15,
+  "merchant_name": "TECHFIN SIGMA SOLUTION LTD",
+  "is_contract": false,
+  "is_anomaly": false,
+  "rate": 5.0,
+  "fixed_fee": 0,
+  "formula": "5.0%",
+  "months": [
+    "2025-05",
+    "2025-06",
+    "2025-07",
+    "2025-08",
+    "2025-09"
+  ],
+  "monthly_data": [
+    {
+      "month": "2025-05",
+      "tx_count": 15443,
+      "volume": 1043191.33,
+      "commission": 52164.13,
+      "avg_rate": 5.0,
+      "min_rate": 5.0,
+      "max_rate": 5.0
+    },
+    {
+      "month": "2025-06",
+      "tx_count": 30589,
+      "volume": 1530459.24,
+      "commission": 76527.05,
+      "avg_rate": 5.0,
+      "min_rate": 5.0,
+      "max_rate": 5.0
+    },
+    {
+      "month": "2025-07",
+      "tx_count": 21385,
+      "volume": 1093619.05,
+      "commission": 54683.64,
+      "avg_rate": 5.0,
+      "min_rate": 5.0,
+      "max_rate": 5.0
+    },
+    {
+      "month": "2025-08",
+      "tx_count": 26583,
+      "volume": 1290550.28,
+      "commission": 64531.08,
+      "avg_rate": 5.0,
+      "min_rate": 5.0,
+      "max_rate": 5.0
+    },
+    {
+      "month": "2025-09",
+      "tx_count": 27081,
+      "volume": 1481719.2,
+      "commission": 74091.55,
+      "avg_rate": 5.0,
+      "min_rate": 5.0,
+      "max_rate": 5.0
+    }
+  ],
+  "totals": {
+    "tx_count": 121081,
+    "volume": 6439539.1,
+    "commission": 321997.45,
+    "avg_rate": 5.0
+  }
+}

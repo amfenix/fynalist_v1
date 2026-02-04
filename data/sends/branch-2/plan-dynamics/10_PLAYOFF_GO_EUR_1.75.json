@@ -1,0 +1,100 @@
+{
+  "plan_id": "PLAYOFF_GO_EUR_1.75",
+  "merchant_id": 10,
+  "merchant_name": "PLAYOFF GO",
+  "is_contract": false,
+  "is_anomaly": false,
+  "rate": 1.75,
+  "fixed_fee": 0,
+  "formula": "1.75%",
+  "months": [
+    "2025-03",
+    "2025-04",
+    "2025-05",
+    "2025-06",
+    "2025-07",
+    "2025-08",
+    "2025-09",
+    "2025-10"
+  ],
+  "monthly_data": [
+    {
+      "month": "2025-03",
+      "tx_count": 11690,
+      "volume": 507229.66,
+      "commission": 9586.45,
+      "avg_rate": 1.75,
+      "min_rate": 1.75,
+      "max_rate": 1.75
+    },
+    {
+      "month": "2025-04",
+      "tx_count": 9861,
+      "volume": 419572.86,
+      "commission": 7362.39,
+      "avg_rate": 1.75,
+      "min_rate": 1.75,
+      "max_rate": 1.75
+    },
+    {
+      "month": "2025-05",
+      "tx_count": 15893,
+      "volume": 1087784.2,
+      "commission": 19047.72,
+      "avg_rate": 1.75,
+      "min_rate": 1.75,
+      "max_rate": 1.75
+    },
+    {
+      "month": "2025-06",
+      "tx_count": 30002,
+      "volume": 1530361.21,
+      "commission": 26809.02,
+      "avg_rate": 1.75,
+      "min_rate": 1.75,
+      "max_rate": 1.75
+    },
+    {
+      "month": "2025-07",
+      "tx_count": 20092,
+      "volume": 1093962.96,
+      "commission": 19170.82,
+      "avg_rate": 1.75,
+      "min_rate": 1.75,
+      "max_rate": 1.75
+    },
+    {
+      "month": "2025-08",
+      "tx_count": 25106,
+      "volume": 1290138.82,
+      "commission": 22607.09,
+      "avg_rate": 1.75,
+      "min_rate": 1.75,
+      "max_rate": 1.75
+    },
+    {
+      "month": "2025-09",
+      "tx_count": 26599,
+      "volume": 1480482.61,
+      "commission": 25946.54,
+      "avg_rate": 1.75,
+      "min_rate": 1.75,
+      "max_rate": 1.75
+    },
+    {
+      "month": "2025-10",
+      "tx_count": 21230,
+      "volume": 1208202.47,
+      "commission": 21170.26,
+      "avg_rate": 1.75,
+      "min_rate": 1.75,
+      "max_rate": 1.75
+    }
+  ],
+  "totals": {
+    "tx_count": 160473,
+    "volume": 8617734.79,
+    "commission": 151700.29,
+    "avg_rate": 1.75
+  }
+}

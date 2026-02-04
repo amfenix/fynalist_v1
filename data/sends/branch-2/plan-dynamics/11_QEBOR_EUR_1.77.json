@@ -1,0 +1,30 @@
+{
+  "plan_id": "QEBOR_EUR_1.77",
+  "merchant_id": 11,
+  "merchant_name": "QEBOR",
+  "is_contract": false,
+  "is_anomaly": false,
+  "rate": 1.77,
+  "fixed_fee": 0,
+  "formula": "1.77%",
+  "months": [
+    "2025-07"
+  ],
+  "monthly_data": [
+    {
+      "month": "2025-07",
+      "tx_count": 457,
+      "volume": 25836.41,
+      "commission": 452.49,
+      "avg_rate": 1.77,
+      "min_rate": 1.77,
+      "max_rate": 1.77
+    }
+  ],
+  "totals": {
+    "tx_count": 457,
+    "volume": 25836.41,
+    "commission": 452.49,
+    "avg_rate": 1.77
+  }
+}

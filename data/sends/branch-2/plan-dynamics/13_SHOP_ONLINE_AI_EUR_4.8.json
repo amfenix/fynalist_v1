@@ -1,0 +1,40 @@
+{
+  "plan_id": "SHOP_ONLINE_AI_EUR_4.8",
+  "merchant_id": 13,
+  "merchant_name": "SHOP ONLINE AI",
+  "is_contract": false,
+  "is_anomaly": false,
+  "rate": 4.8,
+  "fixed_fee": 0,
+  "formula": "4.8%",
+  "months": [
+    "2025-10",
+    "2025-11"
+  ],
+  "monthly_data": [
+    {
+      "month": "2025-10",
+      "tx_count": 25488,
+      "volume": 1472688.07,
+      "commission": 71225.57,
+      "avg_rate": 4.8,
+      "min_rate": 4.8,
+      "max_rate": 4.8
+    },
+    {
+      "month": "2025-11",
+      "tx_count": 24517,
+      "volume": 1502117.53,
+      "commission": 72103.07,
+      "avg_rate": 4.8,
+      "min_rate": 4.8,
+      "max_rate": 4.8
+    }
+  ],
+  "totals": {
+    "tx_count": 50005,
+    "volume": 2974805.6,
+    "commission": 143328.64,
+    "avg_rate": 4.8
+  }
+}

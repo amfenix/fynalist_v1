@@ -1,0 +1,18 @@
+{
+  "plan_id": "FINTECH_AI_FUSION_LTD_EUR_CONTRACT",
+  "merchant_id": 4,
+  "merchant_name": "FINTECH AI FUSION LTD",
+  "is_contract": true,
+  "is_anomaly": false,
+  "rate": 1.75,
+  "fixed_fee": 0,
+  "formula": "1.75%",
+  "months": [],
+  "monthly_data": [],
+  "totals": {
+    "tx_count": 0,
+    "volume": 0,
+    "commission": 0,
+    "avg_rate": 1.75
+  }
+}

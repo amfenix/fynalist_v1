@@ -1,0 +1,90 @@
+{
+  "plan_id": "QEBOR_EUR_1.75",
+  "merchant_id": 11,
+  "merchant_name": "QEBOR",
+  "is_contract": false,
+  "is_anomaly": false,
+  "rate": 1.75,
+  "fixed_fee": 0,
+  "formula": "1.75%",
+  "months": [
+    "2025-03",
+    "2025-05",
+    "2025-06",
+    "2025-07",
+    "2025-08",
+    "2025-09",
+    "2025-10"
+  ],
+  "monthly_data": [
+    {
+      "month": "2025-03",
+      "tx_count": 476,
+      "volume": 24895.39,
+      "commission": 436.27,
+      "avg_rate": 1.75,
+      "min_rate": 1.75,
+      "max_rate": 1.75
+    },
+    {
+      "month": "2025-05",
+      "tx_count": 1,
+      "volume": 25.0,
+      "commission": 0.44,
+      "avg_rate": 1.75,
+      "min_rate": 1.75,
+      "max_rate": 1.75
+    },
+    {
+      "month": "2025-06",
+      "tx_count": 22250,
+      "volume": 1477839.78,
+      "commission": 25887.28,
+      "avg_rate": 1.75,
+      "min_rate": 1.75,
+      "max_rate": 1.75
+    },
+    {
+      "month": "2025-07",
+      "tx_count": 14395,
+      "volume": 813818.6,
+      "commission": 14252.88,
+      "avg_rate": 1.75,
+      "min_rate": 1.75,
+      "max_rate": 1.75
+    },
+    {
+      "month": "2025-08",
+      "tx_count": 22592,
+      "volume": 1291179.73,
+      "commission": 22595.47,
+      "avg_rate": 1.75,
+      "min_rate": 1.75,
+      "max_rate": 1.75
+    },
+    {
+      "month": "2025-09",
+      "tx_count": 26922,
+      "volume": 1481500.67,
+      "commission": 25926.26,
+      "avg_rate": 1.75,
+      "min_rate": 1.75,
+      "max_rate": 1.75
+    },
+    {
+      "month": "2025-10",
+      "tx_count": 30553,
+      "volume": 1762559.6,
+      "commission": 30839.54,
+      "avg_rate": 1.75,
+      "min_rate": 1.75,
+      "max_rate": 1.75
+    }
+  ],
+  "totals": {
+    "tx_count": 117189,
+    "volume": 6851818.77,
+    "commission": 119938.14,
+    "avg_rate": 1.75
+  }
+}

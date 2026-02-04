@@ -1,0 +1,18 @@
+{
+  "plan_id": "SIKCINTIVK_SMART_FIN_EUR_CONTRACT",
+  "merchant_id": 14,
+  "merchant_name": "SIKCINTIVK SMART+FIN",
+  "is_contract": true,
+  "is_anomaly": false,
+  "rate": 1.75,
+  "fixed_fee": 0,
+  "formula": "1.75%",
+  "months": [],
+  "monthly_data": [],
+  "totals": {
+    "tx_count": 0,
+    "volume": 0,
+    "commission": 0,
+    "avg_rate": 1.75
+  }
+}

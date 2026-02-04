@@ -1,0 +1,80 @@
+{
+  "plan_id": "SHOP_ONLINE_AI_EUR_5.0",
+  "merchant_id": 13,
+  "merchant_name": "SHOP ONLINE AI",
+  "is_contract": false,
+  "is_anomaly": false,
+  "rate": 5.0,
+  "fixed_fee": 0,
+  "formula": "5.0%",
+  "months": [
+    "2025-06",
+    "2025-07",
+    "2025-08",
+    "2025-09",
+    "2025-10",
+    "2025-12"
+  ],
+  "monthly_data": [
+    {
+      "month": "2025-06",
+      "tx_count": 28853,
+      "volume": 1535762.37,
+      "commission": 76790.54,
+      "avg_rate": 5.0,
+      "min_rate": 5.0,
+      "max_rate": 5.0
+    },
+    {
+      "month": "2025-07",
+      "tx_count": 20158,
+      "volume": 1092167.78,
+      "commission": 54610.83,
+      "avg_rate": 5.0,
+      "min_rate": 5.0,
+      "max_rate": 5.0
+    },
+    {
+      "month": "2025-08",
+      "tx_count": 25075,
+      "volume": 1290491.23,
+      "commission": 64525.94,
+      "avg_rate": 5.0,
+      "min_rate": 5.0,
+      "max_rate": 5.0
+    },
+    {
+      "month": "2025-09",
+      "tx_count": 27839,
+      "volume": 1483072.47,
+      "commission": 74159.86,
+      "avg_rate": 5.0,
+      "min_rate": 5.0,
+      "max_rate": 5.0
+    },
+    {
+      "month": "2025-10",
+      "tx_count": 6138,
+      "volume": 354651.57,
+      "commission": 17152.49,
+      "avg_rate": 5.0,
+      "min_rate": 5.0,
+      "max_rate": 5.0
+    },
+    {
+      "month": "2025-12",
+      "tx_count": 18824,
+      "volume": 1143179.78,
+      "commission": 57160.98,
+      "avg_rate": 5.0,
+      "min_rate": 5.0,
+      "max_rate": 5.0
+    }
+  ],
+  "totals": {
+    "tx_count": 126887,
+    "volume": 6899325.2,
+    "commission": 344400.64,
+    "avg_rate": 5.0
+  }
+}

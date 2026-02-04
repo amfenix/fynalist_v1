@@ -1,0 +1,30 @@
+{
+  "plan_id": "Inateus_EUR_1.78",
+  "merchant_id": 5,
+  "merchant_name": "Inateus",
+  "is_contract": false,
+  "is_anomaly": false,
+  "rate": 1.78,
+  "fixed_fee": 0,
+  "formula": "1.78%",
+  "months": [
+    "2025-04"
+  ],
+  "monthly_data": [
+    {
+      "month": "2025-04",
+      "tx_count": 655,
+      "volume": 31528.48,
+      "commission": 552.29,
+      "avg_rate": 1.78,
+      "min_rate": 1.78,
+      "max_rate": 1.78
+    }
+  ],
+  "totals": {
+    "tx_count": 655,
+    "volume": 31528.48,
+    "commission": 552.29,
+    "avg_rate": 1.78
+  }
+}

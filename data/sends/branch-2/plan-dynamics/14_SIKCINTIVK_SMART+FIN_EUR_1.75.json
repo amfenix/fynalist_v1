@@ -1,0 +1,60 @@
+{
+  "plan_id": "SIKCINTIVK_SMART+FIN_EUR_1.75",
+  "merchant_id": 14,
+  "merchant_name": "SIKCINTIVK SMART+FIN",
+  "is_contract": false,
+  "is_anomaly": false,
+  "rate": 1.75,
+  "fixed_fee": 0,
+  "formula": "1.75%",
+  "months": [
+    "2025-03",
+    "2025-04",
+    "2025-05",
+    "2025-06"
+  ],
+  "monthly_data": [
+    {
+      "month": "2025-03",
+      "tx_count": 1431,
+      "volume": 83410.62,
+      "commission": 1461.76,
+      "avg_rate": 1.75,
+      "min_rate": 1.75,
+      "max_rate": 1.75
+    },
+    {
+      "month": "2025-04",
+      "tx_count": 44792,
+      "volume": 2400837.39,
+      "commission": 42044.8,
+      "avg_rate": 1.75,
+      "min_rate": 1.75,
+      "max_rate": 1.75
+    },
+    {
+      "month": "2025-05",
+      "tx_count": 36791,
+      "volume": 1845838.11,
+      "commission": 32336.81,
+      "avg_rate": 1.75,
+      "min_rate": 1.75,
+      "max_rate": 1.75
+    },
+    {
+      "month": "2025-06",
+      "tx_count": 13089,
+      "volume": 746111.33,
+      "commission": 13068.48,
+      "avg_rate": 1.75,
+      "min_rate": 1.75,
+      "max_rate": 1.75
+    }
+  ],
+  "totals": {
+    "tx_count": 96103,
+    "volume": 5076197.45,
+    "commission": 88911.85,
+    "avg_rate": 1.75
+  }
+}

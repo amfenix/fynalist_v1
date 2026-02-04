@@ -1,0 +1,60 @@
+{
+  "plan_id": "Inateus_EUR_5.0",
+  "merchant_id": 5,
+  "merchant_name": "Inateus",
+  "is_contract": false,
+  "is_anomaly": false,
+  "rate": 5.0,
+  "fixed_fee": 0,
+  "formula": "5.0%",
+  "months": [
+    "2025-03",
+    "2025-08",
+    "2025-09",
+    "2025-10"
+  ],
+  "monthly_data": [
+    {
+      "month": "2025-03",
+      "tx_count": 47936,
+      "volume": 2480372.8,
+      "commission": 124031.87,
+      "avg_rate": 5.0,
+      "min_rate": 5.0,
+      "max_rate": 5.0
+    },
+    {
+      "month": "2025-08",
+      "tx_count": 22158,
+      "volume": 1291832.64,
+      "commission": 64595.84,
+      "avg_rate": 5.0,
+      "min_rate": 5.0,
+      "max_rate": 5.0
+    },
+    {
+      "month": "2025-09",
+      "tx_count": 25992,
+      "volume": 1480487.18,
+      "commission": 74031.35,
+      "avg_rate": 5.0,
+      "min_rate": 5.0,
+      "max_rate": 5.0
+    },
+    {
+      "month": "2025-10",
+      "tx_count": 5529,
+      "volume": 322151.92,
+      "commission": 15585.42,
+      "avg_rate": 5.0,
+      "min_rate": 5.0,
+      "max_rate": 5.0
+    }
+  ],
+  "totals": {
+    "tx_count": 101615,
+    "volume": 5574844.54,
+    "commission": 278244.48,
+    "avg_rate": 5.0
+  }
+}

@@ -1,0 +1,474 @@
+{
+  "months": [
+    "2025-03",
+    "2025-05",
+    "2025-06",
+    "2025-07",
+    "2025-08",
+    "2025-09",
+    "2025-10"
+  ],
+  "plans": [
+    {
+      "plan_id": "QEBOR_EUR_CONTRACT",
+      "label": "Internet Acquiring (Contract)",
+      "is_contract": true,
+      "is_anomaly": false,
+      "first": null,
+      "last": null,
+      "tx_types": [
+        "sale"
+      ],
+      "counts": {},
+      "coverage": {
+        "currencies": [
+          "EUR"
+        ],
+        "countries": [],
+        "gate_types": [
+          "card"
+        ]
+      },
+      "commission": {
+        "avg_rate": 1.75,
+        "min_rate": 1.75,
+        "max_rate": 1.75,
+        "avg_fixed": 0,
+        "min_fixed": 0,
+        "max_fixed": 0
+      },
+      "monthly_commission": {}
+    },
+    {
+      "plan_id": "QEBOR_EUR_1.75",
+      "label": "Internet Acquiring @ 1.75%",
+      "is_contract": false,
+      "is_anomaly": false,
+      "first": "2025-03",
+      "last": "2025-10",
+      "tx_types": [
+        "sale"
+      ],
+      "counts": {
+        "2025-03": 476,
+        "2025-05": 1,
+        "2025-06": 22250,
+        "2025-07": 14395,
+        "2025-08": 22592,
+        "2025-09": 26922,
+        "2025-10": 30553
+      },
+      "coverage": {
+        "currencies": [
+          "EUR"
+        ],
+        "countries": [],
+        "gate_types": [
+          "card"
+        ]
+      },
+      "commission": {
+        "avg_rate": 1.75,
+        "min_rate": 1.75,
+        "max_rate": 1.75,
+        "avg_fixed": 0,
+        "min_fixed": 0,
+        "max_fixed": 0
+      },
+      "monthly_commission": {
+        "2025-03": {
+          "avg_rate": 1.75,
+          "min_rate": 1.75,
+          "max_rate": 1.75,
+          "avg_fixed": 0,
+          "min_fixed": 0,
+          "max_fixed": 0,
+          "tx_count": 476,
+          "volume": 24895.39,
+          "commission": 436.27
+        },
+        "2025-05": {
+          "avg_rate": 1.75,
+          "min_rate": 1.75,
+          "max_rate": 1.75,
+          "avg_fixed": 0,
+          "min_fixed": 0,
+          "max_fixed": 0,
+          "tx_count": 1,
+          "volume": 25.0,
+          "commission": 0.44
+        },
+        "2025-06": {
+          "avg_rate": 1.75,
+          "min_rate": 1.75,
+          "max_rate": 1.75,
+          "avg_fixed": 0,
+          "min_fixed": 0,
+          "max_fixed": 0,
+          "tx_count": 22250,
+          "volume": 1477839.78,
+          "commission": 25887.28
+        },
+        "2025-07": {
+          "avg_rate": 1.75,
+          "min_rate": 1.75,
+          "max_rate": 1.75,
+          "avg_fixed": 0,
+          "min_fixed": 0,
+          "max_fixed": 0,
+          "tx_count": 14395,
+          "volume": 813818.6,
+          "commission": 14252.88
+        },
+        "2025-08": {
+          "avg_rate": 1.75,
+          "min_rate": 1.75,
+          "max_rate": 1.75,
+          "avg_fixed": 0,
+          "min_fixed": 0,
+          "max_fixed": 0,
+          "tx_count": 22592,
+          "volume": 1291179.73,
+          "commission": 22595.47
+        },
+        "2025-09": {
+          "avg_rate": 1.75,
+          "min_rate": 1.75,
+          "max_rate": 1.75,
+          "avg_fixed": 0,
+          "min_fixed": 0,
+          "max_fixed": 0,
+          "tx_count": 26922,
+          "volume": 1481500.67,
+          "commission": 25926.26
+        },
+        "2025-10": {
+          "avg_rate": 1.75,
+          "min_rate": 1.75,
+          "max_rate": 1.75,
+          "avg_fixed": 0,
+          "min_fixed": 0,
+          "max_fixed": 0,
+          "tx_count": 30553,
+          "volume": 1762559.6,
+          "commission": 30839.54
+        }
+      },
+      "total_tx": 117189,
+      "total_volume": 6851818.77,
+      "total_commission": 119938.14
+    },
+    {
+      "plan_id": "QEBOR_EUR_1.76",
+      "label": "Internet Acquiring @ 1.76%",
+      "is_contract": false,
+      "is_anomaly": false,
+      "first": "2025-03",
+      "last": "2025-07",
+      "tx_types": [
+        "sale"
+      ],
+      "counts": {
+        "2025-03": 56,
+        "2025-07": 4817
+      },
+      "coverage": {
+        "currencies": [
+          "EUR"
+        ],
+        "countries": [],
+        "gate_types": [
+          "card"
+        ]
+      },
+      "commission": {
+        "avg_rate": 1.76,
+        "min_rate": 1.76,
+        "max_rate": 1.76,
+        "avg_fixed": 0,
+        "min_fixed": 0,
+        "max_fixed": 0
+      },
+      "monthly_commission": {
+        "2025-03": {
+          "avg_rate": 1.76,
+          "min_rate": 1.76,
+          "max_rate": 1.76,
+          "avg_fixed": 0,
+          "min_fixed": 0,
+          "max_fixed": 0,
+          "tx_count": 56,
+          "volume": 2928.87,
+          "commission": 51.33
+        },
+        "2025-07": {
+          "avg_rate": 1.76,
+          "min_rate": 1.76,
+          "max_rate": 1.76,
+          "avg_fixed": 0,
+          "min_fixed": 0,
+          "max_fixed": 0,
+          "tx_count": 4817,
+          "volume": 272328.18,
+          "commission": 4769.44
+        }
+      },
+      "total_tx": 4873,
+      "total_volume": 275257.05,
+      "total_commission": 4820.77
+    },
+    {
+      "plan_id": "QEBOR_EUR_1.74",
+      "label": "Internet Acquiring @ 1.74%",
+      "is_contract": false,
+      "is_anomaly": false,
+      "first": "2025-07",
+      "last": "2025-07",
+      "tx_types": [
+        "sale"
+      ],
+      "counts": {
+        "2025-07": 1424
+      },
+      "coverage": {
+        "currencies": [
+          "EUR"
+        ],
+        "countries": [],
+        "gate_types": [
+          "card"
+        ]
+      },
+      "commission": {
+        "avg_rate": 1.74,
+        "min_rate": 1.74,
+        "max_rate": 1.74,
+        "avg_fixed": 0,
+        "min_fixed": 0,
+        "max_fixed": 0
+      },
+      "monthly_commission": {
+        "2025-07": {
+          "avg_rate": 1.74,
+          "min_rate": 1.74,
+          "max_rate": 1.74,
+          "avg_fixed": 0,
+          "min_fixed": 0,
+          "max_fixed": 0,
+          "tx_count": 1424,
+          "volume": 80505.57,
+          "commission": 1409.94
+        }
+      },
+      "total_tx": 1424,
+      "total_volume": 80505.57,
+      "total_commission": 1409.94
+    },
+    {
+      "plan_id": "QEBOR_EUR_1.77",
+      "label": "Internet Acquiring @ 1.77%",
+      "is_contract": false,
+      "is_anomaly": false,
+      "first": "2025-07",
+      "last": "2025-07",
+      "tx_types": [
+        "sale"
+      ],
+      "counts": {
+        "2025-07": 457
+      },
+      "coverage": {
+        "currencies": [
+          "EUR"
+        ],
+        "countries": [],
+        "gate_types": [
+          "card"
+        ]
+      },
+      "commission": {
+        "avg_rate": 1.77,
+        "min_rate": 1.77,
+        "max_rate": 1.77,
+        "avg_fixed": 0,
+        "min_fixed": 0,
+        "max_fixed": 0
+      },
+      "monthly_commission": {
+        "2025-07": {
+          "avg_rate": 1.77,
+          "min_rate": 1.77,
+          "max_rate": 1.77,
+          "avg_fixed": 0,
+          "min_fixed": 0,
+          "max_fixed": 0,
+          "tx_count": 457,
+          "volume": 25836.41,
+          "commission": 452.49
+        }
+      },
+      "total_tx": 457,
+      "total_volume": 25836.41,
+      "total_commission": 452.49
+    },
+    {
+      "plan_id": "QEBOR_EUR_1.78",
+      "label": "Internet Acquiring @ 1.78%",
+      "is_contract": false,
+      "is_anomaly": false,
+      "first": "2025-07",
+      "last": "2025-07",
+      "tx_types": [
+        "sale"
+      ],
+      "counts": {
+        "2025-07": 355
+      },
+      "coverage": {
+        "currencies": [
+          "EUR"
+        ],
+        "countries": [],
+        "gate_types": [
+          "card"
+        ]
+      },
+      "commission": {
+        "avg_rate": 1.78,
+        "min_rate": 1.78,
+        "max_rate": 1.78,
+        "avg_fixed": 0,
+        "min_fixed": 0,
+        "max_fixed": 0
+      },
+      "monthly_commission": {
+        "2025-07": {
+          "avg_rate": 1.78,
+          "min_rate": 1.78,
+          "max_rate": 1.78,
+          "avg_fixed": 0,
+          "min_fixed": 0,
+          "max_fixed": 0,
+          "tx_count": 355,
+          "volume": 20069.86,
+          "commission": 351.5
+        }
+      },
+      "total_tx": 355,
+      "total_volume": 20069.86,
+      "total_commission": 351.5
+    },
+    {
+      "plan_id": "QEBOR_EUR_1.72",
+      "label": "Internet Acquiring @ 1.72%",
+      "is_contract": false,
+      "is_anomaly": false,
+      "first": "2025-07",
+      "last": "2025-07",
+      "tx_types": [
+        "sale"
+      ],
+      "counts": {
+        "2025-07": 300
+      },
+      "coverage": {
+        "currencies": [
+          "EUR"
+        ],
+        "countries": [],
+        "gate_types": [
+          "card"
+        ]
+      },
+      "commission": {
+        "avg_rate": 1.72,
+        "min_rate": 1.72,
+        "max_rate": 1.72,
+        "avg_fixed": 0,
+        "min_fixed": 0,
+        "max_fixed": 0
+      },
+      "monthly_commission": {
+        "2025-07": {
+          "avg_rate": 1.72,
+          "min_rate": 1.72,
+          "max_rate": 1.72,
+          "avg_fixed": 0,
+          "min_fixed": 0,
+          "max_fixed": 0,
+          "tx_count": 300,
+          "volume": 16960.44,
+          "commission": 297.04
+        }
+      },
+      "total_tx": 300,
+      "total_volume": 16960.44,
+      "total_commission": 297.04
+    }
+  ],
+  "month_meta": {
+    "2025-03": {
+      "currencies": [
+        "EUR"
+      ],
+      "countries": [],
+      "gate_types": [
+        "card"
+      ]
+    },
+    "2025-05": {
+      "currencies": [
+        "EUR"
+      ],
+      "countries": [],
+      "gate_types": [
+        "card"
+      ]
+    },
+    "2025-06": {
+      "currencies": [
+        "EUR"
+      ],
+      "countries": [],
+      "gate_types": [
+        "card"
+      ]
+    },
+    "2025-07": {
+      "currencies": [
+        "EUR"
+      ],
+      "countries": [],
+      "gate_types": [
+        "card"
+      ]
+    },
+    "2025-08": {
+      "currencies": [
+        "EUR"
+      ],
+      "countries": [],
+      "gate_types": [
+        "card"
+      ]
+    },
+    "2025-09": {
+      "currencies": [
+        "EUR"
+      ],
+      "countries": [],
+      "gate_types": [
+        "card"
+      ]
+    },
+    "2025-10": {
+      "currencies": [
+        "EUR"
+      ],
+      "countries": [],
+      "gate_types": [
+        "card"
+      ]
+    }
+  }
+}

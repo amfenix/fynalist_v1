@@ -1,0 +1,60 @@
+{
+  "plan_id": "ONLINE_GO_EUR_1.75",
+  "merchant_id": 8,
+  "merchant_name": "ONLINE GO",
+  "is_contract": false,
+  "is_anomaly": false,
+  "rate": 1.75,
+  "fixed_fee": 0,
+  "formula": "1.75%",
+  "months": [
+    "2025-04",
+    "2025-05",
+    "2025-06",
+    "2025-07"
+  ],
+  "monthly_data": [
+    {
+      "month": "2025-04",
+      "tx_count": 18493,
+      "volume": 955395.86,
+      "commission": 16737.72,
+      "avg_rate": 1.75,
+      "min_rate": 1.75,
+      "max_rate": 1.75
+    },
+    {
+      "month": "2025-05",
+      "tx_count": 20290,
+      "volume": 993905.67,
+      "commission": 17410.37,
+      "avg_rate": 1.75,
+      "min_rate": 1.75,
+      "max_rate": 1.75
+    },
+    {
+      "month": "2025-06",
+      "tx_count": 25448,
+      "volume": 1399486.06,
+      "commission": 24515.31,
+      "avg_rate": 1.75,
+      "min_rate": 1.75,
+      "max_rate": 1.75
+    },
+    {
+      "month": "2025-07",
+      "tx_count": 21199,
+      "volume": 1185127.6,
+      "commission": 20770.5,
+      "avg_rate": 1.75,
+      "min_rate": 1.75,
+      "max_rate": 1.75
+    }
+  ],
+  "totals": {
+    "tx_count": 85430,
+    "volume": 4533915.19,
+    "commission": 79433.9,
+    "avg_rate": 1.75
+  }
+}

@@ -1,0 +1,284 @@
+{
+  "months": [
+    "2025-05",
+    "2025-06",
+    "2025-07",
+    "2025-08",
+    "2025-09",
+    "2025-10",
+    "2025-11",
+    "2025-12"
+  ],
+  "plans": [
+    {
+      "plan_id": "TECHFIN_SIGMA_SOLUTION_LTD_EUR_CONTRACT",
+      "label": "Internet Acquiring (Contract)",
+      "is_contract": true,
+      "is_anomaly": false,
+      "first": null,
+      "last": null,
+      "tx_types": [
+        "sale"
+      ],
+      "counts": {},
+      "coverage": {
+        "currencies": [
+          "EUR"
+        ],
+        "countries": [],
+        "gate_types": [
+          "card"
+        ]
+      },
+      "commission": {
+        "avg_rate": 5.0,
+        "min_rate": 5.0,
+        "max_rate": 5.0,
+        "avg_fixed": 0,
+        "min_fixed": 0,
+        "max_fixed": 0
+      },
+      "monthly_commission": {}
+    },
+    {
+      "plan_id": "TECHFIN_SIGMA_SOLUTION_LTD_EUR_5.0",
+      "label": "Internet Acquiring @ 5.0%",
+      "is_contract": false,
+      "is_anomaly": false,
+      "first": "2025-05",
+      "last": "2025-09",
+      "tx_types": [
+        "sale"
+      ],
+      "counts": {
+        "2025-05": 15443,
+        "2025-06": 30589,
+        "2025-07": 21385,
+        "2025-08": 26583,
+        "2025-09": 27081
+      },
+      "coverage": {
+        "currencies": [
+          "EUR"
+        ],
+        "countries": [],
+        "gate_types": [
+          "card"
+        ]
+      },
+      "commission": {
+        "avg_rate": 5.0,
+        "min_rate": 5.0,
+        "max_rate": 5.0,
+        "avg_fixed": 0,
+        "min_fixed": 0,
+        "max_fixed": 0
+      },
+      "monthly_commission": {
+        "2025-05": {
+          "avg_rate": 5.0,
+          "min_rate": 5.0,
+          "max_rate": 5.0,
+          "avg_fixed": 0,
+          "min_fixed": 0,
+          "max_fixed": 0,
+          "tx_count": 15443,
+          "volume": 1043191.33,
+          "commission": 52164.13
+        },
+        "2025-06": {
+          "avg_rate": 5.0,
+          "min_rate": 5.0,
+          "max_rate": 5.0,
+          "avg_fixed": 0,
+          "min_fixed": 0,
+          "max_fixed": 0,
+          "tx_count": 30589,
+          "volume": 1530459.24,
+          "commission": 76527.05
+        },
+        "2025-07": {
+          "avg_rate": 5.0,
+          "min_rate": 5.0,
+          "max_rate": 5.0,
+          "avg_fixed": 0,
+          "min_fixed": 0,
+          "max_fixed": 0,
+          "tx_count": 21385,
+          "volume": 1093619.05,
+          "commission": 54683.64
+        },
+        "2025-08": {
+          "avg_rate": 5.0,
+          "min_rate": 5.0,
+          "max_rate": 5.0,
+          "avg_fixed": 0,
+          "min_fixed": 0,
+          "max_fixed": 0,
+          "tx_count": 26583,
+          "volume": 1290550.28,
+          "commission": 64531.08
+        },
+        "2025-09": {
+          "avg_rate": 5.0,
+          "min_rate": 5.0,
+          "max_rate": 5.0,
+          "avg_fixed": 0,
+          "min_fixed": 0,
+          "max_fixed": 0,
+          "tx_count": 27081,
+          "volume": 1481719.2,
+          "commission": 74091.55
+        }
+      },
+      "total_tx": 121081,
+      "total_volume": 6439539.1,
+      "total_commission": 321997.45
+    },
+    {
+      "plan_id": "TECHFIN_SIGMA_SOLUTION_LTD_EUR_1.75",
+      "label": "Internet Acquiring @ 1.75%",
+      "is_contract": false,
+      "is_anomaly": false,
+      "first": "2025-10",
+      "last": "2025-12",
+      "tx_types": [
+        "sale"
+      ],
+      "counts": {
+        "2025-10": 33382,
+        "2025-11": 26737,
+        "2025-12": 19461
+      },
+      "coverage": {
+        "currencies": [
+          "EUR"
+        ],
+        "countries": [],
+        "gate_types": [
+          "card"
+        ]
+      },
+      "commission": {
+        "avg_rate": 1.75,
+        "min_rate": 1.75,
+        "max_rate": 1.75,
+        "avg_fixed": 0,
+        "min_fixed": 0,
+        "max_fixed": 0
+      },
+      "monthly_commission": {
+        "2025-10": {
+          "avg_rate": 1.75,
+          "min_rate": 1.75,
+          "max_rate": 1.75,
+          "avg_fixed": 0,
+          "min_fixed": 0,
+          "max_fixed": 0,
+          "tx_count": 33382,
+          "volume": 1847705.07,
+          "commission": 32382.48
+        },
+        "2025-11": {
+          "avg_rate": 1.75,
+          "min_rate": 1.75,
+          "max_rate": 1.75,
+          "avg_fixed": 0,
+          "min_fixed": 0,
+          "max_fixed": 0,
+          "tx_count": 26737,
+          "volume": 1500825.58,
+          "commission": 26308.64
+        },
+        "2025-12": {
+          "avg_rate": 1.75,
+          "min_rate": 1.75,
+          "max_rate": 1.75,
+          "avg_fixed": 0,
+          "min_fixed": 0,
+          "max_fixed": 0,
+          "tx_count": 19461,
+          "volume": 1143707.65,
+          "commission": 20050.69
+        }
+      },
+      "total_tx": 79580,
+      "total_volume": 4492238.3,
+      "total_commission": 78741.81
+    }
+  ],
+  "month_meta": {
+    "2025-05": {
+      "currencies": [
+        "EUR"
+      ],
+      "countries": [],
+      "gate_types": [
+        "card"
+      ]
+    },
+    "2025-06": {
+      "currencies": [
+        "EUR"
+      ],
+      "countries": [],
+      "gate_types": [
+        "card"
+      ]
+    },
+    "2025-07": {
+      "currencies": [
+        "EUR"
+      ],
+      "countries": [],
+      "gate_types": [
+        "card"
+      ]
+    },
+    "2025-08": {
+      "currencies": [
+        "EUR"
+      ],
+      "countries": [],
+      "gate_types": [
+        "card"
+      ]
+    },
+    "2025-09": {
+      "currencies": [
+        "EUR"
+      ],
+      "countries": [],
+      "gate_types": [
+        "card"
+      ]
+    },
+    "2025-10": {
+      "currencies": [
+        "EUR"
+      ],
+      "countries": [],
+      "gate_types": [
+        "card"
+      ]
+    },
+    "2025-11": {
+      "currencies": [
+        "EUR"
+      ],
+      "countries": [],
+      "gate_types": [
+        "card"
+      ]
+    },
+    "2025-12": {
+      "currencies": [
+        "EUR"
+      ],
+      "countries": [],
+      "gate_types": [
+        "card"
+      ]
+    }
+  }
+}

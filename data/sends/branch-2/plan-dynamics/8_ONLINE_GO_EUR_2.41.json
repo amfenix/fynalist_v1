@@ -1,0 +1,30 @@
+{
+  "plan_id": "ONLINE_GO_EUR_2.41",
+  "merchant_id": 8,
+  "merchant_name": "ONLINE GO",
+  "is_contract": false,
+  "is_anomaly": false,
+  "rate": 2.41,
+  "fixed_fee": 0,
+  "formula": "2.41%",
+  "months": [
+    "2025-03"
+  ],
+  "monthly_data": [
+    {
+      "month": "2025-03",
+      "tx_count": 15371,
+      "volume": 670210.68,
+      "commission": 16166.07,
+      "avg_rate": 2.41,
+      "min_rate": 2.41,
+      "max_rate": 2.41
+    }
+  ],
+  "totals": {
+    "tx_count": 15371,
+    "volume": 670210.68,
+    "commission": 16166.07,
+    "avg_rate": 2.41
+  }
+}

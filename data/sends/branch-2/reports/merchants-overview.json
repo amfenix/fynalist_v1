@@ -72,7 +72,7 @@
       "total_score": 130
     },
     {
-      "merchant_id": 4,
+      "merchant_id": 5,
       "merchant_key": "inateus",
       "merchant_name": "Inateus",
       "problems": {
@@ -112,7 +112,7 @@
       "total_score": 130
     },
     {
-      "merchant_id": 7,
+      "merchant_id": 8,
       "merchant_key": "online_go",
       "merchant_name": "ONLINE GO",
       "problems": {
@@ -152,7 +152,7 @@
       "total_score": 130
     },
     {
-      "merchant_id": 11,
+      "merchant_id": 12,
       "merchant_key": "sellpro",
       "merchant_name": "SellPro",
       "problems": {
@@ -192,7 +192,7 @@
       "total_score": 130
     },
     {
-      "merchant_id": 13,
+      "merchant_id": 14,
       "merchant_key": "sikcintivk",
       "merchant_name": "SIKCINTIVK SMART+FIN",
       "problems": {
@@ -232,7 +232,7 @@
       "total_score": 20
     },
     {
-      "merchant_id": 6,
+      "merchant_id": 7,
       "merchant_key": "muizagn",
       "merchant_name": "Muizagn",
       "problems": {
@@ -272,7 +272,7 @@
       "total_score": 80
     },
     {
-      "merchant_id": 12,
+      "merchant_id": 13,
       "merchant_key": "shop_online_ai",
       "merchant_name": "SHOP ONLINE AI",
       "problems": {
@@ -312,7 +312,7 @@
       "total_score": 80
     },
     {
-      "merchant_id": 9,
+      "merchant_id": 10,
       "merchant_key": "playoff_go",
       "merchant_name": "PLAYOFF GO",
       "problems": {
@@ -392,7 +392,7 @@
       "total_score": 20
     },
     {
-      "merchant_id": 3,
+      "merchant_id": 4,
       "merchant_key": "fintech_ai_fusion",
       "merchant_name": "FINTECH AI FUSION LTD",
       "problems": {
@@ -432,7 +432,7 @@
       "total_score": 20
     },
     {
-      "merchant_id": 5,
+      "merchant_id": 6,
       "merchant_key": "limitedco_ltd",
       "merchant_name": "LIMITEDCO LTD",
       "problems": {
@@ -472,7 +472,7 @@
       "total_score": 20
     },
     {
-      "merchant_id": 8,
+      "merchant_id": 9,
       "merchant_key": "orion",
       "merchant_name": "Orion",
       "problems": {
@@ -512,7 +512,7 @@
       "total_score": 20
     },
     {
-      "merchant_id": 15,
+      "merchant_id": 16,
       "merchant_key": "uni_cobrand_ltd",
       "merchant_name": "UNI COBRAND LTD",
       "problems": {
@@ -552,7 +552,7 @@
       "total_score": 20
     },
     {
-      "merchant_id": 16,
+      "merchant_id": 17,
       "merchant_key": "xyz_ai_limited",
       "merchant_name": "XYZ AI LIMITED",
       "problems": {
@@ -592,7 +592,7 @@
       "total_score": 20
     },
     {
-      "merchant_id": 10,
+      "merchant_id": 11,
       "merchant_key": "qebor",
       "merchant_name": "QEBOR",
       "problems": {
@@ -632,7 +632,7 @@
       "total_score": 0
     },
     {
-      "merchant_id": 14,
+      "merchant_id": 15,
       "merchant_key": "techfin_sigma",
       "merchant_name": "TECHFIN SIGMA SOLUTION LTD",
       "problems": {

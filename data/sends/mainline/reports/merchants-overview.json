@@ -11,7 +11,7 @@
     {
       "id": "date_shifts",
       "label": "Date Shifts",
-      "total_score": 200.31777714285715
+      "total_score": 60
     },
     {
       "id": "unmatched_transactions",
@@ -77,27 +77,27 @@
           "details": "Deviation: €-9,403.65 (-0.42%)"
         },
         "date_shifts": {
-          "severity": "critical",
-          "score": 100.31777714285714,
+          "severity": "minor",
+          "score": 30,
           "count": 3,
-          "critical_count": 1,
+          "critical_count": 0,
           "net_impact": 1112.22,
           "details": "EUR: Data swap between 2025-08-29 and 2025-08-31; AUD: Partial data swap between 2025-09-11 and 2025-09-26; USD: Single deviation - offsetting entry may be outside date range",
           "shifts": [
             {
               "currency": "EUR",
               "description": "Data swap between 2025-08-29 and 2025-08-31",
-              "severity": "critical"
+              "severity": "minor"
             },
             {
               "currency": "AUD",
               "description": "Partial data swap between 2025-09-11 and 2025-09-26",
-              "severity": "warning"
+              "severity": "minor"
             },
             {
               "currency": "USD",
               "description": "Single deviation - offsetting entry may be outside date range",
-              "severity": "warning"
+              "severity": "minor"
             }
           ]
         },
@@ -115,7 +115,7 @@
           "details": "6 records missing (mixed) - Points not covered in reconciliation file"
         }
       },
-      "total_score": 203.19183021428572
+      "total_score": 132.87405307142858
     },
     {
       "merchant_id": 5,
@@ -124,13 +124,7 @@
         "commission_mismatch": {
           "severity": "none",
           "score": 0,
-          "amount": 0.0,
-          "percent": 0.0,
-          "expected": 0.0,
-          "actual": 0.0,
-          "contract_rate": 3.5,
-          "effective_rate": 0,
-          "details": "No transactions"
+          "details": null
         },
         "date_shifts": {
           "severity": "none",
@@ -171,26 +165,20 @@
         "commission_mismatch": {
           "severity": "none",
           "score": 0,
-          "amount": 0.0,
-          "percent": 0.0,
-          "expected": 0.0,
-          "actual": 0.0,
-          "contract_rate": 3.8,
-          "effective_rate": 0,
-          "details": "No transactions"
+          "details": null
         },
         "date_shifts": {
-          "severity": "critical",
-          "score": 100,
+          "severity": "minor",
+          "score": 30,
           "count": 1,
-          "critical_count": 1,
+          "critical_count": 0,
           "net_impact": 0,
           "details": "AUD: Partial data swap between 2025-08-20 and 2025-08-27",
           "shifts": [
             {
               "currency": "AUD",
               "description": "Partial data swap between 2025-08-20 and 2025-08-27",
-              "severity": "critical"
+              "severity": "minor"
             }
           ]
         },
@@ -205,22 +193,16 @@
           "details": null
         }
       },
-      "total_score": 100
+      "total_score": 30
     },
     {
       "merchant_id": 2,
       "merchant_name": "AIMSKINZ LIMITED",
       "problems": {
         "commission_mismatch": {
-          "severity": "ok",
+          "severity": "none",
           "score": 0,
-          "amount": 0.0,
-          "percent": 0.0,
-          "expected": 562459.74,
-          "actual": 562459.74,
-          "contract_rate": 3.8,
-          "effective_rate": 3.8,
-          "details": "No deviation"
+          "details": null
         },
         "date_shifts": {
           "severity": "none",
@@ -257,15 +239,9 @@
       "merchant_name": "ARTIMATTER LIMITED",
       "problems": {
         "commission_mismatch": {
-          "severity": "ok",
+          "severity": "none",
           "score": 0,
-          "amount": 0.0,
-          "percent": 0.0,
-          "expected": 139986.1,
-          "actual": 139986.1,
-          "contract_rate": 3.8,
-          "effective_rate": 3.8,
-          "details": "No deviation"
+          "details": null
         },
         "date_shifts": {
           "severity": "none",
@@ -302,15 +278,9 @@
       "merchant_name": "DIVINENODE LIMITED",
       "problems": {
         "commission_mismatch": {
-          "severity": "ok",
+          "severity": "none",
           "score": 0,
-          "amount": 0.0,
-          "percent": 0.0,
-          "expected": 95096.1,
-          "actual": 95096.1,
-          "contract_rate": 3.8,
-          "effective_rate": 3.8,
-          "details": "No deviation"
+          "details": null
         },
         "date_shifts": {
           "severity": "none",
@@ -344,15 +314,9 @@
       "merchant_name": "WEBNORUS LIMITED",
       "problems": {
         "commission_mismatch": {
-          "severity": "ok",
+          "severity": "none",
           "score": 0,
-          "amount": 0.0,
-          "percent": 0.0,
-          "expected": 10634.61,
-          "actual": 10634.61,
-          "contract_rate": 3.8,
-          "effective_rate": 3.8,
-          "details": "No deviation"
+          "details": null
         },
         "date_shifts": {
           "severity": "none",
@@ -380,15 +344,9 @@
       "merchant_name": "SKINVALUT LIMITED",
       "problems": {
         "commission_mismatch": {
-          "severity": "ok",
+          "severity": "none",
           "score": 0,
-          "amount": 0.0,
-          "percent": 0.0,
-          "expected": 870297.3,
-          "actual": 870297.3,
-          "contract_rate": 3.8,
-          "effective_rate": 3.8,
-          "details": "No deviation"
+          "details": null
         },
         "date_shifts": {
           "severity": "none",
@@ -413,15 +371,9 @@
       "merchant_name": "DIRMENION LTD",
       "problems": {
         "commission_mismatch": {
-          "severity": "ok",
+          "severity": "none",
           "score": 0,
-          "amount": 0.0,
-          "percent": 0.0,
-          "expected": 172655.38,
-          "actual": 172655.38,
-          "contract_rate": 3.8,
-          "effective_rate": 3.8,
-          "details": "No deviation"
+          "details": null
         },
         "date_shifts": {
           "severity": "none",
@@ -446,15 +398,9 @@
       "merchant_name": "AETHERIC CORE LIMITED",
       "problems": {
         "commission_mismatch": {
-          "severity": "ok",
+          "severity": "none",
           "score": 0,
-          "amount": 0.0,
-          "percent": 0.0,
-          "expected": 138386.8,
-          "actual": 138386.8,
-          "contract_rate": 3.8,
-          "effective_rate": 3.8,
-          "details": "No deviation"
+          "details": null
         },
         "date_shifts": {
           "severity": "none",
@@ -479,15 +425,9 @@
       "merchant_name": "DINTARES LTD",
       "problems": {
         "commission_mismatch": {
-          "severity": "ok",
+          "severity": "none",
           "score": 0,
-          "amount": 0.0,
-          "percent": 0.0,
-          "expected": 152888.78,
-          "actual": 152888.78,
-          "contract_rate": 3.8,
-          "effective_rate": 3.8,
-          "details": "No deviation"
+          "details": null
         },
         "date_shifts": {
           "severity": "none",
@@ -512,15 +452,9 @@
       "merchant_name": "SKINVEX LTD",
       "problems": {
         "commission_mismatch": {
-          "severity": "ok",
+          "severity": "none",
           "score": 0,
-          "amount": 0.0,
-          "percent": 0.0,
-          "expected": 111105.07,
-          "actual": 111105.07,
-          "contract_rate": 3.8,
-          "effective_rate": 3.8,
-          "details": "No deviation"
+          "details": null
         },
         "date_shifts": {
           "severity": "none",
@@ -545,15 +479,9 @@
       "merchant_name": "RENAMESTRA LTD",
       "problems": {
         "commission_mismatch": {
-          "severity": "ok",
+          "severity": "none",
           "score": 0,
-          "amount": 0.0,
-          "percent": 0.0,
-          "expected": 46851.84,
-          "actual": 46851.84,
-          "contract_rate": 3.8,
-          "effective_rate": 3.8,
-          "details": "No deviation"
+          "details": null
         },
         "date_shifts": {
           "severity": "none",
@@ -578,15 +506,9 @@
       "merchant_name": "SKINRIFF LIMITED",
       "problems": {
         "commission_mismatch": {
-          "severity": "ok",
+          "severity": "none",
           "score": 0,
-          "amount": 0.0,
-          "percent": 0.0,
-          "expected": 36788.99,
-          "actual": 36788.99,
-          "contract_rate": 3.8,
-          "effective_rate": 3.8,
-          "details": "No deviation"
+          "details": null
         },
         "date_shifts": {
           "severity": "none",
@@ -611,15 +533,9 @@
       "merchant_name": "TERRAGAMINEX LIMITED",
       "problems": {
         "commission_mismatch": {
-          "severity": "ok",
+          "severity": "none",
           "score": 0,
-          "amount": 0.0,
-          "percent": 0.0,
-          "expected": 23434.23,
-          "actual": 23434.23,
-          "contract_rate": 3.8,
-          "effective_rate": 3.8,
-          "details": "No deviation"
+          "details": null
         },
         "date_shifts": {
           "severity": "none",
@@ -644,15 +560,9 @@
       "merchant_name": "QUANTESSA LTD",
       "problems": {
         "commission_mismatch": {
-          "severity": "ok",
+          "severity": "none",
           "score": 0,
-          "amount": 0.0,
-          "percent": 0.0,
-          "expected": 27504.87,
-          "actual": 27504.87,
-          "contract_rate": 3.8,
-          "effective_rate": 3.8,
-          "details": "No deviation"
+          "details": null
         },
         "date_shifts": {
           "severity": "none",
@@ -677,15 +587,9 @@
       "merchant_name": "DEVALENIUS LTD",
       "problems": {
         "commission_mismatch": {
-          "severity": "ok",
+          "severity": "none",
           "score": 0,
-          "amount": 0.0,
-          "percent": 0.0,
-          "expected": 14114.22,
-          "actual": 14114.22,
-          "contract_rate": 3.8,
-          "effective_rate": 3.8,
-          "details": "No deviation"
+          "details": null
         },
         "date_shifts": {
           "severity": "none",
@@ -710,15 +614,9 @@
       "merchant_name": "ARTEFACTAX LIMITED",
       "problems": {
         "commission_mismatch": {
-          "severity": "ok",
+          "severity": "none",
           "score": 0,
-          "amount": 0.0,
-          "percent": 0.0,
-          "expected": 354.4,
-          "actual": 354.4,
-          "contract_rate": 3.8,
-          "effective_rate": 3.8,
-          "details": "No deviation"
+          "details": null
         },
         "date_shifts": {
           "severity": "none",
@@ -745,13 +643,7 @@
         "commission_mismatch": {
           "severity": "none",
           "score": 0,
-          "amount": 0.0,
-          "percent": 0.0,
-          "expected": 0.0,
-          "actual": 0.0,
-          "contract_rate": 3.8,
-          "effective_rate": 0,
-          "details": "No transactions"
+          "details": null
         },
         "date_shifts": {
           "severity": "none",
@@ -775,7 +667,7 @@
   "summary": {
     "total_merchants": 20,
     "merchants_with_issues": 8,
-    "critical_issues": 4,
+    "critical_issues": 2,
     "warning_issues": 4
   }
 }

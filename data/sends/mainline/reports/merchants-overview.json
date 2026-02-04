@@ -6,7 +6,7 @@
     {
       "id": "commission_mismatch",
       "label": "Commission Mismatch",
-      "total_score": 182.68675714285715
+      "total_score": 252.68675714285715
     },
     {
       "id": "date_shifts",
@@ -122,9 +122,15 @@
       "merchant_name": "BLOGWIZARRO LTD",
       "problems": {
         "commission_mismatch": {
-          "severity": "none",
-          "score": 0,
-          "details": null
+          "severity": "critical",
+          "score": 70,
+          "amount": 76402.23,
+          "percent": 5.9385,
+          "expected": 1286564.55,
+          "actual": 1362966.78,
+          "contract_rate": 3.5,
+          "effective_rate": 3.71,
+          "details": "Deviation: €76,402.23 (+5.94%)"
         },
         "date_shifts": {
           "severity": "none",
@@ -156,7 +162,7 @@
           "details": null
         }
       },
-      "total_score": 107.14327533714285
+      "total_score": 177.14327533714285
     },
     {
       "merchant_id": 11,

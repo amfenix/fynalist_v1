@@ -1,0 +1,154 @@
+[
+  {
+    "contract_id": "0412-24",
+    "original_contract_id": "0412-24",
+    "company_name": "QEBOR LTD",
+    "contract_date": "04.12.2024",
+    "contract_expiry": null,
+    "has_markdown": true,
+    "fee_count": 6,
+    "rolling_reserve": {
+      "percent": 10,
+      "hold_days": 180,
+      "cap_eur": 100000
+    },
+    "fees": [
+      {
+        "operation_type": "incoming",
+        "card_brands": [
+          "MasterCard"
+        ],
+        "currency_type": "fiat",
+        "volume_min": null,
+        "volume_max": null,
+        "wl_percent": 3,
+        "ftd_percent": null,
+        "payout_percent": null,
+        "fixed_fee": 0,
+        "payout_min": null,
+        "refund_fee": 5,
+        "chb_fee": 50,
+        "exchange_fee_percent": null,
+        "source": "Internet acquiring, Mastercard + ApplePay, GooglePay | 3%",
+        "currency": "EUR",
+        "region": "EU",
+        "payment_type": "card",
+        "apm_type": null
+      },
+      {
+        "operation_type": "incoming",
+        "card_brands": [
+          "MasterCard"
+        ],
+        "currency_type": "fiat",
+        "volume_min": null,
+        "volume_max": null,
+        "wl_percent": 3,
+        "ftd_percent": null,
+        "payout_percent": null,
+        "fixed_fee": 0,
+        "payout_min": null,
+        "refund_fee": 5,
+        "chb_fee": 50,
+        "exchange_fee_percent": null,
+        "source": "Internet acquiring, Mastercard + ApplePay, GooglePay | 3%",
+        "currency": "EUR",
+        "region": "UK",
+        "payment_type": "card",
+        "apm_type": null
+      },
+      {
+        "operation_type": "incoming",
+        "card_brands": [
+          null,
+          null
+        ],
+        "currency_type": "fiat",
+        "volume_min": null,
+        "volume_max": null,
+        "wl_percent": 3,
+        "ftd_percent": null,
+        "payout_percent": null,
+        "fixed_fee": 0,
+        "payout_min": null,
+        "refund_fee": 5,
+        "chb_fee": 50,
+        "exchange_fee_percent": null,
+        "source": "Internet acquiring, Mastercard + ApplePay, GooglePay | 3%",
+        "currency": "EUR",
+        "region": "EU",
+        "payment_type": "apm",
+        "apm_type": "apple_pay"
+      },
+      {
+        "operation_type": "incoming",
+        "card_brands": [
+          null,
+          null
+        ],
+        "currency_type": "fiat",
+        "volume_min": null,
+        "volume_max": null,
+        "wl_percent": 3,
+        "ftd_percent": null,
+        "payout_percent": null,
+        "fixed_fee": 0,
+        "payout_min": null,
+        "refund_fee": 5,
+        "chb_fee": 50,
+        "exchange_fee_percent": null,
+        "source": "Internet acquiring, Mastercard + ApplePay, GooglePay | 3%",
+        "currency": "EUR",
+        "region": "EU",
+        "payment_type": "apm",
+        "apm_type": "google_pay"
+      },
+      {
+        "operation_type": "incoming",
+        "card_brands": [
+          null,
+          null
+        ],
+        "currency_type": "fiat",
+        "volume_min": null,
+        "volume_max": null,
+        "wl_percent": 3,
+        "ftd_percent": null,
+        "payout_percent": null,
+        "fixed_fee": 0,
+        "payout_min": null,
+        "refund_fee": 5,
+        "chb_fee": 50,
+        "exchange_fee_percent": null,
+        "source": "Internet acquiring, Mastercard + ApplePay, GooglePay | 3%",
+        "currency": "EUR",
+        "region": "UK",
+        "payment_type": "apm",
+        "apm_type": "apple_pay"
+      },
+      {
+        "operation_type": "incoming",
+        "card_brands": [
+          null,
+          null
+        ],
+        "currency_type": "fiat",
+        "volume_min": null,
+        "volume_max": null,
+        "wl_percent": 3,
+        "ftd_percent": null,
+        "payout_percent": null,
+        "fixed_fee": 0,
+        "payout_min": null,
+        "refund_fee": 5,
+        "chb_fee": 50,
+        "exchange_fee_percent": null,
+        "source": "Internet acquiring, Mastercard + ApplePay, GooglePay | 3%",
+        "currency": "EUR",
+        "region": "UK",
+        "payment_type": "apm",
+        "apm_type": "google_pay"
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+{
+  "merchant_id": 4,
+  "months": [
+    "2025-04",
+    "2025-05",
+    "2025-06",
+    "2025-07",
+    "2025-08",
+    "2025-09",
+    "2025-10",
+    "2025-11",
+    "2025-12"
+  ],
+  "plans": [
+    {
+      "plan_id": "FINTECH_AI_FUSION_LTD_EUR_1.75",
+      "currency": "EUR",
+      "total_transactions": 212609,
+      "contract_fee": null,
+      "using_contract": false,
+      "formula": "1.75% + 0",
+      "confidence": 100.0,
+      "is_single_variant": true,
+      "avg_rate": 1.75,
+      "avg_fixed_eur": 0.0,
+      "unmatched_count": 0,
+      "variants": [
+        {
+          "variant_id": 0,
+          "label": "discovered_1",
+          "rate": 1.75,
+          "fixed_fee": 0.0,
+          "fixed_fee_eur": 0.0,
+          "fixed_fee_source": "discovered",
+          "min_fee": 0.0,
+          "currency": "EUR",
+          "formula": "1.75% + 0",
+          "start_date": "2025-04-17",
+          "end_date": "2025-12-31",
+          "transaction_count": 212609,
+          "match_count": 212609,
+          "confidence": 100.0,
+          "monthly_counts": {
+            "2025-04": 15082,
+            "2025-05": 19348,
+            "2025-06": 29058,
+            "2025-07": 19305,
+            "2025-08": 24458,
+            "2025-09": 26571,
+            "2025-10": 32356,
+            "2025-11": 26895,
+            "2025-12": 19536
+          }
+        }
+      ],
+      "monthly_counts": {
+        "2025-04": {
+          "0": 15082
+        },
+        "2025-05": {
+          "0": 19348
+        },
+        "2025-06": {
+          "0": 29058
+        },
+        "2025-07": {
+          "0": 19305
+        },
+        "2025-08": {
+          "0": 24458
+        },
+        "2025-09": {
+          "0": 26571
+        },
+        "2025-10": {
+          "0": 32356
+        },
+        "2025-11": {
+          "0": 26895
+        },
+        "2025-12": {
+          "0": 19536
+        }
+      }
+    }
+  ],
+  "using_contract": false
+}

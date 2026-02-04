@@ -1,0 +1,118 @@
+{
+  "merchant_id": 15,
+  "months": [
+    "2025-05",
+    "2025-06",
+    "2025-07",
+    "2025-08",
+    "2025-09",
+    "2025-10",
+    "2025-11",
+    "2025-12"
+  ],
+  "plans": [
+    {
+      "plan_id": "TECHFIN_SIGMA_SOLUTION_LTD_EUR_5.0",
+      "currency": "EUR",
+      "total_transactions": 121081,
+      "contract_fee": null,
+      "using_contract": false,
+      "formula": "5.0% + 0",
+      "confidence": 100.0,
+      "is_single_variant": true,
+      "avg_rate": 5.0,
+      "avg_fixed_eur": 0.0,
+      "unmatched_count": 0,
+      "variants": [
+        {
+          "variant_id": 0,
+          "label": "discovered_1",
+          "rate": 5.0,
+          "fixed_fee": 0.0,
+          "fixed_fee_eur": 0.0,
+          "fixed_fee_source": "discovered",
+          "min_fee": 0.0,
+          "currency": "EUR",
+          "formula": "5.0% + 0",
+          "start_date": "2025-05-19",
+          "end_date": "2025-09-30",
+          "transaction_count": 121081,
+          "match_count": 121081,
+          "confidence": 100.0,
+          "monthly_counts": {
+            "2025-05": 15443,
+            "2025-06": 30589,
+            "2025-07": 21385,
+            "2025-08": 26583,
+            "2025-09": 27081
+          }
+        }
+      ],
+      "monthly_counts": {
+        "2025-05": {
+          "0": 15443
+        },
+        "2025-06": {
+          "0": 30589
+        },
+        "2025-07": {
+          "0": 21385
+        },
+        "2025-08": {
+          "0": 26583
+        },
+        "2025-09": {
+          "0": 27081
+        }
+      }
+    },
+    {
+      "plan_id": "TECHFIN_SIGMA_SOLUTION_LTD_EUR_1.75",
+      "currency": "EUR",
+      "total_transactions": 79580,
+      "contract_fee": null,
+      "using_contract": false,
+      "formula": "1.75% + 0",
+      "confidence": 100.0,
+      "is_single_variant": true,
+      "avg_rate": 1.75,
+      "avg_fixed_eur": 0.0,
+      "unmatched_count": 0,
+      "variants": [
+        {
+          "variant_id": 0,
+          "label": "discovered_2",
+          "rate": 1.75,
+          "fixed_fee": 0.0,
+          "fixed_fee_eur": 0.0,
+          "fixed_fee_source": "discovered",
+          "min_fee": 0.0,
+          "currency": "EUR",
+          "formula": "1.75% + 0",
+          "start_date": "2025-10-01",
+          "end_date": "2025-12-31",
+          "transaction_count": 79580,
+          "match_count": 79580,
+          "confidence": 100.0,
+          "monthly_counts": {
+            "2025-10": 33382,
+            "2025-11": 26737,
+            "2025-12": 19461
+          }
+        }
+      ],
+      "monthly_counts": {
+        "2025-10": {
+          "0": 33382
+        },
+        "2025-11": {
+          "0": 26737
+        },
+        "2025-12": {
+          "0": 19461
+        }
+      }
+    }
+  ],
+  "using_contract": false
+}

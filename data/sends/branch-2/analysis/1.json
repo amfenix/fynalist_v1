@@ -1,0 +1,58 @@
+{
+  "merchant_id": 1,
+  "months": [
+    "2025-10",
+    "2025-11",
+    "2025-12"
+  ],
+  "plans": [
+    {
+      "plan_id": "ALFA_EUR_1.75",
+      "currency": "EUR",
+      "total_transactions": 48358,
+      "contract_fee": null,
+      "using_contract": false,
+      "formula": "1.75% + 0",
+      "confidence": 100.0,
+      "is_single_variant": true,
+      "avg_rate": 1.75,
+      "avg_fixed_eur": 0.0,
+      "unmatched_count": 0,
+      "variants": [
+        {
+          "variant_id": 0,
+          "label": "discovered_1",
+          "rate": 1.75,
+          "fixed_fee": 0.0,
+          "fixed_fee_eur": 0.0,
+          "fixed_fee_source": "discovered",
+          "min_fee": 0.0,
+          "currency": "EUR",
+          "formula": "1.75% + 0",
+          "start_date": "2025-10-30",
+          "end_date": "2025-12-31",
+          "transaction_count": 48358,
+          "match_count": 48358,
+          "confidence": 100.0,
+          "monthly_counts": {
+            "2025-10": 3113,
+            "2025-11": 26015,
+            "2025-12": 19230
+          }
+        }
+      ],
+      "monthly_counts": {
+        "2025-10": {
+          "0": 3113
+        },
+        "2025-11": {
+          "0": 26015
+        },
+        "2025-12": {
+          "0": 19230
+        }
+      }
+    }
+  ],
+  "using_contract": false
+}

@@ -1,0 +1,202 @@
+[
+  {
+    "contract_id": "1302-25",
+    "original_contract_id": "1302-25",
+    "company_name": "SELL PRO GO LTD",
+    "contract_date": "13.02.2025",
+    "contract_expiry": "13.02.2026",
+    "has_markdown": true,
+    "fee_count": 8,
+    "rolling_reserve": {
+      "percent": 10,
+      "hold_days": 180,
+      "cap_eur": 100000
+    },
+    "fees": [
+      {
+        "operation_type": "incoming",
+        "card_brands": [
+          "Visa",
+          "MasterCard"
+        ],
+        "currency_type": "fiat",
+        "volume_min": null,
+        "volume_max": null,
+        "wl_percent": 3,
+        "ftd_percent": null,
+        "payout_percent": null,
+        "fixed_fee": 0,
+        "payout_min": null,
+        "refund_fee": 5,
+        "chb_fee": 50,
+        "exchange_fee_percent": null,
+        "source": "Internet acquiring EUR (including ApplePay, GooglePay, SamsungPay) | 3% | Chargeback 50 EUR | Refund 5 EUR",
+        "currency": "EUR",
+        "region": "EU",
+        "payment_type": "card",
+        "apm_type": null
+      },
+      {
+        "operation_type": "incoming",
+        "card_brands": [
+          "Visa",
+          "MasterCard"
+        ],
+        "currency_type": "fiat",
+        "volume_min": null,
+        "volume_max": null,
+        "wl_percent": 3,
+        "ftd_percent": null,
+        "payout_percent": null,
+        "fixed_fee": 0,
+        "payout_min": null,
+        "refund_fee": 5,
+        "chb_fee": 50,
+        "exchange_fee_percent": null,
+        "source": "Internet acquiring EUR (including ApplePay, GooglePay, SamsungPay) | 3% | Chargeback 50 EUR | Refund 5 EUR",
+        "currency": "EUR",
+        "region": "EU",
+        "payment_type": "apm",
+        "apm_type": "apple_pay"
+      },
+      {
+        "operation_type": "incoming",
+        "card_brands": [
+          "Visa",
+          "MasterCard"
+        ],
+        "currency_type": "fiat",
+        "volume_min": null,
+        "volume_max": null,
+        "wl_percent": 3,
+        "ftd_percent": null,
+        "payout_percent": null,
+        "fixed_fee": 0,
+        "payout_min": null,
+        "refund_fee": 5,
+        "chb_fee": 50,
+        "exchange_fee_percent": null,
+        "source": "Internet acquiring EUR (including ApplePay, GooglePay, SamsungPay) | 3% | Chargeback 50 EUR | Refund 5 EUR",
+        "currency": "EUR",
+        "region": "EU",
+        "payment_type": "apm",
+        "apm_type": "google_pay"
+      },
+      {
+        "operation_type": "incoming",
+        "card_brands": [
+          "Visa",
+          "MasterCard"
+        ],
+        "currency_type": "fiat",
+        "volume_min": null,
+        "volume_max": null,
+        "wl_percent": 3,
+        "ftd_percent": null,
+        "payout_percent": null,
+        "fixed_fee": 0,
+        "payout_min": null,
+        "refund_fee": 5,
+        "chb_fee": 50,
+        "exchange_fee_percent": null,
+        "source": "Internet acquiring EUR (including ApplePay, GooglePay, SamsungPay) | 3% | Chargeback 50 EUR | Refund 5 EUR",
+        "currency": "EUR",
+        "region": "EU",
+        "payment_type": "apm",
+        "apm_type": "samsung_pay"
+      },
+      {
+        "operation_type": "incoming",
+        "card_brands": [
+          "Visa",
+          "MasterCard"
+        ],
+        "currency_type": "fiat",
+        "volume_min": null,
+        "volume_max": null,
+        "wl_percent": 3,
+        "ftd_percent": null,
+        "payout_percent": null,
+        "fixed_fee": 0,
+        "payout_min": null,
+        "refund_fee": 5,
+        "chb_fee": 50,
+        "exchange_fee_percent": null,
+        "source": "Internet acquiring EUR (including ApplePay, GooglePay, SamsungPay) | 3% | Chargeback 50 EUR | Refund 5 EUR",
+        "currency": "EUR",
+        "region": "GB",
+        "payment_type": "card",
+        "apm_type": null
+      },
+      {
+        "operation_type": "incoming",
+        "card_brands": [
+          "Visa",
+          "MasterCard"
+        ],
+        "currency_type": "fiat",
+        "volume_min": null,
+        "volume_max": null,
+        "wl_percent": 3,
+        "ftd_percent": null,
+        "payout_percent": null,
+        "fixed_fee": 0,
+        "payout_min": null,
+        "refund_fee": 5,
+        "chb_fee": 50,
+        "exchange_fee_percent": null,
+        "source": "Internet acquiring EUR (including ApplePay, GooglePay, SamsungPay) | 3% | Chargeback 50 EUR | Refund 5 EUR",
+        "currency": "EUR",
+        "region": "GB",
+        "payment_type": "apm",
+        "apm_type": "apple_pay"
+      },
+      {
+        "operation_type": "incoming",
+        "card_brands": [
+          "Visa",
+          "MasterCard"
+        ],
+        "currency_type": "fiat",
+        "volume_min": null,
+        "volume_max": null,
+        "wl_percent": 3,
+        "ftd_percent": null,
+        "payout_percent": null,
+        "fixed_fee": 0,
+        "payout_min": null,
+        "refund_fee": 5,
+        "chb_fee": 50,
+        "exchange_fee_percent": null,
+        "source": "Internet acquiring EUR (including ApplePay, GooglePay, SamsungPay) | 3% | Chargeback 50 EUR | Refund 5 EUR",
+        "currency": "EUR",
+        "region": "GB",
+        "payment_type": "apm",
+        "apm_type": "google_pay"
+      },
+      {
+        "operation_type": "incoming",
+        "card_brands": [
+          "Visa",
+          "MasterCard"
+        ],
+        "currency_type": "fiat",
+        "volume_min": null,
+        "volume_max": null,
+        "wl_percent": 3,
+        "ftd_percent": null,
+        "payout_percent": null,
+        "fixed_fee": 0,
+        "payout_min": null,
+        "refund_fee": 5,
+        "chb_fee": 50,
+        "exchange_fee_percent": null,
+        "source": "Internet acquiring EUR (including ApplePay, GooglePay, SamsungPay) | 3% | Chargeback 50 EUR | Refund 5 EUR",
+        "currency": "EUR",
+        "region": "GB",
+        "payment_type": "apm",
+        "apm_type": "samsung_pay"
+      }
+    ]
+  }
+]

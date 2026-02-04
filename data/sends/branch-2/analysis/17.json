@@ -1,0 +1,73 @@
+{
+  "merchant_id": 17,
+  "months": [
+    "2025-07",
+    "2025-08",
+    "2025-09",
+    "2025-10",
+    "2025-11",
+    "2025-12"
+  ],
+  "plans": [
+    {
+      "plan_id": "XYZ_AI_LIMITED_EUR_1.75",
+      "currency": "EUR",
+      "total_transactions": 148023,
+      "contract_fee": null,
+      "using_contract": false,
+      "formula": "1.75% + 0",
+      "confidence": 100.0,
+      "is_single_variant": true,
+      "avg_rate": 1.75,
+      "avg_fixed_eur": 0.0,
+      "unmatched_count": 0,
+      "variants": [
+        {
+          "variant_id": 0,
+          "label": "discovered_1",
+          "rate": 1.75,
+          "fixed_fee": 0.0,
+          "fixed_fee_eur": 0.0,
+          "fixed_fee_source": "discovered",
+          "min_fee": 0.0,
+          "currency": "EUR",
+          "formula": "1.75% + 0",
+          "start_date": "2025-07-17",
+          "end_date": "2025-12-31",
+          "transaction_count": 148023,
+          "match_count": 148023,
+          "confidence": 100.0,
+          "monthly_counts": {
+            "2025-07": 19624,
+            "2025-08": 25013,
+            "2025-09": 25982,
+            "2025-10": 32396,
+            "2025-11": 25569,
+            "2025-12": 19439
+          }
+        }
+      ],
+      "monthly_counts": {
+        "2025-07": {
+          "0": 19624
+        },
+        "2025-08": {
+          "0": 25013
+        },
+        "2025-09": {
+          "0": 25982
+        },
+        "2025-10": {
+          "0": 32396
+        },
+        "2025-11": {
+          "0": 25569
+        },
+        "2025-12": {
+          "0": 19439
+        }
+      }
+    }
+  ],
+  "using_contract": false
+}

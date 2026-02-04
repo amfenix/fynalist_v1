@@ -1,0 +1,277 @@
+{
+  "merchant_id": 11,
+  "months": [
+    "2025-03",
+    "2025-05",
+    "2025-06",
+    "2025-07",
+    "2025-08",
+    "2025-09",
+    "2025-10"
+  ],
+  "plans": [
+    {
+      "plan_id": "QEBOR_EUR_1.75",
+      "currency": "EUR",
+      "total_transactions": 117189,
+      "contract_fee": null,
+      "using_contract": false,
+      "formula": "1.75% + 0",
+      "confidence": 100.0,
+      "is_single_variant": true,
+      "avg_rate": 1.75,
+      "avg_fixed_eur": 0.0,
+      "unmatched_count": 0,
+      "variants": [
+        {
+          "variant_id": 0,
+          "label": "discovered_1",
+          "rate": 1.75,
+          "fixed_fee": 0.0,
+          "fixed_fee_eur": 0.0,
+          "fixed_fee_source": "discovered",
+          "min_fee": 0.0,
+          "currency": "EUR",
+          "formula": "1.75% + 0",
+          "start_date": "2025-03-12",
+          "end_date": "2025-10-30",
+          "transaction_count": 117189,
+          "match_count": 117189,
+          "confidence": 100.0,
+          "monthly_counts": {
+            "2025-03": 476,
+            "2025-05": 1,
+            "2025-06": 22250,
+            "2025-07": 14395,
+            "2025-08": 22592,
+            "2025-09": 26922,
+            "2025-10": 30553
+          }
+        }
+      ],
+      "monthly_counts": {
+        "2025-03": {
+          "0": 476
+        },
+        "2025-05": {
+          "0": 1
+        },
+        "2025-06": {
+          "0": 22250
+        },
+        "2025-07": {
+          "0": 14395
+        },
+        "2025-08": {
+          "0": 22592
+        },
+        "2025-09": {
+          "0": 26922
+        },
+        "2025-10": {
+          "0": 30553
+        }
+      }
+    },
+    {
+      "plan_id": "QEBOR_EUR_1.76",
+      "currency": "EUR",
+      "total_transactions": 4873,
+      "contract_fee": null,
+      "using_contract": false,
+      "formula": "1.76% + 0",
+      "confidence": 100.0,
+      "is_single_variant": true,
+      "avg_rate": 1.76,
+      "avg_fixed_eur": 0.0,
+      "unmatched_count": 0,
+      "variants": [
+        {
+          "variant_id": 0,
+          "label": "discovered_2",
+          "rate": 1.76,
+          "fixed_fee": 0.0,
+          "fixed_fee_eur": 0.0,
+          "fixed_fee_source": "discovered",
+          "min_fee": 0.0,
+          "currency": "EUR",
+          "formula": "1.76% + 0",
+          "start_date": "2025-03-18",
+          "end_date": "2025-07-30",
+          "transaction_count": 4873,
+          "match_count": 4873,
+          "confidence": 100.0,
+          "monthly_counts": {
+            "2025-03": 56,
+            "2025-07": 4817
+          }
+        }
+      ],
+      "monthly_counts": {
+        "2025-03": {
+          "0": 56
+        },
+        "2025-07": {
+          "0": 4817
+        }
+      }
+    },
+    {
+      "plan_id": "QEBOR_EUR_1.74",
+      "currency": "EUR",
+      "total_transactions": 1424,
+      "contract_fee": null,
+      "using_contract": false,
+      "formula": "1.74% + 0",
+      "confidence": 100.0,
+      "is_single_variant": true,
+      "avg_rate": 1.74,
+      "avg_fixed_eur": 0.0,
+      "unmatched_count": 0,
+      "variants": [
+        {
+          "variant_id": 0,
+          "label": "discovered_3",
+          "rate": 1.74,
+          "fixed_fee": 0.0,
+          "fixed_fee_eur": 0.0,
+          "fixed_fee_source": "discovered",
+          "min_fee": 0.0,
+          "currency": "EUR",
+          "formula": "1.74% + 0",
+          "start_date": "2025-07-03",
+          "end_date": "2025-07-21",
+          "transaction_count": 1424,
+          "match_count": 1424,
+          "confidence": 100.0,
+          "monthly_counts": {
+            "2025-07": 1424
+          }
+        }
+      ],
+      "monthly_counts": {
+        "2025-07": {
+          "0": 1424
+        }
+      }
+    },
+    {
+      "plan_id": "QEBOR_EUR_1.77",
+      "currency": "EUR",
+      "total_transactions": 457,
+      "contract_fee": null,
+      "using_contract": false,
+      "formula": "1.77% + 0",
+      "confidence": 100.0,
+      "is_single_variant": true,
+      "avg_rate": 1.77,
+      "avg_fixed_eur": 0.0,
+      "unmatched_count": 0,
+      "variants": [
+        {
+          "variant_id": 0,
+          "label": "discovered_4",
+          "rate": 1.77,
+          "fixed_fee": 0.0,
+          "fixed_fee_eur": 0.0,
+          "fixed_fee_source": "discovered",
+          "min_fee": 0.0,
+          "currency": "EUR",
+          "formula": "1.77% + 0",
+          "start_date": "2025-07-20",
+          "end_date": "2025-07-20",
+          "transaction_count": 457,
+          "match_count": 457,
+          "confidence": 100.0,
+          "monthly_counts": {
+            "2025-07": 457
+          }
+        }
+      ],
+      "monthly_counts": {
+        "2025-07": {
+          "0": 457
+        }
+      }
+    },
+    {
+      "plan_id": "QEBOR_EUR_1.78",
+      "currency": "EUR",
+      "total_transactions": 355,
+      "contract_fee": null,
+      "using_contract": false,
+      "formula": "1.78% + 0",
+      "confidence": 100.0,
+      "is_single_variant": true,
+      "avg_rate": 1.78,
+      "avg_fixed_eur": 0.0,
+      "unmatched_count": 0,
+      "variants": [
+        {
+          "variant_id": 0,
+          "label": "discovered_5",
+          "rate": 1.78,
+          "fixed_fee": 0.0,
+          "fixed_fee_eur": 0.0,
+          "fixed_fee_source": "discovered",
+          "min_fee": 0.0,
+          "currency": "EUR",
+          "formula": "1.78% + 0",
+          "start_date": "2025-07-22",
+          "end_date": "2025-07-22",
+          "transaction_count": 355,
+          "match_count": 355,
+          "confidence": 100.0,
+          "monthly_counts": {
+            "2025-07": 355
+          }
+        }
+      ],
+      "monthly_counts": {
+        "2025-07": {
+          "0": 355
+        }
+      }
+    },
+    {
+      "plan_id": "QEBOR_EUR_1.72",
+      "currency": "EUR",
+      "total_transactions": 300,
+      "contract_fee": null,
+      "using_contract": false,
+      "formula": "1.72% + 0",
+      "confidence": 100.0,
+      "is_single_variant": true,
+      "avg_rate": 1.72,
+      "avg_fixed_eur": 0.0,
+      "unmatched_count": 0,
+      "variants": [
+        {
+          "variant_id": 0,
+          "label": "discovered_6",
+          "rate": 1.72,
+          "fixed_fee": 0.0,
+          "fixed_fee_eur": 0.0,
+          "fixed_fee_source": "discovered",
+          "min_fee": 0.0,
+          "currency": "EUR",
+          "formula": "1.72% + 0",
+          "start_date": "2025-07-23",
+          "end_date": "2025-07-23",
+          "transaction_count": 300,
+          "match_count": 300,
+          "confidence": 100.0,
+          "monthly_counts": {
+            "2025-07": 300
+          }
+        }
+      ],
+      "monthly_counts": {
+        "2025-07": {
+          "0": 300
+        }
+      }
+    }
+  ],
+  "using_contract": false
+}

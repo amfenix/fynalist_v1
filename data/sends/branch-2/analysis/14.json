@@ -1,0 +1,142 @@
+{
+  "merchant_id": 14,
+  "months": [
+    "2025-01",
+    "2025-03",
+    "2025-04",
+    "2025-05",
+    "2025-06"
+  ],
+  "plans": [
+    {
+      "plan_id": "SIKCINTIVK_SMART+FIN_EUR_1.75",
+      "currency": "EUR",
+      "total_transactions": 96103,
+      "contract_fee": null,
+      "using_contract": false,
+      "formula": "1.75% + 0",
+      "confidence": 100.0,
+      "is_single_variant": true,
+      "avg_rate": 1.75,
+      "avg_fixed_eur": 0.0,
+      "unmatched_count": 0,
+      "variants": [
+        {
+          "variant_id": 0,
+          "label": "discovered_1",
+          "rate": 1.75,
+          "fixed_fee": 0.0,
+          "fixed_fee_eur": 0.0,
+          "fixed_fee_source": "discovered",
+          "min_fee": 0.0,
+          "currency": "EUR",
+          "formula": "1.75% + 0",
+          "start_date": "2025-03-12",
+          "end_date": "2025-06-15",
+          "transaction_count": 96103,
+          "match_count": 96103,
+          "confidence": 100.0,
+          "monthly_counts": {
+            "2025-03": 1431,
+            "2025-04": 44792,
+            "2025-05": 36791,
+            "2025-06": 13089
+          }
+        }
+      ],
+      "monthly_counts": {
+        "2025-03": {
+          "0": 1431
+        },
+        "2025-04": {
+          "0": 44792
+        },
+        "2025-05": {
+          "0": 36791
+        },
+        "2025-06": {
+          "0": 13089
+        }
+      }
+    },
+    {
+      "plan_id": "SIKCINTIVK_SMART+FIN_EUR_1.74",
+      "currency": "EUR",
+      "total_transactions": 2353,
+      "contract_fee": null,
+      "using_contract": false,
+      "formula": "1.74% + 0",
+      "confidence": 100.0,
+      "is_single_variant": true,
+      "avg_rate": 1.74,
+      "avg_fixed_eur": 0.0,
+      "unmatched_count": 0,
+      "variants": [
+        {
+          "variant_id": 0,
+          "label": "discovered_2",
+          "rate": 1.74,
+          "fixed_fee": 0.0,
+          "fixed_fee_eur": 0.0,
+          "fixed_fee_source": "discovered",
+          "min_fee": 0.0,
+          "currency": "EUR",
+          "formula": "1.74% + 0",
+          "start_date": "2025-04-25",
+          "end_date": "2025-04-25",
+          "transaction_count": 2353,
+          "match_count": 2353,
+          "confidence": 100.0,
+          "monthly_counts": {
+            "2025-04": 2353
+          }
+        }
+      ],
+      "monthly_counts": {
+        "2025-04": {
+          "0": 2353
+        }
+      }
+    },
+    {
+      "plan_id": "SIKCINTIVK_SMART+FIN_EUR_5.0",
+      "currency": "EUR",
+      "total_transactions": 2,
+      "contract_fee": null,
+      "using_contract": false,
+      "formula": "5.0% + 0",
+      "confidence": 100.0,
+      "is_single_variant": true,
+      "avg_rate": 5.0,
+      "avg_fixed_eur": 0.0,
+      "unmatched_count": 0,
+      "variants": [
+        {
+          "variant_id": 0,
+          "label": "discovered_3",
+          "rate": 5.0,
+          "fixed_fee": 0.0,
+          "fixed_fee_eur": 0.0,
+          "fixed_fee_source": "discovered",
+          "min_fee": 0.0,
+          "currency": "EUR",
+          "formula": "5.0% + 0",
+          "start_date": "2025-01-15",
+          "end_date": "2025-01-28",
+          "transaction_count": 2,
+          "match_count": 2,
+          "confidence": 100.0,
+          "monthly_counts": {
+            "2025-01": 2
+          }
+        }
+      ],
+      "monthly_counts": {
+        "2025-01": {
+          "0": 2
+        }
+      }
+    }
+  ],
+  "using_contract": false
+}

@@ -1,0 +1,486 @@
+{
+  "merchant_id": 12,
+  "plan_id": "SellPro_EUR_5.00",
+  "rate": 5.0,
+  "variants": {
+    "0": {
+      "total_count": 43823,
+      "rate": 5.0,
+      "fixed": 0
+    }
+  },
+  "monthly": {
+    "2025-03": {
+      "total": 18891,
+      "volume": 1032198.32,
+      "commission": 51612.79,
+      "variants": {
+        "0": 18891
+      }
+    },
+    "2025-08": {
+      "total": 22936,
+      "volume": 1291329.97,
+      "commission": 64571.43,
+      "variants": {
+        "0": 22936
+      }
+    },
+    "2025-09": {
+      "total": 1996,
+      "volume": 108221.83,
+      "commission": 5412.0,
+      "variants": {
+        "0": 1996
+      }
+    }
+  },
+  "daily": {
+    "2025-03": {
+      "11": {
+        "total": 36,
+        "volume": 2353.01,
+        "commission": 117.65,
+        "variants": {
+          "0": 36
+        }
+      },
+      "12": {
+        "total": 67,
+        "volume": 2602.0,
+        "commission": 130.1,
+        "variants": {
+          "0": 67
+        }
+      },
+      "13": {
+        "total": 578,
+        "volume": 40309.4,
+        "commission": 2015.62,
+        "variants": {
+          "0": 578
+        }
+      },
+      "14": {
+        "total": 749,
+        "volume": 46583.28,
+        "commission": 2329.41,
+        "variants": {
+          "0": 749
+        }
+      },
+      "15": {
+        "total": 612,
+        "volume": 42227.56,
+        "commission": 2111.46,
+        "variants": {
+          "0": 612
+        }
+      },
+      "16": {
+        "total": 538,
+        "volume": 30856.51,
+        "commission": 1542.82,
+        "variants": {
+          "0": 538
+        }
+      },
+      "17": {
+        "total": 565,
+        "volume": 40141.51,
+        "commission": 2007.14,
+        "variants": {
+          "0": 565
+        }
+      },
+      "18": {
+        "total": 610,
+        "volume": 38255.48,
+        "commission": 1912.8,
+        "variants": {
+          "0": 610
+        }
+      },
+      "19": {
+        "total": 592,
+        "volume": 37801.64,
+        "commission": 1890.11,
+        "variants": {
+          "0": 592
+        }
+      },
+      "20": {
+        "total": 879,
+        "volume": 43440.26,
+        "commission": 2172.31,
+        "variants": {
+          "0": 879
+        }
+      },
+      "21": {
+        "total": 1268,
+        "volume": 60256.08,
+        "commission": 3013.59,
+        "variants": {
+          "0": 1268
+        }
+      },
+      "22": {
+        "total": 1017,
+        "volume": 50856.56,
+        "commission": 2543.15,
+        "variants": {
+          "0": 1017
+        }
+      },
+      "23": {
+        "total": 862,
+        "volume": 43610.54,
+        "commission": 2180.96,
+        "variants": {
+          "0": 862
+        }
+      },
+      "24": {
+        "total": 1029,
+        "volume": 54251.55,
+        "commission": 2712.87,
+        "variants": {
+          "0": 1029
+        }
+      },
+      "25": {
+        "total": 1591,
+        "volume": 84105.6,
+        "commission": 4205.39,
+        "variants": {
+          "0": 1591
+        }
+      },
+      "26": {
+        "total": 1406,
+        "volume": 72020.54,
+        "commission": 3601.05,
+        "variants": {
+          "0": 1406
+        }
+      },
+      "27": {
+        "total": 1455,
+        "volume": 77889.73,
+        "commission": 3894.71,
+        "variants": {
+          "0": 1455
+        }
+      },
+      "28": {
+        "total": 1484,
+        "volume": 83199.56,
+        "commission": 4160.07,
+        "variants": {
+          "0": 1484
+        }
+      },
+      "29": {
+        "total": 1278,
+        "volume": 69386.21,
+        "commission": 3469.34,
+        "variants": {
+          "0": 1278
+        }
+      },
+      "30": {
+        "total": 1058,
+        "volume": 51036.57,
+        "commission": 2551.56,
+        "variants": {
+          "0": 1058
+        }
+      },
+      "31": {
+        "total": 1217,
+        "volume": 61014.73,
+        "commission": 3050.68,
+        "variants": {
+          "0": 1217
+        }
+      }
+    },
+    "2025-08": {
+      "01": {
+        "total": 626,
+        "volume": 38150.77,
+        "commission": 1907.66,
+        "variants": {
+          "0": 626
+        }
+      },
+      "02": {
+        "total": 490,
+        "volume": 31183.02,
+        "commission": 1559.27,
+        "variants": {
+          "0": 490
+        }
+      },
+      "03": {
+        "total": 448,
+        "volume": 24971.24,
+        "commission": 1248.68,
+        "variants": {
+          "0": 448
+        }
+      },
+      "04": {
+        "total": 566,
+        "volume": 31247.32,
+        "commission": 1562.49,
+        "variants": {
+          "0": 566
+        }
+      },
+      "05": {
+        "total": 707,
+        "volume": 36063.53,
+        "commission": 1803.33,
+        "variants": {
+          "0": 707
+        }
+      },
+      "06": {
+        "total": 518,
+        "volume": 33227.86,
+        "commission": 1661.44,
+        "variants": {
+          "0": 518
+        }
+      },
+      "07": {
+        "total": 581,
+        "volume": 30166.05,
+        "commission": 1508.45,
+        "variants": {
+          "0": 581
+        }
+      },
+      "08": {
+        "total": 808,
+        "volume": 40870.87,
+        "commission": 2043.41,
+        "variants": {
+          "0": 808
+        }
+      },
+      "09": {
+        "total": 795,
+        "volume": 39153.2,
+        "commission": 1957.74,
+        "variants": {
+          "0": 795
+        }
+      },
+      "10": {
+        "total": 700,
+        "volume": 32798.19,
+        "commission": 1639.96,
+        "variants": {
+          "0": 700
+        }
+      },
+      "11": {
+        "total": 623,
+        "volume": 33215.94,
+        "commission": 1660.68,
+        "variants": {
+          "0": 623
+        }
+      },
+      "12": {
+        "total": 779,
+        "volume": 41200.67,
+        "commission": 2060.19,
+        "variants": {
+          "0": 779
+        }
+      },
+      "13": {
+        "total": 790,
+        "volume": 40098.5,
+        "commission": 2005.26,
+        "variants": {
+          "0": 790
+        }
+      },
+      "14": {
+        "total": 797,
+        "volume": 41497.84,
+        "commission": 2075.0,
+        "variants": {
+          "0": 797
+        }
+      },
+      "15": {
+        "total": 837,
+        "volume": 47725.62,
+        "commission": 2386.41,
+        "variants": {
+          "0": 837
+        }
+      },
+      "16": {
+        "total": 617,
+        "volume": 40559.83,
+        "commission": 2027.98,
+        "variants": {
+          "0": 617
+        }
+      },
+      "17": {
+        "total": 607,
+        "volume": 32942.15,
+        "commission": 1647.01,
+        "variants": {
+          "0": 607
+        }
+      },
+      "18": {
+        "total": 766,
+        "volume": 41177.35,
+        "commission": 2059.0,
+        "variants": {
+          "0": 766
+        }
+      },
+      "19": {
+        "total": 894,
+        "volume": 48845.81,
+        "commission": 2442.42,
+        "variants": {
+          "0": 894
+        }
+      },
+      "20": {
+        "total": 850,
+        "volume": 49978.37,
+        "commission": 2498.91,
+        "variants": {
+          "0": 850
+        }
+      },
+      "21": {
+        "total": 727,
+        "volume": 45135.03,
+        "commission": 2257.03,
+        "variants": {
+          "0": 727
+        }
+      },
+      "22": {
+        "total": 913,
+        "volume": 51887.23,
+        "commission": 2594.92,
+        "variants": {
+          "0": 913
+        }
+      },
+      "23": {
+        "total": 608,
+        "volume": 36736.66,
+        "commission": 1837.23,
+        "variants": {
+          "0": 608
+        }
+      },
+      "24": {
+        "total": 553,
+        "volume": 38211.39,
+        "commission": 1910.88,
+        "variants": {
+          "0": 553
+        }
+      },
+      "25": {
+        "total": 856,
+        "volume": 49816.1,
+        "commission": 2491.29,
+        "variants": {
+          "0": 856
+        }
+      },
+      "26": {
+        "total": 922,
+        "volume": 50816.94,
+        "commission": 2541.14,
+        "variants": {
+          "0": 922
+        }
+      },
+      "27": {
+        "total": 955,
+        "volume": 53677.42,
+        "commission": 2683.88,
+        "variants": {
+          "0": 955
+        }
+      },
+      "28": {
+        "total": 945,
+        "volume": 58100.57,
+        "commission": 2905.27,
+        "variants": {
+          "0": 945
+        }
+      },
+      "29": {
+        "total": 1095,
+        "volume": 61668.36,
+        "commission": 3083.8,
+        "variants": {
+          "0": 1095
+        }
+      },
+      "30": {
+        "total": 813,
+        "volume": 46862.51,
+        "commission": 2343.34,
+        "variants": {
+          "0": 813
+        }
+      },
+      "31": {
+        "total": 750,
+        "volume": 43343.63,
+        "commission": 2167.36,
+        "variants": {
+          "0": 750
+        }
+      }
+    },
+    "2025-09": {
+      "01": {
+        "total": 880,
+        "volume": 48291.58,
+        "commission": 2414.96,
+        "variants": {
+          "0": 880
+        }
+      },
+      "02": {
+        "total": 816,
+        "volume": 43655.63,
+        "commission": 2183.03,
+        "variants": {
+          "0": 816
+        }
+      },
+      "03": {
+        "total": 300,
+        "volume": 16274.62,
+        "commission": 814.01,
+        "variants": {
+          "0": 300
+        }
+      }
+    }
+  }
+}

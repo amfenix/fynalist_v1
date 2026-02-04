@@ -1,0 +1,127 @@
+{
+  "merchant_id": 6,
+  "months": [
+    "2025-04",
+    "2025-05",
+    "2025-06",
+    "2025-07",
+    "2025-08",
+    "2025-09",
+    "2025-10",
+    "2025-11",
+    "2025-12"
+  ],
+  "plans": [
+    {
+      "plan_id": "LIMITEDCO_LTD_EUR_1.75",
+      "currency": "EUR",
+      "total_transactions": 222030,
+      "contract_fee": null,
+      "using_contract": false,
+      "formula": "1.75% + 0",
+      "confidence": 100.0,
+      "is_single_variant": true,
+      "avg_rate": 1.75,
+      "avg_fixed_eur": 0.0,
+      "unmatched_count": 0,
+      "variants": [
+        {
+          "variant_id": 0,
+          "label": "discovered_1",
+          "rate": 1.75,
+          "fixed_fee": 0.0,
+          "fixed_fee_eur": 0.0,
+          "fixed_fee_source": "discovered",
+          "min_fee": 0.0,
+          "currency": "EUR",
+          "formula": "1.75% + 0",
+          "start_date": "2025-04-09",
+          "end_date": "2025-12-31",
+          "transaction_count": 222030,
+          "match_count": 222030,
+          "confidence": 100.0,
+          "monthly_counts": {
+            "2025-04": 22138,
+            "2025-05": 26047,
+            "2025-06": 25944,
+            "2025-07": 21717,
+            "2025-08": 23217,
+            "2025-09": 26404,
+            "2025-10": 31813,
+            "2025-11": 25555,
+            "2025-12": 19195
+          }
+        }
+      ],
+      "monthly_counts": {
+        "2025-04": {
+          "0": 22138
+        },
+        "2025-05": {
+          "0": 26047
+        },
+        "2025-06": {
+          "0": 25944
+        },
+        "2025-07": {
+          "0": 21717
+        },
+        "2025-08": {
+          "0": 23217
+        },
+        "2025-09": {
+          "0": 26404
+        },
+        "2025-10": {
+          "0": 31813
+        },
+        "2025-11": {
+          "0": 25555
+        },
+        "2025-12": {
+          "0": 19195
+        }
+      }
+    },
+    {
+      "plan_id": "LIMITEDCO_LTD_EUR_1.76",
+      "currency": "EUR",
+      "total_transactions": 2532,
+      "contract_fee": null,
+      "using_contract": false,
+      "formula": "1.76% + 0",
+      "confidence": 100.0,
+      "is_single_variant": true,
+      "avg_rate": 1.76,
+      "avg_fixed_eur": 0.0,
+      "unmatched_count": 0,
+      "variants": [
+        {
+          "variant_id": 0,
+          "label": "discovered_2",
+          "rate": 1.76,
+          "fixed_fee": 0.0,
+          "fixed_fee_eur": 0.0,
+          "fixed_fee_source": "discovered",
+          "min_fee": 0.0,
+          "currency": "EUR",
+          "formula": "1.76% + 0",
+          "start_date": "2025-04-21",
+          "end_date": "2025-04-27",
+          "transaction_count": 2532,
+          "match_count": 2532,
+          "confidence": 100.0,
+          "monthly_counts": {
+            "2025-04": 2532
+          }
+        }
+      ],
+      "monthly_counts": {
+        "2025-04": {
+          "0": 2532
+        }
+      }
+    }
+  ],
+  "using_contract": false
+}

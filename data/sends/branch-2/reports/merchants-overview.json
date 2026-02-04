@@ -4,9 +4,9 @@
   "description": "Combined view of commission compliance and reconciliation issues",
   "summary": {
     "total_merchants": 16,
-    "merchants_with_issues": 14,
-    "critical_issues": 3,
-    "warning_issues": 1
+    "merchants_with_issues": 0,
+    "critical_issues": 4,
+    "warning_issues": 0
   },
   "columns": [
     {

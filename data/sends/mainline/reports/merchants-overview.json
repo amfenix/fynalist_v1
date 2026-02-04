@@ -672,8 +672,8 @@
   ],
   "summary": {
     "total_merchants": 20,
-    "merchants_with_issues": 8,
-    "critical_issues": 2,
-    "warning_issues": 4
+    "merchants_with_issues": 7,
+    "critical_issues": 3,
+    "warning_issues": 3
   }
 }

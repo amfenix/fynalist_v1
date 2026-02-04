@@ -171,7 +171,7 @@
         "recon_rate": 3.8002,
         "contract_rate": 3.8,
         "amount_diff": 21.0,
-        "deviation_percent": 0.01,
+        "deviation_percent": 0.0035,
         "status": "ok"
       },
       {
@@ -186,7 +186,7 @@
         "recon_rate": 3.7999,
         "contract_rate": 3.8,
         "amount_diff": 20.0,
-        "deviation_percent": 0.0,
+        "deviation_percent": 0.0008,
         "status": "ok"
       },
       {
@@ -201,7 +201,7 @@
         "recon_rate": 3.7997,
         "contract_rate": 3.8,
         "amount_diff": 463.71,
-        "deviation_percent": 0.09,
+        "deviation_percent": 0.0079,
         "status": "ok"
       }
     ]

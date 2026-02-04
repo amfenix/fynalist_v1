@@ -126,7 +126,7 @@
         "recon_rate": 3.7995,
         "contract_rate": 3.8,
         "amount_diff": 0.0,
-        "deviation_percent": 0.0,
+        "deviation_percent": null,
         "status": "ok"
       },
       {
@@ -141,7 +141,7 @@
         "recon_rate": 3.7996,
         "contract_rate": 3.8,
         "amount_diff": 15112671.58,
-        "deviation_percent": 177.35,
+        "deviation_percent": null,
         "status": "error"
       },
       {
@@ -156,7 +156,7 @@
         "recon_rate": 3.8001,
         "contract_rate": 3.8,
         "amount_diff": 10310202.82,
-        "deviation_percent": 188.7,
+        "deviation_percent": null,
         "status": "error"
       },
       {
@@ -171,7 +171,7 @@
         "recon_rate": 3.7996,
         "contract_rate": 3.8,
         "amount_diff": 9425541.69,
-        "deviation_percent": 320.42,
+        "deviation_percent": null,
         "status": "error"
       },
       {
@@ -186,7 +186,7 @@
         "recon_rate": 3.7993,
         "contract_rate": 3.8,
         "amount_diff": 11181102.57,
-        "deviation_percent": 467.65,
+        "deviation_percent": null,
         "status": "error"
       },
       {
@@ -201,7 +201,7 @@
         "recon_rate": 3.8001,
         "contract_rate": 3.8,
         "amount_diff": 4925605.03,
-        "deviation_percent": 141.94,
+        "deviation_percent": null,
         "status": "error"
       }
     ]

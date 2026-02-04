@@ -22,8 +22,16 @@
     "SENDS"
   ],
   "currency_breakdown": [
-    {"currency": "EUR", "cnt": 4228, "amount": 279856.45},
-    {"currency": "PLN", "cnt": 7, "amount": 415.98}
+    {
+      "currency": "EUR",
+      "cnt": 4228,
+      "amount": 279856.45
+    },
+    {
+      "currency": "PLN",
+      "cnt": 7,
+      "amount": 415.98
+    }
   ],
   "monthly_reconciliation": {
     "EUR": [
@@ -159,7 +167,7 @@
         "recon_rate": 4.0,
         "contract_rate": 2.5,
         "amount_diff": 1.0,
-        "deviation_percent": 100.0,
+        "deviation_percent": 249.5,
         "status": "error"
       },
       {
@@ -189,7 +197,7 @@
         "recon_rate": 3.7999,
         "contract_rate": 2.5,
         "amount_diff": 0.0,
-        "deviation_percent": 0.0,
+        "deviation_percent": 1.2999,
         "status": "ok"
       },
       {
@@ -204,7 +212,7 @@
         "recon_rate": 3.8001,
         "contract_rate": 2.5,
         "amount_diff": 0.0,
-        "deviation_percent": 0.0,
+        "deviation_percent": 1.3001,
         "status": "ok"
       }
     ],

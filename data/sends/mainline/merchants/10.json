@@ -36,7 +36,7 @@
         "recon_rate": 3.7999,
         "contract_rate": 2.0,
         "amount_diff": -1704.44,
-        "deviation_percent": 0.02,
+        "deviation_percent": 1.8031,
         "status": "ok"
       },
       {
@@ -51,7 +51,7 @@
         "recon_rate": 3.6392,
         "contract_rate": 2.0,
         "amount_diff": -1368.17,
-        "deviation_percent": 0.02,
+        "deviation_percent": 1.6419,
         "status": "ok"
       },
       {
@@ -66,7 +66,7 @@
         "recon_rate": 3.5013,
         "contract_rate": 2.0,
         "amount_diff": -803.48,
-        "deviation_percent": 0.01,
+        "deviation_percent": 1.503,
         "status": "ok"
       },
       {
@@ -81,7 +81,7 @@
         "recon_rate": 3.5014,
         "contract_rate": 2.0,
         "amount_diff": -3461.68,
-        "deviation_percent": 0.04,
+        "deviation_percent": 1.5057,
         "status": "ok"
       },
       {
@@ -96,7 +96,7 @@
         "recon_rate": 3.5013,
         "contract_rate": 2.0,
         "amount_diff": -7012.63,
-        "deviation_percent": 0.08,
+        "deviation_percent": 1.5122,
         "status": "ok"
       },
       {
@@ -111,7 +111,7 @@
         "recon_rate": 3.5014,
         "contract_rate": 2.0,
         "amount_diff": -1323.79,
-        "deviation_percent": 0.01,
+        "deviation_percent": 1.5032,
         "status": "ok"
       },
       {
@@ -126,7 +126,7 @@
         "recon_rate": 3.5975,
         "contract_rate": 2.0,
         "amount_diff": -4253.95,
-        "deviation_percent": 0.07,
+        "deviation_percent": 1.6053,
         "status": "ok"
       },
       {
@@ -218,7 +218,7 @@
         "recon_rate": 2.5002,
         "contract_rate": 2.5,
         "amount_diff": 0.0,
-        "deviation_percent": 0.0,
+        "deviation_percent": 0.0002,
         "status": "ok"
       },
       {
@@ -233,7 +233,7 @@
         "recon_rate": 2.5002,
         "contract_rate": 2.5,
         "amount_diff": -0.0,
-        "deviation_percent": 0.0,
+        "deviation_percent": 0.0002,
         "status": "ok"
       },
       {
@@ -248,7 +248,7 @@
         "recon_rate": 2.5002,
         "contract_rate": 2.5,
         "amount_diff": 0.0,
-        "deviation_percent": 0.0,
+        "deviation_percent": 0.0002,
         "status": "ok"
       },
       {
@@ -278,7 +278,7 @@
         "recon_rate": 2.5007,
         "contract_rate": 2.5,
         "amount_diff": 0.0,
-        "deviation_percent": 0.0,
+        "deviation_percent": 0.0007,
         "status": "ok"
       },
       {
@@ -293,13 +293,13 @@
         "recon_rate": 2.5005,
         "contract_rate": 2.5,
         "amount_diff": -611026.22,
-        "deviation_percent": 42.13,
+        "deviation_percent": 0.0006,
         "status": "mismatch"
       },
       {
         "month": "2025-07",
         "tx_count": 34044,
-        "tx_amount": 3715664.60,
+        "tx_amount": 3715664.6,
         "tx_commission": 92905.92,
         "tx_effective_rate": 2.5004,
         "recon_count": 34043,
@@ -308,7 +308,7 @@
         "recon_rate": 2.5004,
         "contract_rate": 2.5,
         "amount_diff": 0.0,
-        "deviation_percent": 0.0,
+        "deviation_percent": 0.0004,
         "status": "ok"
       },
       {
@@ -338,7 +338,7 @@
         "recon_rate": 2.5003,
         "contract_rate": 2.5,
         "amount_diff": 0.0,
-        "deviation_percent": 0.0,
+        "deviation_percent": 0.0003,
         "status": "ok"
       },
       {
@@ -353,13 +353,13 @@
         "recon_rate": 2.5003,
         "contract_rate": 2.5,
         "amount_diff": 0.0,
-        "deviation_percent": 0.0,
+        "deviation_percent": 0.0003,
         "status": "ok"
       },
       {
         "month": "2025-11",
         "tx_count": 12421,
-        "tx_amount": 1404713.80,
+        "tx_amount": 1404713.8,
         "tx_commission": 35128.77,
         "tx_effective_rate": 2.5008,
         "recon_count": 12421,
@@ -368,7 +368,7 @@
         "recon_rate": 2.5008,
         "contract_rate": 2.5,
         "amount_diff": 0.0,
-        "deviation_percent": 0.0,
+        "deviation_percent": 0.0008,
         "status": "ok"
       },
       {
@@ -383,7 +383,7 @@
         "recon_rate": 2.5022,
         "contract_rate": 2.5,
         "amount_diff": 0.0,
-        "deviation_percent": 0.0,
+        "deviation_percent": 0.0022,
         "status": "ok"
       }
     ]

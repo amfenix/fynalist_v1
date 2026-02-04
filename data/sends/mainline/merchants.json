@@ -172,12 +172,12 @@
     "merchant_name": "SKINRIFF LIMITED",
     "merchant_group": "SENDS",
     "company_name": "SKINRIFF LIMITED",
-    "transaction_count": 0,
-    "approved_count": 0,
+    "transaction_count": 19844,
+    "approved_count": 19844,
     "declined_count": 0,
-    "acceptance_rate": 0,
-    "total_amount_eur": 0.0,
-    "total_commission_eur": 0.0
+    "acceptance_rate": 100.0,
+    "total_amount_eur": 968081.94,
+    "total_commission_eur": 36788.99
   },
   {
     "merchant_id": 16,

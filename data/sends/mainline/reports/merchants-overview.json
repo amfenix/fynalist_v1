@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-30T02:40:30.039304",
+  "generated_at": "2026-02-04T12:00:00.000000",
   "scope": "Merchants Overview Report",
   "description": "Combined view of all merchant issues from Commission Mismatch and Reconciliation Deviation reports",
   "columns": [
@@ -21,7 +21,7 @@
     {
       "id": "missing_reconciliation",
       "label": "Missing Recon",
-      "total_score": 247.2901710085714
+      "total_score": 170.18747535142854
     }
   ],
   "merchants": [
@@ -51,15 +51,15 @@
           "details": null
         },
         "missing_reconciliation": {
-          "severity": "critical",
-          "score": 107.10269565714286,
-          "records": 253,
-          "amount": 24859434.8,
-          "reason": "Merchant name/point mismatch - database has PLN/BLIK points but reconciliation file (SkinsMagnate.xlsx) contains EUR/GBP sheets",
-          "details": "253 records missing (PLN) - Merchant name/point mismatch - database has PLN/BLIK points but reconciliation file (SkinsMagnate.xlsx) contains EUR/GBP sheets"
+          "severity": "warning",
+          "score": 30,
+          "records": 1,
+          "amount": 611026.22,
+          "reason": "June 2025 PLN registry incomplete (13,327 vs 18,892 in recon)",
+          "details": "1 month with partial registry data (PLN June) - point 1589 file incomplete"
         }
       },
-      "total_score": 237.10269565714287
+      "total_score": 160
     },
     {
       "merchant_id": null,
@@ -775,7 +775,7 @@
   "summary": {
     "total_merchants": 20,
     "merchants_with_issues": 8,
-    "critical_issues": 5,
-    "warning_issues": 3
+    "critical_issues": 4,
+    "warning_issues": 4
   }
 }

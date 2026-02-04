@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-20T23:10:11.562376",
+  "generated_at": "2026-02-04T12:00:00.000000",
   "scope": "Commission Mismatch Report (Full Year 2025)",
   "data_source": "SendsTransaction nodes with actual contract rates from JSON files",
   "summary": {

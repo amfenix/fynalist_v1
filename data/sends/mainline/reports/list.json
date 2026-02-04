@@ -8,7 +8,7 @@
       "href": "/reports/merchants-overview",
       "dataEndpoint": "/api/reports/merchants-overview",
       "available": true,
-      "generated_at": "2026-01-30T12:00:00.000000"
+      "generated_at": "2026-02-04T12:00:00.000000"
     },
     {
       "id": "commission-compliance",
@@ -18,7 +18,7 @@
       "href": "/reports/commission-mismatch",
       "dataEndpoint": "/api/reports/underpayment-v2",
       "available": true,
-      "generated_at": "2026-01-20T12:00:00.000000"
+      "generated_at": "2026-02-04T12:00:00.000000"
     },
     {
       "id": "reconciliation-deviation",
@@ -28,7 +28,7 @@
       "href": "/reports/reconciliation-deviation",
       "dataEndpoint": "/api/reports/reconciliation-deviation",
       "available": true,
-      "generated_at": "2026-01-20T12:00:00.000000"
+      "generated_at": "2026-02-04T12:00:00.000000"
     }
   ]
 }

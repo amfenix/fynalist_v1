@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-01-20T12:00:00.000000",
+  "generated_at": "2026-02-04T12:00:00.000000",
   "scope": "Reconciliation vs Transactions (Jan 1 - Dec 31, 2025)",
   "data_source": "Reconciliation files updated Dec 31 2025",
 
   "summary": {
     "total_records": 3158,
-    "with_recon_data": 2895,
-    "missing_recon_data": 263,
-    "total_deviations": 17,
-    "significant_deviations": 7,
+    "with_recon_data": 3147,
+    "missing_recon_data": 11,
+    "total_deviations": 18,
+    "significant_deviations": 8,
     "rounding_errors": 10
   },
 
@@ -152,14 +152,14 @@
   "missing_reconciliation": [
     {
       "merchant": "NOXIOUS LIMITED",
-      "records": 253,
-      "date_from": "2025-01-01",
-      "date_to": "2025-12-31",
-      "total_amount": 24859434.80,
+      "records": 1,
+      "date_from": "2025-06-01",
+      "date_to": "2025-06-30",
+      "total_amount": 611026.22,
       "currency": "PLN",
-      "point_ids": [20087, 1132, 1589],
-      "reason": "Merchant name/point mismatch - database has PLN/BLIK points but reconciliation file (SkinsMagnate.xlsx) contains EUR/GBP sheets",
-      "severity": "high"
+      "point_ids": [1589],
+      "reason": "June 2025 registry (point 1589) has 13,327 tx but reconciliation shows 18,892 tx - partial data in registry file",
+      "severity": "medium"
     },
     {
       "merchant": "FYST",

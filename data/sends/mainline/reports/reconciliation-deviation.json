@@ -5,8 +5,8 @@
 
   "summary": {
     "total_records": 3158,
-    "with_recon_data": 3147,
-    "missing_recon_data": 11,
+    "with_recon_data": 3153,
+    "missing_recon_data": 5,
     "total_deviations": 18,
     "significant_deviations": 8,
     "rounding_errors": 10
@@ -159,17 +159,6 @@
       "currency": "PLN",
       "point_ids": [1589],
       "reason": "June 2025 registry (point 1589) has 13,327 tx but reconciliation shows 18,892 tx - partial data in registry file",
-      "severity": "medium"
-    },
-    {
-      "merchant": "FYST",
-      "records": 6,
-      "date_from": "2025-09-11",
-      "date_to": "2025-11-05",
-      "total_amount": 655535.75,
-      "currency": "mixed",
-      "point_ids": [20338, 20339],
-      "reason": "Points not covered in reconciliation file",
       "severity": "medium"
     },
     {

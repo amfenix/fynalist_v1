@@ -4,8 +4,8 @@
   "data_source": "Registry and Reconciliation files from SENDS batch-2",
   "summary": {
     "total_records": 2960873,
-    "with_recon_data": 2862415,
-    "missing_recon_data": 98458,
+    "with_recon_data": 2960873,
+    "missing_recon_data": 0,
     "total_deviations": 12,
     "significant_deviations": 7,
     "rounding_errors": 0
@@ -23,19 +23,7 @@
     "total_percent": 0,
     "groups": []
   },
-  "missing_reconciliation": [
-    {
-      "merchant": "SIKCINTIVK SMART",
-      "records": 98458,
-      "date_from": "2025-01",
-      "date_to": "2025-06",
-      "total_amount": 5202347.5200000005,
-      "currency": "EUR",
-      "point_ids": [],
-      "reason": "Missing reconciliation data for months: 2025-01, 2025-02, 2025-03, 2025-04, 2025-05, 2025-06",
-      "severity": "high"
-    }
-  ],
+  "missing_reconciliation": [],
   "rounding_errors": [
     {
       "merchant": "Cybervox",

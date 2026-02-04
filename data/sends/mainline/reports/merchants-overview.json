@@ -21,7 +21,7 @@
     {
       "id": "missing_reconciliation",
       "label": "Missing Recon",
-      "total_score": 170.18747535142854
+      "total_score": 120.00017942285711
     }
   ],
   "merchants": [
@@ -107,15 +107,15 @@
           "details": null
         },
         "missing_reconciliation": {
-          "severity": "warning",
-          "score": 50.18729592857143,
-          "records": 6,
-          "amount": 655535.75,
-          "reason": "Points not covered in reconciliation file",
-          "details": "6 records missing (mixed) - Points not covered in reconciliation file"
+          "severity": "none",
+          "score": 0,
+          "records": 0,
+          "amount": 0,
+          "reason": null,
+          "details": null
         }
       },
-      "total_score": 132.87405307142858
+      "total_score": 82.68675714285714
     },
     {
       "merchant_id": 5,

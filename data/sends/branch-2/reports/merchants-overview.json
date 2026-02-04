@@ -5,7 +5,7 @@
   "summary": {
     "total_merchants": 16,
     "merchants_with_issues": 14,
-    "critical_issues": 4,
+    "critical_issues": 3,
     "warning_issues": 1
   },
   "columns": [
@@ -27,7 +27,7 @@
     {
       "id": "missing_reconciliation",
       "label": "Missing Recon",
-      "total_score": 100
+      "total_score": 0
     }
   ],
   "merchants": [
@@ -221,15 +221,15 @@
           "groups": []
         },
         "missing_reconciliation": {
-          "severity": "high",
-          "score": 100,
-          "records": 98458,
-          "amount": 5202347.52,
-          "reason": "Missing reconciliation data for months: 2025-01, 2025-02, 2025-03, 2025-04, 2025-05, 2025-06",
-          "details": "98,458 records missing"
+          "severity": "none",
+          "score": 0,
+          "records": 0,
+          "amount": 0,
+          "reason": null,
+          "details": null
         }
       },
-      "total_score": 120
+      "total_score": 20
     },
     {
       "merchant_id": 6,

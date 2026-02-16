@@ -1,0 +1,1626 @@
+{
+  "year": 2025,
+  "merchants": [
+    {
+      "id": "alfa",
+      "name": "ALFA",
+      "legalName": "ALFA LEAD LTD",
+      "contract": "2025-2110-01",
+      "months": {
+        "jan": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "feb": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "mar": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "apr": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "may": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "jun": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "jul": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "aug": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "sep": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "oct": {
+          "turnover": 186557.2,
+          "commission": 3269.48,
+          "deviation": 0,
+          "cases": []
+        },
+        "nov": {
+          "turnover": 1500767.82,
+          "commission": 26305.79,
+          "deviation": 0,
+          "cases": []
+        },
+        "dec": {
+          "turnover": 1143072.6,
+          "commission": 20037.02,
+          "deviation": 0,
+          "cases": []
+        }
+      }
+    },
+    {
+      "id": "cybervox",
+      "name": "Cybervox",
+      "legalName": "CYBERVOX LTD",
+      "contract": "1607-24",
+      "months": {
+        "jan": {
+          "turnover": 5356643.67,
+          "commission": 160707.28,
+          "deviation": 0,
+          "cases": []
+        },
+        "feb": {
+          "turnover": 7210424.64,
+          "commission": 216313.4,
+          "deviation": 0,
+          "cases": []
+        },
+        "mar": {
+          "turnover": 4876527.33,
+          "commission": 108823.62,
+          "deviation": 0,
+          "cases": [],
+          "hasRateChange": true,
+          "rateChangeInfo": "3.0% -> 1.75% from Mar 12"
+        },
+        "apr": {
+          "turnover": 783725.63,
+          "commission": 13724.64,
+          "deviation": 0,
+          "cases": []
+        },
+        "may": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "jun": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "jul": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "aug": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "sep": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "oct": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "nov": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "dec": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        }
+      }
+    },
+    {
+      "id": "dns-x",
+      "name": "DNS_X",
+      "legalName": "DNS_X LTD",
+      "contract": "",
+      "months": {
+        "jan": {
+          "turnover": 1282884.82,
+          "commission": 38488.37,
+          "deviation": 0,
+          "cases": []
+        },
+        "feb": {
+          "turnover": 1687869.26,
+          "commission": 50638.08,
+          "deviation": 0,
+          "cases": []
+        },
+        "mar": {
+          "turnover": 2504437.34,
+          "commission": 55538.13,
+          "deviation": 0,
+          "cases": []
+        },
+        "apr": {
+          "turnover": 610710.16,
+          "commission": 10695.64,
+          "deviation": 0,
+          "cases": []
+        },
+        "may": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "jun": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "jul": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "aug": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "sep": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "oct": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "nov": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "dec": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        }
+      }
+    },
+    {
+      "id": "fintech-ai-fusion",
+      "name": "FINTECH AI FUSION",
+      "legalName": "FINTECH AI FUSION LTD",
+      "contract": "25-10-09-OB,_2025-1004-01",
+      "months": {
+        "jan": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "feb": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "mar": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "apr": {
+          "turnover": 932402.21,
+          "commission": 16335.49,
+          "deviation": 0,
+          "cases": []
+        },
+        "may": {
+          "turnover": 1122716.64,
+          "commission": 19666.79,
+          "deviation": 0,
+          "cases": []
+        },
+        "jun": {
+          "turnover": 1530303.05,
+          "commission": 26806.74,
+          "deviation": 0,
+          "cases": []
+        },
+        "jul": {
+          "turnover": 1093689.94,
+          "commission": 19164.53,
+          "deviation": 0,
+          "cases": []
+        },
+        "aug": {
+          "turnover": 1290073.13,
+          "commission": 22603.2,
+          "deviation": 0,
+          "cases": []
+        },
+        "sep": {
+          "turnover": 1481116.79,
+          "commission": 25959.94,
+          "deviation": 0,
+          "cases": []
+        },
+        "oct": {
+          "turnover": 1847730.83,
+          "commission": 32378.05,
+          "deviation": 0,
+          "cases": []
+        },
+        "nov": {
+          "turnover": 1500839.34,
+          "commission": 26306.82,
+          "deviation": 0,
+          "cases": []
+        },
+        "dec": {
+          "turnover": 1143099.84,
+          "commission": 20038.4,
+          "deviation": 0,
+          "cases": []
+        }
+      }
+    },
+    {
+      "id": "inateus",
+      "name": "Inateus",
+      "legalName": "INATEUS LTD",
+      "contract": "2910-24",
+      "months": {
+        "jan": {
+          "turnover": 7452678.67,
+          "commission": 223624.08,
+          "deviation": 0,
+          "cases": []
+        },
+        "feb": {
+          "turnover": 4033873.46,
+          "commission": 121005.78,
+          "deviation": 0,
+          "cases": []
+        },
+        "mar": {
+          "turnover": 2480372.8,
+          "commission": 124031.87,
+          "deviation": 49620.68,
+          "cases": [
+            {
+              "id": "inateus-mar-2025",
+              "title": "Rate deviation in March",
+              "partLabel": "SENDS",
+              "contractRate": 3.0,
+              "actualRate": 5.0005,
+              "deviation": 49620.68,
+              "periodFrom": "Mar 1",
+              "periodTo": "Mar 31"
+            }
+          ],
+          "hasRateChange": true,
+          "rateChangeInfo": "Effective rate ~5.0% vs contract 3.0%"
+        },
+        "apr": {
+          "turnover": 955192.47,
+          "commission": 47769.31,
+          "deviation": 19113.54,
+          "cases": [
+            {
+              "id": "inateus-apr-2025",
+              "title": "Rate deviation in April",
+              "partLabel": "SENDS",
+              "contractRate": 3.0,
+              "actualRate": 5.001,
+              "deviation": 19113.54,
+              "periodFrom": "Apr 1",
+              "periodTo": "Apr 30"
+            }
+          ],
+          "hasRateChange": true,
+          "rateChangeInfo": "Effective rate drop ~5.0% -> ~1.75%"
+        },
+        "may": {
+          "turnover": 924783.29,
+          "commission": 46242.16,
+          "deviation": 18498.69,
+          "cases": [
+            {
+              "id": "inateus-may-2025",
+              "title": "Rate deviation in May",
+              "partLabel": "SENDS",
+              "contractRate": 3.0,
+              "actualRate": 5.0003,
+              "deviation": 18498.69,
+              "periodFrom": "May 1",
+              "periodTo": "May 31"
+            }
+          ]
+        },
+        "jun": {
+          "turnover": 1401227.84,
+          "commission": 70066.77,
+          "deviation": 28029.96,
+          "cases": [
+            {
+              "id": "inateus-jun-2025",
+              "title": "Rate deviation in June",
+              "partLabel": "SENDS",
+              "contractRate": 3.0,
+              "actualRate": 5.0004,
+              "deviation": 28029.96,
+              "periodFrom": "Jun 1",
+              "periodTo": "Jun 30"
+            }
+          ]
+        },
+        "jul": {
+          "turnover": 1189159.9,
+          "commission": 59461.59,
+          "deviation": 23786.78,
+          "cases": [
+            {
+              "id": "inateus-jul-2025",
+              "title": "Rate deviation in July",
+              "partLabel": "SENDS",
+              "contractRate": 3.0,
+              "actualRate": 5.0003,
+              "deviation": 23786.78,
+              "periodFrom": "Jul 1",
+              "periodTo": "Jul 31"
+            }
+          ]
+        },
+        "aug": {
+          "turnover": 1291832.64,
+          "commission": 64595.84,
+          "deviation": 25840.89,
+          "cases": [
+            {
+              "id": "inateus-aug-2025",
+              "title": "Rate deviation in August",
+              "partLabel": "SENDS",
+              "contractRate": 3.0,
+              "actualRate": 5.0003,
+              "deviation": 25840.89,
+              "periodFrom": "Aug 1",
+              "periodTo": "Aug 31"
+            }
+          ],
+          "hasRateChange": true,
+          "rateChangeInfo": "Effective rate jump ~1.75% -> ~5.0%"
+        },
+        "sep": {
+          "turnover": 1480487.18,
+          "commission": 74031.35,
+          "deviation": 29616.72,
+          "cases": [
+            {
+              "id": "inateus-sep-2025",
+              "title": "Rate deviation in September",
+              "partLabel": "SENDS",
+              "contractRate": 3.0,
+              "actualRate": 5.0005,
+              "deviation": 29616.72,
+              "periodFrom": "Sep 1",
+              "periodTo": "Sep 30"
+            }
+          ]
+        },
+        "oct": {
+          "turnover": 1763649.22,
+          "commission": 85323.78,
+          "deviation": 32414.31,
+          "cases": [
+            {
+              "id": "inateus-oct-2025",
+              "title": "Rate deviation in October",
+              "partLabel": "SENDS",
+              "contractRate": 3.0,
+              "actualRate": 4.8379,
+              "deviation": 32414.31,
+              "periodFrom": "Oct 1",
+              "periodTo": "Oct 31"
+            }
+          ]
+        },
+        "nov": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "dec": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        }
+      }
+    },
+    {
+      "id": "limitedco",
+      "name": "LIMITEDCO",
+      "legalName": "LIMITEDCO LTD",
+      "contract": "2025-2403-01",
+      "months": {
+        "jan": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "feb": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "mar": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "apr": {
+          "turnover": 1266457.52,
+          "commission": 22201.62,
+          "deviation": 0,
+          "cases": []
+        },
+        "may": {
+          "turnover": 1412404.08,
+          "commission": 24763.1,
+          "deviation": 0,
+          "cases": []
+        },
+        "jun": {
+          "turnover": 1540245.21,
+          "commission": 27000.02,
+          "deviation": 0,
+          "cases": []
+        },
+        "jul": {
+          "turnover": 1266467.22,
+          "commission": 22205.55,
+          "deviation": 0,
+          "cases": []
+        },
+        "aug": {
+          "turnover": 1286379.08,
+          "commission": 22558.18,
+          "deviation": 0,
+          "cases": []
+        },
+        "sep": {
+          "turnover": 1482886.33,
+          "commission": 25987.64,
+          "deviation": 0,
+          "cases": []
+        },
+        "oct": {
+          "turnover": 1834227.09,
+          "commission": 32141.58,
+          "deviation": 0,
+          "cases": []
+        },
+        "nov": {
+          "turnover": 1503702.23,
+          "commission": 26353.86,
+          "deviation": 0,
+          "cases": []
+        },
+        "dec": {
+          "turnover": 1142775.37,
+          "commission": 20033.56,
+          "deviation": 0,
+          "cases": []
+        }
+      }
+    },
+    {
+      "id": "muizagn",
+      "name": "Muizagn",
+      "legalName": "MUIZAGN LTD",
+      "contract": "3007-24",
+      "months": {
+        "jan": {
+          "turnover": 1815351.55,
+          "commission": 54462.33,
+          "deviation": 0,
+          "cases": []
+        },
+        "feb": {
+          "turnover": 1038416.71,
+          "commission": 31152.24,
+          "deviation": 0,
+          "cases": []
+        },
+        "mar": {
+          "turnover": 432404.39,
+          "commission": 21621.43,
+          "deviation": 8649.27,
+          "cases": [
+            {
+              "id": "muizagn-mar-2025",
+              "title": "Rate deviation in March",
+              "partLabel": "SENDS",
+              "contractRate": 3.0,
+              "actualRate": 5.0003,
+              "deviation": 8649.27,
+              "periodFrom": "Mar 1",
+              "periodTo": "Mar 31"
+            }
+          ],
+          "hasRateChange": true,
+          "rateChangeInfo": "Effective rate ~2.57% vs contract 3.0%"
+        },
+        "apr": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "may": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "jun": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "jul": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "aug": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "sep": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "oct": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "nov": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "dec": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        }
+      }
+    },
+    {
+      "id": "online-go",
+      "name": "ONLINE GO",
+      "legalName": "ONLINE GO LTD",
+      "contract": "1812-24",
+      "months": {
+        "jan": {
+          "turnover": 19943.57,
+          "commission": 598.16,
+          "deviation": 0,
+          "cases": []
+        },
+        "feb": {
+          "turnover": 806586.23,
+          "commission": 24196.65,
+          "deviation": 0,
+          "cases": []
+        },
+        "mar": {
+          "turnover": 670210.68,
+          "commission": 33514.44,
+          "deviation": 13408.11,
+          "cases": [
+            {
+              "id": "online-go-mar-2025",
+              "title": "Rate deviation in March",
+              "partLabel": "SENDS",
+              "contractRate": 3.0,
+              "actualRate": 5.0006,
+              "deviation": 13408.11,
+              "periodFrom": "Mar 1",
+              "periodTo": "Mar 31"
+            }
+          ],
+          "hasRateChange": true,
+          "rateChangeInfo": "Effective rate ~2.41% vs contract 3.0%"
+        },
+        "apr": {
+          "turnover": 955395.86,
+          "commission": 47776.03,
+          "deviation": 19114.14,
+          "cases": [
+            {
+              "id": "online-go-apr-2025",
+              "title": "Rate deviation in April",
+              "partLabel": "SENDS",
+              "contractRate": 3.0,
+              "actualRate": 5.0007,
+              "deviation": 19114.14,
+              "periodFrom": "Apr 1",
+              "periodTo": "Apr 30"
+            }
+          ],
+          "hasRateChange": true,
+          "rateChangeInfo": "Effective rate drop ~2.41% -> ~1.75%"
+        },
+        "may": {
+          "turnover": 993905.67,
+          "commission": 49700.07,
+          "deviation": 19882.92,
+          "cases": [
+            {
+              "id": "online-go-may-2025",
+              "title": "Rate deviation in May",
+              "partLabel": "SENDS",
+              "contractRate": 3.0,
+              "actualRate": 5.0005,
+              "deviation": 19882.92,
+              "periodFrom": "May 1",
+              "periodTo": "May 31"
+            }
+          ]
+        },
+        "jun": {
+          "turnover": 1399336.06,
+          "commission": 69969.88,
+          "deviation": 27989.79,
+          "cases": [
+            {
+              "id": "online-go-jun-2025",
+              "title": "Rate deviation in June",
+              "partLabel": "SENDS",
+              "contractRate": 3.0,
+              "actualRate": 5.0002,
+              "deviation": 27989.79,
+              "periodFrom": "Jun 1",
+              "periodTo": "Jun 30"
+            }
+          ]
+        },
+        "jul": {
+          "turnover": 1185127.6,
+          "commission": 59260.6,
+          "deviation": 23706.76,
+          "cases": [
+            {
+              "id": "online-go-jul-2025",
+              "title": "Rate deviation in July",
+              "partLabel": "SENDS",
+              "contractRate": 3.0,
+              "actualRate": 5.0004,
+              "deviation": 23706.76,
+              "periodFrom": "Jul 1",
+              "periodTo": "Jul 31"
+            }
+          ]
+        },
+        "aug": {
+          "turnover": 1293123.91,
+          "commission": 64660.53,
+          "deviation": 25866.81,
+          "cases": [
+            {
+              "id": "online-go-aug-2025",
+              "title": "Rate deviation in August",
+              "partLabel": "SENDS",
+              "contractRate": 3.0,
+              "actualRate": 5.0003,
+              "deviation": 25866.81,
+              "periodFrom": "Aug 1",
+              "periodTo": "Aug 31"
+            }
+          ],
+          "hasRateChange": true,
+          "rateChangeInfo": "Effective rate jump ~1.75% -> ~5.0%"
+        },
+        "sep": {
+          "turnover": 1098646.17,
+          "commission": 54936.29,
+          "deviation": 21976.89,
+          "cases": [
+            {
+              "id": "online-go-sep-2025",
+              "title": "Rate deviation in September",
+              "partLabel": "SENDS",
+              "contractRate": 3.0,
+              "actualRate": 5.0004,
+              "deviation": 21976.89,
+              "periodFrom": "Sep 1",
+              "periodTo": "Sep 30"
+            }
+          ]
+        },
+        "oct": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "nov": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "dec": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        }
+      }
+    },
+    {
+      "id": "orion",
+      "name": "Orion",
+      "legalName": "ORION LEAD LTD",
+      "contract": "2025-2110-02",
+      "months": {
+        "jan": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "feb": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "mar": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "apr": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "may": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "jun": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "jul": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "aug": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "sep": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "oct": {
+          "turnover": 187399.78,
+          "commission": 3283.92,
+          "deviation": 0,
+          "cases": []
+        },
+        "nov": {
+          "turnover": 1503966.04,
+          "commission": 26357.16,
+          "deviation": 0,
+          "cases": []
+        },
+        "dec": {
+          "turnover": 1141434.32,
+          "commission": 20011.36,
+          "deviation": 0,
+          "cases": []
+        }
+      }
+    },
+    {
+      "id": "playoff-go",
+      "name": "PLAYOFF GO",
+      "legalName": "PLAYOFF GO LTD",
+      "contract": "2025-0602-01",
+      "months": {
+        "jan": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "feb": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "mar": {
+          "turnover": 934491.46,
+          "commission": 17661.54,
+          "deviation": 0,
+          "cases": [],
+          "hasRateChange": true,
+          "rateChangeInfo": "3.0% -> 1.75% from Mar 11"
+        },
+        "apr": {
+          "turnover": 710010.37,
+          "commission": 12458.79,
+          "deviation": 0,
+          "cases": []
+        },
+        "may": {
+          "turnover": 1087784.2,
+          "commission": 19047.72,
+          "deviation": 0,
+          "cases": []
+        },
+        "jun": {
+          "turnover": 1530361.21,
+          "commission": 26809.02,
+          "deviation": 0,
+          "cases": []
+        },
+        "jul": {
+          "turnover": 1093962.96,
+          "commission": 19170.82,
+          "deviation": 0,
+          "cases": []
+        },
+        "aug": {
+          "turnover": 1290138.82,
+          "commission": 22607.09,
+          "deviation": 0,
+          "cases": []
+        },
+        "sep": {
+          "turnover": 1480482.61,
+          "commission": 25946.54,
+          "deviation": 0,
+          "cases": []
+        },
+        "oct": {
+          "turnover": 1208202.47,
+          "commission": 21170.26,
+          "deviation": 0,
+          "cases": [],
+          "hasRateChange": true,
+          "rateChangeInfo": "1.75% -> 4.80% from Oct 1"
+        },
+        "nov": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "dec": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        }
+      }
+    },
+    {
+      "id": "qebor",
+      "name": "QEBOR",
+      "legalName": "QEBOR LTD",
+      "contract": "0412-24",
+      "months": {
+        "jan": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "feb": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "mar": {
+          "turnover": 28085.77,
+          "commission": 492.18,
+          "deviation": 0,
+          "cases": []
+        },
+        "apr": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "may": {
+          "turnover": 25.0,
+          "commission": 0.44,
+          "deviation": 0,
+          "cases": []
+        },
+        "jun": {
+          "turnover": 1477839.78,
+          "commission": 25887.28,
+          "deviation": 0,
+          "cases": []
+        },
+        "jul": {
+          "turnover": 1229002.56,
+          "commission": 21533.28,
+          "deviation": 0,
+          "cases": []
+        },
+        "aug": {
+          "turnover": 1291169.73,
+          "commission": 22595.47,
+          "deviation": 0,
+          "cases": []
+        },
+        "sep": {
+          "turnover": 1481500.67,
+          "commission": 25926.26,
+          "deviation": 0,
+          "cases": []
+        },
+        "oct": {
+          "turnover": 1762259.6,
+          "commission": 30839.54,
+          "deviation": 0,
+          "cases": []
+        },
+        "nov": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "dec": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        }
+      }
+    },
+    {
+      "id": "sellpro",
+      "name": "SellPro",
+      "legalName": "SELLPRO LTD",
+      "contract": "1302-25",
+      "months": {
+        "jan": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "feb": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "mar": {
+          "turnover": 1032198.32,
+          "commission": 51612.79,
+          "deviation": 0,
+          "cases": [],
+          "hasRateChange": true,
+          "rateChangeInfo": "3.0% -> 1.75% from Mar 12"
+        },
+        "apr": {
+          "turnover": 1764175.51,
+          "commission": 61820.78,
+          "deviation": 0,
+          "cases": []
+        },
+        "may": {
+          "turnover": 1354557.86,
+          "commission": 47462.96,
+          "deviation": 0,
+          "cases": []
+        },
+        "jun": {
+          "turnover": 1398073.22,
+          "commission": 24492.05,
+          "deviation": 0,
+          "cases": []
+        },
+        "jul": {
+          "turnover": 1188738.32,
+          "commission": 20831.62,
+          "deviation": 0,
+          "cases": []
+        },
+        "aug": {
+          "turnover": 1291329.97,
+          "commission": 64571.43,
+          "deviation": 0,
+          "cases": [],
+          "hasRateChange": true,
+          "rateChangeInfo": "1.75% -> 5.0% from Aug 1"
+        },
+        "sep": {
+          "turnover": 108221.83,
+          "commission": 5412.0,
+          "deviation": 0,
+          "cases": []
+        },
+        "oct": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "nov": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "dec": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        }
+      }
+    },
+    {
+      "id": "shop-online-ai",
+      "name": "SHOP ONLINE AI",
+      "legalName": "SHOP ONLINE AI LTD",
+      "contract": "16-05-01",
+      "months": {
+        "jan": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "feb": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "mar": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "apr": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "may": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "jun": {
+          "turnover": 1535762.37,
+          "commission": 76790.54,
+          "deviation": 0,
+          "cases": []
+        },
+        "jul": {
+          "turnover": 1092167.78,
+          "commission": 54610.83,
+          "deviation": 0,
+          "cases": []
+        },
+        "aug": {
+          "turnover": 1290459.96,
+          "commission": 64525.94,
+          "deviation": 0,
+          "cases": []
+        },
+        "sep": {
+          "turnover": 1483072.47,
+          "commission": 74159.86,
+          "deviation": 0,
+          "cases": [],
+          "hasRateChange": true,
+          "rateChangeInfo": "5.0% -> 1.75% from Sep 20"
+        },
+        "oct": {
+          "turnover": 1827309.64,
+          "commission": 88378.06,
+          "deviation": 0,
+          "cases": []
+        },
+        "nov": {
+          "turnover": 1502117.53,
+          "commission": 72103.07,
+          "deviation": 0,
+          "cases": []
+        },
+        "dec": {
+          "turnover": 1143179.78,
+          "commission": 57160.98,
+          "deviation": 0,
+          "cases": []
+        }
+      }
+    },
+    {
+      "id": "sikcintivk",
+      "name": "SIKCINTIVK",
+      "legalName": "SIKCINTIVK LTD",
+      "contract": "1106-24",
+      "months": {
+        "jan": {
+          "turnover": 30.0,
+          "commission": 0.9,
+          "deviation": 0,
+          "cases": []
+        },
+        "feb": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "mar": {
+          "turnover": 993641.89,
+          "commission": 17419.74,
+          "deviation": 0,
+          "cases": []
+        },
+        "apr": {
+          "turnover": 4418816.65,
+          "commission": 77445.95,
+          "deviation": 0,
+          "cases": []
+        },
+        "may": {
+          "turnover": 4075132.72,
+          "commission": 71392.58,
+          "deviation": 0,
+          "cases": []
+        },
+        "jun": {
+          "turnover": 847525.76,
+          "commission": 14840.65,
+          "deviation": 0,
+          "cases": []
+        },
+        "jul": {
+          "turnover": 26043.59,
+          "commission": 456.74,
+          "deviation": 0,
+          "cases": []
+        },
+        "aug": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "sep": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "oct": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "nov": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "dec": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        }
+      }
+    },
+    {
+      "id": "techfin-sigma",
+      "name": "TECHFIN SIGMA",
+      "legalName": "TECHFIN SIGMA SOLUTION LTD",
+      "contract": "Additional_Agreement_No._1_to_MERCHANT_SERVICES_AGREEMENT_N14-05-01",
+      "months": {
+        "jan": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "feb": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "mar": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "apr": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "may": {
+          "turnover": 1043191.33,
+          "commission": 52164.13,
+          "deviation": 0,
+          "cases": []
+        },
+        "jun": {
+          "turnover": 1530459.24,
+          "commission": 76527.05,
+          "deviation": 0,
+          "cases": []
+        },
+        "jul": {
+          "turnover": 1093619.05,
+          "commission": 54683.64,
+          "deviation": 0,
+          "cases": []
+        },
+        "aug": {
+          "turnover": 1290550.28,
+          "commission": 45524.15,
+          "deviation": -19003.37,
+          "cases": [
+            {
+              "id": "techfin-sigma-aug-2025",
+              "title": "Rate deviation in August",
+              "partLabel": "SENDS",
+              "contractRate": 5.0,
+              "actualRate": 3.5275,
+              "deviation": -19003.37,
+              "periodFrom": "Aug 1",
+              "periodTo": "Aug 31"
+            }
+          ],
+          "hasRateChange": true,
+          "rateChangeInfo": "Effective rate ~3.53% vs contract 5.0%"
+        },
+        "sep": {
+          "turnover": 1481814.2,
+          "commission": 25973.24,
+          "deviation": -48117.48,
+          "cases": [
+            {
+              "id": "techfin-sigma-sep-2025",
+              "title": "Rate deviation in September",
+              "partLabel": "SENDS",
+              "contractRate": 5.0,
+              "actualRate": 1.7528,
+              "deviation": -48117.48,
+              "periodFrom": "Sep 1",
+              "periodTo": "Sep 30"
+            }
+          ],
+          "hasRateChange": true,
+          "rateChangeInfo": "Effective rate drop ~3.53% -> ~1.75%"
+        },
+        "oct": {
+          "turnover": 1848155.07,
+          "commission": 32390.75,
+          "deviation": -60017.0,
+          "cases": [
+            {
+              "id": "techfin-sigma-oct-2025",
+              "title": "Rate deviation in October",
+              "partLabel": "SENDS",
+              "contractRate": 5.0,
+              "actualRate": 1.7526,
+              "deviation": -60017.0,
+              "periodFrom": "Oct 1",
+              "periodTo": "Oct 31"
+            }
+          ]
+        },
+        "nov": {
+          "turnover": 1500825.58,
+          "commission": 26307.98,
+          "deviation": -48733.3,
+          "cases": [
+            {
+              "id": "techfin-sigma-nov-2025",
+              "title": "Rate deviation in November",
+              "partLabel": "SENDS",
+              "contractRate": 5.0,
+              "actualRate": 1.7529,
+              "deviation": -48733.3,
+              "periodFrom": "Nov 1",
+              "periodTo": "Nov 30"
+            }
+          ]
+        },
+        "dec": {
+          "turnover": 1143707.65,
+          "commission": 20050.35,
+          "deviation": -37135.02,
+          "cases": [
+            {
+              "id": "techfin-sigma-dec-2025",
+              "title": "Rate deviation in December",
+              "partLabel": "SENDS",
+              "contractRate": 5.0,
+              "actualRate": 1.7531,
+              "deviation": -37135.02,
+              "periodFrom": "Dec 1",
+              "periodTo": "Dec 31"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "uni-cobrand",
+      "name": "UNI COBRAND",
+      "legalName": "UNI COBRAND LTD",
+      "contract": "2025-2103-01",
+      "months": {
+        "jan": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "feb": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "mar": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "apr": {
+          "turnover": 988863.09,
+          "commission": 17325.28,
+          "deviation": 0,
+          "cases": []
+        },
+        "may": {
+          "turnover": 1131649.2,
+          "commission": 19824.78,
+          "deviation": 0,
+          "cases": []
+        },
+        "jun": {
+          "turnover": 1530232.39,
+          "commission": 26807.62,
+          "deviation": 0,
+          "cases": []
+        },
+        "jul": {
+          "turnover": 1092403.58,
+          "commission": 19139.78,
+          "deviation": 0,
+          "cases": []
+        },
+        "aug": {
+          "turnover": 1291838.5,
+          "commission": 22633.99,
+          "deviation": 0,
+          "cases": []
+        },
+        "sep": {
+          "turnover": 1479995.79,
+          "commission": 25936.73,
+          "deviation": 0,
+          "cases": []
+        },
+        "oct": {
+          "turnover": 1841128.9,
+          "commission": 32259.6,
+          "deviation": 0,
+          "cases": []
+        },
+        "nov": {
+          "turnover": 1500958.43,
+          "commission": 26305.58,
+          "deviation": 0,
+          "cases": []
+        },
+        "dec": {
+          "turnover": 1144359.75,
+          "commission": 20059.48,
+          "deviation": 0,
+          "cases": []
+        }
+      }
+    },
+    {
+      "id": "xyz-ai",
+      "name": "XYZ AI",
+      "legalName": "XYZ AI LIMITED",
+      "contract": "2025-0307-01",
+      "months": {
+        "jan": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "feb": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "mar": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "apr": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "may": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "jun": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "jul": {
+          "turnover": 1207318.18,
+          "commission": 21154.43,
+          "deviation": 0,
+          "cases": []
+        },
+        "aug": {
+          "turnover": 1289986.67,
+          "commission": 22602.32,
+          "deviation": 0,
+          "cases": []
+        },
+        "sep": {
+          "turnover": 1481972.07,
+          "commission": 25972.92,
+          "deviation": 0,
+          "cases": []
+        },
+        "oct": {
+          "turnover": 1839822.65,
+          "commission": 32243.95,
+          "deviation": 0,
+          "cases": []
+        },
+        "nov": {
+          "turnover": 1502225.8,
+          "commission": 26328.58,
+          "deviation": 0,
+          "cases": []
+        },
+        "dec": {
+          "turnover": 1147044.95,
+          "commission": 20106.41,
+          "deviation": 0,
+          "cases": []
+        }
+      }
+    }
+  ]
+}

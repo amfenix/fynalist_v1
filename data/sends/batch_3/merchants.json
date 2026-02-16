@@ -1,0 +1,67 @@
+[
+  {
+    "merchant_id": "cybervox",
+    "merchant_name": "Cybervox",
+    "merchant_group": null,
+    "company_name": "CYBERVOX LTD",
+    "transaction_count": 141234,
+    "approved_count": 141234,
+    "declined_count": 0,
+    "acceptance_rate": 95.0,
+    "total_amount_eur": 16866116.95,
+    "total_commission_eur": 1002086.95,
+    "avg_commission_percent": 5.9414
+  },
+  {
+    "merchant_id": "blueocean",
+    "merchant_name": "BlueOcean",
+    "merchant_group": null,
+    "company_name": "BLUEOCEAN DEVELOPMENT AI LTD",
+    "transaction_count": 622471,
+    "approved_count": 622471,
+    "declined_count": 0,
+    "acceptance_rate": 95.6,
+    "total_amount_eur": 25496497.99,
+    "total_commission_eur": 1178905.17,
+    "avg_commission_percent": 4.6238
+  },
+  {
+    "merchant_id": "lingo-ventures",
+    "merchant_name": "Lingo Ventures",
+    "merchant_group": null,
+    "company_name": "LINGO VENTURES LTD",
+    "transaction_count": 337759,
+    "approved_count": 337759,
+    "declined_count": 0,
+    "acceptance_rate": 95.0,
+    "total_amount_eur": 10037075.15,
+    "total_commission_eur": 426889.15,
+    "avg_commission_percent": 4.2531
+  },
+  {
+    "merchant_id": "trading-tech",
+    "merchant_name": "TradingTech",
+    "merchant_group": null,
+    "company_name": "TRADING TECH SP. Z O.O.",
+    "transaction_count": 160750,
+    "approved_count": 160750,
+    "declined_count": 0,
+    "acceptance_rate": 95.0,
+    "total_amount_eur": 7799704.84,
+    "total_commission_eur": 386898.72,
+    "avg_commission_percent": 4.9604
+  },
+  {
+    "merchant_id": "redwerk",
+    "merchant_name": "Redwerk",
+    "merchant_group": null,
+    "company_name": "REDWERK DEVELOPMENT LTD",
+    "transaction_count": 263384,
+    "approved_count": 263384,
+    "declined_count": 0,
+    "acceptance_rate": 95.0,
+    "total_amount_eur": 18901753.88,
+    "total_commission_eur": 1010174.72,
+    "avg_commission_percent": 5.3443
+  }
+]

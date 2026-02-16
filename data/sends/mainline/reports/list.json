@@ -1,6 +1,16 @@
 {
   "reports": [
     {
+      "id": "merchant-overview-v2",
+      "title": "Merchant Overview",
+      "description": "Monthly commission deviation grid for all merchants — rate changes, groups, and investigation cases",
+      "icon": "BarChart3",
+      "href": "/merchant-overview-v2",
+      "dataEndpoint": "/api/overview",
+      "available": true,
+      "generated_at": "2026-02-16T12:00:00.000000"
+    },
+    {
       "id": "merchants-overview",
       "title": "Merchants Overview",
       "description": "Combined heatmap view of all merchant issues - commission mismatch, date shifts, unmatched transactions, missing reconciliation",

@@ -1,0 +1,28 @@
+{
+  "cases": [
+    {
+      "id": "INV-2025-0042",
+      "type": "rate-change",
+      "title": "SENDS rate underpayment",
+      "merchant": "Cybervox",
+      "merchantId": "cybervox",
+      "partLabel": "SENDS",
+      "deviation": -32133.28,
+      "period": "Mar 1, 2025 — Mar 31, 2025",
+      "status": "open",
+      "summary": "SENDS commission rate for Cybervox was reduced from 3.00% to 1.75% effective March 11 per Addendum #2 to contract 1607-24. The expected commission calculation still used the original 3.00% rate, resulting in an apparent underpayment of 32,133.28 EUR."
+    },
+    {
+      "id": "INV-2025-0043",
+      "type": "missing-transactions",
+      "title": "Missing transactions in Impaya settlement",
+      "merchant": "Cybervox",
+      "merchantId": "cybervox",
+      "partLabel": "Impaya",
+      "deviation": -12.34,
+      "period": "Mar 1, 2025 — Mar 31, 2025",
+      "status": "open",
+      "summary": "3 transactions totaling 759.80 EUR processed through Impaya for Cybervox in March 2025 are present in our registry but missing from the Impaya reconciliation settlement."
+    }
+  ]
+}

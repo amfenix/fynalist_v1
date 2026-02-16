@@ -1,0 +1,3652 @@
+{
+  "id": "cybervox",
+  "name": "Cybervox",
+  "legalName": "CYBERVOX LTD",
+  "contract": "1607-24",
+  "rateHistory": [
+    {
+      "contract": "1607-24",
+      "effectiveDate": "Jan 1, 2025",
+      "periodFrom": "Jan 1",
+      "periodTo": "Mar 10",
+      "rates": [
+        {
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25
+            }
+          ],
+          "refundFee": 15,
+          "rollingReserve": 10,
+          "notes": [
+            "Incoming",
+            "Card",
+            "EUR",
+            "EU"
+          ]
+        },
+        {
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 2.5
+            },
+            {
+              "label": "Impaya",
+              "rate": 2.75
+            }
+          ],
+          "refundFee": 10,
+          "notes": [
+            "Incoming",
+            "APM",
+            "EUR"
+          ]
+        },
+        {
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 0.5
+            }
+          ],
+          "notes": [
+            "Payout",
+            "SEPA",
+            "EUR"
+          ]
+        }
+      ]
+    },
+    {
+      "contract": "1607-24",
+      "suffix": "(amended)",
+      "effectiveDate": "Mar 11, 2025",
+      "periodFrom": "Mar 11",
+      "periodTo": "Apr 14",
+      "rates": [
+        {
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 1.75
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25
+            }
+          ],
+          "refundFee": 15,
+          "rollingReserve": 10,
+          "notes": [
+            "Incoming",
+            "Card",
+            "EUR",
+            "EU"
+          ]
+        },
+        {
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 2.5
+            },
+            {
+              "label": "Impaya",
+              "rate": 2.75
+            }
+          ],
+          "refundFee": 10,
+          "notes": [
+            "Incoming",
+            "APM",
+            "EUR"
+          ]
+        },
+        {
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 0.5
+            }
+          ],
+          "notes": [
+            "Payout",
+            "SEPA",
+            "EUR"
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "successTxn": 148247,
+    "failedTxn": 2140,
+    "acceptRate": 98.58,
+    "refundRate": 0.31
+  },
+  "months": [
+    {
+      "key": "dec-2025",
+      "label": "December",
+      "turnover": 0,
+      "registryAmount": 0,
+      "regCommission": 0,
+      "regTxCount": 0,
+      "reconTurnover": 0,
+      "reconCommission": 0,
+      "reconRate": 0,
+      "contractRate": 6.25,
+      "contractExpected": 0,
+      "deviation": 0,
+      "parts": [],
+      "days": []
+    },
+    {
+      "key": "nov-2025",
+      "label": "November",
+      "turnover": 0,
+      "registryAmount": 0,
+      "regCommission": 0,
+      "regTxCount": 0,
+      "reconTurnover": 0,
+      "reconCommission": 0,
+      "reconRate": 0,
+      "contractRate": 6.25,
+      "contractExpected": 0,
+      "deviation": 0,
+      "parts": [],
+      "days": []
+    },
+    {
+      "key": "oct-2025",
+      "label": "October",
+      "turnover": 0,
+      "registryAmount": 0,
+      "regCommission": 0,
+      "regTxCount": 0,
+      "reconTurnover": 0,
+      "reconCommission": 0,
+      "reconRate": 0,
+      "contractRate": 6.25,
+      "contractExpected": 0,
+      "deviation": 0,
+      "parts": [],
+      "days": []
+    },
+    {
+      "key": "sep-2025",
+      "label": "September",
+      "turnover": 0,
+      "registryAmount": 0,
+      "regCommission": 0,
+      "regTxCount": 0,
+      "reconTurnover": 0,
+      "reconCommission": 0,
+      "reconRate": 0,
+      "contractRate": 6.25,
+      "contractExpected": 0,
+      "deviation": 0,
+      "parts": [],
+      "days": []
+    },
+    {
+      "key": "aug-2025",
+      "label": "August",
+      "turnover": 0,
+      "registryAmount": 0,
+      "regCommission": 0,
+      "regTxCount": 0,
+      "reconTurnover": 0,
+      "reconCommission": 0,
+      "reconRate": 0,
+      "contractRate": 6.25,
+      "contractExpected": 0,
+      "deviation": 0,
+      "parts": [],
+      "days": []
+    },
+    {
+      "key": "jul-2025",
+      "label": "July",
+      "turnover": 0,
+      "registryAmount": 0,
+      "regCommission": 0,
+      "regTxCount": 0,
+      "reconTurnover": 0,
+      "reconCommission": 0,
+      "reconRate": 0,
+      "contractRate": 6.25,
+      "contractExpected": 0,
+      "deviation": 0,
+      "parts": [],
+      "days": []
+    },
+    {
+      "key": "jun-2025",
+      "label": "June",
+      "turnover": 0,
+      "registryAmount": 0,
+      "regCommission": 0,
+      "regTxCount": 0,
+      "reconTurnover": 0,
+      "reconCommission": 0,
+      "reconRate": 0,
+      "contractRate": 6.25,
+      "contractExpected": 0,
+      "deviation": 0,
+      "parts": [],
+      "days": []
+    },
+    {
+      "key": "may-2025",
+      "label": "May",
+      "turnover": 0,
+      "registryAmount": 0,
+      "regCommission": 0,
+      "regTxCount": 0,
+      "reconTurnover": 0,
+      "reconCommission": 0,
+      "reconRate": 0,
+      "contractRate": 6.25,
+      "contractExpected": 0,
+      "deviation": 0,
+      "parts": [],
+      "days": []
+    },
+    {
+      "key": "apr-2025",
+      "label": "April",
+      "period": "(1–14)",
+      "turnover": 783725.63,
+      "regCommission": 39186.28,
+      "regTxCount": 6421,
+      "reconTurnover": 783725.63,
+      "reconCommission": 39186.28,
+      "reconRate": 5,
+      "contractRate": 6.25,
+      "registryAmount": 783725.63,
+      "contractExpected": 48982.85,
+      "deviation": -9796.57,
+      "parts": [
+        {
+          "label": "SENDS",
+          "rate": 1.75,
+          "amount": 13715.2,
+          "contractRate": 3,
+          "contractAmount": 23511.77,
+          "source": "Cybervox_EUR_2025_04.xlsx",
+          "contractSource": "Agreement_1607-24_amended.pdf"
+        },
+        {
+          "label": "Impaya",
+          "rate": 3.25,
+          "amount": 25471.08,
+          "contractRate": 3.25,
+          "contractAmount": 25471.08,
+          "source": "Impaya.docx",
+          "contractSource": "Impaya.docx"
+        }
+      ],
+      "days": [
+        {
+          "day": 1,
+          "date": "Apr 1",
+          "turnover": 62418.32,
+          "regCommission": 3120.92,
+          "regTxCount": 512,
+          "reconTurnover": 62418.32,
+          "reconCommission": 3120.92,
+          "reconRate": 5,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 1.75,
+              "amount": 1092.32,
+              "contractRate": 3,
+              "contractAmount": 1872.55,
+              "source": "Cybervox_EUR_2025_04.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 2028.6,
+              "contractRate": 3.25,
+              "contractAmount": 2028.6,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "date": "Apr 2",
+          "turnover": 58724.15,
+          "regCommission": 2936.2,
+          "regTxCount": 481,
+          "reconTurnover": 58724.15,
+          "reconCommission": 2936.2,
+          "reconRate": 5,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 1.75,
+              "amount": 1027.67,
+              "contractRate": 3,
+              "contractAmount": 1761.72,
+              "source": "Cybervox_EUR_2025_04.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 1908.53,
+              "contractRate": 3.25,
+              "contractAmount": 1908.53,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "date": "Apr 3",
+          "turnover": 64192.47,
+          "regCommission": 3209.63,
+          "regTxCount": 526,
+          "reconTurnover": 64192.47,
+          "reconCommission": 3209.63,
+          "reconRate": 5,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 1.75,
+              "amount": 1123.37,
+              "contractRate": 3,
+              "contractAmount": 1925.77,
+              "source": "Cybervox_EUR_2025_04.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 2086.26,
+              "contractRate": 3.25,
+              "contractAmount": 2086.26,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 4,
+          "date": "Apr 4",
+          "turnover": 52837.91,
+          "regCommission": 2641.89,
+          "regTxCount": 433,
+          "reconTurnover": 52837.91,
+          "reconCommission": 2641.89,
+          "reconRate": 5,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 1.75,
+              "amount": 924.66,
+              "contractRate": 3,
+              "contractAmount": 1585.14,
+              "source": "Cybervox_EUR_2025_04.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 1717.23,
+              "contractRate": 3.25,
+              "contractAmount": 1717.23,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 5,
+          "date": "Apr 5",
+          "turnover": 48216.73,
+          "regCommission": 2410.83,
+          "regTxCount": 395,
+          "reconTurnover": 48216.73,
+          "reconCommission": 2410.83,
+          "reconRate": 5,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 1.75,
+              "amount": 843.79,
+              "contractRate": 3,
+              "contractAmount": 1446.5,
+              "source": "Cybervox_EUR_2025_04.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 1567.04,
+              "contractRate": 3.25,
+              "contractAmount": 1567.04,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 6,
+          "date": "Apr 6",
+          "turnover": 55943.28,
+          "regCommission": 2797.17,
+          "regTxCount": 459,
+          "reconTurnover": 55943.28,
+          "reconCommission": 2797.17,
+          "reconRate": 5,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 1.75,
+              "amount": 979.01,
+              "contractRate": 3,
+              "contractAmount": 1678.3,
+              "source": "Cybervox_EUR_2025_04.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 1818.16,
+              "contractRate": 3.25,
+              "contractAmount": 1818.16,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "date": "Apr 7",
+          "turnover": 61284.64,
+          "regCommission": 3064.23,
+          "regTxCount": 502,
+          "reconTurnover": 61284.64,
+          "reconCommission": 3064.23,
+          "reconRate": 5,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 1.75,
+              "amount": 1072.48,
+              "contractRate": 3,
+              "contractAmount": 1838.54,
+              "source": "Cybervox_EUR_2025_04.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 1991.75,
+              "contractRate": 3.25,
+              "contractAmount": 1991.75,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 8,
+          "date": "Apr 8",
+          "turnover": 57128.39,
+          "regCommission": 2856.42,
+          "regTxCount": 468,
+          "reconTurnover": 57128.39,
+          "reconCommission": 2856.42,
+          "reconRate": 5,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 1.75,
+              "amount": 999.75,
+              "contractRate": 3,
+              "contractAmount": 1713.85,
+              "source": "Cybervox_EUR_2025_04.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 1856.67,
+              "contractRate": 3.25,
+              "contractAmount": 1856.67,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 9,
+          "date": "Apr 9",
+          "turnover": 53462.17,
+          "regCommission": 2673.11,
+          "regTxCount": 438,
+          "reconTurnover": 53462.17,
+          "reconCommission": 2673.11,
+          "reconRate": 5,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 1.75,
+              "amount": 935.59,
+              "contractRate": 3,
+              "contractAmount": 1603.87,
+              "source": "Cybervox_EUR_2025_04.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 1737.52,
+              "contractRate": 3.25,
+              "contractAmount": 1737.52,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 10,
+          "date": "Apr 10",
+          "turnover": 59847.23,
+          "regCommission": 2992.3599999999997,
+          "regTxCount": 490,
+          "reconTurnover": 59847.23,
+          "reconCommission": 2992.3599999999997,
+          "reconRate": 5,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 1.75,
+              "amount": 1047.33,
+              "contractRate": 3,
+              "contractAmount": 1795.42,
+              "source": "Cybervox_EUR_2025_04.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 1945.03,
+              "contractRate": 3.25,
+              "contractAmount": 1945.03,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 11,
+          "date": "Apr 11",
+          "turnover": 51293.86,
+          "regCommission": 2564.69,
+          "regTxCount": 420,
+          "reconTurnover": 51293.86,
+          "reconCommission": 2564.69,
+          "reconRate": 5,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 1.75,
+              "amount": 897.64,
+              "contractRate": 3,
+              "contractAmount": 1538.82,
+              "source": "Cybervox_EUR_2025_04.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 1667.05,
+              "contractRate": 3.25,
+              "contractAmount": 1667.05,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 12,
+          "date": "Apr 12",
+          "turnover": 56418.72,
+          "regCommission": 2820.94,
+          "regTxCount": 462,
+          "reconTurnover": 56418.72,
+          "reconCommission": 2820.94,
+          "reconRate": 5,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 1.75,
+              "amount": 987.33,
+              "contractRate": 3,
+              "contractAmount": 1692.56,
+              "source": "Cybervox_EUR_2025_04.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 1833.61,
+              "contractRate": 3.25,
+              "contractAmount": 1833.61,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 13,
+          "date": "Apr 13",
+          "turnover": 49237.14,
+          "regCommission": 2461.86,
+          "regTxCount": 403,
+          "reconTurnover": 49237.14,
+          "reconCommission": 2461.86,
+          "reconRate": 5,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 1.75,
+              "amount": 861.65,
+              "contractRate": 3,
+              "contractAmount": 1477.11,
+              "source": "Cybervox_EUR_2025_04.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 1600.21,
+              "contractRate": 3.25,
+              "contractAmount": 1600.21,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 14,
+          "date": "Apr 14",
+          "turnover": 52720.62,
+          "regCommission": 2636.03,
+          "regTxCount": 432,
+          "reconTurnover": 52720.62,
+          "reconCommission": 2636.03,
+          "reconRate": 5,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 1.75,
+              "amount": 922.61,
+              "contractRate": 3,
+              "contractAmount": 1581.62,
+              "source": "Cybervox_EUR_2025_04.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 1713.42,
+              "contractRate": 3.25,
+              "contractAmount": 1713.42,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        }
+      ],
+      "chbQty": 156,
+      "chbDay": 29
+    },
+    {
+      "key": "mar-2025",
+      "label": "March",
+      "turnover": 5170018.440000001,
+      "regCommission": 280877.38000000006,
+      "regTxCount": 42313,
+      "reconTurnover": 5170018.440000001,
+      "reconCommission": 280877.38000000006,
+      "reconRate": 5.43,
+      "contractRate": 6.25,
+      "registryAmount": 5168175.910000001,
+      "contractExpected": 323126.15,
+      "deviation": -42248.77,
+      "parts": [
+        {
+          "label": "SENDS",
+          "rate": 2.18,
+          "amount": 112851.78,
+          "contractRate": 3,
+          "contractAmount": 155100.55,
+          "source": "Cybervox_EUR_2025_03.xlsx",
+          "contractSource": "Agreement_1607-24_amended.pdf"
+        },
+        {
+          "label": "Impaya",
+          "rate": 3.25,
+          "amount": 168025.6,
+          "contractRate": 3.25,
+          "contractAmount": 168025.6,
+          "source": "Impaya.docx",
+          "contractSource": "Impaya.docx"
+        }
+      ],
+      "days": [
+        {
+          "day": 1,
+          "date": "Mar 1",
+          "turnover": 223641.08,
+          "regCommission": 13977.57,
+          "regTxCount": 1842,
+          "reconTurnover": 223641.08,
+          "reconCommission": 13977.57,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 6709.23,
+              "contractRate": 3,
+              "contractAmount": 6709.23,
+              "source": "Cybervox_EUR_2025_03.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 7268.34,
+              "contractRate": 3.25,
+              "contractAmount": 7268.34,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "date": "Mar 2",
+          "turnover": 161928.22,
+          "regCommission": 10120.52,
+          "regTxCount": 1337,
+          "reconTurnover": 161928.22,
+          "reconCommission": 10120.52,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 4857.85,
+              "contractRate": 3,
+              "contractAmount": 4857.85,
+              "source": "Cybervox_EUR_2025_03.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 5262.67,
+              "contractRate": 3.25,
+              "contractAmount": 5262.67,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "date": "Mar 3",
+          "turnover": 183925.67,
+          "regCommission": 11495.35,
+          "regTxCount": 1498,
+          "reconTurnover": 183925.67,
+          "reconCommission": 11495.35,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 5517.77,
+              "contractRate": 3,
+              "contractAmount": 5517.77,
+              "source": "Cybervox_EUR_2025_03.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 5977.58,
+              "contractRate": 3.25,
+              "contractAmount": 5977.58,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 4,
+          "date": "Mar 4",
+          "turnover": 174230.42,
+          "regCommission": 10889.4,
+          "regTxCount": 1410,
+          "reconTurnover": 174230.42,
+          "reconCommission": 10889.4,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 5226.91,
+              "contractRate": 3,
+              "contractAmount": 5226.91,
+              "source": "Cybervox_EUR_2025_03.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 5662.49,
+              "contractRate": 3.25,
+              "contractAmount": 5662.49,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 5,
+          "date": "Mar 5",
+          "turnover": 190120.83,
+          "regCommission": 11882.55,
+          "regTxCount": 1558,
+          "reconTurnover": 190120.83,
+          "reconCommission": 11882.55,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 5703.62,
+              "contractRate": 3,
+              "contractAmount": 5703.62,
+              "source": "Cybervox_EUR_2025_03.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 6178.93,
+              "contractRate": 3.25,
+              "contractAmount": 6178.93,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 6,
+          "date": "Mar 6",
+          "turnover": 168475.21,
+          "regCommission": 10529.7,
+          "regTxCount": 1376,
+          "reconTurnover": 168475.21,
+          "reconCommission": 10529.7,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 5054.26,
+              "contractRate": 3,
+              "contractAmount": 5054.26,
+              "source": "Cybervox_EUR_2025_03.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 5475.44,
+              "contractRate": 3.25,
+              "contractAmount": 5475.44,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "date": "Mar 7",
+          "turnover": 152837.64,
+          "regCommission": 9552.35,
+          "regTxCount": 1246,
+          "reconTurnover": 152837.64,
+          "reconCommission": 9552.35,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 4585.13,
+              "contractRate": 3,
+              "contractAmount": 4585.13,
+              "source": "Cybervox_EUR_2025_03.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 4967.22,
+              "contractRate": 3.25,
+              "contractAmount": 4967.22,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 8,
+          "date": "Mar 8",
+          "turnover": 195420.37,
+          "regCommission": 12213.77,
+          "regTxCount": 1591,
+          "reconTurnover": 195420.37,
+          "reconCommission": 12213.77,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 5862.61,
+              "contractRate": 3,
+              "contractAmount": 5862.61,
+              "source": "Cybervox_EUR_2025_03.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 6351.16,
+              "contractRate": 3.25,
+              "contractAmount": 6351.16,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 9,
+          "date": "Mar 9",
+          "turnover": 178342.55,
+          "regCommission": 11146.41,
+          "regTxCount": 1462,
+          "reconTurnover": 178342.55,
+          "reconCommission": 11146.41,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 5350.28,
+              "contractRate": 3,
+              "contractAmount": 5350.28,
+              "source": "Cybervox_EUR_2025_03.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 5796.13,
+              "contractRate": 3.25,
+              "contractAmount": 5796.13,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 10,
+          "date": "Mar 10",
+          "turnover": 161194.32,
+          "regCommission": 10074.65,
+          "regTxCount": 1320,
+          "reconTurnover": 161194.32,
+          "reconCommission": 10074.65,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 4835.83,
+              "contractRate": 3,
+              "contractAmount": 4835.83,
+              "source": "Cybervox_EUR_2025_03.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 5238.82,
+              "contractRate": 3.25,
+              "contractAmount": 5238.82,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 11,
+          "date": "Mar 11",
+          "turnover": 164940.18,
+          "regCommission": 8247.01,
+          "regTxCount": 1345,
+          "reconTurnover": 164940.18,
+          "reconCommission": 8247.01,
+          "reconRate": 5,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 1.75,
+              "amount": 2886.45,
+              "contractRate": 3,
+              "contractAmount": 4948.21,
+              "source": "Cybervox_EUR_2025_03.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 5360.56,
+              "contractRate": 3.25,
+              "contractAmount": 5360.56,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ],
+          "rateChangeDay": true,
+          "rateFrom": 3,
+          "rateTo": 1.75
+        },
+        {
+          "day": 12,
+          "date": "Mar 12",
+          "turnover": 172044.93,
+          "regCommission": 8602.25,
+          "regTxCount": 1402,
+          "reconTurnover": 172044.93,
+          "reconCommission": 8602.25,
+          "reconRate": 5,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 1.75,
+              "amount": 3010.79,
+              "contractRate": 3,
+              "contractAmount": 5161.35,
+              "source": "Cybervox_EUR_2025_03.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 5591.46,
+              "contractRate": 3.25,
+              "contractAmount": 5591.46,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 13,
+          "date": "Mar 13",
+          "turnover": 158723.41,
+          "regCommission": 7936.17,
+          "regTxCount": 1298,
+          "reconTurnover": 158723.41,
+          "reconCommission": 7936.17,
+          "reconRate": 5,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 1.75,
+              "amount": 2777.66,
+              "contractRate": 3,
+              "contractAmount": 4761.7,
+              "source": "Cybervox_EUR_2025_03.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 5158.51,
+              "contractRate": 3.25,
+              "contractAmount": 5158.51,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 14,
+          "date": "Mar 14",
+          "turnover": 185246.72,
+          "regCommission": 9262.34,
+          "regTxCount": 1518,
+          "reconTurnover": 185246.72,
+          "reconCommission": 9262.34,
+          "reconRate": 5,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 1.75,
+              "amount": 3241.82,
+              "contractRate": 3,
+              "contractAmount": 5557.4,
+              "source": "Cybervox_EUR_2025_03.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 6020.52,
+              "contractRate": 3.25,
+              "contractAmount": 6020.52,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 15,
+          "date": "Mar 15",
+          "turnover": 142618.35,
+          "regCommission": 7130.92,
+          "regTxCount": 1169,
+          "reconTurnover": 142618.35,
+          "reconCommission": 7130.92,
+          "reconRate": 5,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 1.75,
+              "amount": 2495.82,
+              "contractRate": 3,
+              "contractAmount": 4278.55,
+              "source": "Cybervox_EUR_2025_03.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 4635.1,
+              "contractRate": 3.25,
+              "contractAmount": 4635.1,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 16,
+          "date": "Mar 16",
+          "turnover": 168934.47,
+          "regCommission": 8446.72,
+          "regTxCount": 1382,
+          "reconTurnover": 168934.47,
+          "reconCommission": 8446.72,
+          "reconRate": 5,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 1.75,
+              "amount": 2956.35,
+              "contractRate": 3,
+              "contractAmount": 5068.03,
+              "source": "Cybervox_EUR_2025_03.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 5490.37,
+              "contractRate": 3.25,
+              "contractAmount": 5490.37,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 17,
+          "date": "Mar 17",
+          "turnover": 193271.86,
+          "regCommission": 9663.6,
+          "regTxCount": 1589,
+          "reconTurnover": 193271.86,
+          "reconCommission": 9663.6,
+          "reconRate": 5,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 1.75,
+              "amount": 3382.26,
+              "contractRate": 3,
+              "contractAmount": 5798.16,
+              "source": "Cybervox_EUR_2025_03.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 6281.34,
+              "contractRate": 3.25,
+              "contractAmount": 6281.34,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 18,
+          "date": "Mar 18",
+          "turnover": 176842.19,
+          "regCommission": 8842.11,
+          "regTxCount": 1455,
+          "reconTurnover": 176842.19,
+          "reconCommission": 8842.11,
+          "reconRate": 5,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 1.75,
+              "amount": 3094.74,
+              "contractRate": 3,
+              "contractAmount": 5305.27,
+              "source": "Cybervox_EUR_2025_03.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 5747.37,
+              "contractRate": 3.25,
+              "contractAmount": 5747.37,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 19,
+          "date": "Mar 19",
+          "turnover": 151237.63,
+          "regCommission": 7561.88,
+          "regTxCount": 1237,
+          "reconTurnover": 151237.63,
+          "reconCommission": 7561.88,
+          "reconRate": 5,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 1.75,
+              "amount": 2646.66,
+              "contractRate": 3,
+              "contractAmount": 4537.13,
+              "source": "Cybervox_EUR_2025_03.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 4915.22,
+              "contractRate": 3.25,
+              "contractAmount": 4915.22,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 20,
+          "date": "Mar 20",
+          "turnover": 162483.91,
+          "regCommission": 8124.199999999999,
+          "regTxCount": 1328,
+          "reconTurnover": 162483.91,
+          "reconCommission": 8124.199999999999,
+          "reconRate": 5,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 1.75,
+              "amount": 2843.47,
+              "contractRate": 3,
+              "contractAmount": 4874.52,
+              "source": "Cybervox_EUR_2025_03.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 5280.73,
+              "contractRate": 3.25,
+              "contractAmount": 5280.73,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 21,
+          "date": "Mar 21",
+          "turnover": 144672.38,
+          "regCommission": 7233.620000000001,
+          "regTxCount": 1186,
+          "reconTurnover": 144672.38,
+          "reconCommission": 7233.620000000001,
+          "reconRate": 5,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 1.75,
+              "amount": 2531.77,
+              "contractRate": 3,
+              "contractAmount": 4340.17,
+              "source": "Cybervox_EUR_2025_03.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 4701.85,
+              "contractRate": 3.25,
+              "contractAmount": 4701.85,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 22,
+          "date": "Mar 22",
+          "turnover": 178351.44,
+          "regCommission": 8917.57,
+          "regTxCount": 1463,
+          "reconTurnover": 178351.44,
+          "reconCommission": 8917.57,
+          "reconRate": 5,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 1.75,
+              "amount": 3121.15,
+              "contractRate": 3,
+              "contractAmount": 5350.54,
+              "source": "Cybervox_EUR_2025_03.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 5796.42,
+              "contractRate": 3.25,
+              "contractAmount": 5796.42,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 23,
+          "date": "Mar 23",
+          "turnover": 169428.56,
+          "regCommission": 8471.43,
+          "regTxCount": 1384,
+          "reconTurnover": 169428.56,
+          "reconCommission": 8471.43,
+          "reconRate": 5,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 1.75,
+              "amount": 2965,
+              "contractRate": 3,
+              "contractAmount": 5082.86,
+              "source": "Cybervox_EUR_2025_03.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 5506.43,
+              "contractRate": 3.25,
+              "contractAmount": 5506.43,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 24,
+          "date": "Mar 24",
+          "turnover": 155819.73,
+          "regCommission": 7790.99,
+          "regTxCount": 1280,
+          "reconTurnover": 155819.73,
+          "reconCommission": 7790.99,
+          "reconRate": 5,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 1.75,
+              "amount": 2726.85,
+              "contractRate": 3,
+              "contractAmount": 4674.59,
+              "source": "Cybervox_EUR_2025_03.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 5064.14,
+              "contractRate": 3.25,
+              "contractAmount": 5064.14,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 25,
+          "date": "Mar 25",
+          "turnover": 182647.32,
+          "regCommission": 9132.369999999999,
+          "regTxCount": 1498,
+          "reconTurnover": 182647.32,
+          "reconCommission": 9132.369999999999,
+          "reconRate": 5,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 1.75,
+              "amount": 3196.33,
+              "contractRate": 3,
+              "contractAmount": 5479.42,
+              "source": "Cybervox_EUR_2025_03.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 5936.04,
+              "contractRate": 3.25,
+              "contractAmount": 5936.04,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 26,
+          "date": "Mar 26",
+          "turnover": 148953.27,
+          "regCommission": 7447.66,
+          "regTxCount": 1218,
+          "reconTurnover": 148953.27,
+          "reconCommission": 7447.66,
+          "reconRate": 5,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 1.75,
+              "amount": 2606.68,
+              "contractRate": 3,
+              "contractAmount": 4468.6,
+              "source": "Cybervox_EUR_2025_03.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 4840.98,
+              "contractRate": 3.25,
+              "contractAmount": 4840.98,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 27,
+          "date": "Mar 27",
+          "turnover": 171284.65,
+          "regCommission": 8564.23,
+          "regTxCount": 1401,
+          "reconTurnover": 171284.65,
+          "reconCommission": 8564.23,
+          "reconRate": 5,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 1.75,
+              "amount": 2997.48,
+              "contractRate": 3,
+              "contractAmount": 5138.54,
+              "source": "Cybervox_EUR_2025_03.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 5566.75,
+              "contractRate": 3.25,
+              "contractAmount": 5566.75,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 28,
+          "date": "Mar 28",
+          "turnover": 159637.82,
+          "regCommission": 7981.889999999999,
+          "regTxCount": 1307,
+          "reconTurnover": 159637.82,
+          "reconCommission": 7981.889999999999,
+          "reconRate": 5,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 1.75,
+              "amount": 2793.66,
+              "contractRate": 3,
+              "contractAmount": 4789.13,
+              "source": "Cybervox_EUR_2025_03.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 5188.23,
+              "contractRate": 3.25,
+              "contractAmount": 5188.23,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 29,
+          "date": "Mar 29",
+          "turnover": 143928.14,
+          "regCommission": 7196.4,
+          "regTxCount": 1178,
+          "reconTurnover": 143928.14,
+          "reconCommission": 7196.4,
+          "reconRate": 5,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 1.75,
+              "amount": 2518.74,
+              "contractRate": 3,
+              "contractAmount": 4317.84,
+              "source": "Cybervox_EUR_2025_03.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 4677.66,
+              "contractRate": 3.25,
+              "contractAmount": 4677.66,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 30,
+          "date": "Mar 30",
+          "turnover": 167452.73,
+          "regCommission": 8372.630000000001,
+          "regTxCount": 1372,
+          "reconTurnover": 167452.73,
+          "reconCommission": 8372.630000000001,
+          "reconRate": 5,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 1.75,
+              "amount": 2930.42,
+              "contractRate": 3,
+              "contractAmount": 5023.58,
+              "source": "Cybervox_EUR_2025_03.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 5442.21,
+              "contractRate": 3.25,
+              "contractAmount": 5442.21,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 31,
+          "date": "Mar 31",
+          "turnover": 81382.44,
+          "regCommission": 4069.12,
+          "regTxCount": 663,
+          "reconTurnover": 81382.44,
+          "reconCommission": 4069.12,
+          "reconRate": 5,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 1.75,
+              "amount": 1424.19,
+              "contractRate": 3,
+              "contractAmount": 2441.47,
+              "source": "Cybervox_EUR_2025_03.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 2644.93,
+              "contractRate": 3.25,
+              "contractAmount": 2644.93,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        }
+      ],
+      "rateChangeDay": 11,
+      "rateFrom": 3,
+      "rateTo": 1.75,
+      "refundQty": 24,
+      "refundAmount": 1842.53,
+      "chbQty": 312,
+      "chbDay": 31
+    },
+    {
+      "key": "feb-2025",
+      "label": "February",
+      "turnover": 6347604.320000001,
+      "regCommission": 396725.24999999994,
+      "regTxCount": 51420,
+      "reconTurnover": 6347604.320000001,
+      "reconCommission": 396725.24999999994,
+      "reconRate": 6.25,
+      "contractRate": 6.25,
+      "registryAmount": 6346667.950000001,
+      "contractExpected": 396725.25,
+      "deviation": 0,
+      "parts": [
+        {
+          "label": "SENDS",
+          "rate": 3,
+          "amount": 190428.14,
+          "contractRate": 3,
+          "contractAmount": 190428.14,
+          "source": "Cybervox_EUR_2025_02.xlsx",
+          "contractSource": "Agreement_1607-24_amended.pdf"
+        },
+        {
+          "label": "Impaya",
+          "rate": 3.25,
+          "amount": 206297.11,
+          "contractRate": 3.25,
+          "contractAmount": 206297.11,
+          "source": "Impaya.docx",
+          "contractSource": "Impaya.docx"
+        }
+      ],
+      "days": [
+        {
+          "day": 1,
+          "date": "Feb 1",
+          "turnover": 226613.35,
+          "regCommission": 14163.33,
+          "regTxCount": 1836,
+          "reconTurnover": 226613.35,
+          "reconCommission": 14163.33,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 6798.4,
+              "contractRate": 3,
+              "contractAmount": 6798.4,
+              "source": "Cybervox_EUR_2025_02.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 7364.93,
+              "contractRate": 3.25,
+              "contractAmount": 7364.93,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "date": "Feb 2",
+          "turnover": 253288.09,
+          "regCommission": 15830.5,
+          "regTxCount": 2052,
+          "reconTurnover": 253288.09,
+          "reconCommission": 15830.5,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 7598.64,
+              "contractRate": 3,
+              "contractAmount": 7598.64,
+              "source": "Cybervox_EUR_2025_02.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 8231.86,
+              "contractRate": 3.25,
+              "contractAmount": 8231.86,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "date": "Feb 3",
+          "turnover": 199680.07,
+          "regCommission": 12480,
+          "regTxCount": 1618,
+          "reconTurnover": 199680.07,
+          "reconCommission": 12480,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 5990.4,
+              "contractRate": 3,
+              "contractAmount": 5990.4,
+              "source": "Cybervox_EUR_2025_02.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 6489.6,
+              "contractRate": 3.25,
+              "contractAmount": 6489.6,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 4,
+          "date": "Feb 4",
+          "turnover": 227132.93,
+          "regCommission": 14195.81,
+          "regTxCount": 1840,
+          "reconTurnover": 227132.93,
+          "reconCommission": 14195.81,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 6813.99,
+              "contractRate": 3,
+              "contractAmount": 6813.99,
+              "source": "Cybervox_EUR_2025_02.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 7381.82,
+              "contractRate": 3.25,
+              "contractAmount": 7381.82,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 5,
+          "date": "Feb 5",
+          "turnover": 253022.01,
+          "regCommission": 15813.88,
+          "regTxCount": 2050,
+          "reconTurnover": 253022.01,
+          "reconCommission": 15813.88,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 7590.66,
+              "contractRate": 3,
+              "contractAmount": 7590.66,
+              "source": "Cybervox_EUR_2025_02.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 8223.22,
+              "contractRate": 3.25,
+              "contractAmount": 8223.22,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 6,
+          "date": "Feb 6",
+          "turnover": 199429.15,
+          "regCommission": 12464.32,
+          "regTxCount": 1615,
+          "reconTurnover": 199429.15,
+          "reconCommission": 12464.32,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 5982.87,
+              "contractRate": 3,
+              "contractAmount": 5982.87,
+              "source": "Cybervox_EUR_2025_02.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 6481.45,
+              "contractRate": 3.25,
+              "contractAmount": 6481.45,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "date": "Feb 7",
+          "turnover": 227652.36,
+          "regCommission": 14228.27,
+          "regTxCount": 1844,
+          "reconTurnover": 227652.36,
+          "reconCommission": 14228.27,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 6829.57,
+              "contractRate": 3,
+              "contractAmount": 6829.57,
+              "source": "Cybervox_EUR_2025_02.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 7398.7,
+              "contractRate": 3.25,
+              "contractAmount": 7398.7,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 8,
+          "date": "Feb 8",
+          "turnover": 252748.46,
+          "regCommission": 15796.77,
+          "regTxCount": 2047,
+          "reconTurnover": 252748.46,
+          "reconCommission": 15796.77,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 7582.45,
+              "contractRate": 3,
+              "contractAmount": 7582.45,
+              "source": "Cybervox_EUR_2025_02.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 8214.32,
+              "contractRate": 3.25,
+              "contractAmount": 8214.32,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 9,
+          "date": "Feb 9",
+          "turnover": 199185.91,
+          "regCommission": 12449.119999999999,
+          "regTxCount": 1614,
+          "reconTurnover": 199185.91,
+          "reconCommission": 12449.119999999999,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 5975.58,
+              "contractRate": 3,
+              "contractAmount": 5975.58,
+              "source": "Cybervox_EUR_2025_02.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 6473.54,
+              "contractRate": 3.25,
+              "contractAmount": 6473.54,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 10,
+          "date": "Feb 10",
+          "turnover": 228171.5,
+          "regCommission": 14260.72,
+          "regTxCount": 1848,
+          "reconTurnover": 228171.5,
+          "reconCommission": 14260.72,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 6845.15,
+              "contractRate": 3,
+              "contractAmount": 6845.15,
+              "source": "Cybervox_EUR_2025_02.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 7415.57,
+              "contractRate": 3.25,
+              "contractAmount": 7415.57,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 11,
+          "date": "Feb 11",
+          "turnover": 252467.53,
+          "regCommission": 15779.220000000001,
+          "regTxCount": 2045,
+          "reconTurnover": 252467.53,
+          "reconCommission": 15779.220000000001,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 7574.03,
+              "contractRate": 3,
+              "contractAmount": 7574.03,
+              "source": "Cybervox_EUR_2025_02.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 8205.19,
+              "contractRate": 3.25,
+              "contractAmount": 8205.19,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 12,
+          "date": "Feb 12",
+          "turnover": 198950.43,
+          "regCommission": 12434.400000000001,
+          "regTxCount": 1612,
+          "reconTurnover": 198950.43,
+          "reconCommission": 12434.400000000001,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 5968.51,
+              "contractRate": 3,
+              "contractAmount": 5968.51,
+              "source": "Cybervox_EUR_2025_02.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 6465.89,
+              "contractRate": 3.25,
+              "contractAmount": 6465.89,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 13,
+          "date": "Feb 13",
+          "turnover": 228690.2,
+          "regCommission": 14293.14,
+          "regTxCount": 1853,
+          "reconTurnover": 228690.2,
+          "reconCommission": 14293.14,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 6860.71,
+              "contractRate": 3,
+              "contractAmount": 6860.71,
+              "source": "Cybervox_EUR_2025_02.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 7432.43,
+              "contractRate": 3.25,
+              "contractAmount": 7432.43,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 14,
+          "date": "Feb 14",
+          "turnover": 252179.28,
+          "regCommission": 15761.21,
+          "regTxCount": 2043,
+          "reconTurnover": 252179.28,
+          "reconCommission": 15761.21,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 7565.38,
+              "contractRate": 3,
+              "contractAmount": 7565.38,
+              "source": "Cybervox_EUR_2025_02.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 8195.83,
+              "contractRate": 3.25,
+              "contractAmount": 8195.83,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 15,
+          "date": "Feb 15",
+          "turnover": 198722.77,
+          "regCommission": 12420.17,
+          "regTxCount": 1610,
+          "reconTurnover": 198722.77,
+          "reconCommission": 12420.17,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 5961.68,
+              "contractRate": 3,
+              "contractAmount": 5961.68,
+              "source": "Cybervox_EUR_2025_02.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 6458.49,
+              "contractRate": 3.25,
+              "contractAmount": 6458.49,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 16,
+          "date": "Feb 16",
+          "turnover": 229208.31,
+          "regCommission": 14325.52,
+          "regTxCount": 1857,
+          "reconTurnover": 229208.31,
+          "reconCommission": 14325.52,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 6876.25,
+              "contractRate": 3,
+              "contractAmount": 6876.25,
+              "source": "Cybervox_EUR_2025_02.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 7449.27,
+              "contractRate": 3.25,
+              "contractAmount": 7449.27,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 17,
+          "date": "Feb 17",
+          "turnover": 251883.81,
+          "regCommission": 15742.73,
+          "regTxCount": 2040,
+          "reconTurnover": 251883.81,
+          "reconCommission": 15742.73,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 7556.51,
+              "contractRate": 3,
+              "contractAmount": 7556.51,
+              "source": "Cybervox_EUR_2025_02.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 8186.22,
+              "contractRate": 3.25,
+              "contractAmount": 8186.22,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 18,
+          "date": "Feb 18",
+          "turnover": 198502.99,
+          "regCommission": 12406.44,
+          "regTxCount": 1608,
+          "reconTurnover": 198502.99,
+          "reconCommission": 12406.44,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 5955.09,
+              "contractRate": 3,
+              "contractAmount": 5955.09,
+              "source": "Cybervox_EUR_2025_02.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 6451.35,
+              "contractRate": 3.25,
+              "contractAmount": 6451.35,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 19,
+          "date": "Feb 19",
+          "turnover": 229725.69,
+          "regCommission": 14357.85,
+          "regTxCount": 1861,
+          "reconTurnover": 229725.69,
+          "reconCommission": 14357.85,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 6891.77,
+              "contractRate": 3,
+              "contractAmount": 6891.77,
+              "source": "Cybervox_EUR_2025_02.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 7466.08,
+              "contractRate": 3.25,
+              "contractAmount": 7466.08,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 20,
+          "date": "Feb 20",
+          "turnover": 251581.19,
+          "regCommission": 15723.83,
+          "regTxCount": 2038,
+          "reconTurnover": 251581.19,
+          "reconCommission": 15723.83,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 7547.44,
+              "contractRate": 3,
+              "contractAmount": 7547.44,
+              "source": "Cybervox_EUR_2025_02.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 8176.39,
+              "contractRate": 3.25,
+              "contractAmount": 8176.39,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 21,
+          "date": "Feb 21",
+          "turnover": 198291.16,
+          "regCommission": 12393.189999999999,
+          "regTxCount": 1606,
+          "reconTurnover": 198291.16,
+          "reconCommission": 12393.189999999999,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 5948.73,
+              "contractRate": 3,
+              "contractAmount": 5948.73,
+              "source": "Cybervox_EUR_2025_02.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 6444.46,
+              "contractRate": 3.25,
+              "contractAmount": 6444.46,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 22,
+          "date": "Feb 22",
+          "turnover": 230242.19,
+          "regCommission": 14390.14,
+          "regTxCount": 1865,
+          "reconTurnover": 230242.19,
+          "reconCommission": 14390.14,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 6907.27,
+              "contractRate": 3,
+              "contractAmount": 6907.27,
+              "source": "Cybervox_EUR_2025_02.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 7482.87,
+              "contractRate": 3.25,
+              "contractAmount": 7482.87,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 23,
+          "date": "Feb 23",
+          "turnover": 251271.52,
+          "regCommission": 15704.47,
+          "regTxCount": 2035,
+          "reconTurnover": 251271.52,
+          "reconCommission": 15704.47,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 7538.15,
+              "contractRate": 3,
+              "contractAmount": 7538.15,
+              "source": "Cybervox_EUR_2025_02.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 8166.32,
+              "contractRate": 3.25,
+              "contractAmount": 8166.32,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 24,
+          "date": "Feb 24",
+          "turnover": 198087.34,
+          "regCommission": 12380.46,
+          "regTxCount": 1605,
+          "reconTurnover": 198087.34,
+          "reconCommission": 12380.46,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 5942.62,
+              "contractRate": 3,
+              "contractAmount": 5942.62,
+              "source": "Cybervox_EUR_2025_02.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 6437.84,
+              "contractRate": 3.25,
+              "contractAmount": 6437.84,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 25,
+          "date": "Feb 25",
+          "turnover": 230757.66,
+          "regCommission": 14422.349999999999,
+          "regTxCount": 1869,
+          "reconTurnover": 230757.66,
+          "reconCommission": 14422.349999999999,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 6922.73,
+              "contractRate": 3,
+              "contractAmount": 6922.73,
+              "source": "Cybervox_EUR_2025_02.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 7499.62,
+              "contractRate": 3.25,
+              "contractAmount": 7499.62,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 26,
+          "date": "Feb 26",
+          "turnover": 250954.87,
+          "regCommission": 15684.68,
+          "regTxCount": 2033,
+          "reconTurnover": 250954.87,
+          "reconCommission": 15684.68,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 7528.65,
+              "contractRate": 3,
+              "contractAmount": 7528.65,
+              "source": "Cybervox_EUR_2025_02.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 8156.03,
+              "contractRate": 3.25,
+              "contractAmount": 8156.03,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 27,
+          "date": "Feb 27",
+          "turnover": 197891.59,
+          "regCommission": 12368.23,
+          "regTxCount": 1603,
+          "reconTurnover": 197891.59,
+          "reconCommission": 12368.23,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 5936.75,
+              "contractRate": 3,
+              "contractAmount": 5936.75,
+              "source": "Cybervox_EUR_2025_02.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 6431.48,
+              "contractRate": 3.25,
+              "contractAmount": 6431.48,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 28,
+          "date": "Feb 28",
+          "turnover": 231271.96,
+          "regCommission": 14454.5,
+          "regTxCount": 1873,
+          "reconTurnover": 231271.96,
+          "reconCommission": 14454.5,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 6938.16,
+              "contractRate": 3,
+              "contractAmount": 6938.16,
+              "source": "Cybervox_EUR_2025_02.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 7516.34,
+              "contractRate": 3.25,
+              "contractAmount": 7516.34,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        }
+      ],
+      "refundQty": 19,
+      "refundAmount": 936.37,
+      "chbQty": 273,
+      "chbDay": 28
+    },
+    {
+      "key": "jan-2025",
+      "label": "January",
+      "turnover": 4564768.56,
+      "regCommission": 285298.0399999999,
+      "regTxCount": 41080,
+      "reconTurnover": 4564768.56,
+      "reconCommission": 285298.0399999999,
+      "reconRate": 6.25,
+      "contractRate": 6.25,
+      "registryAmount": 4564527.5,
+      "contractExpected": 285298.04,
+      "deviation": 0,
+      "parts": [
+        {
+          "label": "SENDS",
+          "rate": 3,
+          "amount": 136943.05,
+          "contractRate": 3,
+          "contractAmount": 136943.05,
+          "source": "Cybervox_EUR_2025_01.xlsx",
+          "contractSource": "Agreement_1607-24_amended.pdf"
+        },
+        {
+          "label": "Impaya",
+          "rate": 3.25,
+          "amount": 148354.99,
+          "contractRate": 3.25,
+          "contractAmount": 148354.99,
+          "source": "Impaya.docx",
+          "contractSource": "Impaya.docx"
+        }
+      ],
+      "days": [
+        {
+          "day": 1,
+          "date": "Jan 1",
+          "turnover": 146875.71,
+          "regCommission": 9179.73,
+          "regTxCount": 1322,
+          "reconTurnover": 146875.71,
+          "reconCommission": 9179.73,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 4406.27,
+              "contractRate": 3,
+              "contractAmount": 4406.27,
+              "source": "Cybervox_EUR_2025_01.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 4773.46,
+              "contractRate": 3.25,
+              "contractAmount": 4773.46,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "date": "Jan 2",
+          "turnover": 172578.92,
+          "regCommission": 10786.18,
+          "regTxCount": 1553,
+          "reconTurnover": 172578.92,
+          "reconCommission": 10786.18,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 5177.37,
+              "contractRate": 3,
+              "contractAmount": 5177.37,
+              "source": "Cybervox_EUR_2025_01.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 5608.81,
+              "contractRate": 3.25,
+              "contractAmount": 5608.81,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "date": "Jan 3",
+          "turnover": 140252.28,
+          "regCommission": 8765.77,
+          "regTxCount": 1262,
+          "reconTurnover": 140252.28,
+          "reconCommission": 8765.77,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 4207.57,
+              "contractRate": 3,
+              "contractAmount": 4207.57,
+              "source": "Cybervox_EUR_2025_01.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 4558.2,
+              "contractRate": 3.25,
+              "contractAmount": 4558.2,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 4,
+          "date": "Jan 4",
+          "turnover": 122879.3,
+          "regCommission": 7679.96,
+          "regTxCount": 1106,
+          "reconTurnover": 122879.3,
+          "reconCommission": 7679.96,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 3686.38,
+              "contractRate": 3,
+              "contractAmount": 3686.38,
+              "source": "Cybervox_EUR_2025_01.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 3993.58,
+              "contractRate": 3.25,
+              "contractAmount": 3993.58,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 5,
+          "date": "Jan 5",
+          "turnover": 159682.76,
+          "regCommission": 9980.169999999998,
+          "regTxCount": 1437,
+          "reconTurnover": 159682.76,
+          "reconCommission": 9980.169999999998,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 4790.48,
+              "contractRate": 3,
+              "contractAmount": 4790.48,
+              "source": "Cybervox_EUR_2025_01.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 5189.69,
+              "contractRate": 3.25,
+              "contractAmount": 5189.69,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 6,
+          "date": "Jan 6",
+          "turnover": 167571.9,
+          "regCommission": 10473.25,
+          "regTxCount": 1508,
+          "reconTurnover": 167571.9,
+          "reconCommission": 10473.25,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 5027.16,
+              "contractRate": 3,
+              "contractAmount": 5027.16,
+              "source": "Cybervox_EUR_2025_01.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 5446.09,
+              "contractRate": 3.25,
+              "contractAmount": 5446.09,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "date": "Jan 7",
+          "turnover": 128735.49,
+          "regCommission": 8045.959999999999,
+          "regTxCount": 1159,
+          "reconTurnover": 128735.49,
+          "reconCommission": 8045.959999999999,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 3862.06,
+              "contractRate": 3,
+              "contractAmount": 3862.06,
+              "source": "Cybervox_EUR_2025_01.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 4183.9,
+              "contractRate": 3.25,
+              "contractAmount": 4183.9,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 8,
+          "date": "Jan 8",
+          "turnover": 130854.07,
+          "regCommission": 8178.38,
+          "regTxCount": 1178,
+          "reconTurnover": 130854.07,
+          "reconCommission": 8178.38,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 3925.62,
+              "contractRate": 3,
+              "contractAmount": 3925.62,
+              "source": "Cybervox_EUR_2025_01.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 4252.76,
+              "contractRate": 3.25,
+              "contractAmount": 4252.76,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 9,
+          "date": "Jan 9",
+          "turnover": 169144.54,
+          "regCommission": 10571.54,
+          "regTxCount": 1522,
+          "reconTurnover": 169144.54,
+          "reconCommission": 10571.54,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 5074.34,
+              "contractRate": 3,
+              "contractAmount": 5074.34,
+              "source": "Cybervox_EUR_2025_01.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 5497.2,
+              "contractRate": 3.25,
+              "contractAmount": 5497.2,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 10,
+          "date": "Jan 10",
+          "turnover": 157158.93,
+          "regCommission": 9822.44,
+          "regTxCount": 1414,
+          "reconTurnover": 157158.93,
+          "reconCommission": 9822.44,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 4714.77,
+              "contractRate": 3,
+              "contractAmount": 4714.77,
+              "source": "Cybervox_EUR_2025_01.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 5107.67,
+              "contractRate": 3.25,
+              "contractAmount": 5107.67,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 11,
+          "date": "Jan 11",
+          "turnover": 121957.02,
+          "regCommission": 7622.3099999999995,
+          "regTxCount": 1098,
+          "reconTurnover": 121957.02,
+          "reconCommission": 7622.3099999999995,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 3658.71,
+              "contractRate": 3,
+              "contractAmount": 3658.71,
+              "source": "Cybervox_EUR_2025_01.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 3963.6,
+              "contractRate": 3.25,
+              "contractAmount": 3963.6,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 12,
+          "date": "Jan 12",
+          "turnover": 143013.77,
+          "regCommission": 8938.36,
+          "regTxCount": 1287,
+          "reconTurnover": 143013.77,
+          "reconCommission": 8938.36,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 4290.41,
+              "contractRate": 3,
+              "contractAmount": 4290.41,
+              "source": "Cybervox_EUR_2025_01.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 4647.95,
+              "contractRate": 3.25,
+              "contractAmount": 4647.95,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 13,
+          "date": "Jan 13",
+          "turnover": 172789.59,
+          "regCommission": 10799.349999999999,
+          "regTxCount": 1555,
+          "reconTurnover": 172789.59,
+          "reconCommission": 10799.349999999999,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 5183.69,
+              "contractRate": 3,
+              "contractAmount": 5183.69,
+              "source": "Cybervox_EUR_2025_01.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 5615.66,
+              "contractRate": 3.25,
+              "contractAmount": 5615.66,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 14,
+          "date": "Jan 14",
+          "turnover": 144059.94,
+          "regCommission": 9003.75,
+          "regTxCount": 1296,
+          "reconTurnover": 144059.94,
+          "reconCommission": 9003.75,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 4321.8,
+              "contractRate": 3,
+              "contractAmount": 4321.8,
+              "source": "Cybervox_EUR_2025_01.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 4681.95,
+              "contractRate": 3.25,
+              "contractAmount": 4681.95,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 15,
+          "date": "Jan 15",
+          "turnover": 121687.43,
+          "regCommission": 7605.46,
+          "regTxCount": 1095,
+          "reconTurnover": 121687.43,
+          "reconCommission": 7605.46,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 3650.62,
+              "contractRate": 3,
+              "contractAmount": 3650.62,
+              "source": "Cybervox_EUR_2025_01.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 3954.84,
+              "contractRate": 3.25,
+              "contractAmount": 3954.84,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 16,
+          "date": "Jan 16",
+          "turnover": 156182.23,
+          "regCommission": 9761.39,
+          "regTxCount": 1406,
+          "reconTurnover": 156182.23,
+          "reconCommission": 9761.39,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 4685.47,
+              "contractRate": 3,
+              "contractAmount": 4685.47,
+              "source": "Cybervox_EUR_2025_01.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 5075.92,
+              "contractRate": 3.25,
+              "contractAmount": 5075.92,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 17,
+          "date": "Jan 17",
+          "turnover": 169665.81,
+          "regCommission": 10604.11,
+          "regTxCount": 1527,
+          "reconTurnover": 169665.81,
+          "reconCommission": 10604.11,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 5089.97,
+              "contractRate": 3,
+              "contractAmount": 5089.97,
+              "source": "Cybervox_EUR_2025_01.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 5514.14,
+              "contractRate": 3.25,
+              "contractAmount": 5514.14,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 18,
+          "date": "Jan 18",
+          "turnover": 131696.44,
+          "regCommission": 8231.02,
+          "regTxCount": 1185,
+          "reconTurnover": 131696.44,
+          "reconCommission": 8231.02,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 3950.89,
+              "contractRate": 3,
+              "contractAmount": 3950.89,
+              "source": "Cybervox_EUR_2025_01.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 4280.13,
+              "contractRate": 3.25,
+              "contractAmount": 4280.13,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 19,
+          "date": "Jan 19",
+          "turnover": 127997.15,
+          "regCommission": 7999.82,
+          "regTxCount": 1152,
+          "reconTurnover": 127997.15,
+          "reconCommission": 7999.82,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 3839.91,
+              "contractRate": 3,
+              "contractAmount": 3839.91,
+              "source": "Cybervox_EUR_2025_01.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 4159.91,
+              "contractRate": 3.25,
+              "contractAmount": 4159.91,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 20,
+          "date": "Jan 20",
+          "turnover": 166919.79,
+          "regCommission": 10432.48,
+          "regTxCount": 1502,
+          "reconTurnover": 166919.79,
+          "reconCommission": 10432.48,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 5007.59,
+              "contractRate": 3,
+              "contractAmount": 5007.59,
+              "source": "Cybervox_EUR_2025_01.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 5424.89,
+              "contractRate": 3.25,
+              "contractAmount": 5424.89,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 21,
+          "date": "Jan 21",
+          "turnover": 160589.14,
+          "regCommission": 10036.82,
+          "regTxCount": 1445,
+          "reconTurnover": 160589.14,
+          "reconCommission": 10036.82,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 4817.67,
+              "contractRate": 3,
+              "contractAmount": 4817.67,
+              "source": "Cybervox_EUR_2025_01.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 5219.15,
+              "contractRate": 3.25,
+              "contractAmount": 5219.15,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 22,
+          "date": "Jan 22",
+          "turnover": 123297.84,
+          "regCommission": 7706.12,
+          "regTxCount": 1110,
+          "reconTurnover": 123297.84,
+          "reconCommission": 7706.12,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 3698.94,
+              "contractRate": 3,
+              "contractAmount": 3698.94,
+              "source": "Cybervox_EUR_2025_01.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 4007.18,
+              "contractRate": 3.25,
+              "contractAmount": 4007.18,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 23,
+          "date": "Jan 23",
+          "turnover": 139238.05,
+          "regCommission": 8702.380000000001,
+          "regTxCount": 1253,
+          "reconTurnover": 139238.05,
+          "reconCommission": 8702.380000000001,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 4177.14,
+              "contractRate": 3,
+              "contractAmount": 4177.14,
+              "source": "Cybervox_EUR_2025_01.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 4525.24,
+              "contractRate": 3.25,
+              "contractAmount": 4525.24,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 24,
+          "date": "Jan 24",
+          "turnover": 172421.73,
+          "regCommission": 10776.36,
+          "regTxCount": 1552,
+          "reconTurnover": 172421.73,
+          "reconCommission": 10776.36,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 5172.65,
+              "contractRate": 3,
+              "contractAmount": 5172.65,
+              "source": "Cybervox_EUR_2025_01.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 5603.71,
+              "contractRate": 3.25,
+              "contractAmount": 5603.71,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 25,
+          "date": "Jan 25",
+          "turnover": 147930.45,
+          "regCommission": 9245.65,
+          "regTxCount": 1331,
+          "reconTurnover": 147930.45,
+          "reconCommission": 9245.65,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 4437.91,
+              "contractRate": 3,
+              "contractAmount": 4437.91,
+              "source": "Cybervox_EUR_2025_01.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 4807.74,
+              "contractRate": 3.25,
+              "contractAmount": 4807.74,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 26,
+          "date": "Jan 26",
+          "turnover": 121057.9,
+          "regCommission": 7566.12,
+          "regTxCount": 1089,
+          "reconTurnover": 121057.9,
+          "reconCommission": 7566.12,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 3631.74,
+              "contractRate": 3,
+              "contractAmount": 3631.74,
+              "source": "Cybervox_EUR_2025_01.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 3934.38,
+              "contractRate": 3.25,
+              "contractAmount": 3934.38,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 27,
+          "date": "Jan 27",
+          "turnover": 152473.94,
+          "regCommission": 9529.619999999999,
+          "regTxCount": 1372,
+          "reconTurnover": 152473.94,
+          "reconCommission": 9529.619999999999,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 4574.22,
+              "contractRate": 3,
+              "contractAmount": 4574.22,
+              "source": "Cybervox_EUR_2025_01.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 4955.4,
+              "contractRate": 3.25,
+              "contractAmount": 4955.4,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 28,
+          "date": "Jan 28",
+          "turnover": 171250.92,
+          "regCommission": 10703.18,
+          "regTxCount": 1541,
+          "reconTurnover": 171250.92,
+          "reconCommission": 10703.18,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 5137.53,
+              "contractRate": 3,
+              "contractAmount": 5137.53,
+              "source": "Cybervox_EUR_2025_01.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 5565.65,
+              "contractRate": 3.25,
+              "contractAmount": 5565.65,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 29,
+          "date": "Jan 29",
+          "turnover": 134996.26,
+          "regCommission": 8437.27,
+          "regTxCount": 1215,
+          "reconTurnover": 134996.26,
+          "reconCommission": 8437.27,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 4049.89,
+              "contractRate": 3,
+              "contractAmount": 4049.89,
+              "source": "Cybervox_EUR_2025_01.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 4387.38,
+              "contractRate": 3.25,
+              "contractAmount": 4387.38,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 30,
+          "date": "Jan 30",
+          "turnover": 125561.71,
+          "regCommission": 7847.610000000001,
+          "regTxCount": 1130,
+          "reconTurnover": 125561.71,
+          "reconCommission": 7847.610000000001,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 3766.85,
+              "contractRate": 3,
+              "contractAmount": 3766.85,
+              "source": "Cybervox_EUR_2025_01.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 4080.76,
+              "contractRate": 3.25,
+              "contractAmount": 4080.76,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        },
+        {
+          "day": 31,
+          "date": "Jan 31",
+          "turnover": 164247.55,
+          "regCommission": 10265.48,
+          "regTxCount": 1478,
+          "reconTurnover": 164247.55,
+          "reconCommission": 10265.48,
+          "reconRate": 6.25,
+          "contractRate": 6.25,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3,
+              "amount": 4927.43,
+              "contractRate": 3,
+              "contractAmount": 4927.43,
+              "source": "Cybervox_EUR_2025_01.xlsx",
+              "contractSource": "Agreement_1607-24_amended.pdf"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 5338.05,
+              "contractRate": 3.25,
+              "contractAmount": 5338.05,
+              "source": "Impaya.docx",
+              "contractSource": "Impaya.docx"
+            }
+          ]
+        }
+      ],
+      "refundQty": 11,
+      "refundAmount": 241.06,
+      "chbQty": 374,
+      "chbDay": 31
+    }
+  ]
+}

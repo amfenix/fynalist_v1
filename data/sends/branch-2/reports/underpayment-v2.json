@@ -3,11 +3,11 @@
   "scope": "Commission Part 1 Analysis - Contract Rate Comparison",
   "data_source": "Registry commission.1 vs Contract rate (Day-by-Day Analysis)",
   "summary": {
-    "total_transactions": 2960873,
-    "total_volume": 159627280.29,
-    "total_expected_commission": 4086728.20,
-    "total_actual_commission": 4136076.06,
-    "total_deviation": 49347.86,
+    "total_transactions": 2960872,
+    "total_volume": 159627290.29,
+    "total_expected_commission": 4086728.74,
+    "total_actual_commission": 4136076.36,
+    "total_deviation": 49347.62,
     "match_percentage": 98.79,
     "merchants_analyzed": 16
   },
@@ -512,33 +512,33 @@
     {
       "merchant": "SIKCINTIVK SMART+FIN",
       "merchant_key": "sikcintivk",
-      "transaction_count": 200779,
-      "total_volume": 10361106.16,
+      "transaction_count": 200778,
+      "total_volume": 10361116.16,
       "contract_rate": 1.75,
       "contract_fixed": 0,
-      "expected_commission": 181319.36,
-      "actual_commission": 181545.56,
-      "deviation": 226.20,
-      "deviation_percent": 0.1247,
+      "expected_commission": 181319.90,
+      "actual_commission": 181545.86,
+      "deviation": 225.96,
+      "deviation_percent": 0.1246,
       "status": "minor",
       "currencies": ["EUR"],
       "currency_details": [
         {
           "currency": "EUR",
-          "tx_count": 200779,
-          "payment_count": 200779,
+          "tx_count": 200778,
+          "payment_count": 200778,
           "refund_count": 0,
           "rate": 1.75,
           "fixed": 0.0,
-          "volume": 10361106.16,
-          "expected": 181319.36,
-          "actual": 181545.56,
-          "deviation": 226.20
+          "volume": 10361116.16,
+          "expected": 181319.90,
+          "actual": 181545.86,
+          "deviation": 225.96
         }
       ],
       "missing_rates": null,
       "monthly_reconciliation": [
-        {"month": "2025-01", "tx_count": 3, "volume": 20.00, "expected": 0.35, "actual": 0.60, "deviation": 0.25},
+        {"month": "2025-01", "tx_count": 2, "volume": 30.00, "expected": 0.90, "actual": 0.90, "deviation": 0.00},
         {"month": "2025-03", "tx_count": 18549, "volume": 993641.89, "expected": 17388.73, "actual": 17419.74, "deviation": 31.01},
         {"month": "2025-04", "tx_count": 87333, "volume": 4418756.65, "expected": 77328.24, "actual": 77445.95, "deviation": 117.71},
         {"month": "2025-05", "tx_count": 79345, "volume": 4075132.72, "expected": 71314.82, "actual": 71392.58, "deviation": 77.76},
@@ -546,7 +546,7 @@
         {"month": "2025-07", "tx_count": 560, "volume": 26073.59, "expected": 456.29, "actual": 456.40, "deviation": 0.11}
       ],
       "first_fee_column": "Commission amount.1",
-      "reconciliation_fee_total": 181545.56,
+      "reconciliation_fee_total": 181545.86,
       "notes": "Combined data from SIKCINTIVK FIN (2024/1208-01) and SIKCINTIVK SMART (1106-24) contracts."
     },
     {
@@ -676,11 +676,11 @@
   "currency_breakdown": [
     {
       "currency": "EUR",
-      "transaction_count": 2960873,
-      "total_volume": 159627280.29,
-      "actual_commission": 4136076.06,
-      "expected_commission": 4086728.20,
-      "deviation": 49347.86,
+      "transaction_count": 2960872,
+      "total_volume": 159627290.29,
+      "actual_commission": 4136076.36,
+      "expected_commission": 4086728.74,
+      "deviation": 49347.62,
       "avg_effective_rate": 2.59
     }
   ]

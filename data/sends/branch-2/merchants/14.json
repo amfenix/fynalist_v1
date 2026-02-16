@@ -5,14 +5,14 @@
   "company_name": "SIKCINTIVK LTD",
   "kam": "",
   "contract_id": "2024/1208-01 (FIN), 1106-24 (SMART)",
-  "transaction_count": 200779,
-  "approved_count": 200779,
+  "transaction_count": 200778,
+  "approved_count": 200778,
   "declined_count": 0,
   "acceptance_rate": 0,
-  "total_amount_eur": 10361106.16,
-  "total_commission_eur": 181545.56,
-  "sale_count": 200779,
-  "sale_amount": 10361106.16,
+  "total_amount_eur": 10361116.16,
+  "total_commission_eur": 181545.86,
+  "sale_count": 200778,
+  "sale_amount": 10361116.16,
   "payout_count": 0,
   "payout_amount": 0.0,
   "reversal_count": 0,
@@ -22,11 +22,11 @@
     "SENDS"
   ],
   "currency_breakdown": [
-    {"currency": "EUR", "cnt": 200779, "amount": 10361106.16}
+    {"currency": "EUR", "cnt": 200778, "amount": 10361116.16}
   ],
   "monthly_reconciliation": {
     "EUR": [
-      {"month": "2025-01", "tx_count": 3, "tx_amount": 20.00, "tx_commission": 0.60, "tx_effective_rate": 3.0000, "recon_count": 3, "recon_amount": 30.00, "recon_commission": 0.60, "recon_rate": 2.0000, "contract_rate": 1.75, "amount_diff": -10.00, "deviation_percent": 1.2500, "status": "warning"},
+      {"month": "2025-01", "tx_count": 2, "tx_amount": 30.00, "tx_commission": 0.90, "tx_effective_rate": 3.0000, "recon_count": 2, "recon_amount": 30.00, "recon_commission": 0.90, "recon_rate": 3.0000, "contract_rate": 1.75, "amount_diff": 0.00, "deviation_percent": 1.2500, "status": "warning"},
       {"month": "2025-02", "tx_count": 0, "tx_amount": 0, "tx_commission": 0, "tx_effective_rate": 0, "recon_count": null, "recon_amount": null, "recon_commission": null, "recon_rate": null, "contract_rate": 1.75, "amount_diff": null, "deviation_percent": null, "status": "empty"},
       {"month": "2025-03", "tx_count": 18549, "tx_amount": 993641.89, "tx_commission": 17419.74, "tx_effective_rate": 1.7530, "recon_count": 18549, "recon_amount": 993641.89, "recon_commission": 17419.74, "recon_rate": 1.7530, "contract_rate": 1.75, "amount_diff": 0, "deviation_percent": 0.0030, "status": "ok"},
       {"month": "2025-04", "tx_count": 87333, "tx_amount": 4418756.65, "tx_commission": 77445.95, "tx_effective_rate": 1.7528, "recon_count": 87333, "recon_amount": 4418816.65, "recon_commission": 77445.95, "recon_rate": 1.7527, "contract_rate": 1.75, "amount_diff": -60.00, "deviation_percent": 0.0028, "status": "ok"},

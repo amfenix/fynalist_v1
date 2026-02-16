@@ -1,0 +1,19 @@
+{
+  "title": "Merchants Overview",
+  "subtitle": "Batch #3 — Commission deviation by month",
+  "years": [2025],
+  "defaultYear": 2025,
+  "operationTypes": [
+    { "key": "incoming", "label": "Incoming" }
+  ],
+  "defaultOperation": "incoming",
+  "paymentMethods": [
+    { "key": "card", "label": "Card" }
+  ],
+  "defaultPaymentMethod": "card",
+  "thresholds": {
+    "zeroDisplay": 0.5,
+    "zeroColor": 1,
+    "caseClickable": 0.5
+  }
+}

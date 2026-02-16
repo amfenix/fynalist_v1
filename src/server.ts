@@ -360,7 +360,8 @@ async function serveApiRoute(
   pathname: string,
   client: ClientConfig,
   version: string,
-  extraHeaders: Record<string, string> = {}
+  extraHeaders: Record<string, string> = {},
+  searchParams?: URLSearchParams
 ): Promise<Response> {
   // Remove /api prefix
   const apiPath = pathname.replace(/^\/api/, "");
@@ -510,13 +511,127 @@ async function serveApiRoute(
   else if (apiPath === "/reports/reconciliation-deviation") {
     jsonPath = `${VERSION_DATA_DIR}/reports/reconciliation-deviation.json`;
   }
-  // /api/reports/underpayment-v2 (Commission Compliance)
+  // /api/reports/underpayment-v2 (Commission Mismatch Report)
   else if (apiPath === "/reports/underpayment-v2") {
     jsonPath = `${VERSION_DATA_DIR}/reports/underpayment-v2.json`;
   }
-  // /api/reports/merchants-overview
+  // /api/reports/merchants-overview (Merchants Overview Report)
   else if (apiPath === "/reports/merchants-overview") {
     jsonPath = `${VERSION_DATA_DIR}/reports/merchants-overview.json`;
+  }
+  // /api/overview/config - Overview config (years, tabs, thresholds)
+  else if (apiPath === "/overview/config") {
+    const configPath = `${VERSION_DATA_DIR}/overview/config.json`;
+    const configFile = Bun.file(configPath);
+    if (await configFile.exists()) {
+      return serveFile(configPath, { ...extraHeaders, "Content-Type": "application/json" });
+    }
+    return new Response(JSON.stringify({ error: "No overview config" }), {
+      status: 404,
+      headers: { "Content-Type": "application/json" },
+    });
+  }
+  // /api/overview - Merchant overview grid data (config-driven or legacy)
+  else if (apiPath === "/overview") {
+    // Check if config-driven mode exists
+    const configPath = `${VERSION_DATA_DIR}/overview/config.json`;
+    const configFile = Bun.file(configPath);
+    if (await configFile.exists()) {
+      // Config-driven: read query params
+      const year = searchParams?.get("year") || "";
+      const op = searchParams?.get("op") || "";
+      const method = searchParams?.get("method") || "";
+      if (year && op && method) {
+        jsonPath = `${VERSION_DATA_DIR}/overview/${year}/${op}-${method}.json`;
+      } else {
+        // Fallback: read defaults from config
+        const config = await configFile.json();
+        const y = year || config.defaultYear;
+        const o = op || config.defaultOperation;
+        const m = method || config.defaultPaymentMethod;
+        jsonPath = `${VERSION_DATA_DIR}/overview/${y}/${o}-${m}.json`;
+      }
+    } else {
+      // Legacy mode: serve overview.json
+      jsonPath = `${VERSION_DATA_DIR}/overview.json`;
+    }
+  }
+  // /api/cases - All investigation cases list (batch_3)
+  else if (apiPath === "/cases") {
+    jsonPath = `${VERSION_DATA_DIR}/cases.json`;
+  }
+  // /api/cases/:caseId - Individual investigation case data
+  else if (apiPath.match(/^\/cases\/INV-[\w-]+$/)) {
+    const caseId = apiPath.split("/")[2];
+    // Search through merchant directories for the case file
+    // Convention: merchants/{shortname}/cases/{caseId}.json
+    // For now, scan known merchants
+    const merchantDirs = await readdir(join(VERSION_DATA_DIR, "merchants")).catch(() => [] as string[]);
+    let found = false;
+    for (const dir of merchantDirs) {
+      const casePath = join(VERSION_DATA_DIR, "merchants", String(dir), "cases", `${caseId}.json`);
+      const caseFile = Bun.file(casePath);
+      if (await caseFile.exists()) {
+        jsonPath = casePath;
+        found = true;
+        break;
+      }
+    }
+    if (!found) {
+      return new Response(JSON.stringify({ error: "Case not found" }), {
+        status: 404,
+        headers: { "Content-Type": "application/json" },
+      });
+    }
+  }
+  // /api/merchant/:shortname/streams/:streamId - Stream deviation data
+  else if (apiPath.match(/^\/merchant\/[a-z][a-z0-9-]+\/streams\/[a-z0-9-]+$/)) {
+    const shortname = apiPath.split("/")[2];
+    const streamId = apiPath.split("/")[4];
+    jsonPath = `${VERSION_DATA_DIR}/merchants/${shortname}/streams/${streamId}.json`;
+  }
+  // /api/merchant/:shortname - Merchant data by shortname (batch_3)
+  else if (apiPath.match(/^\/merchant\/[a-z][a-z0-9-]+$/) && !apiPath.match(/^\/merchants\//)) {
+    const shortname = apiPath.split("/")[2];
+    jsonPath = `${VERSION_DATA_DIR}/merchants/${shortname}/merchant.json`;
+  }
+  // /api/merchant/:shortname/dynamics - Rate plan dynamics by shortname
+  else if (apiPath.match(/^\/merchant\/[a-z][a-z0-9-]+\/dynamics$/)) {
+    const shortname = apiPath.split("/")[2];
+    jsonPath = `${VERSION_DATA_DIR}/merchants/${shortname}/dynamics.json`;
+  }
+  // /api/merchant/:shortname/analysis or /api/merchant/:shortname/rate-plan-analysis
+  else if (apiPath.match(/^\/merchant\/[a-z][a-z0-9-]+\/(analysis|rate-plan-analysis)$/)) {
+    const shortname = apiPath.split("/")[2];
+    jsonPath = `${VERSION_DATA_DIR}/merchants/${shortname}/analysis.json`;
+  }
+  // /api/merchant/:shortname/contracts - Contract list by shortname (for ContractsSection)
+  else if (apiPath.match(/^\/merchant\/[a-z][a-z0-9-]+\/contracts$/)) {
+    const shortname = apiPath.split("/")[2];
+    jsonPath = `${VERSION_DATA_DIR}/merchants/${shortname}/contracts-list.json`;
+  }
+  // /api/merchant/:shortname/contracts/:contractId - Contract detail
+  else if (apiPath.match(/^\/merchant\/[a-z][a-z0-9-]+\/contracts\/.+$/)) {
+    const shortname = apiPath.split("/")[2];
+    const contractId = decodeURIComponent(apiPath.split("/")[4]);
+    jsonPath = `${VERSION_DATA_DIR}/merchants/${shortname}/contracts/${contractId}.json`;
+  }
+  // /api/merchant/:shortname/contract-plans - Contract rate plans by shortname
+  else if (apiPath.match(/^\/merchant\/[a-z][a-z0-9-]+\/contract-plans$/)) {
+    const shortname = apiPath.split("/")[2];
+    jsonPath = `${VERSION_DATA_DIR}/merchants/${shortname}/contract-plans.json`;
+  }
+  // /api/merchant/:shortname/analysis-config - Analysis config by shortname
+  else if (apiPath.match(/^\/merchant\/[a-z][a-z0-9-]+\/analysis-config$/)) {
+    const shortname = apiPath.split("/")[2];
+    jsonPath = `${VERSION_DATA_DIR}/merchants/${shortname}/analysis-config.json`;
+  }
+  // /api/merchant/:shortname/plan-dynamics/:planId - Plan dynamics by shortname
+  else if (apiPath.match(/^\/merchant\/[a-z][a-z0-9-]+\/plan-dynamics\/.+$/)) {
+    const shortname = apiPath.split("/")[2];
+    const planId = decodeURIComponent(apiPath.split("/")[4]);
+    const safePlanId = planId.replace(/:/g, "_").replace(/\//g, "_");
+    jsonPath = `${VERSION_DATA_DIR}/merchants/${shortname}/plan-dynamics/${safePlanId}.json`;
   }
   // /api/dsl-config - DSL configuration with versioning
   else if (apiPath === "/dsl-config") {
@@ -711,7 +826,7 @@ const server = Bun.serve({
 
       // API routes - serve from data/
       if (url.pathname.startsWith("/api/")) {
-        return serveApiRoute(url.pathname, authedClient, authedVersion);
+        return serveApiRoute(url.pathname, authedClient, authedVersion, {}, url.searchParams);
       }
       // Static files - serve from public/
       return serveStatic(url.pathname);

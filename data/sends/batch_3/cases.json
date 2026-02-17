@@ -1,28 +1,28 @@
 {
   "cases": [
     {
-      "id": "INV-2025-0042",
+      "id": "INV-2025-0044",
       "type": "rate-change",
-      "title": "SENDS rate underpayment",
-      "merchant": "Cybervox",
-      "merchantId": "cybervox",
-      "partLabel": "SENDS",
-      "deviation": -32133.28,
-      "period": "Mar 1, 2025 — Mar 31, 2025",
+      "title": "Contract rate 5% not applied after addendum",
+      "merchant": "BlueOcean",
+      "merchantId": "blueocean",
+      "partLabel": "Smartflow",
+      "deviation": -4226.88,
+      "period": "Sep 9, 2025 — Oct 16, 2025",
       "status": "open",
-      "summary": "SENDS commission rate for Cybervox was reduced from 3.00% to 1.75% effective March 11 per Addendum #2 to contract 1607-24. The expected commission calculation still used the original 3.00% rate, resulting in an apparent underpayment of 32,133.28 EUR."
+      "summary": "Contract addendum effective Sep 9 specified 5.0% rate, but both registry and reconciliation continued charging 4.8% for 37 days (Sep 9 – Oct 16). Total underpayment: 4,226.88 EUR."
     },
     {
-      "id": "INV-2025-0043",
-      "type": "missing-transactions",
-      "title": "Missing transactions in Impaya settlement",
-      "merchant": "Cybervox",
-      "merchantId": "cybervox",
-      "partLabel": "Impaya",
-      "deviation": -12.34,
-      "period": "Mar 1, 2025 — Mar 31, 2025",
+      "id": "INV-2025-0045",
+      "type": "rate-change",
+      "title": "Registry-Reconciliation commission gap",
+      "merchant": "BlueOcean",
+      "merchantId": "blueocean",
+      "partLabel": "Smartflow",
+      "deviation": 24966.1,
+      "period": "Oct 16, 2025 — Nov 30, 2025",
       "status": "open",
-      "summary": "3 transactions totaling 759.80 EUR processed through Impaya for Cybervox in March 2025 are present in our registry but missing from the Impaya reconciliation settlement."
+      "summary": "Registry continued charging 4.8% effective rate while reconciliation switched to 4.2% from Oct 16. The gap persisted through November 30. Total overpayment in registry vs reconciliation: 24,966.10 EUR."
     }
   ]
 }

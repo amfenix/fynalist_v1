@@ -1,18 +1,5 @@
 [
   {
-    "merchant_id": "cybervox",
-    "merchant_name": "Cybervox",
-    "merchant_group": null,
-    "company_name": "CYBERVOX LTD",
-    "transaction_count": 141234,
-    "approved_count": 141234,
-    "declined_count": 0,
-    "acceptance_rate": 95.0,
-    "total_amount_eur": 16866116.95,
-    "total_commission_eur": 1002086.95,
-    "avg_commission_percent": 5.9414
-  },
-  {
     "merchant_id": "blueocean",
     "merchant_name": "BlueOcean",
     "merchant_group": null,

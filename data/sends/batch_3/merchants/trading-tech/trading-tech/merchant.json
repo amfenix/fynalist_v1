@@ -1,0 +1,2868 @@
+{
+  "id": "trading-tech",
+  "name": "TradingTech",
+  "legalName": "TRADING TECH SP. Z O.O.",
+  "contract": "No. 11/12-01/OB",
+  "rateHistory": [
+    {
+      "contract": "No. 11/12-01/OB",
+      "effectiveDate": "Dec 11, 2024",
+      "periodFrom": "Dec 11",
+      "periodTo": "May 22",
+      "rates": [
+        {
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 3.0
+            }
+          ],
+          "fixedFee": "0.20 EUR/tx",
+          "refundFee": 5,
+          "notes": [
+            "BLIK",
+            "PLN",
+            "Settlement EUR"
+          ]
+        }
+      ]
+    },
+    {
+      "contract": "No. 11/12-01/OB",
+      "suffix": "(Addendum No. 3)",
+      "effectiveDate": "May 23, 2025",
+      "periodFrom": "May 23",
+      "periodTo": "current",
+      "rates": [
+        {
+          "parts": [
+            {
+              "label": "Finthesis",
+              "rate": 3.0
+            }
+          ],
+          "fixedFee": "0.10 EUR/tx",
+          "refundFee": 5,
+          "notes": [
+            "BLIK",
+            "PLN",
+            "Settlement EUR",
+            "Fixed reduced from 0.20"
+          ]
+        }
+      ]
+    },
+    {
+      "contract": "No. 11/12-01/OB",
+      "suffix": "(EUR acquiring, no rate sheet)",
+      "effectiveDate": "Sep 30, 2024",
+      "periodFrom": "Sep 30",
+      "periodTo": "Mar 11",
+      "rates": [
+        {
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 5.0
+            }
+          ],
+          "notes": [
+            "Incoming",
+            "Card",
+            "EUR",
+            "Rate from reconciliation"
+          ]
+        }
+      ]
+    },
+    {
+      "contract": "No. 11/12-01/OB",
+      "suffix": "(EUR acquiring, ghost split)",
+      "effectiveDate": "Mar 12, 2025",
+      "periodFrom": "Mar 12",
+      "periodTo": "Mar 18",
+      "rates": [
+        {
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 1.75
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25
+            }
+          ],
+          "notes": [
+            "Incoming",
+            "Card",
+            "EUR",
+            "Total 5.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "contract": "No. 11/12-01/OB",
+      "suffix": "(EUR acquiring, rate reduced)",
+      "effectiveDate": "Mar 19, 2025",
+      "periodFrom": "Mar 19",
+      "periodTo": "Apr 9",
+      "rates": [
+        {
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 1.75
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.05
+            }
+          ],
+          "notes": [
+            "Incoming",
+            "Card",
+            "EUR",
+            "Total 4.80%"
+          ]
+        }
+      ]
+    },
+    {
+      "contract": "No. 11/12-01/OB",
+      "suffix": "(Addendum No. 5)",
+      "effectiveDate": "Dec 23, 2025",
+      "periodFrom": "Dec 23",
+      "periodTo": "current",
+      "rates": [
+        {
+          "parts": [
+            {
+              "label": "Finthesis",
+              "rate": 2.5
+            }
+          ],
+          "fixedFee": "0.40 GBP/tx",
+          "notes": [
+            "Payment Initiation",
+            "EUR"
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "successTxn": 160750,
+    "failedTxn": 0,
+    "acceptRate": 95.0,
+    "refundRate": 0.04
+  },
+  "months": [
+    {
+      "key": "dec-2025",
+      "label": "December",
+      "turnover": 0,
+      "registryAmount": 0,
+      "regCommission": 0,
+      "regTxCount": 0,
+      "reconTurnover": 0,
+      "reconCommission": 0,
+      "reconRate": 0,
+      "contractRate": 0,
+      "contractExpected": 0,
+      "deviation": 0,
+      "parts": [],
+      "days": []
+    },
+    {
+      "key": "nov-2025",
+      "label": "November",
+      "turnover": 0,
+      "registryAmount": 0,
+      "regCommission": 0,
+      "regTxCount": 0,
+      "reconTurnover": 0,
+      "reconCommission": 0,
+      "reconRate": 0,
+      "contractRate": 0,
+      "contractExpected": 0,
+      "deviation": 0,
+      "parts": [],
+      "days": []
+    },
+    {
+      "key": "oct-2025",
+      "label": "October",
+      "turnover": 0,
+      "registryAmount": 0,
+      "regCommission": 0,
+      "regTxCount": 0,
+      "reconTurnover": 0,
+      "reconCommission": 0,
+      "reconRate": 0,
+      "contractRate": 0,
+      "contractExpected": 0,
+      "deviation": 0,
+      "parts": [],
+      "days": []
+    },
+    {
+      "key": "sep-2025",
+      "label": "September",
+      "turnover": 0,
+      "registryAmount": 0,
+      "regCommission": 0,
+      "regTxCount": 0,
+      "reconTurnover": 0,
+      "reconCommission": 0,
+      "reconRate": 0,
+      "contractRate": 0,
+      "contractExpected": 0,
+      "deviation": 0,
+      "parts": [],
+      "days": []
+    },
+    {
+      "key": "aug-2025",
+      "label": "August",
+      "turnover": 0,
+      "registryAmount": 0,
+      "regCommission": 0,
+      "regTxCount": 0,
+      "reconTurnover": 0,
+      "reconCommission": 0,
+      "reconRate": 0,
+      "contractRate": 0,
+      "contractExpected": 0,
+      "deviation": 0,
+      "parts": [],
+      "days": []
+    },
+    {
+      "key": "jul-2025",
+      "label": "July",
+      "turnover": 0,
+      "registryAmount": 0,
+      "regCommission": 0,
+      "regTxCount": 0,
+      "reconTurnover": 0,
+      "reconCommission": 0,
+      "reconRate": 0,
+      "contractRate": 0,
+      "contractExpected": 0,
+      "deviation": 0,
+      "parts": [],
+      "days": []
+    },
+    {
+      "key": "jun-2025",
+      "label": "June",
+      "turnover": 0,
+      "registryAmount": 0,
+      "regCommission": 0,
+      "regTxCount": 0,
+      "reconTurnover": 0,
+      "reconCommission": 0,
+      "reconRate": 0,
+      "contractRate": 0,
+      "contractExpected": 0,
+      "deviation": 0,
+      "parts": [],
+      "days": []
+    },
+    {
+      "key": "may-2025",
+      "label": "May",
+      "turnover": 0,
+      "registryAmount": 0,
+      "regCommission": 0,
+      "regTxCount": 0,
+      "reconTurnover": 0,
+      "reconCommission": 0,
+      "reconRate": 0,
+      "contractRate": 0,
+      "contractExpected": 0,
+      "deviation": 0,
+      "parts": [],
+      "days": []
+    },
+    {
+      "key": "apr-2025",
+      "label": "April",
+      "turnover": 736242.29,
+      "registryAmount": 736242.29,
+      "regCommission": 35339.15,
+      "regTxCount": 15728,
+      "reconTurnover": 736242.29,
+      "reconCommission": 35339.15,
+      "reconRate": 4.7999,
+      "contractRate": 4.7999,
+      "contractExpected": 35339.15,
+      "deviation": 0,
+      "parts": [
+        {
+          "label": "Paymentz",
+          "rate": 1.7543,
+          "amount": 12915.99,
+          "contractRate": 1.7543,
+          "contractAmount": 12915.99,
+          "source": "Reconciliation",
+          "contractSource": "From reconciliation"
+        },
+        {
+          "label": "Impaya",
+          "rate": 3.0456,
+          "amount": 22423.16,
+          "contractRate": 3.0456,
+          "contractAmount": 22423.16,
+          "source": "Reconciliation",
+          "contractSource": "Ghost mechanic"
+        }
+      ],
+      "days": [
+        {
+          "day": 1,
+          "date": "Apr 1",
+          "turnover": 101970.09,
+          "regCommission": 4894.61,
+          "regTxCount": 1902,
+          "reconTurnover": 101970.09,
+          "reconCommission": 4894.61,
+          "reconRate": 4.8,
+          "contractRate": 4.8,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 1.7539,
+              "amount": 1788.48,
+              "contractRate": 1.75,
+              "contractAmount": 1788.48,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.0461,
+              "amount": 3106.13,
+              "contractRate": 3.05,
+              "contractAmount": 3106.13,
+              "source": "Reconciliation",
+              "contractSource": "Ghost mechanic"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "date": "Apr 2",
+          "turnover": 88693.51,
+          "regCommission": 4257.28,
+          "regTxCount": 1859,
+          "reconTurnover": 88693.51,
+          "reconCommission": 4257.28,
+          "reconRate": 4.8,
+          "contractRate": 4.8,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 1.7548,
+              "amount": 1556.37,
+              "contractRate": 1.75,
+              "contractAmount": 1556.37,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.0452,
+              "amount": 2700.91,
+              "contractRate": 3.05,
+              "contractAmount": 2700.91,
+              "source": "Reconciliation",
+              "contractSource": "Ghost mechanic"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "date": "Apr 3",
+          "turnover": 76993.09,
+          "regCommission": 3695.66,
+          "regTxCount": 1846,
+          "reconTurnover": 76993.09,
+          "reconCommission": 3695.66,
+          "reconRate": 4.8,
+          "contractRate": 4.8,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 1.7552,
+              "amount": 1351.36,
+              "contractRate": 1.75,
+              "contractAmount": 1351.36,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.0448,
+              "amount": 2344.3,
+              "contractRate": 3.05,
+              "contractAmount": 2344.3,
+              "source": "Reconciliation",
+              "contractSource": "Ghost mechanic"
+            }
+          ]
+        },
+        {
+          "day": 4,
+          "date": "Apr 4",
+          "turnover": 106642.43,
+          "regCommission": 5118.74,
+          "regTxCount": 2212,
+          "reconTurnover": 106642.43,
+          "reconCommission": 5118.74,
+          "reconRate": 4.7999,
+          "contractRate": 4.8,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 1.7541,
+              "amount": 1870.63,
+              "contractRate": 1.75,
+              "contractAmount": 1870.63,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.0458,
+              "amount": 3248.11,
+              "contractRate": 3.05,
+              "contractAmount": 3248.11,
+              "source": "Reconciliation",
+              "contractSource": "Ghost mechanic"
+            }
+          ]
+        },
+        {
+          "day": 5,
+          "date": "Apr 5",
+          "turnover": 82852.92,
+          "regCommission": 3976.68,
+          "regTxCount": 1964,
+          "reconTurnover": 82852.92,
+          "reconCommission": 3976.68,
+          "reconRate": 4.7997,
+          "contractRate": 4.8,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 1.7547,
+              "amount": 1453.85,
+              "contractRate": 1.75,
+              "contractAmount": 1453.85,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.045,
+              "amount": 2522.83,
+              "contractRate": 3.05,
+              "contractAmount": 2522.83,
+              "source": "Reconciliation",
+              "contractSource": "Ghost mechanic"
+            }
+          ]
+        },
+        {
+          "day": 6,
+          "date": "Apr 6",
+          "turnover": 77086.78,
+          "regCommission": 3699.97,
+          "regTxCount": 1722,
+          "reconTurnover": 77086.78,
+          "reconCommission": 3699.97,
+          "reconRate": 4.7997,
+          "contractRate": 4.8,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 1.7545,
+              "amount": 1352.46,
+              "contractRate": 1.75,
+              "contractAmount": 1352.46,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.0453,
+              "amount": 2347.51,
+              "contractRate": 3.05,
+              "contractAmount": 2347.51,
+              "source": "Reconciliation",
+              "contractSource": "Ghost mechanic"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "date": "Apr 7",
+          "turnover": 79539.88,
+          "regCommission": 3817.92,
+          "regTxCount": 1741,
+          "reconTurnover": 79539.88,
+          "reconCommission": 3817.92,
+          "reconRate": 4.8,
+          "contractRate": 4.8,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 1.7541,
+              "amount": 1395.18,
+              "contractRate": 1.75,
+              "contractAmount": 1395.18,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.0459,
+              "amount": 2422.74,
+              "contractRate": 3.05,
+              "contractAmount": 2422.74,
+              "source": "Reconciliation",
+              "contractSource": "Ghost mechanic"
+            }
+          ]
+        },
+        {
+          "day": 8,
+          "date": "Apr 8",
+          "turnover": 100922.78,
+          "regCommission": 4844.39,
+          "regTxCount": 1999,
+          "reconTurnover": 100922.78,
+          "reconCommission": 4844.39,
+          "reconRate": 4.8001,
+          "contractRate": 4.8,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 1.7537,
+              "amount": 1769.9,
+              "contractRate": 1.75,
+              "contractAmount": 1769.9,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.0464,
+              "amount": 3074.49,
+              "contractRate": 3.05,
+              "contractAmount": 3074.49,
+              "source": "Reconciliation",
+              "contractSource": "Ghost mechanic"
+            }
+          ]
+        },
+        {
+          "day": 9,
+          "date": "Apr 9",
+          "turnover": 21540.81,
+          "regCommission": 1033.9,
+          "regTxCount": 483,
+          "reconTurnover": 21540.81,
+          "reconCommission": 1033.9,
+          "reconRate": 4.7997,
+          "contractRate": 4.8,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 1.7537,
+              "amount": 377.76,
+              "contractRate": 1.75,
+              "contractAmount": 377.76,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.046,
+              "amount": 656.14,
+              "contractRate": 3.05,
+              "contractAmount": 656.14,
+              "source": "Reconciliation",
+              "contractSource": "Ghost mechanic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mar-2025",
+      "label": "March",
+      "turnover": 2296326.49,
+      "registryAmount": 2296326.49,
+      "regCommission": 113191.27,
+      "regTxCount": 48688,
+      "reconTurnover": 2296326.49,
+      "reconCommission": 113191.27,
+      "reconRate": 4.9292,
+      "contractRate": 4.9292,
+      "contractExpected": 113191.27,
+      "deviation": 0,
+      "parts": [
+        {
+          "label": "Paymentz",
+          "rate": 3.1267,
+          "amount": 71798.8,
+          "contractRate": 3.1267,
+          "contractAmount": 71798.8,
+          "source": "Reconciliation",
+          "contractSource": "From reconciliation"
+        },
+        {
+          "label": "Impaya",
+          "rate": 1.8026,
+          "amount": 41392.47,
+          "contractRate": 1.8026,
+          "contractAmount": 41392.47,
+          "source": "Reconciliation",
+          "contractSource": "Ghost mechanic"
+        }
+      ],
+      "days": [
+        {
+          "day": 1,
+          "date": "Mar 1",
+          "turnover": 132698.94,
+          "regCommission": 6636.24,
+          "regTxCount": 2506,
+          "reconTurnover": 132698.94,
+          "reconCommission": 6636.24,
+          "reconRate": 5.001,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 5.001,
+              "amount": 6636.24,
+              "contractRate": 5.0,
+              "contractAmount": 6636.24,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "date": "Mar 2",
+          "turnover": 98391.02,
+          "regCommission": 4920.35,
+          "regTxCount": 1917,
+          "reconTurnover": 98391.02,
+          "reconCommission": 4920.35,
+          "reconRate": 5.0008,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 5.0008,
+              "amount": 4920.35,
+              "contractRate": 5.0,
+              "contractAmount": 4920.35,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "date": "Mar 3",
+          "turnover": 93397.93,
+          "regCommission": 4670.63,
+          "regTxCount": 1955,
+          "reconTurnover": 93397.93,
+          "reconCommission": 4670.63,
+          "reconRate": 5.0008,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 5.0008,
+              "amount": 4670.63,
+              "contractRate": 5.0,
+              "contractAmount": 4670.63,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 4,
+          "date": "Mar 4",
+          "turnover": 91213.47,
+          "regCommission": 4561.27,
+          "regTxCount": 1937,
+          "reconTurnover": 91213.47,
+          "reconCommission": 4561.27,
+          "reconRate": 5.0007,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 5.0007,
+              "amount": 4561.27,
+              "contractRate": 5.0,
+              "contractAmount": 4561.27,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 5,
+          "date": "Mar 5",
+          "turnover": 102453.04,
+          "regCommission": 5123.48,
+          "regTxCount": 2095,
+          "reconTurnover": 102453.04,
+          "reconCommission": 5123.48,
+          "reconRate": 5.0008,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 5.0008,
+              "amount": 5123.48,
+              "contractRate": 5.0,
+              "contractAmount": 5123.48,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 6,
+          "date": "Mar 6",
+          "turnover": 65434.16,
+          "regCommission": 3272.09,
+          "regTxCount": 1379,
+          "reconTurnover": 65434.16,
+          "reconCommission": 3272.09,
+          "reconRate": 5.0006,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 5.0006,
+              "amount": 3272.09,
+              "contractRate": 5.0,
+              "contractAmount": 3272.09,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "date": "Mar 7",
+          "turnover": 95238.61,
+          "regCommission": 4762.9,
+          "regTxCount": 2080,
+          "reconTurnover": 95238.61,
+          "reconCommission": 4762.9,
+          "reconRate": 5.001,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 5.001,
+              "amount": 4762.9,
+              "contractRate": 5.0,
+              "contractAmount": 4762.9,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 8,
+          "date": "Mar 8",
+          "turnover": 90449.48,
+          "regCommission": 4523.16,
+          "regTxCount": 1970,
+          "reconTurnover": 90449.48,
+          "reconCommission": 4523.16,
+          "reconRate": 5.0008,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 5.0008,
+              "amount": 4523.16,
+              "contractRate": 5.0,
+              "contractAmount": 4523.16,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 9,
+          "date": "Mar 9",
+          "turnover": 58924.77,
+          "regCommission": 2946.87,
+          "regTxCount": 1493,
+          "reconTurnover": 58924.77,
+          "reconCommission": 2946.87,
+          "reconRate": 5.0011,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 5.0011,
+              "amount": 2946.87,
+              "contractRate": 5.0,
+              "contractAmount": 2946.87,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 10,
+          "date": "Mar 10",
+          "turnover": 76870.24,
+          "regCommission": 3844.13,
+          "regTxCount": 1732,
+          "reconTurnover": 76870.24,
+          "reconCommission": 3844.13,
+          "reconRate": 5.0008,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 5.0008,
+              "amount": 3844.13,
+              "contractRate": 5.0,
+              "contractAmount": 3844.13,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 11,
+          "date": "Mar 11",
+          "turnover": 65882.65,
+          "regCommission": 3294.55,
+          "regTxCount": 1448,
+          "reconTurnover": 65882.65,
+          "reconCommission": 3294.55,
+          "reconRate": 5.0006,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 5.0006,
+              "amount": 3294.55,
+              "contractRate": 5.0,
+              "contractAmount": 3294.55,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 12,
+          "date": "Mar 12",
+          "turnover": 57487.62,
+          "regCommission": 2874.77,
+          "regTxCount": 1298,
+          "reconTurnover": 57487.62,
+          "reconCommission": 2874.77,
+          "reconRate": 5.0007,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 1.7534,
+              "amount": 1007.99,
+              "contractRate": 1.75,
+              "contractAmount": 1007.99,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.2473,
+              "amount": 1866.78,
+              "contractRate": 3.25,
+              "contractAmount": 1866.78,
+              "source": "Reconciliation",
+              "contractSource": "Ghost mechanic"
+            }
+          ]
+        },
+        {
+          "day": 13,
+          "date": "Mar 13",
+          "turnover": 64177.5,
+          "regCommission": 3209.3,
+          "regTxCount": 1380,
+          "reconTurnover": 64177.5,
+          "reconCommission": 3209.3,
+          "reconRate": 5.0007,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 1.7526,
+              "amount": 1124.79,
+              "contractRate": 1.75,
+              "contractAmount": 1124.79,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.248,
+              "amount": 2084.51,
+              "contractRate": 3.25,
+              "contractAmount": 2084.51,
+              "source": "Reconciliation",
+              "contractSource": "Ghost mechanic"
+            }
+          ]
+        },
+        {
+          "day": 14,
+          "date": "Mar 14",
+          "turnover": 88210.19,
+          "regCommission": 4410.98,
+          "regTxCount": 1760,
+          "reconTurnover": 88210.19,
+          "reconCommission": 4410.98,
+          "reconRate": 5.0005,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 1.753,
+              "amount": 1546.3,
+              "contractRate": 1.75,
+              "contractAmount": 1546.3,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.2476,
+              "amount": 2864.68,
+              "contractRate": 3.25,
+              "contractAmount": 2864.68,
+              "source": "Reconciliation",
+              "contractSource": "Ghost mechanic"
+            }
+          ]
+        },
+        {
+          "day": 15,
+          "date": "Mar 15",
+          "turnover": 100366.43,
+          "regCommission": 5019.48,
+          "regTxCount": 2028,
+          "reconTurnover": 100366.43,
+          "reconCommission": 5019.48,
+          "reconRate": 5.0012,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 1.7522,
+              "amount": 1758.67,
+              "contractRate": 1.75,
+              "contractAmount": 1758.67,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.2489,
+              "amount": 3260.81,
+              "contractRate": 3.25,
+              "contractAmount": 3260.81,
+              "source": "Reconciliation",
+              "contractSource": "Ghost mechanic"
+            }
+          ]
+        },
+        {
+          "day": 16,
+          "date": "Mar 16",
+          "turnover": 83743.68,
+          "regCommission": 4187.75,
+          "regTxCount": 1701,
+          "reconTurnover": 83743.68,
+          "reconCommission": 4187.75,
+          "reconRate": 5.0007,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 1.753,
+              "amount": 1468.05,
+              "contractRate": 1.75,
+              "contractAmount": 1468.05,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.2476,
+              "amount": 2719.7,
+              "contractRate": 3.25,
+              "contractAmount": 2719.7,
+              "source": "Reconciliation",
+              "contractSource": "Ghost mechanic"
+            }
+          ]
+        },
+        {
+          "day": 17,
+          "date": "Mar 17",
+          "turnover": 61481.63,
+          "regCommission": 3074.45,
+          "regTxCount": 1384,
+          "reconTurnover": 61481.63,
+          "reconCommission": 3074.45,
+          "reconRate": 5.0006,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 1.7539,
+              "amount": 1078.3,
+              "contractRate": 1.75,
+              "contractAmount": 1078.3,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.2467,
+              "amount": 1996.15,
+              "contractRate": 3.25,
+              "contractAmount": 1996.15,
+              "source": "Reconciliation",
+              "contractSource": "Ghost mechanic"
+            }
+          ]
+        },
+        {
+          "day": 18,
+          "date": "Mar 18",
+          "turnover": 51555.72,
+          "regCommission": 2578.09,
+          "regTxCount": 1121,
+          "reconTurnover": 51555.72,
+          "reconCommission": 2578.09,
+          "reconRate": 5.0006,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 1.7537,
+              "amount": 904.12,
+              "contractRate": 1.75,
+              "contractAmount": 904.12,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.2469,
+              "amount": 1673.97,
+              "contractRate": 3.25,
+              "contractAmount": 1673.97,
+              "source": "Reconciliation",
+              "contractSource": "Ghost mechanic"
+            }
+          ]
+        },
+        {
+          "day": 19,
+          "date": "Mar 19",
+          "turnover": 57574.96,
+          "regCommission": 2763.52,
+          "regTxCount": 1094,
+          "reconTurnover": 57574.96,
+          "reconCommission": 2763.52,
+          "reconRate": 4.7999,
+          "contractRate": 4.8,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 1.7535,
+              "amount": 1009.57,
+              "contractRate": 1.75,
+              "contractAmount": 1009.57,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.0464,
+              "amount": 1753.95,
+              "contractRate": 3.05,
+              "contractAmount": 1753.95,
+              "source": "Reconciliation",
+              "contractSource": "Ghost mechanic"
+            }
+          ],
+          "rateChangeDay": true,
+          "rateFrom": 5.0,
+          "rateTo": 4.8
+        },
+        {
+          "day": 20,
+          "date": "Mar 20",
+          "turnover": 51725.51,
+          "regCommission": 2482.8,
+          "regTxCount": 1099,
+          "reconTurnover": 51725.51,
+          "reconCommission": 2482.8,
+          "reconRate": 4.8,
+          "contractRate": 4.8,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 1.7538,
+              "amount": 907.18,
+              "contractRate": 1.75,
+              "contractAmount": 907.18,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.0461,
+              "amount": 1575.62,
+              "contractRate": 3.05,
+              "contractAmount": 1575.62,
+              "source": "Reconciliation",
+              "contractSource": "Ghost mechanic"
+            }
+          ]
+        },
+        {
+          "day": 21,
+          "date": "Mar 21",
+          "turnover": 54858.65,
+          "regCommission": 2633.1,
+          "regTxCount": 1150,
+          "reconTurnover": 54858.65,
+          "reconCommission": 2633.1,
+          "reconRate": 4.7998,
+          "contractRate": 4.8,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 1.754,
+              "amount": 962.24,
+              "contractRate": 1.75,
+              "contractAmount": 962.24,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.0458,
+              "amount": 1670.86,
+              "contractRate": 3.05,
+              "contractAmount": 1670.86,
+              "source": "Reconciliation",
+              "contractSource": "Ghost mechanic"
+            }
+          ]
+        },
+        {
+          "day": 22,
+          "date": "Mar 22",
+          "turnover": 42567.65,
+          "regCommission": 2043.25,
+          "regTxCount": 1050,
+          "reconTurnover": 42567.65,
+          "reconCommission": 2043.25,
+          "reconRate": 4.8,
+          "contractRate": 4.8,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 1.7546,
+              "amount": 746.91,
+              "contractRate": 1.75,
+              "contractAmount": 746.91,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.0454,
+              "amount": 1296.34,
+              "contractRate": 3.05,
+              "contractAmount": 1296.34,
+              "source": "Reconciliation",
+              "contractSource": "Ghost mechanic"
+            }
+          ]
+        },
+        {
+          "day": 23,
+          "date": "Mar 23",
+          "turnover": 41876.8,
+          "regCommission": 2010.09,
+          "regTxCount": 1015,
+          "reconTurnover": 41876.8,
+          "reconCommission": 2010.09,
+          "reconRate": 4.8,
+          "contractRate": 4.8,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 1.7542,
+              "amount": 734.61,
+              "contractRate": 1.75,
+              "contractAmount": 734.61,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.0458,
+              "amount": 1275.48,
+              "contractRate": 3.05,
+              "contractAmount": 1275.48,
+              "source": "Reconciliation",
+              "contractSource": "Ghost mechanic"
+            }
+          ]
+        },
+        {
+          "day": 24,
+          "date": "Mar 24",
+          "turnover": 54679.42,
+          "regCommission": 2624.58,
+          "regTxCount": 1241,
+          "reconTurnover": 54679.42,
+          "reconCommission": 2624.58,
+          "reconRate": 4.7999,
+          "contractRate": 4.8,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 1.7543,
+              "amount": 959.22,
+              "contractRate": 1.75,
+              "contractAmount": 959.22,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.0457,
+              "amount": 1665.36,
+              "contractRate": 3.05,
+              "contractAmount": 1665.36,
+              "source": "Reconciliation",
+              "contractSource": "Ghost mechanic"
+            }
+          ]
+        },
+        {
+          "day": 25,
+          "date": "Mar 25",
+          "turnover": 66473.39,
+          "regCommission": 3190.79,
+          "regTxCount": 1385,
+          "reconTurnover": 66473.39,
+          "reconCommission": 3190.79,
+          "reconRate": 4.8001,
+          "contractRate": 4.8,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 1.7544,
+              "amount": 1166.24,
+              "contractRate": 1.75,
+              "contractAmount": 1166.24,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.0457,
+              "amount": 2024.55,
+              "contractRate": 3.05,
+              "contractAmount": 2024.55,
+              "source": "Reconciliation",
+              "contractSource": "Ghost mechanic"
+            }
+          ]
+        },
+        {
+          "day": 26,
+          "date": "Mar 26",
+          "turnover": 62345.3,
+          "regCommission": 2992.58,
+          "regTxCount": 1373,
+          "reconTurnover": 62345.3,
+          "reconCommission": 2992.58,
+          "reconRate": 4.8,
+          "contractRate": 4.8,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 1.7541,
+              "amount": 1093.59,
+              "contractRate": 1.75,
+              "contractAmount": 1093.59,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.0459,
+              "amount": 1898.99,
+              "contractRate": 3.05,
+              "contractAmount": 1898.99,
+              "source": "Reconciliation",
+              "contractSource": "Ghost mechanic"
+            }
+          ]
+        },
+        {
+          "day": 27,
+          "date": "Mar 27",
+          "turnover": 69990.28,
+          "regCommission": 3359.62,
+          "regTxCount": 1516,
+          "reconTurnover": 69990.28,
+          "reconCommission": 3359.62,
+          "reconRate": 4.8001,
+          "contractRate": 4.8,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 1.7541,
+              "amount": 1227.69,
+              "contractRate": 1.75,
+              "contractAmount": 1227.69,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.046,
+              "amount": 2131.93,
+              "contractRate": 3.05,
+              "contractAmount": 2131.93,
+              "source": "Reconciliation",
+              "contractSource": "Ghost mechanic"
+            }
+          ]
+        },
+        {
+          "day": 28,
+          "date": "Mar 28",
+          "turnover": 87373.77,
+          "regCommission": 4194.1,
+          "regTxCount": 1818,
+          "reconTurnover": 87373.77,
+          "reconCommission": 4194.1,
+          "reconRate": 4.8002,
+          "contractRate": 4.8,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 1.7541,
+              "amount": 1532.63,
+              "contractRate": 1.75,
+              "contractAmount": 1532.63,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.0461,
+              "amount": 2661.47,
+              "contractRate": 3.05,
+              "contractAmount": 2661.47,
+              "source": "Reconciliation",
+              "contractSource": "Ghost mechanic"
+            }
+          ]
+        },
+        {
+          "day": 29,
+          "date": "Mar 29",
+          "turnover": 82506.09,
+          "regCommission": 3960.25,
+          "regTxCount": 1687,
+          "reconTurnover": 82506.09,
+          "reconCommission": 3960.25,
+          "reconRate": 4.7999,
+          "contractRate": 4.8,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 1.7543,
+              "amount": 1447.44,
+              "contractRate": 1.75,
+              "contractAmount": 1447.44,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.0456,
+              "amount": 2512.81,
+              "contractRate": 3.05,
+              "contractAmount": 2512.81,
+              "source": "Reconciliation",
+              "contractSource": "Ghost mechanic"
+            }
+          ]
+        },
+        {
+          "day": 30,
+          "date": "Mar 30",
+          "turnover": 61984.17,
+          "regCommission": 2975.37,
+          "regTxCount": 1371,
+          "reconTurnover": 61984.17,
+          "reconCommission": 2975.37,
+          "reconRate": 4.8002,
+          "contractRate": 4.8,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 1.7542,
+              "amount": 1087.31,
+              "contractRate": 1.75,
+              "contractAmount": 1087.31,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.046,
+              "amount": 1888.06,
+              "contractRate": 3.05,
+              "contractAmount": 1888.06,
+              "source": "Reconciliation",
+              "contractSource": "Ghost mechanic"
+            }
+          ]
+        },
+        {
+          "day": 31,
+          "date": "Mar 31",
+          "turnover": 84393.42,
+          "regCommission": 4050.73,
+          "regTxCount": 1705,
+          "reconTurnover": 84393.42,
+          "reconCommission": 4050.73,
+          "reconRate": 4.7998,
+          "contractRate": 4.8,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 1.754,
+              "amount": 1480.28,
+              "contractRate": 1.75,
+              "contractAmount": 1480.28,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.0458,
+              "amount": 2570.45,
+              "contractRate": 3.05,
+              "contractAmount": 2570.45,
+              "source": "Reconciliation",
+              "contractSource": "Ghost mechanic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "feb-2025",
+      "label": "February",
+      "turnover": 2385199.97,
+      "registryAmount": 2385199.97,
+      "regCommission": 119266.38,
+      "regTxCount": 46930,
+      "reconTurnover": 2385199.97,
+      "reconCommission": 119266.38,
+      "reconRate": 5.0003,
+      "contractRate": 5.0003,
+      "contractExpected": 119266.38,
+      "deviation": 0,
+      "parts": [
+        {
+          "label": "Paymentz",
+          "rate": 5.0003,
+          "amount": 119266.38,
+          "contractRate": 5.0003,
+          "contractAmount": 119266.38,
+          "source": "Reconciliation",
+          "contractSource": "From reconciliation"
+        }
+      ],
+      "days": [
+        {
+          "day": 1,
+          "date": "Feb 1",
+          "turnover": 105970.21,
+          "regCommission": 5299.3,
+          "regTxCount": 1861,
+          "reconTurnover": 105970.21,
+          "reconCommission": 5299.3,
+          "reconRate": 5.0007,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 5.0007,
+              "amount": 5299.3,
+              "contractRate": 5.0,
+              "contractAmount": 5299.3,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "date": "Feb 2",
+          "turnover": 84605.06,
+          "regCommission": 4230.42,
+          "regTxCount": 1581,
+          "reconTurnover": 84605.06,
+          "reconCommission": 4230.42,
+          "reconRate": 5.0002,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 5.0002,
+              "amount": 4230.42,
+              "contractRate": 5.0,
+              "contractAmount": 4230.42,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "date": "Feb 3",
+          "turnover": 82769.5,
+          "regCommission": 4138.7,
+          "regTxCount": 1638,
+          "reconTurnover": 82769.5,
+          "reconCommission": 4138.7,
+          "reconRate": 5.0003,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 5.0003,
+              "amount": 4138.7,
+              "contractRate": 5.0,
+              "contractAmount": 4138.7,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 4,
+          "date": "Feb 4",
+          "turnover": 81382.5,
+          "regCommission": 4068.76,
+          "regTxCount": 1649,
+          "reconTurnover": 81382.5,
+          "reconCommission": 4068.76,
+          "reconRate": 4.9996,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 4.9996,
+              "amount": 4068.76,
+              "contractRate": 5.0,
+              "contractAmount": 4068.76,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 5,
+          "date": "Feb 5",
+          "turnover": 64434.37,
+          "regCommission": 3221.49,
+          "regTxCount": 1164,
+          "reconTurnover": 64434.37,
+          "reconCommission": 3221.49,
+          "reconRate": 4.9996,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 4.9996,
+              "amount": 3221.49,
+              "contractRate": 5.0,
+              "contractAmount": 3221.49,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 6,
+          "date": "Feb 6",
+          "turnover": 87231.2,
+          "regCommission": 4361.81,
+          "regTxCount": 1579,
+          "reconTurnover": 87231.2,
+          "reconCommission": 4361.81,
+          "reconRate": 5.0003,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 5.0003,
+              "amount": 4361.81,
+              "contractRate": 5.0,
+              "contractAmount": 4361.81,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "date": "Feb 7",
+          "turnover": 104077.21,
+          "regCommission": 5204.35,
+          "regTxCount": 2032,
+          "reconTurnover": 104077.21,
+          "reconCommission": 5204.35,
+          "reconRate": 5.0005,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 5.0005,
+              "amount": 5204.35,
+              "contractRate": 5.0,
+              "contractAmount": 5204.35,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 8,
+          "date": "Feb 8",
+          "turnover": 94902.1,
+          "regCommission": 4744.73,
+          "regTxCount": 1873,
+          "reconTurnover": 94902.1,
+          "reconCommission": 4744.73,
+          "reconRate": 4.9996,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 4.9996,
+              "amount": 4744.73,
+              "contractRate": 5.0,
+              "contractAmount": 4744.73,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 9,
+          "date": "Feb 9",
+          "turnover": 72236.22,
+          "regCommission": 3611.59,
+          "regTxCount": 1574,
+          "reconTurnover": 72236.22,
+          "reconCommission": 3611.59,
+          "reconRate": 4.9997,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 4.9997,
+              "amount": 3611.59,
+              "contractRate": 5.0,
+              "contractAmount": 3611.59,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 10,
+          "date": "Feb 10",
+          "turnover": 76505.99,
+          "regCommission": 3825.36,
+          "regTxCount": 1536,
+          "reconTurnover": 76505.99,
+          "reconCommission": 3825.36,
+          "reconRate": 5.0001,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 5.0001,
+              "amount": 3825.36,
+              "contractRate": 5.0,
+              "contractAmount": 3825.36,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 11,
+          "date": "Feb 11",
+          "turnover": 82959.12,
+          "regCommission": 4148.02,
+          "regTxCount": 1513,
+          "reconTurnover": 82959.12,
+          "reconCommission": 4148.02,
+          "reconRate": 5.0001,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 5.0001,
+              "amount": 4148.02,
+              "contractRate": 5.0,
+              "contractAmount": 4148.02,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 12,
+          "date": "Feb 12",
+          "turnover": 82400.01,
+          "regCommission": 4120.29,
+          "regTxCount": 1652,
+          "reconTurnover": 82400.01,
+          "reconCommission": 4120.29,
+          "reconRate": 5.0004,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 5.0004,
+              "amount": 4120.29,
+              "contractRate": 5.0,
+              "contractAmount": 4120.29,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 13,
+          "date": "Feb 13",
+          "turnover": 80331.92,
+          "regCommission": 4016.85,
+          "regTxCount": 1589,
+          "reconTurnover": 80331.92,
+          "reconCommission": 4016.85,
+          "reconRate": 5.0003,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 5.0003,
+              "amount": 4016.85,
+              "contractRate": 5.0,
+              "contractAmount": 4016.85,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 14,
+          "date": "Feb 14",
+          "turnover": 91757.6,
+          "regCommission": 4587.4,
+          "regTxCount": 1913,
+          "reconTurnover": 91757.6,
+          "reconCommission": 4587.4,
+          "reconRate": 4.9995,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 4.9995,
+              "amount": 4587.4,
+              "contractRate": 5.0,
+              "contractAmount": 4587.4,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 15,
+          "date": "Feb 15",
+          "turnover": 100417.95,
+          "regCommission": 5021.0,
+          "regTxCount": 1808,
+          "reconTurnover": 100417.95,
+          "reconCommission": 5021.0,
+          "reconRate": 5.0001,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 5.0001,
+              "amount": 5021.0,
+              "contractRate": 5.0,
+              "contractAmount": 5021.0,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 16,
+          "date": "Feb 16",
+          "turnover": 66243.9,
+          "regCommission": 3312.39,
+          "regTxCount": 1401,
+          "reconTurnover": 66243.9,
+          "reconCommission": 3312.39,
+          "reconRate": 5.0003,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 5.0003,
+              "amount": 3312.39,
+              "contractRate": 5.0,
+              "contractAmount": 3312.39,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 17,
+          "date": "Feb 17",
+          "turnover": 70544.59,
+          "regCommission": 3527.15,
+          "regTxCount": 1483,
+          "reconTurnover": 70544.59,
+          "reconCommission": 3527.15,
+          "reconRate": 4.9999,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 4.9999,
+              "amount": 3527.15,
+              "contractRate": 5.0,
+              "contractAmount": 3527.15,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 18,
+          "date": "Feb 18",
+          "turnover": 66197.57,
+          "regCommission": 3309.93,
+          "regTxCount": 1389,
+          "reconTurnover": 66197.57,
+          "reconCommission": 3309.93,
+          "reconRate": 5.0001,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 5.0001,
+              "amount": 3309.93,
+              "contractRate": 5.0,
+              "contractAmount": 3309.93,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 19,
+          "date": "Feb 19",
+          "turnover": 73630.63,
+          "regCommission": 3681.67,
+          "regTxCount": 1503,
+          "reconTurnover": 73630.63,
+          "reconCommission": 3681.67,
+          "reconRate": 5.0002,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 5.0002,
+              "amount": 3681.67,
+              "contractRate": 5.0,
+              "contractAmount": 3681.67,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 20,
+          "date": "Feb 20",
+          "turnover": 82098.53,
+          "regCommission": 4105.16,
+          "regTxCount": 1649,
+          "reconTurnover": 82098.53,
+          "reconCommission": 4105.16,
+          "reconRate": 5.0003,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 5.0003,
+              "amount": 4105.16,
+              "contractRate": 5.0,
+              "contractAmount": 4105.16,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 21,
+          "date": "Feb 21",
+          "turnover": 103505.67,
+          "regCommission": 5175.73,
+          "regTxCount": 1935,
+          "reconTurnover": 103505.67,
+          "reconCommission": 5175.73,
+          "reconRate": 5.0004,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 5.0004,
+              "amount": 5175.73,
+              "contractRate": 5.0,
+              "contractAmount": 5175.73,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 22,
+          "date": "Feb 22",
+          "turnover": 75994.52,
+          "regCommission": 3800.26,
+          "regTxCount": 1719,
+          "reconTurnover": 75994.52,
+          "reconCommission": 3800.26,
+          "reconRate": 5.0007,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 5.0007,
+              "amount": 3800.26,
+              "contractRate": 5.0,
+              "contractAmount": 3800.26,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 23,
+          "date": "Feb 23",
+          "turnover": 80903.24,
+          "regCommission": 4045.78,
+          "regTxCount": 1431,
+          "reconTurnover": 80903.24,
+          "reconCommission": 4045.78,
+          "reconRate": 5.0008,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 5.0008,
+              "amount": 4045.78,
+              "contractRate": 5.0,
+              "contractAmount": 4045.78,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 24,
+          "date": "Feb 24",
+          "turnover": 80778.95,
+          "regCommission": 4039.48,
+          "regTxCount": 1660,
+          "reconTurnover": 80778.95,
+          "reconCommission": 4039.48,
+          "reconRate": 5.0007,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 5.0007,
+              "amount": 4039.48,
+              "contractRate": 5.0,
+              "contractAmount": 4039.48,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 25,
+          "date": "Feb 25",
+          "turnover": 84585.05,
+          "regCommission": 4229.64,
+          "regTxCount": 1541,
+          "reconTurnover": 84585.05,
+          "reconCommission": 4229.64,
+          "reconRate": 5.0005,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 5.0005,
+              "amount": 4229.64,
+              "contractRate": 5.0,
+              "contractAmount": 4229.64,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 26,
+          "date": "Feb 26",
+          "turnover": 85460.94,
+          "regCommission": 4273.56,
+          "regTxCount": 1711,
+          "reconTurnover": 85460.94,
+          "reconCommission": 4273.56,
+          "reconRate": 5.0006,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 5.0006,
+              "amount": 4273.56,
+              "contractRate": 5.0,
+              "contractAmount": 4273.56,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 27,
+          "date": "Feb 27",
+          "turnover": 92572.3,
+          "regCommission": 4628.86,
+          "regTxCount": 1850,
+          "reconTurnover": 92572.3,
+          "reconCommission": 4628.86,
+          "reconRate": 5.0003,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 5.0003,
+              "amount": 4628.86,
+              "contractRate": 5.0,
+              "contractAmount": 4628.86,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 28,
+          "date": "Feb 28",
+          "turnover": 130703.12,
+          "regCommission": 6536.7,
+          "regTxCount": 2696,
+          "reconTurnover": 130703.12,
+          "reconCommission": 6536.7,
+          "reconRate": 5.0012,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 5.0012,
+              "amount": 6536.7,
+              "contractRate": 5.0,
+              "contractAmount": 6536.7,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "jan-2025",
+      "label": "January",
+      "turnover": 2381936.09,
+      "registryAmount": 2381936.09,
+      "regCommission": 119101.92,
+      "regTxCount": 49403,
+      "reconTurnover": 2381936.09,
+      "reconCommission": 119101.92,
+      "reconRate": 5.0002,
+      "contractRate": 5.0002,
+      "contractExpected": 119101.92,
+      "deviation": 0,
+      "parts": [
+        {
+          "label": "Paymentz",
+          "rate": 5.0002,
+          "amount": 119101.92,
+          "contractRate": 5.0002,
+          "contractAmount": 119101.92,
+          "source": "Reconciliation",
+          "contractSource": "From reconciliation"
+        }
+      ],
+      "days": [
+        {
+          "day": 1,
+          "date": "Jan 1",
+          "turnover": 52864.09,
+          "regCommission": 2643.46,
+          "regTxCount": 968,
+          "reconTurnover": 52864.09,
+          "reconCommission": 2643.46,
+          "reconRate": 5.0005,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 5.0005,
+              "amount": 2643.46,
+              "contractRate": 5.0,
+              "contractAmount": 2643.46,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "date": "Jan 2",
+          "turnover": 47935.12,
+          "regCommission": 2396.86,
+          "regTxCount": 961,
+          "reconTurnover": 47935.12,
+          "reconCommission": 2396.86,
+          "reconRate": 5.0002,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 5.0002,
+              "amount": 2396.86,
+              "contractRate": 5.0,
+              "contractAmount": 2396.86,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "date": "Jan 3",
+          "turnover": 52685.77,
+          "regCommission": 2634.63,
+          "regTxCount": 1072,
+          "reconTurnover": 52685.77,
+          "reconCommission": 2634.63,
+          "reconRate": 5.0006,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 5.0006,
+              "amount": 2634.63,
+              "contractRate": 5.0,
+              "contractAmount": 2634.63,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 4,
+          "date": "Jan 4",
+          "turnover": 42591.8,
+          "regCommission": 2129.78,
+          "regTxCount": 892,
+          "reconTurnover": 42591.8,
+          "reconCommission": 2129.78,
+          "reconRate": 5.0004,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 5.0004,
+              "amount": 2129.78,
+              "contractRate": 5.0,
+              "contractAmount": 2129.78,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 5,
+          "date": "Jan 5",
+          "turnover": 39311.05,
+          "regCommission": 1965.71,
+          "regTxCount": 877,
+          "reconTurnover": 39311.05,
+          "reconCommission": 1965.71,
+          "reconRate": 5.0004,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 5.0004,
+              "amount": 1965.71,
+              "contractRate": 5.0,
+              "contractAmount": 1965.71,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 6,
+          "date": "Jan 6",
+          "turnover": 50226.37,
+          "regCommission": 2511.2,
+          "regTxCount": 972,
+          "reconTurnover": 50226.37,
+          "reconCommission": 2511.2,
+          "reconRate": 4.9998,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 4.9998,
+              "amount": 2511.2,
+              "contractRate": 5.0,
+              "contractAmount": 2511.2,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "date": "Jan 7",
+          "turnover": 49962.04,
+          "regCommission": 2498.01,
+          "regTxCount": 928,
+          "reconTurnover": 49962.04,
+          "reconCommission": 2498.01,
+          "reconRate": 4.9998,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 4.9998,
+              "amount": 2498.01,
+              "contractRate": 5.0,
+              "contractAmount": 2498.01,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 8,
+          "date": "Jan 8",
+          "turnover": 57154.5,
+          "regCommission": 2858.12,
+          "regTxCount": 1271,
+          "reconTurnover": 57154.5,
+          "reconCommission": 2858.12,
+          "reconRate": 5.0007,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 5.0007,
+              "amount": 2858.12,
+              "contractRate": 5.0,
+              "contractAmount": 2858.12,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 9,
+          "date": "Jan 9",
+          "turnover": 83225.43,
+          "regCommission": 4161.29,
+          "regTxCount": 1737,
+          "reconTurnover": 83225.43,
+          "reconCommission": 4161.29,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 5.0,
+              "amount": 4161.29,
+              "contractRate": 5.0,
+              "contractAmount": 4161.29,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 10,
+          "date": "Jan 10",
+          "turnover": 87373.64,
+          "regCommission": 4368.3,
+          "regTxCount": 1885,
+          "reconTurnover": 87373.64,
+          "reconCommission": 4368.3,
+          "reconRate": 4.9996,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 4.9996,
+              "amount": 4368.3,
+              "contractRate": 5.0,
+              "contractAmount": 4368.3,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 11,
+          "date": "Jan 11",
+          "turnover": 82525.36,
+          "regCommission": 4126.9,
+          "regTxCount": 1874,
+          "reconTurnover": 82525.36,
+          "reconCommission": 4126.9,
+          "reconRate": 5.0008,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 5.0008,
+              "amount": 4126.9,
+              "contractRate": 5.0,
+              "contractAmount": 4126.9,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 12,
+          "date": "Jan 12",
+          "turnover": 72178.23,
+          "regCommission": 3609.54,
+          "regTxCount": 1642,
+          "reconTurnover": 72178.23,
+          "reconCommission": 3609.54,
+          "reconRate": 5.0009,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 5.0009,
+              "amount": 3609.54,
+              "contractRate": 5.0,
+              "contractAmount": 3609.54,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 13,
+          "date": "Jan 13",
+          "turnover": 66181.63,
+          "regCommission": 3309.07,
+          "regTxCount": 1549,
+          "reconTurnover": 66181.63,
+          "reconCommission": 3309.07,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 5.0,
+              "amount": 3309.07,
+              "contractRate": 5.0,
+              "contractAmount": 3309.07,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 14,
+          "date": "Jan 14",
+          "turnover": 80903.99,
+          "regCommission": 4045.74,
+          "regTxCount": 1645,
+          "reconTurnover": 80903.99,
+          "reconCommission": 4045.74,
+          "reconRate": 5.0007,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 5.0007,
+              "amount": 4045.74,
+              "contractRate": 5.0,
+              "contractAmount": 4045.74,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 15,
+          "date": "Jan 15",
+          "turnover": 91597.41,
+          "regCommission": 4580.05,
+          "regTxCount": 1901,
+          "reconTurnover": 91597.41,
+          "reconCommission": 4580.05,
+          "reconRate": 5.0002,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 5.0002,
+              "amount": 4580.05,
+              "contractRate": 5.0,
+              "contractAmount": 4580.05,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 16,
+          "date": "Jan 16",
+          "turnover": 92134.28,
+          "regCommission": 4606.98,
+          "regTxCount": 2059,
+          "reconTurnover": 92134.28,
+          "reconCommission": 4606.98,
+          "reconRate": 5.0003,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 5.0003,
+              "amount": 4606.98,
+              "contractRate": 5.0,
+              "contractAmount": 4606.98,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 17,
+          "date": "Jan 17",
+          "turnover": 99732.1,
+          "regCommission": 4986.99,
+          "regTxCount": 2113,
+          "reconTurnover": 99732.1,
+          "reconCommission": 4986.99,
+          "reconRate": 5.0004,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 5.0004,
+              "amount": 4986.99,
+              "contractRate": 5.0,
+              "contractAmount": 4986.99,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 18,
+          "date": "Jan 18",
+          "turnover": 84640.33,
+          "regCommission": 4232.03,
+          "regTxCount": 1810,
+          "reconTurnover": 84640.33,
+          "reconCommission": 4232.03,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 5.0,
+              "amount": 4232.03,
+              "contractRate": 5.0,
+              "contractAmount": 4232.03,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 19,
+          "date": "Jan 19",
+          "turnover": 72379.14,
+          "regCommission": 3618.93,
+          "regTxCount": 1618,
+          "reconTurnover": 72379.14,
+          "reconCommission": 3618.93,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 5.0,
+              "amount": 3618.93,
+              "contractRate": 5.0,
+              "contractAmount": 3618.93,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 20,
+          "date": "Jan 20",
+          "turnover": 82650.71,
+          "regCommission": 4132.52,
+          "regTxCount": 1655,
+          "reconTurnover": 82650.71,
+          "reconCommission": 4132.52,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 5.0,
+              "amount": 4132.52,
+              "contractRate": 5.0,
+              "contractAmount": 4132.52,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 21,
+          "date": "Jan 21",
+          "turnover": 65958.44,
+          "regCommission": 3297.96,
+          "regTxCount": 1550,
+          "reconTurnover": 65958.44,
+          "reconCommission": 3297.96,
+          "reconRate": 5.0001,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 5.0001,
+              "amount": 3297.96,
+              "contractRate": 5.0,
+              "contractAmount": 3297.96,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 22,
+          "date": "Jan 22",
+          "turnover": 65649.65,
+          "regCommission": 3282.35,
+          "regTxCount": 1517,
+          "reconTurnover": 65649.65,
+          "reconCommission": 3282.35,
+          "reconRate": 4.9998,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 4.9998,
+              "amount": 3282.35,
+              "contractRate": 5.0,
+              "contractAmount": 3282.35,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 23,
+          "date": "Jan 23",
+          "turnover": 96077.65,
+          "regCommission": 4803.91,
+          "regTxCount": 1943,
+          "reconTurnover": 96077.65,
+          "reconCommission": 4803.91,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 5.0,
+              "amount": 4803.91,
+              "contractRate": 5.0,
+              "contractAmount": 4803.91,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 24,
+          "date": "Jan 24",
+          "turnover": 119058.02,
+          "regCommission": 5953.45,
+          "regTxCount": 2152,
+          "reconTurnover": 119058.02,
+          "reconCommission": 5953.45,
+          "reconRate": 5.0005,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 5.0005,
+              "amount": 5953.45,
+              "contractRate": 5.0,
+              "contractAmount": 5953.45,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 25,
+          "date": "Jan 25",
+          "turnover": 95843.18,
+          "regCommission": 4791.69,
+          "regTxCount": 1840,
+          "reconTurnover": 95843.18,
+          "reconCommission": 4791.69,
+          "reconRate": 4.9995,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 4.9995,
+              "amount": 4791.69,
+              "contractRate": 5.0,
+              "contractAmount": 4791.69,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 26,
+          "date": "Jan 26",
+          "turnover": 85645.74,
+          "regCommission": 4281.95,
+          "regTxCount": 1606,
+          "reconTurnover": 85645.74,
+          "reconCommission": 4281.95,
+          "reconRate": 4.9996,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 4.9996,
+              "amount": 4281.95,
+              "contractRate": 5.0,
+              "contractAmount": 4281.95,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 27,
+          "date": "Jan 27",
+          "turnover": 82564.5,
+          "regCommission": 4128.19,
+          "regTxCount": 1706,
+          "reconTurnover": 82564.5,
+          "reconCommission": 4128.19,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 5.0,
+              "amount": 4128.19,
+              "contractRate": 5.0,
+              "contractAmount": 4128.19,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 28,
+          "date": "Jan 28",
+          "turnover": 95140.06,
+          "regCommission": 4757.23,
+          "regTxCount": 1901,
+          "reconTurnover": 95140.06,
+          "reconCommission": 4757.23,
+          "reconRate": 5.0002,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 5.0002,
+              "amount": 4757.23,
+              "contractRate": 5.0,
+              "contractAmount": 4757.23,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 29,
+          "date": "Jan 29",
+          "turnover": 88237.44,
+          "regCommission": 4411.95,
+          "regTxCount": 1769,
+          "reconTurnover": 88237.44,
+          "reconCommission": 4411.95,
+          "reconRate": 5.0001,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 5.0001,
+              "amount": 4411.95,
+              "contractRate": 5.0,
+              "contractAmount": 4411.95,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 30,
+          "date": "Jan 30",
+          "turnover": 89666.35,
+          "regCommission": 4483.79,
+          "regTxCount": 1886,
+          "reconTurnover": 89666.35,
+          "reconCommission": 4483.79,
+          "reconRate": 5.0005,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 5.0005,
+              "amount": 4483.79,
+              "contractRate": 5.0,
+              "contractAmount": 4483.79,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        },
+        {
+          "day": 31,
+          "date": "Jan 31",
+          "turnover": 109842.07,
+          "regCommission": 5493.34,
+          "regTxCount": 2104,
+          "reconTurnover": 109842.07,
+          "reconCommission": 5493.34,
+          "reconRate": 5.0011,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Paymentz",
+              "rate": 5.0011,
+              "amount": 5493.34,
+              "contractRate": 5.0,
+              "contractAmount": 5493.34,
+              "source": "Reconciliation",
+              "contractSource": "From reconciliation"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "streams": [
+    {
+      "id": "eur-card",
+      "label": "EUR Card",
+      "currency": "EUR",
+      "point": "Card",
+      "provider": "Paymentz"
+    }
+  ]
+}

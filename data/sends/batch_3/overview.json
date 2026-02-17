@@ -64,13 +64,14 @@
           "cases": [
             {
               "id": "blueocean-sep-1",
-              "title": "Deviation -1,559 EUR",
+              "title": "5% rate not applied (Sep 9-30)",
               "partLabel": "Smartflow",
-              "contractRate": 4.9419,
-              "actualRate": 4.7998,
+              "contractRate": 5.0,
+              "actualRate": 4.8,
               "deviation": -1559.41,
-              "periodFrom": "September 1",
-              "periodTo": "September end"
+              "periodFrom": "September 9",
+              "periodTo": "September 30",
+              "investigationId": "INV-2025-0044"
             }
           ],
           "hasRateChange": true,
@@ -79,17 +80,29 @@
         "oct": {
           "turnover": 2721170.39,
           "commission": 122301.49,
-          "deviation": -3164.61,
+          "deviation": 5643.46,
           "cases": [
             {
               "id": "blueocean-oct-1",
-              "title": "Deviation -3,165 EUR",
+              "title": "5% rate not applied (Oct 1-16)",
               "partLabel": "Smartflow",
-              "contractRate": 4.6107,
-              "actualRate": 4.4944,
-              "deviation": -3164.61,
+              "contractRate": 5.0,
+              "actualRate": 4.8,
+              "deviation": -2667.47,
               "periodFrom": "October 1",
-              "periodTo": "October end"
+              "periodTo": "October 16",
+              "investigationId": "INV-2025-0044"
+            },
+            {
+              "id": "blueocean-oct-2",
+              "title": "Registry-Reconciliation gap",
+              "partLabel": "Smartflow",
+              "contractRate": 4.2,
+              "actualRate": 4.8,
+              "deviation": 8310.93,
+              "periodFrom": "October 16",
+              "periodTo": "October 31",
+              "investigationId": "INV-2025-0045"
             }
           ],
           "hasRateChange": true,
@@ -98,8 +111,20 @@
         "nov": {
           "turnover": 2780070.98,
           "commission": 116776.83,
-          "deviation": 0,
-          "cases": []
+          "deviation": 16655.17,
+          "cases": [
+            {
+              "id": "blueocean-nov-1",
+              "title": "Registry-Reconciliation gap",
+              "partLabel": "Smartflow",
+              "contractRate": 4.2,
+              "actualRate": 4.8,
+              "deviation": 16655.17,
+              "periodFrom": "November 1",
+              "periodTo": "November 30",
+              "investigationId": "INV-2025-0045"
+            }
+          ]
         },
         "dec": {
           "turnover": 3323318.2,

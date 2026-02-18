@@ -6,10 +6,7 @@
       "shortname": "noxious",
       "type": "rate-change",
       "deviation": -133419.09,
-      "period": {
-        "from": "Feb 1, 2025",
-        "to": "Jul 31, 2025"
-      }
+      "period": "Feb 1, 2025 — Jul 31, 2025"
     },
     {
       "id": "INV-2025-0058",
@@ -17,10 +14,7 @@
       "shortname": "noxious",
       "type": "rate-change",
       "deviation": -8231.22,
-      "period": {
-        "from": "Feb 1, 2025",
-        "to": "Jul 31, 2025"
-      }
+      "period": "Feb 1, 2025 — Jul 31, 2025"
     },
     {
       "id": "INV-2025-0059",
@@ -28,10 +22,7 @@
       "shortname": "blogwizarro",
       "type": "rate-change",
       "deviation": 74839.85,
-      "period": {
-        "from": "Jul 1, 2025",
-        "to": "Aug 31, 2025"
-      }
+      "period": "Jul 1, 2025 — Aug 31, 2025"
     },
     {
       "id": "INV-2025-0060",
@@ -39,10 +30,7 @@
       "shortname": "pixthena",
       "type": "rate-change",
       "deviation": -74226.71,
-      "period": {
-        "from": "Feb 1, 2025",
-        "to": "May 31, 2025"
-      }
+      "period": "Feb 1, 2025 — May 31, 2025"
     }
   ]
 }

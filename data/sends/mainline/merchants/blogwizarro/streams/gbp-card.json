@@ -29,7 +29,108 @@
           "contractSource": "Agreement 0206-25"
         }
       ],
-      "days": []
+      "days": [
+        {
+          "day": 1,
+          "date": "Aug 1",
+          "turnover": 3294.85,
+          "regCommission": 125.21,
+          "regTxCount": 71,
+          "reconTurnover": 3294.85,
+          "reconCommission": 125.25,
+          "reconRate": 3.8014,
+          "contractRate": 3.5,
+          "contractExpected": 115.32,
+          "deviation": 9.93,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.8014,
+              "amount": 125.25,
+              "contractRate": 3.5,
+              "contractAmount": 115.32,
+              "source": "Registry",
+              "contractSource": "Agreement 0206-25"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 2,
+          "date": "Aug 2",
+          "turnover": 4215.22,
+          "regCommission": 160.29,
+          "regTxCount": 117,
+          "reconTurnover": 4215.22,
+          "reconCommission": 160.24,
+          "reconRate": 3.8015,
+          "contractRate": 3.5,
+          "contractExpected": 147.53,
+          "deviation": 12.71,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.8015,
+              "amount": 160.24,
+              "contractRate": 3.5,
+              "contractAmount": 147.53,
+              "source": "Registry",
+              "contractSource": "Agreement 0206-25"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 3,
+          "date": "Aug 3",
+          "turnover": 3533.44,
+          "regCommission": 134.3,
+          "regTxCount": 80,
+          "reconTurnover": 3533.44,
+          "reconCommission": 134.32,
+          "reconRate": 3.8014,
+          "contractRate": 3.5,
+          "contractExpected": 123.67,
+          "deviation": 10.65,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.8014,
+              "amount": 134.32,
+              "contractRate": 3.5,
+              "contractAmount": 123.67,
+              "source": "Registry",
+              "contractSource": "Agreement 0206-25"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 4,
+          "date": "Aug 4",
+          "turnover": 191.78,
+          "regCommission": 7.31,
+          "regTxCount": 9,
+          "reconTurnover": 191.78,
+          "reconCommission": 7.3,
+          "reconRate": 3.8064,
+          "contractRate": 3.5,
+          "contractExpected": 6.72,
+          "deviation": 0.58,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.8064,
+              "amount": 7.3,
+              "contractRate": 3.5,
+              "contractAmount": 6.72,
+              "source": "Registry",
+              "contractSource": "Agreement 0206-25"
+            }
+          ],
+          "rateChangeDay": false
+        }
+      ]
     },
     {
       "key": "jul-2025",
@@ -55,7 +156,183 @@
           "contractSource": "Agreement 0206-25"
         }
       ],
-      "days": []
+      "days": [
+        {
+          "day": 25,
+          "date": "Jul 25",
+          "turnover": 3266.89,
+          "regCommission": 124.18,
+          "regTxCount": 55,
+          "reconTurnover": 3266.89,
+          "reconCommission": 124.17,
+          "reconRate": 3.8009,
+          "contractRate": 3.5,
+          "contractExpected": 114.34,
+          "deviation": 9.83,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.8009,
+              "amount": 124.17,
+              "contractRate": 3.5,
+              "contractAmount": 114.34,
+              "source": "Registry",
+              "contractSource": "Agreement 0206-25"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 26,
+          "date": "Jul 26",
+          "turnover": 4717.22,
+          "regCommission": 179.36,
+          "regTxCount": 92,
+          "reconTurnover": 4717.22,
+          "reconCommission": 179.3,
+          "reconRate": 3.801,
+          "contractRate": 3.5,
+          "contractExpected": 165.1,
+          "deviation": 14.2,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.801,
+              "amount": 179.3,
+              "contractRate": 3.5,
+              "contractAmount": 165.1,
+              "source": "Registry",
+              "contractSource": "Agreement 0206-25"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 27,
+          "date": "Jul 27",
+          "turnover": 3579.58,
+          "regCommission": 136.03,
+          "regTxCount": 61,
+          "reconTurnover": 3579.58,
+          "reconCommission": 136.06,
+          "reconRate": 3.801,
+          "contractRate": 3.5,
+          "contractExpected": 125.29,
+          "deviation": 10.77,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.801,
+              "amount": 136.06,
+              "contractRate": 3.5,
+              "contractAmount": 125.29,
+              "source": "Registry",
+              "contractSource": "Agreement 0206-25"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 28,
+          "date": "Jul 28",
+          "turnover": 2631.33,
+          "regCommission": 99.97,
+          "regTxCount": 72,
+          "reconTurnover": 2631.33,
+          "reconCommission": 100.01,
+          "reconRate": 3.8007,
+          "contractRate": 3.5,
+          "contractExpected": 92.1,
+          "deviation": 7.91,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.8007,
+              "amount": 100.01,
+              "contractRate": 3.5,
+              "contractAmount": 92.1,
+              "source": "Registry",
+              "contractSource": "Agreement 0206-25"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 29,
+          "date": "Jul 29",
+          "turnover": 3546.01,
+          "regCommission": 134.72,
+          "regTxCount": 91,
+          "reconTurnover": 3546.01,
+          "reconCommission": 134.78,
+          "reconRate": 3.8009,
+          "contractRate": 3.5,
+          "contractExpected": 124.11,
+          "deviation": 10.67,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.8009,
+              "amount": 134.78,
+              "contractRate": 3.5,
+              "contractAmount": 124.11,
+              "source": "Registry",
+              "contractSource": "Agreement 0206-25"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 30,
+          "date": "Jul 30",
+          "turnover": 2585.04,
+          "regCommission": 98.29,
+          "regTxCount": 66,
+          "reconTurnover": 2585.04,
+          "reconCommission": 98.25,
+          "reconRate": 3.8007,
+          "contractRate": 3.5,
+          "contractExpected": 90.48,
+          "deviation": 7.77,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.8007,
+              "amount": 98.25,
+              "contractRate": 3.5,
+              "contractAmount": 90.48,
+              "source": "Registry",
+              "contractSource": "Agreement 0206-25"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 31,
+          "date": "Jul 31",
+          "turnover": 5210.4,
+          "regCommission": 198.06,
+          "regTxCount": 124,
+          "reconTurnover": 5210.4,
+          "reconCommission": 198.04,
+          "reconRate": 3.8009,
+          "contractRate": 3.5,
+          "contractExpected": 182.36,
+          "deviation": 15.68,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.8009,
+              "amount": 198.04,
+              "contractRate": 3.5,
+              "contractAmount": 182.36,
+              "source": "Registry",
+              "contractSource": "Agreement 0206-25"
+            }
+          ],
+          "rateChangeDay": false
+        }
+      ]
     }
   ]
 }

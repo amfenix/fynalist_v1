@@ -8,75 +8,75 @@
       "contract": "0809-25",
       "months": {
         "jan": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "feb": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "mar": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "apr": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "may": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "jun": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "jul": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "aug": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "sep": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "oct": {
           "turnover": 1044534.08,
-          "commission": 39692.72,
-          "deviation": 0,
+          "commission": 39692.73,
+          "deviation": 0.0,
           "cases": []
         },
         "nov": {
           "turnover": 1170178.29,
           "commission": 44469.01,
-          "deviation": 0,
+          "deviation": 0.0,
           "cases": []
         },
         "dec": {
           "turnover": 1422341.82,
           "commission": 54052.65,
-          "deviation": 0,
+          "deviation": 0.0,
           "cases": []
         }
       }
@@ -88,75 +88,75 @@
       "contract": "01/08-01",
       "months": {
         "jan": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "feb": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "mar": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "apr": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "may": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "jun": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "jul": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "aug": {
-          "turnover": 10.0,
-          "commission": 0.38,
-          "deviation": 0,
+          "turnover": 553442.24,
+          "commission": 21030.99,
+          "deviation": 0.0,
           "cases": []
         },
         "sep": {
-          "turnover": 962006.84,
-          "commission": 36538.95,
-          "deviation": 0,
+          "turnover": 4380460.43,
+          "commission": 166440.94,
+          "deviation": 0.0,
           "cases": []
         },
         "oct": {
-          "turnover": 1188861.8,
-          "commission": 45153.9,
-          "deviation": 0,
+          "turnover": 5572304.91,
+          "commission": 211725.16,
+          "deviation": 0.0,
           "cases": []
         },
         "nov": {
           "turnover": 262181.42,
           "commission": 9958.89,
-          "deviation": 0,
+          "deviation": 0.0,
           "cases": []
         },
         "dec": {
-          "turnover": 65228.89,
-          "commission": 2478.99,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         }
       }
@@ -168,75 +168,75 @@
       "contract": "2025/2411-01",
       "months": {
         "jan": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "feb": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "mar": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "apr": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "may": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "jun": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "jul": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "aug": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "sep": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "oct": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "nov": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "dec": {
           "turnover": 6466.13,
           "commission": 245.66,
-          "deviation": 0,
+          "deviation": 0.0,
           "cases": []
         }
       }
@@ -248,75 +248,75 @@
       "contract": "2025/2309-01",
       "months": {
         "jan": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "feb": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "mar": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "apr": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "may": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "jun": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "jul": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "aug": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "sep": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "oct": {
           "turnover": 308491.14,
           "commission": 11722.51,
-          "deviation": 0,
+          "deviation": 0.0,
           "cases": []
         },
         "nov": {
           "turnover": 892233.5,
           "commission": 33904.74,
-          "deviation": 0,
+          "deviation": 0.0,
           "cases": []
         },
         "dec": {
-          "turnover": 2483132.42,
-          "commission": 94358.85,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         }
       }
@@ -328,73 +328,126 @@
       "contract": "0206-25",
       "months": {
         "jan": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "feb": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "mar": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "apr": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "may": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "jun": {
-          "turnover": 2828250.55,
-          "commission": 99042.25,
-          "deviation": 0,
+          "turnover": 4634844.19,
+          "commission": 162278.62,
+          "deviation": 0.0,
           "cases": []
         },
         "jul": {
-          "turnover": 7843132.82,
-          "commission": 289486.87,
-          "deviation": 14934.46,
+          "turnover": 27410251.53,
+          "commission": 1020965.53,
+          "deviation": 61606.72,
           "cases": [
             {
-              "id": "blogwizarro-jul-2025",
-              "title": "Rate deviation in July",
-              "partLabel": "SENDS",
+              "id": "blogwizarro-jul-aud",
+              "title": "AUD Card overpayment",
+              "partLabel": "Smartflow",
               "contractRate": 3.5,
-              "actualRate": 3.69,
-              "deviation": 14934.46,
+              "actualRate": 3.7381,
+              "deviation": 46430.82,
+              "periodFrom": "Jul 1",
+              "periodTo": "Jul 31",
+              "investigationId": "INV-2025-0059"
+            },
+            {
+              "id": "blogwizarro-jul-eur",
+              "title": "EUR Card overpayment",
+              "partLabel": "Smartflow",
+              "contractRate": 3.5,
+              "actualRate": 3.691,
+              "deviation": 14977.22,
+              "periodFrom": "Jul 1",
+              "periodTo": "Jul 31",
+              "investigationId": "INV-2025-0059"
+            },
+            {
+              "id": "blogwizarro-jul-gbp",
+              "title": "GBP Card overpayment",
+              "partLabel": "Smartflow",
+              "contractRate": 3.5,
+              "actualRate": 3.8009,
+              "deviation": 76.83,
+              "periodFrom": "Jul 1",
+              "periodTo": "Jul 31",
+              "investigationId": "INV-2025-0059"
+            },
+            {
+              "id": "blogwizarro-jul-nok",
+              "title": "NOK Card overpayment",
+              "partLabel": "Smartflow",
+              "contractRate": 3.5,
+              "actualRate": 3.8,
+              "deviation": 121.85,
               "periodFrom": "Jul 1",
               "periodTo": "Jul 31",
               "investigationId": "INV-2025-0059"
             }
-          ],
-          "hasRateChange": true,
-          "rateChangeInfo": "Effective rate ~3.69% vs contract 3.5%"
+          ]
         },
         "aug": {
-          "turnover": 1056114.76,
-          "commission": 40126.36,
-          "deviation": 3162.24,
+          "turnover": 4413056.26,
+          "commission": 167690.11,
+          "deviation": 13233.13,
           "cases": [
             {
-              "id": "blogwizarro-aug-2025",
-              "title": "Rate deviation in August",
-              "partLabel": "SENDS",
+              "id": "blogwizarro-aug-aud",
+              "title": "AUD Card overpayment",
+              "partLabel": "Smartflow",
               "contractRate": 3.5,
               "actualRate": 3.8,
-              "deviation": 3162.24,
+              "deviation": 10036.92,
+              "periodFrom": "Aug 1",
+              "periodTo": "Aug 31",
+              "investigationId": "INV-2025-0059"
+            },
+            {
+              "id": "blogwizarro-aug-eur",
+              "title": "EUR Card overpayment",
+              "partLabel": "Smartflow",
+              "contractRate": 3.5,
+              "actualRate": 3.7994,
+              "deviation": 3162.34,
+              "periodFrom": "Aug 1",
+              "periodTo": "Aug 31",
+              "investigationId": "INV-2025-0059"
+            },
+            {
+              "id": "blogwizarro-aug-gbp",
+              "title": "GBP Card overpayment",
+              "partLabel": "Smartflow",
+              "contractRate": 3.5,
+              "actualRate": 3.8015,
+              "deviation": 33.87,
               "periodFrom": "Aug 1",
               "periodTo": "Aug 31",
               "investigationId": "INV-2025-0059"
@@ -402,27 +455,27 @@
           ]
         },
         "sep": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "oct": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "nov": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "dec": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         }
       }
@@ -434,75 +487,75 @@
       "contract": "2025/1510-01",
       "months": {
         "jan": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "feb": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "mar": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "apr": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "may": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "jun": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "jul": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "aug": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "sep": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "oct": {
-          "turnover": 44615.97,
-          "commission": 1696.19,
-          "deviation": 0,
+          "turnover": 52044.97,
+          "commission": 1978.49,
+          "deviation": 0.0,
           "cases": []
         },
         "nov": {
-          "turnover": 131702.69,
-          "commission": 5004.47,
-          "deviation": 0,
+          "turnover": 318463.21,
+          "commission": 12101.26,
+          "deviation": 0.0,
           "cases": []
         },
         "dec": {
-          "turnover": 906.64,
-          "commission": 34.47,
-          "deviation": 0,
+          "turnover": 607.25,
+          "commission": 23.09,
+          "deviation": 0.0,
           "cases": []
         }
       }
@@ -514,75 +567,75 @@
       "contract": "2025/2410-01",
       "months": {
         "jan": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "feb": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "mar": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "apr": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "may": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "jun": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "jul": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "aug": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "sep": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "oct": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "nov": {
           "turnover": 1072194.24,
           "commission": 40719.6,
-          "deviation": 0,
+          "deviation": 0.0,
           "cases": []
         },
         "dec": {
-          "turnover": 1393888.12,
-          "commission": 52943.23,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         }
       }
@@ -594,75 +647,75 @@
       "contract": "2025/2110-03",
       "months": {
         "jan": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "feb": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "mar": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "apr": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "may": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "jun": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "jul": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "aug": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "sep": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "oct": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "nov": {
-          "turnover": 1911752.82,
-          "commission": 72649.42,
-          "deviation": 0,
+          "turnover": 1911758.02,
+          "commission": 72649.62,
+          "deviation": 0.0,
           "cases": []
         },
         "dec": {
-          "turnover": 2631689.57,
-          "commission": 100005.76,
-          "deviation": 0,
+          "turnover": 2338019.88,
+          "commission": 88846.58,
+          "deviation": 0.0,
           "cases": []
         }
       }
@@ -674,75 +727,75 @@
       "contract": "1009-25",
       "months": {
         "jan": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "feb": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "mar": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "apr": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "may": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "jun": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "jul": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "aug": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "sep": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "oct": {
-          "turnover": 1011416.05,
-          "commission": 38442.61,
-          "deviation": 0,
+          "turnover": 977870.34,
+          "commission": 37166.59,
+          "deviation": 0.0,
           "cases": []
         },
         "nov": {
-          "turnover": 977870.34,
-          "commission": 37166.59,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "dec": {
-          "turnover": 512726.69,
-          "commission": 19486.9,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         }
       }
@@ -756,7 +809,7 @@
         "jan": {
           "turnover": 9466862.72,
           "commission": 360946.45,
-          "deviation": 0,
+          "deviation": 0.0,
           "cases": []
         },
         "feb": {
@@ -789,8 +842,8 @@
           ]
         },
         "mar": {
-          "turnover": 6291484.54,
-          "commission": 220282.58,
+          "turnover": 6703997.13,
+          "commission": 235955.03,
           "deviation": -19997.0,
           "cases": [
             {
@@ -818,8 +871,8 @@
           ]
         },
         "apr": {
-          "turnover": 8069251.48,
-          "commission": 282537.38,
+          "turnover": 11260440.28,
+          "commission": 403780.76,
           "deviation": -25271.5,
           "cases": [
             {
@@ -847,8 +900,8 @@
           ]
         },
         "may": {
-          "turnover": 9342126.56,
-          "commission": 327097.46,
+          "turnover": 11266815.74,
+          "commission": 400225.4,
           "deviation": -29775.68,
           "cases": [
             {
@@ -905,8 +958,8 @@
           ]
         },
         "jul": {
-          "turnover": 6504336.21,
-          "commission": 234030.95,
+          "turnover": 6561323.91,
+          "commission": 236195.92,
           "deviation": -13658.02,
           "cases": [
             {
@@ -934,33 +987,33 @@
           ]
         },
         "aug": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 4249951.92,
+          "commission": 161460.28,
+          "deviation": 0.0,
           "cases": []
         },
         "sep": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 5360984.58,
+          "commission": 203703.56,
+          "deviation": 0.0,
           "cases": []
         },
         "oct": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 7869468.81,
+          "commission": 299818.38,
+          "deviation": 0.0,
           "cases": []
         },
         "nov": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 8737143.14,
+          "commission": 333109.57,
+          "deviation": 0.0,
           "cases": []
         },
         "dec": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 9949866.16,
+          "commission": 379381.29,
+          "deviation": 0.0,
           "cases": []
         }
       }
@@ -972,75 +1025,75 @@
       "contract": "0907-25",
       "months": {
         "jan": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "feb": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "mar": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "apr": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "may": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "jun": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "jul": {
           "turnover": 1809022.69,
           "commission": 68733.18,
-          "deviation": 0,
+          "deviation": 0.0,
           "cases": []
         },
         "aug": {
-          "turnover": 8521342.01,
-          "commission": 323780.06,
-          "deviation": 0,
+          "turnover": 23637176.02,
+          "commission": 898182.03,
+          "deviation": 0.0,
           "cases": []
         },
         "sep": {
-          "turnover": 5463768.33,
-          "commission": 207628.52,
-          "deviation": 0,
+          "turnover": 15777800.72,
+          "commission": 599561.65,
+          "deviation": 0.0,
           "cases": []
         },
         "oct": {
-          "turnover": 2941592.54,
-          "commission": 111769.31,
-          "deviation": 0,
+          "turnover": 12369324.23,
+          "commission": 470023.41,
+          "deviation": 0.0,
           "cases": []
         },
         "nov": {
-          "turnover": 2390925.96,
-          "commission": 90839.32,
-          "deviation": 0,
+          "turnover": 13572645.53,
+          "commission": 515745.78,
+          "deviation": 0.0,
           "cases": []
         },
         "dec": {
-          "turnover": 3470209.73,
-          "commission": 131871.26,
-          "deviation": 0,
+          "turnover": 7153091.66,
+          "commission": 271816.77,
+          "deviation": 0.0,
           "cases": []
         }
       }
@@ -1052,43 +1105,96 @@
       "contract": "1811-24",
       "months": {
         "jan": {
-          "turnover": 354377.27,
-          "commission": 13470.57,
-          "deviation": 0,
+          "turnover": 358436.77,
+          "commission": 13624.91,
+          "deviation": 0.0,
           "cases": []
         },
         "feb": {
-          "turnover": 1808411.23,
-          "commission": 65060.8,
-          "deviation": -3658.45,
+          "turnover": 1997630.1,
+          "commission": 71759.57,
+          "deviation": -4150.38,
           "cases": [
             {
-              "id": "pixthena-feb-2025",
-              "title": "Rate deviation in February",
-              "partLabel": "SENDS",
+              "id": "pixthena-feb-aud",
+              "title": "AUD Card underpayment",
+              "partLabel": "Smartflow",
+              "contractRate": 3.8,
+              "actualRate": 3.5666,
+              "deviation": -265.34,
+              "periodFrom": "Feb 1",
+              "periodTo": "Feb 28",
+              "investigationId": "INV-2025-0060"
+            },
+            {
+              "id": "pixthena-feb-eur",
+              "title": "EUR Card underpayment",
+              "partLabel": "Smartflow",
               "contractRate": 3.8,
               "actualRate": 3.5977,
-              "deviation": -3658.45,
+              "deviation": -3658.83,
+              "periodFrom": "Feb 1",
+              "periodTo": "Feb 28",
+              "investigationId": "INV-2025-0060"
+            },
+            {
+              "id": "pixthena-feb-nok",
+              "title": "NOK Card underpayment",
+              "partLabel": "Smartflow",
+              "contractRate": 3.8,
+              "actualRate": 3.5,
+              "deviation": -24.0,
+              "periodFrom": "Feb 1",
+              "periodTo": "Feb 28",
+              "investigationId": "INV-2025-0060"
+            },
+            {
+              "id": "pixthena-feb-usd",
+              "title": "USD Card underpayment",
+              "partLabel": "Smartflow",
+              "contractRate": 3.8,
+              "actualRate": 3.5006,
+              "deviation": -202.21,
               "periodFrom": "Feb 1",
               "periodTo": "Feb 28",
               "investigationId": "INV-2025-0060"
             }
-          ],
-          "hasRateChange": true,
-          "rateChangeInfo": "Effective rate ~3.60% vs contract 3.8%"
+          ]
         },
         "mar": {
-          "turnover": 6178624.14,
-          "commission": 216322.74,
-          "deviation": -18464.97,
+          "turnover": 6607837.07,
+          "commission": 231350.81,
+          "deviation": -19747.0,
           "cases": [
             {
-              "id": "pixthena-mar-2025",
-              "title": "Rate deviation in March",
-              "partLabel": "SENDS",
+              "id": "pixthena-mar-aud",
+              "title": "AUD Card underpayment",
+              "partLabel": "Smartflow",
+              "contractRate": 3.8,
+              "actualRate": 3.5015,
+              "deviation": -843.26,
+              "periodFrom": "Mar 1",
+              "periodTo": "Mar 31",
+              "investigationId": "INV-2025-0060"
+            },
+            {
+              "id": "pixthena-mar-eur",
+              "title": "EUR Card underpayment",
+              "partLabel": "Smartflow",
               "contractRate": 3.8,
               "actualRate": 3.5011,
-              "deviation": -18464.97,
+              "deviation": -18464.98,
+              "periodFrom": "Mar 1",
+              "periodTo": "Mar 31",
+              "investigationId": "INV-2025-0060"
+            },
+            {
+              "id": "pixthena-mar-usd",
+              "title": "USD Card underpayment",
+              "partLabel": "Smartflow",
+              "contractRate": 3.8,
+              "actualRate": 3.501,
+              "deviation": -438.76,
               "periodFrom": "Mar 1",
               "periodTo": "Mar 31",
               "investigationId": "INV-2025-0060"
@@ -1096,17 +1202,39 @@
           ]
         },
         "apr": {
-          "turnover": 7266599.36,
-          "commission": 254426.63,
-          "deviation": -21704.16,
+          "turnover": 9044180.02,
+          "commission": 316660.35,
+          "deviation": -27018.5,
           "cases": [
             {
-              "id": "pixthena-apr-2025",
-              "title": "Rate deviation in April",
-              "partLabel": "SENDS",
+              "id": "pixthena-apr-aud",
+              "title": "AUD Card underpayment",
+              "partLabel": "Smartflow",
+              "contractRate": 3.8,
+              "actualRate": 3.501,
+              "deviation": -4747.88,
+              "periodFrom": "Apr 1",
+              "periodTo": "Apr 30",
+              "investigationId": "INV-2025-0060"
+            },
+            {
+              "id": "pixthena-apr-eur",
+              "title": "EUR Card underpayment",
+              "partLabel": "Smartflow",
               "contractRate": 3.8,
               "actualRate": 3.5013,
-              "deviation": -21704.16,
+              "deviation": -21704.15,
+              "periodFrom": "Apr 1",
+              "periodTo": "Apr 30",
+              "investigationId": "INV-2025-0060"
+            },
+            {
+              "id": "pixthena-apr-usd",
+              "title": "USD Card underpayment",
+              "partLabel": "Smartflow",
+              "contractRate": 3.8,
+              "actualRate": 3.5009,
+              "deviation": -566.47,
               "periodFrom": "Apr 1",
               "periodTo": "Apr 30",
               "investigationId": "INV-2025-0060"
@@ -1114,17 +1242,50 @@
           ]
         },
         "may": {
-          "turnover": 6789632.03,
-          "commission": 237693.07,
-          "deviation": -20312.94,
+          "turnover": 7792185.24,
+          "commission": 272792.22,
+          "deviation": -23310.84,
           "cases": [
             {
-              "id": "pixthena-may-2025",
-              "title": "Rate deviation in May",
-              "partLabel": "SENDS",
+              "id": "pixthena-may-aud",
+              "title": "AUD Card underpayment",
+              "partLabel": "Smartflow",
+              "contractRate": 3.8,
+              "actualRate": 3.501,
+              "deviation": -2823.71,
+              "periodFrom": "May 1",
+              "periodTo": "May 31",
+              "investigationId": "INV-2025-0060"
+            },
+            {
+              "id": "pixthena-may-eur",
+              "title": "EUR Card underpayment",
+              "partLabel": "Smartflow",
               "contractRate": 3.8,
               "actualRate": 3.5008,
-              "deviation": -20312.94,
+              "deviation": -20312.95,
+              "periodFrom": "May 1",
+              "periodTo": "May 31",
+              "investigationId": "INV-2025-0060"
+            },
+            {
+              "id": "pixthena-may-nok",
+              "title": "NOK Card underpayment",
+              "partLabel": "Smartflow",
+              "contractRate": 3.8,
+              "actualRate": 3.5001,
+              "deviation": -35.7,
+              "periodFrom": "May 1",
+              "periodTo": "May 31",
+              "investigationId": "INV-2025-0060"
+            },
+            {
+              "id": "pixthena-may-usd",
+              "title": "USD Card underpayment",
+              "partLabel": "Smartflow",
+              "contractRate": 3.8,
+              "actualRate": 3.5007,
+              "deviation": -138.47,
               "periodFrom": "May 1",
               "periodTo": "May 31",
               "investigationId": "INV-2025-0060"
@@ -1132,45 +1293,45 @@
           ]
         },
         "jun": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "jul": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "aug": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "sep": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "oct": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "nov": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "dec": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         }
       }
@@ -1182,75 +1343,75 @@
       "contract": "13/10-02",
       "months": {
         "jan": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "feb": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "mar": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "apr": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "may": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "jun": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "jul": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "aug": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "sep": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "oct": {
           "turnover": 4070.14,
           "commission": 154.73,
-          "deviation": 0,
+          "deviation": 0.0,
           "cases": []
         },
         "nov": {
-          "turnover": 105158.47,
-          "commission": 3995.65,
-          "deviation": 0,
+          "turnover": 260738.71,
+          "commission": 9907.77,
+          "deviation": 0.0,
           "cases": []
         },
         "dec": {
-          "turnover": 208635.62,
-          "commission": 7928.04,
-          "deviation": 0,
+          "turnover": 393851.9,
+          "commission": 14966.33,
+          "deviation": 0.0,
           "cases": []
         }
       }
@@ -1262,75 +1423,75 @@
       "contract": "2209-25",
       "months": {
         "jan": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "feb": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "mar": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "apr": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "may": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "jun": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "jul": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "aug": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "sep": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "oct": {
           "turnover": 286610.96,
           "commission": 10891.92,
-          "deviation": 0,
+          "deviation": 0.0,
           "cases": []
         },
         "nov": {
           "turnover": 427424.4,
           "commission": 16241.51,
-          "deviation": 0,
+          "deviation": 0.0,
           "cases": []
         },
         "dec": {
-          "turnover": 518939.75,
-          "commission": 19718.41,
-          "deviation": 0,
+          "turnover": 400626.29,
+          "commission": 15223.37,
+          "deviation": 0.0,
           "cases": []
         }
       }
@@ -1342,75 +1503,75 @@
       "contract": "2025/1311-01",
       "months": {
         "jan": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "feb": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "mar": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "apr": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "may": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "jun": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "jul": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "aug": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "sep": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "oct": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "nov": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "dec": {
-          "turnover": 945330.98,
-          "commission": 35924.47,
-          "deviation": 0,
+          "turnover": 797702.66,
+          "commission": 30314.58,
+          "deviation": 0.0,
           "cases": []
         }
       }
@@ -1422,75 +1583,75 @@
       "contract": "2025/2107-01",
       "months": {
         "jan": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "feb": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "mar": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "apr": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "may": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "jun": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "jul": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "aug": {
-          "turnover": 4053207.7,
-          "commission": 154002.89,
-          "deviation": 0,
+          "turnover": 7982682.29,
+          "commission": 303322.87,
+          "deviation": 0.0,
           "cases": []
         },
         "sep": {
-          "turnover": 4752911.72,
-          "commission": 180607.24,
-          "deviation": 0,
+          "turnover": 5266164.95,
+          "commission": 200110.83,
+          "deviation": 0.0,
           "cases": []
         },
         "oct": {
-          "turnover": 3059506.7,
-          "commission": 116259.65,
-          "deviation": 0,
+          "turnover": 3742720.6,
+          "commission": 142221.65,
+          "deviation": 0.0,
           "cases": []
         },
         "nov": {
-          "turnover": 2402062.44,
-          "commission": 91282.08,
-          "deviation": 0,
+          "turnover": 3064215.3,
+          "commission": 116443.83,
+          "deviation": 0.0,
           "cases": []
         },
         "dec": {
-          "turnover": 2640073.45,
-          "commission": 100326.89,
-          "deviation": 0,
+          "turnover": 2476271.45,
+          "commission": 94101.99,
+          "deviation": 0.0,
           "cases": []
         }
       }
@@ -1502,75 +1663,75 @@
       "contract": "2025/1509-02",
       "months": {
         "jan": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "feb": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "mar": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "apr": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "may": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "jun": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "jul": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "aug": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "sep": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "oct": {
           "turnover": 516174.86,
           "commission": 19616.18,
-          "deviation": 0,
+          "deviation": 0.0,
           "cases": []
         },
         "nov": {
           "turnover": 856873.37,
           "commission": 32562.35,
-          "deviation": 0,
+          "deviation": 0.0,
           "cases": []
         },
         "dec": {
-          "turnover": 1550726.3,
-          "commission": 58926.47,
-          "deviation": 0,
+          "turnover": 1235425.46,
+          "commission": 46945.78,
+          "deviation": 0.0,
           "cases": []
         }
       }
@@ -1582,75 +1743,75 @@
       "contract": "2025/2910-01",
       "months": {
         "jan": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "feb": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "mar": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "apr": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "may": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "jun": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "jul": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "aug": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "sep": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "oct": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "nov": {
           "turnover": 98925.3,
           "commission": 3761.73,
-          "deviation": 0,
+          "deviation": 0.0,
           "cases": []
         },
         "dec": {
-          "turnover": 517649.37,
-          "commission": 19672.5,
-          "deviation": 0,
+          "turnover": 432364.46,
+          "commission": 16433.28,
+          "deviation": 0.0,
           "cases": []
         }
       }
@@ -1662,75 +1823,75 @@
       "contract": "0209-25",
       "months": {
         "jan": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "feb": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "mar": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "apr": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "may": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "jun": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "jul": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "aug": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "sep": {
           "turnover": 1.0,
           "commission": 0.04,
-          "deviation": 0,
+          "deviation": 0.0,
           "cases": []
         },
         "oct": {
-          "turnover": 0,
-          "commission": 0,
-          "deviation": 0,
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
           "cases": []
         },
         "nov": {
           "turnover": 83289.01,
-          "commission": 3164.92,
-          "deviation": 0,
+          "commission": 3164.89,
+          "deviation": 0.0,
           "cases": []
         },
         "dec": {
-          "turnover": 196566.44,
-          "commission": 7469.73,
-          "deviation": 0,
+          "turnover": 162968.59,
+          "commission": 6192.94,
+          "deviation": 0.0,
           "cases": []
         }
       }

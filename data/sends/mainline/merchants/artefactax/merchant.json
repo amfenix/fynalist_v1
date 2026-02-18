@@ -13,7 +13,7 @@
         {
           "parts": [
             {
-              "label": "SENDS",
+              "label": "Smartflow",
               "rate": 3.8
             }
           ],
@@ -39,7 +39,7 @@
       "label": "EUR Card",
       "currency": "EUR",
       "point": "Card",
-      "provider": "SENDS"
+      "provider": "Smartflow"
     }
   ],
   "months": [
@@ -58,7 +58,7 @@
       "deviation": 0,
       "parts": [
         {
-          "label": "SENDS",
+          "label": "Smartflow",
           "rate": 3.7992,
           "amount": 245.66,
           "contractRate": 3.8,
@@ -82,7 +82,7 @@
           "deviation": 0,
           "parts": [
             {
-              "label": "SENDS",
+              "label": "Smartflow",
               "rate": 3.8087,
               "amount": 0.86,
               "contractRate": 3.8087,
@@ -107,7 +107,7 @@
           "deviation": 0,
           "parts": [
             {
-              "label": "SENDS",
+              "label": "Smartflow",
               "rate": 3.7989,
               "amount": 13.42,
               "contractRate": 3.7989,
@@ -132,7 +132,7 @@
           "deviation": 0,
           "parts": [
             {
-              "label": "SENDS",
+              "label": "Smartflow",
               "rate": 3.8008,
               "amount": 4.0,
               "contractRate": 3.8008,
@@ -157,7 +157,7 @@
           "deviation": 0,
           "parts": [
             {
-              "label": "SENDS",
+              "label": "Smartflow",
               "rate": 3.7983,
               "amount": 12.85,
               "contractRate": 3.7983,
@@ -182,7 +182,7 @@
           "deviation": 0,
           "parts": [
             {
-              "label": "SENDS",
+              "label": "Smartflow",
               "rate": 3.7981,
               "amount": 16.63,
               "contractRate": 3.7981,
@@ -207,7 +207,7 @@
           "deviation": 0,
           "parts": [
             {
-              "label": "SENDS",
+              "label": "Smartflow",
               "rate": 3.7988,
               "amount": 30.2,
               "contractRate": 3.7988,
@@ -232,7 +232,7 @@
           "deviation": 0,
           "parts": [
             {
-              "label": "SENDS",
+              "label": "Smartflow",
               "rate": 3.7995,
               "amount": 21.54,
               "contractRate": 3.7995,
@@ -257,7 +257,7 @@
           "deviation": 0,
           "parts": [
             {
-              "label": "SENDS",
+              "label": "Smartflow",
               "rate": 3.7971,
               "amount": 8.24,
               "contractRate": 3.7971,
@@ -282,7 +282,7 @@
           "deviation": 0,
           "parts": [
             {
-              "label": "SENDS",
+              "label": "Smartflow",
               "rate": 3.7991,
               "amount": 19.11,
               "contractRate": 3.7991,
@@ -307,7 +307,7 @@
           "deviation": 0,
           "parts": [
             {
-              "label": "SENDS",
+              "label": "Smartflow",
               "rate": 3.7984,
               "amount": 11.42,
               "contractRate": 3.7984,
@@ -332,7 +332,7 @@
           "deviation": 0,
           "parts": [
             {
-              "label": "SENDS",
+              "label": "Smartflow",
               "rate": 3.799,
               "amount": 4.65,
               "contractRate": 3.799,
@@ -357,7 +357,7 @@
           "deviation": 0,
           "parts": [
             {
-              "label": "SENDS",
+              "label": "Smartflow",
               "rate": 3.7962,
               "amount": 5.58,
               "contractRate": 3.7962,
@@ -382,7 +382,7 @@
           "deviation": 0,
           "parts": [
             {
-              "label": "SENDS",
+              "label": "Smartflow",
               "rate": 3.7986,
               "amount": 17.96,
               "contractRate": 3.7986,
@@ -407,7 +407,7 @@
           "deviation": 0,
           "parts": [
             {
-              "label": "SENDS",
+              "label": "Smartflow",
               "rate": 3.7996,
               "amount": 34.85,
               "contractRate": 3.7996,
@@ -432,7 +432,7 @@
           "deviation": 0,
           "parts": [
             {
-              "label": "SENDS",
+              "label": "Smartflow",
               "rate": 3.7985,
               "amount": 18.39,
               "contractRate": 3.7985,
@@ -457,7 +457,7 @@
           "deviation": 0,
           "parts": [
             {
-              "label": "SENDS",
+              "label": "Smartflow",
               "rate": 3.7992,
               "amount": 25.94,
               "contractRate": 3.7992,

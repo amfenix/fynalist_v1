@@ -1,0 +1,96 @@
+{
+  "streamId": "eur-f-20641",
+  "label": "EUR Finthesis MK 20641",
+  "currency": "EUR",
+  "point": "Card Acquiring",
+  "provider": "Finthesis",
+  "months": [
+    {
+      "key": "dec-2025",
+      "label": "December",
+      "turnover": 136346.55,
+      "registryAmount": 136346.55,
+      "regCommission": 5728.04,
+      "regTxCount": 0,
+      "reconTurnover": 136346.55,
+      "reconCommission": 5728.04,
+      "reconRate": 4.2,
+      "contractRate": 4.2,
+      "contractExpected": 5728.04,
+      "deviation": 0,
+      "parts": [
+        {
+          "label": "Finthesis",
+          "rate": 4.2,
+          "amount": 5728.04,
+          "contractRate": 4.2,
+          "contractAmount": 5728.04,
+          "source": "Reconciliation",
+          "contractSource": "Sheet header rate"
+        }
+      ],
+      "days": [
+        {
+          "day": 26,
+          "date": "Dec 26",
+          "turnover": 23171.79,
+          "regCommission": 973.59,
+          "regTxCount": 0,
+          "reconTurnover": 23171.79,
+          "reconCommission": 973.59,
+          "reconRate": 4.2,
+          "contractRate": 4.2,
+          "parts": [{ "label": "Finthesis", "rate": 4.2, "amount": 973.59, "contractRate": 4.2, "contractAmount": 973.59, "source": "Reconciliation", "contractSource": "Sheet header rate" }]
+        },
+        {
+          "day": 27,
+          "date": "Dec 27",
+          "turnover": 35380.05,
+          "regCommission": 1486.24,
+          "regTxCount": 0,
+          "reconTurnover": 35380.05,
+          "reconCommission": 1486.24,
+          "reconRate": 4.2,
+          "contractRate": 4.2,
+          "parts": [{ "label": "Finthesis", "rate": 4.2, "amount": 1486.24, "contractRate": 4.2, "contractAmount": 1486.24, "source": "Reconciliation", "contractSource": "Sheet header rate" }]
+        },
+        {
+          "day": 28,
+          "date": "Dec 28",
+          "turnover": 32169.50,
+          "regCommission": 1351.40,
+          "regTxCount": 0,
+          "reconTurnover": 32169.50,
+          "reconCommission": 1351.40,
+          "reconRate": 4.2,
+          "contractRate": 4.2,
+          "parts": [{ "label": "Finthesis", "rate": 4.2, "amount": 1351.40, "contractRate": 4.2, "contractAmount": 1351.40, "source": "Reconciliation", "contractSource": "Sheet header rate" }]
+        },
+        {
+          "day": 29,
+          "date": "Dec 29",
+          "turnover": 29116.98,
+          "regCommission": 1223.20,
+          "regTxCount": 0,
+          "reconTurnover": 29116.98,
+          "reconCommission": 1223.20,
+          "reconRate": 4.2,
+          "contractRate": 4.2,
+          "parts": [{ "label": "Finthesis", "rate": 4.2, "amount": 1223.20, "contractRate": 4.2, "contractAmount": 1223.20, "source": "Reconciliation", "contractSource": "Sheet header rate" }]
+        },
+        {
+          "day": 30,
+          "date": "Dec 30",
+          "turnover": 16508.23,
+          "regCommission": 693.61,
+          "regTxCount": 0,
+          "reconTurnover": 16508.23,
+          "reconCommission": 693.61,
+          "reconRate": 4.2,
+          "contractRate": 4.2,
+          "parts": [{ "label": "Finthesis", "rate": 4.2, "amount": 693.61, "contractRate": 4.2, "contractAmount": 693.61, "source": "Reconciliation", "contractSource": "Sheet header rate" }]
+        }
+      ]
+    }
+  ]
+}

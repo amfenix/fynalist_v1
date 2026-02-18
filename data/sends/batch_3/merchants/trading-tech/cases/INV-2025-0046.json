@@ -1,0 +1,85 @@
+{
+  "type": "rate-change",
+  "caseId": "INV-2025-0046",
+  "caseNumber": "INV-2025-0046",
+  "merchant": {
+    "name": "TradingTech",
+    "legalName": "TRADING TECH SP. Z O.O.",
+    "contract": "No. 11/12-01/OB",
+    "shortname": "trading-tech"
+  },
+  "partLabel": "Paymentz",
+  "period": {
+    "from": "Jan 1, 2025",
+    "to": "Apr 9, 2025"
+  },
+  "deviation": 323083.09,
+  "contractRate": 0,
+  "actualRate": 4.14,
+  "changeDate": "Jan 1, 2025",
+  "valueColumns": ["amount", "commission"],
+  "summary": "EUR card acquiring (MK 1127) processed 7.8M EUR with 386,899 EUR total commission. Acquiring contract not provided. Only Smartflow ToB documents ghost rates. The 1.75% base commission (323,083 EUR) has no contract backing.",
+  "sources": {
+    "contract": {
+      "name": "NOT PROVIDED",
+      "suffix": "EUR acquiring rate sheet missing",
+      "effectiveDate": "N/A",
+      "period": "Jan 1 – Apr 9, 2025",
+      "rates": [
+        {
+          "label": "Paymentz",
+          "rate": 0,
+          "fixedFee": 0
+        }
+      ]
+    },
+    "registry": {
+      "files": [
+        "TradingTech registry Jan-Apr 2025"
+      ],
+      "operationType": "Incoming",
+      "currency": "EUR",
+      "period": "Jan 1 – Apr 9, 2025",
+      "columns": [
+        "Date",
+        "Amount",
+        "Commission",
+        "Rate"
+      ]
+    },
+    "reconciliation": {
+      "file": "RECONCILIATION_SUMMARY.json",
+      "sheet": "EUR (S) MK 1127",
+      "period": "Jan 1 – Apr 9, 2025",
+      "columns": [
+        "Date",
+        "Amount",
+        "Col C (base commission)",
+        "Col M (ghost commission)"
+      ]
+    }
+  },
+  "notes": [
+    {
+      "type": "warning",
+      "text": "No acquiring contract provided for EUR card channel (MK 1127). The 1.75% base commission rate has no contract document backing."
+    },
+    {
+      "type": "info",
+      "text": "Ghost mechanic: from Mar 12, total commission splits into base (col C, Paymentz) + ghost (col M, Impaya). Ghost rates are documented in Smartflow ToB."
+    },
+    {
+      "type": "info",
+      "text": "Registry and reconciliation amounts match exactly across all months."
+    },
+    {
+      "type": "info",
+      "text": "Rate timeline: 5.0% total (Jan 1 – Mar 18), 4.8% total (Mar 19 – Apr 9). Ghost split begins Mar 12."
+    },
+    {
+      "type": "info",
+      "text": "Sub-merchant ID: MK 1127. Channel active Sep 30, 2024 through Apr 9, 2025."
+    }
+  ],
+  "dailyData": []
+}

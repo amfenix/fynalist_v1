@@ -1,0 +1,6483 @@
+{
+  "streamId": "nok-card",
+  "label": "NOK Card Acquiring",
+  "currency": "NOK",
+  "point": "Smartflow MC/APM",
+  "provider": "Smartflow",
+  "months": [
+    {
+      "key": "oct-2025",
+      "label": "October",
+      "turnover": 700134.0,
+      "registryAmount": 700134.0,
+      "regCommission": 35006.7,
+      "regTxCount": 0,
+      "reconTurnover": 700134.0,
+      "reconCommission": 35006.7,
+      "reconRate": 5.0,
+      "contractRate": 5.0,
+      "contractExpected": 35006.7,
+      "deviation": 0,
+      "parts": [
+        {
+          "label": "Smartflow",
+          "rate": 5.0,
+          "amount": 35006.7,
+          "contractRate": 5.0,
+          "contractAmount": 35006.7,
+          "source": "Reconciliation",
+          "contractSource": "Addendum 1810-24"
+        }
+      ],
+      "days": [
+        {
+          "day": 1,
+          "date": "Oct 1",
+          "turnover": 86040.0,
+          "regCommission": 4302.0,
+          "regTxCount": 0,
+          "reconTurnover": 86040.0,
+          "reconCommission": 4302.0,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 4302.0,
+              "contractRate": 5.0,
+              "contractAmount": 4302.0,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "date": "Oct 2",
+          "turnover": 91601.0,
+          "regCommission": 4580.05,
+          "regTxCount": 0,
+          "reconTurnover": 91601.0,
+          "reconCommission": 4580.05,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 4580.05,
+              "contractRate": 5.0,
+              "contractAmount": 4580.05,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "date": "Oct 3",
+          "turnover": 77663.0,
+          "regCommission": 3883.15,
+          "regTxCount": 0,
+          "reconTurnover": 77663.0,
+          "reconCommission": 3883.15,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 3883.15,
+              "contractRate": 5.0,
+              "contractAmount": 3883.15,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 4,
+          "date": "Oct 4",
+          "turnover": 72311.0,
+          "regCommission": 3615.55,
+          "regTxCount": 0,
+          "reconTurnover": 72311.0,
+          "reconCommission": 3615.55,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 3615.55,
+              "contractRate": 5.0,
+              "contractAmount": 3615.55,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 5,
+          "date": "Oct 5",
+          "turnover": 63187.0,
+          "regCommission": 3159.35,
+          "regTxCount": 0,
+          "reconTurnover": 63187.0,
+          "reconCommission": 3159.35,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 3159.35,
+              "contractRate": 5.0,
+              "contractAmount": 3159.35,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 6,
+          "date": "Oct 6",
+          "turnover": 73366.0,
+          "regCommission": 3668.3,
+          "regTxCount": 0,
+          "reconTurnover": 73366.0,
+          "reconCommission": 3668.3,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 3668.3,
+              "contractRate": 5.0,
+              "contractAmount": 3668.3,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "date": "Oct 7",
+          "turnover": 123461.0,
+          "regCommission": 6173.05,
+          "regTxCount": 0,
+          "reconTurnover": 123461.0,
+          "reconCommission": 6173.05,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 6173.05,
+              "contractRate": 5.0,
+              "contractAmount": 6173.05,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 8,
+          "date": "Oct 8",
+          "turnover": 99999.0,
+          "regCommission": 4999.95,
+          "regTxCount": 0,
+          "reconTurnover": 99999.0,
+          "reconCommission": 4999.95,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 4999.95,
+              "contractRate": 5.0,
+              "contractAmount": 4999.95,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 9,
+          "date": "Oct 9",
+          "turnover": 12506.0,
+          "regCommission": 625.3,
+          "regTxCount": 0,
+          "reconTurnover": 12506.0,
+          "reconCommission": 625.3,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 625.3,
+              "contractRate": 5.0,
+              "contractAmount": 625.3,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "sep-2025",
+      "label": "September",
+      "turnover": 3452036.0,
+      "registryAmount": 3452036.0,
+      "regCommission": 172602.35,
+      "regTxCount": 0,
+      "reconTurnover": 3452036.0,
+      "reconCommission": 172602.35,
+      "reconRate": 5.0,
+      "contractRate": 5.0,
+      "contractExpected": 172602.35,
+      "deviation": 0,
+      "parts": [
+        {
+          "label": "Smartflow",
+          "rate": 5.0,
+          "amount": 172602.35,
+          "contractRate": 5.0,
+          "contractAmount": 172602.35,
+          "source": "Reconciliation",
+          "contractSource": "Addendum 1810-24"
+        }
+      ],
+      "days": [
+        {
+          "day": 1,
+          "date": "Sep 1",
+          "turnover": 149347.5,
+          "regCommission": 7467.5,
+          "regTxCount": 0,
+          "reconTurnover": 149347.5,
+          "reconCommission": 7467.5,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 7467.5,
+              "contractRate": 5.0,
+              "contractAmount": 7467.5,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "date": "Sep 2",
+          "turnover": 125179.5,
+          "regCommission": 6259.03,
+          "regTxCount": 0,
+          "reconTurnover": 125179.5,
+          "reconCommission": 6259.03,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 6259.03,
+              "contractRate": 5.0,
+              "contractAmount": 6259.03,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "date": "Sep 3",
+          "turnover": 104191.0,
+          "regCommission": 5209.59,
+          "regTxCount": 0,
+          "reconTurnover": 104191.0,
+          "reconCommission": 5209.59,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 5209.59,
+              "contractRate": 5.0,
+              "contractAmount": 5209.59,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 4,
+          "date": "Sep 4",
+          "turnover": 104129.5,
+          "regCommission": 5206.52,
+          "regTxCount": 0,
+          "reconTurnover": 104129.5,
+          "reconCommission": 5206.52,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 5206.52,
+              "contractRate": 5.0,
+              "contractAmount": 5206.52,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 5,
+          "date": "Sep 5",
+          "turnover": 91288.5,
+          "regCommission": 4564.45,
+          "regTxCount": 0,
+          "reconTurnover": 91288.5,
+          "reconCommission": 4564.45,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 4564.45,
+              "contractRate": 5.0,
+              "contractAmount": 4564.45,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 6,
+          "date": "Sep 6",
+          "turnover": 85301.0,
+          "regCommission": 4265.08,
+          "regTxCount": 0,
+          "reconTurnover": 85301.0,
+          "reconCommission": 4265.08,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 4265.08,
+              "contractRate": 5.0,
+              "contractAmount": 4265.08,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "date": "Sep 7",
+          "turnover": 100174.5,
+          "regCommission": 5008.75,
+          "regTxCount": 0,
+          "reconTurnover": 100174.5,
+          "reconCommission": 5008.75,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 5008.75,
+              "contractRate": 5.0,
+              "contractAmount": 5008.75,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 8,
+          "date": "Sep 8",
+          "turnover": 80344.5,
+          "regCommission": 4017.28,
+          "regTxCount": 0,
+          "reconTurnover": 80344.5,
+          "reconCommission": 4017.28,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 4017.28,
+              "contractRate": 5.0,
+              "contractAmount": 4017.28,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 9,
+          "date": "Sep 9",
+          "turnover": 136303.0,
+          "regCommission": 6815.18,
+          "regTxCount": 0,
+          "reconTurnover": 136303.0,
+          "reconCommission": 6815.18,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 6815.18,
+              "contractRate": 5.0,
+              "contractAmount": 6815.18,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 10,
+          "date": "Sep 10",
+          "turnover": 160162.0,
+          "regCommission": 8008.11,
+          "regTxCount": 0,
+          "reconTurnover": 160162.0,
+          "reconCommission": 8008.11,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 8008.11,
+              "contractRate": 5.0,
+              "contractAmount": 8008.11,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 11,
+          "date": "Sep 11",
+          "turnover": 182854.0,
+          "regCommission": 9142.71,
+          "regTxCount": 0,
+          "reconTurnover": 182854.0,
+          "reconCommission": 9142.71,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 9142.71,
+              "contractRate": 5.0,
+              "contractAmount": 9142.71,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 12,
+          "date": "Sep 12",
+          "turnover": 150650.5,
+          "regCommission": 7532.53,
+          "regTxCount": 0,
+          "reconTurnover": 150650.5,
+          "reconCommission": 7532.53,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 7532.53,
+              "contractRate": 5.0,
+              "contractAmount": 7532.53,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 13,
+          "date": "Sep 13",
+          "turnover": 130537.0,
+          "regCommission": 6526.85,
+          "regTxCount": 0,
+          "reconTurnover": 130537.0,
+          "reconCommission": 6526.85,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 6526.85,
+              "contractRate": 5.0,
+              "contractAmount": 6526.85,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 14,
+          "date": "Sep 14",
+          "turnover": 65417.5,
+          "regCommission": 3270.91,
+          "regTxCount": 0,
+          "reconTurnover": 65417.5,
+          "reconCommission": 3270.91,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 3270.91,
+              "contractRate": 5.0,
+              "contractAmount": 3270.91,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 15,
+          "date": "Sep 15",
+          "turnover": 137924.5,
+          "regCommission": 6896.23,
+          "regTxCount": 0,
+          "reconTurnover": 137924.5,
+          "reconCommission": 6896.23,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 6896.23,
+              "contractRate": 5.0,
+              "contractAmount": 6896.23,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 16,
+          "date": "Sep 16",
+          "turnover": 136854.0,
+          "regCommission": 6842.7,
+          "regTxCount": 0,
+          "reconTurnover": 136854.0,
+          "reconCommission": 6842.7,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 6842.7,
+              "contractRate": 5.0,
+              "contractAmount": 6842.7,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 17,
+          "date": "Sep 17",
+          "turnover": 129694.5,
+          "regCommission": 6484.75,
+          "regTxCount": 0,
+          "reconTurnover": 129694.5,
+          "reconCommission": 6484.75,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 6484.75,
+              "contractRate": 5.0,
+              "contractAmount": 6484.75,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 18,
+          "date": "Sep 18",
+          "turnover": 124776.5,
+          "regCommission": 6238.85,
+          "regTxCount": 0,
+          "reconTurnover": 124776.5,
+          "reconCommission": 6238.85,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 6238.85,
+              "contractRate": 5.0,
+              "contractAmount": 6238.85,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 19,
+          "date": "Sep 19",
+          "turnover": 148608.5,
+          "regCommission": 7430.43,
+          "regTxCount": 0,
+          "reconTurnover": 148608.5,
+          "reconCommission": 7430.43,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 7430.43,
+              "contractRate": 5.0,
+              "contractAmount": 7430.43,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 20,
+          "date": "Sep 20",
+          "turnover": 104018.0,
+          "regCommission": 5200.9,
+          "regTxCount": 0,
+          "reconTurnover": 104018.0,
+          "reconCommission": 5200.9,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 5200.9,
+              "contractRate": 5.0,
+              "contractAmount": 5200.9,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 21,
+          "date": "Sep 21",
+          "turnover": 81559.0,
+          "regCommission": 4077.95,
+          "regTxCount": 0,
+          "reconTurnover": 81559.0,
+          "reconCommission": 4077.95,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 4077.95,
+              "contractRate": 5.0,
+              "contractAmount": 4077.95,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 22,
+          "date": "Sep 22",
+          "turnover": 75745.0,
+          "regCommission": 3787.25,
+          "regTxCount": 0,
+          "reconTurnover": 75745.0,
+          "reconCommission": 3787.25,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 3787.25,
+              "contractRate": 5.0,
+              "contractAmount": 3787.25,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 23,
+          "date": "Sep 23",
+          "turnover": 79548.0,
+          "regCommission": 3977.4,
+          "regTxCount": 0,
+          "reconTurnover": 79548.0,
+          "reconCommission": 3977.4,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 3977.4,
+              "contractRate": 5.0,
+              "contractAmount": 3977.4,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 24,
+          "date": "Sep 24",
+          "turnover": 119601.0,
+          "regCommission": 5980.05,
+          "regTxCount": 0,
+          "reconTurnover": 119601.0,
+          "reconCommission": 5980.05,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 5980.05,
+              "contractRate": 5.0,
+              "contractAmount": 5980.05,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 25,
+          "date": "Sep 25",
+          "turnover": 84573.0,
+          "regCommission": 4228.65,
+          "regTxCount": 0,
+          "reconTurnover": 84573.0,
+          "reconCommission": 4228.65,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 4228.65,
+              "contractRate": 5.0,
+              "contractAmount": 4228.65,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 26,
+          "date": "Sep 26",
+          "turnover": 93847.0,
+          "regCommission": 4692.35,
+          "regTxCount": 0,
+          "reconTurnover": 93847.0,
+          "reconCommission": 4692.35,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 4692.35,
+              "contractRate": 5.0,
+              "contractAmount": 4692.35,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 27,
+          "date": "Sep 27",
+          "turnover": 108351.0,
+          "regCommission": 5417.55,
+          "regTxCount": 0,
+          "reconTurnover": 108351.0,
+          "reconCommission": 5417.55,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 5417.55,
+              "contractRate": 5.0,
+              "contractAmount": 5417.55,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 28,
+          "date": "Sep 28",
+          "turnover": 88976.0,
+          "regCommission": 4448.8,
+          "regTxCount": 0,
+          "reconTurnover": 88976.0,
+          "reconCommission": 4448.8,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 4448.8,
+              "contractRate": 5.0,
+              "contractAmount": 4448.8,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 29,
+          "date": "Sep 29",
+          "turnover": 119737.0,
+          "regCommission": 5986.85,
+          "regTxCount": 0,
+          "reconTurnover": 119737.0,
+          "reconCommission": 5986.85,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 5986.85,
+              "contractRate": 5.0,
+              "contractAmount": 5986.85,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 30,
+          "date": "Sep 30",
+          "turnover": 152343.0,
+          "regCommission": 7617.15,
+          "regTxCount": 0,
+          "reconTurnover": 152343.0,
+          "reconCommission": 7617.15,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 7617.15,
+              "contractRate": 5.0,
+              "contractAmount": 7617.15,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "aug-2025",
+      "label": "August",
+      "turnover": 4809359.73,
+      "registryAmount": 4809359.73,
+      "regCommission": 240468.54,
+      "regTxCount": 0,
+      "reconTurnover": 4809359.73,
+      "reconCommission": 240468.54,
+      "reconRate": 5.0,
+      "contractRate": 5.0,
+      "contractExpected": 240468.54,
+      "deviation": 0,
+      "parts": [
+        {
+          "label": "Smartflow",
+          "rate": 5.0,
+          "amount": 240468.54,
+          "contractRate": 5.0,
+          "contractAmount": 240468.54,
+          "source": "Reconciliation",
+          "contractSource": "Addendum 1810-24"
+        }
+      ],
+      "days": [
+        {
+          "day": 1,
+          "date": "Aug 1",
+          "turnover": 108533.92,
+          "regCommission": 5426.73,
+          "regTxCount": 0,
+          "reconTurnover": 108533.92,
+          "reconCommission": 5426.73,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 5426.73,
+              "contractRate": 5.0,
+              "contractAmount": 5426.73,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "date": "Aug 2",
+          "turnover": 102603.27,
+          "regCommission": 5130.16,
+          "regTxCount": 0,
+          "reconTurnover": 102603.27,
+          "reconCommission": 5130.16,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 5130.16,
+              "contractRate": 5.0,
+              "contractAmount": 5130.16,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "date": "Aug 3",
+          "turnover": 62602.3,
+          "regCommission": 3130.12,
+          "regTxCount": 0,
+          "reconTurnover": 62602.3,
+          "reconCommission": 3130.12,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 3130.12,
+              "contractRate": 5.0,
+              "contractAmount": 3130.12,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 4,
+          "date": "Aug 4",
+          "turnover": 125808.87,
+          "regCommission": 6290.44,
+          "regTxCount": 0,
+          "reconTurnover": 125808.87,
+          "reconCommission": 6290.44,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 6290.44,
+              "contractRate": 5.0,
+              "contractAmount": 6290.44,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 5,
+          "date": "Aug 5",
+          "turnover": 142170.0,
+          "regCommission": 7108.5,
+          "regTxCount": 0,
+          "reconTurnover": 142170.0,
+          "reconCommission": 7108.5,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 7108.5,
+              "contractRate": 5.0,
+              "contractAmount": 7108.5,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 6,
+          "date": "Aug 6",
+          "turnover": 129749.25,
+          "regCommission": 6487.47,
+          "regTxCount": 0,
+          "reconTurnover": 129749.25,
+          "reconCommission": 6487.47,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 6487.47,
+              "contractRate": 5.0,
+              "contractAmount": 6487.47,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "date": "Aug 7",
+          "turnover": 139980.88,
+          "regCommission": 6999.05,
+          "regTxCount": 0,
+          "reconTurnover": 139980.88,
+          "reconCommission": 6999.05,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 6999.05,
+              "contractRate": 5.0,
+              "contractAmount": 6999.05,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 8,
+          "date": "Aug 8",
+          "turnover": 171071.52,
+          "regCommission": 8553.59,
+          "regTxCount": 0,
+          "reconTurnover": 171071.52,
+          "reconCommission": 8553.59,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 8553.59,
+              "contractRate": 5.0,
+              "contractAmount": 8553.59,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 9,
+          "date": "Aug 9",
+          "turnover": 111536.5,
+          "regCommission": 5576.81,
+          "regTxCount": 0,
+          "reconTurnover": 111536.5,
+          "reconCommission": 5576.81,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 5576.81,
+              "contractRate": 5.0,
+              "contractAmount": 5576.81,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 10,
+          "date": "Aug 10",
+          "turnover": 119805.4,
+          "regCommission": 5990.28,
+          "regTxCount": 0,
+          "reconTurnover": 119805.4,
+          "reconCommission": 5990.28,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 5990.28,
+              "contractRate": 5.0,
+              "contractAmount": 5990.28,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 11,
+          "date": "Aug 11",
+          "turnover": 152174.11,
+          "regCommission": 7608.69,
+          "regTxCount": 0,
+          "reconTurnover": 152174.11,
+          "reconCommission": 7608.69,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 7608.69,
+              "contractRate": 5.0,
+              "contractAmount": 7608.69,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 12,
+          "date": "Aug 12",
+          "turnover": 129666.14,
+          "regCommission": 6483.33,
+          "regTxCount": 0,
+          "reconTurnover": 129666.14,
+          "reconCommission": 6483.33,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 6483.33,
+              "contractRate": 5.0,
+              "contractAmount": 6483.33,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 13,
+          "date": "Aug 13",
+          "turnover": 123875.88,
+          "regCommission": 6193.8,
+          "regTxCount": 0,
+          "reconTurnover": 123875.88,
+          "reconCommission": 6193.8,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 6193.8,
+              "contractRate": 5.0,
+              "contractAmount": 6193.8,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 14,
+          "date": "Aug 14",
+          "turnover": 195200.03,
+          "regCommission": 9760.03,
+          "regTxCount": 0,
+          "reconTurnover": 195200.03,
+          "reconCommission": 9760.03,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 9760.03,
+              "contractRate": 5.0,
+              "contractAmount": 9760.03,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 15,
+          "date": "Aug 15",
+          "turnover": 153767.2,
+          "regCommission": 7688.37,
+          "regTxCount": 0,
+          "reconTurnover": 153767.2,
+          "reconCommission": 7688.37,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 7688.37,
+              "contractRate": 5.0,
+              "contractAmount": 7688.37,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 16,
+          "date": "Aug 16",
+          "turnover": 250858.06,
+          "regCommission": 12542.93,
+          "regTxCount": 0,
+          "reconTurnover": 250858.06,
+          "reconCommission": 12542.93,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 12542.93,
+              "contractRate": 5.0,
+              "contractAmount": 12542.93,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 17,
+          "date": "Aug 17",
+          "turnover": 152761.19,
+          "regCommission": 7638.04,
+          "regTxCount": 0,
+          "reconTurnover": 152761.19,
+          "reconCommission": 7638.04,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 7638.04,
+              "contractRate": 5.0,
+              "contractAmount": 7638.04,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 18,
+          "date": "Aug 18",
+          "turnover": 161535.57,
+          "regCommission": 8076.77,
+          "regTxCount": 0,
+          "reconTurnover": 161535.57,
+          "reconCommission": 8076.77,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 8076.77,
+              "contractRate": 5.0,
+              "contractAmount": 8076.77,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 19,
+          "date": "Aug 19",
+          "turnover": 215131.58,
+          "regCommission": 10756.58,
+          "regTxCount": 0,
+          "reconTurnover": 215131.58,
+          "reconCommission": 10756.58,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 10756.58,
+              "contractRate": 5.0,
+              "contractAmount": 10756.58,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 20,
+          "date": "Aug 20",
+          "turnover": 232362.12,
+          "regCommission": 11618.11,
+          "regTxCount": 0,
+          "reconTurnover": 232362.12,
+          "reconCommission": 11618.11,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 11618.11,
+              "contractRate": 5.0,
+              "contractAmount": 11618.11,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 21,
+          "date": "Aug 21",
+          "turnover": 264467.71,
+          "regCommission": 13223.41,
+          "regTxCount": 0,
+          "reconTurnover": 264467.71,
+          "reconCommission": 13223.41,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 13223.41,
+              "contractRate": 5.0,
+              "contractAmount": 13223.41,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 22,
+          "date": "Aug 22",
+          "turnover": 148297.67,
+          "regCommission": 7414.88,
+          "regTxCount": 0,
+          "reconTurnover": 148297.67,
+          "reconCommission": 7414.88,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 7414.88,
+              "contractRate": 5.0,
+              "contractAmount": 7414.88,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 23,
+          "date": "Aug 23",
+          "turnover": 201877.83,
+          "regCommission": 10093.91,
+          "regTxCount": 0,
+          "reconTurnover": 201877.83,
+          "reconCommission": 10093.91,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 10093.91,
+              "contractRate": 5.0,
+              "contractAmount": 10093.91,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 24,
+          "date": "Aug 24",
+          "turnover": 187741.4,
+          "regCommission": 9387.07,
+          "regTxCount": 0,
+          "reconTurnover": 187741.4,
+          "reconCommission": 9387.07,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 9387.07,
+              "contractRate": 5.0,
+              "contractAmount": 9387.07,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 25,
+          "date": "Aug 25",
+          "turnover": 175012.18,
+          "regCommission": 8750.65,
+          "regTxCount": 0,
+          "reconTurnover": 175012.18,
+          "reconCommission": 8750.65,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 8750.65,
+              "contractRate": 5.0,
+              "contractAmount": 8750.65,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 26,
+          "date": "Aug 26",
+          "turnover": 125644.89,
+          "regCommission": 6282.29,
+          "regTxCount": 0,
+          "reconTurnover": 125644.89,
+          "reconCommission": 6282.29,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 6282.29,
+              "contractRate": 5.0,
+              "contractAmount": 6282.29,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 27,
+          "date": "Aug 27",
+          "turnover": 165663.02,
+          "regCommission": 8283.2,
+          "regTxCount": 0,
+          "reconTurnover": 165663.02,
+          "reconCommission": 8283.2,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 8283.2,
+              "contractRate": 5.0,
+              "contractAmount": 8283.2,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 28,
+          "date": "Aug 28",
+          "turnover": 157349.24,
+          "regCommission": 7867.53,
+          "regTxCount": 0,
+          "reconTurnover": 157349.24,
+          "reconCommission": 7867.53,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 7867.53,
+              "contractRate": 5.0,
+              "contractAmount": 7867.53,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 29,
+          "date": "Aug 29",
+          "turnover": 161433.5,
+          "regCommission": 8071.76,
+          "regTxCount": 0,
+          "reconTurnover": 161433.5,
+          "reconCommission": 8071.76,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 8071.76,
+              "contractRate": 5.0,
+              "contractAmount": 8071.76,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 30,
+          "date": "Aug 30",
+          "turnover": 142253.5,
+          "regCommission": 7112.73,
+          "regTxCount": 0,
+          "reconTurnover": 142253.5,
+          "reconCommission": 7112.73,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 7112.73,
+              "contractRate": 5.0,
+              "contractAmount": 7112.73,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 31,
+          "date": "Aug 31",
+          "turnover": 98425.0,
+          "regCommission": 4921.31,
+          "regTxCount": 0,
+          "reconTurnover": 98425.0,
+          "reconCommission": 4921.31,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 4921.31,
+              "contractRate": 5.0,
+              "contractAmount": 4921.31,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "jul-2025",
+      "label": "July",
+      "turnover": 3894961.06,
+      "registryAmount": 3894961.06,
+      "regCommission": 194748.27,
+      "regTxCount": 0,
+      "reconTurnover": 3894961.06,
+      "reconCommission": 194748.27,
+      "reconRate": 5.0,
+      "contractRate": 5.0,
+      "contractExpected": 194748.27,
+      "deviation": 0,
+      "parts": [
+        {
+          "label": "Smartflow",
+          "rate": 5.0,
+          "amount": 194748.27,
+          "contractRate": 5.0,
+          "contractAmount": 194748.27,
+          "source": "Reconciliation",
+          "contractSource": "Addendum 1810-24"
+        }
+      ],
+      "days": [
+        {
+          "day": 1,
+          "date": "Jul 1",
+          "turnover": 194976.67,
+          "regCommission": 9748.82,
+          "regTxCount": 0,
+          "reconTurnover": 194976.67,
+          "reconCommission": 9748.82,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 9748.82,
+              "contractRate": 5.0,
+              "contractAmount": 9748.82,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "date": "Jul 2",
+          "turnover": 170997.32,
+          "regCommission": 8549.85,
+          "regTxCount": 0,
+          "reconTurnover": 170997.32,
+          "reconCommission": 8549.85,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 8549.85,
+              "contractRate": 5.0,
+              "contractAmount": 8549.85,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "date": "Jul 3",
+          "turnover": 166740.42,
+          "regCommission": 8337.01,
+          "regTxCount": 0,
+          "reconTurnover": 166740.42,
+          "reconCommission": 8337.01,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 8337.01,
+              "contractRate": 5.0,
+              "contractAmount": 8337.01,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 4,
+          "date": "Jul 4",
+          "turnover": 216738.25,
+          "regCommission": 10836.92,
+          "regTxCount": 0,
+          "reconTurnover": 216738.25,
+          "reconCommission": 10836.92,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 10836.92,
+              "contractRate": 5.0,
+              "contractAmount": 10836.92,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 5,
+          "date": "Jul 5",
+          "turnover": 266768.26,
+          "regCommission": 13338.45,
+          "regTxCount": 0,
+          "reconTurnover": 266768.26,
+          "reconCommission": 13338.45,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 13338.45,
+              "contractRate": 5.0,
+              "contractAmount": 13338.45,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 6,
+          "date": "Jul 6",
+          "turnover": 148057.94,
+          "regCommission": 7402.89,
+          "regTxCount": 0,
+          "reconTurnover": 148057.94,
+          "reconCommission": 7402.89,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 7402.89,
+              "contractRate": 5.0,
+              "contractAmount": 7402.89,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "date": "Jul 7",
+          "turnover": 159610.98,
+          "regCommission": 7980.57,
+          "regTxCount": 0,
+          "reconTurnover": 159610.98,
+          "reconCommission": 7980.57,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 7980.57,
+              "contractRate": 5.0,
+              "contractAmount": 7980.57,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 8,
+          "date": "Jul 8",
+          "turnover": 158040.38,
+          "regCommission": 7902.02,
+          "regTxCount": 0,
+          "reconTurnover": 158040.38,
+          "reconCommission": 7902.02,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 7902.02,
+              "contractRate": 5.0,
+              "contractAmount": 7902.02,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 9,
+          "date": "Jul 9",
+          "turnover": 151261.82,
+          "regCommission": 7563.09,
+          "regTxCount": 0,
+          "reconTurnover": 151261.82,
+          "reconCommission": 7563.09,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 7563.09,
+              "contractRate": 5.0,
+              "contractAmount": 7563.09,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 10,
+          "date": "Jul 10",
+          "turnover": 252823.53,
+          "regCommission": 12641.17,
+          "regTxCount": 0,
+          "reconTurnover": 252823.53,
+          "reconCommission": 12641.17,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 12641.17,
+              "contractRate": 5.0,
+              "contractAmount": 12641.17,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 11,
+          "date": "Jul 11",
+          "turnover": 199105.81,
+          "regCommission": 9955.3,
+          "regTxCount": 0,
+          "reconTurnover": 199105.81,
+          "reconCommission": 9955.3,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 9955.3,
+              "contractRate": 5.0,
+              "contractAmount": 9955.3,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 12,
+          "date": "Jul 12",
+          "turnover": 178159.31,
+          "regCommission": 8907.98,
+          "regTxCount": 0,
+          "reconTurnover": 178159.31,
+          "reconCommission": 8907.98,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 8907.98,
+              "contractRate": 5.0,
+              "contractAmount": 8907.98,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 13,
+          "date": "Jul 13",
+          "turnover": 175175.7,
+          "regCommission": 8758.8,
+          "regTxCount": 0,
+          "reconTurnover": 175175.7,
+          "reconCommission": 8758.8,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 8758.8,
+              "contractRate": 5.0,
+              "contractAmount": 8758.8,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 14,
+          "date": "Jul 14",
+          "turnover": 178996.05,
+          "regCommission": 8949.8,
+          "regTxCount": 0,
+          "reconTurnover": 178996.05,
+          "reconCommission": 8949.8,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 8949.8,
+              "contractRate": 5.0,
+              "contractAmount": 8949.8,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 15,
+          "date": "Jul 15",
+          "turnover": 135614.54,
+          "regCommission": 6780.72,
+          "regTxCount": 0,
+          "reconTurnover": 135614.54,
+          "reconCommission": 6780.72,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 6780.72,
+              "contractRate": 5.0,
+              "contractAmount": 6780.72,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 16,
+          "date": "Jul 16",
+          "turnover": 107442.68,
+          "regCommission": 5372.13,
+          "regTxCount": 0,
+          "reconTurnover": 107442.68,
+          "reconCommission": 5372.13,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 5372.13,
+              "contractRate": 5.0,
+              "contractAmount": 5372.13,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 17,
+          "date": "Jul 17",
+          "turnover": 105681.25,
+          "regCommission": 5284.07,
+          "regTxCount": 0,
+          "reconTurnover": 105681.25,
+          "reconCommission": 5284.07,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 5284.07,
+              "contractRate": 5.0,
+              "contractAmount": 5284.07,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 18,
+          "date": "Jul 18",
+          "turnover": 106885.74,
+          "regCommission": 5344.29,
+          "regTxCount": 0,
+          "reconTurnover": 106885.74,
+          "reconCommission": 5344.29,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 5344.29,
+              "contractRate": 5.0,
+              "contractAmount": 5344.29,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 19,
+          "date": "Jul 19",
+          "turnover": 73841.8,
+          "regCommission": 3692.11,
+          "regTxCount": 0,
+          "reconTurnover": 73841.8,
+          "reconCommission": 3692.11,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 3692.11,
+              "contractRate": 5.0,
+              "contractAmount": 3692.11,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 20,
+          "date": "Jul 20",
+          "turnover": 58830.86,
+          "regCommission": 2941.54,
+          "regTxCount": 0,
+          "reconTurnover": 58830.86,
+          "reconCommission": 2941.54,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 2941.54,
+              "contractRate": 5.0,
+              "contractAmount": 2941.54,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 21,
+          "date": "Jul 21",
+          "turnover": 57957.22,
+          "regCommission": 2897.9,
+          "regTxCount": 0,
+          "reconTurnover": 57957.22,
+          "reconCommission": 2897.9,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 2897.9,
+              "contractRate": 5.0,
+              "contractAmount": 2897.9,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 22,
+          "date": "Jul 22",
+          "turnover": 61616.35,
+          "regCommission": 3080.83,
+          "regTxCount": 0,
+          "reconTurnover": 61616.35,
+          "reconCommission": 3080.83,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 3080.83,
+              "contractRate": 5.0,
+              "contractAmount": 3080.83,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 23,
+          "date": "Jul 23",
+          "turnover": 88521.7,
+          "regCommission": 4426.12,
+          "regTxCount": 0,
+          "reconTurnover": 88521.7,
+          "reconCommission": 4426.12,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 4426.12,
+              "contractRate": 5.0,
+              "contractAmount": 4426.12,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 24,
+          "date": "Jul 24",
+          "turnover": 52341.57,
+          "regCommission": 2617.08,
+          "regTxCount": 0,
+          "reconTurnover": 52341.57,
+          "reconCommission": 2617.08,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 2617.08,
+              "contractRate": 5.0,
+              "contractAmount": 2617.08,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 25,
+          "date": "Jul 25",
+          "turnover": 28594.81,
+          "regCommission": 1429.74,
+          "regTxCount": 0,
+          "reconTurnover": 28594.81,
+          "reconCommission": 1429.74,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 1429.74,
+              "contractRate": 5.0,
+              "contractAmount": 1429.74,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 26,
+          "date": "Jul 26",
+          "turnover": 45713.91,
+          "regCommission": 2285.71,
+          "regTxCount": 0,
+          "reconTurnover": 45713.91,
+          "reconCommission": 2285.71,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 2285.71,
+              "contractRate": 5.0,
+              "contractAmount": 2285.71,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 27,
+          "date": "Jul 27",
+          "turnover": 52851.61,
+          "regCommission": 2642.6,
+          "regTxCount": 0,
+          "reconTurnover": 52851.61,
+          "reconCommission": 2642.6,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 2642.6,
+              "contractRate": 5.0,
+              "contractAmount": 2642.6,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 28,
+          "date": "Jul 28",
+          "turnover": 38686.23,
+          "regCommission": 1934.29,
+          "regTxCount": 0,
+          "reconTurnover": 38686.23,
+          "reconCommission": 1934.29,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 1934.29,
+              "contractRate": 5.0,
+              "contractAmount": 1934.29,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 29,
+          "date": "Jul 29",
+          "turnover": 57159.36,
+          "regCommission": 2857.98,
+          "regTxCount": 0,
+          "reconTurnover": 57159.36,
+          "reconCommission": 2857.98,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 2857.98,
+              "contractRate": 5.0,
+              "contractAmount": 2857.98,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 30,
+          "date": "Jul 30",
+          "turnover": 99354.98,
+          "regCommission": 4967.75,
+          "regTxCount": 0,
+          "reconTurnover": 99354.98,
+          "reconCommission": 4967.75,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 4967.75,
+              "contractRate": 5.0,
+              "contractAmount": 4967.75,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 31,
+          "date": "Jul 31",
+          "turnover": 106414.01,
+          "regCommission": 5320.74,
+          "regTxCount": 0,
+          "reconTurnover": 106414.01,
+          "reconCommission": 5320.74,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 5320.74,
+              "contractRate": 5.0,
+              "contractAmount": 5320.74,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "jun-2025",
+      "label": "June",
+      "turnover": 3832356.53,
+      "registryAmount": 3832356.53,
+      "regCommission": 191618.22,
+      "regTxCount": 0,
+      "reconTurnover": 3832356.53,
+      "reconCommission": 191618.22,
+      "reconRate": 5.0,
+      "contractRate": 5.0,
+      "contractExpected": 191618.22,
+      "deviation": 0,
+      "parts": [
+        {
+          "label": "Smartflow",
+          "rate": 5.0,
+          "amount": 191618.22,
+          "contractRate": 5.0,
+          "contractAmount": 191618.22,
+          "source": "Reconciliation",
+          "contractSource": "Addendum 1810-24"
+        }
+      ],
+      "days": [
+        {
+          "day": 1,
+          "date": "Jun 1",
+          "turnover": 81176.54,
+          "regCommission": 4058.83,
+          "regTxCount": 0,
+          "reconTurnover": 81176.54,
+          "reconCommission": 4058.83,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 4058.83,
+              "contractRate": 5.0,
+              "contractAmount": 4058.83,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "date": "Jun 2",
+          "turnover": 109743.94,
+          "regCommission": 5487.2,
+          "regTxCount": 0,
+          "reconTurnover": 109743.94,
+          "reconCommission": 5487.2,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 5487.2,
+              "contractRate": 5.0,
+              "contractAmount": 5487.2,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "date": "Jun 3",
+          "turnover": 84024.0,
+          "regCommission": 4201.2,
+          "regTxCount": 0,
+          "reconTurnover": 84024.0,
+          "reconCommission": 4201.2,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 4201.2,
+              "contractRate": 5.0,
+              "contractAmount": 4201.2,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 4,
+          "date": "Jun 4",
+          "turnover": 79683.67,
+          "regCommission": 3984.19,
+          "regTxCount": 0,
+          "reconTurnover": 79683.67,
+          "reconCommission": 3984.19,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 3984.19,
+              "contractRate": 5.0,
+              "contractAmount": 3984.19,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 5,
+          "date": "Jun 5",
+          "turnover": 98942.61,
+          "regCommission": 4947.13,
+          "regTxCount": 0,
+          "reconTurnover": 98942.61,
+          "reconCommission": 4947.13,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 4947.13,
+              "contractRate": 5.0,
+              "contractAmount": 4947.13,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 6,
+          "date": "Jun 6",
+          "turnover": 113736.76,
+          "regCommission": 5686.84,
+          "regTxCount": 0,
+          "reconTurnover": 113736.76,
+          "reconCommission": 5686.84,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 5686.84,
+              "contractRate": 5.0,
+              "contractAmount": 5686.84,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "date": "Jun 7",
+          "turnover": 92319.33,
+          "regCommission": 4615.96,
+          "regTxCount": 0,
+          "reconTurnover": 92319.33,
+          "reconCommission": 4615.96,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 4615.96,
+              "contractRate": 5.0,
+              "contractAmount": 4615.96,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 8,
+          "date": "Jun 8",
+          "turnover": 78409.97,
+          "regCommission": 3920.49,
+          "regTxCount": 0,
+          "reconTurnover": 78409.97,
+          "reconCommission": 3920.49,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 3920.49,
+              "contractRate": 5.0,
+              "contractAmount": 3920.49,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 9,
+          "date": "Jun 9",
+          "turnover": 99170.42,
+          "regCommission": 4958.52,
+          "regTxCount": 0,
+          "reconTurnover": 99170.42,
+          "reconCommission": 4958.52,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 4958.52,
+              "contractRate": 5.0,
+              "contractAmount": 4958.52,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 10,
+          "date": "Jun 10",
+          "turnover": 67755.1,
+          "regCommission": 3387.76,
+          "regTxCount": 0,
+          "reconTurnover": 67755.1,
+          "reconCommission": 3387.76,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 3387.76,
+              "contractRate": 5.0,
+              "contractAmount": 3387.76,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 11,
+          "date": "Jun 11",
+          "turnover": 84035.24,
+          "regCommission": 4201.77,
+          "regTxCount": 0,
+          "reconTurnover": 84035.24,
+          "reconCommission": 4201.77,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 4201.77,
+              "contractRate": 5.0,
+              "contractAmount": 4201.77,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 12,
+          "date": "Jun 12",
+          "turnover": 119985.26,
+          "regCommission": 5999.26,
+          "regTxCount": 0,
+          "reconTurnover": 119985.26,
+          "reconCommission": 5999.26,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 5999.26,
+              "contractRate": 5.0,
+              "contractAmount": 5999.26,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 13,
+          "date": "Jun 13",
+          "turnover": 143624.39,
+          "regCommission": 7181.23,
+          "regTxCount": 0,
+          "reconTurnover": 143624.39,
+          "reconCommission": 7181.23,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 7181.23,
+              "contractRate": 5.0,
+              "contractAmount": 7181.23,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 14,
+          "date": "Jun 14",
+          "turnover": 86490.53,
+          "regCommission": 4324.54,
+          "regTxCount": 0,
+          "reconTurnover": 86490.53,
+          "reconCommission": 4324.54,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 4324.54,
+              "contractRate": 5.0,
+              "contractAmount": 4324.54,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 15,
+          "date": "Jun 15",
+          "turnover": 99230.82,
+          "regCommission": 4961.56,
+          "regTxCount": 0,
+          "reconTurnover": 99230.82,
+          "reconCommission": 4961.56,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 4961.56,
+              "contractRate": 5.0,
+              "contractAmount": 4961.56,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 16,
+          "date": "Jun 16",
+          "turnover": 108816.92,
+          "regCommission": 5440.89,
+          "regTxCount": 0,
+          "reconTurnover": 108816.92,
+          "reconCommission": 5440.89,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 5440.89,
+              "contractRate": 5.0,
+              "contractAmount": 5440.89,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 17,
+          "date": "Jun 17",
+          "turnover": 170710.64,
+          "regCommission": 8535.57,
+          "regTxCount": 0,
+          "reconTurnover": 170710.64,
+          "reconCommission": 8535.57,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 8535.57,
+              "contractRate": 5.0,
+              "contractAmount": 8535.57,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 18,
+          "date": "Jun 18",
+          "turnover": 128627.71,
+          "regCommission": 6431.42,
+          "regTxCount": 0,
+          "reconTurnover": 128627.71,
+          "reconCommission": 6431.42,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 6431.42,
+              "contractRate": 5.0,
+              "contractAmount": 6431.42,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 19,
+          "date": "Jun 19",
+          "turnover": 146247.45,
+          "regCommission": 7312.37,
+          "regTxCount": 0,
+          "reconTurnover": 146247.45,
+          "reconCommission": 7312.37,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 7312.37,
+              "contractRate": 5.0,
+              "contractAmount": 7312.37,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 20,
+          "date": "Jun 20",
+          "turnover": 169350.23,
+          "regCommission": 8467.53,
+          "regTxCount": 0,
+          "reconTurnover": 169350.23,
+          "reconCommission": 8467.53,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 8467.53,
+              "contractRate": 5.0,
+              "contractAmount": 8467.53,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 21,
+          "date": "Jun 21",
+          "turnover": 169612.56,
+          "regCommission": 8480.63,
+          "regTxCount": 0,
+          "reconTurnover": 169612.56,
+          "reconCommission": 8480.63,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 8480.63,
+              "contractRate": 5.0,
+              "contractAmount": 8480.63,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 22,
+          "date": "Jun 22",
+          "turnover": 119648.55,
+          "regCommission": 5982.4,
+          "regTxCount": 0,
+          "reconTurnover": 119648.55,
+          "reconCommission": 5982.4,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 5982.4,
+              "contractRate": 5.0,
+              "contractAmount": 5982.4,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 23,
+          "date": "Jun 23",
+          "turnover": 143186.36,
+          "regCommission": 7159.4,
+          "regTxCount": 0,
+          "reconTurnover": 143186.36,
+          "reconCommission": 7159.4,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 7159.4,
+              "contractRate": 5.0,
+              "contractAmount": 7159.4,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 24,
+          "date": "Jun 24",
+          "turnover": 153606.28,
+          "regCommission": 7680.37,
+          "regTxCount": 0,
+          "reconTurnover": 153606.28,
+          "reconCommission": 7680.37,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 7680.37,
+              "contractRate": 5.0,
+              "contractAmount": 7680.37,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 25,
+          "date": "Jun 25",
+          "turnover": 159864.93,
+          "regCommission": 7993.27,
+          "regTxCount": 0,
+          "reconTurnover": 159864.93,
+          "reconCommission": 7993.27,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 7993.27,
+              "contractRate": 5.0,
+              "contractAmount": 7993.27,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 26,
+          "date": "Jun 26",
+          "turnover": 157953.6,
+          "regCommission": 7897.67,
+          "regTxCount": 0,
+          "reconTurnover": 157953.6,
+          "reconCommission": 7897.67,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 7897.67,
+              "contractRate": 5.0,
+              "contractAmount": 7897.67,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 27,
+          "date": "Jun 27",
+          "turnover": 194658.43,
+          "regCommission": 9732.95,
+          "regTxCount": 0,
+          "reconTurnover": 194658.43,
+          "reconCommission": 9732.95,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 9732.95,
+              "contractRate": 5.0,
+              "contractAmount": 9732.95,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 28,
+          "date": "Jun 28",
+          "turnover": 200646.03,
+          "regCommission": 10032.34,
+          "regTxCount": 0,
+          "reconTurnover": 200646.03,
+          "reconCommission": 10032.34,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 10032.34,
+              "contractRate": 5.0,
+              "contractAmount": 10032.34,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 29,
+          "date": "Jun 29",
+          "turnover": 143323.69,
+          "regCommission": 7166.21,
+          "regTxCount": 0,
+          "reconTurnover": 143323.69,
+          "reconCommission": 7166.21,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 7166.21,
+              "contractRate": 5.0,
+              "contractAmount": 7166.21,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 30,
+          "date": "Jun 30",
+          "turnover": 227774.57,
+          "regCommission": 11388.72,
+          "regTxCount": 0,
+          "reconTurnover": 227774.57,
+          "reconCommission": 11388.72,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 11388.72,
+              "contractRate": 5.0,
+              "contractAmount": 11388.72,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "may-2025",
+      "label": "May",
+      "turnover": 3331549.64,
+      "registryAmount": 3331549.64,
+      "regCommission": 166577.53,
+      "regTxCount": 0,
+      "reconTurnover": 3331549.64,
+      "reconCommission": 166577.53,
+      "reconRate": 5.0,
+      "contractRate": 5.0,
+      "contractExpected": 166577.53,
+      "deviation": 0,
+      "parts": [
+        {
+          "label": "Smartflow",
+          "rate": 5.0,
+          "amount": 166577.53,
+          "contractRate": 5.0,
+          "contractAmount": 166577.53,
+          "source": "Reconciliation",
+          "contractSource": "Addendum 1810-24"
+        }
+      ],
+      "days": [
+        {
+          "day": 1,
+          "date": "May 1",
+          "turnover": 208709.96,
+          "regCommission": 10435.5,
+          "regTxCount": 0,
+          "reconTurnover": 208709.96,
+          "reconCommission": 10435.5,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 10435.5,
+              "contractRate": 5.0,
+              "contractAmount": 10435.5,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "date": "May 2",
+          "turnover": 158098.03,
+          "regCommission": 7904.9,
+          "regTxCount": 0,
+          "reconTurnover": 158098.03,
+          "reconCommission": 7904.9,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 7904.9,
+              "contractRate": 5.0,
+              "contractAmount": 7904.9,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "date": "May 3",
+          "turnover": 112014.0,
+          "regCommission": 5600.7,
+          "regTxCount": 0,
+          "reconTurnover": 112014.0,
+          "reconCommission": 5600.7,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 5600.7,
+              "contractRate": 5.0,
+              "contractAmount": 5600.7,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 4,
+          "date": "May 4",
+          "turnover": 96328.0,
+          "regCommission": 4816.4,
+          "regTxCount": 0,
+          "reconTurnover": 96328.0,
+          "reconCommission": 4816.4,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 4816.4,
+              "contractRate": 5.0,
+              "contractAmount": 4816.4,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 5,
+          "date": "May 5",
+          "turnover": 103037.0,
+          "regCommission": 5151.85,
+          "regTxCount": 0,
+          "reconTurnover": 103037.0,
+          "reconCommission": 5151.85,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 5151.85,
+              "contractRate": 5.0,
+              "contractAmount": 5151.85,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 6,
+          "date": "May 6",
+          "turnover": 109097.0,
+          "regCommission": 5454.85,
+          "regTxCount": 0,
+          "reconTurnover": 109097.0,
+          "reconCommission": 5454.85,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 5454.85,
+              "contractRate": 5.0,
+              "contractAmount": 5454.85,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "date": "May 7",
+          "turnover": 104643.4,
+          "regCommission": 5232.17,
+          "regTxCount": 0,
+          "reconTurnover": 104643.4,
+          "reconCommission": 5232.17,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 5232.17,
+              "contractRate": 5.0,
+              "contractAmount": 5232.17,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 8,
+          "date": "May 8",
+          "turnover": 152217.59,
+          "regCommission": 7610.91,
+          "regTxCount": 0,
+          "reconTurnover": 152217.59,
+          "reconCommission": 7610.91,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 7610.91,
+              "contractRate": 5.0,
+              "contractAmount": 7610.91,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 9,
+          "date": "May 9",
+          "turnover": 167930.34,
+          "regCommission": 8396.56,
+          "regTxCount": 0,
+          "reconTurnover": 167930.34,
+          "reconCommission": 8396.56,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 8396.56,
+              "contractRate": 5.0,
+              "contractAmount": 8396.56,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 10,
+          "date": "May 10",
+          "turnover": 118494.0,
+          "regCommission": 5924.7,
+          "regTxCount": 0,
+          "reconTurnover": 118494.0,
+          "reconCommission": 5924.7,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 5924.7,
+              "contractRate": 5.0,
+              "contractAmount": 5924.7,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 11,
+          "date": "May 11",
+          "turnover": 85392.0,
+          "regCommission": 4269.6,
+          "regTxCount": 0,
+          "reconTurnover": 85392.0,
+          "reconCommission": 4269.6,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 4269.6,
+              "contractRate": 5.0,
+              "contractAmount": 4269.6,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 12,
+          "date": "May 12",
+          "turnover": 96058.0,
+          "regCommission": 4802.9,
+          "regTxCount": 0,
+          "reconTurnover": 96058.0,
+          "reconCommission": 4802.9,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 4802.9,
+              "contractRate": 5.0,
+              "contractAmount": 4802.9,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 13,
+          "date": "May 13",
+          "turnover": 97716.15,
+          "regCommission": 4885.81,
+          "regTxCount": 0,
+          "reconTurnover": 97716.15,
+          "reconCommission": 4885.81,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 4885.81,
+              "contractRate": 5.0,
+              "contractAmount": 4885.81,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 14,
+          "date": "May 14",
+          "turnover": 133235.13,
+          "regCommission": 6661.75,
+          "regTxCount": 0,
+          "reconTurnover": 133235.13,
+          "reconCommission": 6661.75,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 6661.75,
+              "contractRate": 5.0,
+              "contractAmount": 6661.75,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 15,
+          "date": "May 15",
+          "turnover": 149000.96,
+          "regCommission": 7450.04,
+          "regTxCount": 0,
+          "reconTurnover": 149000.96,
+          "reconCommission": 7450.04,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 7450.04,
+              "contractRate": 5.0,
+              "contractAmount": 7450.04,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 16,
+          "date": "May 16",
+          "turnover": 104319.81,
+          "regCommission": 5216.0,
+          "regTxCount": 0,
+          "reconTurnover": 104319.81,
+          "reconCommission": 5216.0,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 5216.0,
+              "contractRate": 5.0,
+              "contractAmount": 5216.0,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 17,
+          "date": "May 17",
+          "turnover": 119248.66,
+          "regCommission": 5962.42,
+          "regTxCount": 0,
+          "reconTurnover": 119248.66,
+          "reconCommission": 5962.42,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 5962.42,
+              "contractRate": 5.0,
+              "contractAmount": 5962.42,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 18,
+          "date": "May 18",
+          "turnover": 100007.93,
+          "regCommission": 5000.38,
+          "regTxCount": 0,
+          "reconTurnover": 100007.93,
+          "reconCommission": 5000.38,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 5000.38,
+              "contractRate": 5.0,
+              "contractAmount": 5000.38,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 19,
+          "date": "May 19",
+          "turnover": 100771.04,
+          "regCommission": 5038.55,
+          "regTxCount": 0,
+          "reconTurnover": 100771.04,
+          "reconCommission": 5038.55,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 5038.55,
+              "contractRate": 5.0,
+              "contractAmount": 5038.55,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 20,
+          "date": "May 20",
+          "turnover": 66571.56,
+          "regCommission": 3328.58,
+          "regTxCount": 0,
+          "reconTurnover": 66571.56,
+          "reconCommission": 3328.58,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 3328.58,
+              "contractRate": 5.0,
+              "contractAmount": 3328.58,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 21,
+          "date": "May 21",
+          "turnover": 78808.06,
+          "regCommission": 3940.41,
+          "regTxCount": 0,
+          "reconTurnover": 78808.06,
+          "reconCommission": 3940.41,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 3940.41,
+              "contractRate": 5.0,
+              "contractAmount": 3940.41,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 22,
+          "date": "May 22",
+          "turnover": 72639.46,
+          "regCommission": 3631.98,
+          "regTxCount": 0,
+          "reconTurnover": 72639.46,
+          "reconCommission": 3631.98,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 3631.98,
+              "contractRate": 5.0,
+              "contractAmount": 3631.98,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 23,
+          "date": "May 23",
+          "turnover": 111001.39,
+          "regCommission": 5550.07,
+          "regTxCount": 0,
+          "reconTurnover": 111001.39,
+          "reconCommission": 5550.07,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 5550.07,
+              "contractRate": 5.0,
+              "contractAmount": 5550.07,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 24,
+          "date": "May 24",
+          "turnover": 55609.15,
+          "regCommission": 2780.45,
+          "regTxCount": 0,
+          "reconTurnover": 55609.15,
+          "reconCommission": 2780.45,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 2780.45,
+              "contractRate": 5.0,
+              "contractAmount": 2780.45,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 25,
+          "date": "May 25",
+          "turnover": 55378.52,
+          "regCommission": 2768.92,
+          "regTxCount": 0,
+          "reconTurnover": 55378.52,
+          "reconCommission": 2768.92,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 2768.92,
+              "contractRate": 5.0,
+              "contractAmount": 2768.92,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 26,
+          "date": "May 26",
+          "turnover": 103058.46,
+          "regCommission": 5152.92,
+          "regTxCount": 0,
+          "reconTurnover": 103058.46,
+          "reconCommission": 5152.92,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 5152.92,
+              "contractRate": 5.0,
+              "contractAmount": 5152.92,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 27,
+          "date": "May 27",
+          "turnover": 66830.13,
+          "regCommission": 3341.51,
+          "regTxCount": 0,
+          "reconTurnover": 66830.13,
+          "reconCommission": 3341.51,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 3341.51,
+              "contractRate": 5.0,
+              "contractAmount": 3341.51,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 28,
+          "date": "May 28",
+          "turnover": 57594.4,
+          "regCommission": 2879.73,
+          "regTxCount": 0,
+          "reconTurnover": 57594.4,
+          "reconCommission": 2879.73,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 2879.73,
+              "contractRate": 5.0,
+              "contractAmount": 2879.73,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 29,
+          "date": "May 29",
+          "turnover": 118087.83,
+          "regCommission": 5904.39,
+          "regTxCount": 0,
+          "reconTurnover": 118087.83,
+          "reconCommission": 5904.39,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 5904.39,
+              "contractRate": 5.0,
+              "contractAmount": 5904.39,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 30,
+          "date": "May 30",
+          "turnover": 151345.66,
+          "regCommission": 7567.28,
+          "regTxCount": 0,
+          "reconTurnover": 151345.66,
+          "reconCommission": 7567.28,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 7567.28,
+              "contractRate": 5.0,
+              "contractAmount": 7567.28,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 31,
+          "date": "May 31",
+          "turnover": 78306.02,
+          "regCommission": 3915.3,
+          "regTxCount": 0,
+          "reconTurnover": 78306.02,
+          "reconCommission": 3915.3,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 3915.3,
+              "contractRate": 5.0,
+              "contractAmount": 3915.3,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "apr-2025",
+      "label": "April",
+      "turnover": 4106310.69,
+      "registryAmount": 4106310.69,
+      "regCommission": 205315.68,
+      "regTxCount": 0,
+      "reconTurnover": 4106310.69,
+      "reconCommission": 205315.68,
+      "reconRate": 5.0,
+      "contractRate": 5.0,
+      "contractExpected": 205315.68,
+      "deviation": 0,
+      "parts": [
+        {
+          "label": "Smartflow",
+          "rate": 5.0,
+          "amount": 205315.68,
+          "contractRate": 5.0,
+          "contractAmount": 205315.68,
+          "source": "Reconciliation",
+          "contractSource": "Addendum 1810-24"
+        }
+      ],
+      "days": [
+        {
+          "day": 1,
+          "date": "Apr 1",
+          "turnover": 128655.6,
+          "regCommission": 6432.78,
+          "regTxCount": 0,
+          "reconTurnover": 128655.6,
+          "reconCommission": 6432.78,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 6432.78,
+              "contractRate": 5.0,
+              "contractAmount": 6432.78,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "date": "Apr 2",
+          "turnover": 162070.57,
+          "regCommission": 8103.54,
+          "regTxCount": 0,
+          "reconTurnover": 162070.57,
+          "reconCommission": 8103.54,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 8103.54,
+              "contractRate": 5.0,
+              "contractAmount": 8103.54,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "date": "Apr 3",
+          "turnover": 156893.8,
+          "regCommission": 7844.7,
+          "regTxCount": 0,
+          "reconTurnover": 156893.8,
+          "reconCommission": 7844.7,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 7844.7,
+              "contractRate": 5.0,
+              "contractAmount": 7844.7,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 4,
+          "date": "Apr 4",
+          "turnover": 158062.2,
+          "regCommission": 7903.11,
+          "regTxCount": 0,
+          "reconTurnover": 158062.2,
+          "reconCommission": 7903.11,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 7903.11,
+              "contractRate": 5.0,
+              "contractAmount": 7903.11,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 5,
+          "date": "Apr 5",
+          "turnover": 110523.67,
+          "regCommission": 5526.15,
+          "regTxCount": 0,
+          "reconTurnover": 110523.67,
+          "reconCommission": 5526.15,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 5526.15,
+              "contractRate": 5.0,
+              "contractAmount": 5526.15,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 6,
+          "date": "Apr 6",
+          "turnover": 91173.49,
+          "regCommission": 4558.68,
+          "regTxCount": 0,
+          "reconTurnover": 91173.49,
+          "reconCommission": 4558.68,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 4558.68,
+              "contractRate": 5.0,
+              "contractAmount": 4558.68,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "date": "Apr 7",
+          "turnover": 74995.31,
+          "regCommission": 3749.77,
+          "regTxCount": 0,
+          "reconTurnover": 74995.31,
+          "reconCommission": 3749.77,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 3749.77,
+              "contractRate": 5.0,
+              "contractAmount": 3749.77,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 8,
+          "date": "Apr 8",
+          "turnover": 109531.54,
+          "regCommission": 5476.61,
+          "regTxCount": 0,
+          "reconTurnover": 109531.54,
+          "reconCommission": 5476.61,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 5476.61,
+              "contractRate": 5.0,
+              "contractAmount": 5476.61,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 9,
+          "date": "Apr 9",
+          "turnover": 133209.25,
+          "regCommission": 6660.48,
+          "regTxCount": 0,
+          "reconTurnover": 133209.25,
+          "reconCommission": 6660.48,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 6660.48,
+              "contractRate": 5.0,
+              "contractAmount": 6660.48,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 10,
+          "date": "Apr 10",
+          "turnover": 119247.88,
+          "regCommission": 5962.4,
+          "regTxCount": 0,
+          "reconTurnover": 119247.88,
+          "reconCommission": 5962.4,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 5962.4,
+              "contractRate": 5.0,
+              "contractAmount": 5962.4,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 11,
+          "date": "Apr 11",
+          "turnover": 135279.64,
+          "regCommission": 6764.01,
+          "regTxCount": 0,
+          "reconTurnover": 135279.64,
+          "reconCommission": 6764.01,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 6764.01,
+              "contractRate": 5.0,
+              "contractAmount": 6764.01,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 12,
+          "date": "Apr 12",
+          "turnover": 121598.6,
+          "regCommission": 6079.94,
+          "regTxCount": 0,
+          "reconTurnover": 121598.6,
+          "reconCommission": 6079.94,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 6079.94,
+              "contractRate": 5.0,
+              "contractAmount": 6079.94,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 13,
+          "date": "Apr 13",
+          "turnover": 112248.35,
+          "regCommission": 5612.43,
+          "regTxCount": 0,
+          "reconTurnover": 112248.35,
+          "reconCommission": 5612.43,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 5612.43,
+              "contractRate": 5.0,
+              "contractAmount": 5612.43,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 14,
+          "date": "Apr 14",
+          "turnover": 153621.19,
+          "regCommission": 7681.05,
+          "regTxCount": 0,
+          "reconTurnover": 153621.19,
+          "reconCommission": 7681.05,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 7681.05,
+              "contractRate": 5.0,
+              "contractAmount": 7681.05,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 15,
+          "date": "Apr 15",
+          "turnover": 182947.91,
+          "regCommission": 9147.4,
+          "regTxCount": 0,
+          "reconTurnover": 182947.91,
+          "reconCommission": 9147.4,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 9147.4,
+              "contractRate": 5.0,
+              "contractAmount": 9147.4,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 16,
+          "date": "Apr 16",
+          "turnover": 156026.74,
+          "regCommission": 7801.35,
+          "regTxCount": 0,
+          "reconTurnover": 156026.74,
+          "reconCommission": 7801.35,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 7801.35,
+              "contractRate": 5.0,
+              "contractAmount": 7801.35,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 17,
+          "date": "Apr 17",
+          "turnover": 129717.92,
+          "regCommission": 6485.92,
+          "regTxCount": 0,
+          "reconTurnover": 129717.92,
+          "reconCommission": 6485.92,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 6485.92,
+              "contractRate": 5.0,
+              "contractAmount": 6485.92,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 18,
+          "date": "Apr 18",
+          "turnover": 130339.45,
+          "regCommission": 6516.99,
+          "regTxCount": 0,
+          "reconTurnover": 130339.45,
+          "reconCommission": 6516.99,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 6516.99,
+              "contractRate": 5.0,
+              "contractAmount": 6516.99,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 19,
+          "date": "Apr 19",
+          "turnover": 138148.66,
+          "regCommission": 6907.46,
+          "regTxCount": 0,
+          "reconTurnover": 138148.66,
+          "reconCommission": 6907.46,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 6907.46,
+              "contractRate": 5.0,
+              "contractAmount": 6907.46,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 20,
+          "date": "Apr 20",
+          "turnover": 97812.79,
+          "regCommission": 4890.64,
+          "regTxCount": 0,
+          "reconTurnover": 97812.79,
+          "reconCommission": 4890.64,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 4890.64,
+              "contractRate": 5.0,
+              "contractAmount": 4890.64,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 21,
+          "date": "Apr 21",
+          "turnover": 108415.89,
+          "regCommission": 5420.78,
+          "regTxCount": 0,
+          "reconTurnover": 108415.89,
+          "reconCommission": 5420.78,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 5420.78,
+              "contractRate": 5.0,
+              "contractAmount": 5420.78,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 22,
+          "date": "Apr 22",
+          "turnover": 150940.41,
+          "regCommission": 7547.02,
+          "regTxCount": 0,
+          "reconTurnover": 150940.41,
+          "reconCommission": 7547.02,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 7547.02,
+              "contractRate": 5.0,
+              "contractAmount": 7547.02,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 23,
+          "date": "Apr 23",
+          "turnover": 134869.53,
+          "regCommission": 6743.46,
+          "regTxCount": 0,
+          "reconTurnover": 134869.53,
+          "reconCommission": 6743.46,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 6743.46,
+              "contractRate": 5.0,
+              "contractAmount": 6743.46,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 24,
+          "date": "Apr 24",
+          "turnover": 147869.51,
+          "regCommission": 7393.47,
+          "regTxCount": 0,
+          "reconTurnover": 147869.51,
+          "reconCommission": 7393.47,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 7393.47,
+              "contractRate": 5.0,
+              "contractAmount": 7393.47,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 25,
+          "date": "Apr 25",
+          "turnover": 270982.91,
+          "regCommission": 13549.14,
+          "regTxCount": 0,
+          "reconTurnover": 270982.91,
+          "reconCommission": 13549.14,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 13549.14,
+              "contractRate": 5.0,
+              "contractAmount": 13549.14,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 26,
+          "date": "Apr 26",
+          "turnover": 148687.51,
+          "regCommission": 7434.37,
+          "regTxCount": 0,
+          "reconTurnover": 148687.51,
+          "reconCommission": 7434.37,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 7434.37,
+              "contractRate": 5.0,
+              "contractAmount": 7434.37,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 27,
+          "date": "Apr 27",
+          "turnover": 89991.6,
+          "regCommission": 4499.58,
+          "regTxCount": 0,
+          "reconTurnover": 89991.6,
+          "reconCommission": 4499.58,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 4499.58,
+              "contractRate": 5.0,
+              "contractAmount": 4499.58,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 28,
+          "date": "Apr 28",
+          "turnover": 147869.43,
+          "regCommission": 7393.48,
+          "regTxCount": 0,
+          "reconTurnover": 147869.43,
+          "reconCommission": 7393.48,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 7393.48,
+              "contractRate": 5.0,
+              "contractAmount": 7393.48,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 29,
+          "date": "Apr 29",
+          "turnover": 183144.71,
+          "regCommission": 9157.23,
+          "regTxCount": 0,
+          "reconTurnover": 183144.71,
+          "reconCommission": 9157.23,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 9157.23,
+              "contractRate": 5.0,
+              "contractAmount": 9157.23,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 30,
+          "date": "Apr 30",
+          "turnover": 121434.63,
+          "regCommission": 6071.74,
+          "regTxCount": 0,
+          "reconTurnover": 121434.63,
+          "reconCommission": 6071.74,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 6071.74,
+              "contractRate": 5.0,
+              "contractAmount": 6071.74,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mar-2025",
+      "label": "March",
+      "turnover": 3309337.09,
+      "registryAmount": 3309337.09,
+      "regCommission": 165466.86,
+      "regTxCount": 0,
+      "reconTurnover": 3309337.09,
+      "reconCommission": 165466.86,
+      "reconRate": 5.0,
+      "contractRate": 5.0,
+      "contractExpected": 165466.86,
+      "deviation": 0,
+      "parts": [
+        {
+          "label": "Smartflow",
+          "rate": 5.0,
+          "amount": 165466.86,
+          "contractRate": 5.0,
+          "contractAmount": 165466.86,
+          "source": "Reconciliation",
+          "contractSource": "Addendum 1810-24"
+        }
+      ],
+      "days": [
+        {
+          "day": 1,
+          "date": "Mar 1",
+          "turnover": 111130.0,
+          "regCommission": 5556.5,
+          "regTxCount": 0,
+          "reconTurnover": 111130.0,
+          "reconCommission": 5556.5,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 5556.5,
+              "contractRate": 5.0,
+              "contractAmount": 5556.5,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "date": "Mar 2",
+          "turnover": 123576.33,
+          "regCommission": 6178.81,
+          "regTxCount": 0,
+          "reconTurnover": 123576.33,
+          "reconCommission": 6178.81,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 6178.81,
+              "contractRate": 5.0,
+              "contractAmount": 6178.81,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "date": "Mar 3",
+          "turnover": 105797.56,
+          "regCommission": 5289.88,
+          "regTxCount": 0,
+          "reconTurnover": 105797.56,
+          "reconCommission": 5289.88,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 5289.88,
+              "contractRate": 5.0,
+              "contractAmount": 5289.88,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 4,
+          "date": "Mar 4",
+          "turnover": 127196.69,
+          "regCommission": 6359.83,
+          "regTxCount": 0,
+          "reconTurnover": 127196.69,
+          "reconCommission": 6359.83,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 6359.83,
+              "contractRate": 5.0,
+              "contractAmount": 6359.83,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 5,
+          "date": "Mar 5",
+          "turnover": 119290.26,
+          "regCommission": 5964.51,
+          "regTxCount": 0,
+          "reconTurnover": 119290.26,
+          "reconCommission": 5964.51,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 5964.51,
+              "contractRate": 5.0,
+              "contractAmount": 5964.51,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 6,
+          "date": "Mar 6",
+          "turnover": 89178.0,
+          "regCommission": 4458.9,
+          "regTxCount": 0,
+          "reconTurnover": 89178.0,
+          "reconCommission": 4458.9,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 4458.9,
+              "contractRate": 5.0,
+              "contractAmount": 4458.9,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "date": "Mar 7",
+          "turnover": 146775.0,
+          "regCommission": 7338.75,
+          "regTxCount": 0,
+          "reconTurnover": 146775.0,
+          "reconCommission": 7338.75,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 7338.75,
+              "contractRate": 5.0,
+              "contractAmount": 7338.75,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 8,
+          "date": "Mar 8",
+          "turnover": 99223.1,
+          "regCommission": 4961.15,
+          "regTxCount": 0,
+          "reconTurnover": 99223.1,
+          "reconCommission": 4961.15,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 4961.15,
+              "contractRate": 5.0,
+              "contractAmount": 4961.15,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 9,
+          "date": "Mar 9",
+          "turnover": 68497.24,
+          "regCommission": 3424.86,
+          "regTxCount": 0,
+          "reconTurnover": 68497.24,
+          "reconCommission": 3424.86,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 3424.86,
+              "contractRate": 5.0,
+              "contractAmount": 3424.86,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 10,
+          "date": "Mar 10",
+          "turnover": 87974.98,
+          "regCommission": 4398.75,
+          "regTxCount": 0,
+          "reconTurnover": 87974.98,
+          "reconCommission": 4398.75,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 4398.75,
+              "contractRate": 5.0,
+              "contractAmount": 4398.75,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 11,
+          "date": "Mar 11",
+          "turnover": 110193.93,
+          "regCommission": 5509.7,
+          "regTxCount": 0,
+          "reconTurnover": 110193.93,
+          "reconCommission": 5509.7,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 5509.7,
+              "contractRate": 5.0,
+              "contractAmount": 5509.7,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 12,
+          "date": "Mar 12",
+          "turnover": 116967.77,
+          "regCommission": 5848.39,
+          "regTxCount": 0,
+          "reconTurnover": 116967.77,
+          "reconCommission": 5848.39,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 5848.39,
+              "contractRate": 5.0,
+              "contractAmount": 5848.39,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 13,
+          "date": "Mar 13",
+          "turnover": 120626.57,
+          "regCommission": 6031.33,
+          "regTxCount": 0,
+          "reconTurnover": 120626.57,
+          "reconCommission": 6031.33,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 6031.33,
+              "contractRate": 5.0,
+              "contractAmount": 6031.33,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 14,
+          "date": "Mar 14",
+          "turnover": 140544.39,
+          "regCommission": 7027.22,
+          "regTxCount": 0,
+          "reconTurnover": 140544.39,
+          "reconCommission": 7027.22,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 7027.22,
+              "contractRate": 5.0,
+              "contractAmount": 7027.22,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 15,
+          "date": "Mar 15",
+          "turnover": 80081.27,
+          "regCommission": 4004.07,
+          "regTxCount": 0,
+          "reconTurnover": 80081.27,
+          "reconCommission": 4004.07,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 4004.07,
+              "contractRate": 5.0,
+              "contractAmount": 4004.07,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 16,
+          "date": "Mar 16",
+          "turnover": 107899.28,
+          "regCommission": 5394.97,
+          "regTxCount": 0,
+          "reconTurnover": 107899.28,
+          "reconCommission": 5394.97,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 5394.97,
+              "contractRate": 5.0,
+              "contractAmount": 5394.97,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 17,
+          "date": "Mar 17",
+          "turnover": 54907.0,
+          "regCommission": 2745.35,
+          "regTxCount": 0,
+          "reconTurnover": 54907.0,
+          "reconCommission": 2745.35,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 2745.35,
+              "contractRate": 5.0,
+              "contractAmount": 2745.35,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 18,
+          "date": "Mar 18",
+          "turnover": 113260.3,
+          "regCommission": 5663.02,
+          "regTxCount": 0,
+          "reconTurnover": 113260.3,
+          "reconCommission": 5663.02,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 5663.02,
+              "contractRate": 5.0,
+              "contractAmount": 5663.02,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 19,
+          "date": "Mar 19",
+          "turnover": 121636.02,
+          "regCommission": 6081.81,
+          "regTxCount": 0,
+          "reconTurnover": 121636.02,
+          "reconCommission": 6081.81,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 6081.81,
+              "contractRate": 5.0,
+              "contractAmount": 6081.81,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 20,
+          "date": "Mar 20",
+          "turnover": 131230.4,
+          "regCommission": 6561.51,
+          "regTxCount": 0,
+          "reconTurnover": 131230.4,
+          "reconCommission": 6561.51,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 6561.51,
+              "contractRate": 5.0,
+              "contractAmount": 6561.51,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 21,
+          "date": "Mar 21",
+          "turnover": 158426.72,
+          "regCommission": 7921.36,
+          "regTxCount": 0,
+          "reconTurnover": 158426.72,
+          "reconCommission": 7921.36,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 7921.36,
+              "contractRate": 5.0,
+              "contractAmount": 7921.36,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 22,
+          "date": "Mar 22",
+          "turnover": 82383.34,
+          "regCommission": 4119.17,
+          "regTxCount": 0,
+          "reconTurnover": 82383.34,
+          "reconCommission": 4119.17,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 4119.17,
+              "contractRate": 5.0,
+              "contractAmount": 4119.17,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 23,
+          "date": "Mar 23",
+          "turnover": 71606.69,
+          "regCommission": 3580.36,
+          "regTxCount": 0,
+          "reconTurnover": 71606.69,
+          "reconCommission": 3580.36,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 3580.36,
+              "contractRate": 5.0,
+              "contractAmount": 3580.36,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 24,
+          "date": "Mar 24",
+          "turnover": 76019.66,
+          "regCommission": 3800.97,
+          "regTxCount": 0,
+          "reconTurnover": 76019.66,
+          "reconCommission": 3800.97,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 3800.97,
+              "contractRate": 5.0,
+              "contractAmount": 3800.97,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 25,
+          "date": "Mar 25",
+          "turnover": 122880.42,
+          "regCommission": 6144.01,
+          "regTxCount": 0,
+          "reconTurnover": 122880.42,
+          "reconCommission": 6144.01,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 6144.01,
+              "contractRate": 5.0,
+              "contractAmount": 6144.01,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 26,
+          "date": "Mar 26",
+          "turnover": 74191.39,
+          "regCommission": 3709.57,
+          "regTxCount": 0,
+          "reconTurnover": 74191.39,
+          "reconCommission": 3709.57,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 3709.57,
+              "contractRate": 5.0,
+              "contractAmount": 3709.57,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 27,
+          "date": "Mar 27",
+          "turnover": 106005.94,
+          "regCommission": 5300.3,
+          "regTxCount": 0,
+          "reconTurnover": 106005.94,
+          "reconCommission": 5300.3,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 5300.3,
+              "contractRate": 5.0,
+              "contractAmount": 5300.3,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 28,
+          "date": "Mar 28",
+          "turnover": 136609.16,
+          "regCommission": 6830.46,
+          "regTxCount": 0,
+          "reconTurnover": 136609.16,
+          "reconCommission": 6830.46,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 6830.46,
+              "contractRate": 5.0,
+              "contractAmount": 6830.46,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 29,
+          "date": "Mar 29",
+          "turnover": 80366.08,
+          "regCommission": 4018.29,
+          "regTxCount": 0,
+          "reconTurnover": 80366.08,
+          "reconCommission": 4018.29,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 4018.29,
+              "contractRate": 5.0,
+              "contractAmount": 4018.29,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 30,
+          "date": "Mar 30",
+          "turnover": 84895.27,
+          "regCommission": 4244.74,
+          "regTxCount": 0,
+          "reconTurnover": 84895.27,
+          "reconCommission": 4244.74,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 4244.74,
+              "contractRate": 5.0,
+              "contractAmount": 4244.74,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 31,
+          "date": "Mar 31",
+          "turnover": 139966.33,
+          "regCommission": 6998.32,
+          "regTxCount": 0,
+          "reconTurnover": 139966.33,
+          "reconCommission": 6998.32,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 6998.32,
+              "contractRate": 5.0,
+              "contractAmount": 6998.32,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "feb-2025",
+      "label": "February",
+      "turnover": 2920324.18,
+      "registryAmount": 2920324.18,
+      "regCommission": 146016.38,
+      "regTxCount": 0,
+      "reconTurnover": 2920324.18,
+      "reconCommission": 146016.38,
+      "reconRate": 5.0,
+      "contractRate": 5.0,
+      "contractExpected": 146016.38,
+      "deviation": 0,
+      "parts": [
+        {
+          "label": "Smartflow",
+          "rate": 5.0,
+          "amount": 146016.38,
+          "contractRate": 5.0,
+          "contractAmount": 146016.38,
+          "source": "Reconciliation",
+          "contractSource": "Addendum 1810-24"
+        }
+      ],
+      "days": [
+        {
+          "day": 1,
+          "date": "Feb 1",
+          "turnover": 93728.82,
+          "regCommission": 4686.42,
+          "regTxCount": 0,
+          "reconTurnover": 93728.82,
+          "reconCommission": 4686.42,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 4686.42,
+              "contractRate": 5.0,
+              "contractAmount": 4686.42,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "date": "Feb 2",
+          "turnover": 71878.81,
+          "regCommission": 3593.94,
+          "regTxCount": 0,
+          "reconTurnover": 71878.81,
+          "reconCommission": 3593.94,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 3593.94,
+              "contractRate": 5.0,
+              "contractAmount": 3593.94,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "date": "Feb 3",
+          "turnover": 78157.84,
+          "regCommission": 3907.9,
+          "regTxCount": 0,
+          "reconTurnover": 78157.84,
+          "reconCommission": 3907.9,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 3907.9,
+              "contractRate": 5.0,
+              "contractAmount": 3907.9,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 4,
+          "date": "Feb 4",
+          "turnover": 140965.13,
+          "regCommission": 7048.26,
+          "regTxCount": 0,
+          "reconTurnover": 140965.13,
+          "reconCommission": 7048.26,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 7048.26,
+              "contractRate": 5.0,
+              "contractAmount": 7048.26,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 5,
+          "date": "Feb 5",
+          "turnover": 153415.0,
+          "regCommission": 7670.75,
+          "regTxCount": 0,
+          "reconTurnover": 153415.0,
+          "reconCommission": 7670.75,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 7670.75,
+              "contractRate": 5.0,
+              "contractAmount": 7670.75,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 6,
+          "date": "Feb 6",
+          "turnover": 140101.91,
+          "regCommission": 7005.12,
+          "regTxCount": 0,
+          "reconTurnover": 140101.91,
+          "reconCommission": 7005.12,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 7005.12,
+              "contractRate": 5.0,
+              "contractAmount": 7005.12,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "date": "Feb 7",
+          "turnover": 117724.28,
+          "regCommission": 5886.23,
+          "regTxCount": 0,
+          "reconTurnover": 117724.28,
+          "reconCommission": 5886.23,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 5886.23,
+              "contractRate": 5.0,
+              "contractAmount": 5886.23,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 8,
+          "date": "Feb 8",
+          "turnover": 132551.43,
+          "regCommission": 6627.64,
+          "regTxCount": 0,
+          "reconTurnover": 132551.43,
+          "reconCommission": 6627.64,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 6627.64,
+              "contractRate": 5.0,
+              "contractAmount": 6627.64,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 9,
+          "date": "Feb 9",
+          "turnover": 123882.18,
+          "regCommission": 6194.14,
+          "regTxCount": 0,
+          "reconTurnover": 123882.18,
+          "reconCommission": 6194.14,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 6194.14,
+              "contractRate": 5.0,
+              "contractAmount": 6194.14,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 10,
+          "date": "Feb 10",
+          "turnover": 85432.62,
+          "regCommission": 4271.63,
+          "regTxCount": 0,
+          "reconTurnover": 85432.62,
+          "reconCommission": 4271.63,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 4271.63,
+              "contractRate": 5.0,
+              "contractAmount": 4271.63,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 11,
+          "date": "Feb 11",
+          "turnover": 119628.96,
+          "regCommission": 5981.48,
+          "regTxCount": 0,
+          "reconTurnover": 119628.96,
+          "reconCommission": 5981.48,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 5981.48,
+              "contractRate": 5.0,
+              "contractAmount": 5981.48,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 12,
+          "date": "Feb 12",
+          "turnover": 133708.14,
+          "regCommission": 6685.41,
+          "regTxCount": 0,
+          "reconTurnover": 133708.14,
+          "reconCommission": 6685.41,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 6685.41,
+              "contractRate": 5.0,
+              "contractAmount": 6685.41,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 13,
+          "date": "Feb 13",
+          "turnover": 116841.13,
+          "regCommission": 5842.06,
+          "regTxCount": 0,
+          "reconTurnover": 116841.13,
+          "reconCommission": 5842.06,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 5842.06,
+              "contractRate": 5.0,
+              "contractAmount": 5842.06,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 14,
+          "date": "Feb 14",
+          "turnover": 113912.29,
+          "regCommission": 5695.61,
+          "regTxCount": 0,
+          "reconTurnover": 113912.29,
+          "reconCommission": 5695.61,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 5695.61,
+              "contractRate": 5.0,
+              "contractAmount": 5695.61,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 15,
+          "date": "Feb 15",
+          "turnover": 129274.38,
+          "regCommission": 6463.71,
+          "regTxCount": 0,
+          "reconTurnover": 129274.38,
+          "reconCommission": 6463.71,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 6463.71,
+              "contractRate": 5.0,
+              "contractAmount": 6463.71,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 16,
+          "date": "Feb 16",
+          "turnover": 80661.0,
+          "regCommission": 4033.05,
+          "regTxCount": 0,
+          "reconTurnover": 80661.0,
+          "reconCommission": 4033.05,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 4033.05,
+              "contractRate": 5.0,
+              "contractAmount": 4033.05,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 17,
+          "date": "Feb 17",
+          "turnover": 93295.0,
+          "regCommission": 4664.75,
+          "regTxCount": 0,
+          "reconTurnover": 93295.0,
+          "reconCommission": 4664.75,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 4664.75,
+              "contractRate": 5.0,
+              "contractAmount": 4664.75,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 18,
+          "date": "Feb 18",
+          "turnover": 85960.0,
+          "regCommission": 4298.0,
+          "regTxCount": 0,
+          "reconTurnover": 85960.0,
+          "reconCommission": 4298.0,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 4298.0,
+              "contractRate": 5.0,
+              "contractAmount": 4298.0,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 19,
+          "date": "Feb 19",
+          "turnover": 130322.17,
+          "regCommission": 6516.11,
+          "regTxCount": 0,
+          "reconTurnover": 130322.17,
+          "reconCommission": 6516.11,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 6516.11,
+              "contractRate": 5.0,
+              "contractAmount": 6516.11,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 20,
+          "date": "Feb 20",
+          "turnover": 111647.0,
+          "regCommission": 5582.35,
+          "regTxCount": 0,
+          "reconTurnover": 111647.0,
+          "reconCommission": 5582.35,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 5582.35,
+              "contractRate": 5.0,
+              "contractAmount": 5582.35,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 21,
+          "date": "Feb 21",
+          "turnover": 120942.0,
+          "regCommission": 6047.1,
+          "regTxCount": 0,
+          "reconTurnover": 120942.0,
+          "reconCommission": 6047.1,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 6047.1,
+              "contractRate": 5.0,
+              "contractAmount": 6047.1,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 22,
+          "date": "Feb 22",
+          "turnover": 82104.0,
+          "regCommission": 4105.2,
+          "regTxCount": 0,
+          "reconTurnover": 82104.0,
+          "reconCommission": 4105.2,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 4105.2,
+              "contractRate": 5.0,
+              "contractAmount": 4105.2,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 23,
+          "date": "Feb 23",
+          "turnover": 91243.0,
+          "regCommission": 4562.15,
+          "regTxCount": 0,
+          "reconTurnover": 91243.0,
+          "reconCommission": 4562.15,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 4562.15,
+              "contractRate": 5.0,
+              "contractAmount": 4562.15,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 24,
+          "date": "Feb 24",
+          "turnover": 63358.0,
+          "regCommission": 3167.9,
+          "regTxCount": 0,
+          "reconTurnover": 63358.0,
+          "reconCommission": 3167.9,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 3167.9,
+              "contractRate": 5.0,
+              "contractAmount": 3167.9,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 25,
+          "date": "Feb 25",
+          "turnover": 65091.0,
+          "regCommission": 3254.55,
+          "regTxCount": 0,
+          "reconTurnover": 65091.0,
+          "reconCommission": 3254.55,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 3254.55,
+              "contractRate": 5.0,
+              "contractAmount": 3254.55,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 26,
+          "date": "Feb 26",
+          "turnover": 82604.92,
+          "regCommission": 4130.25,
+          "regTxCount": 0,
+          "reconTurnover": 82604.92,
+          "reconCommission": 4130.25,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 4130.25,
+              "contractRate": 5.0,
+              "contractAmount": 4130.25,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 27,
+          "date": "Feb 27",
+          "turnover": 81181.92,
+          "regCommission": 4059.1,
+          "regTxCount": 0,
+          "reconTurnover": 81181.92,
+          "reconCommission": 4059.1,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 4059.1,
+              "contractRate": 5.0,
+              "contractAmount": 4059.1,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 28,
+          "date": "Feb 28",
+          "turnover": 80711.25,
+          "regCommission": 4035.57,
+          "regTxCount": 0,
+          "reconTurnover": 80711.25,
+          "reconCommission": 4035.57,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 4035.57,
+              "contractRate": 5.0,
+              "contractAmount": 4035.57,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "jan-2025",
+      "label": "January",
+      "turnover": 2407419.74,
+      "registryAmount": 2407419.74,
+      "regCommission": 120371.02,
+      "regTxCount": 0,
+      "reconTurnover": 2407419.74,
+      "reconCommission": 120371.02,
+      "reconRate": 5.0,
+      "contractRate": 5.0,
+      "contractExpected": 120371.02,
+      "deviation": 0,
+      "parts": [
+        {
+          "label": "Smartflow",
+          "rate": 5.0,
+          "amount": 120371.02,
+          "contractRate": 5.0,
+          "contractAmount": 120371.02,
+          "source": "Reconciliation",
+          "contractSource": "Addendum 1810-24"
+        }
+      ],
+      "days": [
+        {
+          "day": 1,
+          "date": "Jan 1",
+          "turnover": 112596.0,
+          "regCommission": 5629.8,
+          "regTxCount": 0,
+          "reconTurnover": 112596.0,
+          "reconCommission": 5629.8,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 5629.8,
+              "contractRate": 5.0,
+              "contractAmount": 5629.8,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "date": "Jan 2",
+          "turnover": 117774.62,
+          "regCommission": 5888.73,
+          "regTxCount": 0,
+          "reconTurnover": 117774.62,
+          "reconCommission": 5888.73,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 5888.73,
+              "contractRate": 5.0,
+              "contractAmount": 5888.73,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "date": "Jan 3",
+          "turnover": 63784.0,
+          "regCommission": 3189.2,
+          "regTxCount": 0,
+          "reconTurnover": 63784.0,
+          "reconCommission": 3189.2,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 3189.2,
+              "contractRate": 5.0,
+              "contractAmount": 3189.2,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 4,
+          "date": "Jan 4",
+          "turnover": 87684.18,
+          "regCommission": 4384.21,
+          "regTxCount": 0,
+          "reconTurnover": 87684.18,
+          "reconCommission": 4384.21,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 4384.21,
+              "contractRate": 5.0,
+              "contractAmount": 4384.21,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 5,
+          "date": "Jan 5",
+          "turnover": 58391.0,
+          "regCommission": 2919.55,
+          "regTxCount": 0,
+          "reconTurnover": 58391.0,
+          "reconCommission": 2919.55,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 2919.55,
+              "contractRate": 5.0,
+              "contractAmount": 2919.55,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 6,
+          "date": "Jan 6",
+          "turnover": 55177.12,
+          "regCommission": 2758.86,
+          "regTxCount": 0,
+          "reconTurnover": 55177.12,
+          "reconCommission": 2758.86,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 2758.86,
+              "contractRate": 5.0,
+              "contractAmount": 2758.86,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "date": "Jan 7",
+          "turnover": 100556.2,
+          "regCommission": 5027.81,
+          "regTxCount": 0,
+          "reconTurnover": 100556.2,
+          "reconCommission": 5027.81,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 5027.81,
+              "contractRate": 5.0,
+              "contractAmount": 5027.81,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 8,
+          "date": "Jan 8",
+          "turnover": 66420.0,
+          "regCommission": 3321.0,
+          "regTxCount": 0,
+          "reconTurnover": 66420.0,
+          "reconCommission": 3321.0,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 3321.0,
+              "contractRate": 5.0,
+              "contractAmount": 3321.0,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 9,
+          "date": "Jan 9",
+          "turnover": 84352.0,
+          "regCommission": 4217.6,
+          "regTxCount": 0,
+          "reconTurnover": 84352.0,
+          "reconCommission": 4217.6,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 4217.6,
+              "contractRate": 5.0,
+              "contractAmount": 4217.6,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 10,
+          "date": "Jan 10",
+          "turnover": 99628.0,
+          "regCommission": 4981.4,
+          "regTxCount": 0,
+          "reconTurnover": 99628.0,
+          "reconCommission": 4981.4,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 4981.4,
+              "contractRate": 5.0,
+              "contractAmount": 4981.4,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 11,
+          "date": "Jan 11",
+          "turnover": 100789.0,
+          "regCommission": 5039.45,
+          "regTxCount": 0,
+          "reconTurnover": 100789.0,
+          "reconCommission": 5039.45,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 5039.45,
+              "contractRate": 5.0,
+              "contractAmount": 5039.45,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 12,
+          "date": "Jan 12",
+          "turnover": 50936.0,
+          "regCommission": 2546.8,
+          "regTxCount": 0,
+          "reconTurnover": 50936.0,
+          "reconCommission": 2546.8,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 2546.8,
+              "contractRate": 5.0,
+              "contractAmount": 2546.8,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 13,
+          "date": "Jan 13",
+          "turnover": 39287.81,
+          "regCommission": 1964.39,
+          "regTxCount": 0,
+          "reconTurnover": 39287.81,
+          "reconCommission": 1964.39,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 1964.39,
+              "contractRate": 5.0,
+              "contractAmount": 1964.39,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 14,
+          "date": "Jan 14",
+          "turnover": 93985.97,
+          "regCommission": 4699.3,
+          "regTxCount": 0,
+          "reconTurnover": 93985.97,
+          "reconCommission": 4699.3,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 4699.3,
+              "contractRate": 5.0,
+              "contractAmount": 4699.3,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 15,
+          "date": "Jan 15",
+          "turnover": 72746.7,
+          "regCommission": 3637.34,
+          "regTxCount": 0,
+          "reconTurnover": 72746.7,
+          "reconCommission": 3637.34,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 3637.34,
+              "contractRate": 5.0,
+              "contractAmount": 3637.34,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 16,
+          "date": "Jan 16",
+          "turnover": 51668.69,
+          "regCommission": 2583.45,
+          "regTxCount": 0,
+          "reconTurnover": 51668.69,
+          "reconCommission": 2583.45,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 2583.45,
+              "contractRate": 5.0,
+              "contractAmount": 2583.45,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 17,
+          "date": "Jan 17",
+          "turnover": 89949.81,
+          "regCommission": 4497.5,
+          "regTxCount": 0,
+          "reconTurnover": 89949.81,
+          "reconCommission": 4497.5,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 4497.5,
+              "contractRate": 5.0,
+              "contractAmount": 4497.5,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 18,
+          "date": "Jan 18",
+          "turnover": 87389.08,
+          "regCommission": 4369.46,
+          "regTxCount": 0,
+          "reconTurnover": 87389.08,
+          "reconCommission": 4369.46,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 4369.46,
+              "contractRate": 5.0,
+              "contractAmount": 4369.46,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 19,
+          "date": "Jan 19",
+          "turnover": 52495.58,
+          "regCommission": 2624.78,
+          "regTxCount": 0,
+          "reconTurnover": 52495.58,
+          "reconCommission": 2624.78,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 2624.78,
+              "contractRate": 5.0,
+              "contractAmount": 2624.78,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 20,
+          "date": "Jan 20",
+          "turnover": 85909.39,
+          "regCommission": 4295.46,
+          "regTxCount": 0,
+          "reconTurnover": 85909.39,
+          "reconCommission": 4295.46,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 4295.46,
+              "contractRate": 5.0,
+              "contractAmount": 4295.46,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 21,
+          "date": "Jan 21",
+          "turnover": 101618.24,
+          "regCommission": 5080.93,
+          "regTxCount": 0,
+          "reconTurnover": 101618.24,
+          "reconCommission": 5080.93,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 5080.93,
+              "contractRate": 5.0,
+              "contractAmount": 5080.93,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 22,
+          "date": "Jan 22",
+          "turnover": 96018.56,
+          "regCommission": 4800.93,
+          "regTxCount": 0,
+          "reconTurnover": 96018.56,
+          "reconCommission": 4800.93,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 4800.93,
+              "contractRate": 5.0,
+              "contractAmount": 4800.93,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 23,
+          "date": "Jan 23",
+          "turnover": 74014.83,
+          "regCommission": 3700.74,
+          "regTxCount": 0,
+          "reconTurnover": 74014.83,
+          "reconCommission": 3700.74,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 3700.74,
+              "contractRate": 5.0,
+              "contractAmount": 3700.74,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 24,
+          "date": "Jan 24",
+          "turnover": 75844.52,
+          "regCommission": 3792.22,
+          "regTxCount": 0,
+          "reconTurnover": 75844.52,
+          "reconCommission": 3792.22,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 3792.22,
+              "contractRate": 5.0,
+              "contractAmount": 3792.22,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 25,
+          "date": "Jan 25",
+          "turnover": 64723.78,
+          "regCommission": 3236.19,
+          "regTxCount": 0,
+          "reconTurnover": 64723.78,
+          "reconCommission": 3236.19,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 3236.19,
+              "contractRate": 5.0,
+              "contractAmount": 3236.19,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 26,
+          "date": "Jan 26",
+          "turnover": 83842.7,
+          "regCommission": 4192.13,
+          "regTxCount": 0,
+          "reconTurnover": 83842.7,
+          "reconCommission": 4192.13,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 4192.13,
+              "contractRate": 5.0,
+              "contractAmount": 4192.13,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 27,
+          "date": "Jan 27",
+          "turnover": 60286.4,
+          "regCommission": 3014.32,
+          "regTxCount": 0,
+          "reconTurnover": 60286.4,
+          "reconCommission": 3014.32,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 3014.32,
+              "contractRate": 5.0,
+              "contractAmount": 3014.32,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 28,
+          "date": "Jan 28",
+          "turnover": 56692.61,
+          "regCommission": 2834.64,
+          "regTxCount": 0,
+          "reconTurnover": 56692.61,
+          "reconCommission": 2834.64,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 2834.64,
+              "contractRate": 5.0,
+              "contractAmount": 2834.64,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 29,
+          "date": "Jan 29",
+          "turnover": 70134.72,
+          "regCommission": 3506.72,
+          "regTxCount": 0,
+          "reconTurnover": 70134.72,
+          "reconCommission": 3506.72,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 3506.72,
+              "contractRate": 5.0,
+              "contractAmount": 3506.72,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 30,
+          "date": "Jan 30",
+          "turnover": 52183.4,
+          "regCommission": 2609.17,
+          "regTxCount": 0,
+          "reconTurnover": 52183.4,
+          "reconCommission": 2609.17,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 2609.17,
+              "contractRate": 5.0,
+              "contractAmount": 2609.17,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        },
+        {
+          "day": 31,
+          "date": "Jan 31",
+          "turnover": 100538.83,
+          "regCommission": 5026.94,
+          "regTxCount": 0,
+          "reconTurnover": 100538.83,
+          "reconCommission": 5026.94,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 5.0,
+              "amount": 5026.94,
+              "contractRate": 5.0,
+              "contractAmount": 5026.94,
+              "source": "Reconciliation",
+              "contractSource": "Addendum 1810-24"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

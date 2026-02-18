@@ -10543,14 +10543,112 @@
   "streams": [
     {
       "id": "eur-smartflow",
-      "label": "EUR Smartflow",
+      "label": "EUR Smartflow (MK 1053)",
       "currency": "EUR",
       "point": "Smartflow MC/APM",
       "provider": "Smartflow"
     },
     {
       "id": "eur-kurtley",
-      "label": "EUR Kurtley",
+      "label": "EUR Kurtley (MK 1409)",
+      "currency": "EUR",
+      "point": "Kurtley Visa",
+      "provider": "Kurtley"
+    },
+    {
+      "id": "eur-f-20641",
+      "label": "EUR Finthesis (MK 20641)",
+      "currency": "EUR",
+      "point": "Smartflow MC/APM",
+      "provider": "Smartflow"
+    },
+    {
+      "id": "eur-ap-1219",
+      "label": "EUR AP/GP (MK 1219)",
+      "currency": "EUR",
+      "point": "Smartflow AP/GP",
+      "provider": "Smartflow"
+    },
+    {
+      "id": "eur-s-1531",
+      "label": "EUR Smartflow (MK 1531)",
+      "currency": "EUR",
+      "point": "Smartflow MC",
+      "provider": "Smartflow"
+    },
+    {
+      "id": "aud-card",
+      "label": "AUD Card Acquiring (MK 1193)",
+      "currency": "AUD",
+      "point": "Smartflow MC/APM",
+      "provider": "Smartflow"
+    },
+    {
+      "id": "usd-card",
+      "label": "USD Card Acquiring (MK 1333)",
+      "currency": "USD",
+      "point": "Smartflow MC/APM",
+      "provider": "Smartflow"
+    },
+    {
+      "id": "try-card",
+      "label": "TRY Card Acquiring (MK 1222)",
+      "currency": "TRY",
+      "point": "Smartflow MC/APM",
+      "provider": "Smartflow"
+    },
+    {
+      "id": "nok-card",
+      "label": "NOK Card Acquiring (MK 1229)",
+      "currency": "NOK",
+      "point": "Smartflow MC/APM",
+      "provider": "Smartflow"
+    },
+    {
+      "id": "cad-card",
+      "label": "CAD Card Acquiring (MK 1221)",
+      "currency": "CAD",
+      "point": "Smartflow MC/APM",
+      "provider": "Smartflow"
+    },
+    {
+      "id": "nok-1262",
+      "label": "NOK Satellite (MK 1262)",
+      "currency": "NOK",
+      "point": "Smartflow Satellite",
+      "provider": "Smartflow"
+    },
+    {
+      "id": "cad-1310",
+      "label": "CAD Satellite (MK 1310)",
+      "currency": "CAD",
+      "point": "Smartflow Satellite",
+      "provider": "Smartflow"
+    },
+    {
+      "id": "visa-1300",
+      "label": "VISA Kurtley (MK 1300)",
+      "currency": "EUR",
+      "point": "Kurtley Visa",
+      "provider": "Kurtley"
+    },
+    {
+      "id": "visa-20088",
+      "label": "VISA Kurtley (MK 20088)",
+      "currency": "EUR",
+      "point": "Kurtley Visa",
+      "provider": "Kurtley"
+    },
+    {
+      "id": "lingome-1073",
+      "label": "Lingome EUR (MK 1073)",
+      "currency": "EUR",
+      "point": "Smartflow MC",
+      "provider": "Smartflow"
+    },
+    {
+      "id": "visa-1577",
+      "label": "VISA Kurtley (MK 1577)",
       "currency": "EUR",
       "point": "Kurtley Visa",
       "provider": "Kurtley"

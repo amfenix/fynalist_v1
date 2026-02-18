@@ -1,0 +1,899 @@
+{
+  "streamId": "visa-1300",
+  "label": "VISA Kurtley MK 1300",
+  "currency": "EUR",
+  "point": "Card Acquiring",
+  "provider": "Kurtley",
+  "months": [
+    {
+      "key": "mar-2025",
+      "label": "March",
+      "turnover": 1000607.80,
+      "registryAmount": 1000607.80,
+      "regCommission": 52030.11,
+      "regTxCount": 0,
+      "reconTurnover": 1000607.80,
+      "reconCommission": 52030.11,
+      "reconRate": 5.2,
+      "contractRate": 5.2,
+      "contractExpected": 52030.11,
+      "deviation": 0,
+      "parts": [
+        {
+          "label": "Kurtley",
+          "rate": 5.2,
+          "amount": 52030.11,
+          "contractRate": 5.2,
+          "contractAmount": 52030.11,
+          "source": "Reconciliation",
+          "contractSource": "Agreement IE-16/04/24 Add No 5"
+        }
+      ],
+      "days": [
+        {
+          "day": 1,
+          "date": "Mar 1",
+          "turnover": 95651.78,
+          "regCommission": 4973.72,
+          "regTxCount": 0,
+          "reconTurnover": 95651.78,
+          "reconCommission": 4973.72,
+          "reconRate": 5.2,
+          "contractRate": 5.2,
+          "parts": [
+            {
+              "label": "Kurtley",
+              "rate": 5.2,
+              "amount": 4973.72,
+              "contractRate": 5.2,
+              "contractAmount": 4973.72,
+              "source": "Reconciliation",
+              "contractSource": "Agreement IE-16/04/24 Add No 5"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "date": "Mar 2",
+          "turnover": 75485.81,
+          "regCommission": 3925.08,
+          "regTxCount": 0,
+          "reconTurnover": 75485.81,
+          "reconCommission": 3925.08,
+          "reconRate": 5.2,
+          "contractRate": 5.2,
+          "parts": [
+            {
+              "label": "Kurtley",
+              "rate": 5.2,
+              "amount": 3925.08,
+              "contractRate": 5.2,
+              "contractAmount": 3925.08,
+              "source": "Reconciliation",
+              "contractSource": "Agreement IE-16/04/24 Add No 5"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "date": "Mar 3",
+          "turnover": 68425.12,
+          "regCommission": 3558.00,
+          "regTxCount": 0,
+          "reconTurnover": 68425.12,
+          "reconCommission": 3558.00,
+          "reconRate": 5.2,
+          "contractRate": 5.2,
+          "parts": [
+            {
+              "label": "Kurtley",
+              "rate": 5.2,
+              "amount": 3558.00,
+              "contractRate": 5.2,
+              "contractAmount": 3558.00,
+              "source": "Reconciliation",
+              "contractSource": "Agreement IE-16/04/24 Add No 5"
+            }
+          ]
+        },
+        {
+          "day": 4,
+          "date": "Mar 4",
+          "turnover": 54961.41,
+          "regCommission": 2857.96,
+          "regTxCount": 0,
+          "reconTurnover": 54961.41,
+          "reconCommission": 2857.96,
+          "reconRate": 5.2,
+          "contractRate": 5.2,
+          "parts": [
+            {
+              "label": "Kurtley",
+              "rate": 5.2,
+              "amount": 2857.96,
+              "contractRate": 5.2,
+              "contractAmount": 2857.96,
+              "source": "Reconciliation",
+              "contractSource": "Agreement IE-16/04/24 Add No 5"
+            }
+          ]
+        },
+        {
+          "day": 5,
+          "date": "Mar 5",
+          "turnover": 49343.28,
+          "regCommission": 2565.78,
+          "regTxCount": 0,
+          "reconTurnover": 49343.28,
+          "reconCommission": 2565.78,
+          "reconRate": 5.2,
+          "contractRate": 5.2,
+          "parts": [
+            {
+              "label": "Kurtley",
+              "rate": 5.2,
+              "amount": 2565.78,
+              "contractRate": 5.2,
+              "contractAmount": 2565.78,
+              "source": "Reconciliation",
+              "contractSource": "Agreement IE-16/04/24 Add No 5"
+            }
+          ]
+        },
+        {
+          "day": 6,
+          "date": "Mar 6",
+          "turnover": 54723.19,
+          "regCommission": 2845.35,
+          "regTxCount": 0,
+          "reconTurnover": 54723.19,
+          "reconCommission": 2845.35,
+          "reconRate": 5.2,
+          "contractRate": 5.2,
+          "parts": [
+            {
+              "label": "Kurtley",
+              "rate": 5.2,
+              "amount": 2845.35,
+              "contractRate": 5.2,
+              "contractAmount": 2845.35,
+              "source": "Reconciliation",
+              "contractSource": "Agreement IE-16/04/24 Add No 5"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "date": "Mar 7",
+          "turnover": 47225.87,
+          "regCommission": 2455.54,
+          "regTxCount": 0,
+          "reconTurnover": 47225.87,
+          "reconCommission": 2455.54,
+          "reconRate": 5.2,
+          "contractRate": 5.2,
+          "parts": [
+            {
+              "label": "Kurtley",
+              "rate": 5.2,
+              "amount": 2455.54,
+              "contractRate": 5.2,
+              "contractAmount": 2455.54,
+              "source": "Reconciliation",
+              "contractSource": "Agreement IE-16/04/24 Add No 5"
+            }
+          ]
+        },
+        {
+          "day": 8,
+          "date": "Mar 8",
+          "turnover": 38591.94,
+          "regCommission": 2006.69,
+          "regTxCount": 0,
+          "reconTurnover": 38591.94,
+          "reconCommission": 2006.69,
+          "reconRate": 5.2,
+          "contractRate": 5.2,
+          "parts": [
+            {
+              "label": "Kurtley",
+              "rate": 5.2,
+              "amount": 2006.69,
+              "contractRate": 5.2,
+              "contractAmount": 2006.69,
+              "source": "Reconciliation",
+              "contractSource": "Agreement IE-16/04/24 Add No 5"
+            }
+          ]
+        },
+        {
+          "day": 9,
+          "date": "Mar 9",
+          "turnover": 42166.86,
+          "regCommission": 2192.57,
+          "regTxCount": 0,
+          "reconTurnover": 42166.86,
+          "reconCommission": 2192.57,
+          "reconRate": 5.2,
+          "contractRate": 5.2,
+          "parts": [
+            {
+              "label": "Kurtley",
+              "rate": 5.2,
+              "amount": 2192.57,
+              "contractRate": 5.2,
+              "contractAmount": 2192.57,
+              "source": "Reconciliation",
+              "contractSource": "Agreement IE-16/04/24 Add No 5"
+            }
+          ]
+        },
+        {
+          "day": 10,
+          "date": "Mar 10",
+          "turnover": 34843.70,
+          "regCommission": 1811.83,
+          "regTxCount": 0,
+          "reconTurnover": 34843.70,
+          "reconCommission": 1811.83,
+          "reconRate": 5.2,
+          "contractRate": 5.2,
+          "parts": [
+            {
+              "label": "Kurtley",
+              "rate": 5.2,
+              "amount": 1811.83,
+              "contractRate": 5.2,
+              "contractAmount": 1811.83,
+              "source": "Reconciliation",
+              "contractSource": "Agreement IE-16/04/24 Add No 5"
+            }
+          ]
+        },
+        {
+          "day": 11,
+          "date": "Mar 11",
+          "turnover": 35790.15,
+          "regCommission": 1861.18,
+          "regTxCount": 0,
+          "reconTurnover": 35790.15,
+          "reconCommission": 1861.18,
+          "reconRate": 5.2,
+          "contractRate": 5.2,
+          "parts": [
+            {
+              "label": "Kurtley",
+              "rate": 5.2,
+              "amount": 1861.18,
+              "contractRate": 5.2,
+              "contractAmount": 1861.18,
+              "source": "Reconciliation",
+              "contractSource": "Agreement IE-16/04/24 Add No 5"
+            }
+          ]
+        },
+        {
+          "day": 12,
+          "date": "Mar 12",
+          "turnover": 28982.55,
+          "regCommission": 1507.04,
+          "regTxCount": 0,
+          "reconTurnover": 28982.55,
+          "reconCommission": 1507.04,
+          "reconRate": 5.2,
+          "contractRate": 5.2,
+          "parts": [
+            {
+              "label": "Kurtley",
+              "rate": 5.2,
+              "amount": 1507.04,
+              "contractRate": 5.2,
+              "contractAmount": 1507.04,
+              "source": "Reconciliation",
+              "contractSource": "Agreement IE-16/04/24 Add No 5"
+            }
+          ]
+        },
+        {
+          "day": 13,
+          "date": "Mar 13",
+          "turnover": 37558.93,
+          "regCommission": 1953.08,
+          "regTxCount": 0,
+          "reconTurnover": 37558.93,
+          "reconCommission": 1953.08,
+          "reconRate": 5.2,
+          "contractRate": 5.2,
+          "parts": [
+            {
+              "label": "Kurtley",
+              "rate": 5.2,
+              "amount": 1953.08,
+              "contractRate": 5.2,
+              "contractAmount": 1953.08,
+              "source": "Reconciliation",
+              "contractSource": "Agreement IE-16/04/24 Add No 5"
+            }
+          ]
+        },
+        {
+          "day": 14,
+          "date": "Mar 14",
+          "turnover": 71286.13,
+          "regCommission": 3706.83,
+          "regTxCount": 0,
+          "reconTurnover": 71286.13,
+          "reconCommission": 3706.83,
+          "reconRate": 5.2,
+          "contractRate": 5.2,
+          "parts": [
+            {
+              "label": "Kurtley",
+              "rate": 5.2,
+              "amount": 3706.83,
+              "contractRate": 5.2,
+              "contractAmount": 3706.83,
+              "source": "Reconciliation",
+              "contractSource": "Agreement IE-16/04/24 Add No 5"
+            }
+          ]
+        },
+        {
+          "day": 15,
+          "date": "Mar 15",
+          "turnover": 67807.02,
+          "regCommission": 3525.89,
+          "regTxCount": 0,
+          "reconTurnover": 67807.02,
+          "reconCommission": 3525.89,
+          "reconRate": 5.2,
+          "contractRate": 5.2,
+          "parts": [
+            {
+              "label": "Kurtley",
+              "rate": 5.2,
+              "amount": 3525.89,
+              "contractRate": 5.2,
+              "contractAmount": 3525.89,
+              "source": "Reconciliation",
+              "contractSource": "Agreement IE-16/04/24 Add No 5"
+            }
+          ]
+        },
+        {
+          "day": 16,
+          "date": "Mar 16",
+          "turnover": 71330.15,
+          "regCommission": 3709.25,
+          "regTxCount": 0,
+          "reconTurnover": 71330.15,
+          "reconCommission": 3709.25,
+          "reconRate": 5.2,
+          "contractRate": 5.2,
+          "parts": [
+            {
+              "label": "Kurtley",
+              "rate": 5.2,
+              "amount": 3709.25,
+              "contractRate": 5.2,
+              "contractAmount": 3709.25,
+              "source": "Reconciliation",
+              "contractSource": "Agreement IE-16/04/24 Add No 5"
+            }
+          ]
+        },
+        {
+          "day": 17,
+          "date": "Mar 17",
+          "turnover": 59125.71,
+          "regCommission": 3074.38,
+          "regTxCount": 0,
+          "reconTurnover": 59125.71,
+          "reconCommission": 3074.38,
+          "reconRate": 5.2,
+          "contractRate": 5.2,
+          "parts": [
+            {
+              "label": "Kurtley",
+              "rate": 5.2,
+              "amount": 3074.38,
+              "contractRate": 5.2,
+              "contractAmount": 3074.38,
+              "source": "Reconciliation",
+              "contractSource": "Agreement IE-16/04/24 Add No 5"
+            }
+          ]
+        },
+        {
+          "day": 18,
+          "date": "Mar 18",
+          "turnover": 18479.80,
+          "regCommission": 960.90,
+          "regTxCount": 0,
+          "reconTurnover": 18479.80,
+          "reconCommission": 960.90,
+          "reconRate": 5.2,
+          "contractRate": 5.2,
+          "parts": [
+            {
+              "label": "Kurtley",
+              "rate": 5.2,
+              "amount": 960.90,
+              "contractRate": 5.2,
+              "contractAmount": 960.90,
+              "source": "Reconciliation",
+              "contractSource": "Agreement IE-16/04/24 Add No 5"
+            }
+          ]
+        },
+        {
+          "day": 19,
+          "date": "Mar 19",
+          "turnover": 41378.92,
+          "regCommission": 2151.66,
+          "regTxCount": 0,
+          "reconTurnover": 41378.92,
+          "reconCommission": 2151.66,
+          "reconRate": 5.2,
+          "contractRate": 5.2,
+          "parts": [
+            {
+              "label": "Kurtley",
+              "rate": 5.2,
+              "amount": 2151.66,
+              "contractRate": 5.2,
+              "contractAmount": 2151.66,
+              "source": "Reconciliation",
+              "contractSource": "Agreement IE-16/04/24 Add No 5"
+            }
+          ]
+        },
+        {
+          "day": 20,
+          "date": "Mar 20",
+          "turnover": 7449.48,
+          "regCommission": 387.38,
+          "regTxCount": 0,
+          "reconTurnover": 7449.48,
+          "reconCommission": 387.38,
+          "reconRate": 5.2,
+          "contractRate": 5.2,
+          "parts": [
+            {
+              "label": "Kurtley",
+              "rate": 5.2,
+              "amount": 387.38,
+              "contractRate": 5.2,
+              "contractAmount": 387.38,
+              "source": "Reconciliation",
+              "contractSource": "Agreement IE-16/04/24 Add No 5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "feb-2025",
+      "label": "February",
+      "turnover": 1164673.67,
+      "registryAmount": 1164673.67,
+      "regCommission": 60564.41,
+      "regTxCount": 0,
+      "reconTurnover": 1164673.67,
+      "reconCommission": 60564.41,
+      "reconRate": 5.2,
+      "contractRate": 5.2,
+      "contractExpected": 60564.41,
+      "deviation": 0,
+      "parts": [
+        {
+          "label": "Kurtley",
+          "rate": 5.2,
+          "amount": 60564.41,
+          "contractRate": 5.2,
+          "contractAmount": 60564.41,
+          "source": "Reconciliation",
+          "contractSource": "Agreement IE-16/04/24 Add No 5"
+        }
+      ],
+      "days": [
+        {
+          "day": 11,
+          "date": "Feb 11",
+          "turnover": 10313.69,
+          "regCommission": 536.25,
+          "regTxCount": 0,
+          "reconTurnover": 10313.69,
+          "reconCommission": 536.25,
+          "reconRate": 5.2,
+          "contractRate": 5.2,
+          "parts": [
+            {
+              "label": "Kurtley",
+              "rate": 5.2,
+              "amount": 536.25,
+              "contractRate": 5.2,
+              "contractAmount": 536.25,
+              "source": "Reconciliation",
+              "contractSource": "Agreement IE-16/04/24 Add No 5"
+            }
+          ]
+        },
+        {
+          "day": 12,
+          "date": "Feb 12",
+          "turnover": 53799.68,
+          "regCommission": 2797.48,
+          "regTxCount": 0,
+          "reconTurnover": 53799.68,
+          "reconCommission": 2797.48,
+          "reconRate": 5.2,
+          "contractRate": 5.2,
+          "parts": [
+            {
+              "label": "Kurtley",
+              "rate": 5.2,
+              "amount": 2797.48,
+              "contractRate": 5.2,
+              "contractAmount": 2797.48,
+              "source": "Reconciliation",
+              "contractSource": "Agreement IE-16/04/24 Add No 5"
+            }
+          ]
+        },
+        {
+          "day": 13,
+          "date": "Feb 13",
+          "turnover": 57214.08,
+          "regCommission": 2975.18,
+          "regTxCount": 0,
+          "reconTurnover": 57214.08,
+          "reconCommission": 2975.18,
+          "reconRate": 5.2,
+          "contractRate": 5.2,
+          "parts": [
+            {
+              "label": "Kurtley",
+              "rate": 5.2,
+              "amount": 2975.18,
+              "contractRate": 5.2,
+              "contractAmount": 2975.18,
+              "source": "Reconciliation",
+              "contractSource": "Agreement IE-16/04/24 Add No 5"
+            }
+          ]
+        },
+        {
+          "day": 14,
+          "date": "Feb 14",
+          "turnover": 78863.37,
+          "regCommission": 4101.11,
+          "regTxCount": 0,
+          "reconTurnover": 78863.37,
+          "reconCommission": 4101.11,
+          "reconRate": 5.2,
+          "contractRate": 5.2,
+          "parts": [
+            {
+              "label": "Kurtley",
+              "rate": 5.2,
+              "amount": 4101.11,
+              "contractRate": 5.2,
+              "contractAmount": 4101.11,
+              "source": "Reconciliation",
+              "contractSource": "Agreement IE-16/04/24 Add No 5"
+            }
+          ]
+        },
+        {
+          "day": 15,
+          "date": "Feb 15",
+          "turnover": 89087.70,
+          "regCommission": 4632.65,
+          "regTxCount": 0,
+          "reconTurnover": 89087.70,
+          "reconCommission": 4632.65,
+          "reconRate": 5.2,
+          "contractRate": 5.2,
+          "parts": [
+            {
+              "label": "Kurtley",
+              "rate": 5.2,
+              "amount": 4632.65,
+              "contractRate": 5.2,
+              "contractAmount": 4632.65,
+              "source": "Reconciliation",
+              "contractSource": "Agreement IE-16/04/24 Add No 5"
+            }
+          ]
+        },
+        {
+          "day": 16,
+          "date": "Feb 16",
+          "turnover": 69644.33,
+          "regCommission": 3621.52,
+          "regTxCount": 0,
+          "reconTurnover": 69644.33,
+          "reconCommission": 3621.52,
+          "reconRate": 5.2,
+          "contractRate": 5.2,
+          "parts": [
+            {
+              "label": "Kurtley",
+              "rate": 5.2,
+              "amount": 3621.52,
+              "contractRate": 5.2,
+              "contractAmount": 3621.52,
+              "source": "Reconciliation",
+              "contractSource": "Agreement IE-16/04/24 Add No 5"
+            }
+          ]
+        },
+        {
+          "day": 17,
+          "date": "Feb 17",
+          "turnover": 54919.89,
+          "regCommission": 2855.92,
+          "regTxCount": 0,
+          "reconTurnover": 54919.89,
+          "reconCommission": 2855.92,
+          "reconRate": 5.2,
+          "contractRate": 5.2,
+          "parts": [
+            {
+              "label": "Kurtley",
+              "rate": 5.2,
+              "amount": 2855.92,
+              "contractRate": 5.2,
+              "contractAmount": 2855.92,
+              "source": "Reconciliation",
+              "contractSource": "Agreement IE-16/04/24 Add No 5"
+            }
+          ]
+        },
+        {
+          "day": 18,
+          "date": "Feb 18",
+          "turnover": 59367.46,
+          "regCommission": 3087.46,
+          "regTxCount": 0,
+          "reconTurnover": 59367.46,
+          "reconCommission": 3087.46,
+          "reconRate": 5.2,
+          "contractRate": 5.2,
+          "parts": [
+            {
+              "label": "Kurtley",
+              "rate": 5.2,
+              "amount": 3087.46,
+              "contractRate": 5.2,
+              "contractAmount": 3087.46,
+              "source": "Reconciliation",
+              "contractSource": "Agreement IE-16/04/24 Add No 5"
+            }
+          ]
+        },
+        {
+          "day": 19,
+          "date": "Feb 19",
+          "turnover": 65737.49,
+          "regCommission": 3418.39,
+          "regTxCount": 0,
+          "reconTurnover": 65737.49,
+          "reconCommission": 3418.39,
+          "reconRate": 5.2,
+          "contractRate": 5.2,
+          "parts": [
+            {
+              "label": "Kurtley",
+              "rate": 5.2,
+              "amount": 3418.39,
+              "contractRate": 5.2,
+              "contractAmount": 3418.39,
+              "source": "Reconciliation",
+              "contractSource": "Agreement IE-16/04/24 Add No 5"
+            }
+          ]
+        },
+        {
+          "day": 20,
+          "date": "Feb 20",
+          "turnover": 69999.84,
+          "regCommission": 3640.10,
+          "regTxCount": 0,
+          "reconTurnover": 69999.84,
+          "reconCommission": 3640.10,
+          "reconRate": 5.2,
+          "contractRate": 5.2,
+          "parts": [
+            {
+              "label": "Kurtley",
+              "rate": 5.2,
+              "amount": 3640.10,
+              "contractRate": 5.2,
+              "contractAmount": 3640.10,
+              "source": "Reconciliation",
+              "contractSource": "Agreement IE-16/04/24 Add No 5"
+            }
+          ]
+        },
+        {
+          "day": 21,
+          "date": "Feb 21",
+          "turnover": 65635.37,
+          "regCommission": 3412.99,
+          "regTxCount": 0,
+          "reconTurnover": 65635.37,
+          "reconCommission": 3412.99,
+          "reconRate": 5.2,
+          "contractRate": 5.2,
+          "parts": [
+            {
+              "label": "Kurtley",
+              "rate": 5.2,
+              "amount": 3412.99,
+              "contractRate": 5.2,
+              "contractAmount": 3412.99,
+              "source": "Reconciliation",
+              "contractSource": "Agreement IE-16/04/24 Add No 5"
+            }
+          ]
+        },
+        {
+          "day": 22,
+          "date": "Feb 22",
+          "turnover": 74873.77,
+          "regCommission": 3893.57,
+          "regTxCount": 0,
+          "reconTurnover": 74873.77,
+          "reconCommission": 3893.57,
+          "reconRate": 5.2,
+          "contractRate": 5.2,
+          "parts": [
+            {
+              "label": "Kurtley",
+              "rate": 5.2,
+              "amount": 3893.57,
+              "contractRate": 5.2,
+              "contractAmount": 3893.57,
+              "source": "Reconciliation",
+              "contractSource": "Agreement IE-16/04/24 Add No 5"
+            }
+          ]
+        },
+        {
+          "day": 23,
+          "date": "Feb 23",
+          "turnover": 66654.68,
+          "regCommission": 3466.18,
+          "regTxCount": 0,
+          "reconTurnover": 66654.68,
+          "reconCommission": 3466.18,
+          "reconRate": 5.2,
+          "contractRate": 5.2,
+          "parts": [
+            {
+              "label": "Kurtley",
+              "rate": 5.2,
+              "amount": 3466.18,
+              "contractRate": 5.2,
+              "contractAmount": 3466.18,
+              "source": "Reconciliation",
+              "contractSource": "Agreement IE-16/04/24 Add No 5"
+            }
+          ]
+        },
+        {
+          "day": 24,
+          "date": "Feb 24",
+          "turnover": 65771.06,
+          "regCommission": 3420.37,
+          "regTxCount": 0,
+          "reconTurnover": 65771.06,
+          "reconCommission": 3420.37,
+          "reconRate": 5.2,
+          "contractRate": 5.2,
+          "parts": [
+            {
+              "label": "Kurtley",
+              "rate": 5.2,
+              "amount": 3420.37,
+              "contractRate": 5.2,
+              "contractAmount": 3420.37,
+              "source": "Reconciliation",
+              "contractSource": "Agreement IE-16/04/24 Add No 5"
+            }
+          ]
+        },
+        {
+          "day": 25,
+          "date": "Feb 25",
+          "turnover": 60435.48,
+          "regCommission": 3142.82,
+          "regTxCount": 0,
+          "reconTurnover": 60435.48,
+          "reconCommission": 3142.82,
+          "reconRate": 5.2,
+          "contractRate": 5.2,
+          "parts": [
+            {
+              "label": "Kurtley",
+              "rate": 5.2,
+              "amount": 3142.82,
+              "contractRate": 5.2,
+              "contractAmount": 3142.82,
+              "source": "Reconciliation",
+              "contractSource": "Agreement IE-16/04/24 Add No 5"
+            }
+          ]
+        },
+        {
+          "day": 26,
+          "date": "Feb 26",
+          "turnover": 66579.75,
+          "regCommission": 3462.30,
+          "regTxCount": 0,
+          "reconTurnover": 66579.75,
+          "reconCommission": 3462.30,
+          "reconRate": 5.2,
+          "contractRate": 5.2,
+          "parts": [
+            {
+              "label": "Kurtley",
+              "rate": 5.2,
+              "amount": 3462.30,
+              "contractRate": 5.2,
+              "contractAmount": 3462.30,
+              "source": "Reconciliation",
+              "contractSource": "Agreement IE-16/04/24 Add No 5"
+            }
+          ]
+        },
+        {
+          "day": 27,
+          "date": "Feb 27",
+          "turnover": 67484.25,
+          "regCommission": 3509.08,
+          "regTxCount": 0,
+          "reconTurnover": 67484.25,
+          "reconCommission": 3509.08,
+          "reconRate": 5.2,
+          "contractRate": 5.2,
+          "parts": [
+            {
+              "label": "Kurtley",
+              "rate": 5.2,
+              "amount": 3509.08,
+              "contractRate": 5.2,
+              "contractAmount": 3509.08,
+              "source": "Reconciliation",
+              "contractSource": "Agreement IE-16/04/24 Add No 5"
+            }
+          ]
+        },
+        {
+          "day": 28,
+          "date": "Feb 28",
+          "turnover": 88291.78,
+          "regCommission": 4591.04,
+          "regTxCount": 0,
+          "reconTurnover": 88291.78,
+          "reconCommission": 4591.04,
+          "reconRate": 5.2,
+          "contractRate": 5.2,
+          "parts": [
+            {
+              "label": "Kurtley",
+              "rate": 5.2,
+              "amount": 4591.04,
+              "contractRate": 5.2,
+              "contractAmount": 4591.04,
+              "source": "Reconciliation",
+              "contractSource": "Agreement IE-16/04/24 Add No 5"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

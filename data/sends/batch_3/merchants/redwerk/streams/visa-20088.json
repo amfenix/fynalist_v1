@@ -1,0 +1,123 @@
+{
+  "streamId": "visa-20088",
+  "label": "VISA Trendbeam MK 20088",
+  "currency": "EUR",
+  "point": "Card Acquiring",
+  "provider": "Kurtley/Trendbeam",
+  "months": [
+    {
+      "key": "jul-2025",
+      "label": "July",
+      "turnover": 137165.71,
+      "registryAmount": 137165.71,
+      "regCommission": 7269.92,
+      "regTxCount": 0,
+      "reconTurnover": 137165.71,
+      "reconCommission": 7269.92,
+      "reconRate": 5.3,
+      "contractRate": 5.75,
+      "contractExpected": 7887.03,
+      "deviation": -617.11,
+      "parts": [
+        {
+          "label": "Kurtley/Trendbeam",
+          "rate": 5.3,
+          "amount": 7269.92,
+          "contractRate": 5.75,
+          "contractAmount": 7887.03,
+          "source": "Reconciliation",
+          "contractSource": "Agreement IE-16/04/24 Add No 6"
+        }
+      ],
+      "days": [
+        {
+          "day": 4,
+          "date": "Jul 4",
+          "turnover": 32172.51,
+          "regCommission": 1705.05,
+          "regTxCount": 0,
+          "reconTurnover": 32172.51,
+          "reconCommission": 1705.05,
+          "reconRate": 5.3,
+          "contractRate": 5.75,
+          "parts": [{ "label": "Kurtley/Trendbeam", "rate": 5.3, "amount": 1705.05, "contractRate": 5.75, "contractAmount": 1849.92, "source": "Reconciliation", "contractSource": "Agreement IE-16/04/24 Add No 6" }]
+        },
+        {
+          "day": 5,
+          "date": "Jul 5",
+          "turnover": 46979.81,
+          "regCommission": 2489.92,
+          "regTxCount": 0,
+          "reconTurnover": 46979.81,
+          "reconCommission": 2489.92,
+          "reconRate": 5.3,
+          "contractRate": 5.75,
+          "parts": [{ "label": "Kurtley/Trendbeam", "rate": 5.3, "amount": 2489.92, "contractRate": 5.75, "contractAmount": 2701.34, "source": "Reconciliation", "contractSource": "Agreement IE-16/04/24 Add No 6" }]
+        },
+        {
+          "day": 6,
+          "date": "Jul 6",
+          "turnover": 34801.99,
+          "regCommission": 1844.57,
+          "regTxCount": 0,
+          "reconTurnover": 34801.99,
+          "reconCommission": 1844.57,
+          "reconRate": 5.3,
+          "contractRate": 5.75,
+          "parts": [{ "label": "Kurtley/Trendbeam", "rate": 5.3, "amount": 1844.57, "contractRate": 5.75, "contractAmount": 2001.11, "source": "Reconciliation", "contractSource": "Agreement IE-16/04/24 Add No 6" }]
+        },
+        {
+          "day": 7,
+          "date": "Jul 7",
+          "turnover": 23211.40,
+          "regCommission": 1230.38,
+          "regTxCount": 0,
+          "reconTurnover": 23211.40,
+          "reconCommission": 1230.38,
+          "reconRate": 5.3,
+          "contractRate": 5.75,
+          "parts": [{ "label": "Kurtley/Trendbeam", "rate": 5.3, "amount": 1230.38, "contractRate": 5.75, "contractAmount": 1334.66, "source": "Reconciliation", "contractSource": "Agreement IE-16/04/24 Add No 6" }]
+        }
+      ]
+    },
+    {
+      "key": "jun-2025",
+      "label": "June",
+      "turnover": 1.00,
+      "registryAmount": 1.00,
+      "regCommission": 0.05,
+      "regTxCount": 0,
+      "reconTurnover": 1.00,
+      "reconCommission": 0.05,
+      "reconRate": 5.0,
+      "contractRate": 5.75,
+      "contractExpected": 0.06,
+      "deviation": -0.01,
+      "parts": [
+        {
+          "label": "Kurtley/Trendbeam",
+          "rate": 5.0,
+          "amount": 0.05,
+          "contractRate": 5.75,
+          "contractAmount": 0.06,
+          "source": "Reconciliation",
+          "contractSource": "Agreement IE-16/04/24 Add No 6"
+        }
+      ],
+      "days": [
+        {
+          "day": 13,
+          "date": "Jun 13",
+          "turnover": 1.00,
+          "regCommission": 0.05,
+          "regTxCount": 0,
+          "reconTurnover": 1.00,
+          "reconCommission": 0.05,
+          "reconRate": 5.0,
+          "contractRate": 5.75,
+          "parts": [{ "label": "Kurtley/Trendbeam", "rate": 5.0, "amount": 0.05, "contractRate": 5.75, "contractAmount": 0.06, "source": "Reconciliation", "contractSource": "Agreement IE-16/04/24 Add No 6" }]
+        }
+      ]
+    }
+  ]
+}

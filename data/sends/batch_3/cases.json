@@ -23,6 +23,66 @@
       "period": "Oct 16, 2025 — Nov 30, 2025",
       "status": "open",
       "summary": "Registry continued charging 4.8% effective rate while reconciliation switched to 4.2% from Oct 16. The gap persisted through November 30. Total overpayment in registry vs reconciliation: 24,966.10 EUR."
+    },
+    {
+      "id": "INV-2025-0046",
+      "type": "rate-change",
+      "title": "EUR Acquiring contract not provided (MK 1127)",
+      "merchant": "TradingTech",
+      "merchantId": "trading-tech",
+      "partLabel": "Paymentz",
+      "deviation": 323083.09,
+      "period": "Jan 1, 2025 — Apr 9, 2025",
+      "status": "open",
+      "summary": "EUR card acquiring (MK 1127) processed 7.8M EUR with 386,899 EUR total commission. Acquiring contract not provided. Only Smartflow ToB documents ghost rates. The 1.75% base commission (323,083 EUR) has no contract backing."
+    },
+    {
+      "id": "INV-2025-0047",
+      "type": "rate-change",
+      "title": "Rate 4.2% applied early — TRY Card",
+      "merchant": "Lingo Ventures",
+      "merchantId": "lingo-ventures",
+      "partLabel": "Smartflow",
+      "deviation": -196.44,
+      "period": "Oct 16, 2025",
+      "status": "open",
+      "summary": "TRY Card Acquiring: reconciliation applied 4.2% on Oct 16, one day before contract addendum (Oct 17). Contract rate was 5.0%. Underpayment: 196.44 EUR."
+    },
+    {
+      "id": "INV-2025-0048",
+      "type": "rate-change",
+      "title": "Rate 4.2% applied early — USD Card",
+      "merchant": "Lingo Ventures",
+      "merchantId": "lingo-ventures",
+      "partLabel": "Smartflow",
+      "deviation": -51.53,
+      "period": "Oct 16, 2025",
+      "status": "open",
+      "summary": "USD Card Acquiring: reconciliation applied 4.2% on Oct 16, one day before contract addendum (Oct 17). Contract rate was 5.0%. Underpayment: 51.53 EUR."
+    },
+    {
+      "id": "INV-2025-0049",
+      "type": "rate-change",
+      "title": "Rate 4.2% applied early — NOK Card",
+      "merchant": "Lingo Ventures",
+      "merchantId": "lingo-ventures",
+      "partLabel": "Smartflow",
+      "deviation": -87.04,
+      "period": "Oct 16, 2025",
+      "status": "open",
+      "summary": "NOK Card Acquiring: reconciliation applied 4.2% on Oct 16, one day before contract addendum (Oct 17). Contract rate was 5.0%. Underpayment: 87.04 EUR."
+    },
+    {
+      "id": "INV-2025-0050",
+      "type": "rate-change",
+      "title": "Rate 4.2% applied early — AUD Card",
+      "merchant": "Lingo Ventures",
+      "merchantId": "lingo-ventures",
+      "partLabel": "Smartflow",
+      "deviation": -119.65,
+      "period": "Oct 16, 2025",
+      "status": "open",
+      "summary": "AUD Card Acquiring: reconciliation applied 4.2% on Oct 16, one day before contract addendum (Oct 17). Contract rate was 5.0%. Underpayment: 119.65 EUR."
     }
   ]
 }

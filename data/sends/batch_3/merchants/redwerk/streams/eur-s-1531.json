@@ -1,0 +1,80 @@
+{
+  "streamId": "eur-s-1531",
+  "label": "EUR TrendBeam MC MK 1531",
+  "currency": "EUR",
+  "point": "Card Acquiring",
+  "provider": "Smartflow/TrendBeam",
+  "months": [
+    {
+      "key": "may-2025",
+      "label": "May",
+      "turnover": 3580.26,
+      "registryAmount": 3580.26,
+      "regCommission": 171.85,
+      "regTxCount": 0,
+      "reconTurnover": 3580.26,
+      "reconCommission": 171.85,
+      "reconRate": 4.8,
+      "contractRate": 4.8,
+      "contractExpected": 171.85,
+      "deviation": 0,
+      "parts": [
+        {
+          "label": "Smartflow/TrendBeam",
+          "rate": 4.8,
+          "amount": 171.85,
+          "contractRate": 4.8,
+          "contractAmount": 171.85,
+          "source": "Reconciliation",
+          "contractSource": "Sheet header rate"
+        }
+      ],
+      "days": [
+        {
+          "day": 1,
+          "date": "May 1",
+          "turnover": 1.23,
+          "regCommission": 0.06,
+          "regTxCount": 0,
+          "reconTurnover": 1.23,
+          "reconCommission": 0.06,
+          "reconRate": 4.8,
+          "contractRate": 4.8,
+          "parts": [
+            {
+              "label": "Smartflow/TrendBeam",
+              "rate": 4.8,
+              "amount": 0.06,
+              "contractRate": 4.8,
+              "contractAmount": 0.06,
+              "source": "Reconciliation",
+              "contractSource": "Sheet header rate"
+            }
+          ]
+        },
+        {
+          "day": 5,
+          "date": "May 5",
+          "turnover": 3579.03,
+          "regCommission": 171.79,
+          "regTxCount": 0,
+          "reconTurnover": 3579.03,
+          "reconCommission": 171.79,
+          "reconRate": 4.8,
+          "contractRate": 4.8,
+          "parts": [
+            {
+              "label": "Smartflow/TrendBeam",
+              "rate": 4.8,
+              "amount": 171.79,
+              "contractRate": 4.8,
+              "contractAmount": 171.79,
+              "source": "Reconciliation",
+              "contractSource": "Sheet header rate"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

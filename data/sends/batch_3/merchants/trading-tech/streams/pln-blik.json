@@ -1,0 +1,251 @@
+{
+  "streamId": "pln-blik",
+  "label": "BLIK PLN",
+  "currency": "PLN",
+  "point": "Open Banking",
+  "provider": "Paymentz/Finthesis",
+  "months": [
+    {
+      "key": "dec-2025",
+      "label": "December",
+      "turnover": 56239.88,
+      "registryAmount": 56239.88,
+      "regCommission": 1687.20,
+      "regTxCount": 149,
+      "reconTurnover": 56239.88,
+      "reconCommission": 1687.20,
+      "reconRate": 3.0,
+      "contractRate": 3.0,
+      "contractExpected": 1687.20,
+      "deviation": 0,
+      "parts": [
+        {
+          "label": "Finthesis",
+          "rate": 3.0,
+          "amount": 1687.20,
+          "contractRate": 3.0,
+          "contractAmount": 1687.20,
+          "source": "Reconciliation",
+          "contractSource": "Contract No. 11/12-01/OB (Addendum No. 3)"
+        }
+      ],
+      "days": []
+    },
+    {
+      "key": "nov-2025",
+      "label": "November",
+      "turnover": 46167.26,
+      "registryAmount": 46167.26,
+      "regCommission": 1385.00,
+      "regTxCount": 181,
+      "reconTurnover": 46167.26,
+      "reconCommission": 1385.00,
+      "reconRate": 3.0,
+      "contractRate": 3.0,
+      "contractExpected": 1385.00,
+      "deviation": 0,
+      "parts": [
+        {
+          "label": "Finthesis",
+          "rate": 3.0,
+          "amount": 1385.00,
+          "contractRate": 3.0,
+          "contractAmount": 1385.00,
+          "source": "Reconciliation",
+          "contractSource": "Contract No. 11/12-01/OB (Addendum No. 3)"
+        }
+      ],
+      "days": []
+    },
+    {
+      "key": "oct-2025",
+      "label": "October",
+      "turnover": 33945.55,
+      "registryAmount": 33945.55,
+      "regCommission": 1018.40,
+      "regTxCount": 143,
+      "reconTurnover": 33945.55,
+      "reconCommission": 1018.40,
+      "reconRate": 3.0,
+      "contractRate": 3.0,
+      "contractExpected": 1018.40,
+      "deviation": 0,
+      "parts": [
+        {
+          "label": "Finthesis",
+          "rate": 3.0,
+          "amount": 1018.40,
+          "contractRate": 3.0,
+          "contractAmount": 1018.40,
+          "source": "Reconciliation",
+          "contractSource": "Contract No. 11/12-01/OB (Addendum No. 3)"
+        }
+      ],
+      "days": []
+    },
+    {
+      "key": "sep-2025",
+      "label": "September",
+      "turnover": 0,
+      "registryAmount": 0,
+      "regCommission": 0,
+      "regTxCount": 0,
+      "reconTurnover": 0,
+      "reconCommission": 0,
+      "reconRate": 0,
+      "contractRate": 0,
+      "contractExpected": 0,
+      "deviation": 0,
+      "parts": [],
+      "days": []
+    },
+    {
+      "key": "aug-2025",
+      "label": "August",
+      "turnover": 0,
+      "registryAmount": 0,
+      "regCommission": 0,
+      "regTxCount": 0,
+      "reconTurnover": 0,
+      "reconCommission": 0,
+      "reconRate": 0,
+      "contractRate": 0,
+      "contractExpected": 0,
+      "deviation": 0,
+      "parts": [],
+      "days": []
+    },
+    {
+      "key": "jul-2025",
+      "label": "July",
+      "turnover": 386.00,
+      "registryAmount": 386.00,
+      "regCommission": 11.58,
+      "regTxCount": 8,
+      "reconTurnover": 386.00,
+      "reconCommission": 11.58,
+      "reconRate": 3.0,
+      "contractRate": 3.0,
+      "contractExpected": 11.58,
+      "deviation": 0,
+      "parts": [
+        {
+          "label": "Paymentz",
+          "rate": 3.0,
+          "amount": 11.58,
+          "contractRate": 3.0,
+          "contractAmount": 11.58,
+          "source": "Reconciliation",
+          "contractSource": "Contract No. 11/12-01/OB"
+        }
+      ],
+      "days": []
+    },
+    {
+      "key": "jun-2025",
+      "label": "June",
+      "turnover": 0,
+      "registryAmount": 0,
+      "regCommission": 0,
+      "regTxCount": 0,
+      "reconTurnover": 0,
+      "reconCommission": 0,
+      "reconRate": 0,
+      "contractRate": 0,
+      "contractExpected": 0,
+      "deviation": 0,
+      "parts": [],
+      "days": []
+    },
+    {
+      "key": "may-2025",
+      "label": "May",
+      "turnover": 0,
+      "registryAmount": 0,
+      "regCommission": 0,
+      "regTxCount": 0,
+      "reconTurnover": 0,
+      "reconCommission": 0,
+      "reconRate": 0,
+      "contractRate": 0,
+      "contractExpected": 0,
+      "deviation": 0,
+      "parts": [],
+      "days": []
+    },
+    {
+      "key": "apr-2025",
+      "label": "April",
+      "turnover": 0,
+      "registryAmount": 0,
+      "regCommission": 0,
+      "regTxCount": 0,
+      "reconTurnover": 0,
+      "reconCommission": 0,
+      "reconRate": 0,
+      "contractRate": 0,
+      "contractExpected": 0,
+      "deviation": 0,
+      "parts": [],
+      "days": []
+    },
+    {
+      "key": "mar-2025",
+      "label": "March",
+      "turnover": 0.10,
+      "registryAmount": 0.10,
+      "regCommission": 0,
+      "regTxCount": 1,
+      "reconTurnover": 0.10,
+      "reconCommission": 0,
+      "reconRate": 0,
+      "contractRate": 3.0,
+      "contractExpected": 0,
+      "deviation": 0,
+      "parts": [
+        {
+          "label": "Paymentz",
+          "rate": 0,
+          "amount": 0,
+          "contractRate": 3.0,
+          "contractAmount": 0,
+          "source": "Reconciliation",
+          "contractSource": "Contract No. 11/12-01/OB"
+        }
+      ],
+      "days": []
+    },
+    {
+      "key": "feb-2025",
+      "label": "February",
+      "turnover": 0,
+      "registryAmount": 0,
+      "regCommission": 0,
+      "regTxCount": 0,
+      "reconTurnover": 0,
+      "reconCommission": 0,
+      "reconRate": 0,
+      "contractRate": 0,
+      "contractExpected": 0,
+      "deviation": 0,
+      "parts": [],
+      "days": []
+    },
+    {
+      "key": "jan-2025",
+      "label": "January",
+      "turnover": 0,
+      "registryAmount": 0,
+      "regCommission": 0,
+      "regTxCount": 0,
+      "reconTurnover": 0,
+      "reconCommission": 0,
+      "reconRate": 0,
+      "contractRate": 0,
+      "contractExpected": 0,
+      "deviation": 0,
+      "parts": [],
+      "days": []
+    }
+  ]
+}

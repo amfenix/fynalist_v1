@@ -1,0 +1,2083 @@
+{
+  "streamId": "cad-1310",
+  "label": "CAD Satellite (MK 1310)",
+  "currency": "CAD",
+  "point": "Smartflow Satellite",
+  "provider": "Smartflow",
+  "months": [
+    {
+      "key": "may-2025",
+      "label": "May",
+      "turnover": 17075.0,
+      "registryAmount": 17075.0,
+      "regCommission": 1264.97,
+      "regTxCount": 0,
+      "reconTurnover": 17075.0,
+      "reconCommission": 1264.97,
+      "reconRate": 7.408,
+      "contractRate": 0,
+      "contractExpected": 0,
+      "deviation": 1264.97,
+      "parts": [
+        {
+          "label": "Smartflow",
+          "rate": 7.408,
+          "amount": 1264.97,
+          "contractRate": 0,
+          "contractAmount": 0,
+          "source": "Reconciliation",
+          "contractSource": "No contract provided"
+        }
+      ],
+      "hasRateChange": true,
+      "rateChangeInfo": "8.0% \u2192 7.0% from May 12",
+      "rateChangeDay": 12,
+      "rateFrom": 8.0,
+      "rateTo": 7.0,
+      "days": [
+        {
+          "day": 1,
+          "date": "May 1",
+          "turnover": 580.0,
+          "regCommission": 46.4,
+          "regTxCount": 0,
+          "reconTurnover": 580.0,
+          "reconCommission": 46.4,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 46.4,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "date": "May 2",
+          "turnover": 1008.0,
+          "regCommission": 80.64,
+          "regTxCount": 0,
+          "reconTurnover": 1008.0,
+          "reconCommission": 80.64,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 80.64,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "date": "May 3",
+          "turnover": 1400.0,
+          "regCommission": 112.0,
+          "regTxCount": 0,
+          "reconTurnover": 1400.0,
+          "reconCommission": 112.0,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 112.0,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 4,
+          "date": "May 4",
+          "turnover": 490.0,
+          "regCommission": 39.2,
+          "regTxCount": 0,
+          "reconTurnover": 490.0,
+          "reconCommission": 39.2,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 39.2,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 5,
+          "date": "May 5",
+          "turnover": 395.0,
+          "regCommission": 31.6,
+          "regTxCount": 0,
+          "reconTurnover": 395.0,
+          "reconCommission": 31.6,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 31.6,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 6,
+          "date": "May 6",
+          "turnover": 235.0,
+          "regCommission": 18.8,
+          "regTxCount": 0,
+          "reconTurnover": 235.0,
+          "reconCommission": 18.8,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 18.8,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "date": "May 7",
+          "turnover": 462.0,
+          "regCommission": 36.96,
+          "regTxCount": 0,
+          "reconTurnover": 462.0,
+          "reconCommission": 36.96,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 36.96,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 8,
+          "date": "May 8",
+          "turnover": 240.0,
+          "regCommission": 19.2,
+          "regTxCount": 0,
+          "reconTurnover": 240.0,
+          "reconCommission": 19.2,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 19.2,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 9,
+          "date": "May 9",
+          "turnover": 1031.0,
+          "regCommission": 82.48,
+          "regTxCount": 0,
+          "reconTurnover": 1031.0,
+          "reconCommission": 82.48,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 82.48,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 10,
+          "date": "May 10",
+          "turnover": 456.0,
+          "regCommission": 36.48,
+          "regTxCount": 0,
+          "reconTurnover": 456.0,
+          "reconCommission": 36.48,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 36.48,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 11,
+          "date": "May 11",
+          "turnover": 675.0,
+          "regCommission": 54.0,
+          "regTxCount": 0,
+          "reconTurnover": 675.0,
+          "reconCommission": 54.0,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 54.0,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 12,
+          "date": "May 12",
+          "turnover": 919.0,
+          "regCommission": 64.33,
+          "regTxCount": 0,
+          "reconTurnover": 919.0,
+          "reconCommission": 64.33,
+          "reconRate": 7.0,
+          "contractRate": 0,
+          "rateChangeDay": true,
+          "rateFrom": 8.0,
+          "rateTo": 7.0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 7.0,
+              "amount": 64.33,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 13,
+          "date": "May 13",
+          "turnover": 885.0,
+          "regCommission": 61.95,
+          "regTxCount": 0,
+          "reconTurnover": 885.0,
+          "reconCommission": 61.95,
+          "reconRate": 7.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 7.0,
+              "amount": 61.95,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 14,
+          "date": "May 14",
+          "turnover": 760.0,
+          "regCommission": 53.2,
+          "regTxCount": 0,
+          "reconTurnover": 760.0,
+          "reconCommission": 53.2,
+          "reconRate": 7.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 7.0,
+              "amount": 53.2,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 15,
+          "date": "May 15",
+          "turnover": 842.0,
+          "regCommission": 58.94,
+          "regTxCount": 0,
+          "reconTurnover": 842.0,
+          "reconCommission": 58.94,
+          "reconRate": 7.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 7.0,
+              "amount": 58.94,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 16,
+          "date": "May 16",
+          "turnover": 456.0,
+          "regCommission": 31.92,
+          "regTxCount": 0,
+          "reconTurnover": 456.0,
+          "reconCommission": 31.92,
+          "reconRate": 7.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 7.0,
+              "amount": 31.92,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 17,
+          "date": "May 17",
+          "turnover": 755.0,
+          "regCommission": 52.85,
+          "regTxCount": 0,
+          "reconTurnover": 755.0,
+          "reconCommission": 52.85,
+          "reconRate": 7.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 7.0,
+              "amount": 52.85,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 18,
+          "date": "May 18",
+          "turnover": 527.0,
+          "regCommission": 36.89,
+          "regTxCount": 0,
+          "reconTurnover": 527.0,
+          "reconCommission": 36.89,
+          "reconRate": 7.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 7.0,
+              "amount": 36.89,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 19,
+          "date": "May 19",
+          "turnover": 325.0,
+          "regCommission": 22.75,
+          "regTxCount": 0,
+          "reconTurnover": 325.0,
+          "reconCommission": 22.75,
+          "reconRate": 7.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 7.0,
+              "amount": 22.75,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 20,
+          "date": "May 20",
+          "turnover": 333.0,
+          "regCommission": 23.31,
+          "regTxCount": 0,
+          "reconTurnover": 333.0,
+          "reconCommission": 23.31,
+          "reconRate": 7.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 7.0,
+              "amount": 23.31,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 21,
+          "date": "May 21",
+          "turnover": 681.0,
+          "regCommission": 47.67,
+          "regTxCount": 0,
+          "reconTurnover": 681.0,
+          "reconCommission": 47.67,
+          "reconRate": 7.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 7.0,
+              "amount": 47.67,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 22,
+          "date": "May 22",
+          "turnover": 655.0,
+          "regCommission": 45.85,
+          "regTxCount": 0,
+          "reconTurnover": 655.0,
+          "reconCommission": 45.85,
+          "reconRate": 7.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 7.0,
+              "amount": 45.85,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 23,
+          "date": "May 23",
+          "turnover": 305.0,
+          "regCommission": 21.35,
+          "regTxCount": 0,
+          "reconTurnover": 305.0,
+          "reconCommission": 21.35,
+          "reconRate": 7.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 7.0,
+              "amount": 21.35,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 24,
+          "date": "May 24",
+          "turnover": 1535.0,
+          "regCommission": 107.45,
+          "regTxCount": 0,
+          "reconTurnover": 1535.0,
+          "reconCommission": 107.45,
+          "reconRate": 7.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 7.0,
+              "amount": 107.45,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 25,
+          "date": "May 25",
+          "turnover": 500.0,
+          "regCommission": 35.0,
+          "regTxCount": 0,
+          "reconTurnover": 500.0,
+          "reconCommission": 35.0,
+          "reconRate": 7.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 7.0,
+              "amount": 35.0,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 26,
+          "date": "May 26",
+          "turnover": 360.0,
+          "regCommission": 25.2,
+          "regTxCount": 0,
+          "reconTurnover": 360.0,
+          "reconCommission": 25.2,
+          "reconRate": 7.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 7.0,
+              "amount": 25.2,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 27,
+          "date": "May 27",
+          "turnover": 140.0,
+          "regCommission": 9.8,
+          "regTxCount": 0,
+          "reconTurnover": 140.0,
+          "reconCommission": 9.8,
+          "reconRate": 7.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 7.0,
+              "amount": 9.8,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 28,
+          "date": "May 28",
+          "turnover": 125.0,
+          "regCommission": 8.75,
+          "regTxCount": 0,
+          "reconTurnover": 125.0,
+          "reconCommission": 8.75,
+          "reconRate": 7.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 7.0,
+              "amount": 8.75,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "apr-2025",
+      "label": "April",
+      "turnover": 14602.98,
+      "registryAmount": 14602.98,
+      "regCommission": 1168.23,
+      "regTxCount": 0,
+      "reconTurnover": 14602.98,
+      "reconCommission": 1168.23,
+      "reconRate": 8.0,
+      "contractRate": 0,
+      "contractExpected": 0,
+      "deviation": 1168.23,
+      "parts": [
+        {
+          "label": "Smartflow",
+          "rate": 8.0,
+          "amount": 1168.23,
+          "contractRate": 0,
+          "contractAmount": 0,
+          "source": "Reconciliation",
+          "contractSource": "No contract provided"
+        }
+      ],
+      "days": [
+        {
+          "day": 1,
+          "date": "Apr 1",
+          "turnover": 155.0,
+          "regCommission": 12.4,
+          "regTxCount": 0,
+          "reconTurnover": 155.0,
+          "reconCommission": 12.4,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 12.4,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "date": "Apr 2",
+          "turnover": 445.0,
+          "regCommission": 35.6,
+          "regTxCount": 0,
+          "reconTurnover": 445.0,
+          "reconCommission": 35.6,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 35.6,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "date": "Apr 3",
+          "turnover": 360.0,
+          "regCommission": 28.8,
+          "regTxCount": 0,
+          "reconTurnover": 360.0,
+          "reconCommission": 28.8,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 28.8,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 4,
+          "date": "Apr 4",
+          "turnover": 717.64,
+          "regCommission": 57.41,
+          "regTxCount": 0,
+          "reconTurnover": 717.64,
+          "reconCommission": 57.41,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 57.41,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 5,
+          "date": "Apr 5",
+          "turnover": 280.0,
+          "regCommission": 22.4,
+          "regTxCount": 0,
+          "reconTurnover": 280.0,
+          "reconCommission": 22.4,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 22.4,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 6,
+          "date": "Apr 6",
+          "turnover": 460.0,
+          "regCommission": 36.8,
+          "regTxCount": 0,
+          "reconTurnover": 460.0,
+          "reconCommission": 36.8,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 36.8,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "date": "Apr 7",
+          "turnover": 162.0,
+          "regCommission": 12.96,
+          "regTxCount": 0,
+          "reconTurnover": 162.0,
+          "reconCommission": 12.96,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 12.96,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 8,
+          "date": "Apr 8",
+          "turnover": 411.54,
+          "regCommission": 32.92,
+          "regTxCount": 0,
+          "reconTurnover": 411.54,
+          "reconCommission": 32.92,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 32.92,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 9,
+          "date": "Apr 9",
+          "turnover": 100.0,
+          "regCommission": 8.0,
+          "regTxCount": 0,
+          "reconTurnover": 100.0,
+          "reconCommission": 8.0,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 8.0,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 10,
+          "date": "Apr 10",
+          "turnover": 407.0,
+          "regCommission": 32.56,
+          "regTxCount": 0,
+          "reconTurnover": 407.0,
+          "reconCommission": 32.56,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 32.56,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 11,
+          "date": "Apr 11",
+          "turnover": 716.0,
+          "regCommission": 57.28,
+          "regTxCount": 0,
+          "reconTurnover": 716.0,
+          "reconCommission": 57.28,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 57.28,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 12,
+          "date": "Apr 12",
+          "turnover": 299.0,
+          "regCommission": 23.92,
+          "regTxCount": 0,
+          "reconTurnover": 299.0,
+          "reconCommission": 23.92,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 23.92,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 13,
+          "date": "Apr 13",
+          "turnover": 193.0,
+          "regCommission": 15.44,
+          "regTxCount": 0,
+          "reconTurnover": 193.0,
+          "reconCommission": 15.44,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 15.44,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 14,
+          "date": "Apr 14",
+          "turnover": 275.0,
+          "regCommission": 22.0,
+          "regTxCount": 0,
+          "reconTurnover": 275.0,
+          "reconCommission": 22.0,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 22.0,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 15,
+          "date": "Apr 15",
+          "turnover": 193.0,
+          "regCommission": 15.44,
+          "regTxCount": 0,
+          "reconTurnover": 193.0,
+          "reconCommission": 15.44,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 15.44,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 16,
+          "date": "Apr 16",
+          "turnover": 573.8,
+          "regCommission": 45.9,
+          "regTxCount": 0,
+          "reconTurnover": 573.8,
+          "reconCommission": 45.9,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 45.9,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 17,
+          "date": "Apr 17",
+          "turnover": 580.0,
+          "regCommission": 46.4,
+          "regTxCount": 0,
+          "reconTurnover": 580.0,
+          "reconCommission": 46.4,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 46.4,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 18,
+          "date": "Apr 18",
+          "turnover": 483.0,
+          "regCommission": 38.64,
+          "regTxCount": 0,
+          "reconTurnover": 483.0,
+          "reconCommission": 38.64,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 38.64,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 19,
+          "date": "Apr 19",
+          "turnover": 788.0,
+          "regCommission": 63.04,
+          "regTxCount": 0,
+          "reconTurnover": 788.0,
+          "reconCommission": 63.04,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 63.04,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 20,
+          "date": "Apr 20",
+          "turnover": 347.0,
+          "regCommission": 27.76,
+          "regTxCount": 0,
+          "reconTurnover": 347.0,
+          "reconCommission": 27.76,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 27.76,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 21,
+          "date": "Apr 21",
+          "turnover": 569.0,
+          "regCommission": 45.52,
+          "regTxCount": 0,
+          "reconTurnover": 569.0,
+          "reconCommission": 45.52,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 45.52,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 22,
+          "date": "Apr 22",
+          "turnover": 594.0,
+          "regCommission": 47.52,
+          "regTxCount": 0,
+          "reconTurnover": 594.0,
+          "reconCommission": 47.52,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 47.52,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 23,
+          "date": "Apr 23",
+          "turnover": 320.0,
+          "regCommission": 25.6,
+          "regTxCount": 0,
+          "reconTurnover": 320.0,
+          "reconCommission": 25.6,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 25.6,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 24,
+          "date": "Apr 24",
+          "turnover": 869.0,
+          "regCommission": 69.52,
+          "regTxCount": 0,
+          "reconTurnover": 869.0,
+          "reconCommission": 69.52,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 69.52,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 25,
+          "date": "Apr 25",
+          "turnover": 660.0,
+          "regCommission": 52.8,
+          "regTxCount": 0,
+          "reconTurnover": 660.0,
+          "reconCommission": 52.8,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 52.8,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 26,
+          "date": "Apr 26",
+          "turnover": 732.0,
+          "regCommission": 58.56,
+          "regTxCount": 0,
+          "reconTurnover": 732.0,
+          "reconCommission": 58.56,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 58.56,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 27,
+          "date": "Apr 27",
+          "turnover": 781.0,
+          "regCommission": 62.48,
+          "regTxCount": 0,
+          "reconTurnover": 781.0,
+          "reconCommission": 62.48,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 62.48,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 28,
+          "date": "Apr 28",
+          "turnover": 380.0,
+          "regCommission": 30.4,
+          "regTxCount": 0,
+          "reconTurnover": 380.0,
+          "reconCommission": 30.4,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 30.4,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 29,
+          "date": "Apr 29",
+          "turnover": 1090.0,
+          "regCommission": 87.2,
+          "regTxCount": 0,
+          "reconTurnover": 1090.0,
+          "reconCommission": 87.2,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 87.2,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 30,
+          "date": "Apr 30",
+          "turnover": 662.0,
+          "regCommission": 52.96,
+          "regTxCount": 0,
+          "reconTurnover": 662.0,
+          "reconCommission": 52.96,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 52.96,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mar-2025",
+      "label": "March",
+      "turnover": 6974.87,
+      "registryAmount": 6974.87,
+      "regCommission": 557.99,
+      "regTxCount": 0,
+      "reconTurnover": 6974.87,
+      "reconCommission": 557.99,
+      "reconRate": 8.0,
+      "contractRate": 0,
+      "contractExpected": 0,
+      "deviation": 557.99,
+      "parts": [
+        {
+          "label": "Smartflow",
+          "rate": 8.0,
+          "amount": 557.99,
+          "contractRate": 0,
+          "contractAmount": 0,
+          "source": "Reconciliation",
+          "contractSource": "No contract provided"
+        }
+      ],
+      "days": [
+        {
+          "day": 1,
+          "date": "Mar 1",
+          "turnover": 119.0,
+          "regCommission": 9.52,
+          "regTxCount": 0,
+          "reconTurnover": 119.0,
+          "reconCommission": 9.52,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 9.52,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "date": "Mar 2",
+          "turnover": 745.0,
+          "regCommission": 59.6,
+          "regTxCount": 0,
+          "reconTurnover": 745.0,
+          "reconCommission": 59.6,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 59.6,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 4,
+          "date": "Mar 4",
+          "turnover": 32.0,
+          "regCommission": 2.56,
+          "regTxCount": 0,
+          "reconTurnover": 32.0,
+          "reconCommission": 2.56,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 2.56,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 6,
+          "date": "Mar 6",
+          "turnover": 30.0,
+          "regCommission": 2.4,
+          "regTxCount": 0,
+          "reconTurnover": 30.0,
+          "reconCommission": 2.4,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 2.4,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "date": "Mar 7",
+          "turnover": 6.87,
+          "regCommission": 0.55,
+          "regTxCount": 0,
+          "reconTurnover": 6.87,
+          "reconCommission": 0.55,
+          "reconRate": 8.006,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.006,
+              "amount": 0.55,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 8,
+          "date": "Mar 8",
+          "turnover": 105.0,
+          "regCommission": 8.4,
+          "regTxCount": 0,
+          "reconTurnover": 105.0,
+          "reconCommission": 8.4,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 8.4,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 9,
+          "date": "Mar 9",
+          "turnover": 55.0,
+          "regCommission": 4.4,
+          "regTxCount": 0,
+          "reconTurnover": 55.0,
+          "reconCommission": 4.4,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 4.4,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 11,
+          "date": "Mar 11",
+          "turnover": 70.0,
+          "regCommission": 5.6,
+          "regTxCount": 0,
+          "reconTurnover": 70.0,
+          "reconCommission": 5.6,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 5.6,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 12,
+          "date": "Mar 12",
+          "turnover": 240.0,
+          "regCommission": 19.2,
+          "regTxCount": 0,
+          "reconTurnover": 240.0,
+          "reconCommission": 19.2,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 19.2,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 13,
+          "date": "Mar 13",
+          "turnover": 775.0,
+          "regCommission": 62.0,
+          "regTxCount": 0,
+          "reconTurnover": 775.0,
+          "reconCommission": 62.0,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 62.0,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 14,
+          "date": "Mar 14",
+          "turnover": 455.0,
+          "regCommission": 36.4,
+          "regTxCount": 0,
+          "reconTurnover": 455.0,
+          "reconCommission": 36.4,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 36.4,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 15,
+          "date": "Mar 15",
+          "turnover": 235.0,
+          "regCommission": 18.8,
+          "regTxCount": 0,
+          "reconTurnover": 235.0,
+          "reconCommission": 18.8,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 18.8,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 16,
+          "date": "Mar 16",
+          "turnover": 229.0,
+          "regCommission": 18.32,
+          "regTxCount": 0,
+          "reconTurnover": 229.0,
+          "reconCommission": 18.32,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 18.32,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 17,
+          "date": "Mar 17",
+          "turnover": 85.0,
+          "regCommission": 6.8,
+          "regTxCount": 0,
+          "reconTurnover": 85.0,
+          "reconCommission": 6.8,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 6.8,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 18,
+          "date": "Mar 18",
+          "turnover": 90.0,
+          "regCommission": 7.2,
+          "regTxCount": 0,
+          "reconTurnover": 90.0,
+          "reconCommission": 7.2,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 7.2,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 19,
+          "date": "Mar 19",
+          "turnover": 190.0,
+          "regCommission": 15.2,
+          "regTxCount": 0,
+          "reconTurnover": 190.0,
+          "reconCommission": 15.2,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 15.2,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 20,
+          "date": "Mar 20",
+          "turnover": 265.0,
+          "regCommission": 21.2,
+          "regTxCount": 0,
+          "reconTurnover": 265.0,
+          "reconCommission": 21.2,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 21.2,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 21,
+          "date": "Mar 21",
+          "turnover": 270.0,
+          "regCommission": 21.6,
+          "regTxCount": 0,
+          "reconTurnover": 270.0,
+          "reconCommission": 21.6,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 21.6,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 22,
+          "date": "Mar 22",
+          "turnover": 297.0,
+          "regCommission": 23.76,
+          "regTxCount": 0,
+          "reconTurnover": 297.0,
+          "reconCommission": 23.76,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 23.76,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 23,
+          "date": "Mar 23",
+          "turnover": 344.0,
+          "regCommission": 27.52,
+          "regTxCount": 0,
+          "reconTurnover": 344.0,
+          "reconCommission": 27.52,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 27.52,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 24,
+          "date": "Mar 24",
+          "turnover": 605.0,
+          "regCommission": 48.4,
+          "regTxCount": 0,
+          "reconTurnover": 605.0,
+          "reconCommission": 48.4,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 48.4,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 25,
+          "date": "Mar 25",
+          "turnover": 275.0,
+          "regCommission": 22.0,
+          "regTxCount": 0,
+          "reconTurnover": 275.0,
+          "reconCommission": 22.0,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 22.0,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 26,
+          "date": "Mar 26",
+          "turnover": 566.0,
+          "regCommission": 45.28,
+          "regTxCount": 0,
+          "reconTurnover": 566.0,
+          "reconCommission": 45.28,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 45.28,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 27,
+          "date": "Mar 27",
+          "turnover": 90.0,
+          "regCommission": 7.2,
+          "regTxCount": 0,
+          "reconTurnover": 90.0,
+          "reconCommission": 7.2,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 7.2,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 28,
+          "date": "Mar 28",
+          "turnover": 148.0,
+          "regCommission": 11.84,
+          "regTxCount": 0,
+          "reconTurnover": 148.0,
+          "reconCommission": 11.84,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 11.84,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 29,
+          "date": "Mar 29",
+          "turnover": 390.0,
+          "regCommission": 31.2,
+          "regTxCount": 0,
+          "reconTurnover": 390.0,
+          "reconCommission": 31.2,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 31.2,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 30,
+          "date": "Mar 30",
+          "turnover": 128.0,
+          "regCommission": 10.24,
+          "regTxCount": 0,
+          "reconTurnover": 128.0,
+          "reconCommission": 10.24,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 10.24,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 31,
+          "date": "Mar 31",
+          "turnover": 135.0,
+          "regCommission": 10.8,
+          "regTxCount": 0,
+          "reconTurnover": 135.0,
+          "reconCommission": 10.8,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 10.8,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "feb-2025",
+      "label": "February",
+      "turnover": 408.47,
+      "registryAmount": 408.47,
+      "regCommission": 32.68,
+      "regTxCount": 0,
+      "reconTurnover": 408.47,
+      "reconCommission": 32.68,
+      "reconRate": 8.0,
+      "contractRate": 0,
+      "contractExpected": 0,
+      "deviation": 32.68,
+      "parts": [
+        {
+          "label": "Smartflow",
+          "rate": 8.0,
+          "amount": 32.68,
+          "contractRate": 0,
+          "contractAmount": 0,
+          "source": "Reconciliation",
+          "contractSource": "No contract provided"
+        }
+      ],
+      "days": [
+        {
+          "day": 26,
+          "date": "Feb 26",
+          "turnover": 29.47,
+          "regCommission": 2.36,
+          "regTxCount": 0,
+          "reconTurnover": 29.47,
+          "reconCommission": 2.36,
+          "reconRate": 8.008,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.008,
+              "amount": 2.36,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 27,
+          "date": "Feb 27",
+          "turnover": 34.0,
+          "regCommission": 2.72,
+          "regTxCount": 0,
+          "reconTurnover": 34.0,
+          "reconCommission": 2.72,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 2.72,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        },
+        {
+          "day": 28,
+          "date": "Feb 28",
+          "turnover": 345.0,
+          "regCommission": 27.6,
+          "regTxCount": 0,
+          "reconTurnover": 345.0,
+          "reconCommission": 27.6,
+          "reconRate": 8.0,
+          "contractRate": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 8.0,
+              "amount": 27.6,
+              "contractRate": 0,
+              "contractAmount": 0,
+              "source": "Reconciliation",
+              "contractSource": "No contract provided"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

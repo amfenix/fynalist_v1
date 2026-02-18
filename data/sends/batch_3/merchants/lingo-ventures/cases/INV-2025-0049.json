@@ -1,0 +1,71 @@
+{
+  "type": "rate-change",
+  "caseId": "INV-2025-0049",
+  "caseNumber": "INV-2025-0049",
+  "merchant": {
+    "name": "Lingo Ventures",
+    "legalName": "LINGO VENTURES LTD",
+    "contract": "Master Agreement 30 Jul 2025",
+    "shortname": "lingo-ventures"
+  },
+  "partLabel": "Smartflow",
+  "period": {
+    "from": "Oct 16, 2025",
+    "to": "Oct 16, 2025"
+  },
+  "deviation": -87.04,
+  "contractRate": 5.0,
+  "actualRate": 4.2,
+  "changeDate": "Oct 17, 2025",
+  "valueColumns": ["amount", "commission"],
+  "summary": "NOK Card Acquiring: reconciliation applied 4.2% rate on Oct 16, one day before the contract addendum effective date (Oct 17). Contract rate was still 5.0% on Oct 16. Turnover: 10,880.49 EUR, expected commission: 544.02 EUR, actual: 456.98 EUR. Underpayment: 87.04 EUR.",
+  "sources": {
+    "contract": {
+      "name": "Master Agreement 30 Jul 2025",
+      "suffix": "(Oct 17 addendum)",
+      "effectiveDate": "Oct 17, 2025",
+      "period": "Oct 16, 2025",
+      "rates": [
+        {
+          "label": "Smartflow",
+          "rate": 5.0,
+          "fixedFee": 0
+        }
+      ]
+    },
+    "registry": {
+      "files": ["Lingo Ventures registry Oct 2025"],
+      "operationType": "Incoming",
+      "currency": "NOK (settlement EUR)",
+      "period": "Oct 16, 2025",
+      "columns": ["Date", "Amount", "Commission", "Rate"]
+    },
+    "reconciliation": {
+      "file": "RECONCILIATION_20437_NOK.json",
+      "sheet": "NOK Acquiring",
+      "period": "Oct 16, 2025",
+      "columns": [
+        "Date",
+        "Amount (NOK)",
+        "Commission (NOK)",
+        "FX Rate",
+        "EUR Equivalent"
+      ]
+    }
+  },
+  "notes": [
+    {
+      "type": "warning",
+      "text": "Rate 4.2% applied one day early (Oct 16) before the contract addendum effective date of Oct 17."
+    },
+    {
+      "type": "info",
+      "text": "NOK Card Acquiring channel. Commission converted to EUR using daily FX rate."
+    },
+    {
+      "type": "info",
+      "text": "All other days match contract rates exactly (5.0% before Oct 16, 4.2% from Oct 17)."
+    }
+  ],
+  "dailyData": []
+}

@@ -143,18 +143,18 @@
       "reconTurnover": 736242.29,
       "reconCommission": 35339.15,
       "reconRate": 4.7999,
-      "contractRate": 4.7999,
-      "contractExpected": 35339.15,
-      "deviation": 0,
+      "contractRate": 3.0456,
+      "contractExpected": 22423.16,
+      "deviation": 12915.99,
       "parts": [
         {
           "label": "Paymentz",
           "rate": 1.7543,
           "amount": 12915.99,
-          "contractRate": 1.7543,
-          "contractAmount": 12915.99,
+          "contractRate": 0,
+          "contractAmount": 0,
           "source": "Reconciliation",
-          "contractSource": "From reconciliation"
+          "contractSource": "No acquiring contract provided"
         },
         {
           "label": "Impaya",
@@ -163,7 +163,7 @@
           "contractRate": 3.0456,
           "contractAmount": 22423.16,
           "source": "Reconciliation",
-          "contractSource": "Ghost mechanic"
+          "contractSource": "Smartflow ToB"
         }
       ],
       "days": [
@@ -182,10 +182,10 @@
               "label": "Paymentz",
               "rate": 1.7539,
               "amount": 1788.48,
-              "contractRate": 1.75,
-              "contractAmount": 1788.48,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             },
             {
               "label": "Impaya",
@@ -194,7 +194,7 @@
               "contractRate": 3.05,
               "contractAmount": 3106.13,
               "source": "Reconciliation",
-              "contractSource": "Ghost mechanic"
+              "contractSource": "Smartflow ToB"
             }
           ]
         },
@@ -213,10 +213,10 @@
               "label": "Paymentz",
               "rate": 1.7548,
               "amount": 1556.37,
-              "contractRate": 1.75,
-              "contractAmount": 1556.37,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             },
             {
               "label": "Impaya",
@@ -225,7 +225,7 @@
               "contractRate": 3.05,
               "contractAmount": 2700.91,
               "source": "Reconciliation",
-              "contractSource": "Ghost mechanic"
+              "contractSource": "Smartflow ToB"
             }
           ]
         },
@@ -244,10 +244,10 @@
               "label": "Paymentz",
               "rate": 1.7552,
               "amount": 1351.36,
-              "contractRate": 1.75,
-              "contractAmount": 1351.36,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             },
             {
               "label": "Impaya",
@@ -256,7 +256,7 @@
               "contractRate": 3.05,
               "contractAmount": 2344.3,
               "source": "Reconciliation",
-              "contractSource": "Ghost mechanic"
+              "contractSource": "Smartflow ToB"
             }
           ]
         },
@@ -275,10 +275,10 @@
               "label": "Paymentz",
               "rate": 1.7541,
               "amount": 1870.63,
-              "contractRate": 1.75,
-              "contractAmount": 1870.63,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             },
             {
               "label": "Impaya",
@@ -287,7 +287,7 @@
               "contractRate": 3.05,
               "contractAmount": 3248.11,
               "source": "Reconciliation",
-              "contractSource": "Ghost mechanic"
+              "contractSource": "Smartflow ToB"
             }
           ]
         },
@@ -306,10 +306,10 @@
               "label": "Paymentz",
               "rate": 1.7547,
               "amount": 1453.85,
-              "contractRate": 1.75,
-              "contractAmount": 1453.85,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             },
             {
               "label": "Impaya",
@@ -318,7 +318,7 @@
               "contractRate": 3.05,
               "contractAmount": 2522.83,
               "source": "Reconciliation",
-              "contractSource": "Ghost mechanic"
+              "contractSource": "Smartflow ToB"
             }
           ]
         },
@@ -337,10 +337,10 @@
               "label": "Paymentz",
               "rate": 1.7545,
               "amount": 1352.46,
-              "contractRate": 1.75,
-              "contractAmount": 1352.46,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             },
             {
               "label": "Impaya",
@@ -349,7 +349,7 @@
               "contractRate": 3.05,
               "contractAmount": 2347.51,
               "source": "Reconciliation",
-              "contractSource": "Ghost mechanic"
+              "contractSource": "Smartflow ToB"
             }
           ]
         },
@@ -368,10 +368,10 @@
               "label": "Paymentz",
               "rate": 1.7541,
               "amount": 1395.18,
-              "contractRate": 1.75,
-              "contractAmount": 1395.18,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             },
             {
               "label": "Impaya",
@@ -380,7 +380,7 @@
               "contractRate": 3.05,
               "contractAmount": 2422.74,
               "source": "Reconciliation",
-              "contractSource": "Ghost mechanic"
+              "contractSource": "Smartflow ToB"
             }
           ]
         },
@@ -399,10 +399,10 @@
               "label": "Paymentz",
               "rate": 1.7537,
               "amount": 1769.9,
-              "contractRate": 1.75,
-              "contractAmount": 1769.9,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             },
             {
               "label": "Impaya",
@@ -411,7 +411,7 @@
               "contractRate": 3.05,
               "contractAmount": 3074.49,
               "source": "Reconciliation",
-              "contractSource": "Ghost mechanic"
+              "contractSource": "Smartflow ToB"
             }
           ]
         },
@@ -430,10 +430,10 @@
               "label": "Paymentz",
               "rate": 1.7537,
               "amount": 377.76,
-              "contractRate": 1.75,
-              "contractAmount": 377.76,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             },
             {
               "label": "Impaya",
@@ -442,7 +442,7 @@
               "contractRate": 3.05,
               "contractAmount": 656.14,
               "source": "Reconciliation",
-              "contractSource": "Ghost mechanic"
+              "contractSource": "Smartflow ToB"
             }
           ]
         }
@@ -458,18 +458,18 @@
       "reconTurnover": 2296326.49,
       "reconCommission": 113191.27,
       "reconRate": 4.9292,
-      "contractRate": 4.9292,
-      "contractExpected": 113191.27,
-      "deviation": 0,
+      "contractRate": 1.8026,
+      "contractExpected": 41392.47,
+      "deviation": 71798.8,
       "parts": [
         {
           "label": "Paymentz",
           "rate": 3.1267,
           "amount": 71798.8,
-          "contractRate": 3.1267,
-          "contractAmount": 71798.8,
+          "contractRate": 0,
+          "contractAmount": 0,
           "source": "Reconciliation",
-          "contractSource": "From reconciliation"
+          "contractSource": "No acquiring contract provided"
         },
         {
           "label": "Impaya",
@@ -478,7 +478,7 @@
           "contractRate": 1.8026,
           "contractAmount": 41392.47,
           "source": "Reconciliation",
-          "contractSource": "Ghost mechanic"
+          "contractSource": "Smartflow ToB"
         }
       ],
       "days": [
@@ -491,16 +491,16 @@
           "reconTurnover": 132698.94,
           "reconCommission": 6636.24,
           "reconRate": 5.001,
-          "contractRate": 5.0,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 5.001,
               "amount": 6636.24,
-              "contractRate": 5.0,
-              "contractAmount": 6636.24,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -513,16 +513,16 @@
           "reconTurnover": 98391.02,
           "reconCommission": 4920.35,
           "reconRate": 5.0008,
-          "contractRate": 5.0,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 5.0008,
               "amount": 4920.35,
-              "contractRate": 5.0,
-              "contractAmount": 4920.35,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -535,16 +535,16 @@
           "reconTurnover": 93397.93,
           "reconCommission": 4670.63,
           "reconRate": 5.0008,
-          "contractRate": 5.0,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 5.0008,
               "amount": 4670.63,
-              "contractRate": 5.0,
-              "contractAmount": 4670.63,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -557,16 +557,16 @@
           "reconTurnover": 91213.47,
           "reconCommission": 4561.27,
           "reconRate": 5.0007,
-          "contractRate": 5.0,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 5.0007,
               "amount": 4561.27,
-              "contractRate": 5.0,
-              "contractAmount": 4561.27,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -579,16 +579,16 @@
           "reconTurnover": 102453.04,
           "reconCommission": 5123.48,
           "reconRate": 5.0008,
-          "contractRate": 5.0,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 5.0008,
               "amount": 5123.48,
-              "contractRate": 5.0,
-              "contractAmount": 5123.48,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -601,16 +601,16 @@
           "reconTurnover": 65434.16,
           "reconCommission": 3272.09,
           "reconRate": 5.0006,
-          "contractRate": 5.0,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 5.0006,
               "amount": 3272.09,
-              "contractRate": 5.0,
-              "contractAmount": 3272.09,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -623,16 +623,16 @@
           "reconTurnover": 95238.61,
           "reconCommission": 4762.9,
           "reconRate": 5.001,
-          "contractRate": 5.0,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 5.001,
               "amount": 4762.9,
-              "contractRate": 5.0,
-              "contractAmount": 4762.9,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -645,16 +645,16 @@
           "reconTurnover": 90449.48,
           "reconCommission": 4523.16,
           "reconRate": 5.0008,
-          "contractRate": 5.0,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 5.0008,
               "amount": 4523.16,
-              "contractRate": 5.0,
-              "contractAmount": 4523.16,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -667,16 +667,16 @@
           "reconTurnover": 58924.77,
           "reconCommission": 2946.87,
           "reconRate": 5.0011,
-          "contractRate": 5.0,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 5.0011,
               "amount": 2946.87,
-              "contractRate": 5.0,
-              "contractAmount": 2946.87,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -689,16 +689,16 @@
           "reconTurnover": 76870.24,
           "reconCommission": 3844.13,
           "reconRate": 5.0008,
-          "contractRate": 5.0,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 5.0008,
               "amount": 3844.13,
-              "contractRate": 5.0,
-              "contractAmount": 3844.13,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -711,16 +711,16 @@
           "reconTurnover": 65882.65,
           "reconCommission": 3294.55,
           "reconRate": 5.0006,
-          "contractRate": 5.0,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 5.0006,
               "amount": 3294.55,
-              "contractRate": 5.0,
-              "contractAmount": 3294.55,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -733,16 +733,16 @@
           "reconTurnover": 57487.62,
           "reconCommission": 2874.77,
           "reconRate": 5.0007,
-          "contractRate": 5.0,
+          "contractRate": 5,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 1.7534,
               "amount": 1007.99,
-              "contractRate": 1.75,
-              "contractAmount": 1007.99,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             },
             {
               "label": "Impaya",
@@ -751,7 +751,7 @@
               "contractRate": 3.25,
               "contractAmount": 1866.78,
               "source": "Reconciliation",
-              "contractSource": "Ghost mechanic"
+              "contractSource": "Smartflow ToB"
             }
           ]
         },
@@ -764,16 +764,16 @@
           "reconTurnover": 64177.5,
           "reconCommission": 3209.3,
           "reconRate": 5.0007,
-          "contractRate": 5.0,
+          "contractRate": 5,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 1.7526,
               "amount": 1124.79,
-              "contractRate": 1.75,
-              "contractAmount": 1124.79,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             },
             {
               "label": "Impaya",
@@ -782,7 +782,7 @@
               "contractRate": 3.25,
               "contractAmount": 2084.51,
               "source": "Reconciliation",
-              "contractSource": "Ghost mechanic"
+              "contractSource": "Smartflow ToB"
             }
           ]
         },
@@ -795,16 +795,16 @@
           "reconTurnover": 88210.19,
           "reconCommission": 4410.98,
           "reconRate": 5.0005,
-          "contractRate": 5.0,
+          "contractRate": 5,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 1.753,
               "amount": 1546.3,
-              "contractRate": 1.75,
-              "contractAmount": 1546.3,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             },
             {
               "label": "Impaya",
@@ -813,7 +813,7 @@
               "contractRate": 3.25,
               "contractAmount": 2864.68,
               "source": "Reconciliation",
-              "contractSource": "Ghost mechanic"
+              "contractSource": "Smartflow ToB"
             }
           ]
         },
@@ -826,16 +826,16 @@
           "reconTurnover": 100366.43,
           "reconCommission": 5019.48,
           "reconRate": 5.0012,
-          "contractRate": 5.0,
+          "contractRate": 5,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 1.7522,
               "amount": 1758.67,
-              "contractRate": 1.75,
-              "contractAmount": 1758.67,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             },
             {
               "label": "Impaya",
@@ -844,7 +844,7 @@
               "contractRate": 3.25,
               "contractAmount": 3260.81,
               "source": "Reconciliation",
-              "contractSource": "Ghost mechanic"
+              "contractSource": "Smartflow ToB"
             }
           ]
         },
@@ -857,16 +857,16 @@
           "reconTurnover": 83743.68,
           "reconCommission": 4187.75,
           "reconRate": 5.0007,
-          "contractRate": 5.0,
+          "contractRate": 5,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 1.753,
               "amount": 1468.05,
-              "contractRate": 1.75,
-              "contractAmount": 1468.05,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             },
             {
               "label": "Impaya",
@@ -875,7 +875,7 @@
               "contractRate": 3.25,
               "contractAmount": 2719.7,
               "source": "Reconciliation",
-              "contractSource": "Ghost mechanic"
+              "contractSource": "Smartflow ToB"
             }
           ]
         },
@@ -888,16 +888,16 @@
           "reconTurnover": 61481.63,
           "reconCommission": 3074.45,
           "reconRate": 5.0006,
-          "contractRate": 5.0,
+          "contractRate": 5,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 1.7539,
               "amount": 1078.3,
-              "contractRate": 1.75,
-              "contractAmount": 1078.3,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             },
             {
               "label": "Impaya",
@@ -906,7 +906,7 @@
               "contractRate": 3.25,
               "contractAmount": 1996.15,
               "source": "Reconciliation",
-              "contractSource": "Ghost mechanic"
+              "contractSource": "Smartflow ToB"
             }
           ]
         },
@@ -919,16 +919,16 @@
           "reconTurnover": 51555.72,
           "reconCommission": 2578.09,
           "reconRate": 5.0006,
-          "contractRate": 5.0,
+          "contractRate": 5,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 1.7537,
               "amount": 904.12,
-              "contractRate": 1.75,
-              "contractAmount": 904.12,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             },
             {
               "label": "Impaya",
@@ -937,7 +937,7 @@
               "contractRate": 3.25,
               "contractAmount": 1673.97,
               "source": "Reconciliation",
-              "contractSource": "Ghost mechanic"
+              "contractSource": "Smartflow ToB"
             }
           ]
         },
@@ -956,10 +956,10 @@
               "label": "Paymentz",
               "rate": 1.7535,
               "amount": 1009.57,
-              "contractRate": 1.75,
-              "contractAmount": 1009.57,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             },
             {
               "label": "Impaya",
@@ -968,11 +968,11 @@
               "contractRate": 3.05,
               "contractAmount": 1753.95,
               "source": "Reconciliation",
-              "contractSource": "Ghost mechanic"
+              "contractSource": "Smartflow ToB"
             }
           ],
           "rateChangeDay": true,
-          "rateFrom": 5.0,
+          "rateFrom": 5,
           "rateTo": 4.8
         },
         {
@@ -990,10 +990,10 @@
               "label": "Paymentz",
               "rate": 1.7538,
               "amount": 907.18,
-              "contractRate": 1.75,
-              "contractAmount": 907.18,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             },
             {
               "label": "Impaya",
@@ -1002,7 +1002,7 @@
               "contractRate": 3.05,
               "contractAmount": 1575.62,
               "source": "Reconciliation",
-              "contractSource": "Ghost mechanic"
+              "contractSource": "Smartflow ToB"
             }
           ]
         },
@@ -1021,10 +1021,10 @@
               "label": "Paymentz",
               "rate": 1.754,
               "amount": 962.24,
-              "contractRate": 1.75,
-              "contractAmount": 962.24,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             },
             {
               "label": "Impaya",
@@ -1033,7 +1033,7 @@
               "contractRate": 3.05,
               "contractAmount": 1670.86,
               "source": "Reconciliation",
-              "contractSource": "Ghost mechanic"
+              "contractSource": "Smartflow ToB"
             }
           ]
         },
@@ -1052,10 +1052,10 @@
               "label": "Paymentz",
               "rate": 1.7546,
               "amount": 746.91,
-              "contractRate": 1.75,
-              "contractAmount": 746.91,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             },
             {
               "label": "Impaya",
@@ -1064,7 +1064,7 @@
               "contractRate": 3.05,
               "contractAmount": 1296.34,
               "source": "Reconciliation",
-              "contractSource": "Ghost mechanic"
+              "contractSource": "Smartflow ToB"
             }
           ]
         },
@@ -1083,10 +1083,10 @@
               "label": "Paymentz",
               "rate": 1.7542,
               "amount": 734.61,
-              "contractRate": 1.75,
-              "contractAmount": 734.61,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             },
             {
               "label": "Impaya",
@@ -1095,7 +1095,7 @@
               "contractRate": 3.05,
               "contractAmount": 1275.48,
               "source": "Reconciliation",
-              "contractSource": "Ghost mechanic"
+              "contractSource": "Smartflow ToB"
             }
           ]
         },
@@ -1114,10 +1114,10 @@
               "label": "Paymentz",
               "rate": 1.7543,
               "amount": 959.22,
-              "contractRate": 1.75,
-              "contractAmount": 959.22,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             },
             {
               "label": "Impaya",
@@ -1126,7 +1126,7 @@
               "contractRate": 3.05,
               "contractAmount": 1665.36,
               "source": "Reconciliation",
-              "contractSource": "Ghost mechanic"
+              "contractSource": "Smartflow ToB"
             }
           ]
         },
@@ -1145,10 +1145,10 @@
               "label": "Paymentz",
               "rate": 1.7544,
               "amount": 1166.24,
-              "contractRate": 1.75,
-              "contractAmount": 1166.24,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             },
             {
               "label": "Impaya",
@@ -1157,7 +1157,7 @@
               "contractRate": 3.05,
               "contractAmount": 2024.55,
               "source": "Reconciliation",
-              "contractSource": "Ghost mechanic"
+              "contractSource": "Smartflow ToB"
             }
           ]
         },
@@ -1176,10 +1176,10 @@
               "label": "Paymentz",
               "rate": 1.7541,
               "amount": 1093.59,
-              "contractRate": 1.75,
-              "contractAmount": 1093.59,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             },
             {
               "label": "Impaya",
@@ -1188,7 +1188,7 @@
               "contractRate": 3.05,
               "contractAmount": 1898.99,
               "source": "Reconciliation",
-              "contractSource": "Ghost mechanic"
+              "contractSource": "Smartflow ToB"
             }
           ]
         },
@@ -1207,10 +1207,10 @@
               "label": "Paymentz",
               "rate": 1.7541,
               "amount": 1227.69,
-              "contractRate": 1.75,
-              "contractAmount": 1227.69,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             },
             {
               "label": "Impaya",
@@ -1219,7 +1219,7 @@
               "contractRate": 3.05,
               "contractAmount": 2131.93,
               "source": "Reconciliation",
-              "contractSource": "Ghost mechanic"
+              "contractSource": "Smartflow ToB"
             }
           ]
         },
@@ -1238,10 +1238,10 @@
               "label": "Paymentz",
               "rate": 1.7541,
               "amount": 1532.63,
-              "contractRate": 1.75,
-              "contractAmount": 1532.63,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             },
             {
               "label": "Impaya",
@@ -1250,7 +1250,7 @@
               "contractRate": 3.05,
               "contractAmount": 2661.47,
               "source": "Reconciliation",
-              "contractSource": "Ghost mechanic"
+              "contractSource": "Smartflow ToB"
             }
           ]
         },
@@ -1269,10 +1269,10 @@
               "label": "Paymentz",
               "rate": 1.7543,
               "amount": 1447.44,
-              "contractRate": 1.75,
-              "contractAmount": 1447.44,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             },
             {
               "label": "Impaya",
@@ -1281,7 +1281,7 @@
               "contractRate": 3.05,
               "contractAmount": 2512.81,
               "source": "Reconciliation",
-              "contractSource": "Ghost mechanic"
+              "contractSource": "Smartflow ToB"
             }
           ]
         },
@@ -1300,10 +1300,10 @@
               "label": "Paymentz",
               "rate": 1.7542,
               "amount": 1087.31,
-              "contractRate": 1.75,
-              "contractAmount": 1087.31,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             },
             {
               "label": "Impaya",
@@ -1312,7 +1312,7 @@
               "contractRate": 3.05,
               "contractAmount": 1888.06,
               "source": "Reconciliation",
-              "contractSource": "Ghost mechanic"
+              "contractSource": "Smartflow ToB"
             }
           ]
         },
@@ -1331,10 +1331,10 @@
               "label": "Paymentz",
               "rate": 1.754,
               "amount": 1480.28,
-              "contractRate": 1.75,
-              "contractAmount": 1480.28,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             },
             {
               "label": "Impaya",
@@ -1343,7 +1343,7 @@
               "contractRate": 3.05,
               "contractAmount": 2570.45,
               "source": "Reconciliation",
-              "contractSource": "Ghost mechanic"
+              "contractSource": "Smartflow ToB"
             }
           ]
         }
@@ -1359,18 +1359,18 @@
       "reconTurnover": 2385199.97,
       "reconCommission": 119266.38,
       "reconRate": 5.0003,
-      "contractRate": 5.0003,
-      "contractExpected": 119266.38,
-      "deviation": 0,
+      "contractRate": 0,
+      "contractExpected": 0,
+      "deviation": 119266.38,
       "parts": [
         {
           "label": "Paymentz",
           "rate": 5.0003,
           "amount": 119266.38,
-          "contractRate": 5.0003,
-          "contractAmount": 119266.38,
+          "contractRate": 0,
+          "contractAmount": 0,
           "source": "Reconciliation",
-          "contractSource": "From reconciliation"
+          "contractSource": "No acquiring contract provided"
         }
       ],
       "days": [
@@ -1383,16 +1383,16 @@
           "reconTurnover": 105970.21,
           "reconCommission": 5299.3,
           "reconRate": 5.0007,
-          "contractRate": 5.0,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 5.0007,
               "amount": 5299.3,
-              "contractRate": 5.0,
-              "contractAmount": 5299.3,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -1405,16 +1405,16 @@
           "reconTurnover": 84605.06,
           "reconCommission": 4230.42,
           "reconRate": 5.0002,
-          "contractRate": 5.0,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 5.0002,
               "amount": 4230.42,
-              "contractRate": 5.0,
-              "contractAmount": 4230.42,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -1427,16 +1427,16 @@
           "reconTurnover": 82769.5,
           "reconCommission": 4138.7,
           "reconRate": 5.0003,
-          "contractRate": 5.0,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 5.0003,
               "amount": 4138.7,
-              "contractRate": 5.0,
-              "contractAmount": 4138.7,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -1449,16 +1449,16 @@
           "reconTurnover": 81382.5,
           "reconCommission": 4068.76,
           "reconRate": 4.9996,
-          "contractRate": 5.0,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 4.9996,
               "amount": 4068.76,
-              "contractRate": 5.0,
-              "contractAmount": 4068.76,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -1471,16 +1471,16 @@
           "reconTurnover": 64434.37,
           "reconCommission": 3221.49,
           "reconRate": 4.9996,
-          "contractRate": 5.0,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 4.9996,
               "amount": 3221.49,
-              "contractRate": 5.0,
-              "contractAmount": 3221.49,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -1493,16 +1493,16 @@
           "reconTurnover": 87231.2,
           "reconCommission": 4361.81,
           "reconRate": 5.0003,
-          "contractRate": 5.0,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 5.0003,
               "amount": 4361.81,
-              "contractRate": 5.0,
-              "contractAmount": 4361.81,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -1515,16 +1515,16 @@
           "reconTurnover": 104077.21,
           "reconCommission": 5204.35,
           "reconRate": 5.0005,
-          "contractRate": 5.0,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 5.0005,
               "amount": 5204.35,
-              "contractRate": 5.0,
-              "contractAmount": 5204.35,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -1537,16 +1537,16 @@
           "reconTurnover": 94902.1,
           "reconCommission": 4744.73,
           "reconRate": 4.9996,
-          "contractRate": 5.0,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 4.9996,
               "amount": 4744.73,
-              "contractRate": 5.0,
-              "contractAmount": 4744.73,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -1559,16 +1559,16 @@
           "reconTurnover": 72236.22,
           "reconCommission": 3611.59,
           "reconRate": 4.9997,
-          "contractRate": 5.0,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 4.9997,
               "amount": 3611.59,
-              "contractRate": 5.0,
-              "contractAmount": 3611.59,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -1581,16 +1581,16 @@
           "reconTurnover": 76505.99,
           "reconCommission": 3825.36,
           "reconRate": 5.0001,
-          "contractRate": 5.0,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 5.0001,
               "amount": 3825.36,
-              "contractRate": 5.0,
-              "contractAmount": 3825.36,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -1603,16 +1603,16 @@
           "reconTurnover": 82959.12,
           "reconCommission": 4148.02,
           "reconRate": 5.0001,
-          "contractRate": 5.0,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 5.0001,
               "amount": 4148.02,
-              "contractRate": 5.0,
-              "contractAmount": 4148.02,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -1625,16 +1625,16 @@
           "reconTurnover": 82400.01,
           "reconCommission": 4120.29,
           "reconRate": 5.0004,
-          "contractRate": 5.0,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 5.0004,
               "amount": 4120.29,
-              "contractRate": 5.0,
-              "contractAmount": 4120.29,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -1647,16 +1647,16 @@
           "reconTurnover": 80331.92,
           "reconCommission": 4016.85,
           "reconRate": 5.0003,
-          "contractRate": 5.0,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 5.0003,
               "amount": 4016.85,
-              "contractRate": 5.0,
-              "contractAmount": 4016.85,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -1669,16 +1669,16 @@
           "reconTurnover": 91757.6,
           "reconCommission": 4587.4,
           "reconRate": 4.9995,
-          "contractRate": 5.0,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 4.9995,
               "amount": 4587.4,
-              "contractRate": 5.0,
-              "contractAmount": 4587.4,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -1686,21 +1686,21 @@
           "day": 15,
           "date": "Feb 15",
           "turnover": 100417.95,
-          "regCommission": 5021.0,
+          "regCommission": 5021,
           "regTxCount": 1808,
           "reconTurnover": 100417.95,
-          "reconCommission": 5021.0,
+          "reconCommission": 5021,
           "reconRate": 5.0001,
-          "contractRate": 5.0,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 5.0001,
-              "amount": 5021.0,
-              "contractRate": 5.0,
-              "contractAmount": 5021.0,
+              "amount": 5021,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -1713,16 +1713,16 @@
           "reconTurnover": 66243.9,
           "reconCommission": 3312.39,
           "reconRate": 5.0003,
-          "contractRate": 5.0,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 5.0003,
               "amount": 3312.39,
-              "contractRate": 5.0,
-              "contractAmount": 3312.39,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -1735,16 +1735,16 @@
           "reconTurnover": 70544.59,
           "reconCommission": 3527.15,
           "reconRate": 4.9999,
-          "contractRate": 5.0,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 4.9999,
               "amount": 3527.15,
-              "contractRate": 5.0,
-              "contractAmount": 3527.15,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -1757,16 +1757,16 @@
           "reconTurnover": 66197.57,
           "reconCommission": 3309.93,
           "reconRate": 5.0001,
-          "contractRate": 5.0,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 5.0001,
               "amount": 3309.93,
-              "contractRate": 5.0,
-              "contractAmount": 3309.93,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -1779,16 +1779,16 @@
           "reconTurnover": 73630.63,
           "reconCommission": 3681.67,
           "reconRate": 5.0002,
-          "contractRate": 5.0,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 5.0002,
               "amount": 3681.67,
-              "contractRate": 5.0,
-              "contractAmount": 3681.67,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -1801,16 +1801,16 @@
           "reconTurnover": 82098.53,
           "reconCommission": 4105.16,
           "reconRate": 5.0003,
-          "contractRate": 5.0,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 5.0003,
               "amount": 4105.16,
-              "contractRate": 5.0,
-              "contractAmount": 4105.16,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -1823,16 +1823,16 @@
           "reconTurnover": 103505.67,
           "reconCommission": 5175.73,
           "reconRate": 5.0004,
-          "contractRate": 5.0,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 5.0004,
               "amount": 5175.73,
-              "contractRate": 5.0,
-              "contractAmount": 5175.73,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -1845,16 +1845,16 @@
           "reconTurnover": 75994.52,
           "reconCommission": 3800.26,
           "reconRate": 5.0007,
-          "contractRate": 5.0,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 5.0007,
               "amount": 3800.26,
-              "contractRate": 5.0,
-              "contractAmount": 3800.26,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -1867,16 +1867,16 @@
           "reconTurnover": 80903.24,
           "reconCommission": 4045.78,
           "reconRate": 5.0008,
-          "contractRate": 5.0,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 5.0008,
               "amount": 4045.78,
-              "contractRate": 5.0,
-              "contractAmount": 4045.78,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -1889,16 +1889,16 @@
           "reconTurnover": 80778.95,
           "reconCommission": 4039.48,
           "reconRate": 5.0007,
-          "contractRate": 5.0,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 5.0007,
               "amount": 4039.48,
-              "contractRate": 5.0,
-              "contractAmount": 4039.48,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -1911,16 +1911,16 @@
           "reconTurnover": 84585.05,
           "reconCommission": 4229.64,
           "reconRate": 5.0005,
-          "contractRate": 5.0,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 5.0005,
               "amount": 4229.64,
-              "contractRate": 5.0,
-              "contractAmount": 4229.64,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -1933,16 +1933,16 @@
           "reconTurnover": 85460.94,
           "reconCommission": 4273.56,
           "reconRate": 5.0006,
-          "contractRate": 5.0,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 5.0006,
               "amount": 4273.56,
-              "contractRate": 5.0,
-              "contractAmount": 4273.56,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -1955,16 +1955,16 @@
           "reconTurnover": 92572.3,
           "reconCommission": 4628.86,
           "reconRate": 5.0003,
-          "contractRate": 5.0,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 5.0003,
               "amount": 4628.86,
-              "contractRate": 5.0,
-              "contractAmount": 4628.86,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -1977,16 +1977,16 @@
           "reconTurnover": 130703.12,
           "reconCommission": 6536.7,
           "reconRate": 5.0012,
-          "contractRate": 5.0,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 5.0012,
               "amount": 6536.7,
-              "contractRate": 5.0,
-              "contractAmount": 6536.7,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         }
@@ -2002,18 +2002,18 @@
       "reconTurnover": 2381936.09,
       "reconCommission": 119101.92,
       "reconRate": 5.0002,
-      "contractRate": 5.0002,
-      "contractExpected": 119101.92,
-      "deviation": 0,
+      "contractRate": 0,
+      "contractExpected": 0,
+      "deviation": 119101.92,
       "parts": [
         {
           "label": "Paymentz",
           "rate": 5.0002,
           "amount": 119101.92,
-          "contractRate": 5.0002,
-          "contractAmount": 119101.92,
+          "contractRate": 0,
+          "contractAmount": 0,
           "source": "Reconciliation",
-          "contractSource": "From reconciliation"
+          "contractSource": "No acquiring contract provided"
         }
       ],
       "days": [
@@ -2026,16 +2026,16 @@
           "reconTurnover": 52864.09,
           "reconCommission": 2643.46,
           "reconRate": 5.0005,
-          "contractRate": 5.0,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 5.0005,
               "amount": 2643.46,
-              "contractRate": 5.0,
-              "contractAmount": 2643.46,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -2048,16 +2048,16 @@
           "reconTurnover": 47935.12,
           "reconCommission": 2396.86,
           "reconRate": 5.0002,
-          "contractRate": 5.0,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 5.0002,
               "amount": 2396.86,
-              "contractRate": 5.0,
-              "contractAmount": 2396.86,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -2070,16 +2070,16 @@
           "reconTurnover": 52685.77,
           "reconCommission": 2634.63,
           "reconRate": 5.0006,
-          "contractRate": 5.0,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 5.0006,
               "amount": 2634.63,
-              "contractRate": 5.0,
-              "contractAmount": 2634.63,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -2092,16 +2092,16 @@
           "reconTurnover": 42591.8,
           "reconCommission": 2129.78,
           "reconRate": 5.0004,
-          "contractRate": 5.0,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 5.0004,
               "amount": 2129.78,
-              "contractRate": 5.0,
-              "contractAmount": 2129.78,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -2114,16 +2114,16 @@
           "reconTurnover": 39311.05,
           "reconCommission": 1965.71,
           "reconRate": 5.0004,
-          "contractRate": 5.0,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 5.0004,
               "amount": 1965.71,
-              "contractRate": 5.0,
-              "contractAmount": 1965.71,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -2136,16 +2136,16 @@
           "reconTurnover": 50226.37,
           "reconCommission": 2511.2,
           "reconRate": 4.9998,
-          "contractRate": 5.0,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 4.9998,
               "amount": 2511.2,
-              "contractRate": 5.0,
-              "contractAmount": 2511.2,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -2158,16 +2158,16 @@
           "reconTurnover": 49962.04,
           "reconCommission": 2498.01,
           "reconRate": 4.9998,
-          "contractRate": 5.0,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 4.9998,
               "amount": 2498.01,
-              "contractRate": 5.0,
-              "contractAmount": 2498.01,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -2180,16 +2180,16 @@
           "reconTurnover": 57154.5,
           "reconCommission": 2858.12,
           "reconRate": 5.0007,
-          "contractRate": 5.0,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 5.0007,
               "amount": 2858.12,
-              "contractRate": 5.0,
-              "contractAmount": 2858.12,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -2201,17 +2201,17 @@
           "regTxCount": 1737,
           "reconTurnover": 83225.43,
           "reconCommission": 4161.29,
-          "reconRate": 5.0,
-          "contractRate": 5.0,
+          "reconRate": 5,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
-              "rate": 5.0,
+              "rate": 5,
               "amount": 4161.29,
-              "contractRate": 5.0,
-              "contractAmount": 4161.29,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -2224,16 +2224,16 @@
           "reconTurnover": 87373.64,
           "reconCommission": 4368.3,
           "reconRate": 4.9996,
-          "contractRate": 5.0,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 4.9996,
               "amount": 4368.3,
-              "contractRate": 5.0,
-              "contractAmount": 4368.3,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -2246,16 +2246,16 @@
           "reconTurnover": 82525.36,
           "reconCommission": 4126.9,
           "reconRate": 5.0008,
-          "contractRate": 5.0,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 5.0008,
               "amount": 4126.9,
-              "contractRate": 5.0,
-              "contractAmount": 4126.9,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -2268,16 +2268,16 @@
           "reconTurnover": 72178.23,
           "reconCommission": 3609.54,
           "reconRate": 5.0009,
-          "contractRate": 5.0,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 5.0009,
               "amount": 3609.54,
-              "contractRate": 5.0,
-              "contractAmount": 3609.54,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -2289,17 +2289,17 @@
           "regTxCount": 1549,
           "reconTurnover": 66181.63,
           "reconCommission": 3309.07,
-          "reconRate": 5.0,
-          "contractRate": 5.0,
+          "reconRate": 5,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
-              "rate": 5.0,
+              "rate": 5,
               "amount": 3309.07,
-              "contractRate": 5.0,
-              "contractAmount": 3309.07,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -2312,16 +2312,16 @@
           "reconTurnover": 80903.99,
           "reconCommission": 4045.74,
           "reconRate": 5.0007,
-          "contractRate": 5.0,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 5.0007,
               "amount": 4045.74,
-              "contractRate": 5.0,
-              "contractAmount": 4045.74,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -2334,16 +2334,16 @@
           "reconTurnover": 91597.41,
           "reconCommission": 4580.05,
           "reconRate": 5.0002,
-          "contractRate": 5.0,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 5.0002,
               "amount": 4580.05,
-              "contractRate": 5.0,
-              "contractAmount": 4580.05,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -2356,16 +2356,16 @@
           "reconTurnover": 92134.28,
           "reconCommission": 4606.98,
           "reconRate": 5.0003,
-          "contractRate": 5.0,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 5.0003,
               "amount": 4606.98,
-              "contractRate": 5.0,
-              "contractAmount": 4606.98,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -2378,16 +2378,16 @@
           "reconTurnover": 99732.1,
           "reconCommission": 4986.99,
           "reconRate": 5.0004,
-          "contractRate": 5.0,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 5.0004,
               "amount": 4986.99,
-              "contractRate": 5.0,
-              "contractAmount": 4986.99,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -2399,17 +2399,17 @@
           "regTxCount": 1810,
           "reconTurnover": 84640.33,
           "reconCommission": 4232.03,
-          "reconRate": 5.0,
-          "contractRate": 5.0,
+          "reconRate": 5,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
-              "rate": 5.0,
+              "rate": 5,
               "amount": 4232.03,
-              "contractRate": 5.0,
-              "contractAmount": 4232.03,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -2421,17 +2421,17 @@
           "regTxCount": 1618,
           "reconTurnover": 72379.14,
           "reconCommission": 3618.93,
-          "reconRate": 5.0,
-          "contractRate": 5.0,
+          "reconRate": 5,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
-              "rate": 5.0,
+              "rate": 5,
               "amount": 3618.93,
-              "contractRate": 5.0,
-              "contractAmount": 3618.93,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -2443,17 +2443,17 @@
           "regTxCount": 1655,
           "reconTurnover": 82650.71,
           "reconCommission": 4132.52,
-          "reconRate": 5.0,
-          "contractRate": 5.0,
+          "reconRate": 5,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
-              "rate": 5.0,
+              "rate": 5,
               "amount": 4132.52,
-              "contractRate": 5.0,
-              "contractAmount": 4132.52,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -2466,16 +2466,16 @@
           "reconTurnover": 65958.44,
           "reconCommission": 3297.96,
           "reconRate": 5.0001,
-          "contractRate": 5.0,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 5.0001,
               "amount": 3297.96,
-              "contractRate": 5.0,
-              "contractAmount": 3297.96,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -2488,16 +2488,16 @@
           "reconTurnover": 65649.65,
           "reconCommission": 3282.35,
           "reconRate": 4.9998,
-          "contractRate": 5.0,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 4.9998,
               "amount": 3282.35,
-              "contractRate": 5.0,
-              "contractAmount": 3282.35,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -2509,17 +2509,17 @@
           "regTxCount": 1943,
           "reconTurnover": 96077.65,
           "reconCommission": 4803.91,
-          "reconRate": 5.0,
-          "contractRate": 5.0,
+          "reconRate": 5,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
-              "rate": 5.0,
+              "rate": 5,
               "amount": 4803.91,
-              "contractRate": 5.0,
-              "contractAmount": 4803.91,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -2532,16 +2532,16 @@
           "reconTurnover": 119058.02,
           "reconCommission": 5953.45,
           "reconRate": 5.0005,
-          "contractRate": 5.0,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 5.0005,
               "amount": 5953.45,
-              "contractRate": 5.0,
-              "contractAmount": 5953.45,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -2554,16 +2554,16 @@
           "reconTurnover": 95843.18,
           "reconCommission": 4791.69,
           "reconRate": 4.9995,
-          "contractRate": 5.0,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 4.9995,
               "amount": 4791.69,
-              "contractRate": 5.0,
-              "contractAmount": 4791.69,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -2576,16 +2576,16 @@
           "reconTurnover": 85645.74,
           "reconCommission": 4281.95,
           "reconRate": 4.9996,
-          "contractRate": 5.0,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 4.9996,
               "amount": 4281.95,
-              "contractRate": 5.0,
-              "contractAmount": 4281.95,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -2597,17 +2597,17 @@
           "regTxCount": 1706,
           "reconTurnover": 82564.5,
           "reconCommission": 4128.19,
-          "reconRate": 5.0,
-          "contractRate": 5.0,
+          "reconRate": 5,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
-              "rate": 5.0,
+              "rate": 5,
               "amount": 4128.19,
-              "contractRate": 5.0,
-              "contractAmount": 4128.19,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -2620,16 +2620,16 @@
           "reconTurnover": 95140.06,
           "reconCommission": 4757.23,
           "reconRate": 5.0002,
-          "contractRate": 5.0,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 5.0002,
               "amount": 4757.23,
-              "contractRate": 5.0,
-              "contractAmount": 4757.23,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -2642,16 +2642,16 @@
           "reconTurnover": 88237.44,
           "reconCommission": 4411.95,
           "reconRate": 5.0001,
-          "contractRate": 5.0,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 5.0001,
               "amount": 4411.95,
-              "contractRate": 5.0,
-              "contractAmount": 4411.95,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -2664,16 +2664,16 @@
           "reconTurnover": 89666.35,
           "reconCommission": 4483.79,
           "reconRate": 5.0005,
-          "contractRate": 5.0,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 5.0005,
               "amount": 4483.79,
-              "contractRate": 5.0,
-              "contractAmount": 4483.79,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         },
@@ -2686,16 +2686,16 @@
           "reconTurnover": 109842.07,
           "reconCommission": 5493.34,
           "reconRate": 5.0011,
-          "contractRate": 5.0,
+          "contractRate": 0,
           "parts": [
             {
               "label": "Paymentz",
               "rate": 5.0011,
               "amount": 5493.34,
-              "contractRate": 5.0,
-              "contractAmount": 5493.34,
+              "contractRate": 0,
+              "contractAmount": 0,
               "source": "Reconciliation",
-              "contractSource": "From reconciliation"
+              "contractSource": "No acquiring contract provided"
             }
           ]
         }

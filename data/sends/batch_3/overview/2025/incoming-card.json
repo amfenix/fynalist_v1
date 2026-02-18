@@ -245,7 +245,8 @@
               "contractRate": 0, "actualRate": 8.0, "deviation": 557.99,
               "periodFrom": "March 1", "periodTo": "March 31"
             }
-          ]
+          ],
+          "hasRateChange": true, "rateChangeInfo": "5.0% -> 4.8% from Mar 19"
         },
         "apr": {
           "turnover": 10017069.53, "commission": 491566.83, "deviation": 23365.73,
@@ -356,7 +357,8 @@
               "contractRate": 0, "actualRate": 7.0, "deviation": 158.49,
               "periodFrom": "October 1", "periodTo": "October 31"
             }
-          ]
+          ],
+          "hasRateChange": true, "rateChangeInfo": "4.8% -> 4.2% from Oct 16"
         },
         "nov": {
           "turnover": 768651.73, "commission": 31021.43, "deviation": -529.97,

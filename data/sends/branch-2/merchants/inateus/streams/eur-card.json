@@ -6509,7 +6509,7 @@
               "contractSource": "Impaya Commission"
             }
           ],
-          "rateChangeDay": true
+          "rateChangeDay": false
         },
         {
           "day": 2,

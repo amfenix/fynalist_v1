@@ -1,0 +1,206 @@
+{
+  "type": "rate-change",
+  "caseId": "INV-2025-0058",
+  "caseNumber": "INV-2025-0058",
+  "merchant": {
+    "name": "NOXIOUS",
+    "legalName": "NOXIOUS LIMITED",
+    "contract": "2203-24",
+    "shortname": "noxious"
+  },
+  "partLabel": "Smartflow",
+  "period": {
+    "from": "Feb 1, 2025",
+    "to": "Jul 31, 2025"
+  },
+  "deviation": -8231.22,
+  "contractRate": 4.8,
+  "actualRate": 3.58,
+  "changeDate": "Feb 1, 2025",
+  "valueColumns": [
+    "amount",
+    "commission"
+  ],
+  "summary": "GBP Card incoming payments show systematic underpayment from February through July 2025. Contract rate is 4.8% but reconciliation shows effective rates of 3.50-3.97%. Total underpayment: 8,231.22 EUR across 6 months. The rate dropped sharply from 4.8% in January to ~3.5% from March onwards.",
+  "sources": {
+    "contract": {
+      "name": "Agreement 2203-24",
+      "effectiveDate": "Mar 22, 2024",
+      "period": "Feb - Jul 2025",
+      "rates": [
+        {
+          "label": "Smartflow",
+          "rate": 4.8,
+          "fixedFee": 0
+        }
+      ]
+    },
+    "registry": {
+      "files": [
+        "NOXIOUS registry Feb-Jul 2025"
+      ],
+      "operationType": "Incoming",
+      "currency": "GBP",
+      "period": "Feb 1 - Jul 31, 2025",
+      "columns": [
+        "Month",
+        "Amount",
+        "Commission",
+        "Rate"
+      ]
+    },
+    "reconciliation": {
+      "file": "NOXIOUS.xlsx",
+      "sheet": "GBP (S)",
+      "period": "Feb 1 - Jul 31, 2025",
+      "columns": [
+        "Month",
+        "Amount",
+        "Commission",
+        "Rate"
+      ]
+    }
+  },
+  "dailyData": [
+    {
+      "date": "January",
+      "registry": {
+        "count": 2366,
+        "amount": 121375.82,
+        "effectiveRate": 4.7999,
+        "commission": 5825.94
+      },
+      "reconciliation": {
+        "count": 2366,
+        "amount": 121375.82,
+        "effectiveRate": 4.7999,
+        "commission": 5825.94
+      },
+      "contractExpected": 5825.94,
+      "diff": 0.0,
+      "isAfterChange": false
+    },
+    {
+      "date": "February",
+      "registry": {
+        "count": 2004,
+        "amount": 100426.83,
+        "effectiveRate": 3.9745,
+        "commission": 3991.5
+      },
+      "reconciliation": {
+        "count": 2004,
+        "amount": 100426.83,
+        "effectiveRate": 3.9745,
+        "commission": 3991.5
+      },
+      "contractExpected": 4820.49,
+      "diff": -828.99,
+      "isAfterChange": true
+    },
+    {
+      "date": "March",
+      "registry": {
+        "count": 2470,
+        "amount": 120316.84,
+        "effectiveRate": 3.4997,
+        "commission": 4210.71
+      },
+      "reconciliation": {
+        "count": 2470,
+        "amount": 120316.84,
+        "effectiveRate": 3.4997,
+        "commission": 4210.71
+      },
+      "contractExpected": 5775.21,
+      "diff": -1564.5,
+      "isAfterChange": true
+    },
+    {
+      "date": "April",
+      "registry": {
+        "count": 2333,
+        "amount": 117732.56,
+        "effectiveRate": 3.5003,
+        "commission": 4120.99
+      },
+      "reconciliation": {
+        "count": 2333,
+        "amount": 117732.56,
+        "effectiveRate": 3.5003,
+        "commission": 4120.99
+      },
+      "contractExpected": 5651.16,
+      "diff": -1530.17,
+      "isAfterChange": true
+    },
+    {
+      "date": "May",
+      "registry": {
+        "count": 3765,
+        "amount": 187233.34,
+        "effectiveRate": 3.5004,
+        "commission": 6553.83
+      },
+      "reconciliation": {
+        "count": 3765,
+        "amount": 187233.34,
+        "effectiveRate": 3.5004,
+        "commission": 6553.83
+      },
+      "contractExpected": 8987.2,
+      "diff": -2433.37,
+      "isAfterChange": true
+    },
+    {
+      "date": "June",
+      "registry": {
+        "count": 1853,
+        "amount": 98407.29,
+        "effectiveRate": 3.5003,
+        "commission": 3444.53
+      },
+      "reconciliation": {
+        "count": 1853,
+        "amount": 98407.29,
+        "effectiveRate": 3.5003,
+        "commission": 3444.53
+      },
+      "contractExpected": 4723.55,
+      "diff": -1279.02,
+      "isAfterChange": true
+    },
+    {
+      "date": "July",
+      "registry": {
+        "count": 1151,
+        "amount": 52420.03,
+        "effectiveRate": 3.6646,
+        "commission": 1920.99
+      },
+      "reconciliation": {
+        "count": 1151,
+        "amount": 52420.03,
+        "effectiveRate": 3.6646,
+        "commission": 1920.99
+      },
+      "contractExpected": 2516.16,
+      "diff": -595.17,
+      "isAfterChange": true
+    }
+  ],
+  "notes": [
+    {
+      "type": "warning",
+      "text": "GBP effective rate dropped from 4.8% to ~3.5% starting February 2025, well below the 4.8% contract rate. Total underpayment gap is 1.3 percentage points."
+    },
+    {
+      "type": "info",
+      "text": "September 2024 through January 2025 correctly show ~4.8% rate. The discrepancy begins in February 2025, coinciding with the EUR Card rate drop."
+    },
+    {
+      "type": "info",
+      "text": "Data available at monthly granularity only for GBP. Daily breakdown not available from reconciliation source."
+    }
+  ]
+}

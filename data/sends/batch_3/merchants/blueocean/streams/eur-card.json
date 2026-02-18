@@ -2111,7 +2111,10 @@
             }
           ]
         }
-      ]
+      ],
+      "rateChangeDay": 17,
+      "rateFrom": 5.0,
+      "rateTo": 4.2
     },
     {
       "key": "sep-2025",
@@ -2801,7 +2804,10 @@
             }
           ]
         }
-      ]
+      ],
+      "rateChangeDay": 9,
+      "rateFrom": 4.8,
+      "rateTo": 5.0
     },
     {
       "key": "aug-2025",

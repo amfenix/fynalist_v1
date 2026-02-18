@@ -357,7 +357,9 @@
               "periodFrom": "March 1",
               "periodTo": "March end"
             }
-          ]
+          ],
+          "hasRateChange": true,
+          "rateChangeInfo": "5.0% -> 4.8% from Mar 19"
         },
         "apr": {
           "turnover": 161260.49,
@@ -508,7 +510,9 @@
               "periodFrom": "October 1",
               "periodTo": "October end"
             }
-          ]
+          ],
+          "hasRateChange": true,
+          "rateChangeInfo": "4.8% -> 4.2% from Oct 16"
         },
         "nov": {
           "turnover": 35265.43,

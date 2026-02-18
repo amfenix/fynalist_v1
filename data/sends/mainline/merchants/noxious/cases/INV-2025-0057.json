@@ -1,0 +1,3230 @@
+{
+  "type": "rate-change",
+  "caseId": "INV-2025-0057",
+  "caseNumber": "INV-2025-0057",
+  "merchant": {
+    "name": "NOXIOUS",
+    "legalName": "NOXIOUS LIMITED",
+    "contract": "2203-24",
+    "shortname": "noxious"
+  },
+  "partLabel": "Smartflow",
+  "period": {
+    "from": "Feb 1, 2025",
+    "to": "Jul 31, 2025"
+  },
+  "deviation": -133419.09,
+  "contractRate": 3.8,
+  "actualRate": 3.53,
+  "changeDate": "Feb 1, 2025",
+  "valueColumns": [
+    "amount",
+    "commission"
+  ],
+  "summary": "EUR Card incoming payments show systematic underpayment from February through July 2025. Contract rate is 3.8% but reconciliation shows effective rates of 3.50-3.64%. Total underpayment: 133,419.09 EUR across 6 months.",
+  "sources": {
+    "contract": {
+      "name": "Agreement 2203-24",
+      "effectiveDate": "Mar 22, 2024",
+      "period": "Feb - Jul 2025",
+      "rates": [
+        {
+          "label": "Smartflow",
+          "rate": 3.8,
+          "fixedFee": 0
+        }
+      ]
+    },
+    "registry": {
+      "files": [
+        "NOXIOUS registry Feb-Jul 2025"
+      ],
+      "operationType": "Incoming",
+      "currency": "EUR",
+      "period": "Feb 1 - Jul 31, 2025",
+      "columns": [
+        "Date",
+        "Amount",
+        "Commission",
+        "Rate"
+      ]
+    },
+    "reconciliation": {
+      "file": "NOXIOUS.xlsx",
+      "sheet": "EUR (S)",
+      "period": "Feb 1 - Jul 31, 2025",
+      "columns": [
+        "Date",
+        "Amount",
+        "Commission",
+        "Rate"
+      ]
+    }
+  },
+  "dailyData": [
+    {
+      "date": "Feb 1",
+      "registry": {
+        "count": 6318,
+        "amount": 302132.0,
+        "effectiveRate": 3.6392,
+        "commission": 10995.19
+      },
+      "reconciliation": {
+        "count": 6318,
+        "amount": 302132.0,
+        "effectiveRate": 3.6392,
+        "commission": 10995.19
+      },
+      "contractExpected": 11481.02,
+      "diff": -485.83,
+      "isAfterChange": true
+    },
+    {
+      "date": "Feb 2",
+      "registry": {
+        "count": 5164,
+        "amount": 235185.49,
+        "effectiveRate": 3.6392,
+        "commission": 8558.87
+      },
+      "reconciliation": {
+        "count": 5164,
+        "amount": 235185.49,
+        "effectiveRate": 3.6392,
+        "commission": 8558.87
+      },
+      "contractExpected": 8937.05,
+      "diff": -378.18,
+      "isAfterChange": true
+    },
+    {
+      "date": "Feb 3",
+      "registry": {
+        "count": 4894,
+        "amount": 233622.55,
+        "effectiveRate": 3.6392,
+        "commission": 8501.99
+      },
+      "reconciliation": {
+        "count": 4894,
+        "amount": 233622.55,
+        "effectiveRate": 3.6392,
+        "commission": 8501.99
+      },
+      "contractExpected": 8877.66,
+      "diff": -375.67,
+      "isAfterChange": true
+    },
+    {
+      "date": "Feb 4",
+      "registry": {
+        "count": 5116,
+        "amount": 240987.23,
+        "effectiveRate": 3.6392,
+        "commission": 8770.01
+      },
+      "reconciliation": {
+        "count": 5116,
+        "amount": 240987.23,
+        "effectiveRate": 3.6392,
+        "commission": 8770.01
+      },
+      "contractExpected": 9157.51,
+      "diff": -387.5,
+      "isAfterChange": true
+    },
+    {
+      "date": "Feb 5",
+      "registry": {
+        "count": 5527,
+        "amount": 263198.48,
+        "effectiveRate": 3.6392,
+        "commission": 9578.32
+      },
+      "reconciliation": {
+        "count": 5527,
+        "amount": 263198.48,
+        "effectiveRate": 3.6392,
+        "commission": 9578.32
+      },
+      "contractExpected": 10001.54,
+      "diff": -423.22,
+      "isAfterChange": true
+    },
+    {
+      "date": "Feb 6",
+      "registry": {
+        "count": 5310,
+        "amount": 247027.61,
+        "effectiveRate": 3.6392,
+        "commission": 8989.83
+      },
+      "reconciliation": {
+        "count": 5310,
+        "amount": 247027.61,
+        "effectiveRate": 3.6392,
+        "commission": 8989.83
+      },
+      "contractExpected": 9387.05,
+      "diff": -397.22,
+      "isAfterChange": true
+    },
+    {
+      "date": "Feb 7",
+      "registry": {
+        "count": 5534,
+        "amount": 258767.95,
+        "effectiveRate": 3.6392,
+        "commission": 9417.08
+      },
+      "reconciliation": {
+        "count": 5534,
+        "amount": 258767.95,
+        "effectiveRate": 3.6392,
+        "commission": 9417.08
+      },
+      "contractExpected": 9833.18,
+      "diff": -416.1,
+      "isAfterChange": true
+    },
+    {
+      "date": "Feb 8",
+      "registry": {
+        "count": 4969,
+        "amount": 209192.07,
+        "effectiveRate": 3.6392,
+        "commission": 7612.92
+      },
+      "reconciliation": {
+        "count": 4969,
+        "amount": 209192.07,
+        "effectiveRate": 3.6392,
+        "commission": 7612.92
+      },
+      "contractExpected": 7949.3,
+      "diff": -336.38,
+      "isAfterChange": true
+    },
+    {
+      "date": "Feb 9",
+      "registry": {
+        "count": 3996,
+        "amount": 169894.95,
+        "effectiveRate": 3.6392,
+        "commission": 6182.82
+      },
+      "reconciliation": {
+        "count": 3996,
+        "amount": 169894.95,
+        "effectiveRate": 3.6392,
+        "commission": 6182.82
+      },
+      "contractExpected": 6456.01,
+      "diff": -273.19,
+      "isAfterChange": true
+    },
+    {
+      "date": "Feb 10",
+      "registry": {
+        "count": 4619,
+        "amount": 200154.03,
+        "effectiveRate": 3.6392,
+        "commission": 7284.01
+      },
+      "reconciliation": {
+        "count": 4619,
+        "amount": 200154.03,
+        "effectiveRate": 3.6392,
+        "commission": 7284.01
+      },
+      "contractExpected": 7605.85,
+      "diff": -321.84,
+      "isAfterChange": true
+    },
+    {
+      "date": "Feb 11",
+      "registry": {
+        "count": 4747,
+        "amount": 193069.28,
+        "effectiveRate": 3.6392,
+        "commission": 7026.18
+      },
+      "reconciliation": {
+        "count": 4747,
+        "amount": 193069.28,
+        "effectiveRate": 3.6392,
+        "commission": 7026.18
+      },
+      "contractExpected": 7336.63,
+      "diff": -310.45,
+      "isAfterChange": true
+    },
+    {
+      "date": "Feb 12",
+      "registry": {
+        "count": 4608,
+        "amount": 185427.21,
+        "effectiveRate": 3.6392,
+        "commission": 6748.07
+      },
+      "reconciliation": {
+        "count": 4608,
+        "amount": 185427.21,
+        "effectiveRate": 3.6392,
+        "commission": 6748.07
+      },
+      "contractExpected": 7046.23,
+      "diff": -298.16,
+      "isAfterChange": true
+    },
+    {
+      "date": "Feb 13",
+      "registry": {
+        "count": 4295,
+        "amount": 183603.33,
+        "effectiveRate": 3.6392,
+        "commission": 6681.69
+      },
+      "reconciliation": {
+        "count": 4295,
+        "amount": 183603.33,
+        "effectiveRate": 3.6392,
+        "commission": 6681.69
+      },
+      "contractExpected": 6976.93,
+      "diff": -295.24,
+      "isAfterChange": true
+    },
+    {
+      "date": "Feb 14",
+      "registry": {
+        "count": 4615,
+        "amount": 199088.57,
+        "effectiveRate": 3.6392,
+        "commission": 7245.23
+      },
+      "reconciliation": {
+        "count": 4615,
+        "amount": 199088.57,
+        "effectiveRate": 3.6392,
+        "commission": 7245.23
+      },
+      "contractExpected": 7565.37,
+      "diff": -320.14,
+      "isAfterChange": true
+    },
+    {
+      "date": "Feb 15",
+      "registry": {
+        "count": 3923,
+        "amount": 159642.55,
+        "effectiveRate": 3.6392,
+        "commission": 5809.71
+      },
+      "reconciliation": {
+        "count": 3923,
+        "amount": 159642.55,
+        "effectiveRate": 3.6392,
+        "commission": 5809.71
+      },
+      "contractExpected": 6066.42,
+      "diff": -256.71,
+      "isAfterChange": true
+    },
+    {
+      "date": "Feb 16",
+      "registry": {
+        "count": 3186,
+        "amount": 125927.37,
+        "effectiveRate": 3.6392,
+        "commission": 4582.75
+      },
+      "reconciliation": {
+        "count": 3186,
+        "amount": 125927.37,
+        "effectiveRate": 3.6392,
+        "commission": 4582.75
+      },
+      "contractExpected": 4785.24,
+      "diff": -202.49,
+      "isAfterChange": true
+    },
+    {
+      "date": "Feb 17",
+      "registry": {
+        "count": 3562,
+        "amount": 151230.66,
+        "effectiveRate": 3.6392,
+        "commission": 5503.59
+      },
+      "reconciliation": {
+        "count": 3562,
+        "amount": 151230.66,
+        "effectiveRate": 3.6392,
+        "commission": 5503.59
+      },
+      "contractExpected": 5746.77,
+      "diff": -243.18,
+      "isAfterChange": true
+    },
+    {
+      "date": "Feb 18",
+      "registry": {
+        "count": 3465,
+        "amount": 149565.07,
+        "effectiveRate": 3.6392,
+        "commission": 5442.97
+      },
+      "reconciliation": {
+        "count": 3465,
+        "amount": 149565.07,
+        "effectiveRate": 3.6392,
+        "commission": 5442.97
+      },
+      "contractExpected": 5683.47,
+      "diff": -240.5,
+      "isAfterChange": true
+    },
+    {
+      "date": "Feb 19",
+      "registry": {
+        "count": 3533,
+        "amount": 154919.29,
+        "effectiveRate": 3.6392,
+        "commission": 5637.82
+      },
+      "reconciliation": {
+        "count": 3533,
+        "amount": 154919.29,
+        "effectiveRate": 3.6392,
+        "commission": 5637.82
+      },
+      "contractExpected": 5886.93,
+      "diff": -249.11,
+      "isAfterChange": true
+    },
+    {
+      "date": "Feb 20",
+      "registry": {
+        "count": 4035,
+        "amount": 174013.76,
+        "effectiveRate": 3.6392,
+        "commission": 6332.71
+      },
+      "reconciliation": {
+        "count": 4035,
+        "amount": 174013.76,
+        "effectiveRate": 3.6392,
+        "commission": 6332.71
+      },
+      "contractExpected": 6612.52,
+      "diff": -279.81,
+      "isAfterChange": true
+    },
+    {
+      "date": "Feb 21",
+      "registry": {
+        "count": 4482,
+        "amount": 187268.32,
+        "effectiveRate": 3.6392,
+        "commission": 6815.07
+      },
+      "reconciliation": {
+        "count": 4482,
+        "amount": 187268.32,
+        "effectiveRate": 3.6392,
+        "commission": 6815.07
+      },
+      "contractExpected": 7116.2,
+      "diff": -301.13,
+      "isAfterChange": true
+    },
+    {
+      "date": "Feb 22",
+      "registry": {
+        "count": 3820,
+        "amount": 168039.59,
+        "effectiveRate": 3.6392,
+        "commission": 6115.3
+      },
+      "reconciliation": {
+        "count": 3820,
+        "amount": 168039.59,
+        "effectiveRate": 3.6392,
+        "commission": 6115.3
+      },
+      "contractExpected": 6385.5,
+      "diff": -270.2,
+      "isAfterChange": true
+    },
+    {
+      "date": "Feb 23",
+      "registry": {
+        "count": 3131,
+        "amount": 127295.23,
+        "effectiveRate": 3.6392,
+        "commission": 4632.53
+      },
+      "reconciliation": {
+        "count": 3131,
+        "amount": 127295.23,
+        "effectiveRate": 3.6392,
+        "commission": 4632.53
+      },
+      "contractExpected": 4837.22,
+      "diff": -204.69,
+      "isAfterChange": true
+    },
+    {
+      "date": "Feb 24",
+      "registry": {
+        "count": 3582,
+        "amount": 156019.65,
+        "effectiveRate": 3.6392,
+        "commission": 5677.87
+      },
+      "reconciliation": {
+        "count": 3582,
+        "amount": 156019.65,
+        "effectiveRate": 3.6392,
+        "commission": 5677.87
+      },
+      "contractExpected": 5928.75,
+      "diff": -250.88,
+      "isAfterChange": true
+    },
+    {
+      "date": "Feb 25",
+      "registry": {
+        "count": 4250,
+        "amount": 194723.04,
+        "effectiveRate": 3.6392,
+        "commission": 7086.36
+      },
+      "reconciliation": {
+        "count": 4250,
+        "amount": 194723.04,
+        "effectiveRate": 3.6392,
+        "commission": 7086.36
+      },
+      "contractExpected": 7399.48,
+      "diff": -313.12,
+      "isAfterChange": true
+    },
+    {
+      "date": "Feb 26",
+      "registry": {
+        "count": 4321,
+        "amount": 186922.95,
+        "effectiveRate": 3.6392,
+        "commission": 6802.5
+      },
+      "reconciliation": {
+        "count": 4321,
+        "amount": 186922.95,
+        "effectiveRate": 3.6392,
+        "commission": 6802.5
+      },
+      "contractExpected": 7103.07,
+      "diff": -300.57,
+      "isAfterChange": true
+    },
+    {
+      "date": "Feb 27",
+      "registry": {
+        "count": 4940,
+        "amount": 216435.26,
+        "effectiveRate": 3.6392,
+        "commission": 7876.51
+      },
+      "reconciliation": {
+        "count": 4940,
+        "amount": 216435.26,
+        "effectiveRate": 3.6392,
+        "commission": 7876.51
+      },
+      "contractExpected": 8224.54,
+      "diff": -348.03,
+      "isAfterChange": true
+    },
+    {
+      "date": "Feb 28",
+      "registry": {
+        "count": 5611,
+        "amount": 241304.05,
+        "effectiveRate": 3.6392,
+        "commission": 8781.54
+      },
+      "reconciliation": {
+        "count": 5611,
+        "amount": 241304.05,
+        "effectiveRate": 3.6392,
+        "commission": 8781.54
+      },
+      "contractExpected": 9169.55,
+      "diff": -388.01,
+      "isAfterChange": true
+    },
+    {
+      "date": "Mar 1",
+      "registry": {
+        "count": 4017,
+        "amount": 172537.94,
+        "effectiveRate": 3.5013,
+        "commission": 6041.07
+      },
+      "reconciliation": {
+        "count": 4017,
+        "amount": 172537.94,
+        "effectiveRate": 3.5013,
+        "commission": 6041.07
+      },
+      "contractExpected": 6556.44,
+      "diff": -515.37,
+      "isAfterChange": true
+    },
+    {
+      "date": "Mar 2",
+      "registry": {
+        "count": 3221,
+        "amount": 144554.22,
+        "effectiveRate": 3.5013,
+        "commission": 5061.28
+      },
+      "reconciliation": {
+        "count": 3221,
+        "amount": 144554.22,
+        "effectiveRate": 3.5013,
+        "commission": 5061.28
+      },
+      "contractExpected": 5493.06,
+      "diff": -431.78,
+      "isAfterChange": true
+    },
+    {
+      "date": "Mar 3",
+      "registry": {
+        "count": 4428,
+        "amount": 196676.26,
+        "effectiveRate": 3.5013,
+        "commission": 6886.23
+      },
+      "reconciliation": {
+        "count": 4428,
+        "amount": 196676.26,
+        "effectiveRate": 3.5013,
+        "commission": 6886.23
+      },
+      "contractExpected": 7473.7,
+      "diff": -587.47,
+      "isAfterChange": true
+    },
+    {
+      "date": "Mar 4",
+      "registry": {
+        "count": 5025,
+        "amount": 224383.94,
+        "effectiveRate": 3.5013,
+        "commission": 7856.35
+      },
+      "reconciliation": {
+        "count": 5025,
+        "amount": 224383.94,
+        "effectiveRate": 3.5013,
+        "commission": 7856.35
+      },
+      "contractExpected": 8526.59,
+      "diff": -670.24,
+      "isAfterChange": true
+    },
+    {
+      "date": "Mar 5",
+      "registry": {
+        "count": 5477,
+        "amount": 266725.27,
+        "effectiveRate": 3.5013,
+        "commission": 9338.85
+      },
+      "reconciliation": {
+        "count": 5477,
+        "amount": 266725.27,
+        "effectiveRate": 3.5013,
+        "commission": 9338.85
+      },
+      "contractExpected": 10135.56,
+      "diff": -796.71,
+      "isAfterChange": true
+    },
+    {
+      "date": "Mar 6",
+      "registry": {
+        "count": 5220,
+        "amount": 239380.16,
+        "effectiveRate": 3.5013,
+        "commission": 8381.42
+      },
+      "reconciliation": {
+        "count": 5220,
+        "amount": 239380.16,
+        "effectiveRate": 3.5013,
+        "commission": 8381.42
+      },
+      "contractExpected": 9096.45,
+      "diff": -715.03,
+      "isAfterChange": true
+    },
+    {
+      "date": "Mar 7",
+      "registry": {
+        "count": 4930,
+        "amount": 227010.43,
+        "effectiveRate": 3.5013,
+        "commission": 7948.32
+      },
+      "reconciliation": {
+        "count": 4930,
+        "amount": 227010.43,
+        "effectiveRate": 3.5013,
+        "commission": 7948.32
+      },
+      "contractExpected": 8626.4,
+      "diff": -678.08,
+      "isAfterChange": true
+    },
+    {
+      "date": "Mar 8",
+      "registry": {
+        "count": 4207,
+        "amount": 174583.54,
+        "effectiveRate": 3.5013,
+        "commission": 6112.69
+      },
+      "reconciliation": {
+        "count": 4207,
+        "amount": 174583.54,
+        "effectiveRate": 3.5013,
+        "commission": 6112.69
+      },
+      "contractExpected": 6634.17,
+      "diff": -521.48,
+      "isAfterChange": true
+    },
+    {
+      "date": "Mar 9",
+      "registry": {
+        "count": 3078,
+        "amount": 133607.21,
+        "effectiveRate": 3.5013,
+        "commission": 4677.99
+      },
+      "reconciliation": {
+        "count": 3078,
+        "amount": 133607.21,
+        "effectiveRate": 3.5013,
+        "commission": 4677.99
+      },
+      "contractExpected": 5077.07,
+      "diff": -399.08,
+      "isAfterChange": true
+    },
+    {
+      "date": "Mar 10",
+      "registry": {
+        "count": 4489,
+        "amount": 187086.87,
+        "effectiveRate": 3.5013,
+        "commission": 6550.47
+      },
+      "reconciliation": {
+        "count": 4489,
+        "amount": 187086.87,
+        "effectiveRate": 3.5013,
+        "commission": 6550.47
+      },
+      "contractExpected": 7109.3,
+      "diff": -558.83,
+      "isAfterChange": true
+    },
+    {
+      "date": "Mar 11",
+      "registry": {
+        "count": 4764,
+        "amount": 199178.92,
+        "effectiveRate": 3.5013,
+        "commission": 6973.85
+      },
+      "reconciliation": {
+        "count": 4764,
+        "amount": 199178.92,
+        "effectiveRate": 3.5013,
+        "commission": 6973.85
+      },
+      "contractExpected": 7568.8,
+      "diff": -594.95,
+      "isAfterChange": true
+    },
+    {
+      "date": "Mar 12",
+      "registry": {
+        "count": 4720,
+        "amount": 198027.33,
+        "effectiveRate": 3.5013,
+        "commission": 6933.53
+      },
+      "reconciliation": {
+        "count": 4720,
+        "amount": 198027.33,
+        "effectiveRate": 3.5013,
+        "commission": 6933.53
+      },
+      "contractExpected": 7525.04,
+      "diff": -591.51,
+      "isAfterChange": true
+    },
+    {
+      "date": "Mar 13",
+      "registry": {
+        "count": 5174,
+        "amount": 219449.98,
+        "effectiveRate": 3.5013,
+        "commission": 7683.6
+      },
+      "reconciliation": {
+        "count": 5174,
+        "amount": 219449.98,
+        "effectiveRate": 3.5013,
+        "commission": 7683.6
+      },
+      "contractExpected": 8339.1,
+      "diff": -655.5,
+      "isAfterChange": true
+    },
+    {
+      "date": "Mar 14",
+      "registry": {
+        "count": 6135,
+        "amount": 260877.0,
+        "effectiveRate": 3.5013,
+        "commission": 9134.09
+      },
+      "reconciliation": {
+        "count": 6135,
+        "amount": 260877.0,
+        "effectiveRate": 3.5013,
+        "commission": 9134.09
+      },
+      "contractExpected": 9913.33,
+      "diff": -779.24,
+      "isAfterChange": true
+    },
+    {
+      "date": "Mar 15",
+      "registry": {
+        "count": 4603,
+        "amount": 186668.72,
+        "effectiveRate": 3.5013,
+        "commission": 6535.83
+      },
+      "reconciliation": {
+        "count": 4603,
+        "amount": 186668.72,
+        "effectiveRate": 3.5013,
+        "commission": 6535.83
+      },
+      "contractExpected": 7093.41,
+      "diff": -557.58,
+      "isAfterChange": true
+    },
+    {
+      "date": "Mar 16",
+      "registry": {
+        "count": 3836,
+        "amount": 153767.17,
+        "effectiveRate": 3.5013,
+        "commission": 5383.85
+      },
+      "reconciliation": {
+        "count": 3836,
+        "amount": 153767.17,
+        "effectiveRate": 3.5013,
+        "commission": 5383.85
+      },
+      "contractExpected": 5843.15,
+      "diff": -459.3,
+      "isAfterChange": true
+    },
+    {
+      "date": "Mar 17",
+      "registry": {
+        "count": 4166,
+        "amount": 176491.27,
+        "effectiveRate": 3.5013,
+        "commission": 6179.49
+      },
+      "reconciliation": {
+        "count": 4166,
+        "amount": 176491.27,
+        "effectiveRate": 3.5013,
+        "commission": 6179.49
+      },
+      "contractExpected": 6706.67,
+      "diff": -527.18,
+      "isAfterChange": true
+    },
+    {
+      "date": "Mar 18",
+      "registry": {
+        "count": 4301,
+        "amount": 179036.71,
+        "effectiveRate": 3.5013,
+        "commission": 6268.61
+      },
+      "reconciliation": {
+        "count": 4301,
+        "amount": 179036.71,
+        "effectiveRate": 3.5013,
+        "commission": 6268.61
+      },
+      "contractExpected": 6803.39,
+      "diff": -534.78,
+      "isAfterChange": true
+    },
+    {
+      "date": "Mar 19",
+      "registry": {
+        "count": 4483,
+        "amount": 187005.14,
+        "effectiveRate": 3.5013,
+        "commission": 6547.61
+      },
+      "reconciliation": {
+        "count": 4483,
+        "amount": 187005.14,
+        "effectiveRate": 3.5013,
+        "commission": 6547.61
+      },
+      "contractExpected": 7106.2,
+      "diff": -558.59,
+      "isAfterChange": true
+    },
+    {
+      "date": "Mar 20",
+      "registry": {
+        "count": 4890,
+        "amount": 205459.02,
+        "effectiveRate": 3.5013,
+        "commission": 7193.74
+      },
+      "reconciliation": {
+        "count": 4890,
+        "amount": 205459.02,
+        "effectiveRate": 3.5013,
+        "commission": 7193.74
+      },
+      "contractExpected": 7807.44,
+      "diff": -613.7,
+      "isAfterChange": true
+    },
+    {
+      "date": "Mar 21",
+      "registry": {
+        "count": 4862,
+        "amount": 220423.78,
+        "effectiveRate": 3.5013,
+        "commission": 7717.7
+      },
+      "reconciliation": {
+        "count": 4862,
+        "amount": 220423.78,
+        "effectiveRate": 3.5013,
+        "commission": 7717.7
+      },
+      "contractExpected": 8376.1,
+      "diff": -658.4,
+      "isAfterChange": true
+    },
+    {
+      "date": "Mar 22",
+      "registry": {
+        "count": 4088,
+        "amount": 190823.39,
+        "effectiveRate": 3.5013,
+        "commission": 6681.3
+      },
+      "reconciliation": {
+        "count": 4088,
+        "amount": 190823.39,
+        "effectiveRate": 3.5013,
+        "commission": 6681.3
+      },
+      "contractExpected": 7251.29,
+      "diff": -569.99,
+      "isAfterChange": true
+    },
+    {
+      "date": "Mar 23",
+      "registry": {
+        "count": 3380,
+        "amount": 143973.69,
+        "effectiveRate": 3.5013,
+        "commission": 5040.95
+      },
+      "reconciliation": {
+        "count": 3380,
+        "amount": 143973.69,
+        "effectiveRate": 3.5013,
+        "commission": 5040.95
+      },
+      "contractExpected": 5471.0,
+      "diff": -430.05,
+      "isAfterChange": true
+    },
+    {
+      "date": "Mar 24",
+      "registry": {
+        "count": 3903,
+        "amount": 179197.54,
+        "effectiveRate": 3.5013,
+        "commission": 6274.24
+      },
+      "reconciliation": {
+        "count": 3903,
+        "amount": 179197.54,
+        "effectiveRate": 3.5013,
+        "commission": 6274.24
+      },
+      "contractExpected": 6809.51,
+      "diff": -535.27,
+      "isAfterChange": true
+    },
+    {
+      "date": "Mar 25",
+      "registry": {
+        "count": 4360,
+        "amount": 199614.92,
+        "effectiveRate": 3.5013,
+        "commission": 6989.12
+      },
+      "reconciliation": {
+        "count": 4360,
+        "amount": 199614.92,
+        "effectiveRate": 3.5013,
+        "commission": 6989.12
+      },
+      "contractExpected": 7585.37,
+      "diff": -596.25,
+      "isAfterChange": true
+    },
+    {
+      "date": "Mar 26",
+      "registry": {
+        "count": 4395,
+        "amount": 204100.92,
+        "effectiveRate": 3.5013,
+        "commission": 7146.19
+      },
+      "reconciliation": {
+        "count": 4395,
+        "amount": 204100.92,
+        "effectiveRate": 3.5013,
+        "commission": 7146.19
+      },
+      "contractExpected": 7755.83,
+      "diff": -609.64,
+      "isAfterChange": true
+    },
+    {
+      "date": "Mar 27",
+      "registry": {
+        "count": 4911,
+        "amount": 221964.52,
+        "effectiveRate": 3.5013,
+        "commission": 7771.64
+      },
+      "reconciliation": {
+        "count": 4911,
+        "amount": 221964.52,
+        "effectiveRate": 3.5013,
+        "commission": 7771.64
+      },
+      "contractExpected": 8434.65,
+      "diff": -663.01,
+      "isAfterChange": true
+    },
+    {
+      "date": "Mar 28",
+      "registry": {
+        "count": 5686,
+        "amount": 258988.53,
+        "effectiveRate": 3.5013,
+        "commission": 9067.97
+      },
+      "reconciliation": {
+        "count": 5686,
+        "amount": 258988.53,
+        "effectiveRate": 3.5013,
+        "commission": 9067.97
+      },
+      "contractExpected": 9841.56,
+      "diff": -773.59,
+      "isAfterChange": true
+    },
+    {
+      "date": "Mar 29",
+      "registry": {
+        "count": 4971,
+        "amount": 225225.63,
+        "effectiveRate": 3.5013,
+        "commission": 7885.82
+      },
+      "reconciliation": {
+        "count": 4971,
+        "amount": 225225.63,
+        "effectiveRate": 3.5013,
+        "commission": 7885.82
+      },
+      "contractExpected": 8558.57,
+      "diff": -672.75,
+      "isAfterChange": true
+    },
+    {
+      "date": "Mar 30",
+      "registry": {
+        "count": 4054,
+        "amount": 169037.14,
+        "effectiveRate": 3.5013,
+        "commission": 5918.5
+      },
+      "reconciliation": {
+        "count": 4054,
+        "amount": 169037.14,
+        "effectiveRate": 3.5013,
+        "commission": 5918.5
+      },
+      "contractExpected": 6423.41,
+      "diff": -504.91,
+      "isAfterChange": true
+    },
+    {
+      "date": "Mar 31",
+      "registry": {
+        "count": 5173,
+        "amount": 225310.54,
+        "effectiveRate": 3.5013,
+        "commission": 7888.8
+      },
+      "reconciliation": {
+        "count": 5173,
+        "amount": 225310.54,
+        "effectiveRate": 3.5013,
+        "commission": 7888.8
+      },
+      "contractExpected": 8561.8,
+      "diff": -673.0,
+      "isAfterChange": true
+    },
+    {
+      "date": "Apr 1",
+      "registry": {
+        "count": 6346,
+        "amount": 270681.29,
+        "effectiveRate": 3.5014,
+        "commission": 9477.63
+      },
+      "reconciliation": {
+        "count": 6346,
+        "amount": 270681.29,
+        "effectiveRate": 3.5014,
+        "commission": 9477.63
+      },
+      "contractExpected": 10285.89,
+      "diff": -808.26,
+      "isAfterChange": true
+    },
+    {
+      "date": "Apr 2",
+      "registry": {
+        "count": 5998,
+        "amount": 251063.8,
+        "effectiveRate": 3.5014,
+        "commission": 8790.75
+      },
+      "reconciliation": {
+        "count": 5998,
+        "amount": 251063.8,
+        "effectiveRate": 3.5014,
+        "commission": 8790.75
+      },
+      "contractExpected": 9540.42,
+      "diff": -749.67,
+      "isAfterChange": true
+    },
+    {
+      "date": "Apr 3",
+      "registry": {
+        "count": 5932,
+        "amount": 264565.35,
+        "effectiveRate": 3.5014,
+        "commission": 9263.49
+      },
+      "reconciliation": {
+        "count": 5932,
+        "amount": 264565.35,
+        "effectiveRate": 3.5014,
+        "commission": 9263.49
+      },
+      "contractExpected": 10053.48,
+      "diff": -789.99,
+      "isAfterChange": true
+    },
+    {
+      "date": "Apr 4",
+      "registry": {
+        "count": 6805,
+        "amount": 306149.09,
+        "effectiveRate": 3.5014,
+        "commission": 10719.5
+      },
+      "reconciliation": {
+        "count": 6805,
+        "amount": 306149.09,
+        "effectiveRate": 3.5014,
+        "commission": 10719.5
+      },
+      "contractExpected": 11633.67,
+      "diff": -914.17,
+      "isAfterChange": true
+    },
+    {
+      "date": "Apr 5",
+      "registry": {
+        "count": 5345,
+        "amount": 234974.77,
+        "effectiveRate": 3.5014,
+        "commission": 8227.41
+      },
+      "reconciliation": {
+        "count": 5345,
+        "amount": 234974.77,
+        "effectiveRate": 3.5014,
+        "commission": 8227.41
+      },
+      "contractExpected": 8929.04,
+      "diff": -701.63,
+      "isAfterChange": true
+    },
+    {
+      "date": "Apr 6",
+      "registry": {
+        "count": 4569,
+        "amount": 195207.86,
+        "effectiveRate": 3.5014,
+        "commission": 6835.01
+      },
+      "reconciliation": {
+        "count": 4569,
+        "amount": 195207.86,
+        "effectiveRate": 3.5014,
+        "commission": 6835.01
+      },
+      "contractExpected": 7417.9,
+      "diff": -582.89,
+      "isAfterChange": true
+    },
+    {
+      "date": "Apr 7",
+      "registry": {
+        "count": 5027,
+        "amount": 218336.5,
+        "effectiveRate": 3.5014,
+        "commission": 7644.83
+      },
+      "reconciliation": {
+        "count": 5027,
+        "amount": 218336.5,
+        "effectiveRate": 3.5014,
+        "commission": 7644.83
+      },
+      "contractExpected": 8296.79,
+      "diff": -651.96,
+      "isAfterChange": true
+    },
+    {
+      "date": "Apr 8",
+      "registry": {
+        "count": 5303,
+        "amount": 234572.71,
+        "effectiveRate": 3.5014,
+        "commission": 8213.33
+      },
+      "reconciliation": {
+        "count": 5303,
+        "amount": 234572.71,
+        "effectiveRate": 3.5014,
+        "commission": 8213.33
+      },
+      "contractExpected": 8913.76,
+      "diff": -700.43,
+      "isAfterChange": true
+    },
+    {
+      "date": "Apr 9",
+      "registry": {
+        "count": 5731,
+        "amount": 250356.1,
+        "effectiveRate": 3.5014,
+        "commission": 8765.97
+      },
+      "reconciliation": {
+        "count": 5731,
+        "amount": 250356.1,
+        "effectiveRate": 3.5014,
+        "commission": 8765.97
+      },
+      "contractExpected": 9513.53,
+      "diff": -747.56,
+      "isAfterChange": true
+    },
+    {
+      "date": "Apr 10",
+      "registry": {
+        "count": 6405,
+        "amount": 274521.68,
+        "effectiveRate": 3.5014,
+        "commission": 9612.1
+      },
+      "reconciliation": {
+        "count": 6405,
+        "amount": 274521.68,
+        "effectiveRate": 3.5014,
+        "commission": 9612.1
+      },
+      "contractExpected": 10431.82,
+      "diff": -819.72,
+      "isAfterChange": true
+    },
+    {
+      "date": "Apr 11",
+      "registry": {
+        "count": 7137,
+        "amount": 313515.93,
+        "effectiveRate": 3.5014,
+        "commission": 10977.45
+      },
+      "reconciliation": {
+        "count": 7137,
+        "amount": 313515.93,
+        "effectiveRate": 3.5014,
+        "commission": 10977.45
+      },
+      "contractExpected": 11913.61,
+      "diff": -936.16,
+      "isAfterChange": true
+    },
+    {
+      "date": "Apr 12",
+      "registry": {
+        "count": 5983,
+        "amount": 261243.96,
+        "effectiveRate": 3.5014,
+        "commission": 9147.2
+      },
+      "reconciliation": {
+        "count": 5983,
+        "amount": 261243.96,
+        "effectiveRate": 3.5014,
+        "commission": 9147.2
+      },
+      "contractExpected": 9927.27,
+      "diff": -780.07,
+      "isAfterChange": true
+    },
+    {
+      "date": "Apr 13",
+      "registry": {
+        "count": 5193,
+        "amount": 228140.43,
+        "effectiveRate": 3.5014,
+        "commission": 7988.11
+      },
+      "reconciliation": {
+        "count": 5193,
+        "amount": 228140.43,
+        "effectiveRate": 3.5014,
+        "commission": 7988.11
+      },
+      "contractExpected": 8669.34,
+      "diff": -681.23,
+      "isAfterChange": true
+    },
+    {
+      "date": "Apr 14",
+      "registry": {
+        "count": 5601,
+        "amount": 246648.59,
+        "effectiveRate": 3.5014,
+        "commission": 8636.15
+      },
+      "reconciliation": {
+        "count": 5601,
+        "amount": 246648.59,
+        "effectiveRate": 3.5014,
+        "commission": 8636.15
+      },
+      "contractExpected": 9372.65,
+      "diff": -736.5,
+      "isAfterChange": true
+    },
+    {
+      "date": "Apr 15",
+      "registry": {
+        "count": 5980,
+        "amount": 255736.39,
+        "effectiveRate": 3.5014,
+        "commission": 8954.35
+      },
+      "reconciliation": {
+        "count": 5980,
+        "amount": 255736.39,
+        "effectiveRate": 3.5014,
+        "commission": 8954.35
+      },
+      "contractExpected": 9717.98,
+      "diff": -763.63,
+      "isAfterChange": true
+    },
+    {
+      "date": "Apr 16",
+      "registry": {
+        "count": 5711,
+        "amount": 243828.97,
+        "effectiveRate": 3.5014,
+        "commission": 8537.43
+      },
+      "reconciliation": {
+        "count": 5711,
+        "amount": 243828.97,
+        "effectiveRate": 3.5014,
+        "commission": 8537.43
+      },
+      "contractExpected": 9265.5,
+      "diff": -728.07,
+      "isAfterChange": true
+    },
+    {
+      "date": "Apr 17",
+      "registry": {
+        "count": 7257,
+        "amount": 303259.45,
+        "effectiveRate": 3.5014,
+        "commission": 10618.33
+      },
+      "reconciliation": {
+        "count": 7257,
+        "amount": 303259.45,
+        "effectiveRate": 3.5014,
+        "commission": 10618.33
+      },
+      "contractExpected": 11523.86,
+      "diff": -905.53,
+      "isAfterChange": true
+    },
+    {
+      "date": "Apr 18",
+      "registry": {
+        "count": 6494,
+        "amount": 272558.13,
+        "effectiveRate": 3.5014,
+        "commission": 9543.35
+      },
+      "reconciliation": {
+        "count": 6494,
+        "amount": 272558.13,
+        "effectiveRate": 3.5014,
+        "commission": 9543.35
+      },
+      "contractExpected": 10357.21,
+      "diff": -813.86,
+      "isAfterChange": true
+    },
+    {
+      "date": "Apr 19",
+      "registry": {
+        "count": 5520,
+        "amount": 236569.5,
+        "effectiveRate": 3.5014,
+        "commission": 8283.24
+      },
+      "reconciliation": {
+        "count": 5520,
+        "amount": 236569.5,
+        "effectiveRate": 3.5014,
+        "commission": 8283.24
+      },
+      "contractExpected": 8989.64,
+      "diff": -706.4,
+      "isAfterChange": true
+    },
+    {
+      "date": "Apr 20",
+      "registry": {
+        "count": 4723,
+        "amount": 205395.18,
+        "effectiveRate": 3.5014,
+        "commission": 7191.71
+      },
+      "reconciliation": {
+        "count": 4723,
+        "amount": 205395.18,
+        "effectiveRate": 3.5014,
+        "commission": 7191.71
+      },
+      "contractExpected": 7805.02,
+      "diff": -613.31,
+      "isAfterChange": true
+    },
+    {
+      "date": "Apr 21",
+      "registry": {
+        "count": 4459,
+        "amount": 193558.56,
+        "effectiveRate": 3.5014,
+        "commission": 6777.26
+      },
+      "reconciliation": {
+        "count": 4459,
+        "amount": 193558.56,
+        "effectiveRate": 3.5014,
+        "commission": 6777.26
+      },
+      "contractExpected": 7355.23,
+      "diff": -577.97,
+      "isAfterChange": true
+    },
+    {
+      "date": "Apr 22",
+      "registry": {
+        "count": 5865,
+        "amount": 239439.24,
+        "effectiveRate": 3.5014,
+        "commission": 8383.73
+      },
+      "reconciliation": {
+        "count": 5865,
+        "amount": 239439.24,
+        "effectiveRate": 3.5014,
+        "commission": 8383.73
+      },
+      "contractExpected": 9098.69,
+      "diff": -714.96,
+      "isAfterChange": true
+    },
+    {
+      "date": "Apr 23",
+      "registry": {
+        "count": 6507,
+        "amount": 278302.8,
+        "effectiveRate": 3.5014,
+        "commission": 9744.49
+      },
+      "reconciliation": {
+        "count": 6507,
+        "amount": 278302.8,
+        "effectiveRate": 3.5014,
+        "commission": 9744.49
+      },
+      "contractExpected": 10575.51,
+      "diff": -831.02,
+      "isAfterChange": true
+    },
+    {
+      "date": "Apr 24",
+      "registry": {
+        "count": 7226,
+        "amount": 328501.8,
+        "effectiveRate": 3.5014,
+        "commission": 11502.16
+      },
+      "reconciliation": {
+        "count": 7226,
+        "amount": 328501.8,
+        "effectiveRate": 3.5014,
+        "commission": 11502.16
+      },
+      "contractExpected": 12483.07,
+      "diff": -980.91,
+      "isAfterChange": true
+    },
+    {
+      "date": "Apr 25",
+      "registry": {
+        "count": 7830,
+        "amount": 371190.61,
+        "effectiveRate": 3.5014,
+        "commission": 12996.87
+      },
+      "reconciliation": {
+        "count": 7830,
+        "amount": 371190.61,
+        "effectiveRate": 3.5014,
+        "commission": 12996.87
+      },
+      "contractExpected": 14105.24,
+      "diff": -1108.37,
+      "isAfterChange": true
+    },
+    {
+      "date": "Apr 26",
+      "registry": {
+        "count": 6525,
+        "amount": 296693.94,
+        "effectiveRate": 3.5014,
+        "commission": 10388.44
+      },
+      "reconciliation": {
+        "count": 6525,
+        "amount": 296693.94,
+        "effectiveRate": 3.5014,
+        "commission": 10388.44
+      },
+      "contractExpected": 11274.37,
+      "diff": -885.93,
+      "isAfterChange": true
+    },
+    {
+      "date": "Apr 27",
+      "registry": {
+        "count": 5187,
+        "amount": 227006.44,
+        "effectiveRate": 3.5014,
+        "commission": 7948.4
+      },
+      "reconciliation": {
+        "count": 5187,
+        "amount": 227006.44,
+        "effectiveRate": 3.5014,
+        "commission": 7948.4
+      },
+      "contractExpected": 8626.24,
+      "diff": -677.84,
+      "isAfterChange": true
+    },
+    {
+      "date": "Apr 28",
+      "registry": {
+        "count": 6115,
+        "amount": 282743.91,
+        "effectiveRate": 3.5014,
+        "commission": 9900.0
+      },
+      "reconciliation": {
+        "count": 6115,
+        "amount": 282743.91,
+        "effectiveRate": 3.5014,
+        "commission": 9900.0
+      },
+      "contractExpected": 10744.27,
+      "diff": -844.27,
+      "isAfterChange": true
+    },
+    {
+      "date": "Apr 29",
+      "registry": {
+        "count": 7478,
+        "amount": 334070.36,
+        "effectiveRate": 3.5014,
+        "commission": 11697.14
+      },
+      "reconciliation": {
+        "count": 7478,
+        "amount": 334070.36,
+        "effectiveRate": 3.5014,
+        "commission": 11697.14
+      },
+      "contractExpected": 12694.67,
+      "diff": -997.53,
+      "isAfterChange": true
+    },
+    {
+      "date": "Apr 30",
+      "registry": {
+        "count": 7637,
+        "amount": 332685.58,
+        "effectiveRate": 3.5014,
+        "commission": 11648.65
+      },
+      "reconciliation": {
+        "count": 7637,
+        "amount": 332685.58,
+        "effectiveRate": 3.5014,
+        "commission": 11648.65
+      },
+      "contractExpected": 12642.05,
+      "diff": -993.4,
+      "isAfterChange": true
+    },
+    {
+      "date": "May 1",
+      "registry": {
+        "count": 6428,
+        "amount": 288650.34,
+        "effectiveRate": 3.5013,
+        "commission": 10106.51
+      },
+      "reconciliation": {
+        "count": 6428,
+        "amount": 288650.34,
+        "effectiveRate": 3.5013,
+        "commission": 10106.51
+      },
+      "contractExpected": 10968.71,
+      "diff": -862.2,
+      "isAfterChange": true
+    },
+    {
+      "date": "May 2",
+      "registry": {
+        "count": 6893,
+        "amount": 311761.82,
+        "effectiveRate": 3.5013,
+        "commission": 10915.72
+      },
+      "reconciliation": {
+        "count": 6893,
+        "amount": 311761.82,
+        "effectiveRate": 3.5013,
+        "commission": 10915.72
+      },
+      "contractExpected": 11846.95,
+      "diff": -931.23,
+      "isAfterChange": true
+    },
+    {
+      "date": "May 3",
+      "registry": {
+        "count": 5947,
+        "amount": 260163.62,
+        "effectiveRate": 3.5013,
+        "commission": 9109.11
+      },
+      "reconciliation": {
+        "count": 5947,
+        "amount": 260163.62,
+        "effectiveRate": 3.5013,
+        "commission": 9109.11
+      },
+      "contractExpected": 9886.22,
+      "diff": -777.11,
+      "isAfterChange": true
+    },
+    {
+      "date": "May 4",
+      "registry": {
+        "count": 4845,
+        "amount": 215341.61,
+        "effectiveRate": 3.5013,
+        "commission": 7539.76
+      },
+      "reconciliation": {
+        "count": 4845,
+        "amount": 215341.61,
+        "effectiveRate": 3.5013,
+        "commission": 7539.76
+      },
+      "contractExpected": 8182.98,
+      "diff": -643.22,
+      "isAfterChange": true
+    },
+    {
+      "date": "May 5",
+      "registry": {
+        "count": 5669,
+        "amount": 245802.42,
+        "effectiveRate": 3.5013,
+        "commission": 8606.28
+      },
+      "reconciliation": {
+        "count": 5669,
+        "amount": 245802.42,
+        "effectiveRate": 3.5013,
+        "commission": 8606.28
+      },
+      "contractExpected": 9340.49,
+      "diff": -734.21,
+      "isAfterChange": true
+    },
+    {
+      "date": "May 6",
+      "registry": {
+        "count": 5775,
+        "amount": 243371.19,
+        "effectiveRate": 3.5013,
+        "commission": 8521.16
+      },
+      "reconciliation": {
+        "count": 5775,
+        "amount": 243371.19,
+        "effectiveRate": 3.5013,
+        "commission": 8521.16
+      },
+      "contractExpected": 9248.11,
+      "diff": -726.95,
+      "isAfterChange": true
+    },
+    {
+      "date": "May 7",
+      "registry": {
+        "count": 5389,
+        "amount": 224321.39,
+        "effectiveRate": 3.5013,
+        "commission": 7854.16
+      },
+      "reconciliation": {
+        "count": 5389,
+        "amount": 224321.39,
+        "effectiveRate": 3.5013,
+        "commission": 7854.16
+      },
+      "contractExpected": 8524.21,
+      "diff": -670.05,
+      "isAfterChange": true
+    },
+    {
+      "date": "May 8",
+      "registry": {
+        "count": 5751,
+        "amount": 249335.42,
+        "effectiveRate": 3.5013,
+        "commission": 8729.98
+      },
+      "reconciliation": {
+        "count": 5751,
+        "amount": 249335.42,
+        "effectiveRate": 3.5013,
+        "commission": 8729.98
+      },
+      "contractExpected": 9474.75,
+      "diff": -744.77,
+      "isAfterChange": true
+    },
+    {
+      "date": "May 9",
+      "registry": {
+        "count": 6793,
+        "amount": 289376.52,
+        "effectiveRate": 3.5013,
+        "commission": 10131.94
+      },
+      "reconciliation": {
+        "count": 6793,
+        "amount": 289376.52,
+        "effectiveRate": 3.5013,
+        "commission": 10131.94
+      },
+      "contractExpected": 10996.31,
+      "diff": -864.37,
+      "isAfterChange": true
+    },
+    {
+      "date": "May 10",
+      "registry": {
+        "count": 5577,
+        "amount": 243955.61,
+        "effectiveRate": 3.5013,
+        "commission": 8541.62
+      },
+      "reconciliation": {
+        "count": 5577,
+        "amount": 243955.61,
+        "effectiveRate": 3.5013,
+        "commission": 8541.62
+      },
+      "contractExpected": 9270.31,
+      "diff": -728.69,
+      "isAfterChange": true
+    },
+    {
+      "date": "May 11",
+      "registry": {
+        "count": 4515,
+        "amount": 195416.84,
+        "effectiveRate": 3.5013,
+        "commission": 6842.13
+      },
+      "reconciliation": {
+        "count": 4515,
+        "amount": 195416.84,
+        "effectiveRate": 3.5013,
+        "commission": 6842.13
+      },
+      "contractExpected": 7425.84,
+      "diff": -583.71,
+      "isAfterChange": true
+    },
+    {
+      "date": "May 12",
+      "registry": {
+        "count": 5088,
+        "amount": 208915.94,
+        "effectiveRate": 3.5013,
+        "commission": 7314.77
+      },
+      "reconciliation": {
+        "count": 5088,
+        "amount": 208915.94,
+        "effectiveRate": 3.5013,
+        "commission": 7314.77
+      },
+      "contractExpected": 7938.81,
+      "diff": -624.04,
+      "isAfterChange": true
+    },
+    {
+      "date": "May 13",
+      "registry": {
+        "count": 5181,
+        "amount": 223248.52,
+        "effectiveRate": 3.5013,
+        "commission": 7816.6
+      },
+      "reconciliation": {
+        "count": 5181,
+        "amount": 223248.52,
+        "effectiveRate": 3.5013,
+        "commission": 7816.6
+      },
+      "contractExpected": 8483.44,
+      "diff": -666.84,
+      "isAfterChange": true
+    },
+    {
+      "date": "May 14",
+      "registry": {
+        "count": 5698,
+        "amount": 240788.47,
+        "effectiveRate": 3.5013,
+        "commission": 8430.73
+      },
+      "reconciliation": {
+        "count": 5698,
+        "amount": 240788.47,
+        "effectiveRate": 3.5013,
+        "commission": 8430.73
+      },
+      "contractExpected": 9149.96,
+      "diff": -719.23,
+      "isAfterChange": true
+    },
+    {
+      "date": "May 15",
+      "registry": {
+        "count": 6516,
+        "amount": 254098.35,
+        "effectiveRate": 3.5013,
+        "commission": 8896.75
+      },
+      "reconciliation": {
+        "count": 6516,
+        "amount": 254098.35,
+        "effectiveRate": 3.5013,
+        "commission": 8896.75
+      },
+      "contractExpected": 9655.74,
+      "diff": -758.99,
+      "isAfterChange": true
+    },
+    {
+      "date": "May 16",
+      "registry": {
+        "count": 7369,
+        "amount": 286895.61,
+        "effectiveRate": 3.5013,
+        "commission": 10045.08
+      },
+      "reconciliation": {
+        "count": 7369,
+        "amount": 286895.61,
+        "effectiveRate": 3.5013,
+        "commission": 10045.08
+      },
+      "contractExpected": 10902.03,
+      "diff": -856.95,
+      "isAfterChange": true
+    },
+    {
+      "date": "May 17",
+      "registry": {
+        "count": 6134,
+        "amount": 237788.37,
+        "effectiveRate": 3.5013,
+        "commission": 8325.68
+      },
+      "reconciliation": {
+        "count": 6134,
+        "amount": 237788.37,
+        "effectiveRate": 3.5013,
+        "commission": 8325.68
+      },
+      "contractExpected": 9035.96,
+      "diff": -710.28,
+      "isAfterChange": true
+    },
+    {
+      "date": "May 18",
+      "registry": {
+        "count": 4814,
+        "amount": 189426.63,
+        "effectiveRate": 3.5013,
+        "commission": 6632.39
+      },
+      "reconciliation": {
+        "count": 4814,
+        "amount": 189426.63,
+        "effectiveRate": 3.5013,
+        "commission": 6632.39
+      },
+      "contractExpected": 7198.21,
+      "diff": -565.82,
+      "isAfterChange": true
+    },
+    {
+      "date": "May 19",
+      "registry": {
+        "count": 5334,
+        "amount": 218294.64,
+        "effectiveRate": 3.5013,
+        "commission": 7643.15
+      },
+      "reconciliation": {
+        "count": 5334,
+        "amount": 218294.64,
+        "effectiveRate": 3.5013,
+        "commission": 7643.15
+      },
+      "contractExpected": 8295.2,
+      "diff": -652.05,
+      "isAfterChange": true
+    },
+    {
+      "date": "May 20",
+      "registry": {
+        "count": 5145,
+        "amount": 193046.78,
+        "effectiveRate": 3.5013,
+        "commission": 6759.15
+      },
+      "reconciliation": {
+        "count": 5145,
+        "amount": 193046.78,
+        "effectiveRate": 3.5013,
+        "commission": 6759.15
+      },
+      "contractExpected": 7335.78,
+      "diff": -576.63,
+      "isAfterChange": true
+    },
+    {
+      "date": "May 21",
+      "registry": {
+        "count": 5196,
+        "amount": 192121.14,
+        "effectiveRate": 3.5013,
+        "commission": 6726.74
+      },
+      "reconciliation": {
+        "count": 5196,
+        "amount": 192121.14,
+        "effectiveRate": 3.5013,
+        "commission": 6726.74
+      },
+      "contractExpected": 7300.6,
+      "diff": -573.86,
+      "isAfterChange": true
+    },
+    {
+      "date": "May 22",
+      "registry": {
+        "count": 5471,
+        "amount": 215149.12,
+        "effectiveRate": 3.5013,
+        "commission": 7533.02
+      },
+      "reconciliation": {
+        "count": 5471,
+        "amount": 215149.12,
+        "effectiveRate": 3.5013,
+        "commission": 7533.02
+      },
+      "contractExpected": 8175.67,
+      "diff": -642.65,
+      "isAfterChange": true
+    },
+    {
+      "date": "May 23",
+      "registry": {
+        "count": 5947,
+        "amount": 258375.74,
+        "effectiveRate": 3.5013,
+        "commission": 9046.51
+      },
+      "reconciliation": {
+        "count": 5947,
+        "amount": 258375.74,
+        "effectiveRate": 3.5013,
+        "commission": 9046.51
+      },
+      "contractExpected": 9818.28,
+      "diff": -771.77,
+      "isAfterChange": true
+    },
+    {
+      "date": "May 24",
+      "registry": {
+        "count": 4762,
+        "amount": 198590.59,
+        "effectiveRate": 3.5013,
+        "commission": 6953.25
+      },
+      "reconciliation": {
+        "count": 4762,
+        "amount": 198590.59,
+        "effectiveRate": 3.5013,
+        "commission": 6953.25
+      },
+      "contractExpected": 7546.44,
+      "diff": -593.19,
+      "isAfterChange": true
+    },
+    {
+      "date": "May 25",
+      "registry": {
+        "count": 4009,
+        "amount": 170014.35,
+        "effectiveRate": 3.5013,
+        "commission": 5952.71
+      },
+      "reconciliation": {
+        "count": 4009,
+        "amount": 170014.35,
+        "effectiveRate": 3.5013,
+        "commission": 5952.71
+      },
+      "contractExpected": 6460.55,
+      "diff": -507.84,
+      "isAfterChange": true
+    },
+    {
+      "date": "May 26",
+      "registry": {
+        "count": 7012,
+        "amount": 334475.48,
+        "effectiveRate": 3.5013,
+        "commission": 11710.99
+      },
+      "reconciliation": {
+        "count": 7012,
+        "amount": 334475.48,
+        "effectiveRate": 3.5013,
+        "commission": 11710.99
+      },
+      "contractExpected": 12710.07,
+      "diff": -999.08,
+      "isAfterChange": true
+    },
+    {
+      "date": "May 27",
+      "registry": {
+        "count": 11730,
+        "amount": 535841.73,
+        "effectiveRate": 3.5013,
+        "commission": 18761.43
+      },
+      "reconciliation": {
+        "count": 11730,
+        "amount": 535841.73,
+        "effectiveRate": 3.5013,
+        "commission": 18761.43
+      },
+      "contractExpected": 20361.99,
+      "diff": -1600.56,
+      "isAfterChange": true
+    },
+    {
+      "date": "May 28",
+      "registry": {
+        "count": 13137,
+        "amount": 609266.65,
+        "effectiveRate": 3.5013,
+        "commission": 21332.25
+      },
+      "reconciliation": {
+        "count": 13137,
+        "amount": 609266.65,
+        "effectiveRate": 3.5013,
+        "commission": 21332.25
+      },
+      "contractExpected": 23152.13,
+      "diff": -1819.88,
+      "isAfterChange": true
+    },
+    {
+      "date": "May 29",
+      "registry": {
+        "count": 13154,
+        "amount": 600028.7,
+        "effectiveRate": 3.5013,
+        "commission": 21008.8
+      },
+      "reconciliation": {
+        "count": 13154,
+        "amount": 600028.7,
+        "effectiveRate": 3.5013,
+        "commission": 21008.8
+      },
+      "contractExpected": 22801.09,
+      "diff": -1792.29,
+      "isAfterChange": true
+    },
+    {
+      "date": "May 30",
+      "registry": {
+        "count": 15091,
+        "amount": 705328.95,
+        "effectiveRate": 3.5013,
+        "commission": 24695.68
+      },
+      "reconciliation": {
+        "count": 15091,
+        "amount": 705328.95,
+        "effectiveRate": 3.5013,
+        "commission": 24695.68
+      },
+      "contractExpected": 26802.5,
+      "diff": -2106.82,
+      "isAfterChange": true
+    },
+    {
+      "date": "May 31",
+      "registry": {
+        "count": 11381,
+        "amount": 515700.68,
+        "effectiveRate": 3.5013,
+        "commission": 18056.23
+      },
+      "reconciliation": {
+        "count": 11381,
+        "amount": 515700.68,
+        "effectiveRate": 3.5013,
+        "commission": 18056.23
+      },
+      "contractExpected": 19596.63,
+      "diff": -1540.4,
+      "isAfterChange": true
+    },
+    {
+      "date": "Jun 1",
+      "registry": {
+        "count": 9856,
+        "amount": 446239.44,
+        "effectiveRate": 3.5014,
+        "commission": 15624.63
+      },
+      "reconciliation": {
+        "count": 9856,
+        "amount": 446239.44,
+        "effectiveRate": 3.5014,
+        "commission": 15624.63
+      },
+      "contractExpected": 16957.1,
+      "diff": -1332.47,
+      "isAfterChange": true
+    },
+    {
+      "date": "Jun 2",
+      "registry": {
+        "count": 10693,
+        "amount": 505896.54,
+        "effectiveRate": 3.5014,
+        "commission": 17713.46
+      },
+      "reconciliation": {
+        "count": 10693,
+        "amount": 505896.54,
+        "effectiveRate": 3.5014,
+        "commission": 17713.46
+      },
+      "contractExpected": 19224.07,
+      "diff": -1510.61,
+      "isAfterChange": true
+    },
+    {
+      "date": "Jun 3",
+      "registry": {
+        "count": 11265,
+        "amount": 513196.56,
+        "effectiveRate": 3.5014,
+        "commission": 17969.06
+      },
+      "reconciliation": {
+        "count": 11265,
+        "amount": 513196.56,
+        "effectiveRate": 3.5014,
+        "commission": 17969.06
+      },
+      "contractExpected": 19501.47,
+      "diff": -1532.41,
+      "isAfterChange": true
+    },
+    {
+      "date": "Jun 4",
+      "registry": {
+        "count": 12383,
+        "amount": 562676.12,
+        "effectiveRate": 3.5014,
+        "commission": 19701.54
+      },
+      "reconciliation": {
+        "count": 12383,
+        "amount": 562676.12,
+        "effectiveRate": 3.5014,
+        "commission": 19701.54
+      },
+      "contractExpected": 21381.69,
+      "diff": -1680.15,
+      "isAfterChange": true
+    },
+    {
+      "date": "Jun 5",
+      "registry": {
+        "count": 13774,
+        "amount": 579324.12,
+        "effectiveRate": 3.5014,
+        "commission": 20284.45
+      },
+      "reconciliation": {
+        "count": 13774,
+        "amount": 579324.12,
+        "effectiveRate": 3.5014,
+        "commission": 20284.45
+      },
+      "contractExpected": 22014.32,
+      "diff": -1729.87,
+      "isAfterChange": true
+    },
+    {
+      "date": "Jun 6",
+      "registry": {
+        "count": 16320,
+        "amount": 664387.88,
+        "effectiveRate": 3.5014,
+        "commission": 23262.88
+      },
+      "reconciliation": {
+        "count": 16320,
+        "amount": 664387.88,
+        "effectiveRate": 3.5014,
+        "commission": 23262.88
+      },
+      "contractExpected": 25246.74,
+      "diff": -1983.86,
+      "isAfterChange": true
+    },
+    {
+      "date": "Jun 7",
+      "registry": {
+        "count": 13952,
+        "amount": 574202.89,
+        "effectiveRate": 3.5014,
+        "commission": 20105.14
+      },
+      "reconciliation": {
+        "count": 13952,
+        "amount": 574202.89,
+        "effectiveRate": 3.5014,
+        "commission": 20105.14
+      },
+      "contractExpected": 21819.71,
+      "diff": -1714.57,
+      "isAfterChange": true
+    },
+    {
+      "date": "Jun 8",
+      "registry": {
+        "count": 11287,
+        "amount": 467870.64,
+        "effectiveRate": 3.5014,
+        "commission": 16382.02
+      },
+      "reconciliation": {
+        "count": 11287,
+        "amount": 467870.64,
+        "effectiveRate": 3.5014,
+        "commission": 16382.02
+      },
+      "contractExpected": 17779.08,
+      "diff": -1397.06,
+      "isAfterChange": true
+    },
+    {
+      "date": "Jun 9",
+      "registry": {
+        "count": 12610,
+        "amount": 515310.06,
+        "effectiveRate": 3.5014,
+        "commission": 18043.07
+      },
+      "reconciliation": {
+        "count": 12610,
+        "amount": 515310.06,
+        "effectiveRate": 3.5014,
+        "commission": 18043.07
+      },
+      "contractExpected": 19581.78,
+      "diff": -1538.71,
+      "isAfterChange": true
+    },
+    {
+      "date": "Jun 10",
+      "registry": {
+        "count": 13095,
+        "amount": 550230.81,
+        "effectiveRate": 3.5014,
+        "commission": 19265.78
+      },
+      "reconciliation": {
+        "count": 13095,
+        "amount": 550230.81,
+        "effectiveRate": 3.5014,
+        "commission": 19265.78
+      },
+      "contractExpected": 20908.77,
+      "diff": -1642.99,
+      "isAfterChange": true
+    },
+    {
+      "date": "Jun 11",
+      "registry": {
+        "count": 12956,
+        "amount": 528657.64,
+        "effectiveRate": 3.5014,
+        "commission": 18510.42
+      },
+      "reconciliation": {
+        "count": 12956,
+        "amount": 528657.64,
+        "effectiveRate": 3.5014,
+        "commission": 18510.42
+      },
+      "contractExpected": 20088.99,
+      "diff": -1578.57,
+      "isAfterChange": true
+    },
+    {
+      "date": "Jun 12",
+      "registry": {
+        "count": 13061,
+        "amount": 563694.96,
+        "effectiveRate": 3.5014,
+        "commission": 19737.22
+      },
+      "reconciliation": {
+        "count": 13061,
+        "amount": 563694.96,
+        "effectiveRate": 3.5014,
+        "commission": 19737.22
+      },
+      "contractExpected": 21420.41,
+      "diff": -1683.19,
+      "isAfterChange": true
+    },
+    {
+      "date": "Jun 13",
+      "registry": {
+        "count": 11640,
+        "amount": 535147.95,
+        "effectiveRate": 3.5014,
+        "commission": 18737.67
+      },
+      "reconciliation": {
+        "count": 11640,
+        "amount": 535147.95,
+        "effectiveRate": 3.5014,
+        "commission": 18737.67
+      },
+      "contractExpected": 20335.62,
+      "diff": -1597.95,
+      "isAfterChange": true
+    },
+    {
+      "date": "Jun 14",
+      "registry": {
+        "count": 8299,
+        "amount": 398172.85,
+        "effectiveRate": 3.5014,
+        "commission": 13941.62
+      },
+      "reconciliation": {
+        "count": 8299,
+        "amount": 398172.85,
+        "effectiveRate": 3.5014,
+        "commission": 13941.62
+      },
+      "contractExpected": 15130.57,
+      "diff": -1188.95,
+      "isAfterChange": true
+    },
+    {
+      "date": "Jun 15",
+      "registry": {
+        "count": 7098,
+        "amount": 325590.17,
+        "effectiveRate": 3.5014,
+        "commission": 11400.21
+      },
+      "reconciliation": {
+        "count": 7098,
+        "amount": 325590.17,
+        "effectiveRate": 3.5014,
+        "commission": 11400.21
+      },
+      "contractExpected": 12372.43,
+      "diff": -972.22,
+      "isAfterChange": true
+    },
+    {
+      "date": "Jun 16",
+      "registry": {
+        "count": 7864,
+        "amount": 363060.48,
+        "effectiveRate": 3.5014,
+        "commission": 12712.2
+      },
+      "reconciliation": {
+        "count": 7864,
+        "amount": 363060.48,
+        "effectiveRate": 3.5014,
+        "commission": 12712.2
+      },
+      "contractExpected": 13796.3,
+      "diff": -1084.1,
+      "isAfterChange": true
+    },
+    {
+      "date": "Jun 17",
+      "registry": {
+        "count": 8141,
+        "amount": 377961.05,
+        "effectiveRate": 3.5014,
+        "commission": 13233.93
+      },
+      "reconciliation": {
+        "count": 8141,
+        "amount": 377961.05,
+        "effectiveRate": 3.5014,
+        "commission": 13233.93
+      },
+      "contractExpected": 14362.52,
+      "diff": -1128.59,
+      "isAfterChange": true
+    },
+    {
+      "date": "Jun 18",
+      "registry": {
+        "count": 8008,
+        "amount": 366227.59,
+        "effectiveRate": 3.5014,
+        "commission": 12823.09
+      },
+      "reconciliation": {
+        "count": 8008,
+        "amount": 366227.59,
+        "effectiveRate": 3.5014,
+        "commission": 12823.09
+      },
+      "contractExpected": 13916.65,
+      "diff": -1093.56,
+      "isAfterChange": true
+    },
+    {
+      "date": "Jun 19",
+      "registry": {
+        "count": 7315,
+        "amount": 325112.29,
+        "effectiveRate": 3.5014,
+        "commission": 11383.48
+      },
+      "reconciliation": {
+        "count": 7315,
+        "amount": 325112.29,
+        "effectiveRate": 3.5014,
+        "commission": 11383.48
+      },
+      "contractExpected": 12354.27,
+      "diff": -970.79,
+      "isAfterChange": true
+    },
+    {
+      "date": "Jun 20",
+      "registry": {
+        "count": 8091,
+        "amount": 377562.15,
+        "effectiveRate": 3.5014,
+        "commission": 13219.96
+      },
+      "reconciliation": {
+        "count": 8091,
+        "amount": 377562.15,
+        "effectiveRate": 3.5014,
+        "commission": 13219.96
+      },
+      "contractExpected": 14347.36,
+      "diff": -1127.4,
+      "isAfterChange": true
+    },
+    {
+      "date": "Jun 21",
+      "registry": {
+        "count": 6610,
+        "amount": 300555.45,
+        "effectiveRate": 3.5014,
+        "commission": 10523.65
+      },
+      "reconciliation": {
+        "count": 6610,
+        "amount": 300555.45,
+        "effectiveRate": 3.5014,
+        "commission": 10523.65
+      },
+      "contractExpected": 11421.11,
+      "diff": -897.46,
+      "isAfterChange": true
+    },
+    {
+      "date": "Jun 22",
+      "registry": {
+        "count": 5368,
+        "amount": 250502.44,
+        "effectiveRate": 3.5014,
+        "commission": 8771.09
+      },
+      "reconciliation": {
+        "count": 5368,
+        "amount": 250502.44,
+        "effectiveRate": 3.5014,
+        "commission": 8771.09
+      },
+      "contractExpected": 9519.09,
+      "diff": -748.0,
+      "isAfterChange": true
+    },
+    {
+      "date": "Jun 23",
+      "registry": {
+        "count": 6934,
+        "amount": 310261.44,
+        "effectiveRate": 3.5014,
+        "commission": 10863.49
+      },
+      "reconciliation": {
+        "count": 6934,
+        "amount": 310261.44,
+        "effectiveRate": 3.5014,
+        "commission": 10863.49
+      },
+      "contractExpected": 11789.93,
+      "diff": -926.44,
+      "isAfterChange": true
+    },
+    {
+      "date": "Jun 24",
+      "registry": {
+        "count": 6591,
+        "amount": 335178.23,
+        "effectiveRate": 3.5014,
+        "commission": 11735.93
+      },
+      "reconciliation": {
+        "count": 6591,
+        "amount": 335178.23,
+        "effectiveRate": 3.5014,
+        "commission": 11735.93
+      },
+      "contractExpected": 12736.77,
+      "diff": -1000.84,
+      "isAfterChange": true
+    },
+    {
+      "date": "Jun 25",
+      "registry": {
+        "count": 8851,
+        "amount": 466446.46,
+        "effectiveRate": 3.5014,
+        "commission": 16332.16
+      },
+      "reconciliation": {
+        "count": 8851,
+        "amount": 466446.46,
+        "effectiveRate": 3.5014,
+        "commission": 16332.16
+      },
+      "contractExpected": 17724.97,
+      "diff": -1392.81,
+      "isAfterChange": true
+    },
+    {
+      "date": "Jun 26",
+      "registry": {
+        "count": 11300,
+        "amount": 571019.43,
+        "effectiveRate": 3.5014,
+        "commission": 19993.67
+      },
+      "reconciliation": {
+        "count": 11300,
+        "amount": 571019.43,
+        "effectiveRate": 3.5014,
+        "commission": 19993.67
+      },
+      "contractExpected": 21698.74,
+      "diff": -1705.07,
+      "isAfterChange": true
+    },
+    {
+      "date": "Jun 27",
+      "registry": {
+        "count": 13255,
+        "amount": 671753.99,
+        "effectiveRate": 3.5014,
+        "commission": 23520.79
+      },
+      "reconciliation": {
+        "count": 13255,
+        "amount": 671753.99,
+        "effectiveRate": 3.5014,
+        "commission": 23520.79
+      },
+      "contractExpected": 25526.65,
+      "diff": -2005.86,
+      "isAfterChange": true
+    },
+    {
+      "date": "Jun 28",
+      "registry": {
+        "count": 11434,
+        "amount": 556143.74,
+        "effectiveRate": 3.5014,
+        "commission": 19472.82
+      },
+      "reconciliation": {
+        "count": 11434,
+        "amount": 556143.74,
+        "effectiveRate": 3.5014,
+        "commission": 19472.82
+      },
+      "contractExpected": 21133.46,
+      "diff": -1660.64,
+      "isAfterChange": true
+    },
+    {
+      "date": "Jun 29",
+      "registry": {
+        "count": 9609,
+        "amount": 459599.57,
+        "effectiveRate": 3.5014,
+        "commission": 16092.42
+      },
+      "reconciliation": {
+        "count": 9609,
+        "amount": 459599.57,
+        "effectiveRate": 3.5014,
+        "commission": 16092.42
+      },
+      "contractExpected": 17464.78,
+      "diff": -1372.36,
+      "isAfterChange": true
+    },
+    {
+      "date": "Jun 30",
+      "registry": {
+        "count": 11833,
+        "amount": 593673.29,
+        "effectiveRate": 3.5014,
+        "commission": 20786.88
+      },
+      "reconciliation": {
+        "count": 11833,
+        "amount": 593673.29,
+        "effectiveRate": 3.5014,
+        "commission": 20786.88
+      },
+      "contractExpected": 22559.59,
+      "diff": -1772.71,
+      "isAfterChange": true
+    },
+    {
+      "date": "Jul 1",
+      "registry": {
+        "count": 12052,
+        "amount": 597460.11,
+        "effectiveRate": 3.5975,
+        "commission": 21493.63
+      },
+      "reconciliation": {
+        "count": 12052,
+        "amount": 597460.11,
+        "effectiveRate": 3.5975,
+        "commission": 21493.63
+      },
+      "contractExpected": 22703.48,
+      "diff": -1209.85,
+      "isAfterChange": true
+    },
+    {
+      "date": "Jul 2",
+      "registry": {
+        "count": 10187,
+        "amount": 510145.97,
+        "effectiveRate": 3.5975,
+        "commission": 18352.5
+      },
+      "reconciliation": {
+        "count": 10187,
+        "amount": 510145.97,
+        "effectiveRate": 3.5975,
+        "commission": 18352.5
+      },
+      "contractExpected": 19385.55,
+      "diff": -1033.05,
+      "isAfterChange": true
+    },
+    {
+      "date": "Jul 3",
+      "registry": {
+        "count": 7325,
+        "amount": 368860.79,
+        "effectiveRate": 3.5975,
+        "commission": 13269.77
+      },
+      "reconciliation": {
+        "count": 7325,
+        "amount": 368860.79,
+        "effectiveRate": 3.5975,
+        "commission": 13269.77
+      },
+      "contractExpected": 14016.71,
+      "diff": -746.94,
+      "isAfterChange": true
+    },
+    {
+      "date": "Jul 4",
+      "registry": {
+        "count": 7179,
+        "amount": 359595.89,
+        "effectiveRate": 3.5975,
+        "commission": 12936.46
+      },
+      "reconciliation": {
+        "count": 7179,
+        "amount": 359595.89,
+        "effectiveRate": 3.5975,
+        "commission": 12936.46
+      },
+      "contractExpected": 13664.64,
+      "diff": -728.18,
+      "isAfterChange": true
+    },
+    {
+      "date": "Jul 5",
+      "registry": {
+        "count": 5847,
+        "amount": 280990.65,
+        "effectiveRate": 3.5975,
+        "commission": 10108.64
+      },
+      "reconciliation": {
+        "count": 5847,
+        "amount": 280990.65,
+        "effectiveRate": 3.5975,
+        "commission": 10108.64
+      },
+      "contractExpected": 10677.64,
+      "diff": -569.0,
+      "isAfterChange": true
+    },
+    {
+      "date": "Jul 6",
+      "registry": {
+        "count": 4361,
+        "amount": 203936.28,
+        "effectiveRate": 3.5975,
+        "commission": 7336.61
+      },
+      "reconciliation": {
+        "count": 4361,
+        "amount": 203936.28,
+        "effectiveRate": 3.5975,
+        "commission": 7336.61
+      },
+      "contractExpected": 7749.58,
+      "diff": -412.97,
+      "isAfterChange": true
+    },
+    {
+      "date": "Jul 7",
+      "registry": {
+        "count": 6186,
+        "amount": 307275.46,
+        "effectiveRate": 3.5975,
+        "commission": 11054.23
+      },
+      "reconciliation": {
+        "count": 6186,
+        "amount": 307275.46,
+        "effectiveRate": 3.5975,
+        "commission": 11054.23
+      },
+      "contractExpected": 11676.47,
+      "diff": -622.24,
+      "isAfterChange": true
+    },
+    {
+      "date": "Jul 8",
+      "registry": {
+        "count": 6295,
+        "amount": 308564.91,
+        "effectiveRate": 3.5975,
+        "commission": 11100.62
+      },
+      "reconciliation": {
+        "count": 6295,
+        "amount": 308564.91,
+        "effectiveRate": 3.5975,
+        "commission": 11100.62
+      },
+      "contractExpected": 11725.47,
+      "diff": -624.85,
+      "isAfterChange": true
+    },
+    {
+      "date": "Jul 9",
+      "registry": {
+        "count": 6425,
+        "amount": 327334.68,
+        "effectiveRate": 3.5975,
+        "commission": 11775.87
+      },
+      "reconciliation": {
+        "count": 6425,
+        "amount": 327334.68,
+        "effectiveRate": 3.5975,
+        "commission": 11775.87
+      },
+      "contractExpected": 12438.72,
+      "diff": -662.85,
+      "isAfterChange": true
+    },
+    {
+      "date": "Jul 10",
+      "registry": {
+        "count": 6524,
+        "amount": 309624.57,
+        "effectiveRate": 3.5975,
+        "commission": 11138.74
+      },
+      "reconciliation": {
+        "count": 6524,
+        "amount": 309624.57,
+        "effectiveRate": 3.5975,
+        "commission": 11138.74
+      },
+      "contractExpected": 11765.73,
+      "diff": -626.99,
+      "isAfterChange": true
+    },
+    {
+      "date": "Jul 11",
+      "registry": {
+        "count": 6660,
+        "amount": 323810.51,
+        "effectiveRate": 3.5975,
+        "commission": 11649.08
+      },
+      "reconciliation": {
+        "count": 6660,
+        "amount": 323810.51,
+        "effectiveRate": 3.5975,
+        "commission": 11649.08
+      },
+      "contractExpected": 12304.8,
+      "diff": -655.72,
+      "isAfterChange": true
+    },
+    {
+      "date": "Jul 12",
+      "registry": {
+        "count": 5505,
+        "amount": 245985.28,
+        "effectiveRate": 3.5975,
+        "commission": 8849.32
+      },
+      "reconciliation": {
+        "count": 5505,
+        "amount": 245985.28,
+        "effectiveRate": 3.5975,
+        "commission": 8849.32
+      },
+      "contractExpected": 9347.44,
+      "diff": -498.12,
+      "isAfterChange": true
+    },
+    {
+      "date": "Jul 13",
+      "registry": {
+        "count": 4682,
+        "amount": 223154.08,
+        "effectiveRate": 3.5975,
+        "commission": 8027.97
+      },
+      "reconciliation": {
+        "count": 4682,
+        "amount": 223154.08,
+        "effectiveRate": 3.5975,
+        "commission": 8027.97
+      },
+      "contractExpected": 8479.86,
+      "diff": -451.89,
+      "isAfterChange": true
+    },
+    {
+      "date": "Jul 14",
+      "registry": {
+        "count": 5295,
+        "amount": 258731.77,
+        "effectiveRate": 3.5975,
+        "commission": 9307.88
+      },
+      "reconciliation": {
+        "count": 5295,
+        "amount": 258731.77,
+        "effectiveRate": 3.5975,
+        "commission": 9307.88
+      },
+      "contractExpected": 9831.81,
+      "diff": -523.93,
+      "isAfterChange": true
+    },
+    {
+      "date": "Jul 15",
+      "registry": {
+        "count": 5365,
+        "amount": 257464.82,
+        "effectiveRate": 3.5975,
+        "commission": 9262.3
+      },
+      "reconciliation": {
+        "count": 5365,
+        "amount": 257464.82,
+        "effectiveRate": 3.5975,
+        "commission": 9262.3
+      },
+      "contractExpected": 9783.66,
+      "diff": -521.36,
+      "isAfterChange": true
+    },
+    {
+      "date": "Jul 16",
+      "registry": {
+        "count": 5653,
+        "amount": 267712.5,
+        "effectiveRate": 3.5975,
+        "commission": 9630.96
+      },
+      "reconciliation": {
+        "count": 5653,
+        "amount": 267712.5,
+        "effectiveRate": 3.5975,
+        "commission": 9630.96
+      },
+      "contractExpected": 10173.08,
+      "diff": -542.12,
+      "isAfterChange": true
+    },
+    {
+      "date": "Jul 17",
+      "registry": {
+        "count": 4197,
+        "amount": 193111.15,
+        "effectiveRate": 3.5975,
+        "commission": 6947.17
+      },
+      "reconciliation": {
+        "count": 4197,
+        "amount": 193111.15,
+        "effectiveRate": 3.5975,
+        "commission": 6947.17
+      },
+      "contractExpected": 7338.22,
+      "diff": -391.05,
+      "isAfterChange": true
+    },
+    {
+      "date": "Jul 18",
+      "registry": {
+        "count": 3830,
+        "amount": 172884.78,
+        "effectiveRate": 3.5975,
+        "commission": 6219.53
+      },
+      "reconciliation": {
+        "count": 3830,
+        "amount": 172884.78,
+        "effectiveRate": 3.5975,
+        "commission": 6219.53
+      },
+      "contractExpected": 6569.62,
+      "diff": -350.09,
+      "isAfterChange": true
+    },
+    {
+      "date": "Jul 19",
+      "registry": {
+        "count": 3189,
+        "amount": 142885.97,
+        "effectiveRate": 3.5975,
+        "commission": 5140.32
+      },
+      "reconciliation": {
+        "count": 3189,
+        "amount": 142885.97,
+        "effectiveRate": 3.5975,
+        "commission": 5140.32
+      },
+      "contractExpected": 5429.67,
+      "diff": -289.35,
+      "isAfterChange": true
+    },
+    {
+      "date": "Jul 20",
+      "registry": {
+        "count": 2364,
+        "amount": 103981.11,
+        "effectiveRate": 3.5975,
+        "commission": 3740.72
+      },
+      "reconciliation": {
+        "count": 2364,
+        "amount": 103981.11,
+        "effectiveRate": 3.5975,
+        "commission": 3740.72
+      },
+      "contractExpected": 3951.28,
+      "diff": -210.56,
+      "isAfterChange": true
+    },
+    {
+      "date": "Jul 21",
+      "registry": {
+        "count": 3396,
+        "amount": 149019.16,
+        "effectiveRate": 3.5975,
+        "commission": 5360.96
+      },
+      "reconciliation": {
+        "count": 3396,
+        "amount": 149019.16,
+        "effectiveRate": 3.5975,
+        "commission": 5360.96
+      },
+      "contractExpected": 5662.73,
+      "diff": -301.77,
+      "isAfterChange": true
+    },
+    {
+      "date": "Jul 22",
+      "registry": {
+        "count": 3419,
+        "amount": 148820.65,
+        "effectiveRate": 3.5975,
+        "commission": 5353.82
+      },
+      "reconciliation": {
+        "count": 3419,
+        "amount": 148820.65,
+        "effectiveRate": 3.5975,
+        "commission": 5353.82
+      },
+      "contractExpected": 5655.18,
+      "diff": -301.36,
+      "isAfterChange": true
+    },
+    {
+      "date": "Jul 23",
+      "registry": {
+        "count": 3284,
+        "amount": 150305.14,
+        "effectiveRate": 3.5975,
+        "commission": 5407.23
+      },
+      "reconciliation": {
+        "count": 3284,
+        "amount": 150305.14,
+        "effectiveRate": 3.5975,
+        "commission": 5407.23
+      },
+      "contractExpected": 5711.6,
+      "diff": -304.37,
+      "isAfterChange": true
+    },
+    {
+      "date": "Jul 24",
+      "registry": {
+        "count": 3345,
+        "amount": 149172.71,
+        "effectiveRate": 3.5975,
+        "commission": 5366.49
+      },
+      "reconciliation": {
+        "count": 3345,
+        "amount": 149172.71,
+        "effectiveRate": 3.5975,
+        "commission": 5366.49
+      },
+      "contractExpected": 5668.56,
+      "diff": -302.07,
+      "isAfterChange": true
+    },
+    {
+      "date": "Jul 25",
+      "registry": {
+        "count": 1923,
+        "amount": 91087.21,
+        "effectiveRate": 3.5975,
+        "commission": 3276.86
+      },
+      "reconciliation": {
+        "count": 1923,
+        "amount": 91087.21,
+        "effectiveRate": 3.5975,
+        "commission": 3276.86
+      },
+      "contractExpected": 3461.31,
+      "diff": -184.45,
+      "isAfterChange": true
+    }
+  ],
+  "notes": [
+    {
+      "type": "warning",
+      "text": "Effective rate consistently ~3.5% across all 6 months, significantly below the 3.8% contract rate. This represents a systematic gap, not a one-time discrepancy."
+    },
+    {
+      "type": "info",
+      "text": "January 2025 and all 2024 months show rates close to 3.8% (within noise threshold). The discrepancy begins in February 2025."
+    },
+    {
+      "type": "info",
+      "text": "February shows a transitional rate of 3.64%, while March-July stabilize around 3.50%. This suggests a rate configuration change occurred in early February."
+    }
+  ]
+}

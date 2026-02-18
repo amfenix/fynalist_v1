@@ -1347,7 +1347,10 @@
             }
           ]
         }
-      ]
+      ],
+      "rateChangeDay": 19,
+      "rateFrom": 5.0,
+      "rateTo": 4.8
     },
     {
       "key": "feb-2025",

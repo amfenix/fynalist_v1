@@ -1913,7 +1913,10 @@
             }
           ]
         }
-      ]
+      ],
+      "rateChangeDay": 16,
+      "rateFrom": 5.0,
+      "rateTo": 4.2
     },
     {
       "key": "sep-2025",

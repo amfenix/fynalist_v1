@@ -909,7 +909,10 @@
           ],
           "rateChangeDay": false
         }
-      ]
+      ],
+      "rateChangeDay": 1,
+      "rateFrom": 1.75,
+      "rateTo": 5.0
     },
     {
       "key": "jul-2025",
@@ -5953,7 +5956,10 @@
           ],
           "rateChangeDay": false
         }
-      ]
+      ],
+      "rateChangeDay": 12,
+      "rateFrom": 3.0,
+      "rateTo": 1.75
     }
   ]
 }

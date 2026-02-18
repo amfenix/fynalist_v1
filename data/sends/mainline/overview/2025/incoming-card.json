@@ -376,7 +376,8 @@
               "actualRate": 3.69,
               "deviation": 14934.46,
               "periodFrom": "Jul 1",
-              "periodTo": "Jul 31"
+              "periodTo": "Jul 31",
+              "investigationId": "INV-2025-0059"
             }
           ],
           "hasRateChange": true,
@@ -395,7 +396,8 @@
               "actualRate": 3.8,
               "deviation": 3162.24,
               "periodFrom": "Aug 1",
-              "periodTo": "Aug 31"
+              "periodTo": "Aug 31",
+              "investigationId": "INV-2025-0059"
             }
           ]
         },
@@ -754,21 +756,8 @@
         "jan": {
           "turnover": 9345486.9,
           "commission": 355120.51,
-          "deviation": 168210.77,
-          "cases": [
-            {
-              "id": "noxious-jan-2025",
-              "title": "Rate deviation in January",
-              "partLabel": "SENDS",
-              "contractRate": 2.0,
-              "actualRate": 3.7999,
-              "deviation": 168210.77,
-              "periodFrom": "Jan 1",
-              "periodTo": "Jan 31"
-            }
-          ],
-          "hasRateChange": true,
-          "rateChangeInfo": "Effective rate ~3.80% vs contract 2.0%"
+          "deviation": 0,
+          "cases": []
         },
         "feb": {
           "turnover": 5514657.54,
@@ -783,7 +772,8 @@
               "actualRate": 3.6392,
               "deviation": 90396.39,
               "periodFrom": "Feb 1",
-              "periodTo": "Feb 28"
+              "periodTo": "Feb 28",
+              "investigationId": "INV-2025-0057"
             }
           ]
         },
@@ -800,7 +790,8 @@
               "actualRate": 3.5013,
               "deviation": 92648.52,
               "periodFrom": "Mar 1",
-              "periodTo": "Mar 31"
+              "periodTo": "Mar 31",
+              "investigationId": "INV-2025-0057"
             }
           ]
         },
@@ -817,7 +808,8 @@
               "actualRate": 3.5014,
               "deviation": 119386.0,
               "periodFrom": "Apr 1",
-              "periodTo": "Apr 30"
+              "periodTo": "Apr 30",
+              "investigationId": "INV-2025-0057"
             }
           ]
         },
@@ -834,7 +826,8 @@
               "actualRate": 3.5013,
               "deviation": 137445.78,
               "periodFrom": "May 1",
-              "periodTo": "May 31"
+              "periodTo": "May 31",
+              "investigationId": "INV-2025-0057"
             }
           ]
         },
@@ -851,7 +844,8 @@
               "actualRate": 3.5014,
               "deviation": 211029.17,
               "periodFrom": "Jun 1",
-              "periodTo": "Jun 30"
+              "periodTo": "Jun 30",
+              "investigationId": "INV-2025-0057"
             }
           ]
         },
@@ -868,7 +862,8 @@
               "actualRate": 3.5975,
               "deviation": 103071.64,
               "periodFrom": "Jul 1",
-              "periodTo": "Jul 31"
+              "periodTo": "Jul 31",
+              "investigationId": "INV-2025-0057"
             }
           ]
         },
@@ -1009,7 +1004,8 @@
               "actualRate": 3.5977,
               "deviation": -3658.45,
               "periodFrom": "Feb 1",
-              "periodTo": "Feb 28"
+              "periodTo": "Feb 28",
+              "investigationId": "INV-2025-0060"
             }
           ],
           "hasRateChange": true,
@@ -1028,7 +1024,8 @@
               "actualRate": 3.5011,
               "deviation": -18464.97,
               "periodFrom": "Mar 1",
-              "periodTo": "Mar 31"
+              "periodTo": "Mar 31",
+              "investigationId": "INV-2025-0060"
             }
           ]
         },
@@ -1045,7 +1042,8 @@
               "actualRate": 3.5013,
               "deviation": -21704.16,
               "periodFrom": "Apr 1",
-              "periodTo": "Apr 30"
+              "periodTo": "Apr 30",
+              "investigationId": "INV-2025-0060"
             }
           ]
         },
@@ -1062,7 +1060,8 @@
               "actualRate": 3.5008,
               "deviation": -20312.94,
               "periodFrom": "May 1",
-              "periodTo": "May 31"
+              "periodTo": "May 31",
+              "investigationId": "INV-2025-0060"
             }
           ]
         },
@@ -1659,38 +1658,14 @@
         "nov": {
           "turnover": 83289.01,
           "commission": 3164.92,
-          "deviation": 1082.69,
-          "cases": [
-            {
-              "id": "webnorus-nov-2025",
-              "title": "Rate deviation in November",
-              "partLabel": "SENDS",
-              "contractRate": 2.5,
-              "actualRate": 3.7999,
-              "deviation": 1082.69,
-              "periodFrom": "Nov 1",
-              "periodTo": "Nov 30"
-            }
-          ],
-          "hasRateChange": true,
-          "rateChangeInfo": "Effective rate ~3.80% vs contract 2.5%"
+          "deviation": 0,
+          "cases": []
         },
         "dec": {
           "turnover": 196566.44,
           "commission": 7469.73,
-          "deviation": 2555.54,
-          "cases": [
-            {
-              "id": "webnorus-dec-2025",
-              "title": "Rate deviation in December",
-              "partLabel": "SENDS",
-              "contractRate": 2.5,
-              "actualRate": 3.8001,
-              "deviation": 2555.54,
-              "periodFrom": "Dec 1",
-              "periodTo": "Dec 31"
-            }
-          ]
+          "deviation": 0,
+          "cases": []
         }
       }
     }

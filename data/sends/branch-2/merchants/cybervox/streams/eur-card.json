@@ -1607,7 +1607,10 @@
           ],
           "rateChangeDay": false
         }
-      ]
+      ],
+      "rateChangeDay": 12,
+      "rateFrom": 3.0,
+      "rateTo": 1.75
     },
     {
       "key": "feb-2025",

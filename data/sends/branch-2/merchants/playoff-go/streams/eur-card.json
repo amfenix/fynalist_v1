@@ -7066,7 +7066,10 @@
           ],
           "rateChangeDay": false
         }
-      ]
+      ],
+      "rateChangeDay": 11,
+      "rateFrom": 3.0,
+      "rateTo": 1.75
     }
   ]
 }

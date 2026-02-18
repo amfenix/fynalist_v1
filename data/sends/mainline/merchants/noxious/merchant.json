@@ -47,13 +47,6 @@
       "currency": "GBP",
       "point": "Card",
       "provider": "Smartflow"
-    },
-    {
-      "id": "payout-eur",
-      "label": "Payout EUR",
-      "currency": "EUR",
-      "point": "Payout",
-      "provider": "Smartflow"
     }
   ],
   "months": [

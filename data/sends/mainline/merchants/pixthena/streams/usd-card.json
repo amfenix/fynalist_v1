@@ -1,0 +1,113 @@
+{
+  "streamId": "usd-card",
+  "label": "USD Card",
+  "currency": "USD",
+  "point": "Card",
+  "provider": "Smartflow",
+  "months": [
+    {
+      "key": "may-2025",
+      "label": "May",
+      "turnover": 46258.14,
+      "registryAmount": 46258.14,
+      "regCommission": 1619.34,
+      "regTxCount": 696,
+      "reconTurnover": 46258.14,
+      "reconCommission": 1619.34,
+      "reconRate": 3.5007,
+      "contractRate": 3.8,
+      "contractExpected": 1757.81,
+      "deviation": -138.47,
+      "parts": [
+        {
+          "label": "Smartflow",
+          "rate": 3.5007,
+          "amount": 1619.34,
+          "contractRate": 3.8,
+          "contractAmount": 1757.81,
+          "source": "Reconciliation",
+          "contractSource": "Agreement 1811-24"
+        }
+      ],
+      "days": []
+    },
+    {
+      "key": "apr-2025",
+      "label": "April",
+      "turnover": 189418.68,
+      "registryAmount": 189418.68,
+      "regCommission": 6631.44,
+      "regTxCount": 2834,
+      "reconTurnover": 189418.68,
+      "reconCommission": 6631.44,
+      "reconRate": 3.5009,
+      "contractRate": 3.8,
+      "contractExpected": 7197.91,
+      "deviation": -566.47,
+      "parts": [
+        {
+          "label": "Smartflow",
+          "rate": 3.5009,
+          "amount": 6631.44,
+          "contractRate": 3.8,
+          "contractAmount": 7197.91,
+          "source": "Reconciliation",
+          "contractSource": "Agreement 1811-24"
+        }
+      ],
+      "days": []
+    },
+    {
+      "key": "mar-2025",
+      "label": "March",
+      "turnover": 146725.5,
+      "registryAmount": 146725.5,
+      "regCommission": 5136.81,
+      "regTxCount": 2569,
+      "reconTurnover": 146725.5,
+      "reconCommission": 5136.81,
+      "reconRate": 3.501,
+      "contractRate": 3.8,
+      "contractExpected": 5575.57,
+      "deviation": -438.76,
+      "parts": [
+        {
+          "label": "Smartflow",
+          "rate": 3.501,
+          "amount": 5136.81,
+          "contractRate": 3.8,
+          "contractAmount": 5575.57,
+          "source": "Reconciliation",
+          "contractSource": "Agreement 1811-24"
+        }
+      ],
+      "days": []
+    },
+    {
+      "key": "feb-2025",
+      "label": "February",
+      "turnover": 67548.47,
+      "registryAmount": 67548.47,
+      "regCommission": 2364.63,
+      "regTxCount": 1466,
+      "reconTurnover": 67548.47,
+      "reconCommission": 2364.63,
+      "reconRate": 3.5006,
+      "contractRate": 3.8,
+      "contractExpected": 2566.84,
+      "deviation": -202.21,
+      "parts": [
+        {
+          "label": "Smartflow",
+          "rate": 3.5006,
+          "amount": 2364.63,
+          "contractRate": 3.8,
+          "contractAmount": 2566.84,
+          "source": "Reconciliation",
+          "contractSource": "Agreement 1811-24"
+        }
+      ],
+      "days": []
+    }
+  ]
+}

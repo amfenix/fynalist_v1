@@ -1,0 +1,61 @@
+{
+  "streamId": "aud-card",
+  "label": "AUD Card",
+  "currency": "AUD",
+  "point": "Card",
+  "provider": "Novatum",
+  "months": [
+    {
+      "key": "dec-2025",
+      "label": "December",
+      "turnover": 250377.48,
+      "registryAmount": 250377.48,
+      "regCommission": 9514.3,
+      "regTxCount": 2876,
+      "reconTurnover": 250377.48,
+      "reconCommission": 9514.3,
+      "reconRate": 3.8,
+      "contractRate": 3.8,
+      "contractExpected": 9514.3,
+      "deviation": 0,
+      "parts": [
+        {
+          "label": "Novatum",
+          "rate": 3.8,
+          "amount": 9514.3,
+          "contractRate": 3.8,
+          "contractAmount": 9514.3,
+          "source": "Reconciliation",
+          "contractSource": "Agreement 13/10-02"
+        }
+      ],
+      "days": []
+    },
+    {
+      "key": "nov-2025",
+      "label": "November",
+      "turnover": 155580.24,
+      "registryAmount": 155580.24,
+      "regCommission": 5912.12,
+      "regTxCount": 2081,
+      "reconTurnover": 155580.24,
+      "reconCommission": 5912.12,
+      "reconRate": 3.8,
+      "contractRate": 3.8,
+      "contractExpected": 5912.12,
+      "deviation": 0,
+      "parts": [
+        {
+          "label": "Novatum",
+          "rate": 3.8,
+          "amount": 5912.12,
+          "contractRate": 3.8,
+          "contractAmount": 5912.12,
+          "source": "Reconciliation",
+          "contractSource": "Agreement 13/10-02"
+        }
+      ],
+      "days": []
+    }
+  ]
+}

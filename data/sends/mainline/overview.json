@@ -1,0 +1,1615 @@
+{
+  "title": "Merchants Overview",
+  "subtitle": "Mainline — Commission deviation by month",
+  "year": 2025,
+  "merchants": [
+    {
+      "id": "aetheric-core",
+      "name": "AETHERIC CORE",
+      "legalName": "AETHERIC CORE LIMITED",
+      "contract": "0809-25",
+      "months": {
+        "jan": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "feb": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "mar": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "apr": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "may": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "jun": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "jul": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "aug": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "sep": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "oct": {
+          "turnover": 1044534.08,
+          "commission": 39692.73,
+          "deviation": 0,
+          "cases": []
+        },
+        "nov": {
+          "turnover": 1170178.29,
+          "commission": 44469.01,
+          "deviation": 0,
+          "cases": []
+        },
+        "dec": {
+          "turnover": 1422341.82,
+          "commission": 54052.65,
+          "deviation": 0,
+          "cases": []
+        }
+      }
+    },
+    {
+      "id": "aimskinz",
+      "name": "AIMSKINZ",
+      "legalName": "AIMSKINZ LIMITED",
+      "contract": "01/08-01",
+      "months": {
+        "jan": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "feb": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "mar": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "apr": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "may": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "jun": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "jul": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "aug": {
+          "turnover": 10.0,
+          "commission": 0.38,
+          "deviation": 0,
+          "cases": []
+        },
+        "sep": {
+          "turnover": 962006.84,
+          "commission": 36538.95,
+          "deviation": 0,
+          "cases": []
+        },
+        "oct": {
+          "turnover": 1188861.8,
+          "commission": 45153.9,
+          "deviation": 0,
+          "cases": []
+        },
+        "nov": {
+          "turnover": 262181.42,
+          "commission": 9958.89,
+          "deviation": 0,
+          "cases": []
+        },
+        "dec": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        }
+      }
+    },
+    {
+      "id": "artefactax",
+      "name": "ARTEFACTAX",
+      "legalName": "ARTEFACTAX LIMITED",
+      "contract": "2025/2411-01",
+      "months": {
+        "jan": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "feb": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "mar": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "apr": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "may": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "jun": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "jul": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "aug": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "sep": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "oct": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "nov": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "dec": {
+          "turnover": 6466.13,
+          "commission": 245.66,
+          "deviation": 0,
+          "cases": []
+        }
+      }
+    },
+    {
+      "id": "artimatter",
+      "name": "ARTIMATTER",
+      "legalName": "ARTIMATTER LIMITED",
+      "contract": "2025/2309-01",
+      "months": {
+        "jan": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "feb": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "mar": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "apr": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "may": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "jun": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "jul": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "aug": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "sep": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "oct": {
+          "turnover": 308491.14,
+          "commission": 11722.51,
+          "deviation": 0,
+          "cases": []
+        },
+        "nov": {
+          "turnover": 892233.5,
+          "commission": 33904.74,
+          "deviation": 0,
+          "cases": []
+        },
+        "dec": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        }
+      }
+    },
+    {
+      "id": "blogwizarro",
+      "name": "BLOGWIZARRO",
+      "legalName": "BLOGWIZARRO LTD",
+      "contract": "0206-25",
+      "months": {
+        "jan": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "feb": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "mar": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "apr": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "may": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "jun": {
+          "turnover": 2828250.55,
+          "commission": 99042.25,
+          "deviation": 0,
+          "cases": []
+        },
+        "jul": {
+          "turnover": 7843132.82,
+          "commission": 289486.87,
+          "deviation": 14977.22,
+          "cases": [
+            {
+              "id": "blogwizarro-jul-2025",
+              "title": "Rate deviation in July",
+              "partLabel": "Smartflow",
+              "contractRate": 3.5,
+              "actualRate": 3.691,
+              "deviation": 14977.22,
+              "periodFrom": "Jul 1",
+              "periodTo": "Jul 31"
+            }
+          ]
+        },
+        "aug": {
+          "turnover": 1056114.76,
+          "commission": 40126.36,
+          "deviation": 3162.34,
+          "cases": [
+            {
+              "id": "blogwizarro-aug-2025",
+              "title": "Rate deviation in August",
+              "partLabel": "Smartflow",
+              "contractRate": 3.5,
+              "actualRate": 3.7994,
+              "deviation": 3162.34,
+              "periodFrom": "Aug 1",
+              "periodTo": "Aug 31"
+            }
+          ]
+        },
+        "sep": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "oct": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "nov": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "dec": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        }
+      }
+    },
+    {
+      "id": "devalenius",
+      "name": "DEVALENIUS",
+      "legalName": "DEVALENIUS LTD",
+      "contract": "2025/1510-01",
+      "months": {
+        "jan": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "feb": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "mar": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "apr": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "may": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "jun": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "jul": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "aug": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "sep": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "oct": {
+          "turnover": 44615.97,
+          "commission": 1696.19,
+          "deviation": 0,
+          "cases": []
+        },
+        "nov": {
+          "turnover": 131702.69,
+          "commission": 5004.47,
+          "deviation": 0,
+          "cases": []
+        },
+        "dec": {
+          "turnover": 607.25,
+          "commission": 23.09,
+          "deviation": 0,
+          "cases": []
+        }
+      }
+    },
+    {
+      "id": "dintares",
+      "name": "DINTARES",
+      "legalName": "DINTARES LTD",
+      "contract": "2025/2410-01",
+      "months": {
+        "jan": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "feb": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "mar": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "apr": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "may": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "jun": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "jul": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "aug": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "sep": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "oct": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "nov": {
+          "turnover": 1072194.24,
+          "commission": 40719.6,
+          "deviation": 0,
+          "cases": []
+        },
+        "dec": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        }
+      }
+    },
+    {
+      "id": "dirmenion",
+      "name": "DIRMENION",
+      "legalName": "DIRMENION LTD",
+      "contract": "2025/2110-03",
+      "months": {
+        "jan": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "feb": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "mar": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "apr": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "may": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "jun": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "jul": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "aug": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "sep": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "oct": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "nov": {
+          "turnover": 1911752.82,
+          "commission": 72649.42,
+          "deviation": 0,
+          "cases": []
+        },
+        "dec": {
+          "turnover": 2338019.88,
+          "commission": 88846.58,
+          "deviation": 0,
+          "cases": []
+        }
+      }
+    },
+    {
+      "id": "divinenode",
+      "name": "DIVINENODE",
+      "legalName": "DIVINENODE LIMITED",
+      "contract": "1009-25",
+      "months": {
+        "jan": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "feb": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "mar": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "apr": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "may": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "jun": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "jul": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "aug": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "sep": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "oct": {
+          "turnover": 977870.34,
+          "commission": 37166.59,
+          "deviation": 0,
+          "cases": []
+        },
+        "nov": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "dec": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        }
+      }
+    },
+    {
+      "id": "noxious",
+      "name": "NOXIOUS",
+      "legalName": "NOXIOUS LIMITED",
+      "contract": "2203-24",
+      "months": {
+        "jan": {
+          "turnover": 9345486.9,
+          "commission": 355120.51,
+          "deviation": 0,
+          "cases": []
+        },
+        "feb": {
+          "turnover": 5514657.54,
+          "commission": 200689.54,
+          "deviation": -8867.45,
+          "cases": [
+            {
+              "id": "noxious-feb-2025",
+              "title": "Rate deviation in February",
+              "partLabel": "Smartflow",
+              "contractRate": 3.8,
+              "actualRate": 3.6392,
+              "deviation": -8867.45,
+              "periodFrom": "Feb 1",
+              "periodTo": "Feb 31"
+            }
+          ]
+        },
+        "mar": {
+          "turnover": 412512.59,
+          "commission": 15672.45,
+          "deviation": 0,
+          "cases": []
+        },
+        "apr": {
+          "turnover": 3191188.8,
+          "commission": 121243.38,
+          "deviation": 0,
+          "cases": []
+        },
+        "may": {
+          "turnover": 1924689.18,
+          "commission": 73127.94,
+          "deviation": 0,
+          "cases": []
+        },
+        "jun": {
+          "turnover": 14055656.23,
+          "commission": 492142.29,
+          "deviation": -41972.65,
+          "cases": [
+            {
+              "id": "noxious-jun-2025",
+              "title": "Rate deviation in June",
+              "partLabel": "Smartflow",
+              "contractRate": 3.8,
+              "actualRate": 3.5014,
+              "deviation": -41972.65,
+              "periodFrom": "Jun 1",
+              "periodTo": "Jun 31"
+            }
+          ]
+        },
+        "jul": {
+          "turnover": 56987.7,
+          "commission": 2164.97,
+          "deviation": 0,
+          "cases": []
+        },
+        "aug": {
+          "turnover": 4249951.92,
+          "commission": 161460.28,
+          "deviation": 0,
+          "cases": []
+        },
+        "sep": {
+          "turnover": 5360065.28,
+          "commission": 203659.4,
+          "deviation": 0,
+          "cases": []
+        },
+        "oct": {
+          "turnover": 7786157.0,
+          "commission": 295819.25,
+          "deviation": 0,
+          "cases": []
+        },
+        "nov": {
+          "turnover": 8621357.48,
+          "commission": 327552.24,
+          "deviation": 0,
+          "cases": []
+        },
+        "dec": {
+          "turnover": 9821571.9,
+          "commission": 373223.72,
+          "deviation": 0,
+          "cases": []
+        }
+      }
+    },
+    {
+      "id": "nuoplaym",
+      "name": "NUOPLAYM",
+      "legalName": "NUOPLAYM LIMITED",
+      "contract": "0907-25",
+      "months": {
+        "jan": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "feb": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "mar": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "apr": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "may": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "jun": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "jul": {
+          "turnover": 1809022.69,
+          "commission": 68733.18,
+          "deviation": 0,
+          "cases": []
+        },
+        "aug": {
+          "turnover": 8521342.01,
+          "commission": 323780.06,
+          "deviation": 0,
+          "cases": []
+        },
+        "sep": {
+          "turnover": 5463768.33,
+          "commission": 207628.52,
+          "deviation": 0,
+          "cases": []
+        },
+        "oct": {
+          "turnover": 2941592.54,
+          "commission": 111769.31,
+          "deviation": 0,
+          "cases": []
+        },
+        "nov": {
+          "turnover": 2390925.96,
+          "commission": 90839.32,
+          "deviation": 0,
+          "cases": []
+        },
+        "dec": {
+          "turnover": 2674010.63,
+          "commission": 101612.29,
+          "deviation": 0,
+          "cases": []
+        }
+      }
+    },
+    {
+      "id": "pixthena",
+      "name": "PIXTHENA",
+      "legalName": "PIXTHENA LIMITED",
+      "contract": "1811-24",
+      "months": {
+        "jan": {
+          "turnover": 354377.27,
+          "commission": 13470.57,
+          "deviation": 0,
+          "cases": []
+        },
+        "feb": {
+          "turnover": 1808411.23,
+          "commission": 65060.8,
+          "deviation": -3658.83,
+          "cases": [
+            {
+              "id": "pixthena-feb-2025",
+              "title": "Rate deviation in February",
+              "partLabel": "Smartflow",
+              "contractRate": 3.8,
+              "actualRate": 3.5977,
+              "deviation": -3658.83,
+              "periodFrom": "Feb 1",
+              "periodTo": "Feb 31"
+            }
+          ]
+        },
+        "mar": {
+          "turnover": 6178624.14,
+          "commission": 216322.74,
+          "deviation": -18464.98,
+          "cases": [
+            {
+              "id": "pixthena-mar-2025",
+              "title": "Rate deviation in March",
+              "partLabel": "Smartflow",
+              "contractRate": 3.8,
+              "actualRate": 3.5011,
+              "deviation": -18464.98,
+              "periodFrom": "Mar 1",
+              "periodTo": "Mar 31"
+            }
+          ]
+        },
+        "apr": {
+          "turnover": 7266599.36,
+          "commission": 254426.63,
+          "deviation": -21704.15,
+          "cases": [
+            {
+              "id": "pixthena-apr-2025",
+              "title": "Rate deviation in April",
+              "partLabel": "Smartflow",
+              "contractRate": 3.8,
+              "actualRate": 3.5013,
+              "deviation": -21704.15,
+              "periodFrom": "Apr 1",
+              "periodTo": "Apr 31"
+            }
+          ]
+        },
+        "may": {
+          "turnover": 6789632.05,
+          "commission": 237693.07,
+          "deviation": -20312.95,
+          "cases": [
+            {
+              "id": "pixthena-may-2025",
+              "title": "Rate deviation in May",
+              "partLabel": "Smartflow",
+              "contractRate": 3.8,
+              "actualRate": 3.5008,
+              "deviation": -20312.95,
+              "periodFrom": "May 1",
+              "periodTo": "May 31"
+            }
+          ]
+        },
+        "jun": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "jul": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "aug": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "sep": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "oct": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "nov": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "dec": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        }
+      }
+    },
+    {
+      "id": "quantessa",
+      "name": "QUANTESSA",
+      "legalName": "QUANTESSA LTD",
+      "contract": "13/10-02",
+      "months": {
+        "jan": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "feb": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "mar": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "apr": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "may": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "jun": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "jul": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "aug": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "sep": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "oct": {
+          "turnover": 4070.14,
+          "commission": 154.73,
+          "deviation": 0,
+          "cases": []
+        },
+        "nov": {
+          "turnover": 105158.47,
+          "commission": 3995.65,
+          "deviation": 0,
+          "cases": []
+        },
+        "dec": {
+          "turnover": 143474.42,
+          "commission": 5452.03,
+          "deviation": 0,
+          "cases": []
+        }
+      }
+    },
+    {
+      "id": "renamestra",
+      "name": "RENAMESTRA",
+      "legalName": "RENAMESTRA LTD",
+      "contract": "2209-25",
+      "months": {
+        "jan": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "feb": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "mar": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "apr": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "may": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "jun": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "jul": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "aug": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "sep": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "oct": {
+          "turnover": 286610.96,
+          "commission": 10891.92,
+          "deviation": 0,
+          "cases": []
+        },
+        "nov": {
+          "turnover": 427424.4,
+          "commission": 16241.51,
+          "deviation": 0,
+          "cases": []
+        },
+        "dec": {
+          "turnover": 400626.29,
+          "commission": 15223.37,
+          "deviation": 0,
+          "cases": []
+        }
+      }
+    },
+    {
+      "id": "skinriff",
+      "name": "SKINRIFF",
+      "legalName": "SKINRIFF LIMITED",
+      "contract": "2025/1311-01",
+      "months": {
+        "jan": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "feb": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "mar": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "apr": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "may": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "jun": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "jul": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "aug": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "sep": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "oct": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "nov": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "dec": {
+          "turnover": 774951.7,
+          "commission": 29450.06,
+          "deviation": 0,
+          "cases": []
+        }
+      }
+    },
+    {
+      "id": "skinvalut",
+      "name": "SKINVALUT",
+      "legalName": "SKINVALUT LIMITED",
+      "contract": "2025/2107-01",
+      "months": {
+        "jan": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "feb": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "mar": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "apr": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "may": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "jun": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "jul": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "aug": {
+          "turnover": 4053207.7,
+          "commission": 154002.89,
+          "deviation": 0,
+          "cases": []
+        },
+        "sep": {
+          "turnover": 4752911.72,
+          "commission": 180607.24,
+          "deviation": 0,
+          "cases": []
+        },
+        "oct": {
+          "turnover": 3059506.7,
+          "commission": 116259.65,
+          "deviation": 0,
+          "cases": []
+        },
+        "nov": {
+          "turnover": 2402062.44,
+          "commission": 91282.08,
+          "deviation": 0,
+          "cases": []
+        },
+        "dec": {
+          "turnover": 2303712.2,
+          "commission": 87544.78,
+          "deviation": 0,
+          "cases": []
+        }
+      }
+    },
+    {
+      "id": "skinvex",
+      "name": "SKINVEX",
+      "legalName": "SKINVEX LTD",
+      "contract": "2025/1509-02",
+      "months": {
+        "jan": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "feb": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "mar": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "apr": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "may": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "jun": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "jul": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "aug": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "sep": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "oct": {
+          "turnover": 516174.86,
+          "commission": 19616.18,
+          "deviation": 0,
+          "cases": []
+        },
+        "nov": {
+          "turnover": 811646.37,
+          "commission": 30843.79,
+          "deviation": 0,
+          "cases": []
+        },
+        "dec": {
+          "turnover": 815839.46,
+          "commission": 31001.52,
+          "deviation": 0,
+          "cases": []
+        }
+      }
+    },
+    {
+      "id": "terragaminex",
+      "name": "TERRAGAMINEX",
+      "legalName": "TERRAGAMINEX LIMITED",
+      "contract": "2025/2910-01",
+      "months": {
+        "jan": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "feb": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "mar": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "apr": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "may": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "jun": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "jul": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "aug": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "sep": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "oct": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "nov": {
+          "turnover": 98925.3,
+          "commission": 3761.73,
+          "deviation": 0,
+          "cases": []
+        },
+        "dec": {
+          "turnover": 432364.46,
+          "commission": 16433.28,
+          "deviation": 0,
+          "cases": []
+        }
+      }
+    },
+    {
+      "id": "webnorus",
+      "name": "WEBNORUS",
+      "legalName": "WEBNORUS LIMITED",
+      "contract": "0209-25",
+      "months": {
+        "jan": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "feb": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "mar": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "apr": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "may": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "jun": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "jul": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "aug": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "sep": {
+          "turnover": 1.0,
+          "commission": 0.04,
+          "deviation": 0.0,
+          "cases": []
+        },
+        "oct": {
+          "turnover": 0,
+          "commission": 0,
+          "deviation": 0,
+          "cases": []
+        },
+        "nov": {
+          "turnover": 83289.01,
+          "commission": 3164.89,
+          "deviation": 0,
+          "cases": []
+        },
+        "dec": {
+          "turnover": 162968.59,
+          "commission": 6192.94,
+          "deviation": 0,
+          "cases": []
+        }
+      }
+    }
+  ]
+}

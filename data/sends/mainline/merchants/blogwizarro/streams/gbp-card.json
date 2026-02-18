@@ -1,0 +1,61 @@
+{
+  "streamId": "gbp-card",
+  "label": "GBP Card",
+  "currency": "GBP",
+  "point": "Card",
+  "provider": "Smartflow",
+  "months": [
+    {
+      "key": "aug-2025",
+      "label": "August",
+      "turnover": 11235.29,
+      "registryAmount": 11235.29,
+      "regCommission": 427.11,
+      "regTxCount": 277,
+      "reconTurnover": 11235.29,
+      "reconCommission": 427.11,
+      "reconRate": 3.8015,
+      "contractRate": 3.5,
+      "contractExpected": 393.24,
+      "deviation": 33.87,
+      "parts": [
+        {
+          "label": "Smartflow",
+          "rate": 3.8015,
+          "amount": 427.11,
+          "contractRate": 3.5,
+          "contractAmount": 393.24,
+          "source": "Reconciliation",
+          "contractSource": "Agreement 0206-25"
+        }
+      ],
+      "days": []
+    },
+    {
+      "key": "jul-2025",
+      "label": "July",
+      "turnover": 25536.47,
+      "registryAmount": 25536.47,
+      "regCommission": 970.61,
+      "regTxCount": 561,
+      "reconTurnover": 25536.47,
+      "reconCommission": 970.61,
+      "reconRate": 3.8009,
+      "contractRate": 3.5,
+      "contractExpected": 893.78,
+      "deviation": 76.83,
+      "parts": [
+        {
+          "label": "Smartflow",
+          "rate": 3.8009,
+          "amount": 970.61,
+          "contractRate": 3.5,
+          "contractAmount": 893.78,
+          "source": "Reconciliation",
+          "contractSource": "Agreement 0206-25"
+        }
+      ],
+      "days": []
+    }
+  ]
+}

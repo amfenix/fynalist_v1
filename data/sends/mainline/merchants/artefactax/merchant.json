@@ -1,0 +1,474 @@
+{
+  "id": "artefactax",
+  "name": "ARTEFACTAX",
+  "legalName": "ARTEFACTAX LIMITED",
+  "contract": "2025/2411-01",
+  "rateHistory": [
+    {
+      "contract": "2025/2411-01",
+      "effectiveDate": "Nov 24, 2025",
+      "periodFrom": "Dec 1",
+      "periodTo": "Dec 31",
+      "rates": [
+        {
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3.8
+            }
+          ],
+          "refundFee": 5,
+          "notes": [
+            "Incoming",
+            "Card",
+            "EUR"
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "successTxn": 179,
+    "failedTxn": 0,
+    "acceptRate": 100,
+    "refundRate": 0
+  },
+  "streams": [
+    {
+      "id": "eur-card",
+      "label": "EUR Card",
+      "currency": "EUR",
+      "point": "Card",
+      "provider": "SENDS"
+    }
+  ],
+  "months": [
+    {
+      "key": "dec-2025",
+      "label": "December",
+      "turnover": 6466.13,
+      "registryAmount": 6466.13,
+      "regCommission": 245.66,
+      "regTxCount": 148,
+      "reconTurnover": 6466.13,
+      "reconCommission": 245.66,
+      "reconRate": 3.7992,
+      "contractRate": 3.8,
+      "contractExpected": 245.66,
+      "deviation": 0,
+      "parts": [
+        {
+          "label": "SENDS",
+          "rate": 3.7992,
+          "amount": 245.66,
+          "contractRate": 3.8,
+          "contractAmount": 245.66,
+          "source": "Reconciliation",
+          "contractSource": "Agreement 2025/2411-01"
+        }
+      ],
+      "days": [
+        {
+          "day": 16,
+          "date": "Dec 16",
+          "turnover": 22.58,
+          "regCommission": 0.86,
+          "regTxCount": 2,
+          "reconTurnover": 22.58,
+          "reconCommission": 0.86,
+          "reconRate": 3.8087,
+          "contractRate": 3.8087,
+          "contractExpected": 0.86,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3.8087,
+              "amount": 0.86,
+              "contractRate": 3.8087,
+              "contractAmount": 0.86,
+              "source": "Registry",
+              "contractSource": "Agreement 2025/2411-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 17,
+          "date": "Dec 17",
+          "turnover": 353.26,
+          "regCommission": 13.42,
+          "regTxCount": 11,
+          "reconTurnover": 353.26,
+          "reconCommission": 13.42,
+          "reconRate": 3.7989,
+          "contractRate": 3.7989,
+          "contractExpected": 13.42,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3.7989,
+              "amount": 13.42,
+              "contractRate": 3.7989,
+              "contractAmount": 13.42,
+              "source": "Registry",
+              "contractSource": "Agreement 2025/2411-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 18,
+          "date": "Dec 18",
+          "turnover": 105.24,
+          "regCommission": 4.0,
+          "regTxCount": 3,
+          "reconTurnover": 105.24,
+          "reconCommission": 4.0,
+          "reconRate": 3.8008,
+          "contractRate": 3.8008,
+          "contractExpected": 4.0,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3.8008,
+              "amount": 4.0,
+              "contractRate": 3.8008,
+              "contractAmount": 4.0,
+              "source": "Registry",
+              "contractSource": "Agreement 2025/2411-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 19,
+          "date": "Dec 19",
+          "turnover": 338.31,
+          "regCommission": 12.85,
+          "regTxCount": 9,
+          "reconTurnover": 338.31,
+          "reconCommission": 12.85,
+          "reconRate": 3.7983,
+          "contractRate": 3.7983,
+          "contractExpected": 12.85,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3.7983,
+              "amount": 12.85,
+              "contractRate": 3.7983,
+              "contractAmount": 12.85,
+              "source": "Registry",
+              "contractSource": "Agreement 2025/2411-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 20,
+          "date": "Dec 20",
+          "turnover": 437.85,
+          "regCommission": 16.64,
+          "regTxCount": 8,
+          "reconTurnover": 437.85,
+          "reconCommission": 16.63,
+          "reconRate": 3.7981,
+          "contractRate": 3.7981,
+          "contractExpected": 16.63,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3.7981,
+              "amount": 16.63,
+              "contractRate": 3.7981,
+              "contractAmount": 16.63,
+              "source": "Registry",
+              "contractSource": "Agreement 2025/2411-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 21,
+          "date": "Dec 21",
+          "turnover": 794.98,
+          "regCommission": 30.23,
+          "regTxCount": 13,
+          "reconTurnover": 794.98,
+          "reconCommission": 30.2,
+          "reconRate": 3.7988,
+          "contractRate": 3.7988,
+          "contractExpected": 30.2,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3.7988,
+              "amount": 30.2,
+              "contractRate": 3.7988,
+              "contractAmount": 30.2,
+              "source": "Registry",
+              "contractSource": "Agreement 2025/2411-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 22,
+          "date": "Dec 22",
+          "turnover": 566.92,
+          "regCommission": 21.53,
+          "regTxCount": 15,
+          "reconTurnover": 566.92,
+          "reconCommission": 21.54,
+          "reconRate": 3.7995,
+          "contractRate": 3.7995,
+          "contractExpected": 21.54,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3.7995,
+              "amount": 21.54,
+              "contractRate": 3.7995,
+              "contractAmount": 21.54,
+              "source": "Registry",
+              "contractSource": "Agreement 2025/2411-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 23,
+          "date": "Dec 23",
+          "turnover": 217.01,
+          "regCommission": 8.25,
+          "regTxCount": 6,
+          "reconTurnover": 217.01,
+          "reconCommission": 8.24,
+          "reconRate": 3.7971,
+          "contractRate": 3.7971,
+          "contractExpected": 8.24,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3.7971,
+              "amount": 8.24,
+              "contractRate": 3.7971,
+              "contractAmount": 8.24,
+              "source": "Registry",
+              "contractSource": "Agreement 2025/2411-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 24,
+          "date": "Dec 24",
+          "turnover": 503.02,
+          "regCommission": 19.11,
+          "regTxCount": 16,
+          "reconTurnover": 503.02,
+          "reconCommission": 19.11,
+          "reconRate": 3.7991,
+          "contractRate": 3.7991,
+          "contractExpected": 19.11,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3.7991,
+              "amount": 19.11,
+              "contractRate": 3.7991,
+              "contractAmount": 19.11,
+              "source": "Registry",
+              "contractSource": "Agreement 2025/2411-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 25,
+          "date": "Dec 25",
+          "turnover": 300.65,
+          "regCommission": 11.44,
+          "regTxCount": 6,
+          "reconTurnover": 300.65,
+          "reconCommission": 11.42,
+          "reconRate": 3.7984,
+          "contractRate": 3.7984,
+          "contractExpected": 11.42,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3.7984,
+              "amount": 11.42,
+              "contractRate": 3.7984,
+              "contractAmount": 11.42,
+              "source": "Registry",
+              "contractSource": "Agreement 2025/2411-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 26,
+          "date": "Dec 26",
+          "turnover": 122.4,
+          "regCommission": 4.64,
+          "regTxCount": 5,
+          "reconTurnover": 122.4,
+          "reconCommission": 4.65,
+          "reconRate": 3.799,
+          "contractRate": 3.799,
+          "contractExpected": 4.65,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3.799,
+              "amount": 4.65,
+              "contractRate": 3.799,
+              "contractAmount": 4.65,
+              "source": "Registry",
+              "contractSource": "Agreement 2025/2411-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 27,
+          "date": "Dec 27",
+          "turnover": 146.99,
+          "regCommission": 5.59,
+          "regTxCount": 6,
+          "reconTurnover": 146.99,
+          "reconCommission": 5.58,
+          "reconRate": 3.7962,
+          "contractRate": 3.7962,
+          "contractExpected": 5.58,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3.7962,
+              "amount": 5.58,
+              "contractRate": 3.7962,
+              "contractAmount": 5.58,
+              "source": "Registry",
+              "contractSource": "Agreement 2025/2411-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 28,
+          "date": "Dec 28",
+          "turnover": 472.81,
+          "regCommission": 17.95,
+          "regTxCount": 9,
+          "reconTurnover": 472.81,
+          "reconCommission": 17.96,
+          "reconRate": 3.7986,
+          "contractRate": 3.7986,
+          "contractExpected": 17.96,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3.7986,
+              "amount": 17.96,
+              "contractRate": 3.7986,
+              "contractAmount": 17.96,
+              "source": "Registry",
+              "contractSource": "Agreement 2025/2411-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 29,
+          "date": "Dec 29",
+          "turnover": 917.19,
+          "regCommission": 34.86,
+          "regTxCount": 4,
+          "reconTurnover": 917.19,
+          "reconCommission": 34.85,
+          "reconRate": 3.7996,
+          "contractRate": 3.7996,
+          "contractExpected": 34.85,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3.7996,
+              "amount": 34.85,
+              "contractRate": 3.7996,
+              "contractAmount": 34.85,
+              "source": "Registry",
+              "contractSource": "Agreement 2025/2411-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 30,
+          "date": "Dec 30",
+          "turnover": 484.14,
+          "regCommission": 18.38,
+          "regTxCount": 11,
+          "reconTurnover": 484.14,
+          "reconCommission": 18.39,
+          "reconRate": 3.7985,
+          "contractRate": 3.7985,
+          "contractExpected": 18.39,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3.7985,
+              "amount": 18.39,
+              "contractRate": 3.7985,
+              "contractAmount": 18.39,
+              "source": "Registry",
+              "contractSource": "Agreement 2025/2411-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 31,
+          "date": "Dec 31",
+          "turnover": 682.78,
+          "regCommission": 25.91,
+          "regTxCount": 24,
+          "reconTurnover": 682.78,
+          "reconCommission": 25.94,
+          "reconRate": 3.7992,
+          "contractRate": 3.7992,
+          "contractExpected": 25.94,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "SENDS",
+              "rate": 3.7992,
+              "amount": 25.94,
+              "contractRate": 3.7992,
+              "contractAmount": 25.94,
+              "source": "Registry",
+              "contractSource": "Agreement 2025/2411-01"
+            }
+          ],
+          "rateChangeDay": false
+        }
+      ]
+    }
+  ]
+}

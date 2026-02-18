@@ -1,0 +1,35 @@
+{
+  "streamId": "aud-card",
+  "label": "AUD Card",
+  "currency": "AUD",
+  "point": "Card",
+  "provider": "Finthesis",
+  "months": [
+    {
+      "key": "dec-2025",
+      "label": "December",
+      "turnover": 22750.96,
+      "registryAmount": 22750.96,
+      "regCommission": 864.52,
+      "regTxCount": 267,
+      "reconTurnover": 22750.96,
+      "reconCommission": 864.52,
+      "reconRate": 3.7999,
+      "contractRate": 3.8,
+      "contractExpected": 864.52,
+      "deviation": 0,
+      "parts": [
+        {
+          "label": "Finthesis",
+          "rate": 3.7999,
+          "amount": 864.52,
+          "contractRate": 3.8,
+          "contractAmount": 864.52,
+          "source": "Reconciliation",
+          "contractSource": "Agreement 2025/1311-01"
+        }
+      ],
+      "days": []
+    }
+  ]
+}

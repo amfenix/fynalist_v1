@@ -1,0 +1,87 @@
+{
+  "streamId": "nok-card",
+  "label": "NOK Card",
+  "currency": "NOK",
+  "point": "Card",
+  "provider": "Novatum",
+  "months": [
+    {
+      "key": "oct-2025",
+      "label": "October",
+      "turnover": 289931.99,
+      "registryAmount": 289931.99,
+      "regCommission": 11017.4,
+      "regTxCount": 548,
+      "reconTurnover": 289931.99,
+      "reconCommission": 11017.4,
+      "reconRate": 3.8,
+      "contractRate": 3.8,
+      "contractExpected": 11017.4,
+      "deviation": 0,
+      "parts": [
+        {
+          "label": "Novatum",
+          "rate": 3.8,
+          "amount": 11017.4,
+          "contractRate": 3.8,
+          "contractAmount": 11017.4,
+          "source": "Reconciliation",
+          "contractSource": "Agreement 01/08-01"
+        }
+      ],
+      "days": []
+    },
+    {
+      "key": "sep-2025",
+      "label": "September",
+      "turnover": 196764.36,
+      "registryAmount": 196764.36,
+      "regCommission": 7477.0,
+      "regTxCount": 498,
+      "reconTurnover": 196764.36,
+      "reconCommission": 7477.0,
+      "reconRate": 3.8,
+      "contractRate": 3.8,
+      "contractExpected": 7477.0,
+      "deviation": 0,
+      "parts": [
+        {
+          "label": "Novatum",
+          "rate": 3.8,
+          "amount": 7477.0,
+          "contractRate": 3.8,
+          "contractAmount": 7477.0,
+          "source": "Reconciliation",
+          "contractSource": "Agreement 01/08-01"
+        }
+      ],
+      "days": []
+    },
+    {
+      "key": "aug-2025",
+      "label": "August",
+      "turnover": 93031.45,
+      "registryAmount": 93031.45,
+      "regCommission": 3535.2,
+      "regTxCount": 194,
+      "reconTurnover": 93031.45,
+      "reconCommission": 3535.2,
+      "reconRate": 3.8,
+      "contractRate": 3.8,
+      "contractExpected": 3535.2,
+      "deviation": 0,
+      "parts": [
+        {
+          "label": "Novatum",
+          "rate": 3.8,
+          "amount": 3535.2,
+          "contractRate": 3.8,
+          "contractAmount": 3535.2,
+          "source": "Reconciliation",
+          "contractSource": "Agreement 01/08-01"
+        }
+      ],
+      "days": []
+    }
+  ]
+}

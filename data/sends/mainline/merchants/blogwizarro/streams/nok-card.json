@@ -1,0 +1,61 @@
+{
+  "streamId": "nok-card",
+  "label": "NOK Card",
+  "currency": "NOK",
+  "point": "Card",
+  "provider": "Smartflow",
+  "months": [
+    {
+      "key": "jul-2025",
+      "label": "July",
+      "turnover": 40612.07,
+      "registryAmount": 40612.07,
+      "regCommission": 1543.27,
+      "regTxCount": 42,
+      "reconTurnover": 40612.07,
+      "reconCommission": 1543.27,
+      "reconRate": 3.8,
+      "contractRate": 3.5,
+      "contractExpected": 1421.42,
+      "deviation": 121.85,
+      "parts": [
+        {
+          "label": "Smartflow",
+          "rate": 3.8,
+          "amount": 1543.27,
+          "contractRate": 3.5,
+          "contractAmount": 1421.42,
+          "source": "Reconciliation",
+          "contractSource": "Agreement 0206-25"
+        }
+      ],
+      "days": []
+    },
+    {
+      "key": "jun-2025",
+      "label": "June",
+      "turnover": 63501.77,
+      "registryAmount": 63501.77,
+      "regCommission": 2222.57,
+      "regTxCount": 97,
+      "reconTurnover": 63501.77,
+      "reconCommission": 2222.57,
+      "reconRate": 3.5,
+      "contractRate": 3.5,
+      "contractExpected": 2222.57,
+      "deviation": 0,
+      "parts": [
+        {
+          "label": "Smartflow",
+          "rate": 3.5,
+          "amount": 2222.57,
+          "contractRate": 3.5,
+          "contractAmount": 2222.57,
+          "source": "Reconciliation",
+          "contractSource": "Agreement 0206-25"
+        }
+      ],
+      "days": []
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "streamId": "gbp-card",
+  "label": "GBP Card",
+  "currency": "GBP",
+  "point": "Card",
+  "provider": "Smartflow",
+  "months": [
+    {
+      "key": "may-2025",
+      "label": "May",
+      "turnover": 1.0,
+      "registryAmount": 1.0,
+      "regCommission": 0.04,
+      "regTxCount": 1,
+      "reconTurnover": 1.0,
+      "reconCommission": 0.04,
+      "reconRate": 4.0,
+      "contractRate": 4.8,
+      "contractExpected": 0.05,
+      "deviation": -0.01,
+      "parts": [
+        {
+          "label": "Smartflow",
+          "rate": 4.0,
+          "amount": 0.04,
+          "contractRate": 4.8,
+          "contractAmount": 0.05,
+          "source": "Reconciliation",
+          "contractSource": "Agreement 1811-24"
+        }
+      ],
+      "days": []
+    }
+  ]
+}

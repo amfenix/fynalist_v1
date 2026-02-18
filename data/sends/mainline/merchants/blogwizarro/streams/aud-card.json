@@ -1,0 +1,87 @@
+{
+  "streamId": "aud-card",
+  "label": "AUD Card",
+  "currency": "AUD",
+  "point": "Card",
+  "provider": "Smartflow",
+  "months": [
+    {
+      "key": "aug-2025",
+      "label": "August",
+      "turnover": 3345706.21,
+      "registryAmount": 3345706.21,
+      "regCommission": 127136.64,
+      "regTxCount": 41528,
+      "reconTurnover": 3345706.21,
+      "reconCommission": 127136.64,
+      "reconRate": 3.8,
+      "contractRate": 3.5,
+      "contractExpected": 117099.72,
+      "deviation": 10036.92,
+      "parts": [
+        {
+          "label": "Smartflow",
+          "rate": 3.8,
+          "amount": 127136.64,
+          "contractRate": 3.5,
+          "contractAmount": 117099.72,
+          "source": "Reconciliation",
+          "contractSource": "Agreement 0206-25"
+        }
+      ],
+      "days": []
+    },
+    {
+      "key": "jul-2025",
+      "label": "July",
+      "turnover": 19500970.17,
+      "registryAmount": 19500970.17,
+      "regCommission": 728964.78,
+      "regTxCount": 243380,
+      "reconTurnover": 19500970.17,
+      "reconCommission": 728964.78,
+      "reconRate": 3.7381,
+      "contractRate": 3.5,
+      "contractExpected": 682533.96,
+      "deviation": 46430.82,
+      "parts": [
+        {
+          "label": "Smartflow",
+          "rate": 3.7381,
+          "amount": 728964.78,
+          "contractRate": 3.5,
+          "contractAmount": 682533.96,
+          "source": "Reconciliation",
+          "contractSource": "Agreement 0206-25"
+        }
+      ],
+      "days": []
+    },
+    {
+      "key": "jun-2025",
+      "label": "June",
+      "turnover": 1743091.87,
+      "registryAmount": 1743091.87,
+      "regCommission": 61013.8,
+      "regTxCount": 18942,
+      "reconTurnover": 1743091.87,
+      "reconCommission": 61013.8,
+      "reconRate": 3.5003,
+      "contractRate": 3.5,
+      "contractExpected": 61013.8,
+      "deviation": 0,
+      "parts": [
+        {
+          "label": "Smartflow",
+          "rate": 3.5003,
+          "amount": 61013.8,
+          "contractRate": 3.5,
+          "contractAmount": 61013.8,
+          "source": "Reconciliation",
+          "contractSource": "Agreement 0206-25"
+        }
+      ],
+      "days": []
+    }
+  ]
+}

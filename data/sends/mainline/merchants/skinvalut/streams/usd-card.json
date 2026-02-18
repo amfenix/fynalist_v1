@@ -1,0 +1,139 @@
+{
+  "streamId": "usd-card",
+  "label": "USD Card",
+  "currency": "USD",
+  "point": "Card",
+  "provider": "Finthesis",
+  "months": [
+    {
+      "key": "dec-2025",
+      "label": "December",
+      "turnover": 484.25,
+      "registryAmount": 484.25,
+      "regCommission": 18.4,
+      "regTxCount": 8,
+      "reconTurnover": 484.25,
+      "reconCommission": 18.4,
+      "reconRate": 3.7997,
+      "contractRate": 3.8,
+      "contractExpected": 18.4,
+      "deviation": 0,
+      "parts": [
+        {
+          "label": "Finthesis",
+          "rate": 3.7997,
+          "amount": 18.4,
+          "contractRate": 3.8,
+          "contractAmount": 18.4,
+          "source": "Reconciliation",
+          "contractSource": "Agreement 2025/2107-01"
+        }
+      ],
+      "days": []
+    },
+    {
+      "key": "nov-2025",
+      "label": "November",
+      "turnover": 1390.86,
+      "registryAmount": 1390.86,
+      "regCommission": 52.84,
+      "regTxCount": 33,
+      "reconTurnover": 1390.86,
+      "reconCommission": 52.84,
+      "reconRate": 3.7991,
+      "contractRate": 3.8,
+      "contractExpected": 52.84,
+      "deviation": 0,
+      "parts": [
+        {
+          "label": "Finthesis",
+          "rate": 3.7991,
+          "amount": 52.84,
+          "contractRate": 3.8,
+          "contractAmount": 52.84,
+          "source": "Reconciliation",
+          "contractSource": "Agreement 2025/2107-01"
+        }
+      ],
+      "days": []
+    },
+    {
+      "key": "oct-2025",
+      "label": "October",
+      "turnover": 6191.9,
+      "registryAmount": 6191.9,
+      "regCommission": 235.21,
+      "regTxCount": 135,
+      "reconTurnover": 6191.9,
+      "reconCommission": 235.21,
+      "reconRate": 3.7987,
+      "contractRate": 3.8,
+      "contractExpected": 235.21,
+      "deviation": 0,
+      "parts": [
+        {
+          "label": "Finthesis",
+          "rate": 3.7987,
+          "amount": 235.21,
+          "contractRate": 3.8,
+          "contractAmount": 235.21,
+          "source": "Reconciliation",
+          "contractSource": "Agreement 2025/2107-01"
+        }
+      ],
+      "days": []
+    },
+    {
+      "key": "sep-2025",
+      "label": "September",
+      "turnover": 1831.23,
+      "registryAmount": 1831.23,
+      "regCommission": 69.59,
+      "regTxCount": 55,
+      "reconTurnover": 1831.23,
+      "reconCommission": 69.59,
+      "reconRate": 3.8002,
+      "contractRate": 3.8,
+      "contractExpected": 69.59,
+      "deviation": 0,
+      "parts": [
+        {
+          "label": "Finthesis",
+          "rate": 3.8002,
+          "amount": 69.59,
+          "contractRate": 3.8,
+          "contractAmount": 69.59,
+          "source": "Reconciliation",
+          "contractSource": "Agreement 2025/2107-01"
+        }
+      ],
+      "days": []
+    },
+    {
+      "key": "aug-2025",
+      "label": "August",
+      "turnover": 781.52,
+      "registryAmount": 781.52,
+      "regCommission": 29.71,
+      "regTxCount": 46,
+      "reconTurnover": 781.52,
+      "reconCommission": 29.71,
+      "reconRate": 3.8016,
+      "contractRate": 3.8,
+      "contractExpected": 29.71,
+      "deviation": 0,
+      "parts": [
+        {
+          "label": "Finthesis",
+          "rate": 3.8016,
+          "amount": 29.71,
+          "contractRate": 3.8,
+          "contractAmount": 29.71,
+          "source": "Reconciliation",
+          "contractSource": "Agreement 2025/2107-01"
+        }
+      ],
+      "days": []
+    }
+  ]
+}

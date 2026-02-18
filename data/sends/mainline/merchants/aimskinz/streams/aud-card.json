@@ -1,0 +1,87 @@
+{
+  "streamId": "aud-card",
+  "label": "AUD Card",
+  "currency": "AUD",
+  "point": "Card",
+  "provider": "Novatum",
+  "months": [
+    {
+      "key": "oct-2025",
+      "label": "October",
+      "turnover": 4093511.12,
+      "registryAmount": 4093511.12,
+      "regCommission": 155553.86,
+      "regTxCount": 56316,
+      "reconTurnover": 4093511.12,
+      "reconCommission": 155553.86,
+      "reconRate": 3.8,
+      "contractRate": 3.8,
+      "contractExpected": 155553.86,
+      "deviation": 0,
+      "parts": [
+        {
+          "label": "Novatum",
+          "rate": 3.8,
+          "amount": 155553.86,
+          "contractRate": 3.8,
+          "contractAmount": 155553.86,
+          "source": "Reconciliation",
+          "contractSource": "Agreement 01/08-01"
+        }
+      ],
+      "days": []
+    },
+    {
+      "key": "sep-2025",
+      "label": "September",
+      "turnover": 3221689.23,
+      "registryAmount": 3221689.23,
+      "regCommission": 122424.99,
+      "regTxCount": 41436,
+      "reconTurnover": 3221689.23,
+      "reconCommission": 122424.99,
+      "reconRate": 3.8,
+      "contractRate": 3.8,
+      "contractExpected": 122424.99,
+      "deviation": 0,
+      "parts": [
+        {
+          "label": "Novatum",
+          "rate": 3.8,
+          "amount": 122424.99,
+          "contractRate": 3.8,
+          "contractAmount": 122424.99,
+          "source": "Reconciliation",
+          "contractSource": "Agreement 01/08-01"
+        }
+      ],
+      "days": []
+    },
+    {
+      "key": "aug-2025",
+      "label": "August",
+      "turnover": 460400.79,
+      "registryAmount": 460400.79,
+      "regCommission": 17495.41,
+      "regTxCount": 5598,
+      "reconTurnover": 460400.79,
+      "reconCommission": 17495.41,
+      "reconRate": 3.8,
+      "contractRate": 3.8,
+      "contractExpected": 17495.41,
+      "deviation": 0,
+      "parts": [
+        {
+          "label": "Novatum",
+          "rate": 3.8,
+          "amount": 17495.41,
+          "contractRate": 3.8,
+          "contractAmount": 17495.41,
+          "source": "Reconciliation",
+          "contractSource": "Agreement 01/08-01"
+        }
+      ],
+      "days": []
+    }
+  ]
+}

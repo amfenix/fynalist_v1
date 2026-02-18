@@ -1,0 +1,61 @@
+{
+  "streamId": "aud-card",
+  "label": "AUD Card",
+  "currency": "AUD",
+  "point": "Card",
+  "provider": "Finthesis",
+  "months": [
+    {
+      "key": "nov-2025",
+      "label": "November",
+      "turnover": 186760.52,
+      "registryAmount": 186760.52,
+      "regCommission": 7096.79,
+      "regTxCount": 2207,
+      "reconTurnover": 186760.52,
+      "reconCommission": 7096.79,
+      "reconRate": 3.7999,
+      "contractRate": 3.8,
+      "contractExpected": 7096.79,
+      "deviation": 0,
+      "parts": [
+        {
+          "label": "Finthesis",
+          "rate": 3.7999,
+          "amount": 7096.79,
+          "contractRate": 3.8,
+          "contractAmount": 7096.79,
+          "source": "Reconciliation",
+          "contractSource": "Agreement 2025/1510-01"
+        }
+      ],
+      "days": []
+    },
+    {
+      "key": "oct-2025",
+      "label": "October",
+      "turnover": 7429.0,
+      "registryAmount": 7429.0,
+      "regCommission": 282.3,
+      "regTxCount": 100,
+      "reconTurnover": 7429.0,
+      "reconCommission": 282.3,
+      "reconRate": 3.8,
+      "contractRate": 3.8,
+      "contractExpected": 282.3,
+      "deviation": 0,
+      "parts": [
+        {
+          "label": "Finthesis",
+          "rate": 3.8,
+          "amount": 282.3,
+          "contractRate": 3.8,
+          "contractAmount": 282.3,
+          "source": "Reconciliation",
+          "contractSource": "Agreement 2025/1510-01"
+        }
+      ],
+      "days": []
+    }
+  ]
+}

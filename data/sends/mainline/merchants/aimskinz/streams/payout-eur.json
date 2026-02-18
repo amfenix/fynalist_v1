@@ -1,0 +1,61 @@
+{
+  "streamId": "payout-eur",
+  "label": "Payout EUR",
+  "currency": "EUR",
+  "point": "Payout",
+  "provider": "Novatum",
+  "months": [
+    {
+      "key": "nov-2025",
+      "label": "November",
+      "turnover": 584687.96,
+      "registryAmount": 584687.96,
+      "regCommission": 8770.57,
+      "regTxCount": 1842,
+      "reconTurnover": 584687.96,
+      "reconCommission": 8770.57,
+      "reconRate": 1.5,
+      "contractRate": 1.5,
+      "contractExpected": 8770.57,
+      "deviation": 0,
+      "parts": [
+        {
+          "label": "Novatum",
+          "rate": 1.5,
+          "amount": 8770.57,
+          "contractRate": 1.5,
+          "contractAmount": 8770.57,
+          "source": "Reconciliation",
+          "contractSource": "Agreement 01/08-01"
+        }
+      ],
+      "days": []
+    },
+    {
+      "key": "oct-2025",
+      "label": "October",
+      "turnover": 341517.08,
+      "registryAmount": 341517.08,
+      "regCommission": 5122.97,
+      "regTxCount": 1032,
+      "reconTurnover": 341517.08,
+      "reconCommission": 5122.97,
+      "reconRate": 1.5001,
+      "contractRate": 1.5,
+      "contractExpected": 5122.97,
+      "deviation": 0,
+      "parts": [
+        {
+          "label": "Novatum",
+          "rate": 1.5001,
+          "amount": 5122.97,
+          "contractRate": 1.5,
+          "contractAmount": 5122.97,
+          "source": "Reconciliation",
+          "contractSource": "Agreement 01/08-01"
+        }
+      ],
+      "days": []
+    }
+  ]
+}

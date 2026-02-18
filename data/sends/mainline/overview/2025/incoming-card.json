@@ -754,116 +754,182 @@
       "contract": "2203-24",
       "months": {
         "jan": {
-          "turnover": 9345486.9,
-          "commission": 355120.51,
+          "turnover": 9466862.72,
+          "commission": 360946.45,
           "deviation": 0,
           "cases": []
         },
         "feb": {
-          "turnover": 5514657.54,
-          "commission": 200689.54,
-          "deviation": 90396.39,
+          "turnover": 5615084.37,
+          "commission": 204681.04,
+          "deviation": -9696.44,
           "cases": [
             {
-              "id": "noxious-feb-2025",
-              "title": "Rate deviation in February",
-              "partLabel": "SENDS",
-              "contractRate": 2.0,
+              "id": "noxious-feb-eur",
+              "title": "EUR Card underpayment",
+              "partLabel": "Smartflow",
+              "contractRate": 3.8,
               "actualRate": 3.6392,
-              "deviation": 90396.39,
+              "deviation": -8867.45,
               "periodFrom": "Feb 1",
               "periodTo": "Feb 28",
               "investigationId": "INV-2025-0057"
+            },
+            {
+              "id": "noxious-feb-gbp",
+              "title": "GBP Card underpayment",
+              "partLabel": "Smartflow",
+              "contractRate": 4.8,
+              "actualRate": 3.9745,
+              "deviation": -828.99,
+              "periodFrom": "Feb 1",
+              "periodTo": "Feb 28",
+              "investigationId": "INV-2025-0058"
             }
           ]
         },
         "mar": {
-          "turnover": 6171167.7,
-          "commission": 216071.87,
-          "deviation": 92648.52,
+          "turnover": 6291484.54,
+          "commission": 220282.58,
+          "deviation": -19997.0,
           "cases": [
             {
-              "id": "noxious-mar-2025",
-              "title": "Rate deviation in March",
-              "partLabel": "SENDS",
-              "contractRate": 2.0,
+              "id": "noxious-mar-eur",
+              "title": "EUR Card underpayment",
+              "partLabel": "Smartflow",
+              "contractRate": 3.8,
               "actualRate": 3.5013,
-              "deviation": 92648.52,
+              "deviation": -18432.5,
               "periodFrom": "Mar 1",
               "periodTo": "Mar 31",
               "investigationId": "INV-2025-0057"
+            },
+            {
+              "id": "noxious-mar-gbp",
+              "title": "GBP Card underpayment",
+              "partLabel": "Smartflow",
+              "contractRate": 4.8,
+              "actualRate": 3.4997,
+              "deviation": -1564.5,
+              "periodFrom": "Mar 1",
+              "periodTo": "Mar 31",
+              "investigationId": "INV-2025-0058"
             }
           ]
         },
         "apr": {
-          "turnover": 7951518.92,
-          "commission": 278416.39,
-          "deviation": 119386.0,
+          "turnover": 8069251.48,
+          "commission": 282537.38,
+          "deviation": -25271.5,
           "cases": [
             {
-              "id": "noxious-apr-2025",
-              "title": "Rate deviation in April",
-              "partLabel": "SENDS",
-              "contractRate": 2.0,
+              "id": "noxious-apr-eur",
+              "title": "EUR Card underpayment",
+              "partLabel": "Smartflow",
+              "contractRate": 3.8,
               "actualRate": 3.5014,
-              "deviation": 119386.0,
+              "deviation": -23741.33,
               "periodFrom": "Apr 1",
               "periodTo": "Apr 30",
               "investigationId": "INV-2025-0057"
+            },
+            {
+              "id": "noxious-apr-gbp",
+              "title": "GBP Card underpayment",
+              "partLabel": "Smartflow",
+              "contractRate": 4.8,
+              "actualRate": 3.5003,
+              "deviation": -1530.17,
+              "periodFrom": "Apr 1",
+              "periodTo": "Apr 30",
+              "investigationId": "INV-2025-0058"
             }
           ]
         },
         "may": {
-          "turnover": 9154893.22,
-          "commission": 320543.63,
-          "deviation": 137445.78,
+          "turnover": 9342126.56,
+          "commission": 327097.46,
+          "deviation": -29775.68,
           "cases": [
             {
-              "id": "noxious-may-2025",
-              "title": "Rate deviation in May",
-              "partLabel": "SENDS",
-              "contractRate": 2.0,
+              "id": "noxious-may-eur",
+              "title": "EUR Card underpayment",
+              "partLabel": "Smartflow",
+              "contractRate": 3.8,
               "actualRate": 3.5013,
-              "deviation": 137445.78,
+              "deviation": -27342.31,
               "periodFrom": "May 1",
               "periodTo": "May 31",
               "investigationId": "INV-2025-0057"
+            },
+            {
+              "id": "noxious-may-gbp",
+              "title": "GBP Card underpayment",
+              "partLabel": "Smartflow",
+              "contractRate": 4.8,
+              "actualRate": 3.5004,
+              "deviation": -2433.37,
+              "periodFrom": "May 1",
+              "periodTo": "May 31",
+              "investigationId": "INV-2025-0058"
             }
           ]
         },
         "jun": {
-          "turnover": 14055656.23,
-          "commission": 492142.29,
-          "deviation": 211029.17,
+          "turnover": 14154063.52,
+          "commission": 495586.82,
+          "deviation": -43251.67,
           "cases": [
             {
-              "id": "noxious-jun-2025",
-              "title": "Rate deviation in June",
-              "partLabel": "SENDS",
-              "contractRate": 2.0,
+              "id": "noxious-jun-eur",
+              "title": "EUR Card underpayment",
+              "partLabel": "Smartflow",
+              "contractRate": 3.8,
               "actualRate": 3.5014,
-              "deviation": 211029.17,
+              "deviation": -41972.65,
               "periodFrom": "Jun 1",
               "periodTo": "Jun 30",
               "investigationId": "INV-2025-0057"
+            },
+            {
+              "id": "noxious-jun-gbp",
+              "title": "GBP Card underpayment",
+              "partLabel": "Smartflow",
+              "contractRate": 4.8,
+              "actualRate": 3.5003,
+              "deviation": -1279.02,
+              "periodFrom": "Jun 1",
+              "periodTo": "Jun 30",
+              "investigationId": "INV-2025-0058"
             }
           ]
         },
         "jul": {
-          "turnover": 6451916.18,
-          "commission": 232109.96,
-          "deviation": 103071.64,
+          "turnover": 6504336.21,
+          "commission": 234030.95,
+          "deviation": -13658.02,
           "cases": [
             {
-              "id": "noxious-jul-2025",
-              "title": "Rate deviation in July",
-              "partLabel": "SENDS",
-              "contractRate": 2.0,
+              "id": "noxious-jul-eur",
+              "title": "EUR Card underpayment",
+              "partLabel": "Smartflow",
+              "contractRate": 3.8,
               "actualRate": 3.5975,
-              "deviation": 103071.64,
+              "deviation": -13062.85,
               "periodFrom": "Jul 1",
               "periodTo": "Jul 31",
               "investigationId": "INV-2025-0057"
+            },
+            {
+              "id": "noxious-jul-gbp",
+              "title": "GBP Card underpayment",
+              "partLabel": "Smartflow",
+              "contractRate": 4.8,
+              "actualRate": 3.6646,
+              "deviation": -595.17,
+              "periodFrom": "Jul 1",
+              "periodTo": "Jul 31",
+              "investigationId": "INV-2025-0058"
             }
           ]
         },

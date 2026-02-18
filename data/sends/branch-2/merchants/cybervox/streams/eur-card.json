@@ -1,0 +1,3691 @@
+{
+  "streamId": "eur-card",
+  "label": "EUR Card",
+  "currency": "EUR",
+  "point": "Card",
+  "provider": "Smartflow",
+  "months": [
+    {
+      "key": "apr-2025",
+      "label": "April",
+      "turnover": 783725.63,
+      "registryAmount": 783585.63,
+      "regCommission": 39191.29,
+      "regTxCount": 15436,
+      "reconTurnover": 783725.63,
+      "reconCommission": 39191.29,
+      "reconRate": 5.0006,
+      "contractRate": 5.0,
+      "contractExpected": 39191.29,
+      "deviation": 0,
+      "parts": [
+        {
+          "label": "Smartflow",
+          "rate": 1.75,
+          "amount": 13715.2,
+          "contractRate": 1.75,
+          "contractAmount": 13715.2,
+          "source": "Reconciliation",
+          "contractSource": "Agreement 1607-24"
+        },
+        {
+          "label": "Impaya",
+          "rate": 3.2506,
+          "amount": 25476.09,
+          "contractRate": 3.25,
+          "contractAmount": 25476.09,
+          "source": "Reconciliation",
+          "contractSource": "Impaya Commission"
+        }
+      ],
+      "days": [
+        {
+          "day": 1,
+          "date": "Apr 1",
+          "turnover": 88136.06,
+          "regCommission": 4406.71,
+          "regTxCount": 1719,
+          "reconTurnover": 88136.06,
+          "reconCommission": 4406.71,
+          "reconRate": 4.9999,
+          "contractRate": 5.0,
+          "contractExpected": 4406.71,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 1.75,
+              "amount": 1542.38,
+              "contractRate": 1.75,
+              "contractAmount": 1542.38,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.2499,
+              "amount": 2864.33,
+              "contractRate": 3.25,
+              "contractAmount": 2864.33,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 2,
+          "date": "Apr 2",
+          "turnover": 72413.39,
+          "regCommission": 3621.51,
+          "regTxCount": 1352,
+          "reconTurnover": 72413.39,
+          "reconCommission": 3621.51,
+          "reconRate": 5.0012,
+          "contractRate": 5.0,
+          "contractExpected": 3621.51,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 1.75,
+              "amount": 1267.23,
+              "contractRate": 1.75,
+              "contractAmount": 1267.23,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.2512,
+              "amount": 2354.28,
+              "contractRate": 3.25,
+              "contractAmount": 2354.28,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 3,
+          "date": "Apr 3",
+          "turnover": 48689.83,
+          "regCommission": 2435.26,
+          "regTxCount": 1050,
+          "reconTurnover": 48689.83,
+          "reconCommission": 2435.26,
+          "reconRate": 5.0016,
+          "contractRate": 5.0,
+          "contractExpected": 2435.26,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 1.75,
+              "amount": 852.07,
+              "contractRate": 1.75,
+              "contractAmount": 852.07,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.2516,
+              "amount": 1583.19,
+              "contractRate": 3.25,
+              "contractAmount": 1583.19,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 4,
+          "date": "Apr 4",
+          "turnover": 59420.54,
+          "regCommission": 2971.76,
+          "regTxCount": 960,
+          "reconTurnover": 59420.54,
+          "reconCommission": 2971.76,
+          "reconRate": 5.0012,
+          "contractRate": 5.0,
+          "contractExpected": 2971.76,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 1.75,
+              "amount": 1039.86,
+              "contractRate": 1.75,
+              "contractAmount": 1039.86,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.2512,
+              "amount": 1931.9,
+              "contractRate": 3.25,
+              "contractAmount": 1931.9,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 5,
+          "date": "Apr 5",
+          "turnover": 72895.32,
+          "regCommission": 3645.43,
+          "regTxCount": 1202,
+          "reconTurnover": 72895.32,
+          "reconCommission": 3645.43,
+          "reconRate": 5.0009,
+          "contractRate": 5.0,
+          "contractExpected": 3645.43,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 1.75,
+              "amount": 1275.67,
+              "contractRate": 1.75,
+              "contractAmount": 1275.67,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.2509,
+              "amount": 2369.76,
+              "contractRate": 3.25,
+              "contractAmount": 2369.76,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 6,
+          "date": "Apr 6",
+          "turnover": 50483.05,
+          "regCommission": 2524.73,
+          "regTxCount": 990,
+          "reconTurnover": 50483.05,
+          "reconCommission": 2524.73,
+          "reconRate": 5.0011,
+          "contractRate": 5.0,
+          "contractExpected": 2524.73,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 1.75,
+              "amount": 883.45,
+              "contractRate": 1.75,
+              "contractAmount": 883.45,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.2511,
+              "amount": 1641.28,
+              "contractRate": 3.25,
+              "contractAmount": 1641.28,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 7,
+          "date": "Apr 7",
+          "turnover": 54237.02,
+          "regCommission": 2712.55,
+          "regTxCount": 1019,
+          "reconTurnover": 54237.02,
+          "reconCommission": 2712.55,
+          "reconRate": 5.0013,
+          "contractRate": 5.0,
+          "contractExpected": 2712.55,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 1.75,
+              "amount": 949.15,
+              "contractRate": 1.75,
+              "contractAmount": 949.15,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.2513,
+              "amount": 1763.4,
+              "contractRate": 3.25,
+              "contractAmount": 1763.4,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 8,
+          "date": "Apr 8",
+          "turnover": 69507.84,
+          "regCommission": 3476.12,
+          "regTxCount": 1496,
+          "reconTurnover": 69507.84,
+          "reconCommission": 3476.12,
+          "reconRate": 5.001,
+          "contractRate": 5.0,
+          "contractExpected": 3476.12,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 1.75,
+              "amount": 1216.39,
+              "contractRate": 1.75,
+              "contractAmount": 1216.39,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.251,
+              "amount": 2259.73,
+              "contractRate": 3.25,
+              "contractAmount": 2259.73,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 9,
+          "date": "Apr 9",
+          "turnover": 70153.17,
+          "regCommission": 3507.57,
+          "regTxCount": 1428,
+          "reconTurnover": 70153.17,
+          "reconCommission": 3507.57,
+          "reconRate": 4.9999,
+          "contractRate": 5.0,
+          "contractExpected": 3507.57,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 1.75,
+              "amount": 1227.68,
+              "contractRate": 1.75,
+              "contractAmount": 1227.68,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.2499,
+              "amount": 2279.89,
+              "contractRate": 3.25,
+              "contractAmount": 2279.89,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 10,
+          "date": "Apr 10",
+          "turnover": 51598.28,
+          "regCommission": 2579.64,
+          "regTxCount": 1051,
+          "reconTurnover": 51598.28,
+          "reconCommission": 2579.64,
+          "reconRate": 4.9995,
+          "contractRate": 5.0,
+          "contractExpected": 2579.64,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 1.75,
+              "amount": 902.97,
+              "contractRate": 1.75,
+              "contractAmount": 902.97,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.2495,
+              "amount": 1676.67,
+              "contractRate": 3.25,
+              "contractAmount": 1676.67,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 11,
+          "date": "Apr 11",
+          "turnover": 48679.0,
+          "regCommission": 2434.02,
+          "regTxCount": 1001,
+          "reconTurnover": 48679.0,
+          "reconCommission": 2434.02,
+          "reconRate": 5.0001,
+          "contractRate": 5.0,
+          "contractExpected": 2434.02,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 1.75,
+              "amount": 851.88,
+              "contractRate": 1.75,
+              "contractAmount": 851.88,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.2501,
+              "amount": 1582.14,
+              "contractRate": 3.25,
+              "contractAmount": 1582.14,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 12,
+          "date": "Apr 12",
+          "turnover": 36469.22,
+          "regCommission": 1823.67,
+          "regTxCount": 767,
+          "reconTurnover": 36469.22,
+          "reconCommission": 1823.67,
+          "reconRate": 5.0006,
+          "contractRate": 5.0,
+          "contractExpected": 1823.67,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 1.75,
+              "amount": 638.21,
+              "contractRate": 1.75,
+              "contractAmount": 638.21,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.2506,
+              "amount": 1185.46,
+              "contractRate": 3.25,
+              "contractAmount": 1185.46,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 13,
+          "date": "Apr 13",
+          "turnover": 40878.03,
+          "regCommission": 2043.92,
+          "regTxCount": 971,
+          "reconTurnover": 40878.03,
+          "reconCommission": 2043.92,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "contractExpected": 2043.92,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 1.75,
+              "amount": 715.37,
+              "contractRate": 1.75,
+              "contractAmount": 715.37,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.25,
+              "amount": 1328.55,
+              "contractRate": 3.25,
+              "contractAmount": 1328.55,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 14,
+          "date": "Apr 14",
+          "turnover": 20164.88,
+          "regCommission": 1008.4,
+          "regTxCount": 430,
+          "reconTurnover": 20164.88,
+          "reconCommission": 1008.4,
+          "reconRate": 5.0008,
+          "contractRate": 5.0,
+          "contractExpected": 1008.4,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 1.75,
+              "amount": 352.89,
+              "contractRate": 1.75,
+              "contractAmount": 352.89,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.2508,
+              "amount": 655.51,
+              "contractRate": 3.25,
+              "contractAmount": 655.51,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        }
+      ]
+    },
+    {
+      "key": "mar-2025",
+      "label": "March",
+      "turnover": 4876527.33,
+      "registryAmount": 4876422.68,
+      "regCommission": 243854.84,
+      "regTxCount": 94859,
+      "reconTurnover": 4876527.33,
+      "reconCommission": 243854.84,
+      "reconRate": 5.0006,
+      "contractRate": 5.0,
+      "contractExpected": 243854.84,
+      "deviation": 0,
+      "parts": [
+        {
+          "label": "Smartflow",
+          "rate": 2.2723,
+          "amount": 110810.02,
+          "contractRate": 2.2723,
+          "contractAmount": 110810.02,
+          "source": "Reconciliation",
+          "contractSource": "Agreement 1607-24"
+        },
+        {
+          "label": "Impaya",
+          "rate": 2.7283,
+          "amount": 133044.82,
+          "contractRate": 2.7277,
+          "contractAmount": 133044.82,
+          "source": "Reconciliation",
+          "contractSource": "Impaya Commission"
+        }
+      ],
+      "days": [
+        {
+          "day": 1,
+          "date": "Mar 1",
+          "turnover": 223641.4,
+          "regCommission": 11181.95,
+          "regTxCount": 4136,
+          "reconTurnover": 223641.4,
+          "reconCommission": 11181.95,
+          "reconRate": 4.9999,
+          "contractRate": 5.0,
+          "contractExpected": 11181.95,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 6709.24,
+              "contractRate": 3.0,
+              "contractAmount": 6709.24,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 1.9999,
+              "amount": 4472.71,
+              "contractRate": 2.0,
+              "contractAmount": 4472.71,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 2,
+          "date": "Mar 2",
+          "turnover": 161928.25,
+          "regCommission": 8096.29,
+          "regTxCount": 3195,
+          "reconTurnover": 161928.25,
+          "reconCommission": 8096.29,
+          "reconRate": 4.9999,
+          "contractRate": 5.0,
+          "contractExpected": 8096.29,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 4857.85,
+              "contractRate": 3.0,
+              "contractAmount": 4857.85,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 1.9999,
+              "amount": 3238.44,
+              "contractRate": 2.0,
+              "contractAmount": 3238.44,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 3,
+          "date": "Mar 3",
+          "turnover": 173010.6,
+          "regCommission": 8650.89,
+          "regTxCount": 3372,
+          "reconTurnover": 173010.6,
+          "reconCommission": 8650.89,
+          "reconRate": 5.0002,
+          "contractRate": 5.0,
+          "contractExpected": 8650.89,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 5190.32,
+              "contractRate": 3.0,
+              "contractAmount": 5190.32,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 2.0002,
+              "amount": 3460.57,
+              "contractRate": 2.0,
+              "contractAmount": 3460.57,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 4,
+          "date": "Mar 4",
+          "turnover": 194739.9,
+          "regCommission": 9738.48,
+          "regTxCount": 3754,
+          "reconTurnover": 194739.9,
+          "reconCommission": 9738.48,
+          "reconRate": 5.0008,
+          "contractRate": 5.0,
+          "contractExpected": 9738.48,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 5842.2,
+              "contractRate": 3.0,
+              "contractAmount": 5842.2,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 2.0008,
+              "amount": 3896.28,
+              "contractRate": 2.0,
+              "contractAmount": 3896.28,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 5,
+          "date": "Mar 5",
+          "turnover": 206771.59,
+          "regCommission": 10338.88,
+          "regTxCount": 4063,
+          "reconTurnover": 206771.59,
+          "reconCommission": 10338.88,
+          "reconRate": 5.0001,
+          "contractRate": 5.0,
+          "contractExpected": 10338.88,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 6203.15,
+              "contractRate": 3.0,
+              "contractAmount": 6203.15,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 2.0001,
+              "amount": 4135.73,
+              "contractRate": 2.0,
+              "contractAmount": 4135.73,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 6,
+          "date": "Mar 6",
+          "turnover": 213938.75,
+          "regCommission": 10698.26,
+          "regTxCount": 3890,
+          "reconTurnover": 213938.75,
+          "reconCommission": 10698.26,
+          "reconRate": 5.0006,
+          "contractRate": 5.0,
+          "contractExpected": 10698.26,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 6418.16,
+              "contractRate": 3.0,
+              "contractAmount": 6418.16,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 2.0006,
+              "amount": 4280.1,
+              "contractRate": 2.0,
+              "contractAmount": 4280.1,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 7,
+          "date": "Mar 7",
+          "turnover": 224922.82,
+          "regCommission": 11247.66,
+          "regTxCount": 3968,
+          "reconTurnover": 224922.82,
+          "reconCommission": 11247.66,
+          "reconRate": 5.0007,
+          "contractRate": 5.0,
+          "contractExpected": 11247.66,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 6747.68,
+              "contractRate": 3.0,
+              "contractAmount": 6747.68,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 2.0007,
+              "amount": 4499.98,
+              "contractRate": 2.0,
+              "contractAmount": 4499.98,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 8,
+          "date": "Mar 8",
+          "turnover": 171269.19,
+          "regCommission": 8564.73,
+          "regTxCount": 3458,
+          "reconTurnover": 171269.19,
+          "reconCommission": 8564.73,
+          "reconRate": 5.0007,
+          "contractRate": 5.0,
+          "contractExpected": 8564.73,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 5138.08,
+              "contractRate": 3.0,
+              "contractAmount": 5138.08,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 2.0007,
+              "amount": 3426.65,
+              "contractRate": 2.0,
+              "contractAmount": 3426.65,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 9,
+          "date": "Mar 9",
+          "turnover": 141305.98,
+          "regCommission": 7066.45,
+          "regTxCount": 2772,
+          "reconTurnover": 141305.98,
+          "reconCommission": 7066.45,
+          "reconRate": 5.0008,
+          "contractRate": 5.0,
+          "contractExpected": 7066.45,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 4239.18,
+              "contractRate": 3.0,
+              "contractAmount": 4239.18,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 2.0008,
+              "amount": 2827.27,
+              "contractRate": 2.0,
+              "contractAmount": 2827.27,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 10,
+          "date": "Mar 10",
+          "turnover": 161194.13,
+          "regCommission": 8060.98,
+          "regTxCount": 3044,
+          "reconTurnover": 161194.13,
+          "reconCommission": 8060.98,
+          "reconRate": 5.0008,
+          "contractRate": 5.0,
+          "contractExpected": 8060.98,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 4835.82,
+              "contractRate": 3.0,
+              "contractAmount": 4835.82,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 2.0008,
+              "amount": 3225.16,
+              "contractRate": 2.0,
+              "contractAmount": 3225.16,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 11,
+          "date": "Mar 11",
+          "turnover": 164940.43,
+          "regCommission": 8248.72,
+          "regTxCount": 3387,
+          "reconTurnover": 164940.43,
+          "reconCommission": 8248.72,
+          "reconRate": 5.001,
+          "contractRate": 5.0,
+          "contractExpected": 8248.72,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 4948.21,
+              "contractRate": 3.0,
+              "contractAmount": 4948.21,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 2.001,
+              "amount": 3300.51,
+              "contractRate": 2.0,
+              "contractAmount": 3300.51,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 12,
+          "date": "Mar 12",
+          "turnover": 172043.87,
+          "regCommission": 8602.74,
+          "regTxCount": 3426,
+          "reconTurnover": 172043.87,
+          "reconCommission": 8602.74,
+          "reconRate": 5.0003,
+          "contractRate": 5.0,
+          "contractExpected": 8602.74,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 1.75,
+              "amount": 3010.77,
+              "contractRate": 1.75,
+              "contractAmount": 3010.77,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.2503,
+              "amount": 5591.97,
+              "contractRate": 3.25,
+              "contractAmount": 5591.97,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": true,
+          "rateFrom": 3.0,
+          "rateTo": 1.75
+        },
+        {
+          "day": 13,
+          "date": "Mar 13",
+          "turnover": 163652.72,
+          "regCommission": 8183.58,
+          "regTxCount": 3401,
+          "reconTurnover": 163652.72,
+          "reconCommission": 8183.58,
+          "reconRate": 5.0006,
+          "contractRate": 5.0,
+          "contractExpected": 8183.58,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 1.75,
+              "amount": 2863.92,
+              "contractRate": 1.75,
+              "contractAmount": 2863.92,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.2506,
+              "amount": 5319.66,
+              "contractRate": 3.25,
+              "contractAmount": 5319.66,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 14,
+          "date": "Mar 14",
+          "turnover": 199693.62,
+          "regCommission": 9985.66,
+          "regTxCount": 3725,
+          "reconTurnover": 199693.62,
+          "reconCommission": 9985.66,
+          "reconRate": 5.0005,
+          "contractRate": 5.0,
+          "contractExpected": 9985.66,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 1.75,
+              "amount": 3494.64,
+              "contractRate": 1.75,
+              "contractAmount": 3494.64,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.2505,
+              "amount": 6491.02,
+              "contractRate": 3.25,
+              "contractAmount": 6491.02,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 15,
+          "date": "Mar 15",
+          "turnover": 165398.83,
+          "regCommission": 8271.05,
+          "regTxCount": 3178,
+          "reconTurnover": 165398.83,
+          "reconCommission": 8271.05,
+          "reconRate": 5.0007,
+          "contractRate": 5.0,
+          "contractExpected": 8271.05,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 1.75,
+              "amount": 2894.48,
+              "contractRate": 1.75,
+              "contractAmount": 2894.48,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.2507,
+              "amount": 5376.57,
+              "contractRate": 3.25,
+              "contractAmount": 5376.57,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 16,
+          "date": "Mar 16",
+          "turnover": 122146.1,
+          "regCommission": 6108.41,
+          "regTxCount": 2601,
+          "reconTurnover": 122146.1,
+          "reconCommission": 6108.41,
+          "reconRate": 5.0009,
+          "contractRate": 5.0,
+          "contractExpected": 6108.41,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 1.75,
+              "amount": 2137.56,
+              "contractRate": 1.75,
+              "contractAmount": 2137.56,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.2509,
+              "amount": 3970.85,
+              "contractRate": 3.25,
+              "contractAmount": 3970.85,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 17,
+          "date": "Mar 17",
+          "turnover": 144063.78,
+          "regCommission": 7203.97,
+          "regTxCount": 2720,
+          "reconTurnover": 144063.78,
+          "reconCommission": 7203.97,
+          "reconRate": 5.0005,
+          "contractRate": 5.0,
+          "contractExpected": 7203.97,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 1.75,
+              "amount": 2521.12,
+              "contractRate": 1.75,
+              "contractAmount": 2521.12,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.2505,
+              "amount": 4682.85,
+              "contractRate": 3.25,
+              "contractAmount": 4682.85,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 18,
+          "date": "Mar 18",
+          "turnover": 158468.1,
+          "regCommission": 7925.18,
+          "regTxCount": 3077,
+          "reconTurnover": 158468.1,
+          "reconCommission": 7925.18,
+          "reconRate": 5.0011,
+          "contractRate": 5.0,
+          "contractExpected": 7925.18,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 1.75,
+              "amount": 2773.19,
+              "contractRate": 1.75,
+              "contractAmount": 2773.19,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.2511,
+              "amount": 5151.99,
+              "contractRate": 3.25,
+              "contractAmount": 5151.99,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 19,
+          "date": "Mar 19",
+          "turnover": 167687.47,
+          "regCommission": 8385.41,
+          "regTxCount": 3394,
+          "reconTurnover": 167687.47,
+          "reconCommission": 8385.41,
+          "reconRate": 5.0006,
+          "contractRate": 5.0,
+          "contractExpected": 8385.41,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 1.75,
+              "amount": 2934.53,
+              "contractRate": 1.75,
+              "contractAmount": 2934.53,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.2506,
+              "amount": 5450.88,
+              "contractRate": 3.25,
+              "contractAmount": 5450.88,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 20,
+          "date": "Mar 20",
+          "turnover": 155615.92,
+          "regCommission": 7781.73,
+          "regTxCount": 3415,
+          "reconTurnover": 155615.92,
+          "reconCommission": 7781.73,
+          "reconRate": 5.0006,
+          "contractRate": 5.0,
+          "contractExpected": 7781.73,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 1.75,
+              "amount": 2723.28,
+              "contractRate": 1.75,
+              "contractAmount": 2723.28,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.2506,
+              "amount": 5058.45,
+              "contractRate": 3.25,
+              "contractAmount": 5058.45,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 21,
+          "date": "Mar 21",
+          "turnover": 163671.8,
+          "regCommission": 8185.05,
+          "regTxCount": 3328,
+          "reconTurnover": 163671.8,
+          "reconCommission": 8185.05,
+          "reconRate": 5.0009,
+          "contractRate": 5.0,
+          "contractExpected": 8185.05,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 1.75,
+              "amount": 2864.26,
+              "contractRate": 1.75,
+              "contractAmount": 2864.26,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.2509,
+              "amount": 5320.79,
+              "contractRate": 3.25,
+              "contractAmount": 5320.79,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 22,
+          "date": "Mar 22",
+          "turnover": 154958.68,
+          "regCommission": 7748.93,
+          "regTxCount": 2869,
+          "reconTurnover": 154958.68,
+          "reconCommission": 7748.93,
+          "reconRate": 5.0006,
+          "contractRate": 5.0,
+          "contractExpected": 7748.93,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 1.75,
+              "amount": 2711.78,
+              "contractRate": 1.75,
+              "contractAmount": 2711.78,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.2506,
+              "amount": 5037.15,
+              "contractRate": 3.25,
+              "contractAmount": 5037.15,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 23,
+          "date": "Mar 23",
+          "turnover": 132359.19,
+          "regCommission": 6619.04,
+          "regTxCount": 2572,
+          "reconTurnover": 132359.19,
+          "reconCommission": 6619.04,
+          "reconRate": 5.0008,
+          "contractRate": 5.0,
+          "contractExpected": 6619.04,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 1.75,
+              "amount": 2316.29,
+              "contractRate": 1.75,
+              "contractAmount": 2316.29,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.2508,
+              "amount": 4302.75,
+              "contractRate": 3.25,
+              "contractAmount": 4302.75,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 24,
+          "date": "Mar 24",
+          "turnover": 153437.57,
+          "regCommission": 7672.92,
+          "regTxCount": 2911,
+          "reconTurnover": 153437.57,
+          "reconCommission": 7672.92,
+          "reconRate": 5.0007,
+          "contractRate": 5.0,
+          "contractExpected": 7672.92,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 1.75,
+              "amount": 2685.16,
+              "contractRate": 1.75,
+              "contractAmount": 2685.16,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.2507,
+              "amount": 4987.76,
+              "contractRate": 3.25,
+              "contractAmount": 4987.76,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 25,
+          "date": "Mar 25",
+          "turnover": 216764.17,
+          "regCommission": 10838.98,
+          "regTxCount": 3996,
+          "reconTurnover": 216764.17,
+          "reconCommission": 10838.98,
+          "reconRate": 5.0004,
+          "contractRate": 5.0,
+          "contractExpected": 10838.98,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 1.75,
+              "amount": 3793.37,
+              "contractRate": 1.75,
+              "contractAmount": 3793.37,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.2504,
+              "amount": 7045.61,
+              "contractRate": 3.25,
+              "contractAmount": 7045.61,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 26,
+          "date": "Mar 26",
+          "turnover": 152913.25,
+          "regCommission": 7647.1,
+          "regTxCount": 2899,
+          "reconTurnover": 152913.25,
+          "reconCommission": 7647.1,
+          "reconRate": 5.0009,
+          "contractRate": 5.0,
+          "contractExpected": 7647.1,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 1.75,
+              "amount": 2675.98,
+              "contractRate": 1.75,
+              "contractAmount": 2675.98,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.2509,
+              "amount": 4971.12,
+              "contractRate": 3.25,
+              "contractAmount": 4971.12,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 27,
+          "date": "Mar 27",
+          "turnover": 94183.49,
+          "regCommission": 4709.27,
+          "regTxCount": 2009,
+          "reconTurnover": 94183.49,
+          "reconCommission": 4709.27,
+          "reconRate": 5.0001,
+          "contractRate": 5.0,
+          "contractExpected": 4709.27,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 1.75,
+              "amount": 1648.21,
+              "contractRate": 1.75,
+              "contractAmount": 1648.21,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.2501,
+              "amount": 3061.06,
+              "contractRate": 3.25,
+              "contractAmount": 3061.06,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 28,
+          "date": "Mar 28",
+          "turnover": 99879.9,
+          "regCommission": 4993.82,
+          "regTxCount": 1981,
+          "reconTurnover": 99879.9,
+          "reconCommission": 4993.82,
+          "reconRate": 4.9998,
+          "contractRate": 5.0,
+          "contractExpected": 4993.82,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 1.75,
+              "amount": 1747.9,
+              "contractRate": 1.75,
+              "contractAmount": 1747.9,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.2498,
+              "amount": 3245.92,
+              "contractRate": 3.25,
+              "contractAmount": 3245.92,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 29,
+          "date": "Mar 29",
+          "turnover": 76205.42,
+          "regCommission": 3811.3,
+          "regTxCount": 1545,
+          "reconTurnover": 76205.42,
+          "reconCommission": 3811.3,
+          "reconRate": 5.0014,
+          "contractRate": 5.0,
+          "contractExpected": 3811.3,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 1.75,
+              "amount": 1333.59,
+              "contractRate": 1.75,
+              "contractAmount": 1333.59,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.2514,
+              "amount": 2477.71,
+              "contractRate": 3.25,
+              "contractAmount": 2477.71,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 30,
+          "date": "Mar 30",
+          "turnover": 64338.45,
+          "regCommission": 3217.58,
+          "regTxCount": 1254,
+          "reconTurnover": 64338.45,
+          "reconCommission": 3217.58,
+          "reconRate": 5.001,
+          "contractRate": 5.0,
+          "contractExpected": 3217.58,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 1.75,
+              "amount": 1125.92,
+              "contractRate": 1.75,
+              "contractAmount": 1125.92,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.251,
+              "amount": 2091.66,
+              "contractRate": 3.25,
+              "contractAmount": 2091.66,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 31,
+          "date": "Mar 31",
+          "turnover": 81381.96,
+          "regCommission": 4069.83,
+          "regTxCount": 1519,
+          "reconTurnover": 81381.96,
+          "reconCommission": 4069.83,
+          "reconRate": 5.0009,
+          "contractRate": 5.0,
+          "contractExpected": 4069.83,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 1.75,
+              "amount": 1424.18,
+              "contractRate": 1.75,
+              "contractAmount": 1424.18,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 3.2509,
+              "amount": 2645.65,
+              "contractRate": 3.25,
+              "contractAmount": 2645.65,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        }
+      ]
+    },
+    {
+      "key": "feb-2025",
+      "label": "February",
+      "turnover": 7210424.64,
+      "registryAmount": 7209488.27,
+      "regCommission": 360542.42,
+      "regTxCount": 140939,
+      "reconTurnover": 7210424.64,
+      "reconCommission": 360542.42,
+      "reconRate": 5.0003,
+      "contractRate": 5.0,
+      "contractExpected": 360542.42,
+      "deviation": 0,
+      "parts": [
+        {
+          "label": "Smartflow",
+          "rate": 3.0,
+          "amount": 216312.72,
+          "contractRate": 3.0,
+          "contractAmount": 216312.72,
+          "source": "Reconciliation",
+          "contractSource": "Agreement 1607-24"
+        },
+        {
+          "label": "Impaya",
+          "rate": 2.0003,
+          "amount": 144229.7,
+          "contractRate": 2.0,
+          "contractAmount": 144229.7,
+          "source": "Reconciliation",
+          "contractSource": "Impaya Commission"
+        }
+      ],
+      "days": [
+        {
+          "day": 1,
+          "date": "Feb 1",
+          "turnover": 188272.04,
+          "regCommission": 9414.45,
+          "regTxCount": 3858,
+          "reconTurnover": 188272.04,
+          "reconCommission": 9414.45,
+          "reconRate": 5.0005,
+          "contractRate": 5.0,
+          "contractExpected": 9414.45,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 5648.16,
+              "contractRate": 3.0,
+              "contractAmount": 5648.16,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 2.0005,
+              "amount": 3766.29,
+              "contractRate": 2.0,
+              "contractAmount": 3766.29,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 2,
+          "date": "Feb 2",
+          "turnover": 173820.17,
+          "regCommission": 8691.02,
+          "regTxCount": 3211,
+          "reconTurnover": 173820.17,
+          "reconCommission": 8691.02,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "contractExpected": 8691.02,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 5214.61,
+              "contractRate": 3.0,
+              "contractAmount": 5214.61,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 2.0,
+              "amount": 3476.41,
+              "contractRate": 2.0,
+              "contractAmount": 3476.41,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 3,
+          "date": "Feb 3",
+          "turnover": 181896.64,
+          "regCommission": 9095.17,
+          "regTxCount": 3385,
+          "reconTurnover": 181896.64,
+          "reconCommission": 9095.17,
+          "reconRate": 5.0002,
+          "contractRate": 5.0,
+          "contractExpected": 9095.17,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 5456.9,
+              "contractRate": 3.0,
+              "contractAmount": 5456.9,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 2.0002,
+              "amount": 3638.27,
+              "contractRate": 2.0,
+              "contractAmount": 3638.27,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 4,
+          "date": "Feb 4",
+          "turnover": 212908.75,
+          "regCommission": 10645.69,
+          "regTxCount": 3819,
+          "reconTurnover": 212908.75,
+          "reconCommission": 10645.69,
+          "reconRate": 5.0001,
+          "contractRate": 5.0,
+          "contractExpected": 10645.69,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 6387.26,
+              "contractRate": 3.0,
+              "contractAmount": 6387.26,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 2.0001,
+              "amount": 4258.43,
+              "contractRate": 2.0,
+              "contractAmount": 4258.43,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 5,
+          "date": "Feb 5",
+          "turnover": 166036.24,
+          "regCommission": 8302.75,
+          "regTxCount": 3504,
+          "reconTurnover": 166036.24,
+          "reconCommission": 8302.75,
+          "reconRate": 5.0006,
+          "contractRate": 5.0,
+          "contractExpected": 8302.75,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 4981.09,
+              "contractRate": 3.0,
+              "contractAmount": 4981.09,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 2.0006,
+              "amount": 3321.66,
+              "contractRate": 2.0,
+              "contractAmount": 3321.66,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 6,
+          "date": "Feb 6",
+          "turnover": 170921.45,
+          "regCommission": 8546.57,
+          "regTxCount": 3473,
+          "reconTurnover": 170921.45,
+          "reconCommission": 8546.57,
+          "reconRate": 5.0003,
+          "contractRate": 5.0,
+          "contractExpected": 8546.57,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 5127.64,
+              "contractRate": 3.0,
+              "contractAmount": 5127.64,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 2.0003,
+              "amount": 3418.93,
+              "contractRate": 2.0,
+              "contractAmount": 3418.93,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 7,
+          "date": "Feb 7",
+          "turnover": 192204.99,
+          "regCommission": 9611.03,
+          "regTxCount": 4000,
+          "reconTurnover": 192204.99,
+          "reconCommission": 9611.03,
+          "reconRate": 5.0004,
+          "contractRate": 5.0,
+          "contractExpected": 9611.03,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 5766.15,
+              "contractRate": 3.0,
+              "contractAmount": 5766.15,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 2.0004,
+              "amount": 3844.88,
+              "contractRate": 2.0,
+              "contractAmount": 3844.88,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 8,
+          "date": "Feb 8",
+          "turnover": 155151.2,
+          "regCommission": 7758.98,
+          "regTxCount": 3281,
+          "reconTurnover": 155151.2,
+          "reconCommission": 7758.98,
+          "reconRate": 5.0009,
+          "contractRate": 5.0,
+          "contractExpected": 7758.98,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 4654.54,
+              "contractRate": 3.0,
+              "contractAmount": 4654.54,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 2.0009,
+              "amount": 3104.44,
+              "contractRate": 2.0,
+              "contractAmount": 3104.44,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 9,
+          "date": "Feb 9",
+          "turnover": 142509.35,
+          "regCommission": 7126.48,
+          "regTxCount": 2944,
+          "reconTurnover": 142509.35,
+          "reconCommission": 7126.48,
+          "reconRate": 5.0007,
+          "contractRate": 5.0,
+          "contractExpected": 7126.48,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 4275.28,
+              "contractRate": 3.0,
+              "contractAmount": 4275.28,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 2.0007,
+              "amount": 2851.2,
+              "contractRate": 2.0,
+              "contractAmount": 2851.2,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 10,
+          "date": "Feb 10",
+          "turnover": 304403.39,
+          "regCommission": 15221.57,
+          "regTxCount": 5641,
+          "reconTurnover": 304403.39,
+          "reconCommission": 15221.57,
+          "reconRate": 5.0005,
+          "contractRate": 5.0,
+          "contractExpected": 15221.57,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 9132.1,
+              "contractRate": 3.0,
+              "contractAmount": 9132.1,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 2.0005,
+              "amount": 6089.47,
+              "contractRate": 2.0,
+              "contractAmount": 6089.47,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 11,
+          "date": "Feb 11",
+          "turnover": 420667.82,
+          "regCommission": 21036.08,
+          "regTxCount": 8251,
+          "reconTurnover": 420667.82,
+          "reconCommission": 21036.08,
+          "reconRate": 5.0006,
+          "contractRate": 5.0,
+          "contractExpected": 21036.08,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 12620.03,
+              "contractRate": 3.0,
+              "contractAmount": 12620.03,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 2.0006,
+              "amount": 8416.05,
+              "contractRate": 2.0,
+              "contractAmount": 8416.05,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 12,
+          "date": "Feb 12",
+          "turnover": 451969.4,
+          "regCommission": 22603.77,
+          "regTxCount": 8913,
+          "reconTurnover": 451969.4,
+          "reconCommission": 22603.77,
+          "reconRate": 5.0012,
+          "contractRate": 5.0,
+          "contractExpected": 22603.77,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 13559.08,
+              "contractRate": 3.0,
+              "contractAmount": 13559.08,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 2.0012,
+              "amount": 9044.69,
+              "contractRate": 2.0,
+              "contractAmount": 9044.69,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 13,
+          "date": "Feb 13",
+          "turnover": 466256.76,
+          "regCommission": 23312.75,
+          "regTxCount": 9544,
+          "reconTurnover": 466256.76,
+          "reconCommission": 23312.75,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "contractExpected": 23312.75,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 13987.7,
+              "contractRate": 3.0,
+              "contractAmount": 13987.7,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 2.0,
+              "amount": 9325.05,
+              "contractRate": 2.0,
+              "contractAmount": 9325.05,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 14,
+          "date": "Feb 14",
+          "turnover": 487260.25,
+          "regCommission": 24362.72,
+          "regTxCount": 9596,
+          "reconTurnover": 487260.25,
+          "reconCommission": 24362.72,
+          "reconRate": 4.9999,
+          "contractRate": 5.0,
+          "contractExpected": 24362.72,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 14617.81,
+              "contractRate": 3.0,
+              "contractAmount": 14617.81,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 1.9999,
+              "amount": 9744.91,
+              "contractRate": 2.0,
+              "contractAmount": 9744.91,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 15,
+          "date": "Feb 15",
+          "turnover": 427970.94,
+          "regCommission": 21397.84,
+          "regTxCount": 8224,
+          "reconTurnover": 427970.94,
+          "reconCommission": 21397.84,
+          "reconRate": 4.9998,
+          "contractRate": 5.0,
+          "contractExpected": 21397.84,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 12839.13,
+              "contractRate": 3.0,
+              "contractAmount": 12839.13,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 1.9998,
+              "amount": 8558.71,
+              "contractRate": 2.0,
+              "contractAmount": 8558.71,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 16,
+          "date": "Feb 16",
+          "turnover": 342116.45,
+          "regCommission": 17105.27,
+          "regTxCount": 6748,
+          "reconTurnover": 342116.45,
+          "reconCommission": 17105.27,
+          "reconRate": 4.9998,
+          "contractRate": 5.0,
+          "contractExpected": 17105.27,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 10263.49,
+              "contractRate": 3.0,
+              "contractAmount": 10263.49,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 1.9998,
+              "amount": 6841.78,
+              "contractRate": 2.0,
+              "contractAmount": 6841.78,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 17,
+          "date": "Feb 17",
+          "turnover": 339159.15,
+          "regCommission": 16957.96,
+          "regTxCount": 6268,
+          "reconTurnover": 339159.15,
+          "reconCommission": 16957.96,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "contractExpected": 16957.96,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 10174.77,
+              "contractRate": 3.0,
+              "contractAmount": 10174.77,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 2.0,
+              "amount": 6783.19,
+              "contractRate": 2.0,
+              "contractAmount": 6783.19,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 18,
+          "date": "Feb 18",
+          "turnover": 194888.78,
+          "regCommission": 9746.76,
+          "regTxCount": 3905,
+          "reconTurnover": 194888.78,
+          "reconCommission": 9746.76,
+          "reconRate": 5.0012,
+          "contractRate": 5.0,
+          "contractExpected": 9746.76,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 5846.66,
+              "contractRate": 3.0,
+              "contractAmount": 5846.66,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 2.0012,
+              "amount": 3900.1,
+              "contractRate": 2.0,
+              "contractAmount": 3900.1,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 19,
+          "date": "Feb 19",
+          "turnover": 225359.91,
+          "regCommission": 11270.82,
+          "regTxCount": 4305,
+          "reconTurnover": 225359.91,
+          "reconCommission": 11270.82,
+          "reconRate": 5.0013,
+          "contractRate": 5.0,
+          "contractExpected": 11270.82,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 6760.8,
+              "contractRate": 3.0,
+              "contractAmount": 6760.8,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 2.0013,
+              "amount": 4510.02,
+              "contractRate": 2.0,
+              "contractAmount": 4510.02,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 20,
+          "date": "Feb 20",
+          "turnover": 223517.74,
+          "regCommission": 11176.27,
+          "regTxCount": 4586,
+          "reconTurnover": 223517.74,
+          "reconCommission": 11176.27,
+          "reconRate": 5.0002,
+          "contractRate": 5.0,
+          "contractExpected": 11176.27,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 6705.53,
+              "contractRate": 3.0,
+              "contractAmount": 6705.53,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 2.0002,
+              "amount": 4470.74,
+              "contractRate": 2.0,
+              "contractAmount": 4470.74,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 21,
+          "date": "Feb 21",
+          "turnover": 250980.47,
+          "regCommission": 12547.7,
+          "regTxCount": 4751,
+          "reconTurnover": 250980.47,
+          "reconCommission": 12547.7,
+          "reconRate": 4.9995,
+          "contractRate": 5.0,
+          "contractExpected": 12547.7,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 7529.41,
+              "contractRate": 3.0,
+              "contractAmount": 7529.41,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 1.9995,
+              "amount": 5018.29,
+              "contractRate": 2.0,
+              "contractAmount": 5018.29,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 22,
+          "date": "Feb 22",
+          "turnover": 183280.09,
+          "regCommission": 9162.86,
+          "regTxCount": 3695,
+          "reconTurnover": 183280.09,
+          "reconCommission": 9162.86,
+          "reconRate": 4.9994,
+          "contractRate": 5.0,
+          "contractExpected": 9162.86,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 5498.4,
+              "contractRate": 3.0,
+              "contractAmount": 5498.4,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 1.9994,
+              "amount": 3664.46,
+              "contractRate": 2.0,
+              "contractAmount": 3664.46,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 23,
+          "date": "Feb 23",
+          "turnover": 151490.62,
+          "regCommission": 7573.64,
+          "regTxCount": 2990,
+          "reconTurnover": 151490.62,
+          "reconCommission": 7573.64,
+          "reconRate": 4.9994,
+          "contractRate": 5.0,
+          "contractExpected": 7573.64,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 4544.72,
+              "contractRate": 3.0,
+              "contractAmount": 4544.72,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 1.9994,
+              "amount": 3028.92,
+              "contractRate": 2.0,
+              "contractAmount": 3028.92,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 24,
+          "date": "Feb 24",
+          "turnover": 190877.78,
+          "regCommission": 9543.46,
+          "regTxCount": 3498,
+          "reconTurnover": 190877.78,
+          "reconCommission": 9543.46,
+          "reconRate": 4.9998,
+          "contractRate": 5.0,
+          "contractExpected": 9543.46,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 5726.33,
+              "contractRate": 3.0,
+              "contractAmount": 5726.33,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 1.9998,
+              "amount": 3817.13,
+              "contractRate": 2.0,
+              "contractAmount": 3817.13,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 25,
+          "date": "Feb 25",
+          "turnover": 249934.08,
+          "regCommission": 12499.19,
+          "regTxCount": 4726,
+          "reconTurnover": 249934.08,
+          "reconCommission": 12499.19,
+          "reconRate": 5.001,
+          "contractRate": 5.0,
+          "contractExpected": 12499.19,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 7498.02,
+              "contractRate": 3.0,
+              "contractAmount": 7498.02,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 2.001,
+              "amount": 5001.17,
+              "contractRate": 2.0,
+              "contractAmount": 5001.17,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 26,
+          "date": "Feb 26",
+          "turnover": 246961.21,
+          "regCommission": 12350.49,
+          "regTxCount": 4719,
+          "reconTurnover": 246961.21,
+          "reconCommission": 12350.49,
+          "reconRate": 5.001,
+          "contractRate": 5.0,
+          "contractExpected": 12350.49,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 7408.84,
+              "contractRate": 3.0,
+              "contractAmount": 7408.84,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 2.001,
+              "amount": 4941.65,
+              "contractRate": 2.0,
+              "contractAmount": 4941.65,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 27,
+          "date": "Feb 27",
+          "turnover": 214236.29,
+          "regCommission": 10712.47,
+          "regTxCount": 4166,
+          "reconTurnover": 214236.29,
+          "reconCommission": 10712.47,
+          "reconRate": 5.0003,
+          "contractRate": 5.0,
+          "contractExpected": 10712.47,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 6427.09,
+              "contractRate": 3.0,
+              "contractAmount": 6427.09,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 2.0003,
+              "amount": 4285.38,
+              "contractRate": 2.0,
+              "contractAmount": 4285.38,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 28,
+          "date": "Feb 28",
+          "turnover": 255372.68,
+          "regCommission": 12768.66,
+          "regTxCount": 4938,
+          "reconTurnover": 255372.68,
+          "reconCommission": 12768.66,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "contractExpected": 12768.66,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 7661.18,
+              "contractRate": 3.0,
+              "contractAmount": 7661.18,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 2.0,
+              "amount": 5107.48,
+              "contractRate": 2.0,
+              "contractAmount": 5107.48,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        }
+      ]
+    },
+    {
+      "key": "jan-2025",
+      "label": "January",
+      "turnover": 5356643.67,
+      "registryAmount": 5356402.61,
+      "regCommission": 267851.78,
+      "regTxCount": 109337,
+      "reconTurnover": 5356643.67,
+      "reconCommission": 267851.78,
+      "reconRate": 5.0004,
+      "contractRate": 5.0,
+      "contractExpected": 267851.78,
+      "deviation": 0,
+      "parts": [
+        {
+          "label": "Smartflow",
+          "rate": 3.0,
+          "amount": 160699.29,
+          "contractRate": 3.0,
+          "contractAmount": 160699.29,
+          "source": "Reconciliation",
+          "contractSource": "Agreement 1607-24"
+        },
+        {
+          "label": "Impaya",
+          "rate": 2.0004,
+          "amount": 107152.49,
+          "contractRate": 2.0,
+          "contractAmount": 107152.49,
+          "source": "Reconciliation",
+          "contractSource": "Impaya Commission"
+        }
+      ],
+      "days": [
+        {
+          "day": 1,
+          "date": "Jan 1",
+          "turnover": 210538.66,
+          "regCommission": 10527.69,
+          "regTxCount": 4141,
+          "reconTurnover": 210538.66,
+          "reconCommission": 10527.69,
+          "reconRate": 5.0004,
+          "contractRate": 5.0,
+          "contractExpected": 10527.69,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 6316.16,
+              "contractRate": 3.0,
+              "contractAmount": 6316.16,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 2.0004,
+              "amount": 4211.53,
+              "contractRate": 2.0,
+              "contractAmount": 4211.53,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 2,
+          "date": "Jan 2",
+          "turnover": 217074.82,
+          "regCommission": 10854.88,
+          "regTxCount": 3928,
+          "reconTurnover": 217074.82,
+          "reconCommission": 10854.88,
+          "reconRate": 5.0005,
+          "contractRate": 5.0,
+          "contractExpected": 10854.88,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 6512.24,
+              "contractRate": 3.0,
+              "contractAmount": 6512.24,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 2.0005,
+              "amount": 4342.64,
+              "contractRate": 2.0,
+              "contractAmount": 4342.64,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 3,
+          "date": "Jan 3",
+          "turnover": 212221.77,
+          "regCommission": 10611.98,
+          "regTxCount": 4154,
+          "reconTurnover": 212221.77,
+          "reconCommission": 10611.98,
+          "reconRate": 5.0004,
+          "contractRate": 5.0,
+          "contractExpected": 10611.98,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 6366.65,
+              "contractRate": 3.0,
+              "contractAmount": 6366.65,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 2.0004,
+              "amount": 4245.33,
+              "contractRate": 2.0,
+              "contractAmount": 4245.33,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 4,
+          "date": "Jan 4",
+          "turnover": 221301.52,
+          "regCommission": 11065.82,
+          "regTxCount": 4083,
+          "reconTurnover": 221301.52,
+          "reconCommission": 11065.82,
+          "reconRate": 5.0003,
+          "contractRate": 5.0,
+          "contractExpected": 11065.82,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 6639.05,
+              "contractRate": 3.0,
+              "contractAmount": 6639.05,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 2.0003,
+              "amount": 4426.77,
+              "contractRate": 2.0,
+              "contractAmount": 4426.77,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 5,
+          "date": "Jan 5",
+          "turnover": 161433.39,
+          "regCommission": 8072.11,
+          "regTxCount": 3378,
+          "reconTurnover": 161433.39,
+          "reconCommission": 8072.11,
+          "reconRate": 5.0003,
+          "contractRate": 5.0,
+          "contractExpected": 8072.11,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 4843.0,
+              "contractRate": 3.0,
+              "contractAmount": 4843.0,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 2.0003,
+              "amount": 3229.11,
+              "contractRate": 2.0,
+              "contractAmount": 3229.11,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 6,
+          "date": "Jan 6",
+          "turnover": 190664.16,
+          "regCommission": 9533.77,
+          "regTxCount": 3556,
+          "reconTurnover": 190664.16,
+          "reconCommission": 9533.77,
+          "reconRate": 5.0003,
+          "contractRate": 5.0,
+          "contractExpected": 9533.77,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 5719.92,
+              "contractRate": 3.0,
+              "contractAmount": 5719.92,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 2.0003,
+              "amount": 3813.85,
+              "contractRate": 2.0,
+              "contractAmount": 3813.85,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 7,
+          "date": "Jan 7",
+          "turnover": 199876.1,
+          "regCommission": 9994.47,
+          "regTxCount": 3931,
+          "reconTurnover": 199876.1,
+          "reconCommission": 9994.47,
+          "reconRate": 5.0003,
+          "contractRate": 5.0,
+          "contractExpected": 9994.47,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 5996.28,
+              "contractRate": 3.0,
+              "contractAmount": 5996.28,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 2.0003,
+              "amount": 3998.19,
+              "contractRate": 2.0,
+              "contractAmount": 3998.19,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 8,
+          "date": "Jan 8",
+          "turnover": 174639.1,
+          "regCommission": 8732.15,
+          "regTxCount": 3692,
+          "reconTurnover": 174639.1,
+          "reconCommission": 8732.15,
+          "reconRate": 5.0001,
+          "contractRate": 5.0,
+          "contractExpected": 8732.15,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 5239.17,
+              "contractRate": 3.0,
+              "contractAmount": 5239.17,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 2.0001,
+              "amount": 3492.98,
+              "contractRate": 2.0,
+              "contractAmount": 3492.98,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 9,
+          "date": "Jan 9",
+          "turnover": 181684.48,
+          "regCommission": 9083.99,
+          "regTxCount": 3809,
+          "reconTurnover": 181684.48,
+          "reconCommission": 9083.99,
+          "reconRate": 4.9999,
+          "contractRate": 5.0,
+          "contractExpected": 9083.99,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 5450.53,
+              "contractRate": 3.0,
+              "contractAmount": 5450.53,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 1.9999,
+              "amount": 3633.46,
+              "contractRate": 2.0,
+              "contractAmount": 3633.46,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 10,
+          "date": "Jan 10",
+          "turnover": 182227.43,
+          "regCommission": 9111.39,
+          "regTxCount": 3902,
+          "reconTurnover": 182227.43,
+          "reconCommission": 9111.39,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "contractExpected": 9111.39,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 5466.82,
+              "contractRate": 3.0,
+              "contractAmount": 5466.82,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 2.0,
+              "amount": 3644.57,
+              "contractRate": 2.0,
+              "contractAmount": 3644.57,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 11,
+          "date": "Jan 11",
+          "turnover": 166584.9,
+          "regCommission": 8329.83,
+          "regTxCount": 3508,
+          "reconTurnover": 166584.9,
+          "reconCommission": 8329.83,
+          "reconRate": 5.0004,
+          "contractRate": 5.0,
+          "contractExpected": 8329.83,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 4997.55,
+              "contractRate": 3.0,
+              "contractAmount": 4997.55,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 2.0004,
+              "amount": 3332.28,
+              "contractRate": 2.0,
+              "contractAmount": 3332.28,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 12,
+          "date": "Jan 12",
+          "turnover": 137699.12,
+          "regCommission": 6885.75,
+          "regTxCount": 2829,
+          "reconTurnover": 137699.12,
+          "reconCommission": 6885.75,
+          "reconRate": 5.0006,
+          "contractRate": 5.0,
+          "contractExpected": 6885.75,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 4130.97,
+              "contractRate": 3.0,
+              "contractAmount": 4130.97,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 2.0006,
+              "amount": 2754.78,
+              "contractRate": 2.0,
+              "contractAmount": 2754.78,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 13,
+          "date": "Jan 13",
+          "turnover": 154351.0,
+          "regCommission": 7717.82,
+          "regTxCount": 3286,
+          "reconTurnover": 154351.0,
+          "reconCommission": 7717.82,
+          "reconRate": 5.0002,
+          "contractRate": 5.0,
+          "contractExpected": 7717.82,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 4630.53,
+              "contractRate": 3.0,
+              "contractAmount": 4630.53,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 2.0002,
+              "amount": 3087.29,
+              "contractRate": 2.0,
+              "contractAmount": 3087.29,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 14,
+          "date": "Jan 14",
+          "turnover": 153984.31,
+          "regCommission": 7699.91,
+          "regTxCount": 3273,
+          "reconTurnover": 153984.31,
+          "reconCommission": 7699.91,
+          "reconRate": 5.0005,
+          "contractRate": 5.0,
+          "contractExpected": 7699.91,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 4619.53,
+              "contractRate": 3.0,
+              "contractAmount": 4619.53,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 2.0005,
+              "amount": 3080.38,
+              "contractRate": 2.0,
+              "contractAmount": 3080.38,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 15,
+          "date": "Jan 15",
+          "turnover": 176781.6,
+          "regCommission": 8839.57,
+          "regTxCount": 3627,
+          "reconTurnover": 176781.6,
+          "reconCommission": 8839.57,
+          "reconRate": 5.0003,
+          "contractRate": 5.0,
+          "contractExpected": 8839.57,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 5303.45,
+              "contractRate": 3.0,
+              "contractAmount": 5303.45,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 2.0003,
+              "amount": 3536.12,
+              "contractRate": 2.0,
+              "contractAmount": 3536.12,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 16,
+          "date": "Jan 16",
+          "turnover": 185544.93,
+          "regCommission": 9278.15,
+          "regTxCount": 3521,
+          "reconTurnover": 185544.93,
+          "reconCommission": 9278.15,
+          "reconRate": 5.0005,
+          "contractRate": 5.0,
+          "contractExpected": 9278.15,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 5566.35,
+              "contractRate": 3.0,
+              "contractAmount": 5566.35,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 2.0005,
+              "amount": 3711.8,
+              "contractRate": 2.0,
+              "contractAmount": 3711.8,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 17,
+          "date": "Jan 17",
+          "turnover": 184663.12,
+          "regCommission": 9233.76,
+          "regTxCount": 3759,
+          "reconTurnover": 184663.12,
+          "reconCommission": 9233.76,
+          "reconRate": 5.0003,
+          "contractRate": 5.0,
+          "contractExpected": 9233.76,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 5539.89,
+              "contractRate": 3.0,
+              "contractAmount": 5539.89,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 2.0003,
+              "amount": 3693.87,
+              "contractRate": 2.0,
+              "contractAmount": 3693.87,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 18,
+          "date": "Jan 18",
+          "turnover": 143012.88,
+          "regCommission": 7150.9,
+          "regTxCount": 3036,
+          "reconTurnover": 143012.88,
+          "reconCommission": 7150.9,
+          "reconRate": 5.0002,
+          "contractRate": 5.0,
+          "contractExpected": 7150.9,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 4290.39,
+              "contractRate": 3.0,
+              "contractAmount": 4290.39,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 2.0002,
+              "amount": 2860.51,
+              "contractRate": 2.0,
+              "contractAmount": 2860.51,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 19,
+          "date": "Jan 19",
+          "turnover": 108188.49,
+          "regCommission": 5409.37,
+          "regTxCount": 2340,
+          "reconTurnover": 108188.49,
+          "reconCommission": 5409.37,
+          "reconRate": 4.9999,
+          "contractRate": 5.0,
+          "contractExpected": 5409.37,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 3245.65,
+              "contractRate": 3.0,
+              "contractAmount": 3245.65,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 1.9999,
+              "amount": 2163.72,
+              "contractRate": 2.0,
+              "contractAmount": 2163.72,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 20,
+          "date": "Jan 20",
+          "turnover": 140652.43,
+          "regCommission": 7033.29,
+          "regTxCount": 2987,
+          "reconTurnover": 140652.43,
+          "reconCommission": 7033.29,
+          "reconRate": 5.0005,
+          "contractRate": 5.0,
+          "contractExpected": 7033.29,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 4219.57,
+              "contractRate": 3.0,
+              "contractAmount": 4219.57,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 2.0005,
+              "amount": 2813.72,
+              "contractRate": 2.0,
+              "contractAmount": 2813.72,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 21,
+          "date": "Jan 21",
+          "turnover": 149974.22,
+          "regCommission": 7498.71,
+          "regTxCount": 3150,
+          "reconTurnover": 149974.22,
+          "reconCommission": 7498.71,
+          "reconRate": 5.0,
+          "contractRate": 5.0,
+          "contractExpected": 7498.71,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 4499.23,
+              "contractRate": 3.0,
+              "contractAmount": 4499.23,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 2.0,
+              "amount": 2999.48,
+              "contractRate": 2.0,
+              "contractAmount": 2999.48,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 22,
+          "date": "Jan 22",
+          "turnover": 137703.82,
+          "regCommission": 6885.31,
+          "regTxCount": 2898,
+          "reconTurnover": 137703.82,
+          "reconCommission": 6885.31,
+          "reconRate": 5.0001,
+          "contractRate": 5.0,
+          "contractExpected": 6885.31,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 4131.11,
+              "contractRate": 3.0,
+              "contractAmount": 4131.11,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 2.0001,
+              "amount": 2754.2,
+              "contractRate": 2.0,
+              "contractAmount": 2754.2,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 23,
+          "date": "Jan 23",
+          "turnover": 162507.08,
+          "regCommission": 8126.12,
+          "regTxCount": 3332,
+          "reconTurnover": 162507.08,
+          "reconCommission": 8126.12,
+          "reconRate": 5.0005,
+          "contractRate": 5.0,
+          "contractExpected": 8126.12,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 4875.21,
+              "contractRate": 3.0,
+              "contractAmount": 4875.21,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 2.0005,
+              "amount": 3250.91,
+              "contractRate": 2.0,
+              "contractAmount": 3250.91,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 24,
+          "date": "Jan 24",
+          "turnover": 257385.67,
+          "regCommission": 12870.87,
+          "regTxCount": 4979,
+          "reconTurnover": 257385.67,
+          "reconCommission": 12870.87,
+          "reconRate": 5.0006,
+          "contractRate": 5.0,
+          "contractExpected": 12870.87,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 7721.57,
+              "contractRate": 3.0,
+              "contractAmount": 7721.57,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 2.0006,
+              "amount": 5149.3,
+              "contractRate": 2.0,
+              "contractAmount": 5149.3,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 25,
+          "date": "Jan 25",
+          "turnover": 179940.13,
+          "regCommission": 8997.13,
+          "regTxCount": 3590,
+          "reconTurnover": 179940.13,
+          "reconCommission": 8997.13,
+          "reconRate": 5.0001,
+          "contractRate": 5.0,
+          "contractExpected": 8997.13,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 5398.2,
+              "contractRate": 3.0,
+              "contractAmount": 5398.2,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 2.0001,
+              "amount": 3598.93,
+              "contractRate": 2.0,
+              "contractAmount": 3598.93,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 26,
+          "date": "Jan 26",
+          "turnover": 135324.56,
+          "regCommission": 6766.78,
+          "regTxCount": 2826,
+          "reconTurnover": 135324.56,
+          "reconCommission": 6766.78,
+          "reconRate": 5.0004,
+          "contractRate": 5.0,
+          "contractExpected": 6766.78,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 4059.74,
+              "contractRate": 3.0,
+              "contractAmount": 4059.74,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 2.0004,
+              "amount": 2707.04,
+              "contractRate": 2.0,
+              "contractAmount": 2707.04,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 27,
+          "date": "Jan 27",
+          "turnover": 155855.62,
+          "regCommission": 7793.65,
+          "regTxCount": 3164,
+          "reconTurnover": 155855.62,
+          "reconCommission": 7793.65,
+          "reconRate": 5.0006,
+          "contractRate": 5.0,
+          "contractExpected": 7793.65,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 4675.67,
+              "contractRate": 3.0,
+              "contractAmount": 4675.67,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 2.0006,
+              "amount": 3117.98,
+              "contractRate": 2.0,
+              "contractAmount": 3117.98,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 28,
+          "date": "Jan 28",
+          "turnover": 161934.66,
+          "regCommission": 8098.14,
+          "regTxCount": 3264,
+          "reconTurnover": 161934.66,
+          "reconCommission": 8098.14,
+          "reconRate": 5.0009,
+          "contractRate": 5.0,
+          "contractExpected": 8098.14,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 4858.04,
+              "contractRate": 3.0,
+              "contractAmount": 4858.04,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 2.0009,
+              "amount": 3240.1,
+              "contractRate": 2.0,
+              "contractAmount": 3240.1,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 29,
+          "date": "Jan 29",
+          "turnover": 157266.89,
+          "regCommission": 7864.52,
+          "regTxCount": 3328,
+          "reconTurnover": 157266.89,
+          "reconCommission": 7864.52,
+          "reconRate": 5.0007,
+          "contractRate": 5.0,
+          "contractExpected": 7864.52,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 4718.01,
+              "contractRate": 3.0,
+              "contractAmount": 4718.01,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 2.0007,
+              "amount": 3146.51,
+              "contractRate": 2.0,
+              "contractAmount": 3146.51,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 30,
+          "date": "Jan 30",
+          "turnover": 171795.27,
+          "regCommission": 8591.06,
+          "regTxCount": 3857,
+          "reconTurnover": 171795.27,
+          "reconCommission": 8591.06,
+          "reconRate": 5.0008,
+          "contractRate": 5.0,
+          "contractExpected": 8591.06,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 5153.86,
+              "contractRate": 3.0,
+              "contractAmount": 5153.86,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 2.0008,
+              "amount": 3437.2,
+              "contractRate": 2.0,
+              "contractAmount": 3437.2,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 31,
+          "date": "Jan 31",
+          "turnover": 183831.54,
+          "regCommission": 9192.89,
+          "regTxCount": 4209,
+          "reconTurnover": 183831.54,
+          "reconCommission": 9192.89,
+          "reconRate": 5.0007,
+          "contractRate": 5.0,
+          "contractExpected": 9192.89,
+          "deviation": 0,
+          "parts": [
+            {
+              "label": "Smartflow",
+              "rate": 3.0,
+              "amount": 5514.95,
+              "contractRate": 3.0,
+              "contractAmount": 5514.95,
+              "source": "Registry",
+              "contractSource": "Agreement 1607-24"
+            },
+            {
+              "label": "Impaya",
+              "rate": 2.0007,
+              "amount": 3677.94,
+              "contractRate": 2.0,
+              "contractAmount": 3677.94,
+              "source": "Impaya Commission",
+              "contractSource": "Impaya Commission"
+            }
+          ],
+          "rateChangeDay": false
+        }
+      ]
+    }
+  ]
+}

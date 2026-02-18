@@ -1,0 +1,76 @@
+{
+  "cases": [
+    {
+      "id": "INV-2025-0051",
+      "type": "rate-change",
+      "title": "Rate anomaly ~4.80% vs 5.0% contract",
+      "merchant": "Inateus",
+      "merchantId": "inateus",
+      "partLabel": "Smartflow",
+      "deviation": -2859.64,
+      "period": "Oct 6, 2025 - Oct 30, 2025",
+      "status": "open",
+      "summary": "Registry and reconciliation charged at ~4.8379% instead of contracted 5.0% throughout October 2025. Total underpayment: 2,859.64 EUR."
+    },
+    {
+      "id": "INV-2025-0052",
+      "type": "rate-change",
+      "title": "Rate anomaly ~4.80% vs 5.0% contract",
+      "merchant": "QEBOR",
+      "merchantId": "qebor",
+      "partLabel": "Smartflow",
+      "deviation": -2857.75,
+      "period": "Oct 6, 2025 - Oct 30, 2025",
+      "status": "open",
+      "summary": "Registry and reconciliation charged at ~4.8379% instead of contracted 5.0% throughout October 2025. Total underpayment: 2,857.75 EUR."
+    },
+    {
+      "id": "INV-2025-0053",
+      "type": "rate-change",
+      "title": "Registry captured 3.0% rate (Mar 4-10)",
+      "merchant": "PLAYOFF GO",
+      "merchantId": "playoff-go",
+      "partLabel": "Paymentz",
+      "deviation": -2026.79,
+      "period": "Mar 4, 2025 - Mar 10, 2025",
+      "status": "open",
+      "summary": "Registry captured commission at 3.0% rate for days Mar 4-10, significantly below the 5.0% total commission rate. Total underpayment for the period: 2,026.79 EUR."
+    },
+    {
+      "id": "INV-2025-0054",
+      "type": "rate-change",
+      "title": "Rate anomaly ~4.80% vs 5.0% contract",
+      "merchant": "PLAYOFF GO",
+      "merchantId": "playoff-go",
+      "partLabel": "Paymentz",
+      "deviation": -1749.5,
+      "period": "Oct 6, 2025 - Oct 21, 2025",
+      "status": "open",
+      "summary": "Registry and reconciliation charged at ~4.8553% instead of contracted 5.0% throughout October 2025. Total underpayment: 1,749.50 EUR."
+    },
+    {
+      "id": "INV-2025-0055",
+      "type": "rate-change",
+      "title": "Rate drop to ~4.80% vs 5.0% contract (Oct-Nov)",
+      "merchant": "SHOP ONLINE AI",
+      "merchantId": "shop-online-ai",
+      "partLabel": "Novatum",
+      "deviation": -5990.39,
+      "period": "Oct 1, 2025 - Nov 30, 2025",
+      "status": "open",
+      "summary": "Registry charged at ~4.8201% instead of contracted 5.0% throughout October 2025 - November 2025. The rate dropped below contract and persisted for two months. Total underpayment: 5,990.39 EUR."
+    },
+    {
+      "id": "INV-2025-0056",
+      "type": "rate-change",
+      "title": "Rate drop to ~4.80% vs 5.0% contract (Oct-Nov)",
+      "merchant": "TECHFIN SIGMA",
+      "merchantId": "techfin-sigma",
+      "partLabel": "Novatum",
+      "deviation": -6031.21,
+      "period": "Oct 6, 2025 - Nov 30, 2025",
+      "status": "open",
+      "summary": "Registry charged at ~4.8199% instead of contracted 5.0% throughout October 2025 - November 2025. The rate dropped below contract and persisted for two months. Total underpayment: 6,031.21 EUR."
+    }
+  ]
+}

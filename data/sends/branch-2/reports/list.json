@@ -1,6 +1,17 @@
 {
   "reports": [
     {
+      "id": "merchant-overview-v2",
+      "title": "Merchant Overview V2",
+      "description": "Monthly commission deviation grid for all merchants — rate changes, groups, and investigation cases",
+      "icon": "BarChart3",
+      "href": "/merchant-overview-v2",
+      "dataEndpoint": "/api/overview",
+      "available": true,
+      "generated_at": "2026-02-15T12:00:00.000000",
+      "data_source": "Static JSON from SENDS batch-2"
+    },
+    {
       "id": "merchants-overview",
       "title": "Merchants Overview",
       "description": "Combined heatmap view of all merchant issues - commission mismatch, date shifts, unmatched transactions, missing reconciliation",
@@ -31,6 +42,17 @@
       "dataEndpoint": "/api/reports/reconciliation-deviation",
       "available": true,
       "generated_at": "2026-02-03T21:00:00.000000",
+      "data_source": "Static JSON from SENDS batch-2"
+    },
+    {
+      "id": "cases-overview",
+      "title": "Investigation Cases",
+      "description": "List of all open investigation cases — rate mismatches, missing transactions, and compliance issues",
+      "icon": "AlertTriangle",
+      "href": "/cases",
+      "dataEndpoint": "/api/cases",
+      "available": true,
+      "generated_at": "2026-02-18T12:00:00.000000",
       "data_source": "Static JSON from SENDS batch-2"
     }
   ]

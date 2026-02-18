@@ -1,0 +1,197 @@
+{
+  "type": "rate-change",
+  "caseId": "INV-2025-0053",
+  "caseNumber": "INV-2025-0053",
+  "merchant": {
+    "name": "PLAYOFF GO",
+    "legalName": "PLAYOFF GO LTD",
+    "contract": "2025-0602-01",
+    "shortname": "playoff-go"
+  },
+  "partLabel": "Paymentz",
+  "period": {
+    "from": "Mar 4, 2025",
+    "to": "Mar 10, 2025"
+  },
+  "deviation": -2026.79,
+  "contractRate": 5.0,
+  "actualRate": 4.7833,
+  "valueColumns": [
+    "amount",
+    "commission"
+  ],
+  "summary": "Registry captured commission at 3.0% rate for days Mar 4-10, significantly below the 5.0% total commission rate. Total underpayment for the period: 2,026.79 EUR.",
+  "sources": {
+    "registry": {
+      "files": [
+        "PLAYOFF GO registry March 2025"
+      ],
+      "operationType": "Incoming",
+      "currency": "EUR",
+      "period": "Mar 4, 2025 - Mar 10, 2025",
+      "columns": [
+        "Date",
+        "Amount",
+        "Commission",
+        "Rate"
+      ]
+    },
+    "contract": {
+      "name": "PLAYOFF GO Contract",
+      "effectiveDate": "Mar 4, 2025",
+      "period": "Mar 4, 2025 - Mar 10, 2025",
+      "rates": [
+        {
+          "label": "Paymentz",
+          "rate": 5.0,
+          "fixedFee": 0
+        }
+      ]
+    },
+    "reconciliation": {
+      "file": "RECONCILIATION_FIN_PLAYOFF_GO.json",
+      "sheet": "March 2025",
+      "period": "Mar 4, 2025 - Mar 10, 2025",
+      "columns": [
+        "Date",
+        "Amount",
+        "Commission",
+        "Rate"
+      ]
+    }
+  },
+  "dailyData": [
+    {
+      "date": "Mar 4",
+      "registry": {
+        "amount": 8087.09,
+        "effectiveRate": 3.0001,
+        "commission": 242.62,
+        "count": 0
+      },
+      "contractExpected": 404.35,
+      "diff": -161.73,
+      "isAfterChange": true,
+      "reconciliation": {
+        "count": 0,
+        "amount": 8087.09,
+        "effectiveRate": 3.0001,
+        "commission": 242.62
+      }
+    },
+    {
+      "date": "Mar 5",
+      "registry": {
+        "amount": 12719.36,
+        "effectiveRate": 3.0,
+        "commission": 381.58,
+        "count": 0
+      },
+      "contractExpected": 635.97,
+      "diff": -254.39,
+      "isAfterChange": true,
+      "reconciliation": {
+        "count": 0,
+        "amount": 12719.36,
+        "effectiveRate": 3.0,
+        "commission": 381.58
+      }
+    },
+    {
+      "date": "Mar 6",
+      "registry": {
+        "amount": 14695.1,
+        "effectiveRate": 3.0,
+        "commission": 440.85,
+        "count": 0
+      },
+      "contractExpected": 734.75,
+      "diff": -293.9,
+      "isAfterChange": true,
+      "reconciliation": {
+        "count": 0,
+        "amount": 14695.1,
+        "effectiveRate": 3.0,
+        "commission": 440.85
+      }
+    },
+    {
+      "date": "Mar 7",
+      "registry": {
+        "amount": 14846.26,
+        "effectiveRate": 3.0001,
+        "commission": 445.4,
+        "count": 0
+      },
+      "contractExpected": 742.31,
+      "diff": -296.91,
+      "isAfterChange": true,
+      "reconciliation": {
+        "count": 0,
+        "amount": 14846.26,
+        "effectiveRate": 3.0001,
+        "commission": 445.4
+      }
+    },
+    {
+      "date": "Mar 8",
+      "registry": {
+        "amount": 13588.04,
+        "effectiveRate": 3.0001,
+        "commission": 407.65,
+        "count": 0
+      },
+      "contractExpected": 679.4,
+      "diff": -271.75,
+      "isAfterChange": true,
+      "reconciliation": {
+        "count": 0,
+        "amount": 13588.04,
+        "effectiveRate": 3.0001,
+        "commission": 407.65
+      }
+    },
+    {
+      "date": "Mar 9",
+      "registry": {
+        "amount": 15992.8,
+        "effectiveRate": 3.0,
+        "commission": 479.79,
+        "count": 0
+      },
+      "contractExpected": 799.64,
+      "diff": -319.85,
+      "isAfterChange": true,
+      "reconciliation": {
+        "count": 0,
+        "amount": 15992.8,
+        "effectiveRate": 3.0,
+        "commission": 479.79
+      }
+    },
+    {
+      "date": "Mar 10",
+      "registry": {
+        "amount": 21412.72,
+        "effectiveRate": 3.0,
+        "commission": 642.38,
+        "count": 0
+      },
+      "contractExpected": 1070.64,
+      "diff": -428.26,
+      "isAfterChange": true,
+      "reconciliation": {
+        "count": 0,
+        "amount": 21412.72,
+        "effectiveRate": 3.0,
+        "commission": 642.38
+      }
+    }
+  ],
+  "notes": [
+    {
+      "type": "warning",
+      "text": "The commission rate was consistently ~4.7833% instead of the contracted 5.0%. This represents a systematic underpayment of ~0.2167% across the entire deviation period."
+    }
+  ]
+}

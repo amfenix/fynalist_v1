@@ -17,7 +17,7 @@
     "merchant_group": "SENDS",
     "transaction_count": 360571,
     "total_amount_eur": 18225899.19,
-    "total_commission_eur": 499568.94,
+    "total_commission_eur": 911440.33,
     "active_months": "2025-01 to 2025-04",
     "status": "ok"
   },
@@ -28,7 +28,7 @@
     "merchant_group": "SENDS",
     "transaction_count": 102715,
     "total_amount_eur": 6085585.11,
-    "total_commission_eur": 304279.26,
+    "total_commission_eur": 304320.85,
     "active_months": "2025-01 to 2025-04",
     "status": "ok"
   },
@@ -50,7 +50,7 @@
     "merchant_group": "SENDS",
     "transaction_count": 452986,
     "total_amount_eur": 22973036.26,
-    "total_commission_eur": 770934.05,
+    "total_commission_eur": 1145910.72,
     "active_months": "2025-01 to 2025-10",
     "status": "ok"
   },
@@ -72,7 +72,7 @@
     "merchant_group": "SENDS",
     "transaction_count": 66810,
     "total_amount_eur": 3286172.65,
-    "total_commission_eur": 96746.26,
+    "total_commission_eur": 164324.86,
     "active_months": "2025-01 to 2025-03",
     "status": "ok"
   },
@@ -83,7 +83,7 @@
     "merchant_group": "SENDS",
     "transaction_count": 160032,
     "total_amount_eur": 8422275.75,
-    "total_commission_eur": 239991.60,
+    "total_commission_eur": 421145.12,
     "active_months": "2025-01 to 2025-09",
     "status": "ok"
   },
@@ -104,8 +104,8 @@
     "company_name": "PLAYOFF GO LTD",
     "merchant_group": "SENDS",
     "transaction_count": 177146,
-    "total_amount_eur": 9335434.10,
-    "total_commission_eur": 164871.78,
+    "total_amount_eur": 9335434.1,
+    "total_commission_eur": 463020.98,
     "active_months": "2025-03 to 2025-10",
     "status": "ok"
   },
@@ -116,7 +116,7 @@
     "merchant_group": "SENDS",
     "transaction_count": 124603,
     "total_amount_eur": 7269700.61,
-    "total_commission_eur": 127274.45,
+    "total_commission_eur": 360658.97,
     "active_months": "2025-03 to 2025-10",
     "status": "ok"
   },
@@ -127,7 +127,7 @@
     "merchant_group": "SENDS",
     "transaction_count": 149306,
     "total_amount_eur": 8137295.03,
-    "total_commission_eur": 276203.63,
+    "total_commission_eur": 406885.14,
     "active_months": "2025-03 to 2025-09",
     "status": "ok"
   },
@@ -138,7 +138,7 @@
     "merchant_group": "SENDS",
     "transaction_count": 176892,
     "total_amount_eur": 9874069.53,
-    "total_commission_eur": 487729.28,
+    "total_commission_eur": 487729.16,
     "active_months": "2025-06 to 2025-12",
     "status": "ok"
   },
@@ -149,7 +149,7 @@
     "merchant_group": "SENDS",
     "transaction_count": 200779,
     "total_amount_eur": 10361106.16,
-    "total_commission_eur": 181545.56,
+    "total_commission_eur": 518110.87,
     "active_months": "2025-01 to 2025-07",
     "status": "ok"
   },
@@ -159,8 +159,8 @@
     "company_name": "TECHFIN SIGMA SOLUTION LTD",
     "merchant_group": "SENDS",
     "transaction_count": 200661,
-    "total_amount_eur": 10931777.40,
-    "total_commission_eur": 400739.26,
+    "total_amount_eur": 10931777.4,
+    "total_commission_eur": 540608.17,
     "active_months": "2025-05 to 2025-12",
     "status": "ok"
   },

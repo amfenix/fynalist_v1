@@ -1,0 +1,58 @@
+[
+  {
+    "contract_id": "Additional_Agreement_No._1_to_MERCHANT_SERVICES_AGREEMENT_N14-05-01",
+    "original_contract_id": "Additional Agreement No. 1 to MERCHANT SERVICES AGREEMENT №14/05-01",
+    "company_name": "TECHFIN SIGMA SOLUTION LTD",
+    "contract_date": "19.06.2025",
+    "contract_expiry": null,
+    "has_markdown": true,
+    "fee_count": 2,
+    "rolling_reserve": {
+      "percent": 10,
+      "hold_days": 180,
+      "cap_eur": 50000
+    },
+    "fees": [
+      {
+        "operation_type": "incoming",
+        "card_brands": [],
+        "currency_type": "fiat",
+        "volume_min": null,
+        "volume_max": null,
+        "wl_percent": 5,
+        "ftd_percent": null,
+        "payout_percent": null,
+        "fixed_fee": 0,
+        "payout_min": null,
+        "refund_fee": 5,
+        "chb_fee": 50,
+        "exchange_fee_percent": null,
+        "source": "Remuneration of the NOVATUM for payments processing (UK/EA) | 5% | Refund 5 EUR | Chargeback 50 EUR",
+        "currency": "EUR",
+        "region": "UK",
+        "payment_type": "apm",
+        "apm_type": null
+      },
+      {
+        "operation_type": "incoming",
+        "card_brands": [],
+        "currency_type": "fiat",
+        "volume_min": null,
+        "volume_max": null,
+        "wl_percent": 5,
+        "ftd_percent": null,
+        "payout_percent": null,
+        "fixed_fee": 0,
+        "payout_min": null,
+        "refund_fee": 5,
+        "chb_fee": 50,
+        "exchange_fee_percent": null,
+        "source": "Remuneration of the NOVATUM for payments processing (UK/EA) | 5% | Refund 5 EUR | Chargeback 50 EUR",
+        "currency": "EUR",
+        "region": "EA",
+        "payment_type": "apm",
+        "apm_type": null
+      }
+    ]
+  }
+]

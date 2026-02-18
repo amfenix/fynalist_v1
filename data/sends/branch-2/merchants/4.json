@@ -19,7 +19,7 @@
   "reversal_amount": 0.0,
   "first_transaction_date": "",
   "partners": [
-    "SENDS"
+    "Finthesis"
   ],
   "currency_breakdown": [
     {
@@ -191,7 +191,7 @@
         "recon_commission": 26306.82,
         "recon_rate": 1.7528,
         "contract_rate": 1.75,
-        "amount_diff": -0.0,
+        "amount_diff": 0.0,
         "deviation_percent": 0.0028,
         "status": "ok"
       },
@@ -206,7 +206,7 @@
         "recon_commission": 20038.4,
         "recon_rate": 1.753,
         "contract_rate": 1.75,
-        "amount_diff": -0.0,
+        "amount_diff": 0.0,
         "deviation_percent": 0.003,
         "status": "ok"
       }

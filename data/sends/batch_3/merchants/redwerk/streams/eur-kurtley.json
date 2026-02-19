@@ -1094,7 +1094,10 @@
               "source": "Reconciliation",
               "contractSource": null
             }
-          ]
+          ],
+          "rateChangeDay": true,
+          "rateFrom": 5.2,
+          "rateTo": 5.75
         },
         {
           "day": 20,

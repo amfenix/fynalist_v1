@@ -29,7 +29,33 @@
           "contractSource": "Agreement 2025/2110-03"
         }
       ],
-      "days": []
+      "days": [
+        {
+          "day": 24,
+          "date": "Nov 24",
+          "turnover": 5.2,
+          "regCommission": 0.2,
+          "regTxCount": 1,
+          "reconTurnover": 5.2,
+          "reconCommission": 0.2,
+          "reconRate": 3.8462,
+          "contractRate": 3.8,
+          "contractExpected": 0.2,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Finthesis",
+              "rate": 3.8462,
+              "amount": 0.2,
+              "contractRate": 3.8,
+              "contractAmount": 0.2,
+              "source": "Registry",
+              "contractSource": "Agreement 2025/2110-03"
+            }
+          ],
+          "rateChangeDay": false
+        }
+      ]
     }
   ]
 }

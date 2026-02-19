@@ -7,56 +7,118 @@
       "legalName": "BLUEOCEAN DEVELOPMENT AI LTD",
       "contract": "NO 1803-25",
       "months": {
-        "jan": { "turnover": 0, "commission": 0, "deviation": 0, "cases": [] },
-        "feb": { "turnover": 0, "commission": 0, "deviation": 0, "cases": [] },
-        "mar": { "turnover": 0, "commission": 0, "deviation": 0, "cases": [] },
-        "apr": { "turnover": 1822561.71, "commission": 87482.52, "deviation": 0, "cases": [] },
-        "may": { "turnover": 3440952.8, "commission": 165164.94, "deviation": 0, "cases": [] },
-        "jun": { "turnover": 4532481.23, "commission": 217557.34, "deviation": 0, "cases": [] },
-        "jul": { "turnover": 3137780.42, "commission": 150609.42, "deviation": 0, "cases": [] },
-        "aug": { "turnover": 2640205.17, "commission": 126729.51, "deviation": 0, "cases": [] },
+        "jan": {
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
+          "cases": []
+        },
+        "feb": {
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
+          "cases": []
+        },
+        "mar": {
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
+          "cases": []
+        },
+        "apr": {
+          "turnover": 1822561.71,
+          "commission": 87482.52,
+          "deviation": 0.0,
+          "cases": []
+        },
+        "may": {
+          "turnover": 3440952.8,
+          "commission": 165164.94,
+          "deviation": 0.0,
+          "cases": []
+        },
+        "jun": {
+          "turnover": 4532481.23,
+          "commission": 217557.34,
+          "deviation": 0.0,
+          "cases": []
+        },
+        "jul": {
+          "turnover": 3137780.42,
+          "commission": 150609.42,
+          "deviation": 0.0,
+          "cases": []
+        },
+        "aug": {
+          "turnover": 2640205.17,
+          "commission": 126729.51,
+          "deviation": 0.0,
+          "cases": []
+        },
         "sep": {
-          "turnover": 1097957.09, "commission": 52700.19, "deviation": -1559.41,
+          "turnover": 1097957.09,
+          "commission": 52700.19,
+          "deviation": -1559.41,
           "cases": [
             {
-              "id": "blueocean-sep-1", "title": "5% rate not applied (Sep 9-30)", "partLabel": "Smartflow",
-              "contractRate": 5.0, "actualRate": 4.8, "deviation": -1559.41,
-              "periodFrom": "September 9", "periodTo": "September 30",
+              "id": "blueocean-sep-eur",
+              "title": "5% rate not applied",
+              "partLabel": "Smartflow",
+              "contractRate": 4.9419,
+              "actualRate": 4.7998,
+              "deviation": -1559.41,
+              "periodFrom": "Sep 1",
+              "periodTo": "Sep 30",
               "investigationId": "INV-2025-0044"
             }
           ],
-          "hasRateChange": true, "rateChangeInfo": "4.8% -> 5.0% from Sep 9"
+          "hasRateChange": true,
+          "rateChangeInfo": "4.8% -> 5.0% from Sep 9"
         },
         "oct": {
-          "turnover": 2721170.39, "commission": 122301.49, "deviation": 5643.46,
+          "turnover": 2721170.39,
+          "commission": 122301.49,
+          "deviation": 5643.46,
           "cases": [
             {
-              "id": "blueocean-oct-1", "title": "5% rate not applied (Oct 1-16)", "partLabel": "Smartflow",
-              "contractRate": 5.0, "actualRate": 4.8, "deviation": -2667.47,
-              "periodFrom": "October 1", "periodTo": "October 16",
+              "id": "blueocean-oct-eur",
+              "title": "Registry-Reconciliation gap",
+              "partLabel": "Smartflow",
+              "contractRate": 4.5927,
+              "actualRate": 4.4944,
+              "deviation": 5643.46,
+              "periodFrom": "Oct 1",
+              "periodTo": "Oct 31",
               "investigationId": "INV-2025-0044"
-            },
-            {
-              "id": "blueocean-oct-2", "title": "Registry-Reconciliation gap", "partLabel": "Smartflow",
-              "contractRate": 4.2, "actualRate": 4.8, "deviation": 8310.93,
-              "periodFrom": "October 16", "periodTo": "October 31",
-              "investigationId": "INV-2025-0045"
             }
           ],
-          "hasRateChange": true, "rateChangeInfo": "5.0% -> 4.2% from Oct 17"
+          "hasRateChange": true,
+          "rateChangeInfo": "5.0% -> 4.2% from Oct 17"
         },
         "nov": {
-          "turnover": 2780070.98, "commission": 116776.83, "deviation": 16655.17,
+          "turnover": 2780070.98,
+          "commission": 116776.83,
+          "deviation": 16655.17,
           "cases": [
             {
-              "id": "blueocean-nov-1", "title": "Registry-Reconciliation gap", "partLabel": "Smartflow",
-              "contractRate": 4.2, "actualRate": 4.8, "deviation": 16655.17,
-              "periodFrom": "November 1", "periodTo": "November 30",
-              "investigationId": "INV-2025-0045"
+              "id": "blueocean-nov-eur",
+              "title": "Registry-Reconciliation gap",
+              "partLabel": "Smartflow",
+              "contractRate": 4.2,
+              "actualRate": 4.2005,
+              "deviation": 16655.17,
+              "periodFrom": "Nov 1",
+              "periodTo": "Nov 30",
+              "investigationId": "INV-2025-0044"
             }
           ]
         },
-        "dec": { "turnover": 3323318.2, "commission": 139582.93, "deviation": 0, "cases": [] }
+        "dec": {
+          "turnover": 3323318.2,
+          "commission": 139582.93,
+          "deviation": 0.0,
+          "cases": []
+        }
       }
     },
     {
@@ -65,47 +127,136 @@
       "legalName": "LINGO VENTURES LTD",
       "contract": "Master Agreement 30 Jul 2025",
       "months": {
-        "jan": { "turnover": 0, "commission": 0, "deviation": 0, "cases": [] },
-        "feb": { "turnover": 0, "commission": 0, "deviation": 0, "cases": [] },
-        "mar": { "turnover": 0, "commission": 0, "deviation": 0, "cases": [] },
-        "apr": { "turnover": 0, "commission": 0, "deviation": 0, "cases": [] },
-        "may": { "turnover": 0, "commission": 0, "deviation": 0, "cases": [] },
-        "jun": { "turnover": 0, "commission": 0, "deviation": 0, "cases": [] },
-        "jul": { "turnover": 0, "commission": 0, "deviation": 0, "cases": [] },
-        "aug": { "turnover": 0, "commission": 0, "deviation": 0, "cases": [] },
-        "sep": { "turnover": 23362.66, "commission": 1168.13, "deviation": 0, "cases": [] },
+        "jan": {
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
+          "cases": []
+        },
+        "feb": {
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
+          "cases": []
+        },
+        "mar": {
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
+          "cases": []
+        },
+        "apr": {
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
+          "cases": []
+        },
+        "may": {
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
+          "cases": []
+        },
+        "jun": {
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
+          "cases": []
+        },
+        "jul": {
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
+          "cases": []
+        },
+        "aug": {
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
+          "cases": []
+        },
+        "sep": {
+          "turnover": 23362.66,
+          "commission": 1168.13,
+          "deviation": 0.0,
+          "cases": []
+        },
         "oct": {
-          "turnover": 1524794.97, "commission": 69222.06, "deviation": -454.66,
+          "turnover": 1524794.97,
+          "commission": 69222.06,
+          "deviation": -454.66,
           "cases": [
             {
-              "id": "lingo-oct-try", "title": "Rate 4.2% applied early — TRY Card", "partLabel": "Smartflow",
-              "contractRate": 5.0, "actualRate": 4.2, "deviation": -196.44,
-              "periodFrom": "October 16", "periodTo": "October 16",
-              "investigationId": "INV-2025-0047"
+              "id": "lingo-ventures-oct-aud",
+              "title": "AUD Card underpayment",
+              "partLabel": "Smartflow",
+              "contractRate": 4.4679,
+              "actualRate": 4.4304,
+              "deviation": -119.65,
+              "periodFrom": "Oct 1",
+              "periodTo": "Oct 31",
+              "investigationId": "INV-2025-0050"
             },
             {
-              "id": "lingo-oct-usd", "title": "Rate 4.2% applied early — USD Card", "partLabel": "Smartflow",
-              "contractRate": 5.0, "actualRate": 4.2, "deviation": -51.53,
-              "periodFrom": "October 16", "periodTo": "October 16",
-              "investigationId": "INV-2025-0048"
-            },
-            {
-              "id": "lingo-oct-nok", "title": "Rate 4.2% applied early — NOK Card", "partLabel": "Smartflow",
-              "contractRate": 5.0, "actualRate": 4.2, "deviation": -87.04,
-              "periodFrom": "October 16", "periodTo": "October 16",
+              "id": "lingo-ventures-oct-nok",
+              "title": "NOK Card underpayment",
+              "partLabel": "Smartflow",
+              "contractRate": 4.4648,
+              "actualRate": 4.4323,
+              "deviation": -87.04,
+              "periodFrom": "Oct 1",
+              "periodTo": "Oct 31",
               "investigationId": "INV-2025-0049"
             },
             {
-              "id": "lingo-oct-aud", "title": "Rate 4.2% applied early — AUD Card", "partLabel": "Smartflow",
-              "contractRate": 5.0, "actualRate": 4.2, "deviation": -119.65,
-              "periodFrom": "October 16", "periodTo": "October 16",
-              "investigationId": "INV-2025-0050"
+              "id": "lingo-ventures-oct-try",
+              "title": "TRY Card underpayment",
+              "partLabel": "Smartflow",
+              "contractRate": 4.6758,
+              "actualRate": 4.6503,
+              "deviation": -196.44,
+              "periodFrom": "Oct 1",
+              "periodTo": "Oct 31",
+              "investigationId": "INV-2025-0047"
+            },
+            {
+              "id": "lingo-ventures-oct-usd",
+              "title": "USD Card underpayment",
+              "partLabel": "Smartflow",
+              "contractRate": 4.4428,
+              "actualRate": 4.412,
+              "deviation": -51.53,
+              "periodFrom": "Oct 1",
+              "periodTo": "Oct 31",
+              "investigationId": "INV-2025-0048"
             }
           ],
-          "hasRateChange": true, "rateChangeInfo": "5.0% -> 4.2% from Oct 17"
+          "hasRateChange": true,
+          "rateChangeInfo": "5.0% -> 4.2% from Oct 17"
         },
-        "nov": { "turnover": 3271109.66, "commission": 137388.18, "deviation": 0, "cases": [] },
-        "dec": { "turnover": 5719072.86, "commission": 240203.31, "deviation": 0, "cases": [] }
+        "nov": {
+          "turnover": 3271109.66,
+          "commission": 137388.18,
+          "deviation": -1.37,
+          "cases": [
+            {
+              "id": "lingo-ventures-nov-cad",
+              "title": "CAD Card underpayment",
+              "partLabel": "Smartflow",
+              "contractRate": 4.2008,
+              "actualRate": 4.1759,
+              "deviation": -1.37,
+              "periodFrom": "Nov 1",
+              "periodTo": "Nov 30"
+            }
+          ]
+        },
+        "dec": {
+          "turnover": 5719072.86,
+          "commission": 240203.31,
+          "deviation": 0.0,
+          "cases": []
+        }
       }
     },
     {
@@ -115,58 +266,127 @@
       "contract": "No. 11/12-01/OB",
       "months": {
         "jan": {
-          "turnover": 2381936.09, "commission": 119101.92, "deviation": 119101.92,
+          "turnover": 2381936.09,
+          "commission": 119101.92,
+          "deviation": 119101.92,
           "cases": [
             {
-              "id": "trading-tech-jan-1", "title": "No acquiring contract", "partLabel": "Paymentz",
-              "contractRate": 0, "actualRate": 5.0, "deviation": 119101.92,
-              "periodFrom": "January 1", "periodTo": "January 31",
+              "id": "trading-tech-jan-eur",
+              "title": "No acquiring contract",
+              "partLabel": "Paymentz",
+              "contractRate": 0,
+              "actualRate": 5.0002,
+              "deviation": 119101.92,
+              "periodFrom": "Jan 1",
+              "periodTo": "Jan 31",
               "investigationId": "INV-2025-0046"
             }
           ]
         },
         "feb": {
-          "turnover": 2385199.97, "commission": 119266.38, "deviation": 119266.38,
+          "turnover": 2385199.97,
+          "commission": 119266.38,
+          "deviation": 119266.38,
           "cases": [
             {
-              "id": "trading-tech-feb-1", "title": "No acquiring contract", "partLabel": "Paymentz",
-              "contractRate": 0, "actualRate": 5.0, "deviation": 119266.38,
-              "periodFrom": "February 1", "periodTo": "February 28",
+              "id": "trading-tech-feb-eur",
+              "title": "No acquiring contract",
+              "partLabel": "Paymentz",
+              "contractRate": 0,
+              "actualRate": 5.0003,
+              "deviation": 119266.38,
+              "periodFrom": "Feb 1",
+              "periodTo": "Feb 28",
               "investigationId": "INV-2025-0046"
             }
           ]
         },
         "mar": {
-          "turnover": 2296326.49, "commission": 113191.27, "deviation": 71798.80,
+          "turnover": 2296326.59,
+          "commission": 113191.27,
+          "deviation": 71798.8,
           "cases": [
             {
-              "id": "trading-tech-mar-1", "title": "No acquiring contract (1.75% undocumented)", "partLabel": "Paymentz",
-              "contractRate": 0, "actualRate": 1.75, "deviation": 71798.80,
-              "periodFrom": "March 1", "periodTo": "March 31",
+              "id": "trading-tech-mar-eur",
+              "title": "No acquiring contract",
+              "partLabel": "Paymentz",
+              "contractRate": 1.8026,
+              "actualRate": 4.9292,
+              "deviation": 71798.8,
+              "periodFrom": "Mar 1",
+              "periodTo": "Mar 31",
               "investigationId": "INV-2025-0046"
             }
           ],
-          "hasRateChange": true, "rateChangeInfo": "5.0% -> 4.8% from Mar 19"
+          "hasRateChange": true,
+          "rateChangeInfo": "5.0% -> 4.8% from Mar 19"
         },
         "apr": {
-          "turnover": 736242.29, "commission": 35339.15, "deviation": 12915.99,
+          "turnover": 736242.29,
+          "commission": 35339.15,
+          "deviation": 12915.99,
           "cases": [
             {
-              "id": "trading-tech-apr-1", "title": "No acquiring contract (1.75% undocumented)", "partLabel": "Paymentz",
-              "contractRate": 0, "actualRate": 1.75, "deviation": 12915.99,
-              "periodFrom": "April 1", "periodTo": "April 9",
+              "id": "trading-tech-apr-eur",
+              "title": "No acquiring contract",
+              "partLabel": "Paymentz",
+              "contractRate": 3.0456,
+              "actualRate": 4.7999,
+              "deviation": 12915.99,
+              "periodFrom": "Apr 1",
+              "periodTo": "Apr 30",
               "investigationId": "INV-2025-0046"
             }
           ]
         },
-        "may": { "turnover": 0, "commission": 0, "deviation": 0, "cases": [] },
-        "jun": { "turnover": 0, "commission": 0, "deviation": 0, "cases": [] },
-        "jul": { "turnover": 0, "commission": 0, "deviation": 0, "cases": [] },
-        "aug": { "turnover": 0, "commission": 0, "deviation": 0, "cases": [] },
-        "sep": { "turnover": 0, "commission": 0, "deviation": 0, "cases": [] },
-        "oct": { "turnover": 0, "commission": 0, "deviation": 0, "cases": [] },
-        "nov": { "turnover": 0, "commission": 0, "deviation": 0, "cases": [] },
-        "dec": { "turnover": 0, "commission": 0, "deviation": 0, "cases": [] }
+        "may": {
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
+          "cases": []
+        },
+        "jun": {
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
+          "cases": []
+        },
+        "jul": {
+          "turnover": 386.0,
+          "commission": 11.58,
+          "deviation": 0.0,
+          "cases": []
+        },
+        "aug": {
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
+          "cases": []
+        },
+        "sep": {
+          "turnover": 0.0,
+          "commission": 0.0,
+          "deviation": 0.0,
+          "cases": []
+        },
+        "oct": {
+          "turnover": 33945.55,
+          "commission": 1018.4,
+          "deviation": 0.0,
+          "cases": []
+        },
+        "nov": {
+          "turnover": 46167.26,
+          "commission": 1385.0,
+          "deviation": 0.0,
+          "cases": []
+        },
+        "dec": {
+          "turnover": 57142.88,
+          "commission": 1709.78,
+          "deviation": 0.0,
+          "cases": []
+        }
       }
     },
     {
@@ -176,217 +396,376 @@
       "contract": "Multiple agreements",
       "months": {
         "jan": {
-          "turnover": 5000185.08, "commission": 260938.90, "deviation": 10238.03,
+          "turnover": 4852102.15,
+          "commission": 253534.07,
+          "deviation": 2833.2,
           "cases": [
             {
-              "id": "redwerk-jan-1", "title": "Kurtley VISA rate mismatch", "partLabel": "Kurtley",
-              "contractRate": 6.7, "actualRate": 6.02, "deviation": -5227.62,
-              "periodFrom": "January 1", "periodTo": "January 31"
+              "id": "redwerk-jan-eur",
+              "title": "Kurtley VISA rate mismatch",
+              "partLabel": "Kurtley",
+              "contractRate": 6.7,
+              "actualRate": 6.0233,
+              "deviation": -5227.62,
+              "periodFrom": "Jan 1",
+              "periodTo": "Jan 31"
             },
             {
-              "id": "redwerk-jan-2", "title": "No contract (Lingome MK 1073)", "partLabel": "Smartflow",
-              "contractRate": 0, "actualRate": 5.0, "deviation": 7404.83,
-              "periodFrom": "January 1", "periodTo": "January 31"
-            },
-            {
-              "id": "redwerk-jan-3", "title": "No contract (NOK MK 1262)", "partLabel": "Smartflow",
-              "contractRate": 0, "actualRate": 8.0, "deviation": 8060.82,
-              "periodFrom": "January 1", "periodTo": "January 31"
+              "id": "redwerk-jan-nok",
+              "title": "No contract (NOK MK 1262)",
+              "partLabel": "Smartflow",
+              "contractRate": 0,
+              "actualRate": 8.0,
+              "deviation": 8060.82,
+              "periodFrom": "Jan 1",
+              "periodTo": "Jan 31"
             }
           ],
-          "hasRateChange": true, "rateChangeInfo": "Kurtley 6.7% (Add No 3)"
+          "hasRateChange": true,
+          "rateChangeInfo": "Kurtley 6.7% (Add No 3)"
         },
         "feb": {
-          "turnover": 7230988.38, "commission": 404662.93, "deviation": 60296.96,
+          "turnover": 7045928.78,
+          "commission": 395409.99,
+          "deviation": 51044.02,
           "cases": [
             {
-              "id": "redwerk-feb-1", "title": "Kurtley VISA rate mismatch", "partLabel": "Kurtley",
-              "contractRate": 5.2, "actualRate": 7.23, "deviation": 30509.90,
-              "periodFrom": "February 1", "periodTo": "February 28"
+              "id": "redwerk-feb-cad",
+              "title": "No contract (CAD MK 1310)",
+              "partLabel": "Smartflow",
+              "contractRate": 0,
+              "actualRate": 8.0,
+              "deviation": 32.68,
+              "periodFrom": "Feb 1",
+              "periodTo": "Feb 28"
             },
             {
-              "id": "redwerk-feb-2", "title": "No contract (NOK MK 1262)", "partLabel": "Smartflow",
-              "contractRate": 0, "actualRate": 8.0, "deviation": 20501.44,
-              "periodFrom": "February 1", "periodTo": "February 28"
+              "id": "redwerk-feb-eur",
+              "title": "Kurtley VISA rate mismatch",
+              "partLabel": "Kurtley",
+              "contractRate": 5.2,
+              "actualRate": 7.2341,
+              "deviation": 30509.9,
+              "periodFrom": "Feb 1",
+              "periodTo": "Feb 28"
             },
             {
-              "id": "redwerk-feb-3", "title": "No contract (Lingome MK 1073)", "partLabel": "Smartflow",
-              "contractRate": 0, "actualRate": 5.0, "deviation": 9252.94,
-              "periodFrom": "February 1", "periodTo": "February 28"
-            },
-            {
-              "id": "redwerk-feb-4", "title": "No contract (CAD MK 1310)", "partLabel": "Smartflow",
-              "contractRate": 0, "actualRate": 8.0, "deviation": 32.68,
-              "periodFrom": "February 1", "periodTo": "February 28"
+              "id": "redwerk-feb-nok",
+              "title": "No contract (NOK MK 1262)",
+              "partLabel": "Smartflow",
+              "contractRate": 0,
+              "actualRate": 8.0,
+              "deviation": 20501.44,
+              "periodFrom": "Feb 1",
+              "periodTo": "Feb 28"
             }
           ],
-          "hasRateChange": true, "rateChangeInfo": "Kurtley 6.7% -> 5.2% from Feb 6"
+          "hasRateChange": true,
+          "rateChangeInfo": "Kurtley 6.7% -> 5.2% from Feb 6"
         },
         "mar": {
-          "turnover": 7828477.66, "commission": 416934.75, "deviation": 53072.99,
+          "turnover": 7828477.66,
+          "commission": 416934.75,
+          "deviation": 53072.99,
           "cases": [
             {
-              "id": "redwerk-mar-1", "title": "No contract (NOK MK 1262)", "partLabel": "Smartflow",
-              "contractRate": 0, "actualRate": 8.0, "deviation": 26467.44,
-              "periodFrom": "March 1", "periodTo": "March 31"
+              "id": "redwerk-mar-cad",
+              "title": "No contract (CAD MK 1310)",
+              "partLabel": "Smartflow",
+              "contractRate": 0,
+              "actualRate": 8.0,
+              "deviation": 557.99,
+              "periodFrom": "Mar 1",
+              "periodTo": "Mar 31"
             },
             {
-              "id": "redwerk-mar-2", "title": "Kurtley VISA rate mismatch", "partLabel": "Kurtley",
-              "contractRate": 5.2, "actualRate": 7.07, "deviation": 19325.17,
-              "periodFrom": "March 1", "periodTo": "March 31"
+              "id": "redwerk-mar-eur",
+              "title": "Kurtley VISA rate mismatch",
+              "partLabel": "Kurtley",
+              "contractRate": 5.2,
+              "actualRate": 7.0666,
+              "deviation": 19325.17,
+              "periodFrom": "Mar 1",
+              "periodTo": "Mar 31"
             },
             {
-              "id": "redwerk-mar-3", "title": "No contract (Lingome MK 1073)", "partLabel": "Smartflow",
-              "contractRate": 0, "actualRate": 3.1, "deviation": 6722.39,
-              "periodFrom": "March 1", "periodTo": "March 31"
+              "id": "redwerk-mar-lingome",
+              "title": "No contract (Lingome MK 1073)",
+              "partLabel": "Smartflow",
+              "contractRate": 0,
+              "actualRate": 3.1036,
+              "deviation": 6722.39,
+              "periodFrom": "Mar 1",
+              "periodTo": "Mar 31"
             },
             {
-              "id": "redwerk-mar-4", "title": "No contract (CAD MK 1310)", "partLabel": "Smartflow",
-              "contractRate": 0, "actualRate": 8.0, "deviation": 557.99,
-              "periodFrom": "March 1", "periodTo": "March 31"
+              "id": "redwerk-mar-nok",
+              "title": "No contract (NOK MK 1262)",
+              "partLabel": "Smartflow",
+              "contractRate": 0,
+              "actualRate": 8.0,
+              "deviation": 26467.44,
+              "periodFrom": "Mar 1",
+              "periodTo": "Mar 31"
             }
           ],
-          "hasRateChange": true, "rateChangeInfo": "5.0% -> 4.8% from Mar 19"
+          "hasRateChange": true,
+          "rateChangeInfo": "5.0% -> 4.8% from Mar 19"
         },
         "apr": {
-          "turnover": 10017069.53, "commission": 491566.83, "deviation": 23365.73,
+          "turnover": 10017069.53,
+          "commission": 491566.83,
+          "deviation": 23365.73,
           "cases": [
             {
-              "id": "redwerk-apr-1", "title": "No contract (NOK MK 1262)", "partLabel": "Smartflow",
-              "contractRate": 0, "actualRate": 8.0, "deviation": 19368.32,
-              "periodFrom": "April 1", "periodTo": "April 30"
+              "id": "redwerk-apr-cad",
+              "title": "No contract (CAD MK 1310)",
+              "partLabel": "Smartflow",
+              "contractRate": 0,
+              "actualRate": 8.0,
+              "deviation": 1168.23,
+              "periodFrom": "Apr 1",
+              "periodTo": "Apr 30"
             },
             {
-              "id": "redwerk-apr-2", "title": "No contract (Lingome MK 1073)", "partLabel": "Smartflow",
-              "contractRate": 0, "actualRate": 1.76, "deviation": 2829.18,
-              "periodFrom": "April 1", "periodTo": "April 30"
+              "id": "redwerk-apr-lingome",
+              "title": "No contract (Lingome MK 1073)",
+              "partLabel": "Smartflow",
+              "contractRate": 0,
+              "actualRate": 1.7555,
+              "deviation": 2829.18,
+              "periodFrom": "Apr 1",
+              "periodTo": "Apr 30"
             },
             {
-              "id": "redwerk-apr-3", "title": "No contract (CAD MK 1310)", "partLabel": "Smartflow",
-              "contractRate": 0, "actualRate": 8.0, "deviation": 1168.23,
-              "periodFrom": "April 1", "periodTo": "April 30"
+              "id": "redwerk-apr-nok",
+              "title": "No contract (NOK MK 1262)",
+              "partLabel": "Smartflow",
+              "contractRate": 0,
+              "actualRate": 8.0,
+              "deviation": 19368.32,
+              "periodFrom": "Apr 1",
+              "periodTo": "Apr 30"
             }
           ]
         },
         "may": {
-          "turnover": 9686847.13, "commission": 475830.48, "deviation": 35917.49,
+          "turnover": 9686847.13,
+          "commission": 475830.48,
+          "deviation": 35917.49,
           "cases": [
             {
-              "id": "redwerk-may-1", "title": "No contract (NOK MK 1262)", "partLabel": "Smartflow",
-              "contractRate": 0, "actualRate": 7.55, "deviation": 12840.38,
-              "periodFrom": "May 1", "periodTo": "May 31"
+              "id": "redwerk-may-cad",
+              "title": "No contract (CAD MK 1310)",
+              "partLabel": "Smartflow",
+              "contractRate": 0,
+              "actualRate": 7.408,
+              "deviation": 1264.97,
+              "periodFrom": "May 1",
+              "periodTo": "May 31"
             },
             {
-              "id": "redwerk-may-2", "title": "Kurtley VISA rate mismatch", "partLabel": "Kurtley",
-              "contractRate": 5.2, "actualRate": 7.59, "deviation": 12103.10,
-              "periodFrom": "May 1", "periodTo": "May 31"
+              "id": "redwerk-may-eur",
+              "title": "Kurtley VISA rate mismatch",
+              "partLabel": "Kurtley",
+              "contractRate": 5.2,
+              "actualRate": 7.5913,
+              "deviation": 12103.1,
+              "periodFrom": "May 1",
+              "periodTo": "May 31"
             },
             {
-              "id": "redwerk-may-3", "title": "No contract (Lingome MK 1073)", "partLabel": "Smartflow",
-              "contractRate": 0, "actualRate": 1.76, "deviation": 9709.04,
-              "periodFrom": "May 1", "periodTo": "May 31"
+              "id": "redwerk-may-lingome",
+              "title": "No contract (Lingome MK 1073)",
+              "partLabel": "Smartflow",
+              "contractRate": 0,
+              "actualRate": 1.7553,
+              "deviation": 9709.04,
+              "periodFrom": "May 1",
+              "periodTo": "May 31"
             },
             {
-              "id": "redwerk-may-4", "title": "No contract (CAD MK 1310)", "partLabel": "Smartflow",
-              "contractRate": 0, "actualRate": 7.41, "deviation": 1264.97,
-              "periodFrom": "May 1", "periodTo": "May 31"
+              "id": "redwerk-may-nok",
+              "title": "No contract (NOK MK 1262)",
+              "partLabel": "Smartflow",
+              "contractRate": 0,
+              "actualRate": 7.546,
+              "deviation": 12840.38,
+              "periodFrom": "May 1",
+              "periodTo": "May 31"
             }
           ],
-          "hasRateChange": true, "rateChangeInfo": "Kurtley 5.2% -> 5.75% from May 16"
+          "hasRateChange": true,
+          "rateChangeInfo": "Kurtley 5.2% -> 5.75% from May 16"
         },
         "jun": {
-          "turnover": 30938090.62, "commission": 1618970.49, "deviation": 48375.37,
+          "turnover": 30938090.62,
+          "commission": 1618970.49,
+          "deviation": 48375.37,
           "cases": [
             {
-              "id": "redwerk-jun-1", "title": "Kurtley VISA rate mismatch", "partLabel": "Kurtley",
-              "contractRate": 5.75, "actualRate": 7.76, "deviation": 48375.38,
-              "periodFrom": "June 1", "periodTo": "June 30"
+              "id": "redwerk-jun-eur",
+              "title": "Kurtley VISA rate mismatch",
+              "partLabel": "Kurtley",
+              "contractRate": 5.75,
+              "actualRate": 7.7648,
+              "deviation": 48375.38,
+              "periodFrom": "Jun 1",
+              "periodTo": "Jun 30"
             }
           ]
         },
         "jul": {
-          "turnover": 28372037.91, "commission": 1451038.81, "deviation": 26844.96,
+          "turnover": 28372037.91,
+          "commission": 1451038.81,
+          "deviation": 26844.96,
           "cases": [
             {
-              "id": "redwerk-jul-1", "title": "Kurtley VISA rate mismatch", "partLabel": "Kurtley",
-              "contractRate": 5.75, "actualRate": 7.7, "deviation": 27423.17,
-              "periodFrom": "July 1", "periodTo": "July 31"
+              "id": "redwerk-jul-eur",
+              "title": "Kurtley VISA rate mismatch",
+              "partLabel": "Kurtley",
+              "contractRate": 5.75,
+              "actualRate": 7.6974,
+              "deviation": 27423.17,
+              "periodFrom": "Jul 1",
+              "periodTo": "Jul 31"
             },
             {
-              "id": "redwerk-jul-2", "title": "VISA MK 20088 rate below contract", "partLabel": "Kurtley",
-              "contractRate": 5.75, "actualRate": 5.3, "deviation": -617.11,
-              "periodFrom": "July 1", "periodTo": "July 15"
+              "id": "redwerk-jul-lingome",
+              "title": "No contract (Lingome MK 1073)",
+              "partLabel": "Smartflow",
+              "contractRate": 0,
+              "actualRate": 1.7679,
+              "deviation": 38.9,
+              "periodFrom": "Jul 1",
+              "periodTo": "Jul 31"
             },
             {
-              "id": "redwerk-jul-3", "title": "No contract (Lingome MK 1073)", "partLabel": "Smartflow",
-              "contractRate": 0, "actualRate": 1.77, "deviation": 38.90,
-              "periodFrom": "July 18", "periodTo": "July 31"
+              "id": "redwerk-jul-visa",
+              "title": "VISA MK 20088 rate below contract",
+              "partLabel": "Kurtley/Trendbeam",
+              "contractRate": 5.75,
+              "actualRate": 5.3,
+              "deviation": -617.11,
+              "periodFrom": "Jul 1",
+              "periodTo": "Jul 31"
             }
           ]
         },
         "aug": {
-          "turnover": 27663782.98, "commission": 1373242.04, "deviation": 421.51,
+          "turnover": 27663782.98,
+          "commission": 1373242.04,
+          "deviation": 421.51,
           "cases": [
             {
-              "id": "redwerk-aug-1", "title": "No contract (Lingome MK 1073)", "partLabel": "Smartflow",
-              "contractRate": 0, "actualRate": 7.0, "deviation": 421.51,
-              "periodFrom": "August 1", "periodTo": "August 31"
+              "id": "redwerk-aug-lingome",
+              "title": "No contract (Lingome MK 1073)",
+              "partLabel": "Smartflow",
+              "contractRate": 0,
+              "actualRate": 7.0,
+              "deviation": 421.51,
+              "periodFrom": "Aug 1",
+              "periodTo": "Aug 31"
             }
           ]
         },
         "sep": {
-          "turnover": 43652281.24, "commission": 2176903.76, "deviation": 366.40,
+          "turnover": 43652281.24,
+          "commission": 2176903.76,
+          "deviation": 366.4,
           "cases": [
             {
-              "id": "redwerk-sep-1", "title": "No contract (Lingome MK 1073)", "partLabel": "Smartflow",
-              "contractRate": 0, "actualRate": 7.0, "deviation": 366.40,
-              "periodFrom": "September 1", "periodTo": "September 30"
+              "id": "redwerk-sep-lingome",
+              "title": "No contract (Lingome MK 1073)",
+              "partLabel": "Smartflow",
+              "contractRate": 0,
+              "actualRate": 7.0,
+              "deviation": 366.4,
+              "periodFrom": "Sep 1",
+              "periodTo": "Sep 30"
             }
           ]
         },
         "oct": {
-          "turnover": 4685448.37, "commission": 226113.04, "deviation": -143.13,
+          "turnover": 4685448.37,
+          "commission": 226113.04,
+          "deviation": -143.13,
           "cases": [
             {
-              "id": "redwerk-oct-1", "title": "CAD rate below contract", "partLabel": "Smartflow",
-              "contractRate": 5.0, "actualRate": 4.56, "deviation": -301.62,
-              "periodFrom": "October 1", "periodTo": "October 31"
+              "id": "redwerk-oct-cad",
+              "title": "CAD Card underpayment",
+              "partLabel": "Smartflow",
+              "contractRate": 5.0,
+              "actualRate": 4.5623,
+              "deviation": -301.62,
+              "periodFrom": "Oct 1",
+              "periodTo": "Oct 31"
             },
             {
-              "id": "redwerk-oct-2", "title": "No contract (Lingome MK 1073)", "partLabel": "Smartflow",
-              "contractRate": 0, "actualRate": 7.0, "deviation": 158.49,
-              "periodFrom": "October 1", "periodTo": "October 31"
+              "id": "redwerk-oct-lingome",
+              "title": "No contract (Lingome MK 1073)",
+              "partLabel": "Smartflow",
+              "contractRate": 0,
+              "actualRate": 7.0,
+              "deviation": 158.49,
+              "periodFrom": "Oct 1",
+              "periodTo": "Oct 31"
             }
           ],
-          "hasRateChange": true, "rateChangeInfo": "4.8% -> 4.2% from Oct 16"
+          "hasRateChange": true,
+          "rateChangeInfo": "4.8% -> 4.2% from Oct 16"
         },
         "nov": {
-          "turnover": 768651.73, "commission": 31021.43, "deviation": -529.97,
+          "turnover": 768651.73,
+          "commission": 31021.43,
+          "deviation": -529.97,
           "cases": [
             {
-              "id": "redwerk-nov-1", "title": "CAD rate below contract", "partLabel": "Smartflow",
-              "contractRate": 5.0, "actualRate": 4.2, "deviation": -635.77,
-              "periodFrom": "November 1", "periodTo": "November 30"
+              "id": "redwerk-nov-cad",
+              "title": "CAD Card underpayment",
+              "partLabel": "Smartflow",
+              "contractRate": 5.0,
+              "actualRate": 4.2,
+              "deviation": -635.77,
+              "periodFrom": "Nov 1",
+              "periodTo": "Nov 30"
             },
             {
-              "id": "redwerk-nov-2", "title": "No contract (Lingome MK 1073)", "partLabel": "Smartflow",
-              "contractRate": 0, "actualRate": 7.0, "deviation": 105.80,
-              "periodFrom": "November 1", "periodTo": "November 30"
+              "id": "redwerk-nov-lingome",
+              "title": "No contract (Lingome MK 1073)",
+              "partLabel": "Smartflow",
+              "contractRate": 0,
+              "actualRate": 7.0,
+              "deviation": 105.8,
+              "periodFrom": "Nov 1",
+              "periodTo": "Nov 30"
             }
           ]
         },
         "dec": {
-          "turnover": 226504.83, "commission": 9517.20, "deviation": -486.38,
+          "turnover": 226504.83,
+          "commission": 9517.2,
+          "deviation": -486.38,
           "cases": [
             {
-              "id": "redwerk-dec-1", "title": "CAD rate below contract", "partLabel": "Smartflow",
-              "contractRate": 5.0, "actualRate": 4.2, "deviation": -494.12,
-              "periodFrom": "December 1", "periodTo": "December 31"
+              "id": "redwerk-dec-cad",
+              "title": "CAD Card underpayment",
+              "partLabel": "Smartflow",
+              "contractRate": 5.0,
+              "actualRate": 4.2,
+              "deviation": -494.12,
+              "periodFrom": "Dec 1",
+              "periodTo": "Dec 31"
             },
             {
-              "id": "redwerk-dec-2", "title": "No contract (Lingome MK 1073)", "partLabel": "Smartflow",
-              "contractRate": 0, "actualRate": 7.0, "deviation": 7.74,
-              "periodFrom": "December 1", "periodTo": "December 31"
+              "id": "redwerk-dec-lingome",
+              "title": "No contract (Lingome MK 1073)",
+              "partLabel": "Smartflow",
+              "contractRate": 0,
+              "actualRate": 7.0,
+              "deviation": 7.74,
+              "periodFrom": "Dec 1",
+              "periodTo": "Dec 31"
             }
           ]
         }

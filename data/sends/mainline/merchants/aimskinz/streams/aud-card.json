@@ -29,7 +29,783 @@
           "contractSource": "Agreement 01/08-01"
         }
       ],
-      "days": []
+      "days": [
+        {
+          "day": 1,
+          "date": "Oct 1",
+          "turnover": 96998.5,
+          "regCommission": 3685.98,
+          "regTxCount": 1221,
+          "reconTurnover": 96998.5,
+          "reconCommission": 3685.95,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 3685.95,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 3685.95,
+              "contractRate": 3.8,
+              "contractAmount": 3685.95,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 2,
+          "date": "Oct 2",
+          "turnover": 81193.05,
+          "regCommission": 3085.36,
+          "regTxCount": 1050,
+          "reconTurnover": 81193.05,
+          "reconCommission": 3085.34,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 3085.34,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 3085.34,
+              "contractRate": 3.8,
+              "contractAmount": 3085.34,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 3,
+          "date": "Oct 3",
+          "turnover": 66816.35,
+          "regCommission": 2539.01,
+          "regTxCount": 938,
+          "reconTurnover": 66816.35,
+          "reconCommission": 2539.03,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 2539.03,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 2539.03,
+              "contractRate": 3.8,
+              "contractAmount": 2539.03,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 4,
+          "date": "Oct 4",
+          "turnover": 74946.75,
+          "regCommission": 2848.01,
+          "regTxCount": 919,
+          "reconTurnover": 74946.75,
+          "reconCommission": 2847.98,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 2847.98,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 2847.98,
+              "contractRate": 3.8,
+              "contractAmount": 2847.98,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 5,
+          "date": "Oct 5",
+          "turnover": 59274.25,
+          "regCommission": 2252.43,
+          "regTxCount": 758,
+          "reconTurnover": 59274.25,
+          "reconCommission": 2252.43,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 2252.43,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 2252.43,
+              "contractRate": 3.8,
+              "contractAmount": 2252.43,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 6,
+          "date": "Oct 6",
+          "turnover": 61929.75,
+          "regCommission": 2353.36,
+          "regTxCount": 795,
+          "reconTurnover": 61929.75,
+          "reconCommission": 2353.34,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 2353.34,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 2353.34,
+              "contractRate": 3.8,
+              "contractAmount": 2353.34,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 7,
+          "date": "Oct 7",
+          "turnover": 78751.25,
+          "regCommission": 2992.55,
+          "regTxCount": 1071,
+          "reconTurnover": 78751.25,
+          "reconCommission": 2992.56,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 2992.56,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 2992.56,
+              "contractRate": 3.8,
+              "contractAmount": 2992.56,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 8,
+          "date": "Oct 8",
+          "turnover": 168041.0,
+          "regCommission": 6385.52,
+          "regTxCount": 2317,
+          "reconTurnover": 168041.0,
+          "reconCommission": 6385.58,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 6385.58,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 6385.58,
+              "contractRate": 3.8,
+              "contractAmount": 6385.58,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 9,
+          "date": "Oct 9",
+          "turnover": 144280.17,
+          "regCommission": 5482.58,
+          "regTxCount": 1952,
+          "reconTurnover": 144280.17,
+          "reconCommission": 5482.66,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 5482.66,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 5482.66,
+              "contractRate": 3.8,
+              "contractAmount": 5482.66,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 10,
+          "date": "Oct 10",
+          "turnover": 107849.07,
+          "regCommission": 4098.29,
+          "regTxCount": 1448,
+          "reconTurnover": 107849.07,
+          "reconCommission": 4098.28,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 4098.28,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 4098.28,
+              "contractRate": 3.8,
+              "contractAmount": 4098.28,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 11,
+          "date": "Oct 11",
+          "turnover": 79318.39,
+          "regCommission": 3014.14,
+          "regTxCount": 1028,
+          "reconTurnover": 79318.39,
+          "reconCommission": 3014.11,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 3014.11,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 3014.11,
+              "contractRate": 3.8,
+              "contractAmount": 3014.11,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 12,
+          "date": "Oct 12",
+          "turnover": 73888.03,
+          "regCommission": 2807.75,
+          "regTxCount": 1011,
+          "reconTurnover": 73888.03,
+          "reconCommission": 2807.75,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 2807.75,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 2807.75,
+              "contractRate": 3.8,
+              "contractAmount": 2807.75,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 13,
+          "date": "Oct 13",
+          "turnover": 70438.84,
+          "regCommission": 2676.75,
+          "regTxCount": 996,
+          "reconTurnover": 70438.84,
+          "reconCommission": 2676.68,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 2676.68,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 2676.68,
+              "contractRate": 3.8,
+              "contractAmount": 2676.68,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 14,
+          "date": "Oct 14",
+          "turnover": 111330.82,
+          "regCommission": 4230.57,
+          "regTxCount": 1521,
+          "reconTurnover": 111330.82,
+          "reconCommission": 4230.58,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 4230.58,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 4230.58,
+              "contractRate": 3.8,
+              "contractAmount": 4230.58,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 15,
+          "date": "Oct 15",
+          "turnover": 161559.25,
+          "regCommission": 6139.28,
+          "regTxCount": 2285,
+          "reconTurnover": 161559.25,
+          "reconCommission": 6139.27,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 6139.27,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 6139.27,
+              "contractRate": 3.8,
+              "contractAmount": 6139.27,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 16,
+          "date": "Oct 16",
+          "turnover": 156452.25,
+          "regCommission": 5945.22,
+          "regTxCount": 2246,
+          "reconTurnover": 156452.25,
+          "reconCommission": 5945.2,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 5945.2,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 5945.2,
+              "contractRate": 3.8,
+              "contractAmount": 5945.2,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 17,
+          "date": "Oct 17",
+          "turnover": 114053.5,
+          "regCommission": 4334.08,
+          "regTxCount": 1629,
+          "reconTurnover": 114053.5,
+          "reconCommission": 4334.05,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 4334.05,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 4334.05,
+              "contractRate": 3.8,
+              "contractAmount": 4334.05,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 18,
+          "date": "Oct 18",
+          "turnover": 115352.97,
+          "regCommission": 4383.39,
+          "regTxCount": 1555,
+          "reconTurnover": 115352.97,
+          "reconCommission": 4383.43,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 4383.43,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 4383.43,
+              "contractRate": 3.8,
+              "contractAmount": 4383.43,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 19,
+          "date": "Oct 19",
+          "turnover": 94426.75,
+          "regCommission": 3588.22,
+          "regTxCount": 1253,
+          "reconTurnover": 94426.75,
+          "reconCommission": 3588.23,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 3588.23,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 3588.23,
+              "contractRate": 3.8,
+              "contractAmount": 3588.23,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 20,
+          "date": "Oct 20",
+          "turnover": 151682.06,
+          "regCommission": 5763.98,
+          "regTxCount": 2121,
+          "reconTurnover": 151682.06,
+          "reconCommission": 5763.93,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 5763.93,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 5763.93,
+              "contractRate": 3.8,
+              "contractAmount": 5763.93,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 21,
+          "date": "Oct 21",
+          "turnover": 178209.07,
+          "regCommission": 6771.93,
+          "regTxCount": 2506,
+          "reconTurnover": 178209.07,
+          "reconCommission": 6771.96,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 6771.96,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 6771.96,
+              "contractRate": 3.8,
+              "contractAmount": 6771.96,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 22,
+          "date": "Oct 22",
+          "turnover": 220650.47,
+          "regCommission": 8384.82,
+          "regTxCount": 3050,
+          "reconTurnover": 220650.47,
+          "reconCommission": 8384.74,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 8384.74,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 8384.74,
+              "contractRate": 3.8,
+              "contractAmount": 8384.74,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 23,
+          "date": "Oct 23",
+          "turnover": 202628.97,
+          "regCommission": 7699.95,
+          "regTxCount": 2838,
+          "reconTurnover": 202628.97,
+          "reconCommission": 7699.92,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 7699.92,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 7699.92,
+              "contractRate": 3.8,
+              "contractAmount": 7699.92,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 24,
+          "date": "Oct 24",
+          "turnover": 198715.65,
+          "regCommission": 7551.21,
+          "regTxCount": 2765,
+          "reconTurnover": 198715.65,
+          "reconCommission": 7551.22,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 7551.22,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 7551.22,
+              "contractRate": 3.8,
+              "contractAmount": 7551.22,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 25,
+          "date": "Oct 25",
+          "turnover": 169860.41,
+          "regCommission": 6454.66,
+          "regTxCount": 2256,
+          "reconTurnover": 169860.41,
+          "reconCommission": 6454.71,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 6454.71,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 6454.71,
+              "contractRate": 3.8,
+              "contractAmount": 6454.71,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 26,
+          "date": "Oct 26",
+          "turnover": 139233.13,
+          "regCommission": 5290.92,
+          "regTxCount": 1956,
+          "reconTurnover": 139233.13,
+          "reconCommission": 5290.87,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 5290.87,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 5290.87,
+              "contractRate": 3.8,
+              "contractAmount": 5290.87,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 27,
+          "date": "Oct 27",
+          "turnover": 168670.13,
+          "regCommission": 6409.43,
+          "regTxCount": 2355,
+          "reconTurnover": 168670.13,
+          "reconCommission": 6409.48,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 6409.48,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 6409.48,
+              "contractRate": 3.8,
+              "contractAmount": 6409.48,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 28,
+          "date": "Oct 28",
+          "turnover": 205234.51,
+          "regCommission": 7798.87,
+          "regTxCount": 2811,
+          "reconTurnover": 205234.51,
+          "reconCommission": 7798.93,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 7798.93,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 7798.93,
+              "contractRate": 3.8,
+              "contractAmount": 7798.93,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 29,
+          "date": "Oct 29",
+          "turnover": 233003.54,
+          "regCommission": 8854.14,
+          "regTxCount": 3349,
+          "reconTurnover": 233003.54,
+          "reconCommission": 8854.16,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 8854.16,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 8854.16,
+              "contractRate": 3.8,
+              "contractAmount": 8854.16,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 30,
+          "date": "Oct 30",
+          "turnover": 149032.54,
+          "regCommission": 5663.22,
+          "regTxCount": 2181,
+          "reconTurnover": 149032.54,
+          "reconCommission": 5663.25,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 5663.25,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 5663.25,
+              "contractRate": 3.8,
+              "contractAmount": 5663.25,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 31,
+          "date": "Oct 31",
+          "turnover": 159689.7,
+          "regCommission": 6068.24,
+          "regTxCount": 2135,
+          "reconTurnover": 159689.7,
+          "reconCommission": 6068.24,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 6068.24,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 6068.24,
+              "contractRate": 3.8,
+              "contractAmount": 6068.24,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        }
+      ]
     },
     {
       "key": "sep-2025",
@@ -55,7 +831,758 @@
           "contractSource": "Agreement 01/08-01"
         }
       ],
-      "days": []
+      "days": [
+        {
+          "day": 1,
+          "date": "Sep 1",
+          "turnover": 121648.75,
+          "regCommission": 4622.73,
+          "regTxCount": 1611,
+          "reconTurnover": 121648.75,
+          "reconCommission": 4622.68,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 4622.68,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 4622.68,
+              "contractRate": 3.8,
+              "contractAmount": 4622.68,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 2,
+          "date": "Sep 2",
+          "turnover": 137550.92,
+          "regCommission": 5226.95,
+          "regTxCount": 1765,
+          "reconTurnover": 137550.92,
+          "reconCommission": 5226.97,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 5226.97,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 5226.97,
+              "contractRate": 3.8,
+              "contractAmount": 5226.97,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 3,
+          "date": "Sep 3",
+          "turnover": 146175.02,
+          "regCommission": 5554.73,
+          "regTxCount": 1889,
+          "reconTurnover": 146175.02,
+          "reconCommission": 5554.69,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 5554.69,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 5554.69,
+              "contractRate": 3.8,
+              "contractAmount": 5554.69,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 4,
+          "date": "Sep 4",
+          "turnover": 213635.0,
+          "regCommission": 8118.16,
+          "regTxCount": 2719,
+          "reconTurnover": 213635.0,
+          "reconCommission": 8118.18,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 8118.18,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 8118.18,
+              "contractRate": 3.8,
+              "contractAmount": 8118.18,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 5,
+          "date": "Sep 5",
+          "turnover": 149390.11,
+          "regCommission": 5676.85,
+          "regTxCount": 1906,
+          "reconTurnover": 149390.11,
+          "reconCommission": 5676.86,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 5676.86,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 5676.86,
+              "contractRate": 3.8,
+              "contractAmount": 5676.86,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 6,
+          "date": "Sep 6",
+          "turnover": 99994.13,
+          "regCommission": 3799.82,
+          "regTxCount": 1242,
+          "reconTurnover": 99994.13,
+          "reconCommission": 3799.8,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 3799.8,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 3799.8,
+              "contractRate": 3.8,
+              "contractAmount": 3799.8,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 7,
+          "date": "Sep 7",
+          "turnover": 62168.75,
+          "regCommission": 2362.46,
+          "regTxCount": 813,
+          "reconTurnover": 62168.75,
+          "reconCommission": 2362.43,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 2362.43,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 2362.43,
+              "contractRate": 3.8,
+              "contractAmount": 2362.43,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 8,
+          "date": "Sep 8",
+          "turnover": 49180.48,
+          "regCommission": 1868.87,
+          "regTxCount": 417,
+          "reconTurnover": 49180.48,
+          "reconCommission": 1868.87,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 1868.87,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 1868.87,
+              "contractRate": 3.8,
+              "contractAmount": 1868.87,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 9,
+          "date": "Sep 9",
+          "turnover": 51956.68,
+          "regCommission": 1974.39,
+          "regTxCount": 627,
+          "reconTurnover": 51956.68,
+          "reconCommission": 1974.37,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 1974.37,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 1974.37,
+              "contractRate": 3.8,
+              "contractAmount": 1974.37,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 10,
+          "date": "Sep 10",
+          "turnover": 135726.9,
+          "regCommission": 5157.62,
+          "regTxCount": 1749,
+          "reconTurnover": 135726.9,
+          "reconCommission": 5157.66,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 5157.66,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 5157.66,
+              "contractRate": 3.8,
+              "contractAmount": 5157.66,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 11,
+          "date": "Sep 11",
+          "turnover": 129530.25,
+          "regCommission": 4922.17,
+          "regTxCount": 1631,
+          "reconTurnover": 129530.25,
+          "reconCommission": 4922.18,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 4922.18,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 4922.18,
+              "contractRate": 3.8,
+              "contractAmount": 4922.18,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 12,
+          "date": "Sep 12",
+          "turnover": 92162.15,
+          "regCommission": 3502.22,
+          "regTxCount": 1185,
+          "reconTurnover": 92162.15,
+          "reconCommission": 3502.18,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 3502.18,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 3502.18,
+              "contractRate": 3.8,
+              "contractAmount": 3502.18,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 13,
+          "date": "Sep 13",
+          "turnover": 67743.7,
+          "regCommission": 2574.28,
+          "regTxCount": 826,
+          "reconTurnover": 67743.7,
+          "reconCommission": 2574.28,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 2574.28,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 2574.28,
+              "contractRate": 3.8,
+              "contractAmount": 2574.28,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 14,
+          "date": "Sep 14",
+          "turnover": 53362.41,
+          "regCommission": 2027.83,
+          "regTxCount": 660,
+          "reconTurnover": 53362.41,
+          "reconCommission": 2027.78,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 2027.78,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 2027.78,
+              "contractRate": 3.8,
+              "contractAmount": 2027.78,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 15,
+          "date": "Sep 15",
+          "turnover": 60346.0,
+          "regCommission": 2293.13,
+          "regTxCount": 784,
+          "reconTurnover": 60346.0,
+          "reconCommission": 2293.16,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 2293.16,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 2293.16,
+              "contractRate": 3.8,
+              "contractAmount": 2293.16,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 16,
+          "date": "Sep 16",
+          "turnover": 71858.33,
+          "regCommission": 2730.67,
+          "regTxCount": 958,
+          "reconTurnover": 71858.33,
+          "reconCommission": 2730.63,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 2730.63,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 2730.63,
+              "contractRate": 3.8,
+              "contractAmount": 2730.63,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 17,
+          "date": "Sep 17",
+          "turnover": 75400.9,
+          "regCommission": 2865.26,
+          "regTxCount": 981,
+          "reconTurnover": 75400.9,
+          "reconCommission": 2865.25,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 2865.25,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 2865.25,
+              "contractRate": 3.8,
+              "contractAmount": 2865.25,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 18,
+          "date": "Sep 18",
+          "turnover": 82220.15,
+          "regCommission": 3124.44,
+          "regTxCount": 1040,
+          "reconTurnover": 82220.15,
+          "reconCommission": 3124.39,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 3124.39,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 3124.39,
+              "contractRate": 3.8,
+              "contractAmount": 3124.39,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 19,
+          "date": "Sep 19",
+          "turnover": 131873.95,
+          "regCommission": 5011.2,
+          "regTxCount": 1584,
+          "reconTurnover": 131873.95,
+          "reconCommission": 5011.24,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 5011.24,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 5011.24,
+              "contractRate": 3.8,
+              "contractAmount": 5011.24,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 20,
+          "date": "Sep 20",
+          "turnover": 79612.2,
+          "regCommission": 3025.3,
+          "regTxCount": 1013,
+          "reconTurnover": 79612.2,
+          "reconCommission": 3025.28,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 3025.28,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 3025.28,
+              "contractRate": 3.8,
+              "contractAmount": 3025.28,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 21,
+          "date": "Sep 21",
+          "turnover": 56582.8,
+          "regCommission": 2150.2,
+          "regTxCount": 732,
+          "reconTurnover": 56582.8,
+          "reconCommission": 2150.16,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 2150.16,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 2150.16,
+              "contractRate": 3.8,
+              "contractAmount": 2150.16,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 22,
+          "date": "Sep 22",
+          "turnover": 94372.75,
+          "regCommission": 3586.2,
+          "regTxCount": 1191,
+          "reconTurnover": 94372.75,
+          "reconCommission": 3586.19,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 3586.19,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 3586.19,
+              "contractRate": 3.8,
+              "contractAmount": 3586.19,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 23,
+          "date": "Sep 23",
+          "turnover": 141746.0,
+          "regCommission": 5386.33,
+          "regTxCount": 1941,
+          "reconTurnover": 141746.0,
+          "reconCommission": 5386.38,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 5386.38,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 5386.38,
+              "contractRate": 3.8,
+              "contractAmount": 5386.38,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 24,
+          "date": "Sep 24",
+          "turnover": 167356.75,
+          "regCommission": 6359.59,
+          "regTxCount": 2201,
+          "reconTurnover": 167356.75,
+          "reconCommission": 6359.6,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 6359.6,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 6359.6,
+              "contractRate": 3.8,
+              "contractAmount": 6359.6,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 25,
+          "date": "Sep 25",
+          "turnover": 194856.15,
+          "regCommission": 7404.54,
+          "regTxCount": 2676,
+          "reconTurnover": 194856.15,
+          "reconCommission": 7404.58,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 7404.58,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 7404.58,
+              "contractRate": 3.8,
+              "contractAmount": 7404.58,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 26,
+          "date": "Sep 26",
+          "turnover": 178663.25,
+          "regCommission": 6789.13,
+          "regTxCount": 2251,
+          "reconTurnover": 178663.25,
+          "reconCommission": 6789.25,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 6789.25,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 6789.25,
+              "contractRate": 3.8,
+              "contractAmount": 6789.25,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 27,
+          "date": "Sep 27",
+          "turnover": 127888.5,
+          "regCommission": 4859.79,
+          "regTxCount": 1664,
+          "reconTurnover": 127888.5,
+          "reconCommission": 4859.79,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 4859.79,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 4859.79,
+              "contractRate": 3.8,
+              "contractAmount": 4859.79,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 28,
+          "date": "Sep 28",
+          "turnover": 100029.75,
+          "regCommission": 3801.14,
+          "regTxCount": 1328,
+          "reconTurnover": 100029.75,
+          "reconCommission": 3801.16,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 3801.16,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 3801.16,
+              "contractRate": 3.8,
+              "contractAmount": 3801.16,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 29,
+          "date": "Sep 29",
+          "turnover": 83393.5,
+          "regCommission": 3168.97,
+          "regTxCount": 1163,
+          "reconTurnover": 83393.5,
+          "reconCommission": 3168.97,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 3168.97,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 3168.97,
+              "contractRate": 3.8,
+              "contractAmount": 3168.97,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 30,
+          "date": "Sep 30",
+          "turnover": 65263.0,
+          "regCommission": 2480.02,
+          "regTxCount": 889,
+          "reconTurnover": 65263.0,
+          "reconCommission": 2480.03,
+          "reconRate": 3.8001,
+          "contractRate": 3.8,
+          "contractExpected": 2480.03,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8001,
+              "amount": 2480.03,
+              "contractRate": 3.8,
+              "contractAmount": 2480.03,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        }
+      ]
     },
     {
       "key": "aug-2025",
@@ -81,7 +1608,233 @@
           "contractSource": "Agreement 01/08-01"
         }
       ],
-      "days": []
+      "days": [
+        {
+          "day": 22,
+          "date": "Aug 22",
+          "turnover": 8078.0,
+          "regCommission": 306.97,
+          "regTxCount": 64,
+          "reconTurnover": 8078.0,
+          "reconCommission": 306.97,
+          "reconRate": 3.8001,
+          "contractRate": 3.8,
+          "contractExpected": 306.97,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8001,
+              "amount": 306.97,
+              "contractRate": 3.8,
+              "contractAmount": 306.97,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 23,
+          "date": "Aug 23",
+          "turnover": 7145.0,
+          "regCommission": 271.51,
+          "regTxCount": 90,
+          "reconTurnover": 7145.0,
+          "reconCommission": 271.51,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 271.51,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 271.51,
+              "contractRate": 3.8,
+              "contractAmount": 271.51,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 24,
+          "date": "Aug 24",
+          "turnover": 7516.0,
+          "regCommission": 285.61,
+          "regTxCount": 115,
+          "reconTurnover": 7516.0,
+          "reconCommission": 285.61,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 285.61,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 285.61,
+              "contractRate": 3.8,
+              "contractAmount": 285.61,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 25,
+          "date": "Aug 25",
+          "turnover": 1985.0,
+          "regCommission": 75.43,
+          "regTxCount": 30,
+          "reconTurnover": 1985.0,
+          "reconCommission": 75.43,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 75.43,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 75.43,
+              "contractRate": 3.8,
+              "contractAmount": 75.43,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 27,
+          "date": "Aug 27",
+          "turnover": 4209.8,
+          "regCommission": 159.99,
+          "regTxCount": 46,
+          "reconTurnover": 4209.8,
+          "reconCommission": 159.97,
+          "reconRate": 3.7999,
+          "contractRate": 3.8,
+          "contractExpected": 159.97,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.7999,
+              "amount": 159.97,
+              "contractRate": 3.8,
+              "contractAmount": 159.97,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 28,
+          "date": "Aug 28",
+          "turnover": 15682.31,
+          "regCommission": 595.97,
+          "regTxCount": 198,
+          "reconTurnover": 15682.31,
+          "reconCommission": 595.93,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 595.93,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 595.93,
+              "contractRate": 3.8,
+              "contractAmount": 595.93,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 29,
+          "date": "Aug 29",
+          "turnover": 97278.49,
+          "regCommission": 3696.59,
+          "regTxCount": 1184,
+          "reconTurnover": 97278.49,
+          "reconCommission": 3696.62,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 3696.62,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 3696.62,
+              "contractRate": 3.8,
+              "contractAmount": 3696.62,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 30,
+          "date": "Aug 30",
+          "turnover": 186018.16,
+          "regCommission": 7068.75,
+          "regTxCount": 2238,
+          "reconTurnover": 186018.16,
+          "reconCommission": 7068.76,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 7068.76,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 7068.76,
+              "contractRate": 3.8,
+              "contractAmount": 7068.76,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 31,
+          "date": "Aug 31",
+          "turnover": 132488.03,
+          "regCommission": 5034.59,
+          "regTxCount": 1633,
+          "reconTurnover": 132488.03,
+          "reconCommission": 5034.61,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 5034.61,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Novatum",
+              "rate": 3.8,
+              "amount": 5034.61,
+              "contractRate": 3.8,
+              "contractAmount": 5034.61,
+              "source": "Registry",
+              "contractSource": "Agreement 01/08-01"
+            }
+          ],
+          "rateChangeDay": false
+        }
+      ]
     }
   ]
 }

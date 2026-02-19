@@ -29,7 +29,683 @@
           "contractSource": "Agreement 2025/1510-01"
         }
       ],
-      "days": []
+      "days": [
+        {
+          "day": 1,
+          "date": "Nov 1",
+          "turnover": 3642.0,
+          "regCommission": 138.4,
+          "regTxCount": 29,
+          "reconTurnover": 3642.0,
+          "reconCommission": 138.39,
+          "reconRate": 3.7998,
+          "contractRate": 3.8,
+          "contractExpected": 138.39,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Finthesis",
+              "rate": 3.7998,
+              "amount": 138.39,
+              "contractRate": 3.8,
+              "contractAmount": 138.39,
+              "source": "Registry",
+              "contractSource": "Agreement 2025/1510-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 2,
+          "date": "Nov 2",
+          "turnover": 609.0,
+          "regCommission": 23.14,
+          "regTxCount": 7,
+          "reconTurnover": 609.0,
+          "reconCommission": 23.14,
+          "reconRate": 3.7997,
+          "contractRate": 3.8,
+          "contractExpected": 23.14,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Finthesis",
+              "rate": 3.7997,
+              "amount": 23.14,
+              "contractRate": 3.8,
+              "contractAmount": 23.14,
+              "source": "Registry",
+              "contractSource": "Agreement 2025/1510-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 3,
+          "date": "Nov 3",
+          "turnover": 2782.0,
+          "regCommission": 105.72,
+          "regTxCount": 32,
+          "reconTurnover": 2782.0,
+          "reconCommission": 105.71,
+          "reconRate": 3.7998,
+          "contractRate": 3.8,
+          "contractExpected": 105.71,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Finthesis",
+              "rate": 3.7998,
+              "amount": 105.71,
+              "contractRate": 3.8,
+              "contractAmount": 105.71,
+              "source": "Registry",
+              "contractSource": "Agreement 2025/1510-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 4,
+          "date": "Nov 4",
+          "turnover": 3702.0,
+          "regCommission": 140.68,
+          "regTxCount": 36,
+          "reconTurnover": 3702.0,
+          "reconCommission": 140.67,
+          "reconRate": 3.7998,
+          "contractRate": 3.8,
+          "contractExpected": 140.67,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Finthesis",
+              "rate": 3.7998,
+              "amount": 140.67,
+              "contractRate": 3.8,
+              "contractAmount": 140.67,
+              "source": "Registry",
+              "contractSource": "Agreement 2025/1510-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 5,
+          "date": "Nov 5",
+          "turnover": 1310.0,
+          "regCommission": 49.78,
+          "regTxCount": 22,
+          "reconTurnover": 1310.0,
+          "reconCommission": 49.78,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 49.78,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Finthesis",
+              "rate": 3.8,
+              "amount": 49.78,
+              "contractRate": 3.8,
+              "contractAmount": 49.78,
+              "source": "Registry",
+              "contractSource": "Agreement 2025/1510-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 6,
+          "date": "Nov 6",
+          "turnover": 4630.0,
+          "regCommission": 175.94,
+          "regTxCount": 35,
+          "reconTurnover": 4630.0,
+          "reconCommission": 175.94,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 175.94,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Finthesis",
+              "rate": 3.8,
+              "amount": 175.94,
+              "contractRate": 3.8,
+              "contractAmount": 175.94,
+              "source": "Registry",
+              "contractSource": "Agreement 2025/1510-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 7,
+          "date": "Nov 7",
+          "turnover": 3851.0,
+          "regCommission": 146.34,
+          "regTxCount": 36,
+          "reconTurnover": 3851.0,
+          "reconCommission": 146.34,
+          "reconRate": 3.8001,
+          "contractRate": 3.8,
+          "contractExpected": 146.34,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Finthesis",
+              "rate": 3.8001,
+              "amount": 146.34,
+              "contractRate": 3.8,
+              "contractAmount": 146.34,
+              "source": "Registry",
+              "contractSource": "Agreement 2025/1510-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 8,
+          "date": "Nov 8",
+          "turnover": 1224.0,
+          "regCommission": 46.51,
+          "regTxCount": 16,
+          "reconTurnover": 1224.0,
+          "reconCommission": 46.51,
+          "reconRate": 3.7998,
+          "contractRate": 3.8,
+          "contractExpected": 46.51,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Finthesis",
+              "rate": 3.7998,
+              "amount": 46.51,
+              "contractRate": 3.8,
+              "contractAmount": 46.51,
+              "source": "Registry",
+              "contractSource": "Agreement 2025/1510-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 9,
+          "date": "Nov 9",
+          "turnover": 1386.0,
+          "regCommission": 52.66,
+          "regTxCount": 26,
+          "reconTurnover": 1386.0,
+          "reconCommission": 52.67,
+          "reconRate": 3.8001,
+          "contractRate": 3.8,
+          "contractExpected": 52.67,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Finthesis",
+              "rate": 3.8001,
+              "amount": 52.67,
+              "contractRate": 3.8,
+              "contractAmount": 52.67,
+              "source": "Registry",
+              "contractSource": "Agreement 2025/1510-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 10,
+          "date": "Nov 10",
+          "turnover": 2418.0,
+          "regCommission": 91.88,
+          "regTxCount": 17,
+          "reconTurnover": 2418.0,
+          "reconCommission": 91.88,
+          "reconRate": 3.7998,
+          "contractRate": 3.8,
+          "contractExpected": 91.88,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Finthesis",
+              "rate": 3.7998,
+              "amount": 91.88,
+              "contractRate": 3.8,
+              "contractAmount": 91.88,
+              "source": "Registry",
+              "contractSource": "Agreement 2025/1510-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 11,
+          "date": "Nov 11",
+          "turnover": 1473.0,
+          "regCommission": 55.97,
+          "regTxCount": 19,
+          "reconTurnover": 1473.0,
+          "reconCommission": 55.97,
+          "reconRate": 3.7997,
+          "contractRate": 3.8,
+          "contractExpected": 55.97,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Finthesis",
+              "rate": 3.7997,
+              "amount": 55.97,
+              "contractRate": 3.8,
+              "contractAmount": 55.97,
+              "source": "Registry",
+              "contractSource": "Agreement 2025/1510-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 12,
+          "date": "Nov 12",
+          "turnover": 7573.54,
+          "regCommission": 287.8,
+          "regTxCount": 70,
+          "reconTurnover": 7573.54,
+          "reconCommission": 287.79,
+          "reconRate": 3.7999,
+          "contractRate": 3.8,
+          "contractExpected": 287.79,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Finthesis",
+              "rate": 3.7999,
+              "amount": 287.79,
+              "contractRate": 3.8,
+              "contractAmount": 287.79,
+              "source": "Registry",
+              "contractSource": "Agreement 2025/1510-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 13,
+          "date": "Nov 13",
+          "turnover": 5938.0,
+          "regCommission": 225.64,
+          "regTxCount": 60,
+          "reconTurnover": 5938.0,
+          "reconCommission": 225.64,
+          "reconRate": 3.7999,
+          "contractRate": 3.8,
+          "contractExpected": 225.64,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Finthesis",
+              "rate": 3.7999,
+              "amount": 225.64,
+              "contractRate": 3.8,
+              "contractAmount": 225.64,
+              "source": "Registry",
+              "contractSource": "Agreement 2025/1510-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 14,
+          "date": "Nov 14",
+          "turnover": 4511.0,
+          "regCommission": 171.42,
+          "regTxCount": 60,
+          "reconTurnover": 4511.0,
+          "reconCommission": 171.42,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 171.42,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Finthesis",
+              "rate": 3.8,
+              "amount": 171.42,
+              "contractRate": 3.8,
+              "contractAmount": 171.42,
+              "source": "Registry",
+              "contractSource": "Agreement 2025/1510-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 15,
+          "date": "Nov 15",
+          "turnover": 5024.15,
+          "regCommission": 190.93,
+          "regTxCount": 57,
+          "reconTurnover": 5024.15,
+          "reconCommission": 190.91,
+          "reconRate": 3.7998,
+          "contractRate": 3.8,
+          "contractExpected": 190.91,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Finthesis",
+              "rate": 3.7998,
+              "amount": 190.91,
+              "contractRate": 3.8,
+              "contractAmount": 190.91,
+              "source": "Registry",
+              "contractSource": "Agreement 2025/1510-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 16,
+          "date": "Nov 16",
+          "turnover": 4467.0,
+          "regCommission": 169.75,
+          "regTxCount": 33,
+          "reconTurnover": 4467.0,
+          "reconCommission": 169.74,
+          "reconRate": 3.7999,
+          "contractRate": 3.8,
+          "contractExpected": 169.74,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Finthesis",
+              "rate": 3.7999,
+              "amount": 169.74,
+              "contractRate": 3.8,
+              "contractAmount": 169.74,
+              "source": "Registry",
+              "contractSource": "Agreement 2025/1510-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 17,
+          "date": "Nov 17",
+          "turnover": 4213.0,
+          "regCommission": 160.1,
+          "regTxCount": 62,
+          "reconTurnover": 4213.0,
+          "reconCommission": 160.09,
+          "reconRate": 3.7999,
+          "contractRate": 3.8,
+          "contractExpected": 160.09,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Finthesis",
+              "rate": 3.7999,
+              "amount": 160.09,
+              "contractRate": 3.8,
+              "contractAmount": 160.09,
+              "source": "Registry",
+              "contractSource": "Agreement 2025/1510-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 18,
+          "date": "Nov 18",
+          "turnover": 13812.0,
+          "regCommission": 524.87,
+          "regTxCount": 195,
+          "reconTurnover": 13812.0,
+          "reconCommission": 524.85,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 524.85,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Finthesis",
+              "rate": 3.8,
+              "amount": 524.85,
+              "contractRate": 3.8,
+              "contractAmount": 524.85,
+              "source": "Registry",
+              "contractSource": "Agreement 2025/1510-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 19,
+          "date": "Nov 19",
+          "turnover": 7553.0,
+          "regCommission": 287.01,
+          "regTxCount": 118,
+          "reconTurnover": 7553.0,
+          "reconCommission": 287.01,
+          "reconRate": 3.7999,
+          "contractRate": 3.8,
+          "contractExpected": 287.01,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Finthesis",
+              "rate": 3.7999,
+              "amount": 287.01,
+              "contractRate": 3.8,
+              "contractAmount": 287.01,
+              "source": "Registry",
+              "contractSource": "Agreement 2025/1510-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 20,
+          "date": "Nov 20",
+          "turnover": 16428.31,
+          "regCommission": 624.24,
+          "regTxCount": 190,
+          "reconTurnover": 16428.31,
+          "reconCommission": 624.27,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 624.27,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Finthesis",
+              "rate": 3.8,
+              "amount": 624.27,
+              "contractRate": 3.8,
+              "contractAmount": 624.27,
+              "source": "Registry",
+              "contractSource": "Agreement 2025/1510-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 21,
+          "date": "Nov 21",
+          "turnover": 20238.3,
+          "regCommission": 769.07,
+          "regTxCount": 261,
+          "reconTurnover": 20238.3,
+          "reconCommission": 769.04,
+          "reconRate": 3.7999,
+          "contractRate": 3.8,
+          "contractExpected": 769.04,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Finthesis",
+              "rate": 3.7999,
+              "amount": 769.04,
+              "contractRate": 3.8,
+              "contractAmount": 769.04,
+              "source": "Registry",
+              "contractSource": "Agreement 2025/1510-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 22,
+          "date": "Nov 22",
+          "turnover": 17035.96,
+          "regCommission": 647.34,
+          "regTxCount": 179,
+          "reconTurnover": 17035.96,
+          "reconCommission": 647.36,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 647.36,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Finthesis",
+              "rate": 3.8,
+              "amount": 647.36,
+              "contractRate": 3.8,
+              "contractAmount": 647.36,
+              "source": "Registry",
+              "contractSource": "Agreement 2025/1510-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 23,
+          "date": "Nov 23",
+          "turnover": 15005.03,
+          "regCommission": 570.17,
+          "regTxCount": 176,
+          "reconTurnover": 15005.03,
+          "reconCommission": 570.18,
+          "reconRate": 3.7999,
+          "contractRate": 3.8,
+          "contractExpected": 570.18,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Finthesis",
+              "rate": 3.7999,
+              "amount": 570.18,
+              "contractRate": 3.8,
+              "contractAmount": 570.18,
+              "source": "Registry",
+              "contractSource": "Agreement 2025/1510-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 24,
+          "date": "Nov 24",
+          "turnover": 16616.17,
+          "regCommission": 631.39,
+          "regTxCount": 208,
+          "reconTurnover": 16616.17,
+          "reconCommission": 631.4,
+          "reconRate": 3.7999,
+          "contractRate": 3.8,
+          "contractExpected": 631.4,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Finthesis",
+              "rate": 3.7999,
+              "amount": 631.4,
+              "contractRate": 3.8,
+              "contractAmount": 631.4,
+              "source": "Registry",
+              "contractSource": "Agreement 2025/1510-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 25,
+          "date": "Nov 25",
+          "turnover": 20048.06,
+          "regCommission": 761.78,
+          "regTxCount": 249,
+          "reconTurnover": 20048.06,
+          "reconCommission": 761.81,
+          "reconRate": 3.7999,
+          "contractRate": 3.8,
+          "contractExpected": 761.81,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Finthesis",
+              "rate": 3.7999,
+              "amount": 761.81,
+              "contractRate": 3.8,
+              "contractAmount": 761.81,
+              "source": "Registry",
+              "contractSource": "Agreement 2025/1510-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 26,
+          "date": "Nov 26",
+          "turnover": 820.0,
+          "regCommission": 31.16,
+          "regTxCount": 6,
+          "reconTurnover": 820.0,
+          "reconCommission": 31.16,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 31.16,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Finthesis",
+              "rate": 3.8,
+              "amount": 31.16,
+              "contractRate": 3.8,
+              "contractAmount": 31.16,
+              "source": "Registry",
+              "contractSource": "Agreement 2025/1510-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 28,
+          "date": "Nov 28",
+          "turnover": 450.0,
+          "regCommission": 17.1,
+          "regTxCount": 8,
+          "reconTurnover": 450.0,
+          "reconCommission": 17.12,
+          "reconRate": 3.8044,
+          "contractRate": 3.8,
+          "contractExpected": 17.12,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Finthesis",
+              "rate": 3.8044,
+              "amount": 17.12,
+              "contractRate": 3.8,
+              "contractAmount": 17.12,
+              "source": "Registry",
+              "contractSource": "Agreement 2025/1510-01"
+            }
+          ],
+          "rateChangeDay": false
+        }
+      ]
     },
     {
       "key": "oct-2025",
@@ -55,7 +731,58 @@
           "contractSource": "Agreement 2025/1510-01"
         }
       ],
-      "days": []
+      "days": [
+        {
+          "day": 30,
+          "date": "Oct 30",
+          "turnover": 5249.0,
+          "regCommission": 199.46,
+          "regTxCount": 59,
+          "reconTurnover": 5249.0,
+          "reconCommission": 199.46,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 199.46,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Finthesis",
+              "rate": 3.8,
+              "amount": 199.46,
+              "contractRate": 3.8,
+              "contractAmount": 199.46,
+              "source": "Registry",
+              "contractSource": "Agreement 2025/1510-01"
+            }
+          ],
+          "rateChangeDay": false
+        },
+        {
+          "day": 31,
+          "date": "Oct 31",
+          "turnover": 2180.0,
+          "regCommission": 82.84,
+          "regTxCount": 41,
+          "reconTurnover": 2180.0,
+          "reconCommission": 82.84,
+          "reconRate": 3.8,
+          "contractRate": 3.8,
+          "contractExpected": 82.84,
+          "deviation": 0.0,
+          "parts": [
+            {
+              "label": "Finthesis",
+              "rate": 3.8,
+              "amount": 82.84,
+              "contractRate": 3.8,
+              "contractAmount": 82.84,
+              "source": "Registry",
+              "contractSource": "Agreement 2025/1510-01"
+            }
+          ],
+          "rateChangeDay": false
+        }
+      ]
     }
   ]
 }

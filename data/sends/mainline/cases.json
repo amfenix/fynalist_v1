@@ -2,35 +2,51 @@
   "cases": [
     {
       "id": "INV-2025-0057",
-      "merchant": "NOXIOUS",
-      "shortname": "noxious",
       "type": "rate-change",
+      "title": "EUR Card underpayment — 3.8% contract vs 3.53% actual",
+      "merchant": "NOXIOUS",
+      "merchantId": "noxious",
+      "partLabel": "Smartflow",
       "deviation": -133419.09,
-      "period": "Feb 1, 2025 — Jul 31, 2025"
+      "period": "Feb 1, 2025 — Jul 31, 2025",
+      "status": "open",
+      "summary": "EUR Card incoming payments show systematic underpayment from February through July 2025. Contract rate is 3.8% but reconciliation shows effective rates of 3.50-3.64%. Total underpayment: 133,419.09 EUR across 6 months."
     },
     {
       "id": "INV-2025-0058",
-      "merchant": "NOXIOUS",
-      "shortname": "noxious",
       "type": "rate-change",
+      "title": "GBP Card underpayment — 4.8% contract vs 3.58% actual",
+      "merchant": "NOXIOUS",
+      "merchantId": "noxious",
+      "partLabel": "Smartflow",
       "deviation": -8231.22,
-      "period": "Feb 1, 2025 — Jul 31, 2025"
+      "period": "Feb 1, 2025 — Jul 31, 2025",
+      "status": "open",
+      "summary": "GBP Card incoming payments show systematic underpayment from February through July 2025. Contract rate is 4.8% but reconciliation shows effective rates of 3.50-3.97%. Total underpayment: 8,231.22 EUR across 6 months. The rate dropped sharply from 4.8% in January to ~3.5% from March onwards."
     },
     {
       "id": "INV-2025-0059",
-      "merchant": "BLOGWIZARRO",
-      "shortname": "blogwizarro",
       "type": "rate-change",
+      "title": "Multi-currency overpayment — 3.5% contract vs 3.75% actual",
+      "merchant": "BLOGWIZARRO",
+      "merchantId": "blogwizarro",
+      "partLabel": "Smartflow",
       "deviation": 74839.85,
-      "period": "Jul 1, 2025 — Aug 31, 2025"
+      "period": "Jul 1, 2025 — Aug 31, 2025",
+      "status": "open",
+      "summary": "Multi-currency overpayment across EUR, AUD, GBP, and NOK Card streams in July-August 2025. Contract rate is 3.5% but reconciliation shows effective rates of 3.69-3.80%. Total overpayment: 74,839.85 EUR. The bulk of the overpayment is in AUD Card (56,468 EUR) and EUR Card (18,140 EUR)."
     },
     {
       "id": "INV-2025-0060",
-      "merchant": "PIXTHENA",
-      "shortname": "pixthena",
       "type": "rate-change",
+      "title": "Multi-currency underpayment — 3.8% contract vs 3.50% actual",
+      "merchant": "PIXTHENA",
+      "merchantId": "pixthena",
+      "partLabel": "Smartflow",
       "deviation": -74226.71,
-      "period": "Feb 1, 2025 — May 31, 2025"
+      "period": "Feb 1, 2025 — May 31, 2025",
+      "status": "open",
+      "summary": "Multi-currency underpayment across EUR, AUD, USD, and NOK Card streams from February through May 2025. Contract rate is 3.8% but reconciliation shows effective rates of 3.50-3.60%. Total underpayment: 74,226.71 EUR. EUR Card accounts for the majority (64,140.91 EUR)."
     }
   ]
 }
